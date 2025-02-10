@@ -349,16 +349,7 @@ function QuizPage() {
         </Box>
         </Paper>
 
-        {!showFeedback ? (
-          <Button
-            variant="contained"
-            onClick={checkAnswer}
-            sx={{ mt: 2 }}
-            disabled={selectedAnswers.length === 0}
-          >
-            Vérifier la réponse
-          </Button>
-        ) : (
+        {showFeedback && (
           <>
             <Alert severity={isCorrect ? 'success' : 'error'} sx={{ mt: 2 }}>
               {isCorrect ? 'Correct !' : 'Incorrect !'}
