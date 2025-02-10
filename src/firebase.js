@@ -1,6 +1,19 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
+
+// Function to check if email is allowed
+export async function isEmailAllowed(email) {
+  try {
+    const allowedEmailsRef = collection(db, 'allowedEmails');
+    const q = query(allowedEmailsRef, where('email', '==', email));
+    const querySnapshot = await getDocs(q);
+    return !querySnapshot.empty;
+  } catch (error) {
+    console.error('Error checking email:', error);
+    return false;
+  }
+}
 
 // Your web app's Firebase configuration
 const firebaseConfig = {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { isEmailAllowed } from '../firebase';
 import {
   Container,
   Paper,
@@ -32,6 +33,15 @@ export default function Signup() {
     try {
       setError('');
       setLoading(true);
+      
+      // Check if email is allowed
+      const allowed = await isEmailAllowed(email);
+      if (!allowed) {
+        setError('Cette adresse email n\'est pas autorisée à créer un compte.');
+        setLoading(false);
+        return;
+      }
+
       await signup(email, password);
       navigate('/');
     } catch (error) {
