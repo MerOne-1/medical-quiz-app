@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant le Comité économique des produits de santé (CEPS), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Le CEPS assure un suivi périodique des dépenses de santé.",
+      "Le CEPS négocie avec les industriels le prix des médicaments et autres produits non remboursés par l’assurance-maladie obligatoire.",
+      "Le CEPS négocie avec les industriels le prix des médicaments et autres produits remboursés par l’assurance-maladie obligatoire.",
+      "Le CEPS est constitué de représentants de différents ministères ainsi que de représentants des organismes nationaux d’assurance-maladie.",
+      "Le CEPS est chargé de statuer sur les demandes d’AMM déposées au niveau national."
+    ],
+    "correct_answers": [
+      "Le CEPS est constitué de représentants de différents ministères ainsi que de représentants des organismes nationaux d’assurance-maladie.",
+      "Le CEPS négocie avec les industriels le prix des médicaments et autres produits remboursés par l’assurance-maladie obligatoire.",
+      "Le CEPS assure un suivi périodique des dépenses de santé."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les médicaments nécessitant une surveillance particulière pendant le traitement, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Le Roaccutane® (isotrétinoïne) doit être prescrit la première fois par un dermatologue.",
+      "Une ordonnance comportant de l’isotrétinoïne destinée à une jeune femme peut être honorée si le dernier test de grossesse effectué par cette dernière date de 3 mois.",
+      "La délivrance de l’isotrétinoïne est conditionnée par les résultats d’examens périodiques : programme de prévention de grossesse chez les femmes en âge de procréer et dosages réguliers des transaminases hépatiques chez les hommes et les femmes.",
+      "Un traitement par l’isotrétinoïne ne nécessite aucune surveillance particulière s’il est prescrit à un jeune homme.",
+      "Le Roaccutane® (isotrétinoïne) ne peut en aucun cas être prescrit par un généraliste."
+    ],
+    "correct_answers": [
+      "Le Roaccutane® (isotrétinoïne) doit être prescrit la première fois par un dermatologue.",
+      "La délivrance de l’isotrétinoïne est conditionnée par les résultats d’examens périodiques : programme de prévention de grossesse chez les femmes en âge de procréer et dosages réguliers des transaminases hépatiques chez les hommes et les femmes."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi les propositions suivantes concernant les médicaments génériques, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Ce sont des spécialités pharmaceutiques.",
+      "Ils seront moins chers que le médicament innovant de référence mais ne seront pas remboursés par l’assurance maladie.",
+      "Ils devront démontrer leur bioéquivalence par rapport au médicament innovant de référence.",
+      "Ils doivent avoir les mêmes excipients que le médicament innovant de référence.",
+      "Ils doivent présenter la même forme pharmaceutique que le médicament innovant de référence."
+    ],
+    "correct_answers": [
+      "Ce sont des spécialités pharmaceutiques.",
+      "Ils devront démontrer leur bioéquivalence par rapport au médicament innovant de référence.",
+      "Ils doivent présenter la même forme pharmaceutique que le médicament innovant de référence."
+    ]
+  }
+]

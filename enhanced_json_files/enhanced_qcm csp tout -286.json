@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite?",
+    "options": [
+      "un morpion",
+      "une larve d'Ixode",
+      "une Argas",
+      "une punaise des lits",
+      "un pou de tête"
+    ],
+    "correct_answers": [
+      "une larve d'Ixode"
+    ],
+    "justification_fausses_reponses": {
+      "un morpion": "Cette réponse est incorrecte car le morpion est un insecte parasite de l'homme qui se fixe sur les poils et non un parasite ressemblant à une larve d'Ixode.",
+      "une Argas": "Cette réponse est incorrecte car l'Argas est un genre de tiques molles, et non une larve d'Ixode qui est une tique dure.",
+      "une punaise des lits": "Cette réponse est incorrecte car la punaise des lits est un insecte hématophage qui vit dans les lits et non un parasite ressemblant à une larve d'Ixode.",
+      "un pou de tête": "Cette réponse est incorrecte car le pou de tête est un insecte parasite de l'homme qui vit dans les cheveux et non un parasite ressemblant à une larve d'Ixode."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les éléments caractéristiques de la lésion dite du \"pied d’athlète\"",
+    "options": [
+      "L'agent responsable est très souvent un dermatophyte.",
+      "L'amphotéricine B est le traitement de première intention.",
+      "L'humidité et la macération sont des facteurs favorisants.",
+      "La lésion est un intertrigo des petits plis.",
+      "Ce sont les 1  et 2  espaces interdigitaux qui sont les plus touchés."
+    ],
+    "correct_answers": [
+      "L'agent responsable est très souvent un dermatophyte.",
+      "L'humidité et la macération sont des facteurs favorisants.",
+      "La lésion est un intertrigo des petits plis."
+    ],
+    "justification_fausses_reponses": {
+      "L'amphotéricine B est le traitement de première intention.": "L'amphotéricine B n'est pas le traitement de première intention pour le pied d'athlète. Les antifongiques topiques sont généralement utilisés en première ligne.",
+      "Ce sont les 1  et 2  espaces interdigitaux qui sont les plus touchés.": "Ce n'est pas correct, ce sont généralement les 3ème et 4ème espaces interdigitaux qui sont les plus touchés dans le pied d'athlète."
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les éléments de réponse qui caractérisent Taenia saginata ?",
+    "options": [
+      "Présence de nombreux embryophores dans les selles du patient",
+      "Prurit anal vespéral",
+      "Sortie active des proglottis (segments, anneaux)",
+      "La forme larvaire peut se développer dans les tissus humains et être responsable d'une cysticercose grave chez l'homme.",
+      "Consommation de viande de bœuf crue ou peu cuite"
+    ],
+    "correct_answers": [
+      "Prurit anal vespéral",
+      "Consommation de viande de bœuf crue ou peu cuite",
+      "Sortie active des proglottis (segments, anneaux)"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Qu'observez-vous sur cette photo ? Cochez la ou les réponses exacte(s)",
+    "options": [
+      "Palpes",
+      "Antennes",
+      "Ecusson dorsal",
+      "Hypostome",
+      "Céphalothorax d'une tique"
+    ],
+    "correct_answers": [
+      "Céphalothorax d'une tique",
+      "Hypostome",
+      "Ecusson dorsal",
+      "Palpes"
+    ]
+  }
+]

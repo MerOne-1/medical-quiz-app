@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des médicaments psychotropes, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "Le dosage de la lithémie peut-être réalisé par spectrophotométrie d’absorption atomique.",
+      "Une mono-intoxication aiguë aux antidépresseurs tricycliques entraîne un coma calme, hypotonique et hyporéflexique.",
+      "Une intoxication aiguë au lithium est en général moins sévère chez un patient traité chroniquement que chez un sujet naïf.",
+      "La complication redoutée d’une intoxication par un inhibiteur sélectif de la recapture de la sérotonine est le syndrome anticholinergique.",
+      "Les antidépresseurs tricycliques présentent à dose toxique un effet stabilisant de membrane."
+    ],
+    "correct_answers": [
+      "Une intoxication aiguë au lithium est en général moins sévère chez un patient traité chroniquement que chez un sujet naïf.",
+      "Une mono-intoxication aiguë aux antidépresseurs tricycliques entraîne un coma calme, hypotonique et hyporéflexique.",
+      "La complication redoutée d’une intoxication par un inhibiteur sélectif de la recapture de la sérotonine est le syndrome anticholinergique."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le toxidrome est un syndrome causé par un toxique spécifique.",
+      "Le toxidrome s’applique particulièrement en cas d’intoxications multiples.",
+      "La connaissance du toxidrome permet d’orienter la prise en charge thérapeutique.",
+      "Toutes ces propositions.",
+      "Il existe un toxidrome spécifique à chaque intoxication."
+    ],
+    "correct_answers": [
+      "Le toxidrome est un syndrome causé par un toxique spécifique.",
+      "La connaissance du toxidrome permet d’orienter la prise en charge thérapeutique."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les deux principales mesures d’association entre une maladie et un facteur de risque, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "La prévalence",
+      "Le taux d’incidence",
+      "Le risque relatif",
+      "L’odds ratio",
+      "L’incidence cumulée"
+    ],
+    "correct_answers": [
+      "L’odds ratio",
+      "Le risque relatif"
+    ]
+  }
+]

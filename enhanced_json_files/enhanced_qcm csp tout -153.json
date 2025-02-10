@@ -1,0 +1,40 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+      "Les A VK sont utilisés chez la femme enceinte en première intention en cas de T VP",
+      "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+      "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+      "Le tramadol est contre indiqué chez l'épileptique"
+    ],
+    "correct_answers": [
+      "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+      "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+      "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+      "Le tramadol est contre indiqué chez l'épileptique"
+    ],
+    "justification_fausses_reponses": {
+      "Les A VK sont utilisés chez la femme enceinte en première intention en cas de T VP": "Les antivitamines K (AVK) ne sont pas utilisées en première intention chez la femme enceinte en cas de thrombose veineuse profonde (TVP) car elles peuvent traverser le placenta et provoquer des malformations fœtales. Les héparines de bas poids moléculaire sont généralement préférées car elles ne traversent pas le placenta."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique",
+      "Effet indésirable et erreur médicamenteuse ont des origines identiques",
+      "La retranscription d'une ordonnance doit être bannie",
+      "Environ 70 % des erreurs médicamenteuses sont évitables"
+    ],
+    "correct_answers": [
+      "La retranscription d'une ordonnance doit être bannie"
+    ],
+    "justification_fausses_reponses": {
+      "La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique": "C'est incorrect. La gravité des conséquences d'une erreur médicamenteuse n'est pas gradée en quatre niveaux par la Société Française de Pharmacie Clinique. Il existe différents systèmes de gradation, mais ils ne sont pas standardisés et varient selon les institutions.",
+      "Effet indésirable et erreur médicamenteuse ont des origines identiques": "C'est faux. Un effet indésirable est une réaction nocive et non intentionnelle à un médicament qui a été utilisé aux doses normalement utilisées chez l'homme pour la prophylaxie, le diagnostic ou le traitement d'une maladie, ou pour la modification d'une fonction physiologique. Une erreur médicamenteuse est une erreur de prescription, de dispensation ou d'administration d'un médicament, indépendamment de ses conséquences.",
+      "Environ 70 % des erreurs médicamenteuses sont évitables": "C'est inexact. Bien que de nombreuses erreurs médicamenteuses soient évitables, le pourcentage exact varie en fonction de nombreux facteurs, y compris les systèmes de soins de santé spécifiques et les pratiques de gestion des médicaments."
+    }
+  }
+]

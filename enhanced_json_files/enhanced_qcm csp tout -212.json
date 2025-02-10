@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Concernant la sensibilité aux antibiotiques de Pseudomonas aeruginosa , quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les propositions suivantes ?",
+    "options": [
+      "il produit naturellement une céphalosporinase",
+      "la résistance à l'imipénème est toujours de type enzymatique",
+      "le cotrimoxazole garde une grande activité sur les souches communautaires",
+      "il est constamment sensible à l'amoxicilline",
+      "il est toujours résistant à l'association amoxicilline-acide clavulanique"
+    ],
+    "correct_answers": [
+      "il produit naturellement une céphalosporinase",
+      "il est toujours résistant à l'association amoxicilline-acide clavulanique"
+    ],
+    "justification_fausses_reponses": {
+      "la résistance à l'imipénème est toujours de type enzymatique": "La résistance à l'imipénème peut être de type enzymatique, mais elle peut aussi être due à une diminution de la perméabilité de la paroi cellulaire ou à l'expression de pompes d'efflux.",
+      "le cotrimoxazole garde une grande activité sur les souches communautaires": "Le cotrimoxazole peut être efficace contre certaines souches de Pseudomonas aeruginosa, mais son activité n'est pas systématiquement grande sur toutes les souches communautaires.",
+      "il est constamment sensible à l'amoxicilline": "Pseudomonas aeruginosa est généralement résistant à l'amoxicilline en raison de la production d'une enzyme appelée bêta-lactamase, qui dégrade l'antibiotique."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "L'opisthotonos est un signe clinique qu'il est classique d'observer lors :",
+    "options": [
+      "de la gangrène gazeuse",
+      "de la méningo-encéphalite herpétique",
+      "de la blennorragie",
+      "du choléra",
+      "du tétanos"
+    ],
+    "correct_answers": [
+      "du tétanos"
+    ],
+    "justification_fausses_reponses": {
+      "de la gangrène gazeuse": "La gangrène gazeuse est une infection bactérienne qui produit des gaz dans les tissus, ce qui n'entraîne pas d'opisthotonos, une contraction musculaire extrême.",
+      "de la méningo-encéphalite herpétique": "La méningo-encéphalite herpétique est une inflammation du cerveau et des méninges due à l'herpès, qui ne provoque pas d'opisthotonos.",
+      "de la blennorragie": "La blennorragie est une infection sexuellement transmissible qui affecte principalement les muqueuses, sans provoquer d'opisthotonos.",
+      "du choléra": "Le choléra est une maladie infectieuse qui provoque une diarrhée sévère, mais pas d'opisthotonos."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "La résistance aux antibiotiques chez E. coli  est souvent le résultat de l'acquisition de plasmides mais également d'autres éléments génétiques. Lors d'une épidémie de gastroentérites, il est apparu que la souche d' E.coli  pathogène hébergeait deux plasmides et un prophage codant pour la toxine Shiga. Le fait d'héberger un prophage signifie que :",
+    "options": [
+      "la souche d' E.coli  a subi une transformation",
+      "la souche d' E.coli  a subi une mutation",
+      "un des plasmides est sous forme épisomique",
+      "la souche d' E.coli  a accumulé des transposons",
+      "la souche d' E.coli  a été infectée par un virus"
+    ],
+    "correct_answers": [
+      "la souche d' E.coli  a été infectée par un virus"
+    ],
+    "justification_fausses_reponses": {
+      "la souche d' E.coli  a subi une transformation": "La transformation est un processus par lequel une bactérie acquiert de l'ADN à partir de son environnement, ce qui n'est pas le cas ici.",
+      "la souche d' E.coli  a subi une mutation": "Une mutation est un changement dans l'ADN d'un organisme, ce qui n'est pas le cas ici. L'hébergement d'un prophage est le résultat d'une infection virale, pas d'une mutation.",
+      "un des plasmides est sous forme épisomique": "Un plasmide épisomique est un plasmide qui peut s'intégrer dans le chromosome de la bactérie. Cela n'a rien à voir avec l'hébergement d'un prophage.",
+      "la souche d' E.coli  a accumulé des transposons": "Les transposons sont des séquences d'ADN qui peuvent changer de position au sein du génome, ce qui n'est pas lié à l'hébergement d'un prophage."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes concernant Escherichia coli , laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "c'est une bactérie anaérobie stricte",
+      "elle est fréquemment responsable d'infections urinaires",
+      "elle est toujours sensible aux céphalosporines",
+      "elle cultive sur gélose ordinaire sans facteurs de croissance",
+      "elle ne fermente jamais le lactose"
+    ],
+    "correct_answers": [
+      "elle cultive sur gélose ordinaire sans facteurs de croissance",
+      "elle est fréquemment responsable d'infections urinaires"
+    ],
+    "justification_fausses_reponses": {
+      "c'est une bactérie anaérobie stricte": "C'est incorrect car Escherichia coli est une bactérie aérobie facultative, ce qui signifie qu'elle peut survivre en présence ou en absence d'oxygène.",
+      "elle est toujours sensible aux céphalosporines": "C'est incorrect car la résistance d'Escherichia coli aux céphalosporines est un problème croissant en raison de l'émergence de souches résistantes aux antibiotiques.",
+      "elle ne fermente jamais le lactose": "C'est incorrect car Escherichia coli est connue pour être une bactérie qui fermente le lactose, produisant ainsi du gaz et des acides lors de la fermentation."
+    }
+  }
+]

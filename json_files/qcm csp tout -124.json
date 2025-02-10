@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les médicaments d’exception, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les médicaments d’exception sont des médicaments qui ne sont remboursés que s’ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d’information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS).",
+      "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+      "Les médicaments d’exception sont toujours des médicaments particulièrement toxiques.",
+      "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+      "Avant la suppression des vignettes au 1er juillet 2014, les boîtes de médicaments d’exception étaient reconnaissables à leur vignette blanche entourée d’un liseré vert."
+    ],
+    "correct_answers": [
+      "Les médicaments d’exception sont des médicaments qui ne sont remboursés que s’ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d’information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS).",
+      "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+      "Avant la suppression des vignettes au 1er juillet 2014, les boîtes de médicaments d’exception étaient reconnaissables à leur vignette blanche entourée d’un liseré vert."
+    ]
+  }
+]

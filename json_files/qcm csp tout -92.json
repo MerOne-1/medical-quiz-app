@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+      "Elles possèdent toutes au moins 1 centre de chiralité",
+      "seules les molécules 1,2 et 5 possèdent un centre de chiralité",
+      "les molécules 1 et 3 ne sont commercialisées que sous forme racémique",
+      "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur"
+    ],
+    "correct_answers": [
+      "Elles possèdent toutes au moins 1 centre de chiralité",
+      "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+      "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur",
+      "les molécules 1 et 3 ne sont commercialisées que sous forme racémique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "salmeterol",
+      "atenolol",
+      "propranolol",
+      "vilanterol",
+      "salbutamol"
+    ],
+    "correct_answers": [
+      "salbutamol"
+    ]
+  }
+]

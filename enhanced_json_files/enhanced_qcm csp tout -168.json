@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte: le foie reçoit du sang de...",
+    "options": [
+      "le foie reçoit du sang de l’artère porte et de la veine porte",
+      "le foie reçoit du sang de l’artère hépatique et de la veine porte",
+      "le foie reçoit du sang de la veine porte et de l’artère mésentérique supérieure",
+      "le foie reçoit du sang de l’artère hépatique et de la veine intestinale",
+      "le foie reçoit du sang de l’artère hépatique et de la veine cave inférieure"
+    ],
+    "correct_answers": [
+      "le foie reçoit du sang de l’artère hépatique et de la veine porte"
+    ],
+    "justification_fausses_reponses": {
+      "le foie reçoit du sang de l’artère porte et de la veine porte": "C'est incorrect car le foie ne reçoit pas de sang de l'artère porte. Le foie reçoit du sang de l'artère hépatique et de la veine porte.",
+      "le foie reçoit du sang de la veine porte et de l’artère mésentérique supérieure": "C'est incorrect car le foie ne reçoit pas de sang de l'artère mésentérique supérieure. Le foie reçoit du sang de l'artère hépatique et de la veine porte.",
+      "le foie reçoit du sang de l’artère hépatique et de la veine intestinale": "C'est incorrect car le foie ne reçoit pas de sang de la veine intestinale. Le foie reçoit du sang de l'artère hépatique et de la veine porte.",
+      "le foie reçoit du sang de l’artère hépatique et de la veine cave inférieure": "C'est incorrect car le foie ne reçoit pas de sang de la veine cave inférieure. Le foie reçoit du sang de l'artère hépatique et de la veine porte."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte: L’automatisme cardiaque...",
+    "options": [
+      "La section de toutes les voies nerveuses afférentes au cœur a pour effet de ralentir le rythme cardiaque.",
+      "La noradrénaline augmente l’intensité du courant if en stimulant la production d’AMP c dans les cellules du nœud sinusal.",
+      "Chez un individu « en bonne santé » l’automatisme cardiaque siège dans le nœud auricule-ventriculaire.",
+      "Une faible dose d’acétylcholine active uniquement le courant IK dépendant de l’activation des récepteurs muscariniques, alors qu’une forte dose active aussi ce courant, mais augmentre le courant if.",
+      "L’automatisme cardiaque est initié par l’activation d’un courant calcique (ICaT), suivit par celle du courant if."
+    ],
+    "correct_answers": [
+      "La noradrénaline augmente l’intensité du courant if en stimulant la production d’AMP c dans les cellules du nœud sinusal."
+    ],
+    "justification_fausses_reponses": {
+      "La section de toutes les voies nerveuses afférentes au cœur a pour effet de ralentir le rythme cardiaque.": "En réalité, la section de toutes les voies nerveuses afférentes au cœur a pour effet d'accélérer le rythme cardiaque, car ces voies sont principalement inhibitrices.",
+      "Chez un individu « en bonne santé » l’automatisme cardiaque siège dans le nœud auricule-ventriculaire.": "C'est incorrect. Chez un individu en bonne santé, l'automatisme cardiaque siège dans le nœud sinusal, pas dans le nœud auriculo-ventriculaire.",
+      "Une faible dose d’acétylcholine active uniquement le courant IK dépendant de l’activation des récepteurs muscariniques, alors qu’une forte dose active aussi ce courant, mais augmentre le courant if.": "C'est faux. L'acétylcholine, même à faible dose, active le courant IK et réduit le courant if, ralentissant ainsi le rythme cardiaque.",
+      "L’automatisme cardiaque est initié par l’activation d’un courant calcique (ICaT), suivit par celle du courant if.": "C'est incorrect. L'automatisme cardiaque est initié par l'activation du courant if, pas par le courant calcique."
+    }
+  }
+]

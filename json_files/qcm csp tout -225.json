@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La totalité de la T3 est synthétisée dans la thyroïde",
+      "La T3 est la forme active des hormones thyroïdiennes",
+      "La T4 est une pro-hormone inactive",
+      "Les hormones thyroïdiennes sont des hormones stéroïdes",
+      "La TSH est une hormone thyroïdienne"
+    ],
+    "correct_answers": [
+      "La T4 est une pro-hormone inactive",
+      "La T3 est la forme active des hormones thyroïdiennes"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le foie produit environ 500 ml de bile par jour",
+      "La bilirubine est le produit du catabolisme de l'hème",
+      "La bilirubine conjuguée est toxique",
+      "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène",
+      "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble"
+    ],
+    "correct_answers": [
+      "Le foie produit environ 500 ml de bile par jour",
+      "La bilirubine est le produit du catabolisme de l'hème",
+      "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble",
+      "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Un syndrome néphrotique entraîne généralement :",
+    "options": [
+      "Une augmentation des gamma-globulines sériques",
+      "Des œdèmes",
+      "Un risque de thrombose",
+      "Une hypercholestérolémie",
+      "Une hypoalbuminémie à moins de 30 g/L"
+    ],
+    "correct_answers": [
+      "Une augmentation des gamma-globulines sériques"
+    ]
+  }
+]

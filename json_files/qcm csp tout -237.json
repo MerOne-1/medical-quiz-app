@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les cellules eucaryotes, quelles sont les propositions vraies :",
+    "options": [
+      "Il existe deux sites intracellulaires majeurs de dégradation : les lysosomes et le protéasome",
+      "Le réticulum endoplasmique assure la synthèse des phospholipides destinés à la membrane plasmique",
+      "L’organisme humain est constitué de 200 types cellulaires différents",
+      "Des signaux d’adressage sont nécessaires et suffisants pour orienter les protéines synthétisées dans le cytosol vers leurs compartiments finaux",
+      "L’exocytose est un processus permettant aux cellules de capturer des molécules extracellulaires en les englobant dans des vésicules provenant de la membrane plasmique"
+    ],
+    "correct_answers": [
+      "Des signaux d’adressage sont nécessaires et suffisants pour orienter les protéines synthétisées dans le cytosol vers leurs compartiments finaux",
+      "Le réticulum endoplasmique assure la synthèse des phospholipides destinés à la membrane plasmique",
+      "Il existe deux sites intracellulaires majeurs de dégradation : les lysosomes et le protéasome",
+      "L’organisme humain est constitué de 200 types cellulaires différents"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Quelle(s) est(sont) la(les) caractéristique(s) générale(s) des cellules eucaryotes :",
+    "options": [
+      "Elles sont dépourvues de noyau",
+      "Leur matériel génétique est principalement contenu dans un noyau",
+      "La synthèse de leurs protéines se fait dans le noyau",
+      "Leur contenu est compartimenté",
+      "Les organites sont délimités par une ou plusieurs membranes"
+    ],
+    "correct_answers": [
+      "Leur contenu est compartimenté",
+      "Leur matériel génétique est principalement contenu dans un noyau",
+      "Les organites sont délimités par une ou plusieurs membranes"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Quelles sont les caractéristiques générales des cellules primaires :",
+    "options": [
+      "Durée de vie limitée",
+      "Prolifération infinie en culture",
+      "Cellules obtenues à partir d’un tissu sain",
+      "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+      "Cellules très faciles à mettre en culture"
+    ],
+    "correct_answers": [
+      "Durée de vie limitée",
+      "Cellules obtenues à partir d’un tissu sain"
+    ]
+  }
+]

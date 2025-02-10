@@ -1,0 +1,20 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Le suivi biologique de M. Jean-Claude M. sous traitement repose sur :",
+    "options": [
+      "Une mesure régulière de la charge virale du taux de lymphocyte T CD4+",
+      "Une surveillance régulière de la fonction rénale",
+      "Une surveillance régulière de l'hémogramme",
+      "Une mesure régulière de la charge virale du HIV",
+      "Une surveillance régulière des transaminases"
+    ],
+    "correct_answers": [
+      "Une mesure régulière de la charge virale du HIV",
+      "Une mesure régulière de la charge virale du taux de lymphocyte T CD4+",
+      "Une surveillance régulière de l'hémogramme",
+      "Une surveillance régulière de la fonction rénale",
+      "Une surveillance régulière des transaminases"
+    ]
+  }
+]

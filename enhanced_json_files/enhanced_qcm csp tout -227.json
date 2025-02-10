@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La bile est libérée en fonction des besoins dans l’intestin",
+      "La bilirubinémie totale est inférieure à 17 µmol/L",
+      "La bile se présente sous la forme d’un liquide incolore",
+      "La bile est stockée dans la vésicule biliaire",
+      "La bile est produite par le foie"
+    ],
+    "correct_answers": [
+      "La bile est produite par le foie",
+      "La bile est libérée en fonction des besoins dans l’intestin",
+      "La bile est stockée dans la vésicule biliaire",
+      "La bilirubinémie totale est inférieure à 17 µmol/L"
+    ],
+    "justification_fausses_reponses": {
+      "La bile se présente sous la forme d’un liquide incolore": "Cette affirmation est incorrecte car la bile n'est pas incolore. Elle est généralement de couleur jaune à vert foncé en raison de la présence de bilirubine et de biliverdine, des pigments biliaires."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Lors d'une déshydratation extracellulaire on observe :",
+    "options": [
+      "Une dépression des fontanelles",
+      "Une hypotension",
+      "Un pli cutané",
+      "Une perte de poids",
+      "Une soif intense"
+    ],
+    "correct_answers": [
+      "Une soif intense"
+    ],
+    "justification_fausses_reponses": {
+      "Une dépression des fontanelles": "La dépression des fontanelles est un signe de déshydratation intracellulaire, pas extracellulaire. Elle est due à une diminution du volume du liquide céphalorachidien.",
+      "Une hypotension": "L'hypotension peut être un signe de déshydratation sévère, mais elle n'est pas spécifique à la déshydratation extracellulaire. Elle peut également être causée par d'autres facteurs, tels que des problèmes cardiaques ou endocriniens.",
+      "Un pli cutané": "Un pli cutané persistant est un signe de déshydratation, mais il n'est pas spécifique à la déshydratation extracellulaire. Il peut également être observé dans la déshydratation intracellulaire.",
+      "Une perte de poids": "La perte de poids peut être un signe de déshydratation, mais elle n'est pas spécifique à la déshydratation extracellulaire. Elle peut également être causée par d'autres facteurs, tels que la malnutrition ou la maladie."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les signes cliniques suivants, lequel (lesquels) est (sont) potentiellement présent(s) dans un tableau d’hyperthyroïdie ?",
+    "options": [
+      "Bradycardie",
+      "Constipation",
+      "Amaigrissement rapide avec polyphagie",
+      "Thermophobie",
+      "Nervosité"
+    ],
+    "correct_answers": [
+      "Amaigrissement rapide avec polyphagie",
+      "Nervosité",
+      "Thermophobie"
+    ],
+    "justification_fausses_reponses": {
+      "Bradycardie": "La bradycardie, qui est un ralentissement du rythme cardiaque, est généralement associée à l'hypothyroïdie et non à l'hyperthyroïdie. Dans l'hyperthyroïdie, on observe plutôt une tachycardie, c'est-à-dire une accélération du rythme cardiaque.",
+      "Constipation": "La constipation est généralement un symptôme de l'hypothyroïdie, pas de l'hyperthyroïdie. Dans l'hyperthyroïdie, le métabolisme est accéléré, ce qui peut entraîner une augmentation de la fréquence des selles, et non une constipation."
+    }
+  }
+]

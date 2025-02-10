@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "L’acide clavulanique est un composé synthétique",
+      "Les pénicillines sont d’origine fongique",
+      "La plupart des antibiotiques sont d’origine fongique",
+      "Les pénicillines sont formées à partir d’acides aminés",
+      "Les aminosides sont d’origine bactérienne"
+    ],
+    "correct_answers": [
+      "Les pénicillines sont d’origine fongique",
+      "Les pénicillines sont formées à partir d’acides aminés",
+      "Les aminosides sont d’origine bactérienne"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "L’ivermectine est structuralement un macrolide",
+      "La quinine est une molécule naturelle",
+      "L’artémisinine est une plante chinoise",
+      "La quinine est un alcaloïde",
+      "L’ivermectine est un antiparasitaire"
+    ],
+    "correct_answers": [
+      "La quinine est une molécule naturelle",
+      "La quinine est un alcaloïde",
+      "L’ivermectine est un antiparasitaire",
+      "L’ivermectine est structuralement un macrolide"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C est une liaison ester",
+      "A est un acide gras",
+      "B est une osamine",
+      "D est une osamine",
+      "E est un éthylamide"
+    ],
+    "correct_answers": [
+      "A est un acide gras",
+      "B est une osamine"
+    ]
+  }
+]

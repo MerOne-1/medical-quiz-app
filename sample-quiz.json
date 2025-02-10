@@ -1,0 +1,24 @@
+[
+    {
+        "question": "Which of these are symptoms of COVID-19? (Select all that apply)",
+        "options": [
+            "Fever",
+            "Loss of taste or smell",
+            "Blue hair",
+            "Shortness of breath",
+            "Growing taller"
+        ],
+        "correctAnswers": [0, 1, 3]
+    },
+    {
+        "question": "In SQL, which of these are valid JOIN types? (Select all that apply)",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "SIDEWAYS JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+        ],
+        "correctAnswers": [0, 1, 3, 4]
+    }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "En cas d’intoxication chronique par les solvants chlorés, quel(s) signe(s) clinique(s) et/ou biologique(s) peut-on observer?",
+    "options": [
+      "Anémie",
+      "Leucopénie",
+      "Troubles de la conscience",
+      "Cytolyse hépatique",
+      "Dermatose"
+    ],
+    "correct_answers": [
+      "Dermatose",
+      "Cytolyse hépatique",
+      "Troubles de la conscience"
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant le traitement appliqué lors d'une intoxication salicylée aiguë, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Un réchauffement progressif du patient doit être entrepris sans tarder pour éviter les complications neurologiques",
+      "Une perfusion bicarbonatée permet de contrôler l'acidose métabolique",
+      "Le charbon activé adsorbe bien les dérivés salicylés",
+      "La diurèse alcaline est efficace",
+      "L'administration précoce de N-acétylcystéine est capitale"
+    ],
+    "correct_answers": [
+      "Le charbon activé adsorbe bien les dérivés salicylés",
+      "La diurèse alcaline est efficace",
+      "Une perfusion bicarbonatée permet de contrôler l'acidose métabolique"
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les mesures d’association, laquelle (lesquelles) est (sont) inexacte(s)?",
+    "options": [
+      "L’OR ne peut être calculé dans les études de cohorte",
+      "Il est possible de déterminer l’incidence d’une maladie dans les études de cohorte",
+      "Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la maladie est significative",
+      "L’odds est le rapport de la probabilité d’un évènement à la probabilité complémentaire = P/(1-P)",
+      "Le RR est une bonne approximation de l’OR si la maladie est rare"
+    ],
+    "correct_answers": [
+      "Le RR est une bonne approximation de l’OR si la maladie est rare",
+      "L’OR ne peut être calculé dans les études de cohorte",
+      "Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la maladie est significative"
+    ]
+  }
+]

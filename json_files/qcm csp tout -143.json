@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+    "options": [
+      "Un nouveau médicament peut être prescrit sans risque à une femme enceinte",
+      "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+      "Les AVK sont des médicaments à marge thérapeutique large",
+      "Les psychotropes font partie des médicaments à faible iatrogénie",
+      "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+    ],
+    "correct_answers": [
+      "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+      "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+    "options": [
+      "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle augmente la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle augmente la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas",
+      "Son mécanisme d'action passe par une action hypoglycémiante essentiellement",
+      "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+    ],
+    "correct_answers": [
+      "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+      "Tout événement indésirable grave doit être signalé sans délai",
+      "Les enveloppes de décodage (levée d'insu) doivent obligatoirement êtres disponibles à la pharmacie",
+      "La définition du médicament expérimental inclut le placebo"
+    ],
+    "correct_answers": [
+      "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+      "Tout événement indésirable grave doit être signalé sans délai",
+      "La définition du médicament expérimental inclut le placebo"
+    ]
+  }
+]

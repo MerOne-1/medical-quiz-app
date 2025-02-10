@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les législations en matière de drogues, laquelle (ou lesquelles) est (ou sont) exacte(s) ?",
+    "options": [
+      "La consommation de cannabis est interdite dans tous les pays d’Europe.",
+      "La loi française du 31 décembre 1970 réprime la consommation, la production et la vente de substances illicites.",
+      "Selon la loi française, les peines d’emprisonnement et/ou d’amende encourues pour un usage de cannabis sont les mêmes que celles encourues pour un usage d’héroïne.",
+      "La vente de produits à base de cocaïne a toujours été interdite en France.",
+      "L’injonction thérapeutique peut être une alternative à une peine d’emprisonnement d’un usager de stupéfiants."
+    ],
+    "correct_answers": [
+      "La loi française du 31 décembre 1970 réprime la consommation, la production et la vente de substances illicites.",
+      "L’injonction thérapeutique peut être une alternative à une peine d’emprisonnement d’un usager de stupéfiants.",
+      "Selon la loi française, les peines d’emprisonnement et/ou d’amende encourues pour un usage de cannabis sont les mêmes que celles encourues pour un usage d’héroïne."
+    ],
+    "justification_fausses_reponses": {
+      "La consommation de cannabis est interdite dans tous les pays d’Europe.": "Cette affirmation est incorrecte car la législation sur le cannabis varie d'un pays européen à l'autre. Par exemple, aux Pays-Bas, la consommation de cannabis est tolérée dans certains contextes.",
+      "La vente de produits à base de cocaïne a toujours été interdite en France.": "Cette affirmation est fausse. En effet, au début du 20ème siècle, la cocaïne était utilisée dans certains médicaments et produits de consommation courante. Ce n'est que plus tard qu'elle a été classée comme substance illicite."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant les antidotes, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Il n’existe pas d’antidote permettant la prise en charge de l’intoxication par la digoxine.",
+      "Le charbon activé est un antidote permettant la prise en charge de nombreuses intoxications.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés.",
+      "La N-acétylcystéine est l'antidote d'une intoxication au paracétamol.",
+      "Le bleu de méthylène peut être utilisé comme antidote de toxiques méthémoglobinisants."
+    ],
+    "correct_answers": [
+      "La N-acétylcystéine est l'antidote d'une intoxication au paracétamol.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés.",
+      "Le bleu de méthylène peut être utilisé comme antidote de toxiques méthémoglobinisants."
+    ],
+    "justification_fausses_reponses": {
+      "Il n’existe pas d’antidote permettant la prise en charge de l’intoxication par la digoxine.": "Cette affirmation est incorrecte. Il existe un antidote pour l'intoxication par la digoxine, qui est l'anticorps anti-digoxine.",
+      "Le charbon activé est un antidote permettant la prise en charge de nombreuses intoxications.": "Cette affirmation est fausse. Le charbon activé n'est pas un antidote, mais un adsorbant. Il peut limiter l'absorption de certaines substances toxiques dans le système digestif, mais il ne neutralise pas les toxines déjà absorbées."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes, lesquelles sont des actions de prévention primaire dans la lutte contre le tabagisme ?",
+    "options": [
+      "Sevrage tabagique.",
+      "Interdiction de publicité dirigée vers les jeunes.",
+      "Hausse du prix des cigarettes.",
+      "Message à caractère sanitaire sur les emballages des paquets de cigarettes.",
+      "Interdiction de fumer dans les lieux publics."
+    ],
+    "correct_answers": [
+      "Interdiction de publicité dirigée vers les jeunes.",
+      "Message à caractère sanitaire sur les emballages des paquets de cigarettes.",
+      "Hausse du prix des cigarettes.",
+      "Interdiction de fumer dans les lieux publics."
+    ],
+    "justification_fausses_reponses": {
+      "Sevrage tabagique.": "Le sevrage tabagique est une action de prévention secondaire ou tertiaire, car il intervient après que la personne a commencé à fumer. La prévention primaire vise à empêcher l'initiation au tabagisme."
+    }
+  }
+]

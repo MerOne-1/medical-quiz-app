@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les groupes bioisostères divalents :",
+    "options": [
+      "=N-",
+      "-CH -",
+      "-S-",
+      "-OH",
+      "-O-2"
+    ],
+    "correct_answers": [
+      "-O-",
+      "-S-",
+      "-CH -2"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "ce composé est un IMA O",
+      "présente une forte toxicité hépatique",
+      "ce composé est un antiparasitaire",
+      "ce composé est un tuberculostatique",
+      "ce composé est un hydrazide"
+    ],
+    "correct_answers": [
+      "ce composé est un hydrazide",
+      "ce composé est un tuberculostatique",
+      "présente une forte toxicité hépatique"
+    ]
+  }
+]

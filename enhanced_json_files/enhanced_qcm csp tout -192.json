@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication au CO, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "Le CO se caractérise par une odeur très caractéristique.",
+      "Il n’y a pas de HbCO chez un sujet normal.",
+      "Les effets cliniques ne se manifestent qu’à partir d’un taux de carboxyhémoglobine > 60%.",
+      "L'HbCO présente deux bandes d’absorption dans le spectre visible, non modifiées sous l’effet d’un réducteur.",
+      "La combinaison entre l’Hb et le CO est stable mais réversible."
+    ],
+    "correct_answers": [
+      "Les effets cliniques ne se manifestent qu’à partir d’un taux de carboxyhémoglobine > 60%.",
+      "Il n’y a pas de HbCO chez un sujet normal.",
+      "Le CO se caractérise par une odeur très caractéristique."
+    ],
+    "justification_fausses_reponses": {
+      "L'HbCO présente deux bandes d’absorption dans le spectre visible, non modifiées sous l’effet d’un réducteur.": "Cette affirmation est incorrecte car l'HbCO (carboxyhémoglobine) présente une seule bande d'absorption dans le spectre visible, qui est modifiée sous l'effet d'un réducteur.",
+      "La combinaison entre l’Hb et le CO est stable mais réversible.": "Cette affirmation est incorrecte car bien que la combinaison entre l'hémoglobine (Hb) et le monoxyde de carbone (CO) soit réversible, elle est extrêmement stable, ce qui rend difficile l'élimination du CO du corps."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant la soumission chimique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les analyses toxicologiques réalisées chez une victime de soumission chimique, supposée ou avérée, reposent exclusivement sur une analyse capillaire réalisée à distance des faits.",
+      "Les substances administrées dans un contexte de soumission chimique sont dans la grande majorité des cas des médicaments antidépresseurs.",
+      "Les victimes de soumission chimique sont principalement les jeunes femmes et les enfants.",
+      "Les substances administrées dans un contexte de soumission chimique présentent en général des durées d’action et des demi-vies d’élimination courtes.",
+      "Dans un contexte de suspicion de soumission chimique, l’identification et le dosage des benzodiazépines au niveau sanguin sont idéalement réalisés par une méthode rapide automatisée de type immunochimique."
+    ],
+    "correct_answers": [
+      "Les victimes de soumission chimique sont principalement les jeunes femmes et les enfants.",
+      "Les substances administrées dans un contexte de soumission chimique présentent en général des durées d’action et des demi-vies d’élimination courtes."
+    ],
+    "justification_fausses_reponses": {
+      "Les analyses toxicologiques réalisées chez une victime de soumission chimique, supposée ou avérée, reposent exclusivement sur une analyse capillaire réalisée à distance des faits.": "Cette affirmation est incorrecte car les analyses toxicologiques peuvent également inclure des analyses d'urine, de sang et de salive, et ne reposent pas uniquement sur une analyse capillaire.",
+      "Les substances administrées dans un contexte de soumission chimique sont dans la grande majorité des cas des médicaments antidépresseurs.": "Cette affirmation est incorrecte car les substances utilisées dans un contexte de soumission chimique peuvent être variées, incluant des sédatifs, des hypnotiques, des anesthésiques, et pas seulement des antidépresseurs.",
+      "Dans un contexte de suspicion de soumission chimique, l’identification et le dosage des benzodiazépines au niveau sanguin sont idéalement réalisés par une méthode rapide automatisée de type immunochimique.": "Cette affirmation est incorrecte car bien que les méthodes immunochimiques soient rapides et automatisées, elles ne sont pas toujours les plus précises pour l'identification et le dosage des benzodiazépines. D'autres méthodes comme la chromatographie en phase gazeuse ou la spectrométrie de masse peuvent être utilisées."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces substances, laquelle (lesquelles) est (sont) hépatotoxique(s) ?",
+    "options": [
+      "Paracétamol.",
+      "Méthyldopa.",
+      "Amiodarone.",
+      "Aucune de ces propositions.",
+      "Halotane."
+    ],
+    "correct_answers": [
+      "Halotane.",
+      "Amiodarone.",
+      "Paracétamol.",
+      "Méthyldopa."
+    ],
+    "justification_fausses_reponses": {
+      "Aucune de ces propositions.": "Cette réponse est incorrecte car le paracétamol, la méthyldopa, l'amiodarone et l'halotane sont tous connus pour être hépatotoxiques, c'est-à-dire qu'ils peuvent causer des dommages au foie."
+    }
+  }
+]

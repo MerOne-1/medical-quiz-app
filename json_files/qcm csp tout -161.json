@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+    "options": [
+      "La digoxine doit être utilisée dès le stade I de l'insuffisance cardiaque chronique",
+      "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+      "L'ivabradine est contre-indiquée chez le patient insuffisant cardiaque",
+      "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+      "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+    ],
+    "correct_answers": [
+      "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+      "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+      "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "L'atteinte neurologique est un effet indésirable majeur de la rifampicine.",
+      "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples.",
+      "La rifampicine est un inhibiteur enzymatique puissant.",
+      "La rifampicine est un inducteur enzymatique puissant.",
+      "La rifampicine agit principalement sur les bacilles intracellulaires car le milieu acide est nécessaire à son activité."
+    ],
+    "correct_answers": [
+      "La rifampicine est un inducteur enzymatique puissant.",
+      "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples."
+    ]
+  }
+]

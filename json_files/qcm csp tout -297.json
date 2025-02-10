@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Appariez les numéros et les propositions afin d'avoir les annotations de la figure ci-dessous",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "correct_answers": [
+      "4 → Endoderme",
+      "2 → Cortex (ou parenchyme cortical)",
+      "1 → Assise pilifère",
+      "3 → Cylindre central",
+      "5 → Péricycle"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, ci-dessous, choisir celle(s) exacte(s)",
+    "options": [
+      "A. Le cône femelle du Pin est l’équivalent d’une fleur femelle",
+      "B. Le cône mâle du Pin est l’équivalent d’une inflorescence mâle",
+      "C. Le cône femelle du Pin est une fleur femelle",
+      "D. Le cône femelle du Pin est l’équivalent d’une inflorescence femelle",
+      "E. Le cône mâle du Pin est l’équivalent d’une fleur mâle"
+    ],
+    "correct_answers": [
+      "D. Le cône femelle du Pin est l’équivalent d’une inflorescence femelle",
+      "E. Le cône mâle du Pin est l’équivalent d’une fleur mâle"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "Le furosémide est hypernatrémiant et hyperkalièmiant",
+      "Les béta-bloquants sont tous contre indiqués dans l'insuffisance cardiaque chronique",
+      "La spironolactone est un antialdostérone hyperkalièmiant",
+      "Le ramipril est un antagoniste des récepteurs à l'angiotensine 2",
+      "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+    ],
+    "correct_answers": [
+      "La spironolactone est un antialdostérone hyperkalièmiant",
+      "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+    ],
+    "justification_fausses_reponses": {
+      "Le furosémide est hypernatrémiant et hyperkalièmiant": "C'est incorrect. Le furosémide est un diurétique de l'anse qui peut provoquer une hyponatrémie et une hypokaliémie, pas l'inverse.",
+      "Les béta-bloquants sont tous contre indiqués dans l'insuffisance cardiaque chronique": "C'est faux. Certains béta-bloquants, comme le carvédilol et le bisoprolol, sont en fait indiqués dans le traitement de l'insuffisance cardiaque chronique.",
+      "Le ramipril est un antagoniste des récepteurs à l'angiotensine 2": "C'est incorrect. Le ramipril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), pas un antagoniste des récepteurs à l'angiotensine 2."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les effets indésirables majeurs \"l'isotrétinoïne\", choisissez la ou les proposition(s) fausse(s) :",
+    "options": [
+      "Sécheresse de la peau et des muqueuses",
+      "Dépression",
+      "Tératogène",
+      "Photosensibilisation",
+      "Toux sèche"
+    ],
+    "correct_answers": [
+      "Toux sèche"
+    ],
+    "justification_fausses_reponses": {
+      "Sécheresse de la peau et des muqueuses": "C'est un effet indésirable courant de l'isotrétinoïne. Ce médicament réduit la production de sébum, ce qui peut entraîner une sécheresse de la peau et des muqueuses.",
+      "Dépression": "L'isotrétinoïne a été associée à des troubles de l'humeur, y compris la dépression. Bien que le lien ne soit pas entièrement compris, il est recommandé de surveiller les patients sous isotrétinoïne pour les signes de dépression.",
+      "Tératogène": "L'isotrétinoïne est fortement tératogène. Elle peut causer de graves malformations congénitales si elle est prise pendant la grossesse.",
+      "Photosensibilisation": "L'isotrétinoïne peut rendre la peau plus sensible au soleil, ce qui peut entraîner des brûlures ou des éruptions cutanées. Il est recommandé d'éviter l'exposition au soleil pendant le traitement."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le passage des médicaments dans le lait maternel, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Les contraceptifs oestro-progestatifs sont utilisables en cas d'allaitement",
+      "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+      "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement",
+      "Il est maximal au moment de la phase d'allaitement",
+      "La forme libre du médicament passe difficilement dans le lait maternel"
+    ],
+    "correct_answers": [
+      "Il est maximal au moment de la phase d'allaitement",
+      "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+      "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement"
+    ],
+    "justification_fausses_reponses": {
+      "Les contraceptifs oestro-progestatifs sont utilisables en cas d'allaitement": "Les contraceptifs oestro-progestatifs ne sont pas recommandés pendant l'allaitement car ils peuvent réduire la production de lait et passer dans le lait maternel, ce qui peut affecter le nourrisson.",
+      "La forme libre du médicament passe difficilement dans le lait maternel": "Cette affirmation est incorrecte car la forme libre du médicament, qui n'est pas liée aux protéines plasmatiques, est celle qui peut passer dans le lait maternel."
+    }
+  }
+]

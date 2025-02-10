@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les situations suivantes, lesquelles peuvent entrainer une hyperéosinophilie sanguine?",
+    "options": [
+      "Traitements médicamenteux",
+      "Dermatose atopique",
+      "Paludisme",
+      "Asthme allergique",
+      "Infection par Anguillulose"
+    ],
+    "correct_answers": [
+      "Dermatose atopique",
+      "Infection par Anguillulose",
+      "Asthme allergique",
+      "Traitements médicamenteux"
+    ],
+    "justification_fausses_reponses": {
+      "Paludisme": "Le paludisme n'entraîne pas une hyperéosinophilie sanguine. L'hyperéosinophilie est une augmentation du nombre d'éosinophiles, un type de globules blancs, dans le sang. Le paludisme est causé par un parasite qui infecte les globules rouges, mais il n'augmente pas le nombre d'éosinophiles."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle ou lesquelles s’applique(nt) aux leucémies aiguës lymphoïdes (LAL)?",
+    "options": [
+      "L’immunophénotypage n’est pas indispensable au diagnostic",
+      "L’envahissement tumoral est limité à la moelle osseuse et au sang périphérique",
+      "Les blastes sont généralement dépourvus de granulations",
+      "La morphologie des blastes peut faire suspecter une LAL de type Burkitt",
+      "La translocation t(14;18) est caractéristique d’une LAL de type Burkitt"
+    ],
+    "correct_answers": [
+      "Les blastes sont généralement dépourvus de granulations",
+      "La morphologie des blastes peut faire suspecter une LAL de type Burkitt"
+    ],
+    "justification_fausses_reponses": {
+      "L’immunophénotypage n’est pas indispensable au diagnostic": "L'immunophénotypage est en réalité essentiel pour le diagnostic des LAL. Il permet de déterminer le type de cellules impliquées dans la maladie et d'orienter le traitement.",
+      "L’envahissement tumoral est limité à la moelle osseuse et au sang périphérique": "Dans les LAL, l'envahissement tumoral n'est pas limité à la moelle osseuse et au sang périphérique. Il peut également affecter d'autres organes comme le foie, la rate et les ganglions lymphatiques.",
+      "La translocation t(14;18) est caractéristique d’une LAL de type Burkitt": "La translocation t(14;18) est en fait caractéristique du lymphome folliculaire, pas de la LAL de type Burkitt. Dans la LAL de type Burkitt, la translocation la plus courante est t(8;14)."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Les propositions suivantes sont relatives aux Micro Angiopathies Thrombotiques (MAT)",
+    "options": [
+      "Dans le purpura thrombotique thrombocytopénique (PTT), la présence d’auto-anticorps antiplaquettaire est responsable de la thrombopénie",
+      "Dans le SHU classique, la présence de diarrhées glairo-sanglantes est fréquemment rapportée",
+      "Dans le SHU, contrairement au PTT, la présence de schizocytes est inconstante",
+      "Le traitement d’urgence des PTT repose sur les échanges plasmatiques",
+      "Le SHU classique est le plus souvent associé à la présence d’E.Coli O157 H7 producteur de verotoxine"
+    ],
+    "correct_answers": [
+      "Le traitement d’urgence des PTT repose sur les échanges plasmatiques",
+      "Dans le SHU classique, la présence de diarrhées glairo-sanglantes est fréquemment rapportée",
+      "Le SHU classique est le plus souvent associé à la présence d’E.Coli O157 H7 producteur de verotoxine"
+    ],
+    "justification_fausses_reponses": {
+      "Dans le purpura thrombotique thrombocytopénique (PTT), la présence d’auto-anticorps antiplaquettaire est responsable de la thrombopénie": "Cette affirmation est incorrecte car dans le PTT, c'est la présence d'auto-anticorps contre une protéine appelée ADAMTS13 qui est responsable de la thrombopénie, et non des auto-anticorps antiplaquettaires.",
+      "Dans le SHU, contrairement au PTT, la présence de schizocytes est inconstante": "Cette affirmation est incorrecte car la présence de schizocytes est une caractéristique constante des Micro Angiopathies Thrombotiques, y compris le SHU et le PTT."
+    }
+  }
+]

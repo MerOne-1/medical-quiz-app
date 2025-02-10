@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’ADH stimule la synthèse des aquaporines de l’anse de Henlé.",
+      "Le furosémide inhibe la pompe Na-K A TPase.",
+      "La réabsorption de l’eau par le tubule est primitivement la conséquence de l’activité des vasa recta.",
+      "La réabsorption du sodium par le tubule est due à la présence de canaux sodium tout au long du tubule.",
+      "La réabsorption du sodium par le tubule est partiellement régulée par des variations de pression sur la paroi des capillaires péritubulaires."
+    ],
+    "correct_answers": [
+      "La réabsorption du sodium par le tubule est partiellement régulée par des variations de pression sur la paroi des capillaires péritubulaires."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "L’événement ionique responsable de la phase de dépolarisation des potentiels d’action des cellules nerveuses est:",
+    "options": [
+      "Entrée de potassium dans la cellule",
+      "Entrée de chlore dans la cellule",
+      "Sortie de potassium de la cellule",
+      "Entrée de calcium dans la cellule",
+      "Entrée de sodium dans la cellule"
+    ],
+    "correct_answers": [
+      "Entrée de sodium dans la cellule"
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’aldostérone diminue la sécrétion de potassium dans la lumière tubulaire par diminution du nombre de canaux potassium de la membrane apicale des cellules du tube collecteur.",
+      "Une acidose plasmatique favorise l’hypokaliémie.",
+      "Une augmentation du débit tubulaire augmente la sécrétion de potassium.",
+      "L’ACTH est le principal facteur stimulant la sécrétion surrénalienne de l’aldostérone.",
+      "Le tubule a une activité exclusive de sécrétion de potassium en cas d’ingestion importante de potassium."
+    ],
+    "correct_answers": [
+      "Une augmentation du débit tubulaire augmente la sécrétion de potassium."
+    ]
+  }
+]

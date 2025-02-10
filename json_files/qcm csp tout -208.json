@@ -1,0 +1,64 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces maladies, laquelle (lesquelles) est (sont) à transmission interhumaine exclusive ?",
+    "options": [
+      "la maladie de Lyme",
+      "la tularémie",
+      "la leptospirose",
+      "la syphilis",
+      "la maladie des griffes du chat"
+    ],
+    "correct_answers": [
+      "la syphilis"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les bactéries transmises à l'homme par les animaux sont :",
+    "options": [
+      "Legionella pneumophila",
+      "Brucella melitensis",
+      "Chlamydia psittaci",
+      "Listeria monocytogenes",
+      "Treponema pallidum"
+    ],
+    "correct_answers": [
+      "Chlamydia psittaci",
+      "Listeria monocytogenes",
+      "Brucella melitensis"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Un flacon aérobie d'hémoculture revient positif à Staphylococcus epidermidis chez un patient apyrétique ; tous les autres flacons des 3 séries prélevées demeurent stériles. Quelle(s) conclusion(s) peut-on en tirer ? :",
+    "options": [
+      "il s'agit probablement d'une contamination par la flore cutanée du patient",
+      "il s'agit probablement d'une contamination par la flore oro-pharyngée du préleveur",
+      "il s'agit d'une infection certaine",
+      "une antibiothérapie IV est recommandée",
+      "même en cas de contamination, une antibioprophylaxie per os est indiquée"
+    ],
+    "correct_answers": [
+      "il s'agit probablement d'une contamination par la flore cutanée du patient"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Dans un biofilm bactérien :",
+    "options": [
+      "les bactéries sont recouvertes d'une couche polysaccharidique",
+      "la multiplication des bactéries est très ralentie",
+      "les bactéries mobiles possèdent leurs flagelles",
+      "les antibiotiques pénètrent difficilement",
+      "les bactéries sont à l'abri de la phagocytose"
+    ],
+    "correct_answers": [
+      "la multiplication des bactéries est très ralentie",
+      "les bactéries sont recouvertes d'une couche polysaccharidique",
+      "les bactéries mobiles possèdent leurs flagelles",
+      "les antibiotiques pénètrent difficilement",
+      "les bactéries sont à l'abri de la phagocytose"
+    ]
+  }
+]

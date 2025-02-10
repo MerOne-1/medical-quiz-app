@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la vitamine D et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ces composés sont dénués de toute toxicité",
+      "ces composés sont très hydrophiles",
+      "ces composés sont de nature stérolique",
+      "ces composés sont très polaires",
+      "leur production naturelle nécessite l’action des UV"
+    ],
+    "correct_answers": [
+      "ces composés sont de nature stérolique",
+      "leur production naturelle nécessite l’action des UV"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule",
+    "options": [
+      "finasteride",
+      "mirabegron",
+      "sildenafil",
+      "alfuzosine",
+      "yohimbine"
+    ],
+    "correct_answers": [
+      "sildenafil"
+    ]
+  }
+]

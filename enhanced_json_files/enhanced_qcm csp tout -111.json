@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ce composé est une phénothiazine",
+      "ce composé est une dibenzoazépine",
+      "ce composé est un neuroleptique",
+      "ce composé est un anti H1",
+      "ce composé est un antidépresseur"
+    ],
+    "correct_answers": [
+      "ce composé est une dibenzoazépine",
+      "ce composé est un antidépresseur"
+    ],
+    "justification_fausses_reponses": {
+      "ce composé est une phénothiazine": "Cette affirmation est incorrecte car la phénothiazine est une structure chimique différente de la dibenzoazépine. La phénothiazine est un composé tricyclique avec deux cycles benzéniques et un cycle diazine, tandis que la dibenzoazépine est un composé bicyclique avec deux cycles benzéniques et un cycle azépine.",
+      "ce composé est un neuroleptique": "Cette affirmation est incorrecte car les neuroleptiques sont une classe de médicaments utilisés pour traiter les troubles psychotiques, et non une structure chimique. De plus, ce composé est un antidépresseur, qui est une classe de médicaments différente.",
+      "ce composé est un anti H1": "Cette affirmation est incorrecte car les anti H1 sont des médicaments qui bloquent les récepteurs de l'histamine H1, utilisés pour traiter les allergies. Ce composé est un antidépresseur, qui agit en modifiant l'équilibre des neurotransmetteurs dans le cerveau."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous",
+    "options": [
+      "cette molécule cible une métalloprotéase à Zinc",
+      "cette molécule cible une aspartylprotéase",
+      "il s’agit du bortezomib",
+      "il s’agit d’un inhibiteur covalent",
+      "cette molécule cible une serine/thréonine protéase"
+    ],
+    "correct_answers": [
+      "il s’agit d’un inhibiteur covalent",
+      "cette molécule cible une serine/thréonine protéase",
+      "il s’agit du bortezomib"
+    ],
+    "justification_fausses_reponses": {
+      "cette molécule cible une métalloprotéase à Zinc": "Cette affirmation est incorrecte car la molécule en question n'a pas la capacité de cibler une métalloprotéase à Zinc. Les métalloprotéases à Zinc sont des enzymes qui nécessitent un ion de zinc pour leur activité catalytique, et cette molécule n'a pas la structure chimique nécessaire pour interagir avec ces enzymes.",
+      "cette molécule cible une aspartylprotéase": "Cette affirmation est incorrecte car la molécule en question n'est pas conçue pour cibler une aspartylprotéase. Les aspartylprotéases sont des enzymes qui utilisent une paire de résidus d'acides aspartiques dans leur site actif, et cette molécule n'a pas la structure chimique nécessaire pour interagir avec ces résidus."
+    }
+  }
+]

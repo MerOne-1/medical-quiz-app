@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "La présence d’une basophilie sanguine est un signe évocateur de :",
+    "options": [
+      "Leucémie aiguë promyélocytaire (L AM3)",
+      "Leucémie myéloïde chronique",
+      "Leucémie aiguë myéloïde avec maturation granulocytaire (L AM2)",
+      "Leucémie aiguë myéloïde avec inv(16) ou t(16;16)",
+      "Syndrome myélodysplasique"
+    ],
+    "correct_answers": [
+      "Leucémie myéloïde chronique"
+    ],
+    "justification_fausses_reponses": {
+      "Leucémie aiguë promyélocytaire (L AM3)": "La leucémie aiguë promyélocytaire est caractérisée par une prolifération de promyélocytes, pas de basophiles.",
+      "Leucémie aiguë myéloïde avec maturation granulocytaire (L AM2)": "La leucémie aiguë myéloïde avec maturation granulocytaire est caractérisée par une prolifération de granulocytes, pas de basophiles.",
+      "Leucémie aiguë myéloïde avec inv(16) ou t(16;16)": "La leucémie aiguë myéloïde avec inv(16) ou t(16;16) est caractérisée par une anomalie chromosomique spécifique, pas par une basophilie.",
+      "Syndrome myélodysplasique": "Le syndrome myélodysplasique est un groupe de troubles caractérisés par une moelle osseuse dysfonctionnelle, pas par une basophilie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les étiologies suivantes, lesquelles peuvent être responsables de carences en folates ?",
+    "options": [
+      "Alimentation végétarienne stricte",
+      "Insuffisants rénaux chroniques hémodialysés",
+      "Ankylostomiase",
+      "Traitements par le Méthotrexate",
+      "Syndrome des anses borgnes"
+    ],
+    "correct_answers": [
+      "Insuffisants rénaux chroniques hémodialysés",
+      "Traitements par le Méthotrexate"
+    ],
+    "justification_fausses_reponses": {
+      "Alimentation végétarienne stricte": "Une alimentation végétarienne stricte n'entraîne pas nécessairement une carence en folates. Les folates sont présents en grande quantité dans les légumes verts, les fruits, les noix et les graines.",
+      "Ankylostomiase": "L'ankylostomiase est une infection parasitaire qui peut causer l'anémie, mais elle n'est pas directement liée à une carence en folates.",
+      "Syndrome des anses borgnes": "Le syndrome des anses borgnes est une maladie qui affecte l'intestin grêle et peut causer des problèmes d'absorption de nutriments, mais il n'est pas spécifiquement associé à une carence en folates."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "L’hémogramme suivant réalisé chez un homme de 57 ans traduit :\nHématies: 4,8 T/L\nHémoglobine: 140 g/L\nVGM: 95fL, C CMH : 34%\nLeucocytes: 8 G/L\nPolynucléaires neutrophiles : 5 G/L, polynucléaires éosinophiles : 0,4 G/L, lymphocytes : 3 G/L, monocytes : 0,6 G/L.\nPlaquettes: 230G/L",
+    "options": [
+      "Une anémie normocytaire normochrome",
+      "Des résultats normaux",
+      "Une hyperéosinophilie",
+      "Une neutropénie",
+      "Une polyglobulie"
+    ],
+    "correct_answers": [
+      "Des résultats normaux"
+    ],
+    "justification_fausses_reponses": {
+      "Une anémie normocytaire normochrome": "Cette option est incorrecte car l'hémoglobine et le nombre d'hématies sont dans les valeurs normales, ce qui exclut une anémie.",
+      "Une hyperéosinophilie": "Cette option est incorrecte car le nombre de polynucléaires éosinophiles est dans la plage normale, ce qui exclut une hyperéosinophilie.",
+      "Une neutropénie": "Cette option est incorrecte car le nombre de polynucléaires neutrophiles est dans la plage normale, ce qui exclut une neutropénie.",
+      "Une polyglobulie": "Cette option est incorrecte car le nombre d'hématies est dans la plage normale, ce qui exclut une polyglobulie."
+    }
+  }
+]

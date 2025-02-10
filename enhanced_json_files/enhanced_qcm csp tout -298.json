@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous concernant les Angiospermes primitives jusqu’aux Monocotylédones incluses, choisir celle(s) exacte(s) :",
+    "options": [
+      "Les feuilles sont simples",
+      "La disposition des fleurs est spiralée",
+      "Le pollen est à une ouverture",
+      "Ce sont toutes des plantes ligneuses",
+      "Les fleurs sont gamopétales"
+    ],
+    "correct_answers": [
+      "Le pollen est à une ouverture",
+      "Les feuilles sont simples"
+    ],
+    "justification_fausses_reponses": {
+      "La disposition des fleurs est spiralée": "La disposition des fleurs n'est pas toujours spiralée chez les Angiospermes primitives jusqu’aux Monocotylédones incluses. Cela dépend de l'espèce spécifique.",
+      "Ce sont toutes des plantes ligneuses": "Toutes les Angiospermes primitives jusqu’aux Monocotylédones incluses ne sont pas des plantes ligneuses. Certaines peuvent être herbacées.",
+      "Les fleurs sont gamopétales": "Les fleurs ne sont pas toujours gamopétales chez les Angiospermes primitives jusqu’aux Monocotylédones incluses. Les fleurs gamopétales ont des pétales fusionnés, ce qui n'est pas une caractéristique universelle de ces plantes."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions concernant l'endoprothallie, choisir la (ou les) exacte(s) :",
+    "options": [
+      "L’endoprothallie correspond à la germination de la spore dans le sol",
+      "L’endoprothallie correspond à la germination de la spore en protonéma",
+      "L’endoprothallie permet l’apparition de la graine",
+      "L’endoprothallie produit directement  l’albumen",
+      "L’endoprothallie produit directement l’endosperme"
+    ],
+    "correct_answers": [
+      "L’endoprothallie produit directement l’endosperme",
+      "L’endoprothallie permet l’apparition de la graine"
+    ],
+    "justification_fausses_reponses": {
+      "L’endoprothallie correspond à la germination de la spore dans le sol": "C'est incorrect car l'endoprothallie est une phase du cycle de vie des fougères et non un processus de germination de la spore dans le sol.",
+      "L’endoprothallie correspond à la germination de la spore en protonéma": "C'est incorrect car l'endoprothallie est une phase du cycle de vie des fougères et non un processus de germination de la spore en protonéma.",
+      "L’endoprothallie produit directement  l’albumen": "C'est incorrect car l'endoprothallie ne produit pas directement l'albumen. L'albumen est produit par l'ovule après la fécondation."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la dichotomie, choisir celle(s) exacte(s) :",
+    "options": [
+      "la dichotomie correspond au sporophyte et non au gamétophyte",
+      "la dichotomie existe chez les Fougères et le  Ginkgo",
+      "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+      "la dichotomie correspond à l’état diploïde des cellules",
+      "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+    ],
+    "correct_answers": [
+      "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+      "la dichotomie existe chez les Fougères et le  Ginkgo",
+      "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+    ],
+    "justification_fausses_reponses": {
+      "la dichotomie correspond au sporophyte et non au gamétophyte": "Cette affirmation est incorrecte car la dichotomie n'est pas liée à la phase de vie de la plante (sporophyte ou gamétophyte), mais à la manière dont la plante se développe et se divise.",
+      "la dichotomie correspond à l’état diploïde des cellules": "Cette affirmation est incorrecte car la dichotomie n'a rien à voir avec le nombre de chromosomes dans une cellule. Elle concerne la manière dont une plante se développe et se divise."
+    }
+  }
+]

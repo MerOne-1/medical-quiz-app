@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Trois béchers contiennent une solution 1,0 M de CuCl . Une pièce de métal est placée dans chacun des trois béchers. On donne E° Ag /Ag = 0,80 V; E° Cu /Cu = 0,34 V; E° Zn /Zn = - 0,76 V ; E° Ni /Ni = -0,25 V. Une réaction a lieu dans",
+    "options": [
+      "les bécher s n°1 et n°3 seulement",
+      "tous les bécher s",
+      "le bécher n°2 seulement",
+      "les bécher s n°1 et n°2 seulement",
+      "aucun des bécher s"
+    ],
+    "correct_answers": [
+      "les bécher s n°1 et n°3 seulement"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "A 37°C, un antibiotique A est métabolisé avec une constante de vitesse k égale à 3.10 s. L’efficacité d’un traitement par cet antibiotique implique de maintenir une concentration toujours supérieure à 2 mg par kg de poids corporel. Un patient dont le poids est de 70 kg absorbe à intervalle régulier des comprimés renfermant 400 mg de cet antibiotique. Si l’intervalle maximum de temps entre deux prises de médicaments pour un patient sans fièvre est de 9,7h,  que devient cet intervalle pour un patient fébrile à 39,5°C (la constante de vitesse est alors égale à 4.10  s) ?",
+    "options": [
+      "7,2 h",
+      "3,5 h",
+      "11,9 h",
+      "8,6 h",
+      "9,7 h"
+    ],
+    "correct_answers": [
+      "7,2 h"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Maurice, un étudiant pharmacien, prépare une solution tampon en mélangeant de façon équimolaire une solution de NH Cl avec une solution de NH . Une petite quantité d’hydroxyde de sodium est ajoutée. Que se passe-t-il? On donne pKa (NH / NH ) = 9,2",
+    "options": [
+      "La base intr oduit e réagit av ec NH  et le pH diminue",
+      "La base intr oduit e réagit av ec NH   et le pH change peu",
+      "La base intr oduit e réagit av ec NH  et le pH change peu",
+      "Le pH initialement de 7 devient 9,2 apr ès ajout de la b ase",
+      "La base intr oduit e réagit av ec NH  et le pH diminue"
+    ],
+    "correct_answers": [
+      "La base intr oduit e réagit av ec NH  et le pH change peu"
+    ]
+  }
+]

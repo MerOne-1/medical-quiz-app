@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes, quelle est la valeur de Δ H de la réaction",
+    "options": [
+      "- 294,6 kJ/mol",
+      "+ 0,1 kJ/mol",
+      "aucune des v aleur s proposées",
+      "- 204,3 kJ/mol",
+      "+ 66,3 kJ/molr"
+    ],
+    "correct_answers": [
+      "+ 66,3 kJ/mol"
+    ],
+    "justification_fausses_reponses": {
+      "- 294,6 kJ/mol": "Cette valeur est incorrecte car elle indiquerait une réaction exothermique, alors que la réaction est endothermique.",
+      "+ 0,1 kJ/mol": "Cette valeur est trop faible pour représenter la variation d'enthalpie de la réaction.",
+      "aucune des v aleur s proposées": "Cette option est incorrecte car la valeur correcte de Δ H est bien proposée parmi les options.",
+      "- 204,3 kJ/mol": "Cette valeur est incorrecte car elle indiquerait une réaction exothermique, alors que la réaction est endothermique."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Lors de l’alcootest, l’éthanol (CH CHOH) de l’air expiré réduit les ions dichromate Cr O en Cr  en milieu acide et est oxydé en acide acétique (CH COOH). Equilibrer la réaction redox se produisant dans un alcootest.",
+    "options": [
+      "3 2 272- 3+",
+      "3"
+    ],
+    "correct_answers": [],
+    "justification_fausses_reponses": {
+      "3 2 272- 3+": "Cette option est incorrecte car elle ne représente pas une équation chimique équilibrée. Les nombres devant les molécules dans une équation chimique représentent les coefficients stoechiométriques, qui doivent être ajustés de manière à ce que le nombre d'atomes de chaque élément soit le même des deux côtés de l'équation. Ici, les nombres ne semblent pas correspondre à une équation équilibrée.",
+      "3": "Cette option est incorrecte car elle ne représente pas une équation chimique équilibrée. Un seul nombre sans aucune molécule associée ne peut pas représenter une équation chimique. De plus, dans le contexte de l'équilibrage d'une réaction redox, nous devons prendre en compte à la fois les nombres d'atomes et les charges électriques."
+    }
+  }
+]

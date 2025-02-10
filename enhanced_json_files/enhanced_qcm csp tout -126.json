@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "L’acide clavulanique est un composé synthétique",
+      "Les pénicillines sont d’origine fongique",
+      "La plupart des antibiotiques sont d’origine fongique",
+      "Les pénicillines sont formées à partir d’acides aminés",
+      "Les aminosides sont d’origine bactérienne"
+    ],
+    "correct_answers": [
+      "Les pénicillines sont d’origine fongique",
+      "Les pénicillines sont formées à partir d’acides aminés",
+      "Les aminosides sont d’origine bactérienne"
+    ],
+    "justification_fausses_reponses": {
+      "L’acide clavulanique est un composé synthétique": "L'acide clavulanique est en réalité un composé semi-synthétique. Il est produit par fermentation par le Streptomyces clavuligerus, puis modifié chimiquement.",
+      "La plupart des antibiotiques sont d’origine fongique": "Bien que de nombreux antibiotiques soient d'origine fongique, comme les pénicillines, il est incorrect de dire que la plupart le sont. De nombreux antibiotiques importants sont également produits par des bactéries, comme les aminosides."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "L’ivermectine est structuralement un macrolide",
+      "La quinine est une molécule naturelle",
+      "L’artémisinine est une plante chinoise",
+      "La quinine est un alcaloïde",
+      "L’ivermectine est un antiparasitaire"
+    ],
+    "correct_answers": [
+      "La quinine est une molécule naturelle",
+      "La quinine est un alcaloïde",
+      "L’ivermectine est un antiparasitaire",
+      "L’ivermectine est structuralement un macrolide"
+    ],
+    "justification_fausses_reponses": {
+      "L’artémisinine est une plante chinoise": "C'est incorrect car l'artémisinine n'est pas une plante, mais une molécule extraite de la plante Artemisia annua, utilisée en médecine traditionnelle chinoise."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C est une liaison ester",
+      "A est un acide gras",
+      "B est une osamine",
+      "D est une osamine",
+      "E est un éthylamide"
+    ],
+    "correct_answers": [
+      "A est un acide gras",
+      "B est une osamine"
+    ],
+    "justification_fausses_reponses": {
+      "C est une liaison ester": "C'est incorrect car la liaison ester est une liaison covalente qui se forme par réaction entre un acide carboxylique et un alcool. Dans ce cas, C n'est pas une liaison ester.",
+      "D est une osamine": "C'est incorrect car l'osamine est un type de sucre aminé. Dans ce cas, D n'est pas une osamine.",
+      "E est un éthylamide": "C'est incorrect car l'éthylamide est un composé organique dérivé de l'amide. Dans ce cas, E n'est pas un éthylamide."
+    }
+  }
+]

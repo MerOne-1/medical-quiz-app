@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "En spectrophométrie moléculaire, la sensibilité d'un dosage dépend:",
+    "options": [
+      "De l'intensité du rayonnement incident",
+      "De la longueur du trajet optique",
+      "De la longueur d'onde du maximum d'absorption du solvant",
+      "Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption",
+      "Du système de mesure de l'intensité de la lumière transmise"
+    ],
+    "correct_answers": [
+      "Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption",
+      "De la longueur du trajet optique",
+      "Du système de mesure de l'intensité de la lumière transmise"
+    ],
+    "justification_fausses_reponses": {
+      "De l'intensité du rayonnement incident": "L'intensité du rayonnement incident n'affecte pas directement la sensibilité d'un dosage en spectrophotométrie moléculaire. Elle peut influencer la précision de la mesure, mais pas la sensibilité du dosage.",
+      "De la longueur d'onde du maximum d'absorption du solvant": "La longueur d'onde du maximum d'absorption du solvant n'affecte pas la sensibilité du dosage. C'est la longueur d'onde du maximum d'absorption du soluté qui est importante, car elle détermine la quantité de lumière absorbée par le soluté."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "A combien de microlitres correspond un litre ?",
+    "options": [
+      "10",
+      "10",
+      "1 000 000",
+      "1/10",
+      "0.001-6",
+      "5",
+      "-6"
+    ],
+    "correct_answers": [
+      "1 000 000",
+      "1/10-6"
+    ],
+    "justification_fausses_reponses": {
+      "10": "C'est incorrect car un litre équivaut à 1 000 000 de microlitres, pas 10.",
+      "0.001-6": "C'est incorrect car cette valeur est trop petite pour représenter un litre en microlitres.",
+      "5": "C'est incorrect car un litre équivaut à 1 000 000 de microlitres, pas 5.",
+      "-6": "C'est incorrect car un litre ne peut pas être représenté par un nombre négatif de microlitres."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En électrophorèse capillaire, la mobilité apparente (expérimentale):",
+    "options": [
+      "Ne dépend pas du flux électroosmotique",
+      "Est proportionnelle au temps de migration",
+      "Dépend du flux électroosmotique",
+      "Ne dépend que de la vitesse électrophorétique de l'analyte",
+      "Est proportionnelle à la longueur du tube capillaire"
+    ],
+    "correct_answers": [
+      "Dépend du flux électroosmotique",
+      "Est proportionnelle à la longueur du tube capillaire"
+    ],
+    "justification_fausses_reponses": {
+      "Ne dépend pas du flux électroosmotique": "C'est incorrect car la mobilité apparente en électrophorèse capillaire dépend du flux électroosmotique. Le flux électroosmotique est le mouvement des ions dans la solution due à l'application d'un champ électrique.",
+      "Est proportionnelle au temps de migration": "C'est incorrect car la mobilité apparente n'est pas directement proportionnelle au temps de migration. Le temps de migration est le temps nécessaire pour qu'un analyte se déplace d'un point à un autre dans le système d'électrophorèse, mais d'autres facteurs tels que le flux électroosmotique et la longueur du tube capillaire influencent également la mobilité apparente.",
+      "Ne dépend que de la vitesse électrophorétique de l'analyte": "C'est incorrect car la mobilité apparente dépend non seulement de la vitesse électrophorétique de l'analyte, mais aussi du flux électroosmotique et de la longueur du tube capillaire."
+    }
+  }
+]

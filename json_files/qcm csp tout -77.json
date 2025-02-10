@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La nilvadipine est utilisée pour diminuer l'hypertension artérielle. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La nilvadipine possède deux cycles aromatiques",
+      "La nilvadipine possède deux fonctions ester",
+      "Le groupement NO présente un effet mésomère électrodonneur",
+      "Le groupement CN présente un effet mésomère électroattracteur",
+      "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+    ],
+    "correct_answers": [
+      "La nilvadipine possède deux fonctions ester",
+      "Le groupement CN présente un effet mésomère électroattracteur",
+      "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le diltiazem possède un seul carbone asymétrique",
+      "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+      "L'atome de soufre du cycle central est un bon accepteur de liaison hydrogène",
+      "Le diltiazem possède une fonction ester",
+      "Le diltiazem possède une fonction thiol"
+    ],
+    "correct_answers": [
+      "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+      "Le diltiazem possède une fonction ester"
+    ]
+  }
+]

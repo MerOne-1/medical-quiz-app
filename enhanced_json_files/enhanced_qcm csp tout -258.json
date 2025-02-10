@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Concernant les anti-vitamine K :",
+    "options": [
+      "Ils ne sont jamais administrés en urgence",
+      "Ils ont un effet anticoagulant qui persiste plusieurs jours à l’arrêt du traitement",
+      "Chez un malade équilibré et stable sous traitement anti-vitamines K depuis plus d'un mois, il faut faire un INR toutes les semaines",
+      "Ils peuvent être administré pendant toute la grossesse",
+      "Ils inhibent la synthèse d’antithrombine"
+    ],
+    "correct_answers": [
+      "Ils ont un effet anticoagulant qui persiste plusieurs jours à l’arrêt du traitement",
+      "Ils ne sont jamais administrés en urgence"
+    ],
+    "justification_fausses_reponses": {
+      "Chez un malade équilibré et stable sous traitement anti-vitamines K depuis plus d'un mois, il faut faire un INR toutes les semaines": "C'est incorrect car chez un patient stable sous traitement anti-vitamines K, un contrôle de l'INR (International Normalized Ratio) est généralement effectué tous les mois, et non toutes les semaines.",
+      "Ils peuvent être administré pendant toute la grossesse": "C'est faux car les anti-vitamines K sont contre-indiqués pendant la grossesse, en particulier pendant le premier et le troisième trimestre, en raison du risque de malformations fœtales et de saignements.",
+      "Ils inhibent la synthèse d’antithrombine": "C'est incorrect car les anti-vitamines K n'inhibent pas la synthèse d'antithrombine. Ils agissent en inhibant la réduction de la vitamine K, nécessaire à la synthèse de plusieurs facteurs de coagulation."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Les propositions suivantes sont relatives aux anémies ferriprives",
+    "options": [
+      "Le coefficient de saturation de la transferrine est diminué",
+      "L’anémie est classiquement microcytaire et hypochrome",
+      "La ferritinémie est diminuée",
+      "La numération des réticulocytes est habituellement ≥ 100 G/L",
+      "Une hyperbilirubinémie libre est observée"
+    ],
+    "correct_answers": [
+      "L’anémie est classiquement microcytaire et hypochrome",
+      "Le coefficient de saturation de la transferrine est diminué",
+      "La ferritinémie est diminuée"
+    ],
+    "justification_fausses_reponses": {
+      "La numération des réticulocytes est habituellement ≥ 100 G/L": "Dans l'anémie ferriprive, la numération des réticulocytes est généralement normale ou légèrement augmentée, mais pas aussi élevée que 100 G/L. Une numération élevée des réticulocytes indique généralement une réponse de la moelle osseuse à une perte de sang ou à une destruction des globules rouges.",
+      "Une hyperbilirubinémie libre est observée": "L'hyperbilirubinémie libre n'est pas typique de l'anémie ferriprive. Elle est généralement associée à des conditions qui entraînent une destruction accrue des globules rouges, comme l'anémie hémolytique."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Laquelle/lesquelles de ces complications peut/peuvent survenir dans l’évolution d’une leucémie lymphoïde chronique ?",
+    "options": [
+      "Amylose",
+      "Syndrome de Richter",
+      "Transformation en leucémie aiguë myéloïde",
+      "Thrombopénie auto-immune",
+      "Transformation en leucémie aiguë lymphoïde"
+    ],
+    "correct_answers": [
+      "Thrombopénie auto-immune",
+      "Syndrome de Richter"
+    ],
+    "justification_fausses_reponses": {
+      "Amylose": "L'amylose n'est pas une complication directe de la leucémie lymphoïde chronique. C'est une maladie systémique rare qui résulte de l'accumulation de protéines amyloïdes dans les organes et les tissus.",
+      "Transformation en leucémie aiguë myéloïde": "La transformation en leucémie aiguë myéloïde n'est pas une complication typique de la leucémie lymphoïde chronique. C'est plutôt une caractéristique de la leucémie myéloïde chronique.",
+      "Transformation en leucémie aiguë lymphoïde": "La transformation en leucémie aiguë lymphoïde n'est pas une complication courante de la leucémie lymphoïde chronique. La leucémie lymphoïde chronique est une maladie à progression lente qui ne se transforme généralement pas en une forme aiguë."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant le sofosbuvir , quelles sont les réponses exactes ?",
+    "options": [
+      "C'est un inhibiteur de la polymerase virale",
+      "C'est un inhibiteur de la NS5A",
+      "C'est un inhibiteur de la NS5B",
+      "Il est actif sur le HIV",
+      "Il est actif sur tous les génotypes du HCV"
+    ],
+    "correct_answers": [
+      "C'est un inhibiteur de la NS5B",
+      "C'est un inhibiteur de la polymerase virale",
+      "Il est actif sur tous les génotypes du HCV"
+    ],
+    "justification_fausses_reponses": {
+      "C'est un inhibiteur de la NS5A": "Le sofosbuvir n'est pas un inhibiteur de la NS5A. Il cible spécifiquement la NS5B, une polymérase ARN dépendante de l'ARN, qui est essentielle pour la réplication du virus de l'hépatite C (HCV).",
+      "Il est actif sur le HIV": "Le sofosbuvir n'est pas actif contre le VIH. Il est spécifiquement conçu pour cibler le virus de l'hépatite C (HCV) et n'a pas d'efficacité contre le VIH."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "Concernant la vaccination contre les Papillomavirus en France, quelles sont les réponses vraies ?",
+    "options": [
+      "C'est un vaccin inactivé",
+      "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes",
+      "Cette vaccination est obligatoire pour les filles à partir de 9 ans",
+      "C'est un vaccin vivant atténué",
+      "Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques"
+    ],
+    "correct_answers": [
+      "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes"
+    ],
+    "justification_fausses_reponses": {
+      "C'est un vaccin inactivé": "C'est incorrect. Le vaccin contre les Papillomavirus est un vaccin recombinant, et non un vaccin inactivé.",
+      "Cette vaccination est obligatoire pour les filles à partir de 9 ans": "C'est incorrect. En France, la vaccination contre les Papillomavirus n'est pas obligatoire, mais elle est recommandée pour les filles et les garçons à partir de 11 ans.",
+      "C'est un vaccin vivant atténué": "C'est incorrect. Le vaccin contre les Papillomavirus est un vaccin recombinant, et non un vaccin vivant atténué.",
+      "Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques": "C'est incorrect. Aucune étude scientifique n'a prouvé un lien entre la vaccination contre les Papillomavirus et la Sclérose en Plaques."
+    }
+  }
+]

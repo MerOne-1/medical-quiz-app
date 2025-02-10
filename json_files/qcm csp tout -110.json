@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la morphine et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "la morphine est un alcaloïde",
+      "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes",
+      "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+      "les deux fonctions OH sont équivalentes",
+      "la morphine est un composé acide"
+    ],
+    "correct_answers": [
+      "la morphine est un alcaloïde",
+      "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+      "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes se rapportant à la chiralité des médicaments, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "les médicaments racémiques produisent toujours des effets thérapeutiques moins intéressants que les énantiomères purs",
+      "l’identification de l'énantiomère le plus efficace a permis la commercialisation de l’énantiomère pur dans le cas du sotalol et du labétalol",
+      "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+      "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes",
+      "dans un mélange racémique, le métabolisme de premier passage hépatique est plus rapide pour l’énantiomère le plus actif"
+    ],
+    "correct_answers": [
+      "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+      "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes"
+    ]
+  }
+]

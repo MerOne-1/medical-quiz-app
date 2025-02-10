@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant l’Ordre national des pharmaciens, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C.",
+      "Les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s’inscrire en section E.",
+      "Les pharmaciens biologistes (exerçant en laboratoire de biologie médicale public ou privé) exerçant en France métropolitaine doivent s’inscrire en section B.",
+      "Les pharmaciens adjoints d’officine exerçant en France métropolitaine doivent s’inscrire en section A.",
+      "La section D est la seule section à être organisée au niveau régional : elle comporte 22 CROP."
+    ],
+    "correct_answers": [
+      "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C."
+    ],
+    "justification_fausses_reponses": {
+      "Les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s’inscrire en section E.": "C'est incorrect car les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s'inscrire en section D, qui est dédiée aux pharmaciens exerçant outre-mer.",
+      "Les pharmaciens biologistes (exerçant en laboratoire de biologie médicale public ou privé) exerçant en France métropolitaine doivent s’inscrire en section B.": "C'est incorrect car les pharmaciens biologistes exerçant en France métropolitaine doivent s'inscrire en section G, qui est dédiée aux pharmaciens biologistes.",
+      "Les pharmaciens adjoints d’officine exerçant en France métropolitaine doivent s’inscrire en section A.": "C'est incorrect car les pharmaciens adjoints d'officine exerçant en France métropolitaine doivent s'inscrire en section D, qui est dédiée aux pharmaciens adjoints d'officine.",
+      "La section D est la seule section à être organisée au niveau régional : elle comporte 22 CROP.": "C'est incorrect car toutes les sections de l'Ordre national des pharmaciens sont organisées au niveau régional, pas seulement la section D."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi les propositions suivantes concernant la recherche clinique, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Elles sont placées sous la responsabilité d’un promoteur.",
+      "Dès lors qu’il a donné son consentement à la recherche, le sujet de recherche ne pourra pas demander réparation des préjudices qu’il aura éventuellement subis au cours de la recherche.",
+      "Elles sont généralement réalisées dans des établissements de santé.",
+      "Elle concerne les essais réalisés sur des personnes saines et malades.",
+      "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes."
+    ],
+    "correct_answers": [
+      "Elle concerne les essais réalisés sur des personnes saines et malades.",
+      "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes.",
+      "Elles sont placées sous la responsabilité d’un promoteur.",
+      "Elles sont généralement réalisées dans des établissements de santé."
+    ],
+    "justification_fausses_reponses": {
+      "Dès lors qu’il a donné son consentement à la recherche, le sujet de recherche ne pourra pas demander réparation des préjudices qu’il aura éventuellement subis au cours de la recherche.": "Cette affirmation est incorrecte. Même si le sujet a donné son consentement à la recherche, il conserve le droit de demander réparation pour tout préjudice subi au cours de la recherche. Le consentement à participer à une recherche ne signifie pas renoncer à ses droits."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant la Pharmacopée européenne, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+      "La Pharmacopée européenne est accessible gratuitement via le site de la DEQM.",
+      "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique.",
+      "La Pharmacopée européenne est publiée en français, en allemand, en italien et en anglais, aussi bien en version papier qu’en version électronique.",
+      "La Pharmacopée européenne est élaborée par le CHMP et le HMPC de l’Agence européenne des médicaments (basée à Londres)."
+    ],
+    "correct_answers": [
+      "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+      "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique."
+    ],
+    "justification_fausses_reponses": {
+      "La Pharmacopée européenne est accessible gratuitement via le site de la DEQM.": "C'est incorrect car l'accès à la Pharmacopée européenne est payant et nécessite un abonnement.",
+      "La Pharmacopée européenne est publiée en français, en allemand, en italien et en anglais, aussi bien en version papier qu’en version électronique.": "C'est incorrect car la Pharmacopée européenne est uniquement publiée en français et en anglais.",
+      "La Pharmacopée européenne est élaborée par le CHMP et le HMPC de l’Agence européenne des médicaments (basée à Londres).": "C'est incorrect car la Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg), et non par le CHMP et le HMPC de l’Agence européenne des médicaments."
+    }
+  }
+]

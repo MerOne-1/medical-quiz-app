@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "M. Victor B., 38 ans, commercial, est infecté par un HCV de génotype 1. Il vous présente l'ordonnance suivante. Concernant le daclatasvir , quelles sont les réponses exactes ?",
+    "options": [
+      "Il est toujours prescrit en association",
+      "C'est un inhibiteur de la NS5A",
+      "Il est actif sur le HIV",
+      "Il est actif sur tous les génotypes du HCV",
+      "C'est un inhibiteur de la protéase"
+    ],
+    "correct_answers": [
+      "C'est un inhibiteur de la NS5A",
+      "Il est toujours prescrit en association",
+      "Il est actif sur tous les génotypes du HCV"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Mme Jeanine V, 27 ans, traductrice, est enceinte de 6 mois. Un bilan biologique a été réalisé qui donne les résultats suivants : Recherche de l'antigène HBs : négative Recherche d'anticorps anti-Rubéole : de type IgG : négative de type IgM : négative. Quels conseils adressez-vous à Mme Jeanine V. ?",
+    "options": [
+      "Aucun de ces conseils n'est adapté",
+      "Se faire vacciner immédiatement contre la Rubéole",
+      "Se faire vacciner contre la Rubéole dans les mois qui suivent l'accouchement",
+      "Se faire vacciner contre la Rubéole dans les jours qui suivent l'accouchement",
+      "Se faire vacciner contre le HBV après l'accouchement"
+    ],
+    "correct_answers": [
+      "Se faire vacciner contre la Rubéole dans les jours qui suivent l'accouchement",
+      "Se faire vacciner contre la Rubéole dans les mois qui suivent l'accouchement",
+      "Se faire vacciner contre le HBV après l'accouchement"
+    ]
+  }
+]

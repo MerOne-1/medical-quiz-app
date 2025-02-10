@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes relatives au cyclophosphamide représenté ci-dessous, quelle est (sont) celle(s) qui est (sont) exactes",
+    "options": [
+      "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+      "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+      "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+      "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase",
+      "La présence d’une forte activité aldéhyde déshydrogénases (ALDH) est indispensable à la production de métabolites toxiques"
+    ],
+    "correct_answers": [
+      "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+      "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+      "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+      "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase"
+    ],
+    "justification_fausses_reponses": {
+      "La présence d’une forte activité aldéhyde déshydrogénases (ALDH) est indispensable à la production de métabolites toxiques": "Cette affirmation est incorrecte car l'aldéhyde déshydrogénase (ALDH) n'est pas indispensable à la production de métabolites toxiques du cyclophosphamide. En réalité, l'ALDH joue un rôle protecteur en détoxifiant l'acroléine, un métabolite toxique du cyclophosphamide."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "omeprazole",
+      "aprepitant",
+      "cimetidine",
+      "odansetron",
+      "metoclopramide"
+    ],
+    "correct_answers": [
+      "omeprazole"
+    ],
+    "justification_fausses_reponses": {
+      "aprepitant": "L'aprepitant est incorrect car c'est un antiémétique utilisé pour prévenir les nausées et vomissements associés à la chimiothérapie, et non la molécule en question.",
+      "cimetidine": "La cimetidine est incorrecte car c'est un antagoniste des récepteurs H2 de l'histamine utilisé pour traiter les ulcères d'estomac, et non la molécule en question.",
+      "odansetron": "L'odansetron est incorrect car c'est un antiémétique utilisé pour prévenir les nausées et vomissements postopératoires et ceux induits par la chimiothérapie, et non la molécule en question.",
+      "metoclopramide": "Le métoclopramide est incorrect car c'est un médicament antiémétique et gastroprokinétique, et non la molécule en question."
+    }
+  }
+]

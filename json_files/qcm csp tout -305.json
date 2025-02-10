@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à un état haploïde",
+    "options": [
+      "Albumen, endosperme, fleur",
+      "Endosperme, pollen",
+      "Albumen, sac embryonnaire",
+      "Endosperme, fleur, nucelle",
+      "Nucelle, ovaire, pollen"
+    ],
+    "correct_answers": [
+      "Endosperme, pollen"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous concernant la graine exalbuminée, choisissez celle(s) exacte(s)",
+    "options": [
+      "La graine exalbuminée est plus primitive que la graine albuminée",
+      "La graine exalbuminée présente un albumen périphérique",
+      "La graine exalbuminée présente un embryon réduit",
+      "La graine exalbuminée présente des cotylédons volumineux",
+      "Une graine exalbuminée n’a plus d’albumen"
+    ],
+    "correct_answers": [
+      "Une graine exalbuminée n’a plus d’albumen",
+      "La graine exalbuminée présente des cotylédons volumineux"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à la présence de rhizoïdes",
+    "options": [
+      "Algue verte, Mousse, prothalle de fougère",
+      "Pin, prothalle de fougère, sac embryonnaire",
+      "Algue verte, sac embryonnaire",
+      "Prothalle de fougère, sac embryonnaire",
+      "Mousse, Pin, prothalle de fougère"
+    ],
+    "correct_answers": [
+      "Algue verte, Mousse, prothalle de fougère"
+    ]
+  }
+]

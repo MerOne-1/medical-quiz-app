@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Le fer alimentaire est absorbé sous forme ferreuse ou sous forme d'hème",
+      "Le fer alimentaire est absorbé par simple diffusion",
+      "Une fois dans l’entérocyte, il peut être éliminé sous forme de ferritine par desquamation de la muqueuse intestinale",
+      "Le fer alimentaire est absorbé en fonction des besoins",
+      "Dans le sang, il est transporté lié à la transferrine"
+    ],
+    "correct_answers": [
+      "Le fer alimentaire est absorbé sous forme ferreuse ou sous forme d'hème",
+      "Le fer alimentaire est absorbé en fonction des besoins",
+      "Une fois dans l’entérocyte, il peut être éliminé sous forme de ferritine par desquamation de la muqueuse intestinale",
+      "Dans le sang, il est transporté lié à la transferrine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Il existe des liens entre le métabolisme des acides aminés et le métabolisme énergétique. Parmi les liens proposés, lequel (lesquels) est (sont) exacte(s) ?",
+    "options": [
+      "Pyruvate",
+      "Alpha cétoglutarate",
+      "Oxaloacétate",
+      "Alanine",
+      "Citrate"
+    ],
+    "correct_answers": [
+      "Pyruvate",
+      "Oxaloacétate",
+      "Alpha cétoglutarate",
+      "Alanine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les acides aminés, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Certains sont indispensables au métabolisme des nucléotides",
+      "Aucune réponse n’est exacte",
+      "Chez l’Homme, chaque acide aminé est synthétisé de novo",
+      "Ils peuvent être classés en cinq familles biosynthétiques",
+      "Ils peuvent être classés en acides aminés essentiels et non essentiels"
+    ],
+    "correct_answers": [
+      "Ils peuvent être classés en acides aminés essentiels et non essentiels",
+      "Certains sont indispensables au métabolisme des nucléotides"
+    ]
+  }
+]

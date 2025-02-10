@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Donner la (les) proposition(s) exacte(s) concernant le mécanisme oxydatif (ou poussée respiratoire)",
+    "options": [
+      "Il est défectueux dans la granulomatose septique chronique",
+      "Il permet la production de peroxyde d’hydrogène",
+      "C’est un mécanisme de destruction de bactéries pathogènes",
+      "Il fait intervenir la NADPH oxydase, la myéloperoxydase et la MO synthétase",
+      "Il a lieu dans les macrophages, les neutrophiles et les mastocytes"
+    ],
+    "correct_answers": [
+      "C’est un mécanisme de destruction de bactéries pathogènes",
+      "Il est défectueux dans la granulomatose septique chronique",
+      "Il permet la production de peroxyde d’hydrogène"
+    ],
+    "justification_fausses_reponses": {
+      "Il fait intervenir la NADPH oxydase, la myéloperoxydase et la MO synthétase": "Cette affirmation est incorrecte car le mécanisme oxydatif ne fait pas intervenir la MO synthétase. Il fait intervenir la NADPH oxydase et la myéloperoxydase, mais pas la MO synthétase.",
+      "Il a lieu dans les macrophages, les neutrophiles et les mastocytes": "Cette affirmation est incorrecte car le mécanisme oxydatif n'a pas lieu dans les mastocytes. Il a lieu dans les macrophages et les neutrophiles, mais pas dans les mastocytes."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les immunosuppresseurs, quelle(s) proposition(s) est (sont) exacte(s)",
+    "options": [
+      "La grossesse est une contre-indication à la prescription de méthotrexate",
+      "L’azathioprine est une prodrogue du méthotrexate",
+      "L’azathioprine est un immunosuppresseur antiprolifératif",
+      "Azathioprine et 6-mercaptopurine sont des inhibiteurs de la DHFR",
+      "Ils vont être associés à une augmentation du risque d’infection"
+    ],
+    "correct_answers": [
+      "Ils vont être associés à une augmentation du risque d’infection",
+      "La grossesse est une contre-indication à la prescription de méthotrexate",
+      "L’azathioprine est un immunosuppresseur antiprolifératif"
+    ],
+    "justification_fausses_reponses": {
+      "L’azathioprine est une prodrogue du méthotrexate": "C'est incorrect car l'azathioprine est une prodrogue de la 6-mercaptopurine, et non du méthotrexate. Une prodrogue est une substance qui est transformée dans l'organisme en une substance pharmacologiquement active.",
+      "Azathioprine et 6-mercaptopurine sont des inhibiteurs de la DHFR": "C'est incorrect car l'azathioprine et la 6-mercaptopurine sont des antimétabolites qui inhibent la synthèse des purines, et non des inhibiteurs de la DHFR (dihydrofolate réductase). Les inhibiteurs de la DHFR, comme le méthotrexate, inhibent la conversion du dihydrofolate en tétrahydrofolate, une étape essentielle dans la synthèse des bases de l'ADN."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Quelles sont les cellules conservant une mémoire immunologique",
+    "options": [
+      "Les cellules dendritiques",
+      "Les lymphocytes B",
+      "Les lymphocytes T",
+      "Les polynucléaires",
+      "Les macrophages"
+    ],
+    "correct_answers": [
+      "Les lymphocytes T",
+      "Les lymphocytes B"
+    ],
+    "justification_fausses_reponses": {
+      "Les cellules dendritiques": "Les cellules dendritiques ne conservent pas une mémoire immunologique. Elles jouent un rôle dans la présentation de l'antigène aux lymphocytes, mais ne possèdent pas de mémoire immunologique.",
+      "Les polynucléaires": "Les polynucléaires sont des cellules de l'immunité innée qui ne possèdent pas de mémoire immunologique. Leur rôle est principalement de phagocyter les pathogènes.",
+      "Les macrophages": "Les macrophages sont des cellules de l'immunité innée qui ne possèdent pas de mémoire immunologique. Ils sont impliqués dans la phagocytose des pathogènes et la présentation de l'antigène aux lymphocytes."
+    }
+  }
+]

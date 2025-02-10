@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Système végétatif",
+    "options": [
+      "Les neurones pré-ganglionnaires (1  neurone) du système para-sympathique sont longs.",
+      "Les neurones post-ganglionnaires (seconds neurones) du système sympathique sont toujours longs.",
+      "Le nerf vague correspond à la XI éme paire de nerfs crâniens.",
+      "La médullosurrénale est innervée par des premiers neurones adrénergiques qui induisent indirectement la libération d’acétylcholine par la corticosurrénale.",
+      "Le système végétatif est totalement déconnecté du système nerveux central."
+    ],
+    "correct_answers": [
+      "Les neurones pré-ganglionnaires (1  neurone) du système para-sympathique sont longs."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionnez la seule bonne réponse:",
+    "options": [
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et les muscles extenseurs axiaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et les muscles extenseurs axiaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et stimule les muscles extenseurs axiaux.",
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et inhibe les muscles extenseurs axiaux."
+    ],
+    "correct_answers": [
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et inhibe les muscles extenseurs axiaux."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "En cas d’acidose respiratoire, la concentration sanguine en ions bicarbonates augmente.",
+      "Les centres neurologiques régulant la respiration sont situées dans partie haute de la moelle épinière.",
+      "Le système tampon du sang est uniquement constitué par le système tampon gaz carbonique / ions bicarbonates.",
+      "Le système tampon gaz carbonique / ions bicarbonates est un système tampon fermé.",
+      "Le pH artériel est le facteur majeur de régulation de la respiration."
+    ],
+    "correct_answers": [
+      "En cas d’acidose respiratoire, la concentration sanguine en ions bicarbonates augmente."
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "Le domaine de l’IR correspond à des énergies supérieures à celles du Visible",
+      "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR",
+      "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+      "Le domaine de l’UV correspond à des énergies inférieures à celles du Visible",
+      "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR"
+    ],
+    "correct_answers": [
+      "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+      "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR",
+      "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR"
+    ],
+    "justification_fausses_reponses": {
+      "Le domaine de l’IR correspond à des énergies supérieures à celles du Visible": "C'est incorrect car l'énergie des ondes infrarouges (IR) est inférieure à celle des ondes visibles. En effet, l'énergie d'une onde est inversement proportionnelle à sa longueur d'onde, et les ondes IR ont des longueurs d'onde plus grandes que les ondes visibles.",
+      "Le domaine de l’UV correspond à des énergies inférieures à celles du Visible": "C'est incorrect car l'énergie des ondes ultraviolettes (UV) est supérieure à celle des ondes visibles. En effet, l'énergie d'une onde est inversement proportionnelle à sa longueur d'onde, et les ondes UV ont des longueurs d'onde plus petites que les ondes visibles."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’Imagerie par R ésonance Magnétique, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "C’est une technique d’imagerie utilisant la radioactivité",
+      "Par IRM, on observe les protons de l’eau dans le corps humain",
+      "Par IRM, on détecte les noyaux émetteurs beta",
+      "Cette technique nécessite un champ magnétique intense",
+      "Par IRM, on détecte les rayons X+"
+    ],
+    "correct_answers": [
+      "Par IRM, on observe les protons de l’eau dans le corps humain",
+      "Cette technique nécessite un champ magnétique intense"
+    ],
+    "justification_fausses_reponses": {
+      "C’est une technique d’imagerie utilisant la radioactivité": "C'est incorrect car l'IRM n'utilise pas la radioactivité. Elle utilise un champ magnétique et des ondes radio pour créer des images détaillées des organes et des tissus du corps.",
+      "Par IRM, on détecte les noyaux émetteurs beta": "C'est incorrect car l'IRM ne détecte pas les noyaux émetteurs beta. Elle détecte les protons, en particulier ceux de l'eau, dans le corps humain.",
+      "Par IRM, on détecte les rayons X+": "C'est incorrect car l'IRM ne détecte pas les rayons X. Les rayons X sont utilisés en radiographie, pas en IRM."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’effet Doppler, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il est observé entre une source et un récepteur, tous deux immobiles",
+      "Il peut correspondre à une variation de fréquences d’ondes sonores",
+      "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+      "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+      "Il est observé entre une source et un récepteur, tous deux mobiles"
+    ],
+    "correct_answers": [
+      "Il peut correspondre à une variation de fréquences d’ondes sonores",
+      "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+      "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+      "Il est observé entre une source et un récepteur, tous deux mobiles"
+    ],
+    "justification_fausses_reponses": {
+      "Il est observé entre une source et un récepteur, tous deux immobiles": "L'effet Doppler est un phénomène physique qui se produit lorsque la source d'une onde (sonore, lumineuse, etc.) et son observateur se déplacent l'un par rapport à l'autre. Si la source et l'observateur sont immobiles, il n'y a pas d'effet Doppler."
+    }
+  }
+]

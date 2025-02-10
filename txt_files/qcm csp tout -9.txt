@@ -1,0 +1,47 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 9/13Question 20
+Non répondue
+Noté sur 1,00
+Question 21
+Non répondue
+Noté sur 1,00
+Question 22
+Non répondue
+Noté sur 1,00Un patient subit un test d'hyperglycémie provoquée. Sa glycémie à jeun est mesurée et une solution contenant une quantité
+de glucose lui est alors administrée. On effectue ensuite 10 mesures régulières de sa glycémie.
+Concernant la droite de régression donnant la glycémie en fonction du temps sur cet échantillon de mesures, la(les) réponse(s)
+exacte(s) est(sont) :
+Veuillez choisir au moins une réponse :
+Son équation s'écrit : glycémie = a (temps) + b
+Son équation s'écrit : glycémie = α (temps) + β
+Le temps est la variable explicative et la glycémie est la variable expliquée
+Le temps est la variable expliquée et la glycémie est la variable explicative
+Son équation s'écrit : temps = a (glycémie) + b
+Votre réponse est incorrecte.
+Les réponses correctes sont : Son équation s'écrit : glycémie = a (temps) + b, Le temps est la variable explicative et la glycémie
+est la variable expliquée
+Concernant l’estimation de la moyenne d’une variable quantitative à partir d’un échantillon, quelles sont les propositions
+correctes ?
+Veuillez choisir au moins une réponse :
+La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillon
+L’intervalle de confiance de la moyenne est d’autant plus large que le niveau de confiance est faible
+Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir
+donner une estimation par intervalle de confiance
+L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie
+valeur de la moyenne
+L’estimation ponctuelle est plus précise que l’estimation par intervalle de confiancex¯
+Votre réponse est incorrecte.
+Les réponses correctes sont : Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable
+étudiée pour pouvoir donner une estimation par intervalle de confiance, L'intervalle de confiance à 95% de la moyenne est un
+intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne, La meilleure estimation ponctuelle
+possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillonx¯
+On souhaite comparer deux moyennes en séries appariées et l'on utilise, pour cela, un test paramétrique (les conditions
+d'utilisation sont supposées remplies). L'échantillon est de taille 30. La variable de décision suit, sous l'hypothèse nulle, une
+Veuillez choisir au moins une réponse :
+loi de Fisher-Snedecor
+loi de P oisson
+loi de S tudent
+loi normale
+loi du khi-deux
+Votre réponse est incorrecte.
+La réponse correcte est : loi de S tudent

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Lors d'une intoxication aiguë par l'acide acétylsalicylique chez l'adulte, quel est (sont) le (les) symptôme(s) que l’on peut observer ?",
+    "options": [
+      "Une alcalose respiratoire.",
+      "Des vomissements.",
+      "Des bourdonnements d'oreilles.",
+      "Une hypothermie.",
+      "Des céphalées."
+    ],
+    "correct_answers": [
+      "Une alcalose respiratoire.",
+      "Des bourdonnements d'oreilles.",
+      "Des céphalées.",
+      "Des vomissements."
+    ],
+    "justification_fausses_reponses": {
+      "Une hypothermie.": "L'hypothermie n'est pas un symptôme typique d'une intoxication aiguë par l'acide acétylsalicylique. L'acide acétylsalicylique peut provoquer une augmentation de la température corporelle, pas une diminution."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la toxicité du paracétamol, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La néphropathie tubulaire aiguë constitue un signe précoce d'intoxication.",
+      "La N-acétylcystéine per os est d’autant plus efficace si elle est associée à du charbon activé.",
+      "L'administration précoce de charbon activé diminue la biodisponibilité du paracétamol.",
+      "Le dosage du paracétamol dans le sang 4 heures après ingestion est un bon élément du pronostic.",
+      "Lors d’une intoxication par le paracétamol, il peut être observé des signes précoces non spécifiques comme des nausées ou des vomissements."
+    ],
+    "correct_answers": [
+      "L'administration précoce de charbon activé diminue la biodisponibilité du paracétamol.",
+      "Le dosage du paracétamol dans le sang 4 heures après ingestion est un bon élément du pronostic.",
+      "Lors d’une intoxication par le paracétamol, il peut être observé des signes précoces non spécifiques comme des nausées ou des vomissements."
+    ],
+    "justification_fausses_reponses": {
+      "La néphropathie tubulaire aiguë constitue un signe précoce d'intoxication.": "La néphropathie tubulaire aiguë n'est pas un signe précoce d'intoxication au paracétamol. Elle peut survenir dans les cas graves d'intoxication, mais elle n'est généralement pas le premier signe.",
+      "La N-acétylcystéine per os est d’autant plus efficace si elle est associée à du charbon activé.": "La N-acétylcystéine est un antidote efficace contre l'intoxication au paracétamol, mais son efficacité n'est pas augmentée par l'association avec du charbon activé. Le charbon activé peut réduire l'absorption du paracétamol, mais il n'a pas d'effet sur l'efficacité de la N-acétylcystéine."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Les agents cancérigènes génotoxiques se caractérisent par : donner la (les) réponse(s) exacte(s).",
+    "options": [
+      "Le caractère dose-dépendant de la tumorogénicité.",
+      "Une spécificité d’espèce, de souche et de tissu.",
+      "L’absence de lésion directe de l’ADN.",
+      "Leur caractère mutagène.",
+      "L’absence de mécanisme à seuil pour la plupart de ces substances."
+    ],
+    "correct_answers": [
+      "Leur caractère mutagène.",
+      "Le caractère dose-dépendant de la tumorogénicité.",
+      "L’absence de mécanisme à seuil pour la plupart de ces substances."
+    ],
+    "justification_fausses_reponses": {
+      "Une spécificité d’espèce, de souche et de tissu.": "Cette affirmation est incorrecte car les agents cancérigènes génotoxiques ne présentent pas de spécificité d'espèce, de souche ou de tissu. Ils peuvent affecter n'importe quelle cellule capable de se diviser.",
+      "L’absence de lésion directe de l’ADN.": "Cette affirmation est incorrecte car les agents cancérigènes génotoxiques provoquent des lésions directes de l'ADN. C'est précisément cette capacité à endommager l'ADN qui les rend cancérigènes."
+    }
+  }
+]

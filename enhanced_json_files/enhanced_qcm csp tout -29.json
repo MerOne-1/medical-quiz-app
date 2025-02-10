@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En chromatographie:",
+    "options": [
+      "La théorie des plateaux permet d’expliquer tous les résultats observés",
+      "La hauteur d’un plateau augmente quand la longueur de la colonne augmente",
+      "La colonne chromatographique est constituée de plateaux réels",
+      "La hauteur d’un plateau diminue quand le diamètre des particules de phase stationnaire diminue",
+      "La théorie cinétique, plus récente, a supplanté la théorie des plateaux, plus ancienne"
+    ],
+    "correct_answers": [
+      "La théorie des plateaux permet d’expliquer tous les résultats observés",
+      "La théorie cinétique, plus récente, a supplanté la théorie des plateaux, plus ancienne",
+      "La colonne chromatographique est constituée de plateaux réels",
+      "La hauteur d’un plateau augmente quand la longueur de la colonne augmente"
+    ],
+    "justification_fausses_reponses": {
+      "La hauteur d’un plateau diminue quand le diamètre des particules de phase stationnaire diminue": "Cette affirmation est incorrecte car la hauteur d'un plateau en chromatographie est indépendante du diamètre des particules de la phase stationnaire. Elle est plutôt influencée par des facteurs tels que la vitesse de déplacement de la phase mobile et la nature de la phase stationnaire."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En chomatographie,:",
+    "options": [
+      "Tous les composés ont des volumes de rétention identiques",
+      "Tous les composés ont la même vitesse apparente dans la phase mobile",
+      "Tous les composés ont des vitesses réelles différentes dans la phase mobile",
+      "Tous les composés ont la même vitesse réelle dans la phase mobile",
+      "Tous les composés ont des temps de rétention différents"
+    ],
+    "correct_answers": [
+      "Tous les composés ont la même vitesse réelle dans la phase mobile",
+      "Tous les composés ont des temps de rétention différents"
+    ],
+    "justification_fausses_reponses": {
+      "Tous les composés ont des volumes de rétention identiques": "C'est incorrect car le volume de rétention dépend de l'interaction du composé avec la phase stationnaire et la phase mobile. Donc, différents composés auront des volumes de rétention différents.",
+      "Tous les composés ont la même vitesse apparente dans la phase mobile": "C'est incorrect car la vitesse apparente d'un composé dans la phase mobile dépend de son interaction avec la phase stationnaire. Donc, différents composés auront des vitesses apparentes différentes.",
+      "Tous les composés ont des vitesses réelles différentes dans la phase mobile": "C'est incorrect car la vitesse réelle d'un composé dans la phase mobile est la même pour tous les composés. C'est la vitesse à laquelle la phase mobile se déplace."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "L’acide chlorhydrique est un acide fort",
+      "L’acide acétique est un acide faible",
+      "Le chlorure de sodium est un acide",
+      "L’ammoniaque est une base faible",
+      "La soude est une base faible"
+    ],
+    "correct_answers": [
+      "L’acide chlorhydrique est un acide fort",
+      "L’ammoniaque est une base faible",
+      "L’acide acétique est un acide faible"
+    ],
+    "justification_fausses_reponses": {
+      "Le chlorure de sodium est un acide": "Le chlorure de sodium n'est pas un acide mais un sel. Il est le produit de la réaction entre un acide et une base, en l'occurrence l'acide chlorhydrique et la soude.",
+      "La soude est une base faible": "La soude, ou hydroxyde de sodium, n'est pas une base faible mais une base forte. Elle se dissocie complètement dans l'eau pour donner des ions hydroxyde, ce qui est caractéristique des bases fortes."
+    }
+  }
+]

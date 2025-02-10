@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant le virus de la poliomyélite, quelles sont les réponses vraies ?",
+    "options": [
+      "C'est un virus transmissible par le sang",
+      "C'est un virus transmissible par voie fécale orale",
+      "C'est un virus responsable de paralysies flasques",
+      "La vaccination contre la poliomyélite est obligatoire en France",
+      "C'est un virus responsable de gastro-entérites"
+    ],
+    "correct_answers": [
+      "C'est un virus transmissible par voie fécale orale",
+      "C'est un virus responsable de paralysies flasques",
+      "La vaccination contre la poliomyélite est obligatoire en France"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Parmi les conseils suivants, lesquels donnez-vous à la mère de Kevin ?",
+    "options": [
+      "Vacciner Kevin par le Rotateq ou le Rotarix",
+      "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+      "Ne pas mettre Kevin en contact avec son frère de 5 ans",
+      "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+      "Kevin doit se laver les mains après chaque selle"
+    ],
+    "correct_answers": [
+      "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+      "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+      "Kevin doit se laver les mains après chaque selle"
+    ]
+  }
+]

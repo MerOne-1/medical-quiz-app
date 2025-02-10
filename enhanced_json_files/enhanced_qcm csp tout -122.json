@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant la Direction européenne de la qualité du médicament & des soins de santé (DEQM), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "La DEQM est notamment chargée de l’évaluation des dossiers d’AMM européens.",
+      "La DEQM dépend de l’Union européenne.",
+      "La DEQM est située à Strasbourg.",
+      "La DEQM est située à Londres.",
+      "La DEQM dépend du Conseil de l’Europe."
+    ],
+    "correct_answers": [
+      "La DEQM dépend du Conseil de l’Europe.",
+      "La DEQM est située à Strasbourg."
+    ],
+    "justification_fausses_reponses": {
+      "La DEQM est notamment chargée de l’évaluation des dossiers d’AMM européens.": "C'est incorrect car la DEQM n'est pas chargée de l'évaluation des dossiers d'AMM européens. Cette tâche est plutôt attribuée à l'Agence européenne des médicaments (EMA).",
+      "La DEQM dépend de l’Union européenne.": "C'est incorrect car la DEQM ne dépend pas de l'Union européenne mais du Conseil de l'Europe, une organisation internationale distincte de l'UE.",
+      "La DEQM est située à Londres.": "C'est incorrect car la DEQM est située à Strasbourg, en France, et non à Londres."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les assimilés stupéfiants, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance sécurisée.",
+      "Les médicaments « assimilés stupéfiants » sont des médicaments qui appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants.",
+      "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance d’exception bleue à 4 volets.",
+      "Les médicaments « assimilés stupéfiants » sont tous, sans exception, des médicaments utilisés comme traitements de substitution aux opiacés.",
+      "Les médicaments « assimilés stupéfiants » sont des médicaments psychotropes classés parmi les stupéfiants."
+    ],
+    "correct_answers": [
+      "Les médicaments « assimilés stupéfiants » sont des médicaments qui appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants.",
+      "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance sécurisée."
+    ],
+    "justification_fausses_reponses": {
+      "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance d’exception bleue à 4 volets.": "Cette affirmation est incorrecte car les médicaments « assimilés stupéfiants » ne nécessitent pas une ordonnance d’exception bleue à 4 volets. Ils sont prescrits sur une ordonnance sécurisée.",
+      "Les médicaments « assimilés stupéfiants » sont tous, sans exception, des médicaments utilisés comme traitements de substitution aux opiacés.": "Cette affirmation est incorrecte car tous les médicaments « assimilés stupéfiants » ne sont pas utilisés comme traitements de substitution aux opiacés. Certains peuvent être utilisés pour d'autres indications thérapeutiques.",
+      "Les médicaments « assimilés stupéfiants » sont des médicaments psychotropes classés parmi les stupéfiants.": "Cette affirmation est incorrecte car tous les médicaments « assimilés stupéfiants » ne sont pas des médicaments psychotropes classés parmi les stupéfiants. Ils appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant l’ Agence nationale de sécurité sanitaire des médicaments et produits de santé (ANSM), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "L’ANSM comporte 5 divisions « métiers ».",
+      "L’ANSM est chargée de la rédaction de la Pharmacopée européenne dans ses différentes éditions successives.",
+      "L’ANSM comporte 8 divisions « produits ».",
+      "L’ANSM comporte 14 divisions « ressources ».",
+      "L’ANSM est chargée de la rédaction de la Pharmacopée française dans ses différentes éditions successives."
+    ],
+    "correct_answers": [
+      "L’ANSM comporte 8 divisions « produits ».",
+      "L’ANSM comporte 5 divisions « métiers ».",
+      "L’ANSM est chargée de la rédaction de la Pharmacopée française dans ses différentes éditions successives."
+    ],
+    "justification_fausses_reponses": {
+      "L’ANSM est chargée de la rédaction de la Pharmacopée européenne dans ses différentes éditions successives.": "C'est incorrect car la rédaction de la Pharmacopée européenne est la responsabilité du Conseil de l'Europe, pas de l'ANSM.",
+      "L’ANSM comporte 14 divisions « ressources ».": "C'est incorrect car l'ANSM ne comporte pas 14 divisions « ressources ». Le nombre de divisions peut varier, mais il est généralement inférieur à 14."
+    }
+  }
+]

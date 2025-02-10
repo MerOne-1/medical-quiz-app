@@ -1,0 +1,58 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant le milieu de Kligler :",
+    "options": [
+      "la lecture du milieu doit être réalisée entre 18 et 24h d'incubation",
+      "ce milieu est utilisé pour identifier des bactéries à Gram +",
+      "c'est un milieu d'identification des entérobactéries",
+      "il permet de repérer des bactéries productrices d'H2S (sulfitoréductrices)",
+      "il permet de repérer des bactéries fermentant glucose et lactose"
+    ],
+    "correct_answers": [
+      "ce milieu est utilisé pour identifier des bactéries à Gram +"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Environ 80% des antibiotiques sont produits par des bactéries du genre Streptomyces . Pour isoler de nouvelles souches productrices à partir du sol, on utilise des milieux comprenant de l'amidon, de la caséine et des nitrates. Vous en déduisez que ces bactéries sont :",
+    "options": [
+      "des autotrophes",
+      "des photolithotrophes",
+      "des auxotrophes",
+      "des mésotrophes",
+      "des prototrophes"
+    ],
+    "correct_answers": [
+      "des auxotrophes"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant l'antigène O des entérobactéries qui est utilisé en épidémiologie. Il correspond à :",
+    "options": [
+      "la chaîne oligosaccharidique externe des lipopolysaccharides",
+      "des unités de glycopeptides libres",
+      "le lipide A",
+      "la lipoprotéine de Braun",
+      "une structure de flagelline"
+    ],
+    "correct_answers": [
+      "la chaîne oligosaccharidique externe des lipopolysaccharides"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "L'undecaprénylphosphate est nécessaire à la biosynthèse de la paroi bactérienne. Il permet :",
+    "options": [
+      "la fixation des bêta-lactamines à la paroi néoformée",
+      "aucune de ces propositions n'est exacte",
+      "le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique",
+      "la fixation des unités de glycopeptides à la paroi néoformée",
+      "la formation du nucléotide de Park"
+    ],
+    "correct_answers": [
+      "le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique"
+    ]
+  }
+]

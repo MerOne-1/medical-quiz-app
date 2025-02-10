@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les étapes suivantes, quelles sont celles relatives au protocole d’immunofluorescence sur culture de cellules en monocouche :",
+    "options": [
+      "Séparation des protéines par électrophorèse",
+      "Incubation de la culture cellulaire avec un anticorps radiomarqué",
+      "Dosage des protéines totales",
+      "Inclusion de la culture cellulaire dans une résine",
+      "Observation des cellules à l’aide d’un microscope optique"
+    ],
+    "correct_answers": [
+      "Observation des cellules à l’aide d’un microscope optique"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant l’adhérence cellulaire, quelles sont les propositions vraies :",
+    "options": [
+      "Les récepteurs d’adhérence sont en général des récepteurs nucléaires",
+      "L’adhérence cellulaire peut être stable ou transitoire",
+      "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+      "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires",
+      "La seule fonction de l’adhérence cellulaire est de permettre la cohésion des cellules pour former un tissu dans un organisme pluricellulaire"
+    ],
+    "correct_answers": [
+      "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+      "L’adhérence cellulaire peut être stable ou transitoire",
+      "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l’expression d’une protéine spécifique :",
+    "options": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Dosage colorimétrique des protéines totales",
+      "Immunofluorescence",
+      "Western Blot",
+      "Dot blot"
+    ],
+    "correct_answers": [
+      "Immunofluorescence",
+      "Western Blot",
+      "Dot blot"
+    ]
+  }
+]

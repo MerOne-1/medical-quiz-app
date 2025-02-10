@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Choisir la (ou les) liste(s) de termes apparaissant tous chez les arbres et arbustes et absents des jeunes plantes herbacées à structure primaire",
+    "options": [
+      "Aubier, phloème II°, liège",
+      "Liège, parenchyme palissadique",
+      "Epiderme, phloème II°",
+      "Bois, cambium, suber",
+      "Aubier, cambium, parenchyme palissadique"
+    ],
+    "correct_answers": [
+      "Bois, cambium, suber",
+      "Aubier, phloème II°, liège"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives aux Monocotylédones, choisir celle(s) exacte(s)",
+    "options": [
+      "Le cambium est absent",
+      "Les racines présentent au moins 7 pôles de xylème I°",
+      "Le suber est présent",
+      "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme",
+      "Les faisceaux libéro-ligneux sont disposés sur un seul cercle"
+    ],
+    "correct_answers": [
+      "Le cambium est absent",
+      "Les racines présentent au moins 7 pôles de xylème I°",
+      "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Un champignon possédant comme caractéristiques, des lames décurrentes et une sporée blanche, un voile partiel et poussant sur du bois appartient à un groupe dont les représentants sont extrêmement courants et font l’objet d’une bonne partie des sollicitations de clients à l’officine. Il s’agit",
+    "options": [
+      "Du paxille enroulé",
+      "De l’amanite phalloïde",
+      "Des russules",
+      "Des armillaires",
+      "Des girolles"
+    ],
+    "correct_answers": [
+      "Des armillaires"
+    ]
+  }
+]

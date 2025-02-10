@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+    "options": [
+      "La digoxine doit être utilisée dès le stade I de l'insuffisance cardiaque chronique",
+      "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+      "L'ivabradine est contre-indiquée chez le patient insuffisant cardiaque",
+      "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+      "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+    ],
+    "correct_answers": [
+      "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+      "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+      "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+    ],
+    "justification_fausses_reponses": {
+      "La digoxine doit être utilisée dès le stade I de l'insuffisance cardiaque chronique": "La digoxine n'est pas recommandée en première ligne pour le traitement de l'insuffisance cardiaque chronique. Elle est généralement utilisée lorsque d'autres traitements ne sont pas suffisants ou ne sont pas tolérés.",
+      "L'ivabradine est contre-indiquée chez le patient insuffisant cardiaque": "L'ivabradine n'est pas contre-indiquée chez les patients souffrant d'insuffisance cardiaque. Au contraire, elle est souvent utilisée pour réduire la fréquence cardiaque chez les patients qui ne peuvent pas prendre de béta-bloquants ou chez ceux dont la fréquence cardiaque reste élevée malgré le traitement par béta-bloquants."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "L'atteinte neurologique est un effet indésirable majeur de la rifampicine.",
+      "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples.",
+      "La rifampicine est un inhibiteur enzymatique puissant.",
+      "La rifampicine est un inducteur enzymatique puissant.",
+      "La rifampicine agit principalement sur les bacilles intracellulaires car le milieu acide est nécessaire à son activité."
+    ],
+    "correct_answers": [
+      "La rifampicine est un inducteur enzymatique puissant.",
+      "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples."
+    ],
+    "justification_fausses_reponses": {
+      "L'atteinte neurologique est un effet indésirable majeur de la rifampicine.": "Bien que la rifampicine puisse causer des effets indésirables, l'atteinte neurologique n'est pas considérée comme un effet majeur. Les effets indésirables les plus courants sont les réactions allergiques et les troubles gastro-intestinaux.",
+      "La rifampicine est un inhibiteur enzymatique puissant.": "C'est incorrect, la rifampicine est en réalité un inducteur enzymatique puissant. Cela signifie qu'elle augmente la production d'enzymes, ce qui peut accélérer le métabolisme de certains médicaments.",
+      "La rifampicine agit principalement sur les bacilles intracellulaires car le milieu acide est nécessaire à son activité.": "C'est incorrect, la rifampicine agit en inhibant l'ARN polymérase des bacilles de la tuberculose, empêchant ainsi la transcription de l'ADN en ARN. Son activité n'est pas dépendante du milieu acide."
+    }
+  }
+]

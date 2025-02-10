@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "On désire diluer une solution de paracétamol à 1 mol/L afin de préparer une solution à exactement 0,2 mol/L. On procédera de la manière suivante :",
+    "options": [
+      "dans un petit tube conique en plastique de 2 mL gradué, introduire 0,2 mL de la solution mère (micropipette de précision) et ajouter de l’eau jusqu’à la graduation indiquant 1 mL.",
+      "dans un flacon en verre de 100 mL introduire : 10 mL de la solution mère (pipette graduée)+ 40 mL d’eau (éprouvette).",
+      "dans un flacon en verre de 100 mL introduire : 10 mL de la solution mère (pipette jaugée) + 40 mL d’eau (éprouvette).",
+      "dans un petit tube conique en plastique de 2 mL gradué, introduire : 200 µL de la solution mère (micropipette de précision) et ajouter 800 µL d’eau (micropipette de précision)",
+      "dans une fiole jaugée de 10 mL introduire 2 mL de la solution mère (pipette jaugée) et compléter jusqu’au trait de jauge avec de l’eau"
+    ],
+    "correct_answers": [
+      "dans une fiole jaugée de 10 mL introduire 2 mL de la solution mère (pipette jaugée) et compléter jusqu’au trait de jauge avec de l’eau",
+      "dans un petit tube conique en plastique de 2 mL gradué, introduire : 200 µL de la solution mère (micropipette de précision) et ajouter 800 µL d’eau (micropipette de précision)"
+    ],
+    "justification_fausses_reponses": {
+      "dans un petit tube conique en plastique de 2 mL gradué, introduire 0,2 mL de la solution mère (micropipette de précision) et ajouter de l’eau jusqu’à la graduation indiquant 1 mL.": "Cette méthode ne donnera pas une concentration de 0,2 mol/L car le volume final n'est pas correct. La dilution nécessite un volume final de 5 fois le volume initial pour obtenir une concentration de 0,2 mol/L.",
+      "dans un flacon en verre de 100 mL introduire : 10 mL de la solution mère (pipette graduée)+ 40 mL d’eau (éprouvette).": "Cette méthode ne donnera pas une concentration de 0,2 mol/L car le volume final n'est pas correct. La dilution nécessite un volume final de 5 fois le volume initial pour obtenir une concentration de 0,2 mol/L.",
+      "dans un flacon en verre de 100 mL introduire : 10 mL de la solution mère (pipette jaugée) + 40 mL d’eau (éprouvette).": "Cette méthode ne donnera pas une concentration de 0,2 mol/L car le volume final n'est pas correct. La dilution nécessite un volume final de 5 fois le volume initial pour obtenir une concentration de 0,2 mol/L."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "L’aspirine a un pKa de 3,48. Quelle(s) est (sont) l(es) affirmation(s) exacte(s) ?",
+    "options": [
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme acide",
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme basique",
+      "En solution dans l’eau, l’aspirine est partiellement ionisée",
+      "En solution dans l’eau, l’aspirine est totalement ionisée.",
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme moléculaire."
+    ],
+    "correct_answers": [
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme basique",
+      "En solution dans l’eau, l’aspirine est totalement ionisée."
+    ],
+    "justification_fausses_reponses": {
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme acide": "C'est incorrect car l'aspirine, ayant un pKa de 3,48, ne sera pas totalement sous sa forme acide dans l'eau. Elle sera plutôt partiellement ionisée.",
+      "En solution dans l’eau, l’aspirine est partiellement ionisée": "C'est incorrect car l'aspirine, ayant un pKa de 3,48, sera totalement ionisée dans l'eau, pas seulement partiellement.",
+      "En solution dans l’eau, l’aspirine est totalement sous sa forme moléculaire.": "C'est incorrect car l'aspirine, en solution dans l'eau, sera ionisée et non sous sa forme moléculaire."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant les conditions de validité de la loi de Beer-Lambert, quelles sont celles qui sont exactes ?",
+    "options": [
+      "La loi de Beer-Lambert est additive",
+      "La solution soumise à mesure doit être limpide",
+      "La concentration en soluté, à mesurer, doit être inférieure à la micromolarité",
+      "La loi de Beer-Lambert est inapplicable lorsque le milieu présente un effet de matrice stricto sensu",
+      "La loi de Beer-Lambert nécessite l'utilisation de monochromateur de bandes passantes supérieures à 50 nm"
+    ],
+    "correct_answers": [
+      "La solution soumise à mesure doit être limpide",
+      "La loi de Beer-Lambert est additive"
+    ],
+    "justification_fausses_reponses": {
+      "La concentration en soluté, à mesurer, doit être inférieure à la micromolarité": "C'est incorrect car la loi de Beer-Lambert est applicable à une large gamme de concentrations, pas seulement inférieures à la micromolarité.",
+      "La loi de Beer-Lambert est inapplicable lorsque le milieu présente un effet de matrice stricto sensu": "C'est incorrect car l'effet de matrice peut être compensé par des techniques appropriées, rendant la loi de Beer-Lambert applicable.",
+      "La loi de Beer-Lambert nécessite l'utilisation de monochromateur de bandes passantes supérieures à 50 nm": "C'est incorrect car la loi de Beer-Lambert ne spécifie pas la largeur de bande du monochromateur. La précision de la mesure peut être affectée par la largeur de bande, mais ce n'est pas une condition de validité de la loi."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la distribution tissulaire des médicaments, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle",
+      "Un médicament acide faible fortement liés aux protéines plasmatiques possède un volume de distribution supérieur à 50 litres",
+      "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+      "La fixation des antibiotiques de type cycline est faible au niveau de l'os",
+      "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile"
+    ],
+    "correct_answers": [
+      "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile",
+      "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+      "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle"
+    ],
+    "justification_fausses_reponses": {
+      "Un médicament acide faible fortement liés aux protéines plasmatiques possède un volume de distribution supérieur à 50 litres": "C'est incorrect car un médicament acide faible fortement lié aux protéines plasmatiques aura un volume de distribution plus faible. En effet, plus un médicament est lié aux protéines plasmatiques, moins il est libre de se distribuer dans les tissus.",
+      "La fixation des antibiotiques de type cycline est faible au niveau de l'os": "C'est faux car les antibiotiques de type cycline ont une forte affinité pour le calcium, ce qui les conduit à se fixer fortement dans les tissus osseux."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants lesquels ou lequel sont/ est un agoniste dopaminergique ?",
+    "options": [
+      "Bromocriptine",
+      "Pramipexole",
+      "Tropatepine",
+      "Rasagiline",
+      "Trihexyphenidyle"
+    ],
+    "correct_answers": [
+      "Bromocriptine",
+      "Pramipexole"
+    ],
+    "justification_fausses_reponses": {
+      "Tropatepine": "La Tropatépine n'est pas un agoniste dopaminergique. C'est un anticholinergique, utilisé pour traiter les symptômes de la maladie de Parkinson.",
+      "Rasagiline": "La Rasagiline n'est pas un agoniste dopaminergique. C'est un inhibiteur de la monoamine oxydase B (IMAO-B), utilisé pour traiter les symptômes de la maladie de Parkinson.",
+      "Trihexyphenidyle": "Le Trihexyphénidyle n'est pas un agoniste dopaminergique. C'est un anticholinergique, utilisé pour traiter les symptômes de la maladie de Parkinson."
+    }
+  }
+]

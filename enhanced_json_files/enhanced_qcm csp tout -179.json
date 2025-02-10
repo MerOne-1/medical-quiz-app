@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’ADH stimule la synthèse des aquaporines de l’anse de Henlé.",
+      "Le furosémide inhibe la pompe Na-K A TPase.",
+      "La réabsorption de l’eau par le tubule est primitivement la conséquence de l’activité des vasa recta.",
+      "La réabsorption du sodium par le tubule est due à la présence de canaux sodium tout au long du tubule.",
+      "La réabsorption du sodium par le tubule est partiellement régulée par des variations de pression sur la paroi des capillaires péritubulaires."
+    ],
+    "correct_answers": [
+      "La réabsorption du sodium par le tubule est partiellement régulée par des variations de pression sur la paroi des capillaires péritubulaires."
+    ],
+    "justification_fausses_reponses": {
+      "L’ADH stimule la synthèse des aquaporines de l’anse de Henlé.": "C'est incorrect car l'ADH stimule la synthèse des aquaporines dans les tubules collecteurs et non dans l'anse de Henlé.",
+      "Le furosémide inhibe la pompe Na-K A TPase.": "C'est faux car le furosémide inhibe le cotransporteur Na-K-2Cl dans l'anse de Henlé et non la pompe Na-K ATPase.",
+      "La réabsorption de l’eau par le tubule est primitivement la conséquence de l’activité des vasa recta.": "C'est incorrect car la réabsorption de l'eau est principalement due à l'activité des canaux aquaporines et non des vasa recta.",
+      "La réabsorption du sodium par le tubule est due à la présence de canaux sodium tout au long du tubule.": "C'est faux car la réabsorption du sodium est principalement due à l'activité de la pompe Na-K ATPase et non à la présence de canaux sodium."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "L’événement ionique responsable de la phase de dépolarisation des potentiels d’action des cellules nerveuses est:",
+    "options": [
+      "Entrée de potassium dans la cellule",
+      "Entrée de chlore dans la cellule",
+      "Sortie de potassium de la cellule",
+      "Entrée de calcium dans la cellule",
+      "Entrée de sodium dans la cellule"
+    ],
+    "correct_answers": [
+      "Entrée de sodium dans la cellule"
+    ],
+    "justification_fausses_reponses": {
+      "Entrée de potassium dans la cellule": "C'est incorrect car l'entrée de potassium dans la cellule est responsable de la phase de repolarisation, pas de la dépolarisation.",
+      "Entrée de chlore dans la cellule": "C'est incorrect car l'entrée de chlore dans la cellule ne provoque pas de dépolarisation. Le chlore est un ion qui contribue à la stabilisation du potentiel de repos de la cellule.",
+      "Sortie de potassium de la cellule": "C'est incorrect car la sortie de potassium de la cellule est également associée à la phase de repolarisation, pas de la dépolarisation.",
+      "Entrée de calcium dans la cellule": "C'est incorrect car bien que l'entrée de calcium puisse provoquer une dépolarisation dans certaines cellules, dans le contexte des cellules nerveuses, c'est l'entrée de sodium qui est principalement responsable de la dépolarisation."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’aldostérone diminue la sécrétion de potassium dans la lumière tubulaire par diminution du nombre de canaux potassium de la membrane apicale des cellules du tube collecteur.",
+      "Une acidose plasmatique favorise l’hypokaliémie.",
+      "Une augmentation du débit tubulaire augmente la sécrétion de potassium.",
+      "L’ACTH est le principal facteur stimulant la sécrétion surrénalienne de l’aldostérone.",
+      "Le tubule a une activité exclusive de sécrétion de potassium en cas d’ingestion importante de potassium."
+    ],
+    "correct_answers": [
+      "Une augmentation du débit tubulaire augmente la sécrétion de potassium."
+    ],
+    "justification_fausses_reponses": {
+      "L’aldostérone diminue la sécrétion de potassium dans la lumière tubulaire par diminution du nombre de canaux potassium de la membrane apicale des cellules du tube collecteur.": "En réalité, l'aldostérone augmente la sécrétion de potassium en augmentant le nombre de canaux potassium.",
+      "Une acidose plasmatique favorise l’hypokaliémie.": "C'est incorrect. Une acidose plasmatique favorise en réalité l'hyperkaliémie, car elle provoque une sortie de potassium des cellules vers le plasma.",
+      "L’ACTH est le principal facteur stimulant la sécrétion surrénalienne de l’aldostérone.": "C'est faux. L'ACTH stimule la sécrétion de cortisol, pas d'aldostérone. La sécrétion d'aldostérone est principalement régulée par le système rénine-angiotensine-aldostérone.",
+      "Le tubule a une activité exclusive de sécrétion de potassium en cas d’ingestion importante de potassium.": "C'est incorrect. Le tubule rénal a également une activité de réabsorption de potassium, pas seulement de sécrétion."
+    }
+  }
+]

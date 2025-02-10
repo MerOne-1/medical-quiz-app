@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant le milieu de Kligler :",
+    "options": [
+      "la lecture du milieu doit être réalisée entre 18 et 24h d'incubation",
+      "ce milieu est utilisé pour identifier des bactéries à Gram +",
+      "c'est un milieu d'identification des entérobactéries",
+      "il permet de repérer des bactéries productrices d'H2S (sulfitoréductrices)",
+      "il permet de repérer des bactéries fermentant glucose et lactose"
+    ],
+    "correct_answers": [
+      "ce milieu est utilisé pour identifier des bactéries à Gram +"
+    ],
+    "justification_fausses_reponses": {
+      "la lecture du milieu doit être réalisée entre 18 et 24h d'incubation": "Cette affirmation est incorrecte car la lecture du milieu de Kligler peut être réalisée après 24 heures d'incubation, selon le type de bactérie que l'on souhaite identifier.",
+      "c'est un milieu d'identification des entérobactéries": "Cette affirmation est incorrecte car le milieu de Kligler est utilisé pour identifier une variété de bactéries, pas seulement les entérobactéries.",
+      "il permet de repérer des bactéries productrices d'H2S (sulfitoréductrices)": "Cette affirmation est incorrecte car le milieu de Kligler ne permet pas de repérer spécifiquement les bactéries productrices d'H2S. D'autres tests sont nécessaires pour cette identification.",
+      "il permet de repérer des bactéries fermentant glucose et lactose": "Cette affirmation est incorrecte car le milieu de Kligler ne permet pas de repérer spécifiquement les bactéries fermentant le glucose et le lactose. D'autres tests sont nécessaires pour cette identification."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Environ 80% des antibiotiques sont produits par des bactéries du genre Streptomyces . Pour isoler de nouvelles souches productrices à partir du sol, on utilise des milieux comprenant de l'amidon, de la caséine et des nitrates. Vous en déduisez que ces bactéries sont :",
+    "options": [
+      "des autotrophes",
+      "des photolithotrophes",
+      "des auxotrophes",
+      "des mésotrophes",
+      "des prototrophes"
+    ],
+    "correct_answers": [
+      "des auxotrophes"
+    ],
+    "justification_fausses_reponses": {
+      "des autotrophes": "Les bactéries autotrophes sont capables de synthétiser leur propre matière organique à partir de matière inorganique. Or, les bactéries du genre Streptomyces ont besoin d'amidon, de caséine et de nitrates pour se développer, ce qui indique qu'elles ne sont pas autotrophes.",
+      "des photolithotrophes": "Les photolithotrophes sont des organismes qui utilisent la lumière comme source d'énergie et des composés inorganiques comme source d'électrons. Les bactéries du genre Streptomyces ne correspondent pas à cette définition car elles ont besoin de matière organique pour se développer.",
+      "des mésotrophes": "Les mésotrophes sont des organismes qui vivent dans des environnements à teneur moyenne en nutriments. Cependant, cette définition ne décrit pas la capacité des bactéries du genre Streptomyces à produire des antibiotiques.",
+      "des prototrophes": "Les prototrophes sont des organismes qui peuvent synthétiser tous les composés organiques dont ils ont besoin à partir de sources de carbone simples. Les bactéries du genre Streptomyces ne sont pas des prototrophes car elles ont besoin d'amidon, de caséine et de nitrates pour se développer."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant l'antigène O des entérobactéries qui est utilisé en épidémiologie. Il correspond à :",
+    "options": [
+      "la chaîne oligosaccharidique externe des lipopolysaccharides",
+      "des unités de glycopeptides libres",
+      "le lipide A",
+      "la lipoprotéine de Braun",
+      "une structure de flagelline"
+    ],
+    "correct_answers": [
+      "la chaîne oligosaccharidique externe des lipopolysaccharides"
+    ],
+    "justification_fausses_reponses": {
+      "des unités de glycopeptides libres": "L'antigène O ne correspond pas à des unités de glycopeptides libres. Il est spécifiquement lié à la chaîne oligosaccharidique externe des lipopolysaccharides.",
+      "le lipide A": "L'antigène O ne correspond pas au lipide A. Le lipide A est une partie du lipopolysaccharide, mais ce n'est pas la partie qui est reconnue comme l'antigène O.",
+      "la lipoprotéine de Braun": "L'antigène O ne correspond pas à la lipoprotéine de Braun. La lipoprotéine de Braun est une autre composante de la paroi cellulaire des bactéries, mais elle n'est pas liée à l'antigène O.",
+      "une structure de flagelline": "L'antigène O ne correspond pas à une structure de flagelline. La flagelline est une protéine qui compose les flagelles des bactéries, mais elle n'est pas liée à l'antigène O."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "L'undecaprénylphosphate est nécessaire à la biosynthèse de la paroi bactérienne. Il permet :",
+    "options": [
+      "la fixation des bêta-lactamines à la paroi néoformée",
+      "aucune de ces propositions n'est exacte",
+      "le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique",
+      "la fixation des unités de glycopeptides à la paroi néoformée",
+      "la formation du nucléotide de Park"
+    ],
+    "correct_answers": [
+      "le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique"
+    ],
+    "justification_fausses_reponses": {
+      "la fixation des bêta-lactamines à la paroi néoformée": "L'undecaprénylphosphate n'est pas impliqué dans la fixation des bêta-lactamines à la paroi néoformée. Les bêta-lactamines agissent en inhibant la synthèse du peptidoglycane, un composant clé de la paroi cellulaire bactérienne.",
+      "aucune de ces propositions n'est exacte": "Cette proposition est incorrecte car l'undecaprénylphosphate est bien impliqué dans le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique.",
+      "la fixation des unités de glycopeptides à la paroi néoformée": "L'undecaprénylphosphate n'est pas impliqué dans la fixation des unités de glycopeptides à la paroi néoformée. Il est plutôt impliqué dans le transport de ces unités à travers la membrane cytoplasmique.",
+      "la formation du nucléotide de Park": "L'undecaprénylphosphate n'est pas impliqué dans la formation du nucléotide de Park. Le nucléotide de Park est un intermédiaire dans la biosynthèse du peptidoglycane, mais il est formé par une série de réactions enzymatiques distinctes."
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "Le principal effet indésirable du Mycophenolate mofetil est la néphrotoxicité tubulaire",
+      "Everolimus ne nécessite pas de suivi des concentrations sanguines dans le cadre de la prévention du rejet de greffon rénal.",
+      "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique",
+      "Tacrolimus est un immunosuppresseur responsable de fréquentes hypotensions orthostatiques",
+      "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine"
+    ],
+    "correct_answers": [
+      "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine",
+      "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "L'investigateur coordinateur est celui qui prend l'initiative de la recherche biomédicale",
+      "Un promoteur doit toujours faire appel à une société de recherche sous contrat",
+      "Lors d'un audit, toutes les versions du protocole doivent être présentées",
+      "Un promoteur est une personne physique qui dirige et surveille la recherche biomédicale sur un lieu"
+    ],
+    "correct_answers": [
+      "Lors d'un audit, toutes les versions du protocole doivent être présentées"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/ sont exactes ?",
+    "options": [
+      "L'halopéridol antagonise l'activité de la L DOP A.",
+      "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+      "La dopathérapie est surtout efficace sur les tremblements mais améliore peu l'akinésie",
+      "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+      "Le Métoclopramide est l'antiémétique de 1ère intention pour traiter les nausées et les vomissements liés à la dopathérapie"
+    ],
+    "correct_answers": [
+      "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+      "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+      "L'halopéridol antagonise l'activité de la L DOP A."
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le virus de l’hépatite A, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il peut entraîner une hépatite chronique",
+      "L’infection peut être prévenue par vaccination",
+      "C’est un virus à ADN",
+      "Il peut entraîner une hépatite fulminante",
+      "Il est transmis par voie orofécale"
+    ],
+    "correct_answers": [
+      "Il est transmis par voie orofécale",
+      "Il peut entraîner une hépatite fulminante",
+      "L’infection peut être prévenue par vaccination"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le glutamate, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet l’assimilation de l’azote",
+      "Il peut être transformé en glutamine",
+      "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+      "Il peut être synthétisé à partir de l’alpha cétobutyrate",
+      "Son seul devenir est la synthèse protéique"
+    ],
+    "correct_answers": [
+      "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+      "Il permet l’assimilation de l’azote",
+      "Il peut être transformé en glutamine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi ces substances, quelle est celle qui est prescrite afin de limiter la toxicité du méthotrexate lorsque ce dernier est administré à hautes doses ?",
+    "options": [
+      "Vitamine A",
+      "Vitamine B12",
+      "Acide folinique",
+      "Vitamine C",
+      "Calciferol"
+    ],
+    "correct_answers": [
+      "Acide folinique"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Relativement aux hypothèses d’un test statistique, quelles sont les propositions correctes ?",
+    "options": [
+      "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H",
+      "Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale",
+      "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+      "Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H",
+      "Le test s'effectue toujours au risque α=5%"
+    ],
+    "correct_answers": [
+      "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+      "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H"
+    ],
+    "justification_fausses_reponses": {
+      "Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale": "Cette affirmation est incorrecte car l'hypothèse H peut être unilatérale ou bilatérale indépendamment de l'intitulé de la question. Cela dépend plutôt de la nature des données et de l'objectif de l'étude.",
+      "Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H": "Cette affirmation est incorrecte car si la variable de décision est à l'intérieur de l'intervalle de confiance, on ne rejette pas l'hypothèse H. Au contraire, cela signifie que l'hypothèse H est plausible.",
+      "Le test s'effectue toujours au risque α=5%": "Cette affirmation est incorrecte car le niveau de risque α n'est pas toujours fixé à 5%. Il peut être défini en fonction des besoins de l'étude et du niveau de certitude souhaité."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes. On se propose de mener un test pour savoir si, en population, on peut dire qu’il y a plus de femmes que d’hommes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+    "options": [
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi de Student avec un nombre de degrés de liberté = 39",
+      "Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30",
+      "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+      "Il s’agit de la comparaison entre deux pourcentages observés",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+    ],
+    "correct_answers": [
+      "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+    ],
+    "justification_fausses_reponses": {
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi de Student avec un nombre de degrés de liberté = 39": "C'est incorrect car la loi de Student n'est pas utilisée dans ce contexte. Dans ce cas, on utilise une loi normale pour la variable de décision.",
+      "Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30": "C'est incorrect car le test de normalité n'est pas nécessaire dans ce contexte. Le test de normalité est généralement utilisé lorsque l'on veut vérifier si un ensemble de données suit une distribution normale, ce qui n'est pas le cas ici.",
+      "Il s’agit de la comparaison entre deux pourcentages observés": "C'est incorrect car le test ne compare pas deux pourcentages observés, mais un pourcentage observé (le nombre de femmes dans l'échantillon) à un pourcentage théorique (le nombre de femmes dans la population totale)."
+    }
+  }
+]

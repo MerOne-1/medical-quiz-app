@@ -1,0 +1,16 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Pour quelle molécule, la distance internucléaire est-elle la plus grande ?",
+    "options": [
+      "Cl2",
+      "N2",
+      "F2",
+      "H2",
+      "O2"
+    ],
+    "correct_answers": [
+      "Cl2"
+    ]
+  }
+]

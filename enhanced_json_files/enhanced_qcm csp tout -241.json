@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la différenciation cellulaire, quelles sont les propositions vraies",
+    "options": [
+      "La différenciation cellulaire repose sur l’expression sélective des gènes",
+      "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+      "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte",
+      "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+      "La différenciation cellulaire nécessite la suppression ou l’addition de certains gènes dans le génome de la cellule"
+    ],
+    "correct_answers": [
+      "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+      "La différenciation cellulaire repose sur l’expression sélective des gènes",
+      "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+      "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte"
+    ],
+    "justification_fausses_reponses": {
+      "La différenciation cellulaire nécessite la suppression ou l’addition de certains gènes dans le génome de la cellule": "Cette affirmation est incorrecte car la différenciation cellulaire ne modifie pas le génome de la cellule. Elle repose plutôt sur l'expression sélective de certains gènes déjà présents dans le génome. Aucun gène n'est ajouté ou supprimé lors de ce processus."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la mitochondrie, quelles sont les propositions vraies",
+    "options": [
+      "Les mitochondries se trouvent chez les procaryotes et les eucaryotes",
+      "La mitochondrie est délimitée par une seule membrane",
+      "La mitochondrie est un organite",
+      "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+      "Toutes les protéines mitochondriales sont codées par l’ADN mitochondrial"
+    ],
+    "correct_answers": [
+      "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+      "La mitochondrie est un organite"
+    ],
+    "justification_fausses_reponses": {
+      "Les mitochondries se trouvent chez les procaryotes et les eucaryotes": "C'est incorrect car les mitochondries sont uniquement présentes chez les eucaryotes. Les procaryotes, comme les bactéries, n'ont pas de mitochondries.",
+      "La mitochondrie est délimitée par une seule membrane": "C'est faux car la mitochondrie est délimitée par deux membranes : une membrane externe lisse et une membrane interne plissée, formant des crêtes mitochondriales.",
+      "Toutes les protéines mitochondriales sont codées par l’ADN mitochondrial": "C'est incorrect car bien que l'ADN mitochondrial code pour certaines protéines mitochondriales, la majorité des protéines mitochondriales sont codées par l'ADN nucléaire et importées dans la mitochondrie."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le noyau cellulaire, quelles sont les propositions vraies",
+    "options": [
+      "Le noyau est délimité par une simple membrane appelée enveloppe nucléaire",
+      "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+      "On observe le noyau uniquement en mitose",
+      "Les cellules procaryotes possèdent toutes un noyau",
+      "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+    ],
+    "correct_answers": [
+      "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+      "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+    ],
+    "justification_fausses_reponses": {
+      "Le noyau est délimité par une simple membrane appelée enveloppe nucléaire": "C'est incorrect car le noyau est délimité par une double membrane appelée enveloppe nucléaire, qui sépare le contenu du noyau du reste de la cellule.",
+      "On observe le noyau uniquement en mitose": "C'est incorrect car le noyau est observable à toutes les étapes du cycle cellulaire, pas seulement en mitose. En mitose, l'enveloppe nucléaire se dissout pour permettre la séparation des chromosomes.",
+      "Les cellules procaryotes possèdent toutes un noyau": "C'est incorrect car les cellules procaryotes, contrairement aux cellules eucaryotes, ne possèdent pas de noyau. Leur ADN est plutôt contenu dans une région appelée le nucléoïde."
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition inexact e : Les cordons postérieurs transmettent les informations sensitives suivantes, sauf une :",
+    "options": [
+      "Proprioception consciente concernant la position des membres.",
+      "Vibration appliquées à la peau.",
+      "Pression légères exercées sur la peau.",
+      "Douleurs cutanées d’origine mécanique et thermique.",
+      "Sensations fines et discriminées du touché."
+    ],
+    "correct_answers": [
+      "Douleurs cutanées d’origine mécanique et thermique."
+    ],
+    "justification_fausses_reponses": {
+      "Proprioception consciente concernant la position des membres.": "Cette affirmation est incorrecte car les cordons postérieurs transmettent bien les informations relatives à la proprioception consciente, qui est la perception de la position et du mouvement des membres.",
+      "Vibration appliquées à la peau.": "Cette affirmation est incorrecte car les cordons postérieurs transmettent bien les informations relatives aux vibrations appliquées à la peau.",
+      "Pression légères exercées sur la peau.": "Cette affirmation est incorrecte car les cordons postérieurs transmettent bien les informations relatives aux pressions légères exercées sur la peau.",
+      "Sensations fines et discriminées du touché.": "Cette affirmation est incorrecte car les cordons postérieurs transmettent bien les informations relatives aux sensations fines et discriminées du touché."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le surfactant est secrété par les glandes muqueuses des bronches.",
+      "Les pressions alvéolaires des gaz peut s’apprécier à partir des pressions mesurées dans l’air expiré.",
+      "Lors du cycle cardiaque, la circulation pulmonaire sanguine s’effectue dans tous les capillaires lors de la diastole.",
+      "La quantité de sang dans les poumons est environ 1 litre.",
+      "Le débit sanguin pulmonaire se calculé grâce à des mesures de la pression du gaz carbonique dans différents prélèvements sanguins et aériens."
+    ],
+    "correct_answers": [
+      "Les pressions alvéolaires des gaz peut s’apprécier à partir des pressions mesurées dans l’air expiré."
+    ],
+    "justification_fausses_reponses": {
+      "Le surfactant est secrété par les glandes muqueuses des bronches.": "C'est incorrect. Le surfactant est produit par les cellules alvéolaires de type II, pas par les glandes muqueuses des bronches.",
+      "Lors du cycle cardiaque, la circulation pulmonaire sanguine s’effectue dans tous les capillaires lors de la diastole.": "C'est incorrect. Pendant la diastole, le cœur se remplit de sang, mais cela ne signifie pas que la circulation sanguine s'effectue dans tous les capillaires pulmonaires.",
+      "La quantité de sang dans les poumons est environ 1 litre.": "C'est incorrect. La quantité de sang dans les poumons à un moment donné est d'environ 0,5 litre, pas 1 litre.",
+      "Le débit sanguin pulmonaire se calculé grâce à des mesures de la pression du gaz carbonique dans différents prélèvements sanguins et aériens.": "C'est incorrect. Le débit sanguin pulmonaire est généralement calculé en utilisant la formule de Fick, qui nécessite des mesures de la consommation d'oxygène, pas de la pression du gaz carbonique."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’oxytocine stimule la production cellulaire du lait.",
+      "La mélatonine est sécrétée principalement durant la période diurne.",
+      "La progestérone est une hormone stimulant l’aspect sécrétoire de la muqueuse utérine.",
+      "La ménopause est liée à une diminution de l’activité hypophysaire.",
+      "La concentration élevée de testostérone dans la lumière du tube séminifère est la conséquence d’une sécrétion d’une prostacycline par les cellules de Sertoli."
+    ],
+    "correct_answers": [
+      "La progestérone est une hormone stimulant l’aspect sécrétoire de la muqueuse utérine."
+    ],
+    "justification_fausses_reponses": {
+      "L’oxytocine stimule la production cellulaire du lait.": "C'est incorrect. L'oxytocine stimule l'éjection du lait, mais pas sa production cellulaire.",
+      "La mélatonine est sécrétée principalement durant la période diurne.": "C'est incorrect. La mélatonine est principalement sécrétée durant la nuit, et non durant la journée.",
+      "La ménopause est liée à une diminution de l’activité hypophysaire.": "C'est incorrect. La ménopause est principalement due à l'épuisement des follicules ovariens, et non à une diminution de l'activité hypophysaire.",
+      "La concentration élevée de testostérone dans la lumière du tube séminifère est la conséquence d’une sécrétion d’une prostacycline par les cellules de Sertoli.": "C'est incorrect. La concentration élevée de testostérone dans la lumière du tube séminifère est due à la sécrétion de testostérone par les cellules de Leydig, et non à une sécrétion de prostacycline par les cellules de Sertoli."
+    }
+  }
+]

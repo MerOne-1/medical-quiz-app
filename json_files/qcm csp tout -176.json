@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une stimulation des récepteurs juxta-capillaires augmente la fréquence respiratoire et le volume courant.",
+      "La capacité maximale de consommation d’oxygène est principalement limitée par la capacité de diffusion de l’oxygène à travers la membrane alvéole-capillaire.",
+      "Une perfusion sanguine d’un sérum légèrement acide augmente la ventilation.",
+      "L’apnée du sommeil est la conséquence d’une fermeture du pharynx.",
+      "Une perfusion d’un liquide alcalin dans le liquide céphalo-rachidien augmente la ventilation."
+    ],
+    "correct_answers": [
+      "L’apnée du sommeil est la conséquence d’une fermeture du pharynx."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Le réflexe my otatique:",
+    "options": [
+      "Le signe du canif correspond à une alternance réflexe myotatique/myotatique inverse.",
+      "Le signe du canif est un réflexe de défense à point de départ cutané.",
+      "L’interneurone de R enshaw  augmente l’intensité du réflexe myotatique.",
+      "Le réflexe rotulien ostéo-tendineux correspond au déclenchement du myotatique inverse.",
+      "Le signe du canif signe la présence d’une hypotonie musculaire."
+    ],
+    "correct_answers": [
+      "Le signe du canif correspond à une alternance réflexe myotatique/myotatique inverse."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "TOUTES LES PR OPOSITIONS SONT EXA CTES, SA UF UNE. SELECTIONNER L A SEULE PR OPOSITION INEXA CTE. Le « locus niger » :",
+    "options": [
+      "sa destruction est responsable de la chorée.",
+      "ses neurones libèrent de la dopamine dans le striatum.",
+      "est connecté au striatum.",
+      "est situé dans le mésencéphale.",
+      "la « pars compacta » du locus niger sécrète de la dopamine."
+    ],
+    "correct_answers": [
+      "sa destruction est responsable de la chorée."
+    ]
+  }
+]

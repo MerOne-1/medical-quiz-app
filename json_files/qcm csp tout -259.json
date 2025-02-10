@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "La présence d’une basophilie sanguine est un signe évocateur de :",
+    "options": [
+      "Leucémie aiguë promyélocytaire (L AM3)",
+      "Leucémie myéloïde chronique",
+      "Leucémie aiguë myéloïde avec maturation granulocytaire (L AM2)",
+      "Leucémie aiguë myéloïde avec inv(16) ou t(16;16)",
+      "Syndrome myélodysplasique"
+    ],
+    "correct_answers": [
+      "Leucémie myéloïde chronique"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les étiologies suivantes, lesquelles peuvent être responsables de carences en folates ?",
+    "options": [
+      "Alimentation végétarienne stricte",
+      "Insuffisants rénaux chroniques hémodialysés",
+      "Ankylostomiase",
+      "Traitements par le Méthotrexate",
+      "Syndrome des anses borgnes"
+    ],
+    "correct_answers": [
+      "Insuffisants rénaux chroniques hémodialysés",
+      "Traitements par le Méthotrexate"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "L’hémogramme suivant réalisé chez un homme de 57 ans traduit :\nHématies: 4,8 T/L\nHémoglobine: 140 g/L\nVGM: 95fL, C CMH : 34%\nLeucocytes: 8 G/L\nPolynucléaires neutrophiles : 5 G/L, polynucléaires éosinophiles : 0,4 G/L, lymphocytes : 3 G/L, monocytes : 0,6 G/L.\nPlaquettes: 230G/L",
+    "options": [
+      "Une anémie normocytaire normochrome",
+      "Des résultats normaux",
+      "Une hyperéosinophilie",
+      "Une neutropénie",
+      "Une polyglobulie"
+    ],
+    "correct_answers": [
+      "Des résultats normaux"
+    ]
+  }
+]

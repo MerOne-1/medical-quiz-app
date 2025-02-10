@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Une anémie macrocytaire arégénérative doit faire rechercher :",
+    "options": [
+      "Une anémie par carence en folates",
+      "Un syndrome myélodysplasique",
+      "Une anémie inflammatoire",
+      "Une carence en vitamine C",
+      "Une maladie de Biermer"
+    ],
+    "correct_answers": [
+      "Un syndrome myélodysplasique",
+      "Une maladie de Biermer",
+      "Une anémie par carence en folates"
+    ],
+    "justification_fausses_reponses": {
+      "Une anémie inflammatoire": "Une anémie inflammatoire est généralement normocytaire et non macrocytaire. Elle est causée par des maladies chroniques et non par une carence en vitamines ou une maladie de la moelle osseuse.",
+      "Une carence en vitamine C": "Une carence en vitamine C peut causer le scorbut, mais pas une anémie macrocytaire. L'anémie macrocytaire est généralement due à une carence en vitamine B12 ou en folates, ou à une maladie de la moelle osseuse."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Au cours de l’hémophilie A, quelle(s) anomalie(s) biologique(s) peut-on observer ?",
+    "options": [
+      "Allongement du T emps de Céphaline + Activateur (T CA)",
+      "Thrombopénie",
+      "Déficit en facteur Willebrand",
+      "Taux de prothrombine normal (> 70%)",
+      "Déficit en facteur VIII"
+    ],
+    "correct_answers": [
+      "Déficit en facteur VIII",
+      "Allongement du T emps de Céphaline + Activateur (T CA)",
+      "Taux de prothrombine normal (> 70%)"
+    ],
+    "justification_fausses_reponses": {
+      "Thrombopénie": "La thrombopénie, qui est une diminution du nombre de plaquettes dans le sang, n'est pas une caractéristique de l'hémophilie A. Cette maladie est plutôt associée à un déficit en facteur VIII, qui est nécessaire à la coagulation du sang.",
+      "Déficit en facteur Willebrand": "Le déficit en facteur Willebrand est caractéristique de la maladie de Willebrand, et non de l'hémophilie A. Dans l'hémophilie A, c'est le facteur VIII qui est déficient, ce qui perturbe la coagulation du sang."
+    }
+  }
+]

@@ -1,0 +1,379 @@
+{
+    "theme": "Virologie",
+    "questions": [
+        {
+            "question": "Le suivi biologique de M. Jean-Claude M. sous traitement repose sur :",
+            "options": [
+                "Une mesure régulière de la charge virale du taux de lymphocyte T CD4+",
+                "Une surveillance régulière de la fonction rénale",
+                "Une surveillance régulière de l'hémogramme",
+                "Une mesure régulière de la charge virale du HIV",
+                "Une surveillance régulière des transaminases"
+            ],
+            "correct_answers": [
+                "Une mesure régulière de la charge virale du HIV",
+                "Une mesure régulière de la charge virale du taux de lymphocyte T CD4+",
+                "Une surveillance régulière de l'hémogramme",
+                "Une surveillance régulière de la fonction rénale",
+                "Une surveillance régulière des transaminases"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "M. Victor B., 38 ans, commercial, est infecté par un HCV de génotype 1. Il vous présente l'ordonnance suivante. Concernant le daclatasvir , quelles sont les réponses exactes ?",
+            "options": [
+                "Il est toujours prescrit en association",
+                "C'est un inhibiteur de la NS5A",
+                "Il est actif sur le HIV",
+                "Il est actif sur tous les génotypes du HCV",
+                "C'est un inhibiteur de la protéase"
+            ],
+            "correct_answers": [
+                "C'est un inhibiteur de la NS5A",
+                "Il est toujours prescrit en association",
+                "Il est actif sur tous les génotypes du HCV"
+            ],
+            "justification_fausses_reponses": {
+                "Il est actif sur le HIV": "Le daclatasvir est un médicament antiviral qui est utilisé pour traiter l'hépatite C (HCV), mais il n'est pas actif contre le virus de l'immunodéficience humaine (HIV).",
+                "C'est un inhibiteur de la protéase": "Le daclatasvir n'est pas un inhibiteur de la protéase. Il est un inhibiteur de la NS5A, une protéine non structurale du virus de l'hépatite C qui est nécessaire pour la réplication virale."
+            }
+        },
+        {
+            "question": "Mme Jeanine V, 27 ans, traductrice, est enceinte de 6 mois. Un bilan biologique a été réalisé qui donne les résultats suivants : Recherche de l'antigène HBs : négative Recherche d'anticorps anti-Rubéole : de type IgG : négative de type IgM : négative. Quels conseils adressez-vous à Mme Jeanine V. ?",
+            "options": [
+                "Aucun de ces conseils n'est adapté",
+                "Se faire vacciner immédiatement contre la Rubéole",
+                "Se faire vacciner contre la Rubéole dans les mois qui suivent l'accouchement",
+                "Se faire vacciner contre la Rubéole dans les jours qui suivent l'accouchement",
+                "Se faire vacciner contre le HBV après l'accouchement"
+            ],
+            "correct_answers": [
+                "Se faire vacciner contre la Rubéole dans les jours qui suivent l'accouchement",
+                "Se faire vacciner contre la Rubéole dans les mois qui suivent l'accouchement",
+                "Se faire vacciner contre le HBV après l'accouchement"
+            ],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "Concernant le virus de la poliomyélite, quelles sont les réponses vraies ?",
+            "options": [
+                "C'est un virus transmissible par le sang",
+                "C'est un virus transmissible par voie fécale orale",
+                "C'est un virus responsable de paralysies flasques",
+                "La vaccination contre la poliomyélite est obligatoire en France",
+                "C'est un virus responsable de gastro-entérites"
+            ],
+            "correct_answers": [
+                "C'est un virus transmissible par voie fécale orale",
+                "C'est un virus responsable de paralysies flasques",
+                "La vaccination contre la poliomyélite est obligatoire en France"
+            ],
+            "justification_fausses_reponses": {
+                "C'est un virus transmissible par le sang": "Le virus de la poliomyélite n'est pas principalement transmis par le sang, mais plutôt par la voie fécale-orale, généralement par l'ingestion d'eau ou de nourriture contaminée.",
+                "C'est un virus responsable de gastro-entérites": "Bien que le virus de la poliomyélite puisse causer des symptômes gastro-intestinaux initiaux, il n'est pas le principal responsable des gastro-entérites. Son principal effet est de causer des paralysies flasques."
+            }
+        },
+        {
+            "question": "Parmi les conseils suivants, lesquels donnez-vous à la mère de Kevin ?",
+            "options": [
+                "Vacciner Kevin par le Rotateq ou le Rotarix",
+                "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+                "Ne pas mettre Kevin en contact avec son frère de 5 ans",
+                "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+                "Kevin doit se laver les mains après chaque selle"
+            ],
+            "correct_answers": [
+                "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+                "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+                "Kevin doit se laver les mains après chaque selle"
+            ],
+            "justification_fausses_reponses": {
+                "Vacciner Kevin par le Rotateq ou le Rotarix": "La vaccination par le Rotateq ou le Rotarix est généralement recommandée pour prévenir la gastro-entérite à rotavirus chez les nourrissons, mais elle n'est pas utilisée comme traitement une fois que la maladie est installée.",
+                "Ne pas mettre Kevin en contact avec son frère de 5 ans": "Bien que le rotavirus puisse être contagieux, l'isolement n'est pas nécessairement la meilleure solution. Il est plus important de se concentrer sur l'hygiène personnelle, comme le lavage des mains, pour prévenir la propagation du virus."
+            }
+        },
+        {
+            "question": "M. Jean-Claude M., 47 ans, gérant de magasin, est infecté par le HIV. Il vous présente l'ordonnance suivante : Concernant cette ordonnance, quelles sont les réponses exactes ?",
+            "options": [
+                "M. Jean-Claude M. doit prendre son traitement à jeun",
+                "L'association darunavir+ritonavir est une association de 2 antiprotéases",
+                "L'association emtricitabine+tenofovir est une association de 2 inhibiteurs de la transcriptase inverse",
+                "Dans le traitement initial d'une infection par le HIV, une trithérapie est toujours conseillée",
+                "M. Jean-Claude M. doit prendre son traitement à heures fixes"
+            ],
+            "correct_answers": [
+                "L'association darunavir+ritonavir est une association de 2 antiprotéases",
+                "L'association emtricitabine+tenofovir est une association de 2 inhibiteurs de la transcriptase inverse",
+                "Dans le traitement initial d'une infection par le HIV, une trithérapie est toujours conseillée",
+                "M. Jean-Claude M. doit prendre son traitement à heures fixes"
+            ],
+            "justification_fausses_reponses": {
+                "M. Jean-Claude M. doit prendre son traitement à jeun": "Cette affirmation est incorrecte. Les médicaments antirétroviraux peuvent être pris avec ou sans nourriture, selon les recommandations spécifiques de chaque médicament. Il est important de suivre les instructions du médecin ou du pharmacien concernant la prise de ces médicaments."
+            }
+        },
+        {
+            "question": "Mme Jeanine V, 27 ans, traductrice, est enceinte de 6 mois. Un bilan biologique a été réalisé qui donne les résultats suivants : Recherche de l'antigène HBs : négative Recherche d'anticorps anti-Rubéole : de type IgG : négative de type IgM : négative Parmi les items suivants, lesquels s'appliquent à ces résultats ?",
+            "options": [
+                "Mme Jeanine V n'est pas infectée par le HBV",
+                "Mme Jeanine V n'est pas immunisée contre la Rubéole",
+                "Mme Jeanine V est infectée par le HBV",
+                "Mme Jeanine V est infectée par le virus de la Rubéole",
+                "Mme Jeanine V est immunisée contre la Rubéole"
+            ],
+            "correct_answers": [
+                "Mme Jeanine V n'est pas infectée par le HBV",
+                "Mme Jeanine V n'est pas immunisée contre la Rubéole"
+            ],
+            "justification_fausses_reponses": {
+                "Mme Jeanine V est infectée par le HBV": "Cette affirmation est incorrecte car la recherche de l'antigène HBs est négative, ce qui signifie que Mme Jeanine V n'est pas infectée par le virus de l'hépatite B (HBV).",
+                "Mme Jeanine V est infectée par le virus de la Rubéole": "Cette affirmation est incorrecte car la recherche d'anticorps anti-Rubéole de type IgM est négative, ce qui signifie que Mme Jeanine V n'est pas actuellement infectée par le virus de la Rubéole.",
+                "Mme Jeanine V est immunisée contre la Rubéole": "Cette affirmation est incorrecte car la recherche d'anticorps anti-Rubéole de type IgG est négative, ce qui signifie que Mme Jeanine V n'a pas été précédemment infectée par le virus de la Rubéole et n'est donc pas immunisée contre ce virus."
+            }
+        },
+        {
+            "question": "Mme Juliette T., 21 ans, étudiante, se plaint de boutons de fièvres. Concernant cette pathologie, quels sont les réponses vraies ?",
+            "options": [
+                "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+                "C'est une forme clinique potentiellement récidivante",
+                "Un traitement par Ganciclovir peut être proposé",
+                "Un traitement par Aciclovir en topique peut être proposé",
+                "C'est une forme clinique très contagieuse"
+            ],
+            "correct_answers": [
+                "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+                "C'est une forme clinique très contagieuse",
+                "C'est une forme clinique potentiellement récidivante",
+                "Un traitement par Aciclovir en topique peut être proposé"
+            ],
+            "justification_fausses_reponses": {
+                "Un traitement par Ganciclovir peut être proposé": "Le Ganciclovir est un antiviral utilisé principalement pour le traitement de l'infection à cytomégalovirus, et non pour l'Herpes Simplex Virus (HSV) responsable des boutons de fièvre."
+            }
+        },
+        {
+            "question": "Concernant cette ordonnance, quels conseils doit-on donner à M. Victor B ?",
+            "options": [
+                "M. Victor B. ne doit jamais interrompre son traitement",
+                "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+                "Il doit éviter l'automédication",
+                "Il doit signaler toute anomalie survenant au cours de son traitement",
+                "Le traitement doit être impérativement pris pendant les repas"
+            ],
+            "correct_answers": [
+                "Le traitement doit être impérativement pris pendant les repas",
+                "M. Victor B. ne doit jamais interrompre son traitement",
+                "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+                "Il doit signaler toute anomalie survenant au cours de son traitement",
+                "Il doit éviter l'automédication"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Face aux parents d'un nourrisson porteur d'une bronchiolite, quels sont les conseils à leur donner ?",
+            "options": [
+                "Coucher l'enfant en position proclive",
+                "Éviter le jus d'orange avant le coucher",
+                "Faire dormir l'enfant fenêtre ouverte",
+                "Éviter le tabagisme passif",
+                "Aérer la chambre de l'enfant matin et soir"
+            ],
+            "correct_answers": [
+                "Éviter le tabagisme passif",
+                "Coucher l'enfant en position proclive",
+                "Aérer la chambre de l'enfant matin et soir"
+            ],
+            "justification_fausses_reponses": {
+                "Éviter le jus d'orange avant le coucher": "Le jus d'orange n'a pas d'effet direct sur la bronchiolite. Il est important de maintenir une bonne hydratation, mais le type de liquide n'a pas d'importance spécifique dans ce contexte.",
+                "Faire dormir l'enfant fenêtre ouverte": "Faire dormir un enfant avec la fenêtre ouverte peut le rendre plus vulnérable aux variations de température et aux courants d'air, ce qui peut aggraver les symptômes de la bronchiolite. Il est préférable de maintenir une température stable et confortable dans la chambre."
+            }
+        },
+        {
+            "question": "Mme Macha T., 45 ans, restauratrice, est infectée par le HBV. Son traitement comprend les éléments suivants : Ténofovir disoproxil, cp à 245 mg : 1cp/jour. Concernant le ténofovir disoproxil, quelles sont les réponses vraies ?",
+            "options": [
+                "Il doit être pris au cours d'un repas",
+                "C'est un inhibiteur de la protéase",
+                "Il doit être pris à jeun",
+                "C'est un inhibiteur de l'intégrase",
+                "C'est un inhibiteur de la T ranscriptase Inverse du virus"
+            ],
+            "correct_answers": [
+                "C'est un inhibiteur de la T ranscriptase Inverse du virus",
+                "Il doit être pris au cours d'un repas"
+            ],
+            "justification_fausses_reponses": {
+                "C'est un inhibiteur de la protéase": "Le ténofovir disoproxil n'est pas un inhibiteur de la protéase. Les inhibiteurs de la protéase sont une autre classe de médicaments antirétroviraux qui bloquent une enzyme virale, la protéase, empêchant ainsi le virus de se reproduire.",
+                "Il doit être pris à jeun": "Le ténofovir disoproxil doit être pris au cours d'un repas et non à jeun. La prise alimentaire augmente l'absorption du médicament.",
+                "C'est un inhibiteur de l'intégrase": "Le ténofovir disoproxil n'est pas un inhibiteur de l'intégrase. Les inhibiteurs de l'intégrase sont une autre classe de médicaments antirétroviraux qui bloquent une enzyme virale, l'intégrase, empêchant ainsi le virus de s'intégrer à l'ADN de la cellule hôte."
+            }
+        },
+        {
+            "question": "Dans l'officine où vous êtes en stage, vous trouvez les médicaments suivants : A VAXIM, HA VRIX. Concernant ces médicaments, quelles sont les réponses vraies ?",
+            "options": [
+                "Il s'agit de vaccins, ils doivent être conservés à +4°C",
+                "Ce sont des vaccins contre l'hépatite A",
+                "Ce sont des vaccins recommandés chez la femme enceinte",
+                "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+                "Ce sont des vaccins contre l'hépatite E"
+            ],
+            "correct_answers": [
+                "Ce sont des vaccins contre l'hépatite A",
+                "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+                "Il s'agit de vaccins, ils doivent être conservés à +4°C"
+            ],
+            "justification_fausses_reponses": {
+                "Ce sont des vaccins recommandés chez la femme enceinte": "C'est incorrect car les vaccins A VAXIM et HA VRIX ne sont pas spécifiquement recommandés pour les femmes enceintes. Les recommandations de vaccination pendant la grossesse dépendent de plusieurs facteurs, dont le type de vaccin et le risque d'exposition à la maladie.",
+                "Ce sont des vaccins contre l'hépatite E": "C'est incorrect car les vaccins A VAXIM et HA VRIX sont des vaccins contre l'hépatite A, pas l'hépatite E. L'hépatite E est une maladie différente, causée par un virus différent, et nécessite un vaccin différent."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant le vaccin contre le virus de l'hépatite B, la/lesquelles est/sont vraie/s",
+            "options": [
+                "vaccin contre-indiqué chez la femme enceinte",
+                "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+                "Une fièvre peut survenir dans les 48h après la vaccination",
+                "vaccin produit génétiquement",
+                "vaccin obligatoire chez les personnels de santé"
+            ],
+            "correct_answers": [
+                "vaccin produit génétiquement",
+                "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+                "Une fièvre peut survenir dans les 48h après la vaccination"
+            ],
+            "justification_fausses_reponses": {
+                "vaccin contre-indiqué chez la femme enceinte": "Cette affirmation est fausse. Le vaccin contre l'hépatite B n'est pas contre-indiqué chez la femme enceinte. Au contraire, il est recommandé pour protéger à la fois la mère et le bébé contre le virus de l'hépatite B.",
+                "vaccin obligatoire chez les personnels de santé": "Cette affirmation est incorrecte. Bien que fortement recommandé, le vaccin contre l'hépatite B n'est pas obligatoire pour les personnels de santé. Cependant, ces professionnels sont plus exposés au virus et devraient donc envisager de se faire vacciner."
+            }
+        },
+        {
+            "question": "Quels conseils thérapeutiques devez-vous donner à Mme Macha T.",
+            "options": [
+                "Ne jamais interrompre son traitement",
+                "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+                "Prévenir tous les professionnels de santé de son infection",
+                "Prendre son traitement à heure fixe",
+                "Éviter toute auto-médication"
+            ],
+            "correct_answers": [
+                "Ne jamais interrompre son traitement",
+                "Prendre son traitement à heure fixe",
+                "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+                "Éviter toute auto-médication",
+                "Prévenir tous les professionnels de santé de son infection"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Choisir les items qui s'appliquent à ces vaccins.",
+            "options": [
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+                "Les vaccins ont été fabriqués en Californie, en Suisse, à Phuket",
+                "H3N2 caractérise un virus grippal de type B de sous-type H3N2",
+                "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+            ],
+            "correct_answers": [
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+                "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+            ],
+            "justification_fausses_reponses": {
+                "Les vaccins ont été fabriqués en Californie, en Suisse, à Phuket": "Cette affirmation est incorrecte car le lieu de fabrication d'un vaccin n'a pas d'importance pour sa composition ou son efficacité. Ce qui compte, c'est la souche du virus utilisée pour le fabriquer.",
+                "H3N2 caractérise un virus grippal de type B de sous-type H3N2": "Cette affirmation est incorrecte car le H3N2 est un sous-type du virus grippal de type A, et non de type B."
+            }
+        },
+        {
+            "question": "Mme Joséphine B, 23 ans, intermittente du spectacle, est enceinte de 3 mois. Son médecin généraliste l'a informé des risques de l'infection à CMV au cours de la grossesse. Concernant les infections à CMV chez la femme enceinte, quelles sont les réponses vraies ?",
+            "options": [
+                "L'infection peut être responsable de surdités uni- ou bilatérales",
+                "L'infection de la femme enceinte peut être traitée par ganciclovir",
+                "L'infection se transmet par voie transplacentaire",
+                "L'infection peut être prévenue par la vaccination",
+                "L'infection peut être responsable de malformations fœtales"
+            ],
+            "correct_answers": [
+                "L'infection se transmet par voie transplacentaire",
+                "L'infection peut être responsable de surdités uni- ou bilatérales",
+                "L'infection peut être responsable de malformations fœtales"
+            ],
+            "justification_fausses_reponses": {
+                "L'infection de la femme enceinte peut être traitée par ganciclovir": "Le ganciclovir est un médicament antiviral utilisé pour traiter certaines infections virales, mais il n'est pas recommandé pendant la grossesse en raison de son potentiel de toxicité pour le fœtus.",
+                "L'infection peut être prévenue par la vaccination": "Il n'existe actuellement aucun vaccin disponible pour prévenir l'infection à CMV. Les mesures préventives recommandées comprennent une bonne hygiène des mains et l'évitement des contacts étroits avec des personnes infectées."
+            }
+        },
+        {
+            "question": "Concernant le sofosbuvir , quelles sont les réponses exactes ?",
+            "options": [
+                "C'est un inhibiteur de la polymerase virale",
+                "C'est un inhibiteur de la NS5A",
+                "C'est un inhibiteur de la NS5B",
+                "Il est actif sur le HIV",
+                "Il est actif sur tous les génotypes du HCV"
+            ],
+            "correct_answers": [
+                "C'est un inhibiteur de la NS5B",
+                "C'est un inhibiteur de la polymerase virale",
+                "Il est actif sur tous les génotypes du HCV"
+            ],
+            "justification_fausses_reponses": {
+                "C'est un inhibiteur de la NS5A": "Le sofosbuvir n'est pas un inhibiteur de la NS5A. Il cible spécifiquement la NS5B, une polymérase ARN dépendante de l'ARN, qui est essentielle pour la réplication du virus de l'hépatite C (HCV).",
+                "Il est actif sur le HIV": "Le sofosbuvir n'est pas actif contre le VIH. Il est spécifiquement conçu pour cibler le virus de l'hépatite C (HCV) et n'a pas d'efficacité contre le VIH."
+            }
+        },
+        {
+            "question": "Concernant la vaccination contre les Papillomavirus en France, quelles sont les réponses vraies ?",
+            "options": [
+                "C'est un vaccin inactivé",
+                "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes",
+                "Cette vaccination est obligatoire pour les filles à partir de 9 ans",
+                "C'est un vaccin vivant atténué",
+                "Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques"
+            ],
+            "correct_answers": [
+                "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes"
+            ],
+            "justification_fausses_reponses": {
+                "C'est un vaccin inactivé": "C'est incorrect. Le vaccin contre les Papillomavirus est un vaccin recombinant, et non un vaccin inactivé.",
+                "Cette vaccination est obligatoire pour les filles à partir de 9 ans": "C'est incorrect. En France, la vaccination contre les Papillomavirus n'est pas obligatoire, mais elle est recommandée pour les filles et les garçons à partir de 11 ans.",
+                "C'est un vaccin vivant atténué": "C'est incorrect. Le vaccin contre les Papillomavirus est un vaccin recombinant, et non un vaccin vivant atténué.",
+                "Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques": "C'est incorrect. Aucune étude scientifique n'a prouvé un lien entre la vaccination contre les Papillomavirus et la Sclérose en Plaques."
+            }
+        },
+        {
+            "question": "M. Victor B., 38 ans, commercial, est infecté par un HCV de génotype 1. Il vous présente l'ordonnance suivante Parmi les items suivants, lesquels peuvent être des effets secondaires ressentis par M . Victor B . ?",
+            "options": [
+                "Hémorroïdes",
+                "Nausées",
+                "Asthénie",
+                "Anémie hémolytique",
+                "Céphalées"
+            ],
+            "correct_answers": [
+                "Céphalées",
+                "Nausées",
+                "Asthénie"
+            ],
+            "justification_fausses_reponses": {
+                "Hémorroïdes": "Les hémorroïdes ne sont pas un effet secondaire typique de l'infection par le HCV. Elles sont généralement causées par une pression accrue dans les veines de l'anus, souvent due à la constipation ou à la grossesse.",
+                "Anémie hémolytique": "L'anémie hémolytique n'est pas un effet secondaire courant de l'infection par le HCV. Elle est généralement causée par des maladies auto-immunes, des infections ou certaines médications qui détruisent les globules rouges plus rapidement que la moelle osseuse ne peut en produire."
+            }
+        },
+        {
+            "question": "La prise en charge d'une gastro-entérite virale repose sur :",
+            "options": [
+                "Un régime alimentaire adapté",
+                "Une consultation médicale spécialisée",
+                "Une vaccination",
+                "Des conseils d'hygiène",
+                "Un traitement par ralentisseurs du transit"
+            ],
+            "correct_answers": [
+                "Un régime alimentaire adapté",
+                "Des conseils d'hygiène"
+            ],
+            "justification_fausses_reponses": {
+                "Une consultation médicale spécialisée": "Bien qu'une consultation médicale puisse être utile pour confirmer le diagnostic et obtenir des conseils, elle n'est pas la base du traitement d'une gastro-entérite virale. Le traitement repose principalement sur le repos, l'hydratation et un régime alimentaire adapté.",
+                "Une vaccination": "Il n'existe pas de vaccin contre la plupart des virus qui causent la gastro-entérite. De plus, la vaccination est une mesure préventive, pas un traitement.",
+                "Un traitement par ralentisseurs du transit": "Les ralentisseurs du transit ne sont pas recommandés dans le traitement de la gastro-entérite virale. Ils peuvent même aggraver la situation en prolongeant la durée de l'infection."
+            }
+        }
+    ]
+}

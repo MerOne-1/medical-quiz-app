@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les bactéries suivantes, laquelle (lesquelles) n'est (ne sont) pas responsable(s) de diarrhées ?",
+    "options": [
+      "Clostridium perfringens",
+      "Streptococcus agalactiae",
+      "Escherichia coli",
+      "Salmonella  Typhimurium",
+      "Shigella sonnei"
+    ],
+    "correct_answers": [
+      "Streptococcus agalactiae"
+    ],
+    "justification_fausses_reponses": {
+      "Clostridium perfringens": "Clostridium perfringens est une bactérie qui peut causer des diarrhées, généralement à la suite d'une intoxication alimentaire.",
+      "Escherichia coli": "Certaines souches d'Escherichia coli sont responsables de diarrhées, notamment les souches entérotoxinogènes et entérohémorragiques.",
+      "Salmonella  Typhimurium": "Salmonella Typhimurium est une bactérie qui peut causer des diarrhées, généralement à la suite d'une intoxication alimentaire.",
+      "Shigella sonnei": "Shigella sonnei est une bactérie qui cause la shigellose, une infection intestinale qui provoque des diarrhées."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant le vaccin antitétanique ?",
+    "options": [
+      "aucune proposition n'est exacte",
+      "il ne peut être associé à d'autres vaccins",
+      "c'est un vaccin vivant atténué",
+      "il ne doit pas être administré chez la femme enceinte",
+      "il est inutile chez des sujets guéris du tétanos"
+    ],
+    "correct_answers": [
+      "aucune proposition n'est exacte"
+    ],
+    "justification_fausses_reponses": {
+      "il ne peut être associé à d'autres vaccins": "C'est faux, le vaccin antitétanique peut être associé à d'autres vaccins. Il est souvent administré en combinaison avec d'autres vaccins, comme le vaccin contre la diphtérie et la coqueluche.",
+      "c'est un vaccin vivant atténué": "C'est incorrect, le vaccin antitétanique n'est pas un vaccin vivant atténué. Il est basé sur la toxine tétanique inactivée, et non sur des bactéries vivantes.",
+      "il ne doit pas être administré chez la femme enceinte": "C'est faux, le vaccin antitétanique peut et doit être administré chez la femme enceinte. Il est important pour protéger à la fois la mère et le bébé contre le tétanos.",
+      "il est inutile chez des sujets guéris du tétanos": "C'est incorrect, même si une personne a déjà eu le tétanos, elle peut le contracter à nouveau. Le vaccin antitétanique est donc nécessaire pour prévenir une nouvelle infection."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Listeria monocytogenes",
+    "options": [
+      "elle est responsable d'infections néonatales sévères",
+      "elle appartient à un groupe antigénique homogène",
+      "c'est un agent responsable de la mononucléose infectieuse",
+      "c'est le premier agent responsable d'encéphalite du nourrisson",
+      "elle est sensible à l'acide nalidixique"
+    ],
+    "correct_answers": [
+      "elle est responsable d'infections néonatales sévères"
+    ],
+    "justification_fausses_reponses": {
+      "elle appartient à un groupe antigénique homogène": "C'est incorrect car Listeria monocytogenes est caractérisée par une grande diversité antigénique.",
+      "c'est un agent responsable de la mononucléose infectieuse": "C'est incorrect car la mononucléose infectieuse est causée par le virus d'Epstein-Barr, et non par Listeria monocytogenes.",
+      "c'est le premier agent responsable d'encéphalite du nourrisson": "C'est incorrect car bien que Listeria monocytogenes puisse causer des infections du système nerveux central, elle n'est pas le premier agent responsable d'encéphalite chez le nourrisson.",
+      "elle est sensible à l'acide nalidixique": "C'est incorrect car Listeria monocytogenes est résistante à l'acide nalidixique, un antibiotique couramment utilisé pour traiter les infections urinaires."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : La paroi des entérobactéries est constituée :",
+    "options": [
+      "de peptidoglycane en position externe",
+      "de lipopolysaccharides en position externe",
+      "d'acides teichoïques",
+      "de phospholipides sous la couche de lipopolysaccharides",
+      "de lipoprotéines de Braun entre le peptidoglycane et la membrane plasmique"
+    ],
+    "correct_answers": [
+      "de lipopolysaccharides en position externe",
+      "de phospholipides sous la couche de lipopolysaccharides"
+    ],
+    "justification_fausses_reponses": {
+      "de peptidoglycane en position externe": "Le peptidoglycane n'est pas en position externe dans la paroi des entérobactéries, mais se trouve plutôt entre la membrane plasmique et la couche externe de lipopolysaccharides.",
+      "d'acides teichoïques": "Les acides teichoïques sont des composants spécifiques de la paroi des bactéries Gram-positives, et non des entérobactéries qui sont des bactéries Gram-négatives.",
+      "de lipoprotéines de Braun entre le peptidoglycane et la membrane plasmique": "Les lipoprotéines de Braun sont présentes dans la paroi des entérobactéries, mais elles sont situées entre la couche de peptidoglycane et la membrane externe, et non entre le peptidoglycane et la membrane plasmique."
+    }
+  }
+]

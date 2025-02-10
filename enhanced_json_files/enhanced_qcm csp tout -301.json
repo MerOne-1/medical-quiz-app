@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, choisir le (ou les) organisme(s) pouvant présenter des feuilles de type microphylle",
+    "options": [
+      "Fucus",
+      "Prêle",
+      "Fougère",
+      "Sélaginelle",
+      "Hépatique à thalle"
+    ],
+    "correct_answers": [
+      "Sélaginelle",
+      "Prêle"
+    ],
+    "justification_fausses_reponses": {
+      "Fucus": "Le Fucus est une algue marine qui ne possède pas de feuilles de type microphylle. Il a des structures appelées frondes qui ressemblent à des feuilles, mais elles ne sont pas classées comme telles dans la biologie végétale.",
+      "Fougère": "Les fougères ont des feuilles de type mégaphylle, qui sont plus grandes et plus complexes que les microphylles. Les mégaphylles ont un réseau de veines et sont généralement larges et plates.",
+      "Hépatique à thalle": "Les hépatiques à thalle sont des plantes non vasculaires qui n'ont pas de feuilles de type microphylle. Au lieu de cela, elles ont un thalle, qui est une structure plate et non différenciée."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes ci-dessous, choisir celle(s) qui présente(ent) les différents éléments dans le bon ordre, du bas vers le haut",
+    "options": [
+      "Sépales, étamines, style",
+      "Pétales, ovaire",
+      "Sépales, androcée, stigmate",
+      "Calice, étamines",
+      "Style, sépales, androcée"
+    ],
+    "correct_answers": [
+      "Sépales, androcée, stigmate",
+      "Pétales, ovaire",
+      "Calice, étamines",
+      "Sépales, étamines, style"
+    ],
+    "justification_fausses_reponses": {
+      "Style, sépales, androcée": "Cette option est incorrecte car le style est une partie de la fleur qui se trouve au-dessus des sépales et de l'androcee. L'ordre correct, du bas vers le haut, serait plutôt : sépales, androcée, style."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Pour un pharmacien, donner un renseignement au client sur la comestibilité d’un champignon est",
+    "options": [
+      "Une obligation réglementaire",
+      "L’occasion de valoriser une formation universitaire pluri-disciplinaire",
+      "Un service rémunéré à l’acte",
+      "Une prise de risque inconsidérée",
+      "La mise à profit d’une compétence exclusive"
+    ],
+    "correct_answers": [
+      "La mise à profit d’une compétence exclusive",
+      "L’occasion de valoriser une formation universitaire pluri-disciplinaire"
+    ],
+    "justification_fausses_reponses": {
+      "Une obligation réglementaire": "Il n'existe pas de réglementation spécifique obligeant un pharmacien à informer un client sur la comestibilité d'un champignon. C'est une compétence qui peut être mise à profit, mais ce n'est pas une obligation légale.",
+      "Un service rémunéré à l’acte": "Le conseil sur la comestibilité d'un champignon n'est pas un service spécifiquement rémunéré. Il s'agit d'un conseil qui peut être donné dans le cadre des services généraux d'un pharmacien.",
+      "Une prise de risque inconsidérée": "Bien que la détermination de la comestibilité d'un champignon puisse comporter des risques si elle est mal faite, elle n'est pas considérée comme une prise de risque inconsidérée si le pharmacien a les connaissances nécessaires."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Choisir la (ou les) bonne liste de taxons appartenant tous aux Algues bleues ou Cyanobactéries",
+    "options": [
+      "Spiruline, Spirogyre, Ulve",
+      "Lycopode, Nostoc",
+      "Nostoc, Spiruline",
+      "Fucus, L ycopode, Spirogyre",
+      "Fucus, L ycopode, Nostoc"
+    ],
+    "correct_answers": [
+      "Nostoc, Spiruline"
+    ],
+    "justification_fausses_reponses": {
+      "Spiruline, Spirogyre, Ulve": "Spirogyre et Ulve ne sont pas des Cyanobactéries mais des algues vertes.",
+      "Lycopode, Nostoc": "Le Lycopode est une plante terrestre et non une Cyanobactérie.",
+      "Fucus, L ycopode, Spirogyre": "Le Fucus est une algue brune, le Lycopode est une plante terrestre et le Spirogyre est une algue verte. Aucun de ces taxons n'appartient aux Cyanobactéries.",
+      "Fucus, L ycopode, Nostoc": "Le Fucus est une algue brune et le Lycopode est une plante terrestre. Ces deux taxons n'appartiennent pas aux Cyanobactéries."
+    }
+  }
+]

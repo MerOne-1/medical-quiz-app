@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelles sont les affirmations correctes concernant la production des protéines recombinantes à propriété thérapeutique ?",
+    "options": [
+      "Seules quelques protéines humaines peuvent aujourd'hui être synthétisées par génie génétique",
+      "Les protéines recombinantes sont utilisées depuis environ 5 ans en thérapeutique",
+      "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+      "Les protéines recombinantes ne sont pas jamais glycosylées",
+      "La première molécule fabriquée par génie génétique a été l'insuline"
+    ],
+    "correct_answers": [
+      "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+      "La première molécule fabriquée par génie génétique a été l'insuline"
+    ],
+    "justification_fausses_reponses": {
+      "Seules quelques protéines humaines peuvent aujourd'hui être synthétisées par génie génétique": "Cette affirmation est fausse car de nombreuses protéines humaines peuvent être synthétisées par génie génétique, pas seulement quelques-unes.",
+      "Les protéines recombinantes sont utilisées depuis environ 5 ans en thérapeutique": "Cette affirmation est incorrecte car les protéines recombinantes sont utilisées en thérapeutique depuis plus de 5 ans. En fait, l'insuline recombinante a été approuvée pour la première fois en 1982.",
+      "Les protéines recombinantes ne sont pas jamais glycosylées": "Cette affirmation est incorrecte car les protéines recombinantes peuvent être glycosylées. La glycosylation est un processus post-traductionnel qui peut affecter la fonction et la stabilité des protéines."
+    }
+  }
+]

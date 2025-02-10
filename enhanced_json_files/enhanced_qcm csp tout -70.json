@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la synthèse de l'agomélatine, un antidépresseur. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 présente un caractère électrophile",
+      "Le réactif 2 peut être le chlorure d'éthanoyle (CH COCl)",
+      "L'agomélatine est à l'état d'ionisation +1 à pH 7,4",
+      "Le réactif 2 est l'iodure de méthyle (CH I)",
+      "L'agomélatine possède une fonction cétone"
+    ],
+    "correct_answers": [
+      "Le réactif 2 peut être le chlorure d'éthanoyle (CH COCl)"
+    ],
+    "justification_fausses_reponses": {
+      "Le réactif 1 présente un caractère électrophile": "Cette affirmation est incorrecte car le réactif 1 n'est pas nécessairement électrophile. Cela dépend de la nature spécifique du réactif.",
+      "L'agomélatine est à l'état d'ionisation +1 à pH 7,4": "Cette affirmation est incorrecte car l'agomélatine n'est pas ionisée à pH 7,4. Elle est neutre à ce pH.",
+      "Le réactif 2 est l'iodure de méthyle (CH I)": "Cette affirmation est incorrecte car le réactif 2 pour la synthèse de l'agomélatine n'est pas l'iodure de méthyle. Le chlorure d'éthanoyle est un meilleur choix pour cette réaction.",
+      "L'agomélatine possède une fonction cétone": "Cette affirmation est incorrecte car l'agomélatine ne possède pas de fonction cétone. Elle possède une fonction amide."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'AMP cyclique est un dérivé du Ribose",
+      "L'AMP cyclique présente une base de type purine",
+      "L'état d'ionisation de l'AMP cyclique à pH physiologique (pH 7,4) est égal à -1",
+      "L'AMP cyclique possède un atome de phosphore nucléophile",
+      "L'AMP cyclique possède un hétérocycle aromatique"
+    ],
+    "correct_answers": [
+      "L'AMP cyclique est un dérivé du Ribose",
+      "L'AMP cyclique présente une base de type purine",
+      "L'état d'ionisation de l'AMP cyclique à pH physiologique (pH 7,4) est égal à -1",
+      "L'AMP cyclique possède un hétérocycle aromatique"
+    ],
+    "justification_fausses_reponses": {
+      "L'AMP cyclique possède un atome de phosphore nucléophile": "Cette affirmation est incorrecte car l'atome de phosphore dans l'AMP cyclique n'est pas nucléophile. En chimie, un nucléophile est une espèce chimique qui donne un couple d'électrons. Or, dans l'AMP cyclique, l'atome de phosphore est lié à quatre autres atomes et n'a donc pas de couple d'électrons libre pour agir en tant que nucléophile."
+    }
+  }
+]

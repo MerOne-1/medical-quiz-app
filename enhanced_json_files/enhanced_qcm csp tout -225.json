@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La totalité de la T3 est synthétisée dans la thyroïde",
+      "La T3 est la forme active des hormones thyroïdiennes",
+      "La T4 est une pro-hormone inactive",
+      "Les hormones thyroïdiennes sont des hormones stéroïdes",
+      "La TSH est une hormone thyroïdienne"
+    ],
+    "correct_answers": [
+      "La T4 est une pro-hormone inactive",
+      "La T3 est la forme active des hormones thyroïdiennes"
+    ],
+    "justification_fausses_reponses": {
+      "La totalité de la T3 est synthétisée dans la thyroïde": "C'est incorrect car une partie de la T3 est synthétisée dans la thyroïde, mais une autre partie est produite à partir de la T4 dans les tissus périphériques.",
+      "Les hormones thyroïdiennes sont des hormones stéroïdes": "C'est incorrect car les hormones thyroïdiennes, comme la T3 et la T4, sont des hormones iodées, et non des hormones stéroïdes.",
+      "La TSH est une hormone thyroïdienne": "C'est incorrect car la TSH (Thyroid Stimulating Hormone) est une hormone hypophysaire qui stimule la thyroïde, mais n'est pas elle-même une hormone thyroïdienne."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le foie produit environ 500 ml de bile par jour",
+      "La bilirubine est le produit du catabolisme de l'hème",
+      "La bilirubine conjuguée est toxique",
+      "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène",
+      "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble"
+    ],
+    "correct_answers": [
+      "Le foie produit environ 500 ml de bile par jour",
+      "La bilirubine est le produit du catabolisme de l'hème",
+      "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble",
+      "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène"
+    ],
+    "justification_fausses_reponses": {
+      "La bilirubine conjuguée est toxique": "Cette affirmation est incorrecte. En réalité, c'est la bilirubine non conjuguée qui est toxique car elle est liposoluble et peut traverser la barrière hémato-encéphalique, ce qui peut entraîner une neurotoxicité. La bilirubine conjuguée, en revanche, est soluble dans l'eau et est donc moins toxique."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Un syndrome néphrotique entraîne généralement :",
+    "options": [
+      "Une augmentation des gamma-globulines sériques",
+      "Des œdèmes",
+      "Un risque de thrombose",
+      "Une hypercholestérolémie",
+      "Une hypoalbuminémie à moins de 30 g/L"
+    ],
+    "correct_answers": [
+      "Une augmentation des gamma-globulines sériques"
+    ],
+    "justification_fausses_reponses": {
+      "Des œdèmes": "Cette affirmation est incorrecte car le syndrome néphrotique entraîne généralement des œdèmes. Cela est dû à une perte excessive de protéines dans l'urine, ce qui diminue la pression osmotique du sang et favorise l'accumulation de liquide dans les tissus.",
+      "Un risque de thrombose": "Cette affirmation est incorrecte car le syndrome néphrotique augmente le risque de thrombose. La perte de protéines anticoagulantes dans l'urine peut entraîner un état d'hypercoagulabilité.",
+      "Une hypercholestérolémie": "Cette affirmation est incorrecte car le syndrome néphrotique peut entraîner une hypercholestérolémie. La perte de protéines dans l'urine stimule le foie à produire plus de protéines, y compris des lipoprotéines qui transportent le cholestérol, ce qui peut augmenter le taux de cholestérol dans le sang.",
+      "Une hypoalbuminémie à moins de 30 g/L": "Cette affirmation est incorrecte car le syndrome néphrotique entraîne généralement une hypoalbuminémie à moins de 30 g/L. La perte excessive de protéines dans l'urine entraîne une diminution du taux d'albumine dans le sang."
+    }
+  }
+]

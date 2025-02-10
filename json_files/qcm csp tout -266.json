@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Au cours d’un syndrome de coagulation intravasculaire disséminé (CIVD), on observe généralement",
+    "options": [
+      "une anémie hémolytique d’origine mécanique",
+      "une augmentation du taux circulant de fibrinogène",
+      "un TCA supérieur à 1.2 fois le T CA témoin",
+      "une diminution des taux circulants de D-dimères",
+      "une thrombopénie"
+    ],
+    "correct_answers": [
+      "une thrombopénie",
+      "une anémie hémolytique d’origine mécanique",
+      "un TCA supérieur à 1.2 fois le TCA témoin"
+    ]
+  }
+]

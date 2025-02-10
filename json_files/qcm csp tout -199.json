@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les eaux destinées à la consommation humaine, à l’exception des eaux minérales naturelles, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Ces eaux doivent impérativement respecter les limites de qualité définies légalement.",
+      "Le suivi de leur qualité ne concerne que les risques sanitaires.",
+      "Elles doivent satisfaire à des références de qualité relatives aux propriétés organoleptiques de l’eau ou indicatrices du bon fonctionnement des installations de traitement de potabilisation.",
+      "La fréquence des contrôles sanitaires réglementaires en sortie d’usine de potabilisation dépend du volume d’eau traité.",
+      "Le contrôle de leur qualité microbiologique repose sur la recherche de germes indicateurs de contamination fécale."
+    ],
+    "correct_answers": [
+      "Ces eaux doivent impérativement respecter les limites de qualité définies légalement.",
+      "Elles doivent satisfaire à des références de qualité relatives aux propriétés organoleptiques de l’eau ou indicatrices du bon fonctionnement des installations de traitement de potabilisation.",
+      "Le contrôle de leur qualité microbiologique repose sur la recherche de germes indicateurs de contamination fécale."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des alcools, quelle est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "Le métabolisme hépatique du méthanol aboutit à la formation d’acide formique.",
+      "Lors d’une intoxication aiguë par l’éthylène glycol, la formation de cristaux d’oxalate de calcium provoque des lésions rénales, à l’origine d’une insuffisance rénale aiguë.",
+      "L’accumulation d’acide formique est responsable d’une acidose respiratoire.",
+      "La toxicité neurologique du méthanol est responsable d’une neuropathie optique, pouvant mener à une cécité irréversible.",
+      "Le traitement antidotique de l’intoxication au méthanol repose sur l’utilisation d’un inhibiteur de l’aldéhyde déshydrogénase."
+    ],
+    "correct_answers": [
+      "Le métabolisme hépatique du méthanol aboutit à la formation d’acide formique.",
+      "La toxicité neurologique du méthanol est responsable d’une neuropathie optique, pouvant mener à une cécité irréversible.",
+      "Lors d’une intoxication aiguë par l’éthylène glycol, la formation de cristaux d’oxalate de calcium provoque des lésions rénales, à l’origine d’une insuffisance rénale aiguë."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les méthodes d’évaluation de la toxicité des médicaments à usage humain, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "Un des objectifs des études toxicologiques est de calculer la première dose de médicament à administrer à l’homme.",
+      "Les études de reprotoxicité sont divisées en 4 segments.",
+      "Les tests doivent être effectués dans le respect des Bonnes Pratiques de Laboratoire.",
+      "La totalité des tests est effectuée in vivo chez l’animal.",
+      "La toxicité d’un futur médicament est évaluée très tard dans le processus de développement, juste avant sa mise sur le marché."
+    ],
+    "correct_answers": [
+      "Un des objectifs des études toxicologiques est de calculer la première dose de médicament à administrer à l’homme.",
+      "Les tests doivent être effectués dans le respect des Bonnes Pratiques de Laboratoire."
+    ]
+  }
+]

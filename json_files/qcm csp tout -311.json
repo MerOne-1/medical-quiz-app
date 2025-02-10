@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Mme Macha T., 45 ans, restauratrice, est infectée par le HBV. Son traitement comprend les éléments suivants : Ténofovir disoproxil, cp à 245 mg : 1cp/jour. Concernant le ténofovir disoproxil, quelles sont les réponses vraies ?",
+    "options": [
+      "Il doit être pris au cours d'un repas",
+      "C'est un inhibiteur de la protéase",
+      "Il doit être pris à jeun",
+      "C'est un inhibiteur de l'intégrase",
+      "C'est un inhibiteur de la T ranscriptase Inverse du virus"
+    ],
+    "correct_answers": [
+      "C'est un inhibiteur de la T ranscriptase Inverse du virus",
+      "Il doit être pris au cours d'un repas"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Dans l'officine où vous êtes en stage, vous trouvez les médicaments suivants : A VAXIM, HA VRIX. Concernant ces médicaments, quelles sont les réponses vraies ?",
+    "options": [
+      "Il s'agit de vaccins, ils doivent être conservés à +4°C",
+      "Ce sont des vaccins contre l'hépatite A",
+      "Ce sont des vaccins recommandés chez la femme enceinte",
+      "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+      "Ce sont des vaccins contre l'hépatite E"
+    ],
+    "correct_answers": [
+      "Ce sont des vaccins contre l'hépatite A",
+      "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+      "Il s'agit de vaccins, ils doivent être conservés à +4°C"
+    ]
+  }
+]

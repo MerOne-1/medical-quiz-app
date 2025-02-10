@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la spectrophotométrie UV-Visible, la (les) quelle (s) est (sont) exacte (s)?",
+    "options": [
+      "Les groupements fonctionnels porteurs d'hétéroatomes sont auxochromes",
+      "Une substance incolore absorbe dans la zone de longueur d'onde comprise entre 400 nm et 700 nm",
+      "Les carbures saturés n'absorbent pas dans l'ultra-violet proche",
+      "Le solvant n'influence pas l'absorption des substances dissoutes",
+      "La conjugaison des liaisons multiples déplace le maximum d'absorption de la molécule vers les grandes longueurs d'onde"
+    ],
+    "correct_answers": [
+      "Les carbures saturés n'absorbent pas dans l'ultra-violet proche",
+      "La conjugaison des liaisons multiples déplace le maximum d'absorption de la molécule vers les grandes longueurs d'onde",
+      "Les groupements fonctionnels porteurs d'hétéroatomes sont auxochromes"
+    ],
+    "justification_fausses_reponses": {
+      "Une substance incolore absorbe dans la zone de longueur d'onde comprise entre 400 nm et 700 nm": "C'est incorrect car les substances incolores n'absorbent pas la lumière dans la zone visible (400-700 nm). Elles absorbent plutôt dans l'ultraviolet, ce qui est hors de la plage visible par l'œil humain.",
+      "Le solvant n'influence pas l'absorption des substances dissoutes": "C'est faux car le solvant peut influencer l'absorption des substances dissoutes. Par exemple, un solvant peut modifier l'environnement électronique d'une molécule et donc changer ses propriétés d'absorption."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes quel matériel utiliseriez-vous pour prélever dans un flacon, un volume précis?",
+    "options": [
+      "Une burette graduée",
+      "Une éprouvette graduée",
+      "Une fiole jaugée",
+      "Un bécher",
+      "Une pipette jaugée"
+    ],
+    "correct_answers": [
+      "Une pipette jaugée"
+    ],
+    "justification_fausses_reponses": {
+      "Une burette graduée": "Une burette graduée est généralement utilisée pour ajouter un volume précis d'un liquide à une solution pendant une titration, et non pour prélever un volume précis d'un flacon.",
+      "Une éprouvette graduée": "Une éprouvette graduée est utilisée pour mesurer des volumes approximatifs de liquides, elle n'est pas assez précise pour prélever un volume précis.",
+      "Une fiole jaugée": "Une fiole jaugée est utilisée pour préparer des solutions de concentration précise, et non pour prélever un volume précis d'un flacon.",
+      "Un bécher": "Un bécher est un récipient de laboratoire polyvalent utilisé pour contenir, mélanger et chauffer des liquides. Il n'est pas conçu pour mesurer des volumes précis."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s)? Le rendement de l'extraction par un solvant organique d'un composé neutre en solution dans l'eau augmente lorsque:",
+    "options": [
+      "Le nombre d'extractions réalisées augmente",
+      "Le volume du solvant organique augmente",
+      "Le volume de la phase aqueuse à extraire augmente",
+      "Le coefficient de partage du composé augmente",
+      "La concentration initiale du composé dans l’eau augmente"
+    ],
+    "correct_answers": [
+      "Le volume de la phase aqueuse à extraire augmente",
+      "La concentration initiale du composé dans l’eau augmente"
+    ],
+    "justification_fausses_reponses": {
+      "Le nombre d'extractions réalisées augmente": "C'est incorrect car augmenter le nombre d'extractions n'augmente pas nécessairement le rendement de l'extraction. Cela peut même conduire à une perte de composé si le solvant organique n'est pas entièrement récupéré à chaque étape.",
+      "Le volume du solvant organique augmente": "C'est incorrect car augmenter le volume du solvant organique n'augmente pas nécessairement le rendement de l'extraction. En fait, cela peut diluer le composé et rendre l'extraction moins efficace.",
+      "Le coefficient de partage du composé augmente": "C'est incorrect car le coefficient de partage est une propriété intrinsèque du composé et ne peut pas être modifié par l'opérateur. Il détermine la répartition du composé entre les deux phases, mais n'affecte pas directement le rendement de l'extraction."
+    }
+  }
+]

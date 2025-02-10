@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Mme Macha T., 45 ans, restauratrice, est infectée par le HBV. Son traitement comprend les éléments suivants : Ténofovir disoproxil, cp à 245 mg : 1cp/jour. Concernant le ténofovir disoproxil, quelles sont les réponses vraies ?",
+    "options": [
+      "Il doit être pris au cours d'un repas",
+      "C'est un inhibiteur de la protéase",
+      "Il doit être pris à jeun",
+      "C'est un inhibiteur de l'intégrase",
+      "C'est un inhibiteur de la T ranscriptase Inverse du virus"
+    ],
+    "correct_answers": [
+      "C'est un inhibiteur de la T ranscriptase Inverse du virus",
+      "Il doit être pris au cours d'un repas"
+    ],
+    "justification_fausses_reponses": {
+      "C'est un inhibiteur de la protéase": "Le ténofovir disoproxil n'est pas un inhibiteur de la protéase. Les inhibiteurs de la protéase sont une autre classe de médicaments antirétroviraux qui bloquent une enzyme virale, la protéase, empêchant ainsi le virus de se reproduire.",
+      "Il doit être pris à jeun": "Le ténofovir disoproxil doit être pris au cours d'un repas et non à jeun. La prise alimentaire augmente l'absorption du médicament.",
+      "C'est un inhibiteur de l'intégrase": "Le ténofovir disoproxil n'est pas un inhibiteur de l'intégrase. Les inhibiteurs de l'intégrase sont une autre classe de médicaments antirétroviraux qui bloquent une enzyme virale, l'intégrase, empêchant ainsi le virus de s'intégrer à l'ADN de la cellule hôte."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "Dans l'officine où vous êtes en stage, vous trouvez les médicaments suivants : A VAXIM, HA VRIX. Concernant ces médicaments, quelles sont les réponses vraies ?",
+    "options": [
+      "Il s'agit de vaccins, ils doivent être conservés à +4°C",
+      "Ce sont des vaccins contre l'hépatite A",
+      "Ce sont des vaccins recommandés chez la femme enceinte",
+      "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+      "Ce sont des vaccins contre l'hépatite E"
+    ],
+    "correct_answers": [
+      "Ce sont des vaccins contre l'hépatite A",
+      "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+      "Il s'agit de vaccins, ils doivent être conservés à +4°C"
+    ],
+    "justification_fausses_reponses": {
+      "Ce sont des vaccins recommandés chez la femme enceinte": "C'est incorrect car les vaccins A VAXIM et HA VRIX ne sont pas spécifiquement recommandés pour les femmes enceintes. Les recommandations de vaccination pendant la grossesse dépendent de plusieurs facteurs, dont le type de vaccin et le risque d'exposition à la maladie.",
+      "Ce sont des vaccins contre l'hépatite E": "C'est incorrect car les vaccins A VAXIM et HA VRIX sont des vaccins contre l'hépatite A, pas l'hépatite E. L'hépatite E est une maladie différente, causée par un virus différent, et nécessite un vaccin différent."
+    }
+  }
+]

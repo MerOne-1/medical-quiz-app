@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "A 37°C, un antibiotique A est métabolisé avec une constante de vitesse k égale à 3.10 s. L’efficacité d’un traitement par cet antibiotique implique de maintenir une concentration toujours supérieure à 2 mg par kg de poids corporel. Un patient dont le poids est de 70 kg absorbe à intervalle régulier des comprimés renfermant 400 mg de cet antibiotique. Quel doit être l’intervalle maximum de temps entre deux prises de médicaments (on suppose que la distribution du médicament est instantanée et uniforme dans tout l’organisme) ?",
+    "options": [
+      "11,9 h",
+      "7,2 h",
+      "3,5 h",
+      "9,7 h",
+      "8,6 h"
+    ],
+    "correct_answers": [
+      "9,7 h"
+    ],
+    "justification_fausses_reponses": {
+      "11,9 h": "C'est trop long. La concentration de l'antibiotique dans le corps serait tombée en dessous du seuil efficace avant la prochaine dose.",
+      "7,2 h": "C'est trop court. La concentration de l'antibiotique dans le corps serait encore au-dessus du seuil efficace, ce qui pourrait entraîner une surdose.",
+      "3,5 h": "C'est beaucoup trop court. La concentration de l'antibiotique dans le corps serait bien au-dessus du seuil efficace, ce qui pourrait entraîner une surdose sévère.",
+      "8,6 h": "C'est un peu trop court. La concentration de l'antibiotique dans le corps serait encore légèrement au-dessus du seuil efficace, ce qui pourrait entraîner une légère surdose."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Indiquer la (ou les) proposition (s) exacte (s). PCl est",
+    "options": [
+      "un nucléophile, à cause du doublet non liant",
+      "une molécule plane car P est trivalent",
+      "une molécule en forme en forme de bipyramide trigonale",
+      "un composé du phosphore au degré d’oxydation -3",
+      "un électrophile"
+    ],
+    "correct_answers": [
+      "un électrophile"
+    ],
+    "justification_fausses_reponses": {
+      "un nucléophile, à cause du doublet non liant": "C'est incorrect car PCl est un électrophile, pas un nucléophile. Un nucléophile est une espèce chimique qui donne un doublet d'électrons, ce qui n'est pas le cas de PCl.",
+      "une molécule plane car P est trivalent": "C'est incorrect car PCl est une molécule en forme de bipyramide trigonale, pas une molécule plane. La géométrie d'une molécule dépend de la répartition des électrons autour de l'atome central.",
+      "une molécule en forme en forme de bipyramide trigonale": "C'est incorrect car PCl est une molécule en forme de tétraèdre, pas une bipyramide trigonale. La forme de bipyramide trigonale est typique des molécules avec cinq paires d'électrons autour de l'atome central.",
+      "un composé du phosphore au degré d’oxydation -3": "C'est incorrect car dans PCl, le phosphore a un degré d'oxydation de +3, pas -3. Le degré d'oxydation est déterminé par le nombre d'électrons qu'un atome perd ou gagne lors de la formation d'un composé."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes relatives aux liaisons faibles, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "La liaison hydrogène est une des nombreuses liaisons faibles expliquant la structure secondaire des protéines",
+      "Seules des forces de London peuvent s’établir entre 2 molécules de O",
+      "Les forces de Keesom s’établissent entre molécules polaires",
+      "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+      "Les forces de Debye sont les forces de Van der Waals les plus stabilisantes"
+    ],
+    "correct_answers": [
+      "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+      "Les forces de Keesom s’établissent entre molécules polaires",
+      "Seules des forces de London peuvent s’établir entre 2 molécules de O"
+    ],
+    "justification_fausses_reponses": {
+      "La liaison hydrogène est une des nombreuses liaisons faibles expliquant la structure secondaire des protéines": "Cette affirmation est incorrecte car la structure secondaire des protéines est principalement déterminée par des liaisons hydrogène, mais pas uniquement. D'autres types de liaisons, comme les liaisons peptidiques, jouent également un rôle important.",
+      "Les forces de Debye sont les forces de Van der Waals les plus stabilisantes": "Cette affirmation est incorrecte car les forces de Debye ne sont pas les plus stabilisantes parmi les forces de Van der Waals. Les forces de Keesom, qui sont des interactions dipôle-dipôle, sont généralement plus stabilisantes."
+    }
+  }
+]

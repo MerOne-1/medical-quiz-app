@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules ou familles de molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) issue(s) d’acides aminés ?",
+    "options": [
+      "Vancomycine",
+      "Pénicillines",
+      "Alcaloïdes",
+      "Héparines",
+      "Insulines"
+    ],
+    "correct_answers": [
+      "Insulines",
+      "Pénicillines",
+      "Alcaloïdes",
+      "Vancomycine"
+    ],
+    "justification_fausses_reponses": {
+      "Héparines": "Les héparines sont des glycosaminoglycanes, une famille de polysaccharides. Elles ne sont donc pas issues d'acides aminés, mais de sucres."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C’est un acide gras « trans »",
+      "C’est un acide gras « à longue chaîne »",
+      "C’est un acide gras oméga 3",
+      "On peut le rencontrer dans une huile végétale",
+      "C’est un acide gras polyinsaturé"
+    ],
+    "correct_answers": [
+      "C’est un acide gras oméga 3",
+      "C’est un acide gras polyinsaturé",
+      "C’est un acide gras « à longue chaîne »"
+    ],
+    "justification_fausses_reponses": {
+      "C’est un acide gras « trans »": "Cette affirmation est incorrecte car les acides gras trans sont une forme d'acide gras insaturé qui a une configuration spatiale différente de celle des acides gras oméga 3. Ils sont généralement produits industriellement et sont moins sains.",
+      "On peut le rencontrer dans une huile végétale": "Cette affirmation est incorrecte car tous les acides gras ne se trouvent pas nécessairement dans les huiles végétales. Certaines huiles végétales peuvent contenir des acides gras oméga 3, mais cela dépend de la plante spécifique."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les classes d’antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+    "options": [
+      "Glycopeptides",
+      "Céphalosporines",
+      "Aminosides",
+      "Streptogramines",
+      "Macrolides"
+    ],
+    "correct_answers": [
+      "Streptogramines",
+      "Macrolides",
+      "Aminosides"
+    ],
+    "justification_fausses_reponses": {
+      "Glycopeptides": "Les glycopeptides agissent en inhibant la synthèse de la paroi cellulaire des bactéries, et non sur le fonctionnement des ribosomes.",
+      "Céphalosporines": "Les céphalosporines sont des antibiotiques qui agissent également en inhibant la synthèse de la paroi cellulaire des bactéries, et non sur le fonctionnement des ribosomes."
+    }
+  }
+]

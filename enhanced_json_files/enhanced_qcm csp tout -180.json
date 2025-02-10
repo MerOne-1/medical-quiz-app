@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Une extrasystole ventriculaire:",
+    "options": [
+      "n’est jamais isolée mais toujours en salves.",
+      "prend naissance dans le ventricule sans modifier le QRS.",
+      "provient d’une anomalie du nœud sinusal.",
+      "prend naissance dans le ventricule et provoque un élargissement important du QRS.",
+      "n’est jamais aléatoire mais revient toujours après le même nombre de cycles cardiaques."
+    ],
+    "correct_answers": [
+      "prend naissance dans le ventricule et provoque un élargissement important du QRS."
+    ],
+    "justification_fausses_reponses": {
+      "n’est jamais isolée mais toujours en salves.": "C'est incorrect car une extrasystole ventriculaire peut être isolée ou se produire en salves, cela dépend de la condition du patient.",
+      "prend naissance dans le ventricule sans modifier le QRS.": "C'est incorrect car une extrasystole ventriculaire provoque généralement un élargissement du complexe QRS sur un électrocardiogramme.",
+      "provient d’une anomalie du nœud sinusal.": "C'est incorrect car une extrasystole ventriculaire provient d'une activité électrique anormale dans les ventricules, pas du nœud sinusal.",
+      "n’est jamais aléatoire mais revient toujours après le même nombre de cycles cardiaques.": "C'est incorrect car une extrasystole ventriculaire peut être aléatoire et ne pas suivre un nombre fixe de cycles cardiaques."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Le « mal des transports » :",
+    "options": [
+      "Le « mal des transports » apparaît quand il y a un conflit de signification entre les informations qui proviennent de l’appareil vestibulaire et de la vision.",
+      "Les accélérations angulaires ne favorisent pas l’apparition du « mal des transports ».",
+      "Le risque d’apparition du « mal des transports » est élevé quand un sujet se déplace en voiture sur une route comportant de nombreux virages.",
+      "L’appareil vestibulaire n’est pas le seul système neuro-physiologique impliqué dans l’apparition du « mal des transports ».",
+      "Les canaux semi-circulaires jouent un rôle dans l’apparition du « mal des transports »."
+    ],
+    "correct_answers": [
+      "Les accélérations angulaires ne favorisent pas l’apparition du « mal des transports »."
+    ],
+    "justification_fausses_reponses": {
+      "Le « mal des transports » apparaît quand il y a un conflit de signification entre les informations qui proviennent de l’appareil vestibulaire et de la vision.": "Cette affirmation est incorrecte car le mal des transports est causé par un désaccord entre les informations sensorielles perçues par l'oreille interne, les yeux et les autres parties du corps.",
+      "Le risque d’apparition du « mal des transports » est élevé quand un sujet se déplace en voiture sur une route comportant de nombreux virages.": "Cette affirmation est incorrecte car le mal des transports peut survenir dans n'importe quel type de déplacement, pas seulement en voiture sur une route sinueuse.",
+      "L’appareil vestibulaire n’est pas le seul système neuro-physiologique impliqué dans l’apparition du « mal des transports ».": "Cette affirmation est incorrecte car bien que l'appareil vestibulaire joue un rôle dans le mal des transports, d'autres systèmes neuro-physiologiques sont également impliqués.",
+      "Les canaux semi-circulaires jouent un rôle dans l’apparition du « mal des transports ».": "Cette affirmation est incorrecte car bien que les canaux semi-circulaires soient impliqués dans l'équilibre, ils ne sont pas directement responsables de l'apparition du mal des transports."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’angiotensine II entraîne une vasoconstriction des artérioles afférentes ET efférentes.",
+      "La rénine transforme l’angiotensine I en angiotensine II.",
+      "Le peptide auriculaire natriurétique (atrial natriuretic peptide) diminue le débit de filtration glomérulaire.",
+      "L’angiotensine II augmente le débit sanguin rénal.",
+      "Une augmentation de l’activité nerveuse sympathique rénale augmente le débit de filtration glomérulaire."
+    ],
+    "correct_answers": [
+      "L’angiotensine II entraîne une vasoconstriction des artérioles afférentes ET efférentes."
+    ],
+    "justification_fausses_reponses": {
+      "La rénine transforme l’angiotensine I en angiotensine II.": "C'est incorrect car la rénine est une enzyme qui catalyse la transformation de l'angiotensinogène en angiotensine I, et non en angiotensine II.",
+      "Le peptide auriculaire natriurétique (atrial natriuretic peptide) diminue le débit de filtration glomérulaire.": "C'est incorrect car le peptide auriculaire natriurétique augmente le débit de filtration glomérulaire en relaxant les cellules musculaires lisses des artérioles glomérulaires.",
+      "L’angiotensine II augmente le débit sanguin rénal.": "C'est incorrect car l'angiotensine II provoque une vasoconstriction qui diminue le débit sanguin rénal.",
+      "Une augmentation de l’activité nerveuse sympathique rénale augmente le débit de filtration glomérulaire.": "C'est incorrect car une augmentation de l'activité nerveuse sympathique rénale provoque une vasoconstriction qui diminue le débit de filtration glomérulaire."
+    }
+  }
+]

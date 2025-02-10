@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+      "Les traitements par anticancéreux par voie orale au long cours se multiplient",
+      "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+      "L'incidence d'un syndrome pharmacogénétique est fréquente"
+    ],
+    "correct_answers": [
+      "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+      "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+      "Les traitements par anticancéreux par voie orale au long cours se multiplient"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les antipsychotiques suivants ; lequel ou lesquels appartienne(nt) à la famille des antipsychotiques atypiques ?",
+    "options": [
+      "Risperidone",
+      "Chlorpromazine",
+      "Aripiprazole",
+      "Clozapine",
+      "Olanzapine"
+    ],
+    "correct_answers": [
+      "Risperidone",
+      "Clozapine",
+      "Olanzapine",
+      "Aripiprazole"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant l'élimination du lithium, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Elle est favorisée par la réabsorption au niveau du tube proximal",
+      "Elle peut être augmentée par la dialyse",
+      "Elle est favorisée par l'hyponatrémie",
+      "Elle peut être augmentée par la diurétiques thiazidiques",
+      "Elle est diminuée par la diurétiques anti-aldostérone"
+    ],
+    "correct_answers": [
+      "Elle peut être augmentée par la dialyse",
+      "Elle est diminuée par la diurétiques anti-aldostérone"
+    ]
+  }
+]

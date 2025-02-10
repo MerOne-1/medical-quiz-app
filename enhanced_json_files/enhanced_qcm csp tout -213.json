@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) la (les) proposition(s) fausse(s) concernant l'endocardite infectieuse ?",
+    "options": [
+      "la mise en culture du liquide péricardique permet la mise en évidence de la bactérie responsable",
+      "elle peut parfois révéler une valvulopathie jusque-là méconnue",
+      "une avulsion dentaire peut en être à l'origine",
+      "elle est principalement due à des bacilles à Gram négatif",
+      "c'est une pathologie fréquente"
+    ],
+    "correct_answers": [
+      "c'est une pathologie fréquente",
+      "elle est principalement due à des bacilles à Gram négatif",
+      "la mise en culture du liquide péricardique permet la mise en évidence de la bactérie responsable"
+    ],
+    "justification_fausses_reponses": {
+      "elle peut parfois révéler une valvulopathie jusque-là méconnue": "Cette affirmation est correcte. L'endocardite infectieuse peut effectivement révéler une valvulopathie précédemment inconnue, car l'infection peut affecter les valves cardiaques et causer des symptômes qui mènent à la découverte de la valvulopathie.",
+      "une avulsion dentaire peut en être à l'origine": "Cette affirmation est également correcte. Une avulsion dentaire, ou l'extraction d'une dent, peut potentiellement introduire des bactéries dans la circulation sanguine, ce qui peut conduire à une endocardite infectieuse chez les personnes à risque."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Streptococcus pneumoniae",
+    "options": [
+      "il est très sensible aux aminosides",
+      "c'est un diplocoque à Gram positif encapsulé",
+      "c'est un commensal du rhino-pharynx",
+      "un antigène capsulaire peut-être présent dans les urines en cas de méningite pneumococcique",
+      "il est habituellement sensible au céfotaxime"
+    ],
+    "correct_answers": [
+      "c'est un commensal du rhino-pharynx",
+      "c'est un diplocoque à Gram positif encapsulé",
+      "un antigène capsulaire peut-être présent dans les urines en cas de méningite pneumococcique",
+      "il est habituellement sensible au céfotaxime"
+    ],
+    "justification_fausses_reponses": {
+      "il est très sensible aux aminosides": "C'est incorrect. Streptococcus pneumoniae est en réalité résistant aux aminosides. Les aminosides sont des antibiotiques qui inhibent la synthèse des protéines bactériennes, mais Streptococcus pneumoniae possède des mécanismes de résistance à ces médicaments."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Une coproculture :",
+    "options": [
+      "est indiquée en cas de diarrhée sanglante",
+      "est indiquée en cas de diarrhée chronique",
+      "est indiquée chez un patient atteint de diarrhée et présentant une fièvre avec température centrale supérieure à 38°C",
+      "donne un résultat positif chez le nourrisson atteint de diarrhée dans 95% des cas",
+      "est un examen dont le résultat est transmis en 24 h au clinicien"
+    ],
+    "correct_answers": [
+      "est indiquée en cas de diarrhée sanglante",
+      "est indiquée en cas de diarrhée chronique",
+      "est indiquée chez un patient atteint de diarrhée et présentant une fièvre avec température centrale supérieure à 38°C"
+    ],
+    "justification_fausses_reponses": {
+      "donne un résultat positif chez le nourrisson atteint de diarrhée dans 95% des cas": "Cette affirmation est incorrecte car le taux de positivité d'une coproculture chez un nourrisson atteint de diarrhée est variable et dépend de nombreux facteurs, dont le type de pathogène en cause et la sensibilité du test utilisé. Il n'est donc pas correct de dire qu'il est positif dans 95% des cas.",
+      "est un examen dont le résultat est transmis en 24 h au clinicien": "Cette affirmation est incorrecte car le délai de transmission des résultats d'une coproculture au clinicien peut varier en fonction de plusieurs facteurs, dont le type de laboratoire et la complexité de l'analyse. Il n'est donc pas correct de dire que le résultat est toujours transmis en 24 heures."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant Francisella tularensis , bactérie agent de la tularémie :",
+    "options": [
+      "elle provoque des ulcérations cutanées associées à des adénopathies inflammatoires",
+      "les rongeurs et les lagomorphes constituent le réservoir de cette bactérie",
+      "elle peut être transmise via des piqûres de tiques",
+      "peut être un agent du bioterrorisme",
+      "c'est une bactérie spirochète"
+    ],
+    "correct_answers": [
+      "c'est une bactérie spirochète"
+    ],
+    "justification_fausses_reponses": {
+      "elle provoque des ulcérations cutanées associées à des adénopathies inflammatoires": "Cette affirmation est correcte. Francisella tularensis peut provoquer des ulcérations cutanées et des adénopathies inflammatoires.",
+      "les rongeurs et les lagomorphes constituent le réservoir de cette bactérie": "Cette affirmation est correcte. Les rongeurs et les lagomorphes sont bien un réservoir pour cette bactérie.",
+      "elle peut être transmise via des piqûres de tiques": "Cette affirmation est correcte. Francisella tularensis peut être transmise par des piqûres de tiques.",
+      "peut être un agent du bioterrorisme": "Cette affirmation est correcte. En raison de sa virulence et de sa capacité à être aérosolisée, Francisella tularensis peut être utilisée comme agent de bioterrorisme."
+    }
+  }
+]

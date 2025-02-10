@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des antipsychotiques, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "En cas d’intoxication aiguë sévère, tous les neuroleptiques dits « classiques », comme la chlorpromazine ou la fluphénazine, peuvent entraîner la survenue d’un coma calme, profond et hypotonique.",
+      "En cas d’intoxication aiguë, les antipsychotiques de 1ère génération peuvent entraîner la survenue d’un syndrome anticholinergique.",
+      "Les neuroleptiques de type phénothiazine sont responsables de résultats faussement positifs avec les méthodes de dépistage sanguin et urinaire, de type immunoanalyse, des antidépresseurs tricycliques.",
+      "Leur mécanisme d’action toxique repose sur leur propriété d’agonistes dopaminergiques non sélectifs.",
+      "Le syndrome malin aux neuroleptiques correspond à un syndrome de sevrage aux neuroleptiques."
+    ],
+    "correct_answers": [
+      "Leur mécanisme d’action toxique repose sur leur propriété d’agonistes dopaminergiques non sélectifs.",
+      "En cas d’intoxication aiguë sévère, tous les neuroleptiques dits « classiques », comme la chlorpromazine ou la fluphénazine, peuvent entraîner la survenue d’un coma calme, profond et hypotonique.",
+      "Le syndrome malin aux neuroleptiques correspond à un syndrome de sevrage aux neuroleptiques."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication par les hydrocarbures aromatiques polycycliques (HAP), laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Ils sont responsables d’effets irritants, inflammatoires, voire mutagènes/cancérogènes.",
+      "Ils sont présents dans l’atmosphère uniquement sous forme particulaire.",
+      "Ils sont mesurables dans les matrices humaines que sous formes de métabolites et par CLHP-UV.",
+      "Ils sont issus de la pyrolyse/pyrosynthèse de matériaux inorganiques.",
+      "Ils sont métabolisés dans l’organisme humain après l’activation de la voie de signalisation de l’Aryl hydrocarbon Receptor (AhR)."
+    ],
+    "correct_answers": [
+      "Ils sont issus de la pyrolyse/pyrosynthèse de matériaux inorganiques.",
+      "Ils sont métabolisés dans l’organisme humain après l’activation de la voie de signalisation de l’Aryl hydrocarbon Receptor (AhR).",
+      "Ils sont responsables d’effets irritants, inflammatoires, voire mutagènes/cancérogènes."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces composés, lequel (lesquels) a (ont) été classé(s) par le CIRC cancérogène(s) pour l’homme :",
+    "options": [
+      "Benzo[a]pyrène.",
+      "Benzène.",
+      "Aluminium.",
+      "Hexane.",
+      "Amiante."
+    ],
+    "correct_answers": [
+      "Amiante.",
+      "Benzène.",
+      "Benzo[a]pyrène."
+    ]
+  }
+]

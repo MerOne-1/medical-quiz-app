@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives à l'absorption hydrique, choisissez celle(s) exacte(s)",
+    "options": [
+      "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif",
+      "L'absorption hydrique est réalisée par toutes les parties de la racine",
+      "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+      "Sans les racines l'eau ne peut circuler dans la plante",
+      "La transpiration est la parte d'eau au niveau des fleurs"
+    ],
+    "correct_answers": [
+      "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+      "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Les champignons ont été érigés en tant que règne autonome",
+    "options": [
+      "En raison de leur hétérotrophie vis-à-vis du carbone",
+      "Sur la proposition des mycologues souhaitant une reconnaissance de l’objet de leur étude",
+      "Sur la base d’études moléculaires et phylogénétiques",
+      "Après avoir été rattachés pendant longtemps au règne animal",
+      "Sur la base d’une combinaison originale de caractères"
+    ],
+    "correct_answers": [
+      "Sur la base d’études moléculaires et phylogénétiques",
+      "Sur la base d’une combinaison originale de caractères"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+    "options": [
+      "C'est lors que la phase sombre qu'il y a la dissociation de l'eau génératrice d'électrons",
+      "La phase sombre de la photosynthèse s'appelle le cycle de Krebs",
+      "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+      "Le phase sombre de la photosynthèse permet la fabrication du glycogène",
+      "Il y a peu de sucre de réserve stocké dans les feuilles"
+    ],
+    "correct_answers": [
+      "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+      "Il y a peu de sucre de réserve stocké dans les feuilles"
+    ]
+  }
+]

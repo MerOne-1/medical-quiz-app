@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les glycosaminoglycanes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L’arthrose résulte d’un appauvrissement en chondroïtine sulfate des cartilages",
+      "Des glycosaminoglycanes s’accumulent chez les patients atteints de maladie de Gaucher",
+      "L’acide hyaluronique est un glycosaminoglycane",
+      "C’est un composant protéique majeur des matrices extracellulaires du tissu conjonctif",
+      "Les mucopolysaccharidoses sont des maladies causées par un déficit enzymatique du catabolisme des glycosaminoglycanes"
+    ],
+    "correct_answers": [
+      "L’arthrose résulte d’un appauvrissement en chondroïtine sulfate des cartilages",
+      "L’acide hyaluronique est un glycosaminoglycane",
+      "Les mucopolysaccharidoses sont des maladies causées par un déficit enzymatique du catabolisme des glycosaminoglycanes"
+    ],
+    "justification_fausses_reponses": {
+      "Des glycosaminoglycanes s’accumulent chez les patients atteints de maladie de Gaucher": "C'est incorrect car dans la maladie de Gaucher, ce sont les glucocérébrosides, et non les glycosaminoglycanes, qui s'accumulent en raison d'un déficit enzymatique.",
+      "C’est un composant protéique majeur des matrices extracellulaires du tissu conjonctif": "C'est incorrect car les glycosaminoglycanes sont des polysaccharides, et non des protéines. Ils sont cependant un composant majeur des matrices extracellulaires du tissu conjonctif."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La thyroïdite de De Quervain survient généralement après une affection ORL",
+      "La thyroïdite du post-partum survient majoritairement chez les femmes diabétiques",
+      "Un bilan thyroïdien de base comprend a minima  le dosage de la T SH et le dosage de l’iode circulant",
+      "La maladie de Basedow est systématiquement associée à des signes oculaires tels que rétraction de la paupière et protrusion du globe oculaire",
+      "Le traitement de première intention de la maladie de Basedow est l’exérèse totale de la thyroïde"
+    ],
+    "correct_answers": [
+      "La thyroïdite de De Quervain survient généralement après une affection ORL"
+    ],
+    "justification_fausses_reponses": {
+      "La thyroïdite du post-partum survient majoritairement chez les femmes diabétiques": "La thyroïdite du post-partum n'est pas spécifiquement liée au diabète. Elle peut survenir chez n'importe quelle femme après l'accouchement, indépendamment de son état de santé.",
+      "Un bilan thyroïdien de base comprend a minima  le dosage de la T SH et le dosage de l’iode circulant": "Un bilan thyroïdien de base comprend généralement le dosage de la TSH (hormone stimulant la thyroïde) et de la T4 libre, mais pas nécessairement le dosage de l'iode circulant.",
+      "La maladie de Basedow est systématiquement associée à des signes oculaires tels que rétraction de la paupière et protrusion du globe oculaire": "Bien que les signes oculaires soient courants dans la maladie de Basedow, ils ne sont pas systématiquement présents. De plus, ils peuvent varier en gravité d'une personne à l'autre.",
+      "Le traitement de première intention de la maladie de Basedow est l’exérèse totale de la thyroïde": "L'exérèse totale de la thyroïde n'est généralement pas le premier choix de traitement pour la maladie de Basedow. Le traitement initial comprend généralement des médicaments antithyroïdiens."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s)? Le téríparatide (Forstéo*)",
+    "options": [
+      "Est utilisé dans le traitement de l'ostéoporose post-ménopausique",
+      "Est de la parathormone",
+      "S'administre par voie intramusculaire",
+      "Est un peptide",
+      "Est une hormone antéhypophysaire"
+    ],
+    "correct_answers": [
+      "Est une hormone antéhypophysaire",
+      "S'administre par voie intramusculaire"
+    ],
+    "justification_fausses_reponses": {
+      "Est utilisé dans le traitement de l'ostéoporose post-ménopausique": "Cette affirmation est correcte. Le téríparatide est bien utilisé dans le traitement de l'ostéoporose post-ménopausique.",
+      "Est de la parathormone": "Cette affirmation est correcte. Le téríparatide est une forme synthétique de la parathormone, une hormone qui régule le calcium dans le corps.",
+      "Est un peptide": "Cette affirmation est correcte. Le téríparatide est un peptide, c'est-à-dire une petite protéine."
+    }
+  }
+]

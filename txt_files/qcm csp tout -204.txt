@@ -1,0 +1,44 @@
+16/05/2020 Quiz - T oxicologie et santé publique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573049&cmid=205595 20/20
+Question 56
+Non répondue
+Noté sur 1,00
+Question 57
+Non répondue
+Noté sur 1,00
+Question 58
+Non répondue
+Noté sur 1,00En cas d’int oxication chr onique p ar les solv ants chlor és, quel(s) signe(s) clinique(s) et/ou biologique(s) peut -on
+obser ver?
+Veuillez choisir au moins une réponse :
+Anémie.
+Leucopénie.
+Troubles de la conscience.
+Cytolyse hépatique.
+Dermatose.
+Votre réponse est incorrecte.
+Les réponses correctes sont : Dermatose., Cytolyse hépatique., T roubles de la conscience.
+Parmi les affir mations suiv antes concer nant le trait ement appliqué lor s d'une int oxication salicylée aiguë, laquelle
+(lesquelles) est (sont) exact e(s)?
+Veuillez choisir au moins une réponse :
+Un réchauffement progressif du patient doit être entrepris sans tarder pour éviter les complications neurologiques.
+Une perfusion bicarbonatée permet de contrôler l'acidose métabolique.
+Le charbon activé adsorbe bien les dérivés salicylés.
+La diurèse alcaline est efficace.
+L'administration précoce de N-acétylcystéine est capitale.
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le charbon activé adsorbe bien les dérivés salicylés., La diurèse alcaline est efficace., Une
+perfusion bicarbonatée permet de contrôler l'acidose métabolique.
+Concer nant les mesur es d’ association, laquelle (lesquelles) est (sont) inexact e(s) ?
+Veuillez choisir au moins une réponse :
+L’OR ne peut être calculé dans les études de cohorte.
+Il est possible de déterminer l’incidence d’une maladie dans les études de cohorte.
+Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la maladie est
+significative.
+L’odds est le rapport de la probabilité d’un évènement à la probabilité complémentaire = P/(1-P).
+Le RR est une bonne approximation de l’OR si la maladie est rare.
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le RR est une bonne approximation de l’OR si la maladie est rare., L’OR ne peut être calculé dans
+les études de cohorte., Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la
+maladie est significative.
+◄ Quiz - Physiologie Aller à… Quiz - Bactériologie ►

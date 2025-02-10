@@ -1,0 +1,21 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle qui correspond au nom scientifique correcte de l'espèce désignée",
+    "options": [
+      "Lycopodium clavatum, Lycopodiacaea",
+      "Lycopodium clavatum, Lycopodiaceae",
+      "Des oreilles",
+      "Lycopodium clavatum, lycopodiacaea",
+      "Lycopodium clavatum, Lycopodiaceae"
+    ],
+    "correct_answers": [
+      "Lycopodium clavatum, Lycopodiaceae"
+    ],
+    "justification_fausses_reponses": {
+      "Lycopodium clavatum, Lycopodiacaea": "Cette réponse est incorrecte car le nom de la famille est mal orthographié. Le nom correct est Lycopodiaceae.",
+      "Des oreilles": "Cette réponse est incorrecte car elle ne correspond pas à un nom scientifique d'espèce.",
+      "Lycopodium clavatum, lycopodiacaea": "Cette réponse est incorrecte car le nom de la famille doit être écrit avec une majuscule initiale, selon la nomenclature binomiale."
+    }
+  }
+]

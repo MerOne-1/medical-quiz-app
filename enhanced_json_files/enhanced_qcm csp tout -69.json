@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la tiopronine, un médicament mucolytique, utilisé pour prévenir de la formation des calculs rénaux de L-cystine. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 est achiral",
+      "La tiopronine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)",
+      "Le produit 2 est un amide",
+      "Le produit 2 est un ester",
+      "La tiopronine réagit avec la L-cystéine en formant un pont disulfure"
+    ],
+    "correct_answers": [
+      "Le produit 2 est un amide",
+      "La tiopronine réagit avec la L-cystéine en formant un pont disulfure"
+    ],
+    "justification_fausses_reponses": {
+      "Le réactif 1 est achiral": "Cette affirmation est incorrecte car sans information supplémentaire sur le réactif 1, nous ne pouvons pas déterminer s'il est chiral ou non.",
+      "La tiopronine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)": "Cette affirmation est incorrecte car la tiopronine, qui est un acide aminé, est généralement ionisée à un pH physiologique de 7,4 en raison de la présence de groupes fonctionnels acide et amine.",
+      "Le produit 2 est un ester": "Cette affirmation est incorrecte car le produit 2 est un amide, pas un ester. Les amides ont un groupe fonctionnel -CONH2, tandis que les esters ont un groupe fonctionnel -COO-."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "La métabolisation de la cimétidine peut conduire aux deux composés représentés ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La voie 1 correspond à une réaction d'oxydation",
+      "Le métabolite 1 présente une fonction thioester",
+      "La voie 2 correspond à une réaction de réduction",
+      "Le métabolite 2 présente une fonction alcool secondaire",
+      "Le métabolite 2 présente un cycle aromatique imidazole"
+    ],
+    "correct_answers": [
+      "La voie 1 correspond à une réaction d'oxydation",
+      "Le métabolite 2 présente un cycle aromatique imidazole"
+    ],
+    "justification_fausses_reponses": {
+      "Le métabolite 1 présente une fonction thioester": "Cette affirmation est incorrecte car le métabolite 1 ne présente pas de fonction thioester. Une fonction thioester est un groupe fonctionnel qui contient une liaison carbone-soufre.",
+      "La voie 2 correspond à une réaction de réduction": "Cette affirmation est incorrecte car la voie 2 ne correspond pas à une réaction de réduction. Une réaction de réduction est une réaction chimique qui implique un gain d'électrons ou une diminution de l'oxydation d'un atome, d'un ion ou d'une molécule.",
+      "Le métabolite 2 présente une fonction alcool secondaire": "Cette affirmation est incorrecte car le métabolite 2 ne présente pas de fonction alcool secondaire. Une fonction alcool secondaire est un groupe fonctionnel qui contient un atome de carbone lié à deux autres atomes de carbone et à un groupe hydroxyle."
+    }
+  }
+]

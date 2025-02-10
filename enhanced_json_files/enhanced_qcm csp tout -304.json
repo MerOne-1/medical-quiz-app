@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives aux  Cycas et les Ginkgos, choisir celle(s) exacte(s)",
+    "options": [
+      "La fécondation n’est pas aquatique",
+      "La graine est une pseudo-graine",
+      "Les anthérozoïdes sont ciliés",
+      "Les réserves se forment avant la fécondation",
+      "Le gamétophyte est chlorophyllien"
+    ],
+    "correct_answers": [
+      "La graine est une pseudo-graine",
+      "Les réserves se forment avant la fécondation",
+      "Les anthérozoïdes sont ciliés",
+      "Le gamétophyte est chlorophyllien"
+    ],
+    "justification_fausses_reponses": {
+      "La fécondation n’est pas aquatique": "Cette affirmation est incorrecte car la fécondation chez les Cycas et les Ginkgos est bien aquatique. En effet, les anthérozoïdes (cellules reproductrices mâles) de ces plantes ont besoin d'eau pour se déplacer vers l'ovule."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisir celle(s) qui est exacte. le bois homoxylé est :",
+    "options": [
+      "Souvent résineux",
+      "Composé de trachéides",
+      "Un xylème II°",
+      "Caractéristique des Angiospermes",
+      "Formé de faisceaux de même taille"
+    ],
+    "correct_answers": [
+      "Un xylème II°",
+      "Composé de trachéides",
+      "Souvent résineux"
+    ],
+    "justification_fausses_reponses": {
+      "Caractéristique des Angiospermes": "Le bois homoxylé n'est pas spécifique aux Angiospermes. Il est présent chez de nombreuses espèces de plantes, y compris les Gymnospermes.",
+      "Formé de faisceaux de même taille": "Le bois homoxylé n'est pas nécessairement formé de faisceaux de même taille. Sa structure peut varier en fonction de l'espèce de la plante."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Choisir la (ou les) proposition(s) vraie(s) concernant la sporée des champignons à hyménophore lamellé et à texture fibreuse :",
+    "options": [
+      "Elle suffit pour reconnaître les espèces comestibles des espèces toxiques",
+      "On peut l’observer objectivement grâce à un test de sporulation provoquée",
+      "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+      "Elle peut varier, au sein d’une espèce donnée, selon les conditions climatiques",
+      "Elle est bien visible sur les lames des exemplaires murs"
+    ],
+    "correct_answers": [
+      "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+      "On peut l’observer objectivement grâce à un test de sporulation provoquée"
+    ],
+    "justification_fausses_reponses": {
+      "Elle suffit pour reconnaître les espèces comestibles des espèces toxiques": "La couleur de la sporée n'est pas un critère suffisant pour distinguer les espèces comestibles des espèces toxiques. D'autres caractéristiques, comme la forme, la taille, l'odeur, le lieu et la saison de croissance, doivent également être prises en compte.",
+      "Elle peut varier, au sein d’une espèce donnée, selon les conditions climatiques": "La couleur de la sporée est généralement constante pour une espèce donnée et ne varie pas en fonction des conditions climatiques. C'est une caractéristique génétique de l'espèce.",
+      "Elle est bien visible sur les lames des exemplaires murs": "La sporée n'est pas visible à l'œil nu sur les lames des champignons. Elle est généralement observée en réalisant une empreinte de spores sur une surface de couleur contrastée."
+    }
+  }
+]

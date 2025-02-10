@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+      "Elles possèdent toutes au moins 1 centre de chiralité",
+      "seules les molécules 1,2 et 5 possèdent un centre de chiralité",
+      "les molécules 1 et 3 ne sont commercialisées que sous forme racémique",
+      "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur"
+    ],
+    "correct_answers": [
+      "Elles possèdent toutes au moins 1 centre de chiralité",
+      "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+      "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur",
+      "les molécules 1 et 3 ne sont commercialisées que sous forme racémique"
+    ],
+    "justification_fausses_reponses": {
+      "seules les molécules 1,2 et 5 possèdent un centre de chiralité": "Cette affirmation est incorrecte car toutes les molécules mentionnées possèdent au moins un centre de chiralité. Un centre de chiralité est un atome qui est attaché à quatre substituants différents, ce qui est le cas pour toutes ces molécules."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "salmeterol",
+      "atenolol",
+      "propranolol",
+      "vilanterol",
+      "salbutamol"
+    ],
+    "correct_answers": [
+      "salbutamol"
+    ],
+    "justification_fausses_reponses": {
+      "salmeterol": "Le salmétérol est incorrect car c'est un agoniste de longue durée d'action des récepteurs β2-adrénergiques, utilisé dans le traitement de l'asthme et de la BPCO, tandis que le salbutamol est un agoniste de courte durée d'action.",
+      "atenolol": "L'aténolol est incorrect car c'est un bêta-bloquant utilisé pour traiter l'angine de poitrine et l'hypertension, tandis que le salbutamol est un agoniste des récepteurs β2-adrénergiques utilisé pour soulager l'asthme.",
+      "propranolol": "Le propranolol est incorrect car c'est un bêta-bloquant non sélectif, utilisé pour traiter l'hypertension, l'angine de poitrine et les troubles du rythme cardiaque, tandis que le salbutamol est un agoniste des récepteurs β2-adrénergiques utilisé pour soulager l'asthme.",
+      "vilanterol": "Le vilanterol est incorrect car c'est un agoniste de longue durée d'action des récepteurs β2-adrénergiques, utilisé dans le traitement de l'asthme et de la BPCO, tandis que le salbutamol est un agoniste de courte durée d'action."
+    }
+  }
+]

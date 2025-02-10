@@ -1,0 +1,67 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, concernant la chromatographie liquide haute performance lesquelles sont exactes ? Une colonne a les caractéristiques suivantes : C18, 250 x 4,6 mm, 5 µm",
+    "options": [
+      "Les composés les plus polaires seront élués en premier",
+      "Si la phase mobile est un mélange eau/méthanol, l’eau est le solvant le plus éluant",
+      "la longueur de la colonne est de 4,6 mm",
+      "La phase stationnaire est apolaire",
+      "les particules ont une taille de 5 µm"
+    ],
+    "correct_answers": [
+      "Les composés les plus polaires seront élués en premier",
+      "les particules ont une taille de 5 µm",
+      "La phase stationnaire est apolaire"
+    ],
+    "justification_fausses_reponses": {
+      "Si la phase mobile est un mélange eau/méthanol, l’eau est le solvant le plus éluant": "C'est incorrect car dans un mélange eau/méthanol utilisé comme phase mobile en chromatographie, le méthanol est généralement le solvant le plus éluant car il est plus polaire que l'eau.",
+      "la longueur de la colonne est de 4,6 mm": "C'est incorrect car la longueur de la colonne est de 250 mm, comme indiqué dans la question. Le chiffre 4,6 mm fait référence au diamètre interne de la colonne."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les espèces chimiques suivantes indiquez combien sont des bases : KOH ; NaOH ; NaCl ; CH COONa ; NH Cl ;H SO",
+    "options": [
+      "1",
+      "6",
+      "5",
+      "Aucune",
+      "3",
+      "4",
+      "2",
+      "4"
+    ],
+    "correct_answers": [
+      "3"
+    ],
+    "justification_fausses_reponses": {
+      "1": "C'est incorrect. Il y a plus d'une base dans la liste. Une base est une substance qui peut accepter un proton (H+). KOH, NaOH et CH COONa sont des bases.",
+      "6": "C'est incorrect. Toutes les espèces chimiques listées ne sont pas des bases. Par exemple, NaCl et H SO ne sont pas des bases.",
+      "5": "C'est incorrect. Toutes les espèces chimiques listées ne sont pas des bases. Par exemple, NaCl et H SO ne sont pas des bases.",
+      "Aucune": "C'est incorrect. Il y a des bases dans la liste. Une base est une substance qui peut accepter un proton (H+). KOH, NaOH et CH COONa sont des bases.",
+      "4": "C'est incorrect. Il y a seulement trois bases dans la liste : KOH, NaOH et CH COONa.",
+      "2": "C'est incorrect. Il y a plus de deux bases dans la liste. Une base est une substance qui peut accepter un proton (H+). KOH, NaOH et CH COONa sont des bases."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon ammoniaque de pH 9 après avoir diluée au-demi :",
+    "options": [
+      "4.50",
+      "7.00",
+      "9.00",
+      "0.90",
+      "0.45"
+    ],
+    "correct_answers": [
+      "9.00"
+    ],
+    "justification_fausses_reponses": {
+      "4.50": "Cette réponse est incorrecte car la dilution d'une solution tampon n'altère pas son pH. Le pH reste donc à 9.",
+      "7.00": "Cette réponse est incorrecte car la dilution d'une solution tampon n'altère pas son pH. Le pH reste donc à 9.",
+      "0.90": "Cette réponse est incorrecte car la dilution d'une solution tampon n'altère pas son pH. Le pH reste donc à 9.",
+      "0.45": "Cette réponse est incorrecte car la dilution d'une solution tampon n'altère pas son pH. Le pH reste donc à 9."
+    }
+  }
+]

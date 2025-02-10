@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les bonnes pratiques de laboratoire (BPL) dans la réalisation des essais de sécurité non-cliniques, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "Les principes des BPL ont été définis par l’Organisation de Coopération et de Développement Economiques (OCDE) pour être mis en place au niveau international.",
+      "Les modes opératoires normalisés sont des documents écrits permettant d’assurer la qualité et l’intégrité des données obtenues.",
+      "La mise en place d’un programme d’assurance qualité est facultative au sein d’un laboratoire de sécurité non-clinique.",
+      "L’autorité compétente en France pour la vérification de la conformité aux BPL concernant les médicaments à usage humain est l’ANSES.",
+      "Les BPL visent à promouvoir la qualité, la reproductibilité et l’intégrité des données générées dans les laboratoires de contrôle et d'essais."
+    ],
+    "correct_answers": [
+      "L’autorité compétente en France pour la vérification de la conformité aux BPL concernant les médicaments à usage humain est l’ANSES.",
+      "La mise en place d’un programme d’assurance qualité est facultative au sein d’un laboratoire de sécurité non-clinique."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "En cas d’intoxication aiguë, l’établissement d’un diagnostic étiologique requiert en première intention : donner la (les) réponse(s) exacte(s).",
+    "options": [
+      "L’utilisation, si possible, du toxidrome.",
+      "La description du tableau clinique du patient.",
+      "La recherche chez le patient du toxique incriminé.",
+      "L’interrogatoire médical du patient.",
+      "La connaissance des circonstances dans lesquelles s’est produite l’intoxication."
+    ],
+    "correct_answers": [
+      "La connaissance des circonstances dans lesquelles s’est produite l’intoxication.",
+      "La description du tableau clinique du patient.",
+      "L’utilisation, si possible, du toxidrome."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces affirmations concernant l’asbestose, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "Cette affection pulmonaire est une pneumoconiose maligne.",
+      "Cette affection est une fibrose du parenchyme pulmonaire.",
+      "Cette affection n’implique pas de désordres d’ordre immunologique.",
+      "Le développement de cette affection implique l’activation des macrophages alvéolaires et le développement d’un stress oxydant et d’une réponse inflammatoire.",
+      "Cette affection est causée par l’inhalation de la silice cristalline."
+    ],
+    "correct_answers": [
+      "Cette affection est causée par l’inhalation de la silice cristalline.",
+      "Cette affection n’implique pas de désordres d’ordre immunologique."
+    ]
+  }
+]

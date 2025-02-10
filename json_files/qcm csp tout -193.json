@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La méthode de référence de dosage du plomb dans le sang est la CPG-FID.",
+      "L’intoxication par le plomb est appelée saturnisme.",
+      "En cas d’intoxication sévère par le plomb, l’administration de chélateurs du type BAL, EDTA calcique ou pénicillamine est recommandée.",
+      "La recherche de l’acide delta-aminolévulinique urinaire est un signe d’une intoxication par le plomb.",
+      "Les cas d’intoxication par le plomb chez l’enfant sont plus fréquents dans les milieux défavorisés."
+    ],
+    "correct_answers": [
+      "L’intoxication par le plomb est appelée saturnisme.",
+      "En cas d’intoxication sévère par le plomb, l’administration de chélateurs du type BAL, EDTA calcique ou pénicillamine est recommandée.",
+      "Les cas d’intoxication par le plomb chez l’enfant sont plus fréquents dans les milieux défavorisés.",
+      "La recherche de l’acide delta-aminolévulinique urinaire est un signe d’une intoxication par le plomb."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Quel(s) signe(s) clinique(s) et/ou biologique(s) peut-on observer au cours d’une intoxication chronique par le plomb?",
+    "options": [
+      "Troubles rénaux.",
+      "Encéphalopathie.",
+      "Anémie microcytaire hypochrome.",
+      "Constipation.",
+      "Troubles du rythme cardiaque."
+    ],
+    "correct_answers": [
+      "Anémie microcytaire hypochrome.",
+      "Troubles rénaux.",
+      "Encéphalopathie."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les eaux destinées à la consommation humaine, à l’exception des eaux minérales naturelles, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les normes pour l’eau destinée à la consommation humaine sont fixées dans le but de limiter le risque sanitaire, mais aussi de répondre à des exigences de confort pour le consommateur.",
+      "Lors de la production des eaux destinées à la consommation humaine, il peut se former des sous-produits de désinfection dont certains sont classés comme cancérogènes probables.",
+      "Le risque microbiologique lié à la consommation d’eau est considéré comme second après le risque chimique.",
+      "En cas de dépassement d’une norme lors du contrôle sanitaire, la distribution de l’eau est systématiquement interrompue.",
+      "Le risque microbiologique lié à la consommation d’eau résulte principalement d’une contamination fécale."
+    ],
+    "correct_answers": [
+      "Les normes pour l’eau destinée à la consommation humaine sont fixées dans le but de limiter le risque sanitaire, mais aussi de répondre à des exigences de confort pour le consommateur.",
+      "Le risque microbiologique lié à la consommation d’eau résulte principalement d’une contamination fécale.",
+      "Lors de la production des eaux destinées à la consommation humaine, il peut se former des sous-produits de désinfection dont certains sont classés comme cancérogènes probables."
+    ]
+  }
+]

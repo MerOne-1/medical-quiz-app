@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les couples photo-nom commercial de médicament ci-dessous, lesquels sont correctement appariés ?",
+    "options": [
+      "Taxol*",
+      "Hélicidine*",
+      "Skénan*",
+      "Daflon*",
+      "Byetta*"
+    ],
+    "correct_answers": [
+      "Byetta*",
+      "Hélicidine*",
+      "Skénan*",
+      "Daflon*"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les acides gras sont des dérivés issus de la voie des polyacétates",
+      "Le cholestérol est un dérivé terpénique",
+      "Les statines sont des dérivés issus de la voie des polyacétates",
+      "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes",
+      "Les acides gras sont des dérivés terpéniques"
+    ],
+    "correct_answers": [
+      "Les acides gras sont des dérivés issus de la voie des polyacétates",
+      "Le cholestérol est un dérivé terpénique",
+      "Les statines sont des dérivés issus de la voie des polyacétates",
+      "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes"
+    ]
+  }
+]

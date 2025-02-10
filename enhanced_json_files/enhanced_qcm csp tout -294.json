@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes proposées, choisir la (ou les) liste(s) de termes tous homologues",
+    "options": [
+      "Sporange de fougère, sporogone",
+      "Sac embryonnaire, ovule, pollen",
+      "Macrosporange, sac embryonnaire, archégone",
+      "Microsporange, archégone, ovaire",
+      "Microsporange, sac pollinique, sporogone"
+    ],
+    "correct_answers": [
+      "Microsporange, sac pollinique, sporogone",
+      "Sporange de fougère, sporogone"
+    ],
+    "justification_fausses_reponses": {
+      "Sac embryonnaire, ovule, pollen": "Cette liste n'est pas homologue car le sac embryonnaire et l'ovule sont des structures de reproduction femelle, tandis que le pollen est une structure de reproduction mâle.",
+      "Macrosporange, sac embryonnaire, archégone": "Cette liste n'est pas homologue car le macrosporange est une structure de reproduction mâle, tandis que le sac embryonnaire et l'archégone sont des structures de reproduction femelle.",
+      "Microsporange, archégone, ovaire": "Cette liste n'est pas homologue car le microsporange est une structure de reproduction mâle, tandis que l'archégone et l'ovaire sont des structures de reproduction femelle."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle(s) définissant l'entomogamie",
+    "options": [
+      "Le transport des semences par le vent",
+      "Le transport des semences par les insectes",
+      "Le transport des graines par les oiseaux",
+      "Le transport du pollen par les insectes",
+      "La fécondation des fleurs par le vent"
+    ],
+    "correct_answers": [
+      "Le transport du pollen par les insectes"
+    ],
+    "justification_fausses_reponses": {
+      "Le transport des semences par le vent": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des semences par le vent. Le transport des semences par le vent est appelé anémochorie.",
+      "Le transport des semences par les insectes": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des semences par les insectes. Le transport des semences par les insectes est appelé zoochorie.",
+      "Le transport des graines par les oiseaux": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des graines par les oiseaux. Le transport des graines par les oiseaux est également appelé zoochorie.",
+      "La fécondation des fleurs par le vent": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas la fécondation des fleurs par le vent. La fécondation des fleurs par le vent est appelée anémogamie."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la vacuole, indiquez celle(s) exacte(s)",
+    "options": [
+      "La vacuole occupe la plus grande partie du cytoplasme",
+      "La vacuole ne sert qu'au stockage des déchets de la cellule",
+      "La vacuole est l'organite où se déroule la photosynthèse",
+      "La vacuole contient le noyau de la cellule",
+      "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste"
+    ],
+    "correct_answers": [
+      "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste",
+      "La vacuole occupe la plus grande partie du cytoplasme"
+    ],
+    "justification_fausses_reponses": {
+      "La vacuole ne sert qu'au stockage des déchets de la cellule": "C'est incorrect car la vacuole a plusieurs fonctions, dont le stockage de nutriments, de déchets et de pigments, ainsi que le maintien de la pression osmotique.",
+      "La vacuole est l'organite où se déroule la photosynthèse": "C'est incorrect car la photosynthèse se déroule dans les chloroplastes, pas dans la vacuole.",
+      "La vacuole contient le noyau de la cellule": "C'est incorrect car le noyau est une structure distincte de la vacuole. Le noyau contient l'ADN de la cellule et contrôle ses activités."
+    }
+  }
+]

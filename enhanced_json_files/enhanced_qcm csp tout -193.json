@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La méthode de référence de dosage du plomb dans le sang est la CPG-FID.",
+      "L’intoxication par le plomb est appelée saturnisme.",
+      "En cas d’intoxication sévère par le plomb, l’administration de chélateurs du type BAL, EDTA calcique ou pénicillamine est recommandée.",
+      "La recherche de l’acide delta-aminolévulinique urinaire est un signe d’une intoxication par le plomb.",
+      "Les cas d’intoxication par le plomb chez l’enfant sont plus fréquents dans les milieux défavorisés."
+    ],
+    "correct_answers": [
+      "L’intoxication par le plomb est appelée saturnisme.",
+      "En cas d’intoxication sévère par le plomb, l’administration de chélateurs du type BAL, EDTA calcique ou pénicillamine est recommandée.",
+      "Les cas d’intoxication par le plomb chez l’enfant sont plus fréquents dans les milieux défavorisés.",
+      "La recherche de l’acide delta-aminolévulinique urinaire est un signe d’une intoxication par le plomb."
+    ],
+    "justification_fausses_reponses": {
+      "La méthode de référence de dosage du plomb dans le sang est la CPG-FID.": "Cette affirmation est incorrecte. La méthode de référence pour le dosage du plomb dans le sang est la spectrométrie d'absorption atomique à flamme ou à électrode sans flamme, et non la chromatographie en phase gazeuse avec détection par ionisation de flamme (CPG-FID)."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Quel(s) signe(s) clinique(s) et/ou biologique(s) peut-on observer au cours d’une intoxication chronique par le plomb?",
+    "options": [
+      "Troubles rénaux.",
+      "Encéphalopathie.",
+      "Anémie microcytaire hypochrome.",
+      "Constipation.",
+      "Troubles du rythme cardiaque."
+    ],
+    "correct_answers": [
+      "Anémie microcytaire hypochrome.",
+      "Troubles rénaux.",
+      "Encéphalopathie."
+    ],
+    "justification_fausses_reponses": {
+      "Constipation.": "Bien que la constipation puisse être un symptôme d'une intoxication au plomb, elle n'est pas spécifique et peut être causée par de nombreux autres facteurs. Elle n'est donc pas un signe clinique ou biologique fiable d'une intoxication chronique par le plomb.",
+      "Troubles du rythme cardiaque.": "Les troubles du rythme cardiaque ne sont pas généralement associés à une intoxication chronique par le plomb. Le plomb affecte principalement le système nerveux et les reins, et non le système cardiovasculaire."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les eaux destinées à la consommation humaine, à l’exception des eaux minérales naturelles, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les normes pour l’eau destinée à la consommation humaine sont fixées dans le but de limiter le risque sanitaire, mais aussi de répondre à des exigences de confort pour le consommateur.",
+      "Lors de la production des eaux destinées à la consommation humaine, il peut se former des sous-produits de désinfection dont certains sont classés comme cancérogènes probables.",
+      "Le risque microbiologique lié à la consommation d’eau est considéré comme second après le risque chimique.",
+      "En cas de dépassement d’une norme lors du contrôle sanitaire, la distribution de l’eau est systématiquement interrompue.",
+      "Le risque microbiologique lié à la consommation d’eau résulte principalement d’une contamination fécale."
+    ],
+    "correct_answers": [
+      "Les normes pour l’eau destinée à la consommation humaine sont fixées dans le but de limiter le risque sanitaire, mais aussi de répondre à des exigences de confort pour le consommateur.",
+      "Le risque microbiologique lié à la consommation d’eau résulte principalement d’une contamination fécale.",
+      "Lors de la production des eaux destinées à la consommation humaine, il peut se former des sous-produits de désinfection dont certains sont classés comme cancérogènes probables."
+    ],
+    "justification_fausses_reponses": {
+      "Le risque microbiologique lié à la consommation d’eau est considéré comme second après le risque chimique.": "Cette affirmation est incorrecte. Le risque microbiologique est souvent considéré comme le risque principal dans la consommation d'eau, car les micro-organismes peuvent causer des maladies graves et sont souvent présents dans l'eau non traitée.",
+      "En cas de dépassement d’une norme lors du contrôle sanitaire, la distribution de l’eau est systématiquement interrompue.": "Cette affirmation est incorrecte. En cas de dépassement d'une norme, la distribution de l'eau n'est pas nécessairement interrompue systématiquement. Cela dépend de la nature et de la gravité du dépassement. Des mesures correctives sont prises, qui peuvent inclure le traitement de l'eau, la recherche de la source de contamination, et dans certains cas, l'interruption de la distribution."
+    }
+  }
+]

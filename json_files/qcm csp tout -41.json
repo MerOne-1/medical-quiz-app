@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ( lesquelles) est (sont) exacte(s)? En spectrométrie UV-visible, l’absorbance :",
+    "options": [
+      "Dépend de l’épaisseur de la cuve",
+      "Est égale au rapport I/I",
+      "Dépend de la concentration de la solution",
+      "Dépend du coefficient d’absorption molaire du composé dosé",
+      "Dépend de la longueur d’onde"
+    ],
+    "correct_answers": [
+      "Dépend de la longueur d’onde",
+      "Dépend de l’épaisseur de la cuve",
+      "Dépend de la concentration de la solution",
+      "Dépend du coefficient d’absorption molaire du composé dosé"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes sur la spectrophotométrie UV-visible, quelle est (sont) celle(s) qui est (sont) exactes(s) ?",
+    "options": [
+      "En solution diluée, la relation entre l’absorbance et la concentration est linéaire",
+      "Lors d’un dosage il faut toujours soustraire l’absorbance du blanc",
+      "Les cuves en verre permettent de travailler entre 200 nm et 800 nm",
+      "Les absorbances de deux composés présents en solution s’additionnent",
+      "Pour que la loi de Beer-Lambert soit vérifiée le rayonnement doit être monochromatique"
+    ],
+    "correct_answers": [
+      "En solution diluée, la relation entre l’absorbance et la concentration est linéaire",
+      "Pour que la loi de Beer-Lambert soit vérifiée le rayonnement doit être monochromatique",
+      "Les absorbances de deux composés présents en solution s’additionnent",
+      "Lors d’un dosage il faut toujours soustraire l’absorbance du blanc"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "On solubilise de l’aspirine (acide faible de type R-C OOH (pKa = 3,48)) dans des solutions aqueuses dont le pH est fixé au préalable. Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "le pH de la solution est égal au pKa de l’aspirine, la solution contient la forme acide faible et sa base conjuguée en proportion équivalente",
+      "le pH de la solution est de 1, l’aspirine est sous forme cationique",
+      "le pH de la solution est de 1, l’aspirine est sous forme neutre",
+      "le pH de la solution est de 1, l’aspirine est sous forme anionique",
+      "le pH de la solution est de 9, c’est la forme acide faible qui prédomine"
+    ],
+    "correct_answers": [
+      "le pH de la solution est de 1, l’aspirine est sous forme neutre",
+      "le pH de la solution est égal au pKa de l’aspirine, la solution contient la forme acide faible et sa base conjuguée en proportion équivalente"
+    ]
+  }
+]

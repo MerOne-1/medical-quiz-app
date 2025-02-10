@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite ?",
+    "options": [
+      "une tique",
+      "un acarien",
+      "un morpion",
+      "un pou",
+      "un sarcopte"
+    ],
+    "correct_answers": [
+      "un morpion",
+      "un pou"
+    ],
+    "justification_fausses_reponses": {
+      "une tique": "La tique n'est pas la bonne réponse car elle est plus grande et a une forme différente des morpions et des poux.",
+      "un acarien": "L'acarien n'est pas la bonne réponse car il est généralement beaucoup plus petit et a une forme différente des morpions et des poux.",
+      "un sarcopte": "Le sarcopte n'est pas la bonne réponse car il est responsable de la gale, une maladie qui se manifeste par des démangeaisons intenses, et non par des symptômes similaires à ceux causés par les morpions et les poux."
+    }
+  }
+]

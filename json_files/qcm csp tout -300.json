@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+    "options": [
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour l'azote",
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone",
+      "Il n'y a que les végétaux qui font la photosynthèse",
+      "Chez les végétaux supérieurs, la forme des chloroplastes est très variables",
+      "Tous les végétaux supérieurs font la photosynthèse"
+    ],
+    "correct_answers": [
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les combinaisons de caractères suivantes, quelles sont celles qui caractérisent le règne fongique",
+    "options": [
+      "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie",
+      "La capacité de procurer de nouvelles molécules thérapeutiques, la présence de spores biflagellées, l’impact comme agents de biodégradation de denrées alimentaires",
+      "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+      "Des racines chevelues, un mode de vie hétérotrophe, une grande richesse enzymatique",
+      "Une tige, un chapeau, un mode de vie parasitaire"
+    ],
+    "correct_answers": [
+      "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+      "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes ci-dessous, choisir celle(s) qui présente(nt) différents termes dans le l’ordre évolutif, du plus primitif au plus évolué",
+    "options": [
+      "Gynécée isomère, gynécée oligomère",
+      "Dalycarpie, syncarpie",
+      "Ovule orthotrope, ovule anatrope",
+      "Ovaire infère, supère",
+      "Gamopétale, dialypétale"
+    ],
+    "correct_answers": [
+      "Dalycarpie, syncarpie",
+      "Gynécée isomère, gynécée oligomère",
+      "Ovule orthotrope, ovule anatrope"
+    ]
+  }
+]

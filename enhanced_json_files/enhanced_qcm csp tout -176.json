@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une stimulation des récepteurs juxta-capillaires augmente la fréquence respiratoire et le volume courant.",
+      "La capacité maximale de consommation d’oxygène est principalement limitée par la capacité de diffusion de l’oxygène à travers la membrane alvéole-capillaire.",
+      "Une perfusion sanguine d’un sérum légèrement acide augmente la ventilation.",
+      "L’apnée du sommeil est la conséquence d’une fermeture du pharynx.",
+      "Une perfusion d’un liquide alcalin dans le liquide céphalo-rachidien augmente la ventilation."
+    ],
+    "correct_answers": [
+      "L’apnée du sommeil est la conséquence d’une fermeture du pharynx."
+    ],
+    "justification_fausses_reponses": {
+      "Une stimulation des récepteurs juxta-capillaires augmente la fréquence respiratoire et le volume courant.": "C'est incorrect car les récepteurs juxta-capillaires, ou récepteurs J, ne sont pas directement impliqués dans la régulation de la fréquence respiratoire ou du volume courant.",
+      "La capacité maximale de consommation d’oxygène est principalement limitée par la capacité de diffusion de l’oxygène à travers la membrane alvéole-capillaire.": "C'est incorrect car la capacité maximale de consommation d'oxygène est principalement limitée par le débit cardiaque et la capacité des muscles à utiliser l'oxygène, et non par la diffusion de l'oxygène à travers la membrane alvéole-capillaire.",
+      "Une perfusion sanguine d’un sérum légèrement acide augmente la ventilation.": "C'est incorrect car une perfusion sanguine d'un sérum légèrement acide ne provoquerait pas nécessairement une augmentation de la ventilation. La réponse du corps à l'acidité sanguine est complexe et dépend de nombreux facteurs.",
+      "Une perfusion d’un liquide alcalin dans le liquide céphalo-rachidien augmente la ventilation.": "C'est incorrect car une perfusion d'un liquide alcalin dans le liquide céphalo-rachidien n'augmenterait pas nécessairement la ventilation. La réponse du corps à l'alcalinité est complexe et dépend de nombreux facteurs."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Le réflexe my otatique:",
+    "options": [
+      "Le signe du canif correspond à une alternance réflexe myotatique/myotatique inverse.",
+      "Le signe du canif est un réflexe de défense à point de départ cutané.",
+      "L’interneurone de R enshaw  augmente l’intensité du réflexe myotatique.",
+      "Le réflexe rotulien ostéo-tendineux correspond au déclenchement du myotatique inverse.",
+      "Le signe du canif signe la présence d’une hypotonie musculaire."
+    ],
+    "correct_answers": [
+      "Le signe du canif correspond à une alternance réflexe myotatique/myotatique inverse."
+    ],
+    "justification_fausses_reponses": {
+      "Le signe du canif est un réflexe de défense à point de départ cutané.": "C'est incorrect car le signe du canif est en réalité une alternance réflexe myotatique/myotatique inverse, et non un réflexe de défense à point de départ cutané.",
+      "L’interneurone de R enshaw  augmente l’intensité du réflexe myotatique.": "C'est incorrect car l'interneurone de Renshaw a pour rôle de réguler l'activité des motoneurones alpha, et non d'augmenter l'intensité du réflexe myotatique.",
+      "Le réflexe rotulien ostéo-tendineux correspond au déclenchement du myotatique inverse.": "C'est incorrect car le réflexe rotulien ostéo-tendineux est un exemple de réflexe myotatique, et non de myotatique inverse.",
+      "Le signe du canif signe la présence d’une hypotonie musculaire.": "C'est incorrect car le signe du canif est un signe clinique qui correspond à une alternance réflexe myotatique/myotatique inverse, et non à une hypotonie musculaire."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "TOUTES LES PR OPOSITIONS SONT EXA CTES, SA UF UNE. SELECTIONNER L A SEULE PR OPOSITION INEXA CTE. Le « locus niger » :",
+    "options": [
+      "sa destruction est responsable de la chorée.",
+      "ses neurones libèrent de la dopamine dans le striatum.",
+      "est connecté au striatum.",
+      "est situé dans le mésencéphale.",
+      "la « pars compacta » du locus niger sécrète de la dopamine."
+    ],
+    "correct_answers": [
+      "sa destruction est responsable de la chorée."
+    ],
+    "justification_fausses_reponses": {
+      "ses neurones libèrent de la dopamine dans le striatum.": "Cette affirmation est correcte. Les neurones du locus niger libèrent effectivement de la dopamine dans le striatum, une partie du cerveau impliquée dans la coordination des mouvements.",
+      "est connecté au striatum.": "Cette affirmation est correcte. Le locus niger est connecté au striatum, ce qui permet la libération de dopamine dans cette région du cerveau.",
+      "est situé dans le mésencéphale.": "Cette affirmation est correcte. Le locus niger est une structure du mésencéphale, une partie du cerveau située entre le diencephale et le pont.",
+      "la « pars compacta » du locus niger sécrète de la dopamine.": "Cette affirmation est correcte. La pars compacta du locus niger est la partie de cette structure qui sécrète la dopamine, un neurotransmetteur essentiel à la coordination des mouvements."
+    }
+  }
+]

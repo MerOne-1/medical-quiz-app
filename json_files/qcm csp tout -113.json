@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule?",
+    "options": [
+      "warfarine",
+      "Ticagrelor",
+      "clopidogrel",
+      "prasugrel",
+      "rivaroxaban"
+    ],
+    "correct_answers": [
+      "clopidogrel"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la famille des « triptans », signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ils sont affins pour les récepteurs alpha adrenergiques",
+      "ils sont affins pour les récepteurs à l’histamine",
+      "ce sont des agonistes 5HT  et 5HT",
+      "Ils sont construits sur une structure de sérotonine",
+      "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+    ],
+    "correct_answers": [
+      "Ils sont construits sur une structure de sérotonine",
+      "ce sont des agonistes 5HT  et 5HT",
+      "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+    ]
+  }
+]

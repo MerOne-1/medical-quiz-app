@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite ?",
+    "options": [
+      "une tique",
+      "un acarien",
+      "un morpion",
+      "un pou",
+      "un sarcopte"
+    ],
+    "correct_answers": [
+      "un morpion",
+      "un pou"
+    ]
+  }
+]

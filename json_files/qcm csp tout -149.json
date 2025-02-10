@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Que trouve t-on dans la formule d'un \"SR O\"",
+    "options": [
+      "Principalement des lipides, acides aminés et lactobacillus",
+      "Principalement des glucides, acides aminés, lipides et vitamines",
+      "Principalement des glucides et électrolytes (Na+, K+...)",
+      "Principalement des glucides, lipides et électrolytes (Na+, K+...)",
+      "Principalement des glucides, des acides aminés et lactobacillus"
+    ],
+    "correct_answers": [
+      "Principalement des glucides et électrolytes (Na+, K+...)"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+      "Le muromonab est un anticorps monoclonal murin.",
+      "Le muromonab est un anticorps monoclonal chimérique.",
+      "L'infliximab est un anticorps polyclonal murin.",
+      "Le daclizumab est un anticorps polyclonal humanisé."
+    ],
+    "correct_answers": [
+      "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+      "Le muromonab est un anticorps monoclonal murin."
+    ]
+  }
+]

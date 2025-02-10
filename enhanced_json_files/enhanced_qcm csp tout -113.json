@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule?",
+    "options": [
+      "warfarine",
+      "Ticagrelor",
+      "clopidogrel",
+      "prasugrel",
+      "rivaroxaban"
+    ],
+    "correct_answers": [
+      "clopidogrel"
+    ],
+    "justification_fausses_reponses": {
+      "warfarine": "La warfarine est incorrecte car sa structure chimique est différente de celle de la molécule en question. La warfarine est un anticoagulant qui inhibe la vitamine K.",
+      "Ticagrelor": "Le Ticagrelor est incorrect car sa structure chimique ne correspond pas à celle de la molécule en question. Le Ticagrelor est un inhibiteur de l'agrégation plaquettaire.",
+      "prasugrel": "Le prasugrel est incorrect car sa structure chimique est différente de celle de la molécule en question. Le prasugrel est un inhibiteur de l'agrégation plaquettaire.",
+      "rivaroxaban": "Le rivaroxaban est incorrect car sa structure chimique ne correspond pas à celle de la molécule en question. Le rivaroxaban est un anticoagulant oral direct."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la famille des « triptans », signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ils sont affins pour les récepteurs alpha adrenergiques",
+      "ils sont affins pour les récepteurs à l’histamine",
+      "ce sont des agonistes 5HT  et 5HT",
+      "Ils sont construits sur une structure de sérotonine",
+      "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+    ],
+    "correct_answers": [
+      "Ils sont construits sur une structure de sérotonine",
+      "ce sont des agonistes 5HT  et 5HT",
+      "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+    ],
+    "justification_fausses_reponses": {
+      "ils sont affins pour les récepteurs alpha adrenergiques": "C'est incorrect car les triptans sont des agonistes sélectifs des récepteurs à la sérotonine, et non des récepteurs alpha adrénergiques.",
+      "ils sont affins pour les récepteurs à l’histamine": "C'est incorrect car les triptans sont des agonistes sélectifs des récepteurs à la sérotonine, et non des récepteurs à l'histamine."
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant une concentration déterminée à 0,2500 mol.l  avec une précision de 5%, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+    "options": [
+      "Son incertitude relative est de 0,05 mol.l",
+      "Son incertitude absolue est de 0,0125 mol.l",
+      "Son incertitude relative est de 0,0125 mol.l",
+      "Son incertitude absolue est de 1,25 %",
+      "Son incertitude absolue est de 0,05 mol.l-1"
+    ],
+    "correct_answers": [
+      "Son incertitude absolue est de 0,0125 mol.l"
+    ],
+    "justification_fausses_reponses": {
+      "Son incertitude relative est de 0,05 mol.l": "C'est incorrect car l'incertitude relative est une mesure de l'incertitude en pourcentage de la valeur mesurée, pas en mol.l.",
+      "Son incertitude relative est de 0,0125 mol.l": "C'est incorrect car l'incertitude relative est une mesure de l'incertitude en pourcentage de la valeur mesurée, pas en mol.l.",
+      "Son incertitude absolue est de 1,25 %": "C'est incorrect car l'incertitude absolue est une mesure de l'incertitude en unités de la mesure, pas en pourcentage.",
+      "Son incertitude absolue est de 0,05 mol.l-1": "C'est incorrect car l'incertitude absolue pour une concentration de 0,2500 mol.l avec une précision de 5% serait de 0,0125 mol.l, pas de 0,05 mol.l-1."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+    "options": [
+      "La spectrométrie IR est basée sur l’émission stimulée de lumière",
+      "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+      "La spectrométrie UV-visible est basée sur l’absorption de lumière",
+      "Le principe du L ASER est basé sur l’émission spontanée de lumière",
+      "La polarimétrie est basée sur l’émission spontanée de lumière"
+    ],
+    "correct_answers": [
+      "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+      "La spectrométrie UV-visible est basée sur l’absorption de lumière"
+    ],
+    "justification_fausses_reponses": {
+      "La spectrométrie IR est basée sur l’émission stimulée de lumière": "C'est incorrect car la spectrométrie IR est basée sur l'absorption de lumière par les molécules, pas sur l'émission stimulée de lumière.",
+      "Le principe du L ASER est basé sur l’émission spontanée de lumière": "C'est incorrect car le principe du LASER est basé sur l'émission stimulée de lumière, pas sur l'émission spontanée.",
+      "La polarimétrie est basée sur l’émission spontanée de lumière": "C'est incorrect car la polarimétrie est basée sur la rotation de la lumière polarisée par les molécules, pas sur l'émission spontanée de lumière."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’atome C, la(les)quelle(s) est (sont) exacte(s) :",
+    "options": [
+      "Il est isotope du carbone-12",
+      "Il contient 6 neutrons et 7 protons",
+      "Son numéro atomique est égal à 13",
+      "Il contient 6 protons et 7 neutrons",
+      "Il est constitué d’un noyau de carbone et de 6 électrons"
+    ],
+    "correct_answers": [
+      "Il est constitué d’un noyau de carbone et de 6 électrons",
+      "Il contient 6 protons et 7 neutrons",
+      "Il est isotope du carbone-12"
+    ],
+    "justification_fausses_reponses": {
+      "Il contient 6 neutrons et 7 protons": "Cette affirmation est incorrecte car l'atome de carbone a 6 protons et 6 neutrons dans son noyau, pas 7 protons. Le nombre de protons détermine l'élément chimique, donc si un atome a 7 protons, il s'agit d'un atome de lithium, pas de carbone.",
+      "Son numéro atomique est égal à 13": "Cette affirmation est incorrecte car le numéro atomique du carbone est 6, pas 13. Le numéro atomique est égal au nombre de protons dans le noyau d'un atome. Un atome avec un numéro atomique de 13 est un atome d'aluminium, pas de carbone."
+    }
+  }
+]

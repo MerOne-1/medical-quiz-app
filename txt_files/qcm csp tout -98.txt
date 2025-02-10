@@ -1,0 +1,28 @@
+16/05/2020 Quiz - Chimie thérapeutique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573063&cmid=205590 12/27Question 23
+Non répondue
+Noté sur 1,00
+Question 24
+Non répondue
+Noté sur 1,00A propos de cette molécule utilisée en thérapeutique:
+:
+Veuillez choisir au moins une réponse :
+Cette molécule comporte une N-méthyl-pipérazine qui contribue à sa solubilité
+Elle bloque l’enzyme cible sous forme inactive
+Sa sélectivité repose sur une interaction hydrophobe allostérique due à la partie benzamide
+Cette molécule comporte un enchaînement phénylaminopyrimidine
+Elle correspond au premier inhibiteur de tyrosine kinase utilisé en thérapeutique
+Votre réponse est incorrecte.
+Les réponses correctes sont : Cette molécule comporte un enchaînement phénylaminopyrimidine, Elle correspond au premier
+inhibiteur de tyrosine kinase utilisé en thérapeutique, Elle bloque l’enzyme cible sous forme inactive, Sa sélectivité repose sur
+une interaction hydrophobe allostérique due à la partie benzamide, Cette molécule comporte une N-méthyl-pipérazine qui
+contribue à sa solubilité
+Quels sont les groupes bioisostères mono-OH-valents?:
+Veuillez choisir au moins une réponse :
+-CH -
+-O-
+=N-
+-OH
+-SH2
+Votre réponse est incorrecte.
+Les réponses correctes sont : -OH, -SH

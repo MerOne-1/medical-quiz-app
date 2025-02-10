@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "M. Victor B., 38 ans, commercial, est infecté par un HCV de génotype 1. Il vous présente l'ordonnance suivante Parmi les items suivants, lesquels peuvent être des effets secondaires ressentis par M . Victor B . ?",
+    "options": [
+      "Hémorroïdes",
+      "Nausées",
+      "Asthénie",
+      "Anémie hémolytique",
+      "Céphalées"
+    ],
+    "correct_answers": [
+      "Céphalées",
+      "Nausées",
+      "Asthénie"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "La prise en charge d'une gastro-entérite virale repose sur :",
+    "options": [
+      "Un régime alimentaire adapté",
+      "Une consultation médicale spécialisée",
+      "Une vaccination",
+      "Des conseils d'hygiène",
+      "Un traitement par ralentisseurs du transit"
+    ],
+    "correct_answers": [
+      "Un régime alimentaire adapté",
+      "Des conseils d'hygiène"
+    ]
+  }
+]

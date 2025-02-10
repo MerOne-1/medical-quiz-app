@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Comment optimiser le processus de stérilisation d'une solution aqueuse injectable ?",
+    "options": [
+      "par remplissage des ampoules en salle blanche.",
+      "par conditionnement sous azote après remplissage des ampoules",
+      "par chauffage à 121°C sous pression après conditionnement en flacons",
+      "par filtration sur filtre écran de 0,22 microns",
+      "par préparation dans une eau purifiée"
+    ],
+    "correct_answers": [
+      "par chauffage à 121°C sous pression après conditionnement en flacons"
+    ],
+    "justification_fausses_reponses": {
+      "par remplissage des ampoules en salle blanche.": "Bien que la salle blanche réduise la contamination, elle ne stérilise pas la solution. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par le simple remplissage en salle blanche.",
+      "par conditionnement sous azote après remplissage des ampoules": "Le conditionnement sous azote peut aider à préserver la solution, mais il ne stérilise pas. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par le conditionnement sous azote.",
+      "par filtration sur filtre écran de 0,22 microns": "La filtration peut éliminer les particules et les micro-organismes de taille supérieure à 0,22 microns, mais elle ne peut pas éliminer les virus et les prions plus petits. Par conséquent, elle ne garantit pas une stérilisation complète.",
+      "par préparation dans une eau purifiée": "La préparation dans une eau purifiée peut réduire la contamination, mais elle ne stérilise pas la solution. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par la préparation dans une eau purifiée."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelle (s) est( sont) la (les) proposition(s) exacte(s) concernant les comprimés ?",
+    "options": [
+      "L'enrobage à la carboxyméthylcellulose assure la gastro-résistance",
+      "La granulation humide est précédée d'un compactage",
+      "L'amidon de maïs est utilisé comme liant dans la granulation sèche.",
+      "Les comprimés nus doivent être désagrégés en moins de 15 secondes",
+      "La granulation améliore l'écoulement du mélange pour compression"
+    ],
+    "correct_answers": [
+      "La granulation améliore l'écoulement du mélange pour compression"
+    ],
+    "justification_fausses_reponses": {
+      "L'enrobage à la carboxyméthylcellulose assure la gastro-résistance": "C'est incorrect. L'enrobage à la carboxyméthylcellulose n'assure pas la gastro-résistance. Il est plutôt utilisé pour améliorer la solubilité et la stabilité du médicament.",
+      "La granulation humide est précédée d'un compactage": "C'est faux. Dans le processus de fabrication des comprimés, la granulation humide n'est pas précédée d'un compactage. Le compactage est plutôt une étape qui suit la granulation.",
+      "L'amidon de maïs est utilisé comme liant dans la granulation sèche.": "C'est incorrect. L'amidon de maïs n'est pas utilisé comme liant dans la granulation sèche. Il est plutôt utilisé comme désintégrant pour faciliter la désagrégation du comprimé dans l'estomac.",
+      "Les comprimés nus doivent être désagrégés en moins de 15 secondes": "C'est faux. Les comprimés nus n'ont pas besoin de se désagréger en moins de 15 secondes. Le temps de désagrégation dépend de la formulation du comprimé et de son usage prévu."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les affirmations suivantes concernant les solutés de remplissage, quelles sont celles qui sont exactes ?",
+    "options": [
+      "Les colloïdes sont d'origine naturelle",
+      "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+      "L'albumine est le soluté colloïde le mieux supporté.",
+      "Les dextrans ne doivent pas être administrés chez la femme enceinte",
+      "La solution de ringer Lactate est un toujours un cristalloïde hypertonique"
+    ],
+    "correct_answers": [
+      "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+      "Les dextrans ne doivent pas être administrés chez la femme enceinte"
+    ],
+    "justification_fausses_reponses": {
+      "Les colloïdes sont d'origine naturelle": "Cette affirmation est fausse car tous les colloïdes ne sont pas d'origine naturelle. Il existe des colloïdes synthétiques comme les hydroxyéthylamidons.",
+      "L'albumine est le soluté colloïde le mieux supporté.": "Cette affirmation est incorrecte car la tolérance à l'albumine varie d'un individu à l'autre et dépend de nombreux facteurs, y compris la condition médicale du patient.",
+      "La solution de ringer Lactate est un toujours un cristalloïde hypertonique": "Cette affirmation est fausse car la solution de Ringer Lactate est généralement isotone, pas hypertonique. Elle a une osmolarité proche de celle du plasma sanguin."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes concernant les comprimés, la (les) quelle (s) est (sont) exacte (s) ?",
+    "options": [
+      "l'addition d'amidon de maïs facilite la compression",
+      "la PVP est utilisée comme liant",
+      "le pelliculage est un enrobage à l'acétophtalate de cellulose",
+      "la silice colloïdale est un excipient pour compression directe",
+      "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+    ],
+    "correct_answers": [
+      "la PVP est utilisée comme liant",
+      "la silice colloïdale est un excipient pour compression directe",
+      "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+    ],
+    "justification_fausses_reponses": {
+      "l'addition d'amidon de maïs facilite la compression": "C'est incorrect. L'amidon de maïs est généralement utilisé comme agent de désagrégation plutôt que pour faciliter la compression. Il absorbe l'eau rapidement, ce qui aide le comprimé à se désintégrer et à libérer le médicament.",
+      "le pelliculage est un enrobage à l'acétophtalate de cellulose": "C'est incorrect. L'acétophtalate de cellulose est un type de plastifiant, pas un enrobage. Le pelliculage est généralement fait avec des polymères comme l'hydroxypropylméthylcellulose."
+    }
+  }
+]

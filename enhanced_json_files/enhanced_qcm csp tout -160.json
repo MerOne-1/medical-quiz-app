@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les gliptines :",
+    "options": [
+      "Ces médicaments, d'origine peptidique, sont administrés par voie injectable à l'aide de stylos préremplis.",
+      "Ce sont des inhibiteurs du cotransporteur sodium-glucose (SGL T2) au niveau rénal",
+      "Ces médicaments peuvent être responsables de troubles infectieux",
+      "Ce sont des inhibiteurs compétitifs et réversibles d'alpha glucosidases intestinales",
+      "Ce sont des inhibiteurs de la dipeptidyl peptidase de type IV (DPP IV)"
+    ],
+    "correct_answers": [
+      "Ce sont des inhibiteurs de la dipeptidyl peptidase de type IV (DPP IV)",
+      "Ces médicaments peuvent être responsables de troubles infectieux"
+    ],
+    "justification_fausses_reponses": {
+      "Ces médicaments, d'origine peptidique, sont administrés par voie injectable à l'aide de stylos préremplis.": "C'est incorrect car les gliptines sont administrées par voie orale, et non injectable.",
+      "Ce sont des inhibiteurs du cotransporteur sodium-glucose (SGL T2) au niveau rénal": "C'est incorrect car les gliptines sont des inhibiteurs de la DPP-IV, et non des inhibiteurs du SGLT2.",
+      "Ce sont des inhibiteurs compétitifs et réversibles d'alpha glucosidases intestinales": "C'est incorrect car les gliptines sont des inhibiteurs de la DPP-IV, et non des inhibiteurs des alpha glucosidases intestinales."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 :",
+    "options": [
+      "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention une gliptine pour le traitement médicamenteux du contrôle glycémique",
+      "Le but des mesures hygiéno diététiques est de limiter les hyperglycémies postprandiales tout en évitant d'éventuelles hypoglycémies et de limiter aussi certains facteurs de risque cardio-vasculaires",
+      "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention la metformine pour le traitement médicamenteux du contrôle glycémique",
+      "La mise en place de mesures hygiéno diététiques efficaces est un préalable nécessaire au traitement médicamenteux du contrôle glycémique pour les patients dont le diabète est nouvellement diagnostiqué et dont l'espérance de vie est > à 15 ans, sans A TCD cardio-vasculaire et sans signes hyperglycémie",
+      "les mesures hygiéno diététiques peuvent être arrêtées en cas d'anti diabétique prescrit si celui-ci est efficace en permettant le contrôle glycémique chez le patient"
+    ],
+    "correct_answers": [
+      "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention la metformine pour le traitement médicamenteux du contrôle glycémique",
+      "La mise en place de mesures hygiéno diététiques efficaces est un préalable nécessaire au traitement médicamenteux du contrôle glycémique pour les patients dont le diabète est nouvellement diagnostiqué et dont l'espérance de vie est > à 15 ans, sans A TCD cardio-vasculaire et sans signes hyperglycémie",
+      "Le but des mesures hygiéno diététiques est de limiter les hyperglycémies postprandiales tout en évitant d'éventuelles hypoglycémies et de limiter aussi certains facteurs de risque cardio-vasculaires"
+    ],
+    "justification_fausses_reponses": {
+      "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention une gliptine pour le traitement médicamenteux du contrôle glycémique": "C'est incorrect car selon les recommandations de l'HAS, la metformine est le médicament de première intention pour le contrôle glycémique dans le diabète de type 2, et non la gliptine.",
+      "les mesures hygiéno diététiques peuvent être arrêtées en cas d'anti diabétique prescrit si celui-ci est efficace en permettant le contrôle glycémique chez le patient": "C'est incorrect car les mesures hygiéno diététiques sont un élément essentiel de la prise en charge du diabète de type 2 et doivent être maintenues même si un traitement médicamenteux est prescrit et efficace."
+    }
+  }
+]

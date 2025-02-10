@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, concernant la chromatographie liquide haute performance lesquelles sont exactes ? Une colonne a les caractéristiques suivantes : C18, 250 x 4,6 mm, 5 µm",
+    "options": [
+      "Les composés les plus polaires seront élués en premier",
+      "Si la phase mobile est un mélange eau/méthanol, l’eau est le solvant le plus éluant",
+      "la longueur de la colonne est de 4,6 mm",
+      "La phase stationnaire est apolaire",
+      "les particules ont une taille de 5 µm"
+    ],
+    "correct_answers": [
+      "Les composés les plus polaires seront élués en premier",
+      "les particules ont une taille de 5 µm",
+      "La phase stationnaire est apolaire"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les espèces chimiques suivantes indiquez combien sont des bases : KOH ; NaOH ; NaCl ; CH COONa ; NH Cl ;H SO",
+    "options": [
+      "1",
+      "6",
+      "5",
+      "Aucune",
+      "3",
+      "4",
+      "2",
+      "4"
+    ],
+    "correct_answers": [
+      "3"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon ammoniaque de pH 9 après avoir diluée au-demi :",
+    "options": [
+      "4.50",
+      "7.00",
+      "9.00",
+      "0.90",
+      "0.45"
+    ],
+    "correct_answers": [
+      "9.00"
+    ]
+  }
+]

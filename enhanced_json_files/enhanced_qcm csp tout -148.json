@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la fixation des médicaments sur les protéines plasmatiques, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Les anticoagulants anti-vitamine K sont fortement liés aux protéines plasmatiques",
+      "Plus la constante de dissociation K d est forte, plus l'affinité du médicament pour la protéine plasmatique est forte",
+      "Le Kd est exprimé en concentration molaire",
+      "L'hypo-albuminémie diminue la forme libre active du médicament",
+      "Lorsque la moitié des sites de fixation du médicament à la protéine plasmatique sont occupés, la concentration en médicament libre est égale à la constante d'affinité (Ka)"
+    ],
+    "correct_answers": [
+      "Le K d est exprimé en concentration molaire",
+      "Les anticoagulants anti-vitamine K sont fortement liés aux protéines plasmatiques"
+    ],
+    "justification_fausses_reponses": {
+      "Plus la constante de dissociation K d est forte, plus l'affinité du médicament pour la protéine plasmatique est forte": "C'est l'inverse qui est vrai. Plus la constante de dissociation (Kd) est faible, plus l'affinité du médicament pour la protéine plasmatique est forte.",
+      "L'hypo-albuminémie diminue la forme libre active du médicament": "En réalité, l'hypo-albuminémie augmente la forme libre active du médicament car il y a moins de protéines disponibles pour se lier au médicament.",
+      "Lorsque la moitié des sites de fixation du médicament à la protéine plasmatique sont occupés, la concentration en médicament libre est égale à la constante d'affinité (Ka)": "C'est incorrect. Lorsque la moitié des sites de fixation sont occupés, la concentration en médicament libre est égale à la constante de dissociation (Kd), pas à la constante d'affinité (Ka)."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les analogues du GLP 1 :",
+    "options": [
+      "Ils stimulent l'appétit par une action sur le SNC",
+      "Ils ont une action indépendante de la glycémie du patient, c'est pourquoi leurs effets indésirables hypoglycémiants sont fréquents et de longue durée.",
+      "Ils stimulent la sécrétion d'insuline",
+      "Ils ralentissent la vidange gastrique",
+      "Ils stimulent la sécrétion de glucagon"
+    ],
+    "correct_answers": [
+      "Ils stimulent la sécrétion d'insuline",
+      "Ils ralentissent la vidange gastrique"
+    ],
+    "justification_fausses_reponses": {
+      "Ils stimulent l'appétit par une action sur le SNC": "C'est incorrect car les analogues du GLP-1 suppriment l'appétit et non le stimulent. Ils agissent sur le système nerveux central pour induire une sensation de satiété.",
+      "Ils ont une action indépendante de la glycémie du patient, c'est pourquoi leurs effets indésirables hypoglycémiants sont fréquents et de longue durée.": "C'est faux car les analogues du GLP-1 ont une action dépendante de la glycémie. Ils stimulent la sécrétion d'insuline en réponse à une élévation de la glycémie, ce qui limite le risque d'hypoglycémie.",
+      "Ils stimulent la sécrétion de glucagon": "C'est incorrect car les analogues du GLP-1 inhibent plutôt la sécrétion de glucagon, une hormone qui augmente la glycémie."
+    }
+  }
+]

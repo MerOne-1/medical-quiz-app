@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant le sofosbuvir , quelles sont les réponses exactes ?",
+    "options": [
+      "C'est un inhibiteur de la polymerase virale",
+      "C'est un inhibiteur de la NS5A",
+      "C'est un inhibiteur de la NS5B",
+      "Il est actif sur le HIV",
+      "Il est actif sur tous les génotypes du HCV"
+    ],
+    "correct_answers": [
+      "C'est un inhibiteur de la NS5B",
+      "C'est un inhibiteur de la polymerase virale",
+      "Il est actif sur tous les génotypes du HCV"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Concernant la vaccination contre les Papillomavirus en France, quelles sont les réponses vraies ?",
+    "options": [
+      "C'est un vaccin inactivé",
+      "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes",
+      "Cette vaccination est obligatoire pour les filles à partir de 9 ans",
+      "C'est un vaccin vivant atténué",
+      "Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques"
+    ],
+    "correct_answers": [
+      "Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes"
+    ]
+  }
+]

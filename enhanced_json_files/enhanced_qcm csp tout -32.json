@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exactes? Le coefficient d'extinction molaire d' une substance absorbante peut:",
+    "options": [
+      "Etre modifié par la nature du solvant",
+      "Varier avec la longueur du trajet optique",
+      "Varier avec la longueur d'onde",
+      "Etre identique à 2 longueurs d'onde différentes",
+      "Varier avec la température"
+    ],
+    "correct_answers": [
+      "Varier avec la température",
+      "Varier avec la longueur d'onde",
+      "Etre modifié par la nature du solvant",
+      "Etre identique à 2 longueurs d'onde différentes"
+    ],
+    "justification_fausses_reponses": {
+      "Varier avec la longueur du trajet optique": "Le coefficient d'extinction molaire est une propriété intrinsèque de la substance et ne dépend pas de la longueur du trajet optique. La longueur du trajet optique affecte l'absorbance, mais pas le coefficient d'extinction molaire."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Afin de préparer 20 g d’une pommade à l’acide salicylique d’une teneur de 5 %, quelles masses d’acide salicylique et de vaseline faut-il peser ?",
+    "options": [
+      "100 mg d’acide salicylique et 20 g de vaseline",
+      "1 g d’acide salicylique et 20 g de vaseline",
+      "400 mg d’acide salicylique et 16,6 g de vaseline",
+      "4 g d’acide salicylique et 16 g de vaseline",
+      "1 000 mg d’acide salicylique et 19 g de vaseline"
+    ],
+    "correct_answers": [
+      "1 000 mg d’acide salicylique et 19 g de vaseline"
+    ],
+    "justification_fausses_reponses": {
+      "100 mg d’acide salicylique et 20 g de vaseline": "Cette réponse est incorrecte car 100 mg d'acide salicylique ne représente que 0,5% de 20 g, ce qui est inférieur à la teneur requise de 5%.",
+      "1 g d’acide salicylique et 20 g de vaseline": "Cette réponse est incorrecte car 1 g d'acide salicylique représente 5% de 20 g, mais cela ne laisse pas de place pour la vaseline.",
+      "400 mg d’acide salicylique et 16,6 g de vaseline": "Cette réponse est incorrecte car 400 mg d'acide salicylique ne représente que 2% de 20 g, ce qui est inférieur à la teneur requise de 5%.",
+      "4 g d’acide salicylique et 16 g de vaseline": "Cette réponse est incorrecte car 4 g d'acide salicylique représente 20% de 20 g, ce qui est bien supérieur à la teneur requise de 5%."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? On désire préparer 100 mL d’une solution étalon de codéine à 10 mg/L. On dispose de codéine sous forme d’une poudre pure.",
+    "options": [
+      "après la pesée de la codéine et introduction de la poudre dans une fiole jaugée, on complètera directement au trait de jauge et on retournera la fiole pour homogénéiser la solution",
+      "on devra peser 1 mg de codéine",
+      "on pourra utiliser une balance dont la précision est au dixième de gramme",
+      "après pesée de la codéine et introduction dans la fiole jaugée, on remplira la fiole au 2/3 de son volume et solubilisera la codéine sans retourner la fiole, puis on complètera au trait de jauge avant d’homogénéiser la solution",
+      "on devra peser 0,01 g de codéine"
+    ],
+    "correct_answers": [
+      "on devra peser 1 mg de codéine",
+      "après pesée de la codéine et introduction dans la fiole jaugée, on remplira la fiole au 2/3 de son volume et solubilisera la codéine sans retourner la fiole, puis on complètera au trait de jauge avant d’homogénéiser la solution"
+    ],
+    "justification_fausses_reponses": {
+      "après la pesée de la codéine et introduction de la poudre dans une fiole jaugée, on complètera directement au trait de jauge et on retournera la fiole pour homogénéiser la solution": "Cette méthode ne garantit pas une solubilisation complète de la codéine. Il est préférable de solubiliser la codéine en remplissant la fiole au 2/3 de son volume avant de compléter au trait de jauge.",
+      "on pourra utiliser une balance dont la précision est au dixième de gramme": "La précision de la balance est insuffisante pour peser 1 mg de codéine. Une balance plus précise est nécessaire.",
+      "on devra peser 0,01 g de codéine": "Cette quantité est trop élevée. Pour obtenir une solution à 10 mg/L, il faut peser 1 mg de codéine."
+    }
+  }
+]

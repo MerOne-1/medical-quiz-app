@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les conseils suivants, quels sont ceux qui doivent être prodigués à une femme enceinte séronégative vis-à-vis du toxoplasme ?",
+    "options": [
+      "Ne plus manger de poisson cru.",
+      "Bien cuire la viande avant de la consommer.",
+      "Vermifuger son chien.",
+      "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+      "Éviter de changer la litière de son chat surtout s'il est chasseur."
+    ],
+    "correct_answers": [
+      "Bien cuire la viande avant de la consommer.",
+      "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+      "Éviter de changer la litière de son chat surtout s'il est chasseur."
+    ],
+    "justification_fausses_reponses": {
+      "Ne plus manger de poisson cru.": "Le toxoplasme ne se trouve pas dans le poisson cru. Il est principalement présent dans la viande crue ou mal cuite, les fruits et légumes mal lavés et les excréments de chat.",
+      "Vermifuger son chien.": "Le toxoplasme n'est pas transmis par les chiens. Il est principalement transmis par les chats, en particulier ceux qui chassent et mangent des rongeurs infectés."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les caractères attribués aux puces, lequel (lesquels) est (sont) exact(s) ?",
+    "options": [
+      "Seuls les adultes sont hématophages.",
+      "La population adulte représente environ 90-95% de la population totale (œufs, nymphes, larves).",
+      "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois.",
+      "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+      "Ce sont des acariens aptères, aplatis dorso-ventralement."
+    ],
+    "correct_answers": [
+      "Seuls les adultes sont hématophages.",
+      "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+      "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois."
+    ],
+    "justification_fausses_reponses": {
+      "La population adulte représente environ 90-95% de la population totale (œufs, nymphes, larves).": "C'est incorrect car dans une population de puces, les adultes ne représentent qu'une petite fraction. La majorité de la population est constituée d'œufs, de larves et de nymphes.",
+      "Ce sont des acariens aptères, aplatis dorso-ventralement.": "C'est incorrect car les puces ne sont pas des acariens. Elles appartiennent à l'ordre des Siphonaptera, tandis que les acariens appartiennent à l'ordre des Acari. De plus, les puces ne sont pas aplatis dorso-ventralement."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi ces propositions concernant le pou de tête, Pediculus humanus  var. capitis , lesquelles sont fausses :",
+    "options": [
+      "Pediculus humanus  var. capitis  est un acarien.",
+      "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+      "La pédiculose du cuir chevelu peut être traitée par des pyréthrinoïdes et/ou le malathion.",
+      "Le pou de tête est parasite du cuir chevelu.",
+      "Le pou de tête peut transmettre des maladies infectieuses."
+    ],
+    "correct_answers": [
+      "Pediculus humanus  var. capitis  est un acarien.",
+      "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+      "Le pou de tête peut transmettre des maladies infectieuses."
+    ],
+    "justification_fausses_reponses": {
+      "La pédiculose du cuir chevelu peut être traitée par des pyréthrinoïdes et/ou le malathion.": "Cette affirmation est incorrecte car le traitement de la pédiculose du cuir chevelu par des pyréthrinoïdes et/ou le malathion n'est pas toujours efficace. En effet, certains poux peuvent développer une résistance à ces traitements.",
+      "Le pou de tête est parasite du cuir chevelu.": "Cette affirmation est incorrecte car le pou de tête n'est pas un parasite du cuir chevelu. Il est un ectoparasite, ce qui signifie qu'il vit à la surface de l'hôte et non à l'intérieur."
+    }
+  }
+]

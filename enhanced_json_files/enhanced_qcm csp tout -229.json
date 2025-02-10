@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la PCR laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+      "Elle nécessite l’utilisation d’amorces d’ARN",
+      "Il s’agit d’une technique d’amplification d’ADN",
+      "Il s’agit d’une technique de clonage cellulaire",
+      "Elle nécessite l’utilisation d’amorces aléatoires"
+    ],
+    "correct_answers": [
+      "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+      "Il s’agit d’une technique d’amplification d’ADN"
+    ],
+    "justification_fausses_reponses": {
+      "Elle nécessite l’utilisation d’amorces d’ARN": "La PCR utilise des amorces d'ADN, pas d'ARN. Les amorces sont des courts fragments d'ADN qui servent de point de départ à la synthèse d'ADN.",
+      "Il s’agit d’une technique de clonage cellulaire": "La PCR est une technique d'amplification d'ADN, pas de clonage cellulaire. Elle permet de produire de grandes quantités d'une séquence d'ADN spécifique à partir d'une petite quantité initiale.",
+      "Elle nécessite l’utilisation d’amorces aléatoires": "La PCR nécessite l'utilisation d'amorces spécifiques, pas aléatoires. Ces amorces sont conçues pour se lier à des séquences spécifiques de l'ADN cible."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le bromure d’éthidium, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet de visualiser les acides nucléiques",
+      "Il permet d’extraire les ARN des cellules",
+      "Aucune des affirmations n’est exacte",
+      "Il dénature l’ADN",
+      "Il dégrade spécifiquement l’ADN"
+    ],
+    "correct_answers": [
+      "Il permet de visualiser les acides nucléiques"
+    ],
+    "justification_fausses_reponses": {
+      "Il permet d’extraire les ARN des cellules": "Le bromure d'éthidium n'est pas utilisé pour extraire les ARN des cellules. Il est principalement utilisé pour visualiser les acides nucléiques.",
+      "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car le bromure d'éthidium permet effectivement de visualiser les acides nucléiques.",
+      "Il dénature l’ADN": "Le bromure d'éthidium ne dénature pas l'ADN, il s'intercale entre les bases de l'ADN, permettant sa visualisation sous UV.",
+      "Il dégrade spécifiquement l’ADN": "Le bromure d'éthidium ne dégrade pas l'ADN, il se lie à l'ADN et permet sa visualisation sous UV."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Le métabolisme des acides aminés est lié à d’autres voies métaboliques. Laquelle (lesquelles) ?",
+    "options": [
+      "Glycolyse",
+      "Néoglucogenèse",
+      "Voie des pentoses phosphate",
+      "Cycle de Krebs",
+      "Biosynthèse des nucléotides"
+    ],
+    "correct_answers": [
+      "Cycle de Krebs",
+      "Voie des pentoses phosphate",
+      "Biosynthèse des nucléotides",
+      "Glycolyse",
+      "Néoglucogenèse"
+    ],
+    "justification_fausses_reponses": {}
+  }
+]

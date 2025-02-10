@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Cette molécule comporte un enchaînement hydroxyéthylamine",
+      "Cette molécule est de nature pseudopeptidique",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule est un inhibiteur de l’enzyme de conversion de l’angiotensine",
+      "Cette molécule est un mime d’état de transition survenant lors de l’activité d’une protéase"
+    ],
+    "correct_answers": [
+      "Cette molécule comporte un enchaînement hydroxyéthylamine",
+      "Cette molécule est un mime d’état de transition survenant lors de l’activité d’une protéase",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule est de nature pseudopeptidique"
+    ],
+    "justification_fausses_reponses": {
+      "Cette molécule est un inhibiteur de l’enzyme de conversion de l’angiotensine": "C'est incorrect car le darunavir est un inhibiteur de la protéase du VIH et non un inhibiteur de l’enzyme de conversion de l’angiotensine. Ces deux enzymes ont des fonctions différentes dans l'organisme."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ce composé est un antibiotique",
+      "ce composé est une céphalosporine",
+      "ce composé est un monobactame",
+      "ce composé inhibe la HMGCoA-réductase",
+      "ce composé est un bêtalactame"
+    ],
+    "correct_answers": [
+      "ce composé est un antibiotique",
+      "ce composé est un bêtalactame",
+      "ce composé est une céphalosporine"
+    ],
+    "justification_fausses_reponses": {
+      "ce composé est un monobactame": "Cette affirmation est incorrecte car le monobactame est une classe d'antibiotiques qui diffère de la céphalosporine et du bêtalactame. Il est caractérisé par un anneau bêta-lactame isolé, contrairement aux autres qui ont des anneaux supplémentaires.",
+      "ce composé inhibe la HMGCoA-réductase": "Cette affirmation est incorrecte car l'inhibition de la HMGCoA-réductase est une caractéristique des statines, une classe de médicaments utilisés pour abaisser le cholestérol. Ce n'est pas une caractéristique des antibiotiques, des céphalosporines ou des bêtalactames."
+    }
+  }
+]

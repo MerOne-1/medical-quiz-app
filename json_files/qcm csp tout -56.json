@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Quels sont les signes de ΔH et ΔS pour une réaction spontanée à toutes les températures ?",
+    "options": [
+      "ΔH positiv e et ΔS positiv e",
+      "ΔH négativ e et ΔS négativ e",
+      "ΔH négativ e et ΔS positiv e",
+      "aucune des r éponses pr oposées",
+      "ΔH positiv e et ΔS négativ e"
+    ],
+    "correct_answers": [
+      "ΔH négativ e et ΔS positiv e"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Etablir la bonne série de relations de cause à effet concernant le bore :",
+    "options": [
+      "1z, 2x, 3y",
+      "1y, 2x, 3z",
+      "1y, 2z, 3x",
+      "1x, 2z, 3y",
+      "1x, 2y , 3z3"
+    ],
+    "correct_answers": [
+      "1y, 2x, 3z"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Combien de litres d’eau doit-on ajouter à 1L d’une solution d’acide fort monoprotique pour augmenter le pH de 1 unité ?",
+    "options": [
+      "1,0",
+      "100,0",
+      "0,1",
+      "9,0",
+      "0,9"
+    ],
+    "correct_answers": [
+      "9,0"
+    ]
+  }
+]

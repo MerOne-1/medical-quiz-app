@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelles sont les affirmations exactes concernant les solutés de remplissage ?",
+    "options": [
+      "Le ringer lactate est un cristaloïde hypertonique",
+      "Les cristaloïdes hypertoniques possèdent une osmolalité supérieure à celle du plasma (300 mosmol/kg)",
+      "Les HEA sont des polysaccharides modifiés, extraits du maïs",
+      "Les gélatines modifiées entraînent des réactions anaphylactiques, une diminution de l'agrégation plaquettaire.",
+      "l'isofundine est un soluté de la famille des colloïdes"
+    ],
+    "correct_answers": [
+      "Les cristaloïdes hypertoniques possèdent une osmolalité supérieure à celle du plasma (300 mosmol/kg)",
+      "Les HEA sont des polysaccharides modifiés, extraits du maïs",
+      "Les gélatines modifiées entraînent des réactions anaphylactiques, une diminution de l'agrégation plaquettaire."
+    ],
+    "justification_fausses_reponses": {
+      "Le ringer lactate est un cristaloïde hypertonique": "Cette affirmation est incorrecte car le ringer lactate est un cristaloïde isotonic, pas hypertonique. Il a une osmolalité proche de celle du plasma sanguin.",
+      "l'isofundine est un soluté de la famille des colloïdes": "Cette affirmation est incorrecte car l'isofundine est un cristalloïde, pas un colloïde. Les cristalloïdes sont des solutions de sels minéraux ou de sucres, tandis que les colloïdes contiennent des molécules de grande taille, comme des protéines."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "La biodisponibilit é d'un pr incipe actif lipophile, uniquement éliminé p ar ex crétion, administr é par voie orale en gélule, peut êtr e inf luencée p ar :",
+    "options": [
+      "Le premier passage hépatique",
+      "La prise à jeun ou pendant un repas",
+      "Le mode de remplissage de la gélule",
+      "Le type de diluant ajouté dans la gélule",
+      "Le volume de distribution du principe actif"
+    ],
+    "correct_answers": [
+      "Le mode de remplissage de la gélule",
+      "La prise à jeun ou pendant un repas",
+      "Le type de diluant ajouté dans la gélule"
+    ],
+    "justification_fausses_reponses": {
+      "Le premier passage hépatique": "Le premier passage hépatique n'influence pas la biodisponibilité d'un principe actif lipophile uniquement éliminé par excrétion. Ce processus concerne plutôt la métabolisation des médicaments par le foie.",
+      "Le volume de distribution du principe actif": "Le volume de distribution du principe actif est une caractéristique pharmacocinétique qui n'est pas directement influencée par la formulation galénique du médicament, mais plutôt par les propriétés physico-chimiques du principe actif et son interaction avec les tissus de l'organisme."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Concernant les formes destinées à traiter des pathologies oculaires, la(les) quelle(s) de ces propositions est (sont) exacte(s) ?",
+    "options": [
+      "Les collyres d'amphotéricine B sont fabriqués à partir de Fungizone (forme classique) ou à partir de la forme liposomale (Ambisome), sans qu'il n'y ait de différence en termes de stabilité, d'efficacité ou de tolérance.",
+      "Autant que possible, il faut réaliser des formes multidoses plutot que monodoses, afin d'allonger la date de péremption, et ce en ajoutant des conservateurs l'emploi de conservateurs pour les formes multidoses,.",
+      "Les conditionnements des collyres sont en verre type II ou en plastique.",
+      "Il n'est pas possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres.",
+      "Les collyres d'ED TA sont employés pour réaliser les kératites en bandelette, pour réaliser une détersion de dépots calciques au niveau de l'oeil."
+    ],
+    "correct_answers": [
+      "Les collyres d'amphotéricine B sont fabriqués à partir de Fungizone (forme classique) ou à partir de la forme liposomale (Ambisome), sans qu'il n'y ait de différence en termes de stabilité, d'efficacité ou de tolérance.",
+      "Les conditionnements des collyres sont en verre type II ou en plastique.",
+      "Les collyres d'ED TA sont employés pour réaliser les kératites en bandelette, pour réaliser une détersion de dépots calciques au niveau de l'oeil."
+    ],
+    "justification_fausses_reponses": {
+      "Autant que possible, il faut réaliser des formes multidoses plutot que monodoses, afin d'allonger la date de péremption, et ce en ajoutant des conservateurs l'emploi de conservateurs pour les formes multidoses,.": "Cette affirmation est incorrecte car les formes multidoses ne sont pas toujours préférables aux formes monodoses. Les formes monodoses sont souvent préférées pour des raisons de sécurité et d'hygiène, car elles réduisent le risque de contamination.",
+      "Il n'est pas possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres.": "Cette affirmation est incorrecte car il est tout à fait possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres, à condition de respecter les bonnes pratiques de fabrication."
+    }
+  }
+]

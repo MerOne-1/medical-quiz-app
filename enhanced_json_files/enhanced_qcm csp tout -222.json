@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les signes fréquemment rencontrés lors d’une cirrhose décompensée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Une augmentation de l’albumine sérique",
+      "Une formation d’un liquide d’ascite",
+      "Une augmentation de la zone alpha 2 du protéinogramme",
+      "Une augmentation de la bilirubine totale plasmatique",
+      "Une hyperammoniémie"
+    ],
+    "correct_answers": [
+      "Une formation d’un liquide d’ascite",
+      "Une hyperammoniémie",
+      "Une augmentation de la bilirubine totale plasmatique"
+    ],
+    "justification_fausses_reponses": {
+      "Une augmentation de l’albumine sérique": "Dans le cas d'une cirrhose décompensée, l'albumine sérique diminue généralement en raison d'une diminution de la production hépatique. Donc, une augmentation de l'albumine sérique n'est pas un signe typique de cette maladie.",
+      "Une augmentation de la zone alpha 2 du protéinogramme": "L'augmentation de la zone alpha 2 du protéinogramme n'est pas un signe spécifique de la cirrhose décompensée. Elle peut être observée dans diverses conditions pathologiques, notamment les inflammations aiguës et chroniques, les néoplasies et les maladies du foie."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+      "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+      "La néoglucogenèse est la voie métabolique de synthèse du glycogène à partir d’éléments non glucidiques",
+      "Le glycogène hépatique et le glycogène musculaire permettent le maintien d’une glycémie constante",
+      "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+    ],
+    "correct_answers": [
+      "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+      "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+      "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+    ],
+    "justification_fausses_reponses": {
+      "La néoglucogenèse est la voie métabolique de synthèse du glycogène à partir d’éléments non glucidiques": "La néoglucogenèse est en réalité la voie métabolique qui permet la synthèse de glucose à partir de précurseurs non glucidiques, et non la synthèse du glycogène.",
+      "Le glycogène hépatique et le glycogène musculaire permettent le maintien d’une glycémie constante": "Seul le glycogène hépatique contribue au maintien de la glycémie. Le glycogène musculaire est utilisé localement par le muscle et ne contribue pas à la glycémie."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse sur gel d’agarose des protéines sériques, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Aucune des affirmations n’est exacte",
+      "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+      "Cette technique d’analyse permet une séparation fine des protéines sériques",
+      "L’électrophorèse est associée à un dosage protéique",
+      "L’électrophorèse des protéines sériques est une analyse de routine"
+    ],
+    "correct_answers": [
+      "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+      "L’électrophorèse des protéines sériques est une analyse de routine",
+      "L’électrophorèse est associée à un dosage protéique"
+    ],
+    "justification_fausses_reponses": {
+      "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car l'électrophorèse sur gel d'agarose des protéines sériques est une technique d'analyse qui aide au diagnostic médical, est associée à un dosage protéique et est une analyse de routine.",
+      "Cette technique d’analyse permet une séparation fine des protéines sériques": "Cette affirmation est incorrecte car bien que l'électrophorèse sur gel d'agarose permette une séparation des protéines sériques, elle ne permet pas une séparation 'fine' ou très détaillée des protéines. Pour une séparation plus détaillée, d'autres techniques comme l'électrophorèse sur gel de polyacrylamide sont utilisées."
+    }
+  }
+]

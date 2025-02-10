@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique:",
+    "options": [
+      "Ce composé est un anti-viral",
+      "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+      "Ce composé comporte un cycle triazolopyrimidine",
+      "Ce composé est une pro-drogue",
+      "Ce composé est un analogue de nucléoside"
+    ],
+    "correct_answers": [
+      "Ce composé est un analogue de nucléoside",
+      "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+      "Ce composé comporte un cycle triazolopyrimidine"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "La dénomination chimique des médicaments suit les règles définies par:",
+    "options": [
+      "les firmes pharmaceutiques",
+      "l'IUPHAR",
+      "les pharmacopées",
+      "l'IUPAC",
+      "l'OMS"
+    ],
+    "correct_answers": [
+      "l'IUPAC"
+    ]
+  }
+]

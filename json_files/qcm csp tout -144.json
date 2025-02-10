@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "Le furosémide est hypernatrémiant et hyperkalièmiant",
+      "Les béta-bloquants sont tous contre indiqués dans l'insuffisance cardiaque chronique",
+      "La spironolactone est un antialdostérone hyperkalièmiant",
+      "Le ramipril est un antagoniste des récepteurs à l'angiotensine 2",
+      "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+    ],
+    "correct_answers": [
+      "La spironolactone est un antialdostérone hyperkalièmiant",
+      "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les effets indésirables majeurs \"l'isotrétinoïne\", choisissez la ou les proposition(s) fausse(s) :",
+    "options": [
+      "Sécheresse de la peau et des muqueuses",
+      "Dépression",
+      "Tératogène",
+      "Photosensibilisation",
+      "Toux sèche"
+    ],
+    "correct_answers": [
+      "Toux sèche"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le passage des médicaments dans le lait maternel, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Les contraceptifs oestro-progestatifs sont utilisables en cas d'allaitement",
+      "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+      "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement",
+      "Il est maximal au moment de la phase d'allaitement",
+      "La forme libre du médicament passe difficilement dans le lait maternel"
+    ],
+    "correct_answers": [
+      "Il est maximal au moment de la phase d'allaitement",
+      "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+      "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement"
+    ]
+  }
+]

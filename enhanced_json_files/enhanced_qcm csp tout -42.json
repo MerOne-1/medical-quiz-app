@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ? En chromatographie en phase liquide, la résolution entre deux composés dépend :",
+    "options": [
+      "De la longueur de la colonne",
+      "De l’efficacité de la colonne",
+      "Des facteurs de rétention",
+      "De la sélectivité de la colonne",
+      "De la hauteur des pics chromatographiques"
+    ],
+    "correct_answers": [
+      "De l’efficacité de la colonne",
+      "Des facteurs de rétention",
+      "De la longueur de la colonne",
+      "De la sélectivité de la colonne"
+    ],
+    "justification_fausses_reponses": {
+      "De la hauteur des pics chromatographiques": "La hauteur des pics chromatographiques n'affecte pas la résolution entre deux composés en chromatographie en phase liquide. La hauteur des pics est plutôt liée à la quantité de composé présent dans l'échantillon, et non à la capacité de séparation de la colonne."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la loi de Beer-Lambert, indiquer la (les) proposition(s) exacte(s) :",
+    "options": [
+      "Elle s’applique aux dosages polarimétriques",
+      "Elle est valable quelle que soit la concentration de la solution",
+      "Ce n’est pas une loi additive",
+      "Elle s’applique aux dosages spectrophotométriques",
+      "Elle n’est applicable qu’en lumière polychromatique"
+    ],
+    "correct_answers": [
+      "Elle s’applique aux dosages spectrophotométriques"
+    ],
+    "justification_fausses_reponses": {
+      "Elle s’applique aux dosages polarimétriques": "La loi de Beer-Lambert s'applique aux dosages spectrophotométriques et non aux dosages polarimétriques. La polarimétrie est une technique différente qui mesure la rotation de la lumière polarisée par une substance.",
+      "Elle est valable quelle que soit la concentration de la solution": "La loi de Beer-Lambert n'est pas toujours valable à des concentrations très élevées. À des concentrations élevées, les interactions entre les molécules peuvent affecter l'absorption de la lumière.",
+      "Ce n’est pas une loi additive": "La loi de Beer-Lambert est en fait une loi additive. Cela signifie que l'absorbance d'une solution est la somme des absorbances de ses composants.",
+      "Elle n’est applicable qu’en lumière polychromatique": "La loi de Beer-Lambert s'applique en réalité à la lumière monochromatique, c'est-à-dire à la lumière d'une seule longueur d'onde. L'utilisation de la lumière polychromatique peut entraîner des erreurs dans l'application de la loi."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon acéto-acétique (V= 1L et C= 100 mM, pKa = 4.8) de pH 4.8 si on y ajoute 1.10 mole de soude:",
+    "options": [
+      "10",
+      "3.0",
+      "4.8",
+      "5.5",
+      "7.0-4"
+    ],
+    "correct_answers": [
+      "4.8"
+    ],
+    "justification_fausses_reponses": {
+      "10": "Le pH ne peut pas augmenter à 10 après l'ajout de soude à une solution tampon acéto-acétique. Les tampons résistent aux changements de pH.",
+      "3.0": "Le pH ne peut pas diminuer à 3.0 après l'ajout de soude à une solution tampon acéto-acétique. L'ajout de soude, une base, augmenterait le pH, pas le diminuerait.",
+      "5.5": "Le pH ne peut pas augmenter à 5.5 après l'ajout de soude à une solution tampon acéto-acétique. Les tampons résistent aux changements de pH.",
+      "7.0-4": "Cette option est incorrecte car elle ne représente pas un pH valide. Le pH est une mesure de l'acidité ou de la basicité d'une solution et est généralement compris entre 0 et 14."
+    }
+  }
+]

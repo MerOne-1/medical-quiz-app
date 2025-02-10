@@ -1,0 +1,38 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "On s’intéresse à la formation des ions les plus probables pour quelques éléments : Aluminium (Al) ; Baryum (Ba) ; Césium (Cs) ; Cuivre (Cu) ; Iode (I). Indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "Il y a deux cations possibles pour le cuivre.",
+      "L’aluminium peut donner l’ion Al .2-.",
+      "L’iode peut donner l’ion I .2+",
+      "Le césium peut donner l’ion Cs .2+",
+      "Le baryum peut donner l’ion Ba .2+"
+    ],
+    "correct_answers": [
+      "Il y a deux cations possibles pour le cuivre.",
+      "Le baryum peut donner l’ion Ba .2+"
+    ],
+    "justification_fausses_reponses": {
+      "L’aluminium peut donner l’ion Al .2-.": "C'est incorrect car l'aluminium, étant un métal, a tendance à perdre des électrons pour former un cation. L'ion le plus probable pour l'aluminium est Al3+.",
+      "L’iode peut donner l’ion I .2+": "C'est incorrect car l'iode, étant un non-métal, a tendance à gagner des électrons pour former un anion. L'ion le plus probable pour l'iode est I-.",
+      "Le césium peut donner l’ion Cs .2+": "C'est incorrect car le césium, étant un métal alcalin, a tendance à perdre un électron pour former un cation. L'ion le plus probable pour le césium est Cs+."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes relatives, indiquer la (ou les) proposition (s) qui correspond (ent) à une augmentation de l’entropie.",
+    "options": [
+      "congélation d’un liquide",
+      "fusion d’un solide",
+      "sublimation d’un solide"
+    ],
+    "correct_answers": [
+      "fusion d’un solide",
+      "sublimation d’un solide"
+    ],
+    "justification_fausses_reponses": {
+      "congélation d’un liquide": "La congélation d'un liquide est un processus exothermique qui mène à une diminution de l'entropie. En effet, lors de la congélation, les molécules d'un liquide passent à un état solide, ce qui réduit leur désordre et donc leur entropie."
+    }
+  }
+]

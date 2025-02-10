@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) fausse(s) ?. En spectrophotométrie, l’absorption correspond à :",
+    "options": [
+      "Un phénomène chimique",
+      "Un phénomène induit par la lumière",
+      "Une complexation",
+      "Une émission de lumière",
+      "Une réaction irréversible"
+    ],
+    "correct_answers": [
+      "Une réaction irréversible",
+      "Une complexation",
+      "Une émission de lumière",
+      "Un phénomène chimique"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?. Le coefficient de partage d’une substance entre l’eau et l’éther, solvant non miscible, est fonction, une fois l’équilibre de partage atteint :",
+    "options": [
+      "De la solubilité de cette substance dans l’éther",
+      "De la solubilité de cette substance dans l’eau",
+      "Du volume d’éther utilisé",
+      "De la température",
+      "Du volume d’eau utilisé"
+    ],
+    "correct_answers": [
+      "De la température",
+      "De la solubilité de cette substance dans l’eau",
+      "De la solubilité de cette substance dans l’éther"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la spectrophotométrie UV, donner celle(s) qui est (sont) exacte(s) :",
+    "options": [
+      "Permet de déterminer une structure moléculaire de façon spécifique",
+      "Permet de différencier deux isomères cis-trans",
+      "Les résultats sont influencés par l'indice de réfraction du solvant",
+      "Se prête à l'analyse quantitative",
+      "Permet de détecter les ions Zn2+ sous forme de chélate dont le maximum d'absorption se situe à 420 nm"
+    ],
+    "correct_answers": [
+      "Permet de différencier deux isomères cis-trans",
+      "Se prête à l'analyse quantitative",
+      "Les résultats sont influencés par l'indice de réfraction du solvant"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes, quel est l’atome (quels sont les atomes) qui possède (nt) 3 électrons célibataires à l’état fondamental ?",
+    "options": [
+      "As",
+      "V",
+      "Ca",
+      "P",
+      "Na"
+    ],
+    "correct_answers": [
+      "V",
+      "As",
+      "P"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Le bleu de bromophénol est un indicateur coloré, que l’on notera IndH (pKa = 3,9). Si [IndH] / [Ind ] > 10, la solution apparaît jaune. Si [IndH] / [Ind ] < 0,1 la solution apparaît bleue. Une solution de l’espèce X colore le bleu de bromophénol en vert. Que pourrait-être X ? On donne pKa (acide acétique) = 4,8",
+    "options": [
+      "Du chlor ure de sodium",
+      "Une solution d’ acide acétique à 0,5 M",
+      "Un sel d’ acide faible et de b ase for te",
+      "De l’ acétat e de sodium",
+      "Un sel d’ acide for t et de b ase faible"
+    ],
+    "correct_answers": [
+      "Un sel d’ acide for t et de b ase faible"
+    ]
+  }
+]

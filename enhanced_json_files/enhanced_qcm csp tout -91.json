@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique:",
+    "options": [
+      "Ce composé est un anti-viral",
+      "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+      "Ce composé comporte un cycle triazolopyrimidine",
+      "Ce composé est une pro-drogue",
+      "Ce composé est un analogue de nucléoside"
+    ],
+    "correct_answers": [
+      "Ce composé est un analogue de nucléoside",
+      "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+      "Ce composé comporte un cycle triazolopyrimidine"
+    ],
+    "justification_fausses_reponses": {
+      "Ce composé est un anti-viral": "Cette affirmation est incorrecte car la molécule en question n'a pas été conçue pour agir contre les virus. Son mécanisme d'action ne correspond pas à celui des antiviraux.",
+      "Ce composé est une pro-drogue": "Cette affirmation est incorrecte car la molécule en question n'est pas une pro-drogue. Une pro-drogue est une substance qui est métabolisée dans l'organisme pour devenir un médicament actif, ce qui n'est pas le cas ici."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "La dénomination chimique des médicaments suit les règles définies par:",
+    "options": [
+      "les firmes pharmaceutiques",
+      "l'IUPHAR",
+      "les pharmacopées",
+      "l'IUPAC",
+      "l'OMS"
+    ],
+    "correct_answers": [
+      "l'IUPAC"
+    ],
+    "justification_fausses_reponses": {
+      "les firmes pharmaceutiques": "Les firmes pharmaceutiques ne définissent pas les règles de dénomination chimique des médicaments. Elles suivent les règles établies par des organismes internationaux.",
+      "l'IUPHAR": "L'IUPHAR (Union Internationale de Pharmacologie) ne définit pas les règles de dénomination chimique des médicaments. Elle se concentre sur la classification et la nomenclature des récepteurs pharmacologiques.",
+      "les pharmacopées": "Les pharmacopées sont des recueils officiels de médicaments et de leurs spécifications. Elles ne définissent pas les règles de dénomination chimique des médicaments.",
+      "l'OMS": "L'OMS (Organisation Mondiale de la Santé) ne définit pas les règles de dénomination chimique des médicaments. Elle se concentre sur les questions de santé publique à l'échelle mondiale."
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la vitamine A et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ce sont des composés hautement hydrophiles",
+      "les membres de cette famille de 3 génération sont environ mille fois plus actifs",
+      "la vitamine A naturelle et dérivés sont formées de 4 unités isopréniques et 1 groupe fonctionnel",
+      "ces composés sont hautement tératogènes",
+      "dans leur DCI on trouve le segment clef « rétin… »"
+    ],
+    "correct_answers": [
+      "la vitamine A naturelle et dérivés sont formées de 4 unités isopréniques et 1 groupe fonctionnel",
+      "dans leur DCI on trouve le segment clef « rétin… »",
+      "les membres de cette famille de 3 génération sont environ mille fois plus actifs",
+      "ces composés sont hautement tératogènes"
+    ],
+    "justification_fausses_reponses": {
+      "ce sont des composés hautement hydrophiles": "C'est incorrect car la vitamine A et ses dérivés sont des composés lipophiles, c'est-à-dire qu'ils sont solubles dans les lipides et les solvants organiques, mais pas dans l'eau. Leur structure chimique, qui comprend une longue chaîne hydrocarbonée, les rend non polaires et donc insolubles dans les milieux polaires comme l'eau."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Le losartan présente un groupement tétrazole. Par quel groupement bioisostère peut-on l’échanger",
+    "options": [
+      "-OH",
+      "-NH",
+      "-CF",
+      "-COOH",
+      "-CH3",
+      "-OH2"
+    ],
+    "correct_answers": [
+      "-COOH"
+    ],
+    "justification_fausses_reponses": {
+      "-OH": "Le groupement -OH n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+      "-NH": "Le groupement -NH n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+      "-CF": "Le groupement -CF n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+      "-CH3": "Le groupement -CH3 n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+      "-OH2": "Le groupement -OH2 n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques."
+    }
+  }
+]

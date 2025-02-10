@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Le boceprevir est utilisé dans le traitement de l'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le boceprevir possède exactement trois carbones asymétriques",
+      "Le boceprevir possède une fonction urée",
+      "Le boceprevir possède une fonction cétone électrophile",
+      "Le boceprevir est protoné à pH physiologique (pH 7,4)",
+      "Le boceprevir possède un cycle cyclobutyle"
+    ],
+    "correct_answers": [
+      "Le boceprevir possède une fonction urée",
+      "Le boceprevir possède une fonction cétone électrophile",
+      "Le boceprevir possède un cycle cyclobutyle"
+    ],
+    "justification_fausses_reponses": {
+      "Le boceprevir possède exactement trois carbones asymétriques": "C'est incorrect. Le boceprevir possède plus de trois carbones asymétriques. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents.",
+      "Le boceprevir est protoné à pH physiologique (pH 7,4)": "C'est incorrect. Le boceprevir n'est pas protoné à pH physiologique. La protonation est le processus par lequel un proton est ajouté à une molécule, généralement sous forme d'ion hydrogène (H+). Cela se produit généralement dans un environnement acide, pas à un pH physiologique."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse la synthèse de la rivastigmine, un inhibiteur de l'acétylcholinestérase, utilisé dans la prise en charge de la maladie d'Alzheimer. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La rivastigmine est administrée sous forme racémique",
+      "Le réactif 1 possède une fonction phénol",
+      "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le réactif 1 est un nucléophile",
+      "Le réactif 2 est un électrophile"
+    ],
+    "correct_answers": [
+      "Le réactif 1 possède une fonction phénol",
+      "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le réactif 1 est un nucléophile",
+      "Le réactif 2 est un électrophile"
+    ],
+    "justification_fausses_reponses": {
+      "La rivastigmine est administrée sous forme racémique": "Cette affirmation est incorrecte car la rivastigmine est administrée sous forme d'énantiomère pur et non sous forme racémique. Une forme racémique est un mélange 50/50 de deux énantiomères, ce qui n'est pas le cas pour la rivastigmine."
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Relativement aux hypothèses d’un test statistique, quelles sont les propositions correctes ?",
+    "options": [
+      "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H",
+      "Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale",
+      "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+      "Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H",
+      "Le test s'effectue toujours au risque α=5%"
+    ],
+    "correct_answers": [
+      "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+      "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H"
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes. On se propose de mener un test pour savoir si, en population, on peut dire qu’il y a plus de femmes que d’hommes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+    "options": [
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi de Student avec un nombre de degrés de liberté = 39",
+      "Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30",
+      "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+      "Il s’agit de la comparaison entre deux pourcentages observés",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+    ],
+    "correct_answers": [
+      "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+    ]
+  }
+]

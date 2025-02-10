@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes concernant les antipsychotiques laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "Risperidone n'expose pas à un risque d'intolérance au glucose (effet diabétogène)",
+      "Domperidone est un neuroleptique uniquement utilisé comme antiémétique",
+      "Les antipsychotiques atypiques sont dénués d'effets anticholinergiques",
+      "Olanzapine est un des seuls antipsychotiques à ne pas engendrer de prise de poids",
+      "Haloperidol est dénué d'effets extrapyramidaux"
+    ],
+    "correct_answers": [
+      "Domperidone est un neuroleptique uniquement utilisé comme antiémétique"
+    ],
+    "justification_fausses_reponses": {
+      "Risperidone n'expose pas à un risque d'intolérance au glucose (effet diabétogène)": "C'est incorrect. La Risperidone, comme d'autres antipsychotiques, peut effectivement augmenter le risque d'intolérance au glucose, conduisant à un effet diabétogène.",
+      "Les antipsychotiques atypiques sont dénués d'effets anticholinergiques": "C'est faux. Les antipsychotiques atypiques peuvent avoir des effets anticholinergiques, bien que généralement moins prononcés que les antipsychotiques typiques.",
+      "Olanzapine est un des seuls antipsychotiques à ne pas engendrer de prise de poids": "C'est incorrect. L'Olanzapine est connue pour causer une prise de poids significative chez certains patients.",
+      "Haloperidol est dénué d'effets extrapyramidaux": "C'est faux. L'Haloperidol, un antipsychotique typique, est associé à un risque élevé d'effets extrapyramidaux, qui sont des effets secondaires moteurs."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les conseils à associer à la dispensation de \"l'isotrétinoïne\" à l'officine à une femme en âge de procréer, la ou lesquelles est (sont) fausse(s) ?",
+    "options": [
+      "Ne pas donner son médicament à une copine",
+      "Ne pas s'épiler à la cire chaude",
+      "Rapporter les médicaments non utilisés à la pharmacie",
+      "Ne pas donner son sang",
+      "L'exposition au soleil est sans danger"
+    ],
+    "correct_answers": [
+      "L'exposition au soleil est sans danger"
+    ],
+    "justification_fausses_reponses": {
+      "Ne pas donner son médicament à une copine": "Cette affirmation est correcte. L'isotrétinoïne est un médicament puissant qui peut avoir des effets secondaires graves, notamment des malformations congénitales. Il ne doit jamais être partagé.",
+      "Ne pas s'épiler à la cire chaude": "Cette affirmation est correcte. L'isotrétinoïne peut rendre la peau plus sensible et susceptible d'être blessée par l'épilation à la cire chaude.",
+      "Rapporter les médicaments non utilisés à la pharmacie": "Cette affirmation est correcte. Il est important de se débarrasser de manière sûre et appropriée des médicaments non utilisés, notamment l'isotrétinoïne, qui peut être dangereuse si elle est prise par une personne pour laquelle elle n'a pas été prescrite.",
+      "Ne pas donner son sang": "Cette affirmation est correcte. L'isotrétinoïne peut rester dans le sang pendant une période de temps après l'arrêt du traitement, et donner du sang pendant cette période pourrait exposer le receveur à des risques."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les règles de dispensation de \"l'isotrétinoïne\" à une femme en âge de procréer, la ou lesquelles est (sont) fausse(s) ?",
+    "options": [
+      "Réalisation obligatoire de tests de grossesse (béta-hC G plasmatiques) dans les 7 jours précédant toute prescription.",
+      "Délivrance après vérification que toutes les mentions obligatoires figurent sur le carnet-patiente : formulaire d'accord de soins et de contraception complété et signé par la patiente, date et résultat du test de grossesse sérologique négatif",
+      "Délivrance au plus tard dans les 7 jours suivant la prescription",
+      "Ordonnance limitée à 1 mois de traitement",
+      "Mention de la date de délivrance sur le carnet-patiente"
+    ],
+    "correct_answers": [
+      "Réalisation obligatoire de tests de grossesse (béta-hC G plasmatiques) dans les 7 jours précédant toute prescription."
+    ],
+    "justification_fausses_reponses": {
+      "Délivrance après vérification que toutes les mentions obligatoires figurent sur le carnet-patiente : formulaire d'accord de soins et de contraception complété et signé par la patiente, date et résultat du test de grossesse sérologique négatif": "Cette affirmation est incorrecte car la délivrance de l'isotrétinoïne ne nécessite pas de vérification des mentions sur le carnet-patiente. Le formulaire d'accord de soins et de contraception n'est pas une condition obligatoire pour la délivrance de ce médicament.",
+      "Délivrance au plus tard dans les 7 jours suivant la prescription": "Cette affirmation est incorrecte car il n'y a pas de délai spécifique pour la délivrance de l'isotrétinoïne après la prescription. Le délai de délivrance dépend de la disponibilité du médicament et de la situation de la patiente.",
+      "Ordonnance limitée à 1 mois de traitement": "Cette affirmation est incorrecte car l'ordonnance pour l'isotrétinoïne n'est pas limitée à 1 mois de traitement. La durée du traitement est déterminée par le médecin en fonction de l'état de santé de la patiente.",
+      "Mention de la date de délivrance sur le carnet-patiente": "Cette affirmation est incorrecte car la date de délivrance n'est pas une mention obligatoire sur le carnet-patiente lors de la délivrance de l'isotrétinoïne."
+    }
+  }
+]

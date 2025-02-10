@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les médicaments suivants utilisés dans le traitement des troubles du rythme cardiaque, lequel (lesquels) exerce(nt) une action résultant essentiellement d'un ralentissement du courant potassique ?",
+    "options": [
+      "propranolol (A VLOCARDYL)",
+      "atenolol (TENORMINE)",
+      "verapamil (ISOPTINE)",
+      "hydroxyquinidine (SEREC OR)",
+      "amiodarone (C ORDARONE)"
+    ],
+    "correct_answers": [
+      "amiodarone (C ORDARONE)"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels des sulfamides hypoglycémiants :",
+    "options": [
+      "Ils provoquent une prise de poids par effet insulinosécréteur",
+      "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience.",
+      "Les hypoglycémies dues aux sulfamides hypoglycémiants sont prises en charge habituellement par injection de Glucagon",
+      "Les hypoglycémies provoquées par ces médicaments sont mineures et sans séquelles neurologiques possibles",
+      "Ils induisent une perte de poids par action au niveau du SNC"
+    ],
+    "correct_answers": [
+      "Ils provoquent une prise de poids par effet insulinosécréteur",
+      "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience."
+    ]
+  }
+]

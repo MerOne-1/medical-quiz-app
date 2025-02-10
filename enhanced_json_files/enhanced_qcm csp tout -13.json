@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en deux groupes parallèles et suivis pendant un minimum d'un an. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+    "options": [
+      "Un test de supériorité est un test unilatéral",
+      "Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai",
+      "Dans un essai randomisé, les traitements sont attribués au hasard",
+      "L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous traitement R",
+      "Le test à mettre en œuvre est un test de comparaison de deux moyennes"
+    ],
+    "correct_answers": [
+      "Un test de supériorité est un test unilatéral",
+      "Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai",
+      "Dans un essai randomisé, les traitements sont attribués au hasard"
+    ],
+    "justification_fausses_reponses": {
+      "L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous traitement R": "C'est incorrect. Une étude de supériorité cherche à démontrer qu'un traitement est plus efficace qu'un autre, pas qu'il a un taux de mortalité plus élevé.",
+      "Le test à mettre en œuvre est un test de comparaison de deux moyennes": "C'est incorrect. Dans ce contexte, le test approprié serait un test de comparaison de deux proportions, pas de deux moyennes."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Trois méthodes sont habituellement utilisées pour doser une protéine P chez l’adulte. On souhaite comparer les résultats obtenus par ces trois méthodes pour un même sérum pédiatrique. On réalise, pour chacune des méthodes, 5 répétitions et l’on obtient les moyennes respectives suivantes (en mg/L) : 10.5, 10.2 et 10.6. Le test statistique utilisé fournit un niveau de signification (p-value) p = 0.42. Quelles sont, parmi les propositions suivantes, celles qui sont exactes ?",
+    "options": [
+      "L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+      "Le test utilisé est le test de Student, en supposant l’hypothèse de normalité vérifiée",
+      "Au seuil de 5%, on peut dire qu’en moyenne les trois méthodes ne fournissent pas la même valeur de dosage",
+      "S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire pour réaliser le test",
+      "Le test utilisé est un test d’ANOVA"
+    ],
+    "correct_answers": [
+      "Le test utilisé est un test d’ANOVA",
+      "L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+      "S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire pour réaliser le test"
+    ],
+    "justification_fausses_reponses": {
+      "Le test utilisé est le test de Student, en supposant l’hypothèse de normalité vérifiée": "Cette affirmation est incorrecte car le test de Student est généralement utilisé pour comparer les moyennes de deux groupes, pas de trois. Ici, un test d'ANOVA est plus approprié car il permet de comparer les moyennes de plusieurs groupes.",
+      "Au seuil de 5%, on peut dire qu’en moyenne les trois méthodes ne fournissent pas la même valeur de dosage": "Cette affirmation est incorrecte car la p-value obtenue (0.42) est supérieure au seuil de 5%. Cela signifie que l'on ne peut pas rejeter l'hypothèse nulle, qui est que les moyennes des trois méthodes sont égales."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les couples photo-nom commercial de médicament ci-dessous, lesquels sont correctement appariés ?",
+    "options": [
+      "Taxol*",
+      "Hélicidine*",
+      "Skénan*",
+      "Daflon*",
+      "Byetta*"
+    ],
+    "correct_answers": [
+      "Byetta*",
+      "Hélicidine*",
+      "Skénan*",
+      "Daflon*"
+    ],
+    "justification_fausses_reponses": {
+      "Taxol*": "L'option est incorrecte car le Taxol est un médicament anticancéreux dérivé de l'écorce de l'if de l'Ouest, et non du produit présenté dans l'image."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les acides gras sont des dérivés issus de la voie des polyacétates",
+      "Le cholestérol est un dérivé terpénique",
+      "Les statines sont des dérivés issus de la voie des polyacétates",
+      "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes",
+      "Les acides gras sont des dérivés terpéniques"
+    ],
+    "correct_answers": [
+      "Les acides gras sont des dérivés issus de la voie des polyacétates",
+      "Le cholestérol est un dérivé terpénique",
+      "Les statines sont des dérivés issus de la voie des polyacétates",
+      "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes"
+    ],
+    "justification_fausses_reponses": {
+      "Les acides gras sont des dérivés terpéniques": "Cette affirmation est incorrecte car les acides gras ne sont pas des dérivés terpéniques. Les acides gras sont synthétisés par la voie des polyacétates, et non par la voie des terpènes. Les terpènes sont une classe de composés organiques qui sont principalement dérivés des carbures d'isoprène, tandis que les acides gras sont principalement composés de longues chaînes d'hydrocarbures."
+    }
+  }
+]

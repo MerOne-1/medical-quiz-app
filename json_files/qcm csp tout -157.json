@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la sclérose en plaque, laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "L'acetate de glatiramere est un interferon Beta 1a",
+      "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque",
+      "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+      "Toutes les spécialités de type interferon Béta utilisées dans la sclérose en plaque sont systématiquement injectés par voie sous cutanée",
+      "Diméthyl fumarate doit systématiquement être prescrit avec une dose de charge (posologie 2 fois supérieure à la posologie d'entretien) pendant 7 jours pour être efficace"
+    ],
+    "correct_answers": [
+      "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+      "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants lesquels ou lequel appartiennent à la famille des Benzodiazépines ?",
+    "options": [
+      "Propofol",
+      "Etifoxine",
+      "Hydroxyzine",
+      "Alprazolam",
+      "Buspirone"
+    ],
+    "correct_answers": [
+      "Alprazolam"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu\"SR O\" 2 à 3 fois / jour que signifie \"SR O\" ?",
+    "options": [
+      "Soluté de réhydratation orale",
+      "Soluté pour les problèmes respiratoires obstructifs",
+      "Autre définition",
+      "Soluté de remplissage orale",
+      "Soluté de remplissage œsophagien"
+    ],
+    "correct_answers": [
+      "Soluté de réhydratation orale"
+    ]
+  }
+]

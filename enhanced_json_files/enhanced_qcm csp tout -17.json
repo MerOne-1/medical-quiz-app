@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi ces concentrations, quelle(s) est (sont) celle(s) qui correspond(ent) à une solution à 100 g/l :",
+    "options": [
+      "0,1 g.ml",
+      "10 g.dm",
+      "10 g.cm",
+      "0,1 g.cm",
+      "10 g.ml-1"
+    ],
+    "correct_answers": [
+      "10 g.dm",
+      "0,1 g.cm",
+      "0,1 g.ml"
+    ],
+    "justification_fausses_reponses": {
+      "10 g.cm": "Cette option est incorrecte car une concentration de 10 g/cm correspond à une solution beaucoup plus concentrée que 100 g/l. En effet, 1 cm3 est équivalent à 1 ml, donc 10 g/cm3 équivaut à 10 g/ml, soit 10000 g/l, ce qui est bien supérieur à 100 g/l.",
+      "10 g.ml-1": "Cette option est incorrecte car une concentration de 10 g/ml correspond à une solution beaucoup plus concentrée que 100 g/l. En effet, 1 ml est équivalent à 1 cm3, donc 10 g/ml équivaut à 10 g/cm3, soit 10000 g/l, ce qui est bien supérieur à 100 g/l."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi ces différentes masses volumiques, quelle(s) est (sont) celle(s) qui est (sont) équivalente(s) à 1 g.cm :",
+    "options": [
+      "1 kg.dm",
+      "1 mg.ml",
+      "1 g.ml",
+      "1000 kg.l",
+      "10 g.dm-3"
+    ],
+    "correct_answers": [
+      "1 kg.dm",
+      "1 g.ml"
+    ],
+    "justification_fausses_reponses": {
+      "1 mg.ml": "Cette option est incorrecte car 1 mg/ml est équivalent à 0.001 g/cm³, ce qui est 1000 fois moins que 1 g/cm³.",
+      "1000 kg.l": "Cette option est incorrecte car 1000 kg/l est équivalent à 1 g/cm³, ce qui est 1000 fois plus que 1 g/cm³.",
+      "10 g.dm-3": "Cette option est incorrecte car 10 g/dm³ est équivalent à 0.01 g/cm³, ce qui est 100 fois moins que 1 g/cm³."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Quelle(s) proposition(s) est (sont) exactes(s) concernant la partie aromatique du spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "On observera 4 singulets d’intensité 2 chacun",
+      "On observera 4 singulets d’intensité 1 chacun",
+      "Il n’y a pas de protons aromatiques",
+      "On observera 1 singulet d’intensité 4",
+      "On observera 2 doublets d’intensité 2 chacun"
+    ],
+    "correct_answers": [
+      "On observera 2 doublets d’intensité 2 chacun"
+    ],
+    "justification_fausses_reponses": {
+      "On observera 4 singulets d’intensité 2 chacun": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas quatre singulets.",
+      "On observera 4 singulets d’intensité 1 chacun": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas quatre singulets d'intensité 1.",
+      "Il n’y a pas de protons aromatiques": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques, chacun contenant des protons aromatiques.",
+      "On observera 1 singulet d’intensité 4": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas un singulet d'intensité 4."
+    }
+  }
+]

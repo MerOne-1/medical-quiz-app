@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concer nant une pr otéine dont la destinée est d’êtr e sécr étée, quelles sont les pr opositions vraies :",
+    "options": [
+      "Elle sera adressée à l’espace extracellulaire par trafic vésiculaire",
+      "Elle peut être glycosylée en passant dans le protéasome",
+      "Elle passe directement du cytosol à l’espace extracellulaire",
+      "Elle subit un contrôle de qualité dans le réticulum endoplasmique",
+      "Elle est synthétisée dans le noyau"
+    ],
+    "correct_answers": [
+      "Elle subit un contrôle de qualité dans le réticulum endoplasmique",
+      "Elle sera adressée à l’espace extracellulaire par trafic vésiculaire"
+    ],
+    "justification_fausses_reponses": {
+      "Elle peut être glycosylée en passant dans le protéasome": "La glycosylation est un processus qui se produit dans le réticulum endoplasmique et l'appareil de Golgi, pas dans le protéasome qui est plutôt impliqué dans la dégradation des protéines.",
+      "Elle passe directement du cytosol à l’espace extracellulaire": "Les protéines ne passent pas directement du cytosol à l'espace extracellulaire. Elles sont d'abord transportées dans le réticulum endoplasmique, puis dans l'appareil de Golgi, avant d'être sécrétées à l'extérieur de la cellule par exocytose.",
+      "Elle est synthétisée dans le noyau": "Les protéines ne sont pas synthétisées dans le noyau. La synthèse des protéines a lieu dans le cytosol par les ribosomes."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concer nant le cy tosquelett e, quelles sont les pr opositions vraies :",
+    "options": [
+      "Le centrosome est indispensable à la polymérisation des microtubules dans la cellule eucaryote",
+      "Les filaments intermédiaires sont indispensables à la cytodiérèse",
+      "La contraction cellulaire fait intervenir des fibres contractiles composées de microtubules",
+      "Le fuseau mitotique est constitué de filaments d’actine",
+      "Les filaments d’actine sont stables dans les microvillosités"
+    ],
+    "correct_answers": [
+      "Les filaments d’actine sont stables dans les microvillosités",
+      "Le centrosome est indispensable à la polymérisation des microtubules dans la cellule eucaryote"
+    ],
+    "justification_fausses_reponses": {
+      "Les filaments intermédiaires sont indispensables à la cytodiérèse": "La cytodiérèse est le processus de division cellulaire. Bien que les filaments intermédiaires jouent un rôle dans la structure et la stabilité de la cellule, ils ne sont pas directement impliqués dans la cytodiérèse.",
+      "La contraction cellulaire fait intervenir des fibres contractiles composées de microtubules": "La contraction cellulaire fait plutôt intervenir des fibres contractiles composées d'actine et de myosine, et non de microtubules.",
+      "Le fuseau mitotique est constitué de filaments d’actine": "Le fuseau mitotique est en réalité constitué de microtubules, et non de filaments d'actine."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les étapes suiv antes, quelles sont celles r elativ es au pr otocole de W estern blot :",
+    "options": [
+      "Séparation des protéines par électrophorèse",
+      "Dosage des protéines totales",
+      "Hybridation de la membrane de nitrocellulose avec des anticorps",
+      "Extraction des protéines totales",
+      "Observation des cellules à l’aide d’un microscope optique"
+    ],
+    "correct_answers": [
+      "Hybridation de la membrane de nitrocellulose avec des anticorps",
+      "Extraction des protéines totales",
+      "Séparation des protéines par électrophorèse",
+      "Dosage des protéines totales"
+    ],
+    "justification_fausses_reponses": {
+      "Observation des cellules à l’aide d’un microscope optique": "Cette option est incorrecte car l'observation des cellules à l'aide d'un microscope optique n'est pas une étape du protocole de Western blot. Le Western blot est une technique de biologie moléculaire permettant de détecter une protéine spécifique dans un mélange de protéines, ce qui ne nécessite pas d'observation microscopique des cellules."
+    }
+  }
+]

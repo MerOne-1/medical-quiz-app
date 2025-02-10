@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule active, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique",
+      "Sa cible thérapeutique est une aspartyl-protéase",
+      "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+      "Cette molécule est biodisponible par voie orale",
+      "Cette molécule est le captopril"
+    ],
+    "correct_answers": [
+      "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+      "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique"
+    ],
+    "justification_fausses_reponses": {
+      "Sa cible thérapeutique est une aspartyl-protéase": "Cette affirmation est incorrecte car la molécule en question n'agit pas sur une aspartyl-protéase, mais plutôt sur une autre cible moléculaire.",
+      "Cette molécule est biodisponible par voie orale": "Cette affirmation est incorrecte car la biodisponibilité orale de cette molécule n'est pas garantie. La biodisponibilité dépend de nombreux facteurs, y compris la solubilité de la molécule, sa stabilité dans l'environnement acide de l'estomac, et sa capacité à traverser la barrière intestinale.",
+      "Cette molécule est le captopril": "Cette affirmation est incorrecte car la molécule en question n'est pas le captopril. Le captopril est un médicament spécifique utilisé pour traiter l'hypertension et l'insuffisance cardiaque, et il a une structure chimique distincte."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la famille des «sétrons », signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "ils sont métabolisés au niveau hépatique",
+      "ils sont des antagonistes 5HT",
+      "ils sont aussi alpha-bloquants",
+      "ils diminuent la vidange gastrique",
+      "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+    ],
+    "correct_answers": [
+      "ils sont des antagonistes 5HT",
+      "ils sont métabolisés au niveau hépatique",
+      "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+    ],
+    "justification_fausses_reponses": {
+      "ils sont aussi alpha-bloquants": "Cette affirmation est incorrecte car les sétrons ne sont pas des alpha-bloquants. Ils sont spécifiquement des antagonistes du récepteur 5-HT3, utilisés principalement pour traiter les nausées et les vomissements induits par la chimiothérapie.",
+      "ils diminuent la vidange gastrique": "Cette affirmation est incorrecte car les sétrons n'ont pas d'effet sur la vidange gastrique. Leur mécanisme d'action principal est l'antagonisme du récepteur 5-HT3, qui aide à contrôler les nausées et les vomissements, mais n'affecte pas la vitesse de vidange gastrique."
+    }
+  }
+]

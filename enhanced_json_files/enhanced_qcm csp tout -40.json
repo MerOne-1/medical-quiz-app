@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "La loi de BEER-L AMBER T est vérifiée en",
+    "options": [
+      "Spectrométrie d'absorption atomique",
+      "Spectrophotométrie UV-Visible",
+      "Spectrophotométrie Infra-rouge",
+      "Spectroscopie Raman",
+      "Spectrométrie d'émission atomique"
+    ],
+    "correct_answers": [
+      "Spectrophotométrie UV-Visible",
+      "Spectrométrie d'absorption atomique"
+    ],
+    "justification_fausses_reponses": {
+      "Spectrophotométrie Infra-rouge": "La loi de Beer-Lambert n'est pas vérifiée en spectrophotométrie infrarouge car cette technique mesure l'absorption de la lumière infrarouge par les molécules, qui est influencée par les vibrations des liaisons chimiques et non par la concentration de la solution.",
+      "Spectroscopie Raman": "La loi de Beer-Lambert n'est pas vérifiée en spectroscopie Raman car cette technique mesure l'effet Raman, qui est une diffusion inélastique de la lumière, et non l'absorption de la lumière qui est liée à la concentration de la solution.",
+      "Spectrométrie d'émission atomique": "La loi de Beer-Lambert n'est pas vérifiée en spectrométrie d'émission atomique car cette technique mesure l'émission de lumière par les atomes excités, et non l'absorption de la lumière qui est liée à la concentration de la solution."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "On souhaite préparer, par dilution, 10 mL une solution d’aspirine à 1 mM à partir d’une solution à 100 mM. Quel volume de solution à 100 mM faut-il prélever et quel volume d’eau faut-il ajouter ?",
+    "options": [
+      "0,1 mL de solution à 100 mM et 9,9 mL d’eau",
+      "0,1 mL de solution à 100 mM et 10 mL d’eau",
+      "100 µL de solution à 100 mM et 9,9 mL d’eau",
+      "100 µL de solution à 100 mM et 10 mL d’eau",
+      "1 mL de solution à 100 mM et 99 mL d’eau"
+    ],
+    "correct_answers": [
+      "100 µL de solution à 100 mM et 9,9 mL d’eau",
+      "0,1 mL de solution à 100 mM et 9,9 mL d’eau"
+    ],
+    "justification_fausses_reponses": {
+      "0,1 mL de solution à 100 mM et 10 mL d’eau": "Cette réponse est incorrecte car elle ne respecte pas la loi de conservation de la matière. En ajoutant 10 mL d'eau à 0,1 mL de solution, le volume total serait de 10,1 mL, ce qui est supérieur au volume final souhaité de 10 mL.",
+      "100 µL de solution à 100 mM et 10 mL d’eau": "Cette réponse est incorrecte car elle ne respecte pas la loi de conservation de la matière. En ajoutant 10 mL d'eau à 100 µL de solution, le volume total serait de 10,1 mL, ce qui est supérieur au volume final souhaité de 10 mL.",
+      "1 mL de solution à 100 mM et 99 mL d’eau": "Cette réponse est incorrecte car elle donnerait une solution d'aspirine beaucoup plus diluée que 1 mM. En effet, en utilisant 1 mL de solution à 100 mM, on obtiendrait une solution finale de 1 mM seulement si le volume total était de 100 mL, pas de 10 mL."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les espèces chimiques suivantes indiquez combien sont des acides : KOH ; NaCl ; NH  ; CH COOH ; HCl ; H PO ;HSO",
+    "options": [
+      "6",
+      "5",
+      "Aucune",
+      "7",
+      "4"
+    ],
+    "correct_answers": [
+      "4"
+    ],
+    "justification_fausses_reponses": {
+      "6": "Il n'y a pas 6 acides dans la liste. Un acide est une substance qui peut donner un proton (H+) ou accepter un électron. KOH et NaCl ne sont pas des acides.",
+      "5": "Il n'y a pas 5 acides dans la liste. Un acide est une substance qui peut donner un proton (H+) ou accepter un électron. KOH, NaCl et NH ne sont pas des acides.",
+      "Aucune": "Cette réponse est incorrecte car il y a des acides dans la liste. Par exemple, HCl et H PO sont des acides.",
+      "7": "Il n'y a pas 7 acides dans la liste. Un acide est une substance qui peut donner un proton (H+) ou accepter un électron. KOH, NaCl et NH ne sont pas des acides."
+    }
+  }
+]

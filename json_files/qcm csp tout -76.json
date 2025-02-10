@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le formotérol possède deux carbones asymétriques",
+      "Le formotérol possède une fonction amine et une fonction éther",
+      "Le formotérol est à l'état d'ionisation +2 à pH physiologique (pH 7,4)",
+      "Le formotérol présente une fonction phénol",
+      "Le formotérol présente un caractère nucléophile"
+    ],
+    "correct_answers": [
+      "Le formotérol possède deux carbones asymétriques",
+      "Le formotérol possède une fonction amine et une fonction éther",
+      "Le formotérol présente une fonction phénol",
+      "Le formotérol présente un caractère nucléophile"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "La synthèse du diclofénac, anti-inflammatoire non stéroïdien (AINS), est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le composé 1 possède une fonction nitrile",
+      "La fonction CN est constituée de deux liaisons π et d'une liaison σ",
+      "On peut utiliser de l'acide sulfurique H SO comme réactif 1",
+      "On peut utiliser de l'hydrogène gazeux (H  gaz) en présence de palladium sur charbon comme réactif 1",
+      "Le diclofénac possède un atome de carbone asymétrique2 4"
+    ],
+    "correct_answers": [
+      "Le composé 1 possède une fonction nitrile",
+      "La fonction CN est constituée de deux liaisons π et d'une liaison σ",
+      "On peut utiliser de l'acide sulfurique H SO comme réactif 1"
+    ]
+  }
+]

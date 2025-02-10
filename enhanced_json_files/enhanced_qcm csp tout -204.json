@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "En cas d’intoxication chronique par les solvants chlorés, quel(s) signe(s) clinique(s) et/ou biologique(s) peut-on observer?",
+    "options": [
+      "Anémie",
+      "Leucopénie",
+      "Troubles de la conscience",
+      "Cytolyse hépatique",
+      "Dermatose"
+    ],
+    "correct_answers": [
+      "Dermatose",
+      "Cytolyse hépatique",
+      "Troubles de la conscience"
+    ],
+    "justification_fausses_reponses": {
+      "Anémie": "L'anémie n'est pas un signe clinique ou biologique typique d'une intoxication chronique par les solvants chlorés. Elle est généralement causée par une carence en fer, en vitamine B12 ou en acide folique, ou par une maladie chronique.",
+      "Leucopénie": "La leucopénie, qui est une diminution du nombre de globules blancs dans le sang, n'est pas typiquement associée à une intoxication chronique par les solvants chlorés. Elle peut être causée par une variété de conditions, y compris certaines maladies auto-immunes, des infections virales, et l'utilisation de certains médicaments."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant le traitement appliqué lors d'une intoxication salicylée aiguë, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Un réchauffement progressif du patient doit être entrepris sans tarder pour éviter les complications neurologiques",
+      "Une perfusion bicarbonatée permet de contrôler l'acidose métabolique",
+      "Le charbon activé adsorbe bien les dérivés salicylés",
+      "La diurèse alcaline est efficace",
+      "L'administration précoce de N-acétylcystéine est capitale"
+    ],
+    "correct_answers": [
+      "Le charbon activé adsorbe bien les dérivés salicylés",
+      "La diurèse alcaline est efficace",
+      "Une perfusion bicarbonatée permet de contrôler l'acidose métabolique"
+    ],
+    "justification_fausses_reponses": {
+      "Un réchauffement progressif du patient doit être entrepris sans tarder pour éviter les complications neurologiques": "Cette affirmation est incorrecte car le réchauffement progressif n'est pas une mesure spécifique pour le traitement de l'intoxication salicylée aiguë. Les complications neurologiques sont généralement dues à l'acidose métabolique et non à l'hypothermie.",
+      "L'administration précoce de N-acétylcystéine est capitale": "Cette affirmation est incorrecte car la N-acétylcystéine est utilisée pour le traitement de l'intoxication par le paracétamol et non par les salicylés. Dans le cas d'une intoxication salicylée, le traitement repose sur l'administration de charbon activé, la diurèse alcaline et la correction de l'acidose métabolique."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les mesures d’association, laquelle (lesquelles) est (sont) inexacte(s)?",
+    "options": [
+      "L’OR ne peut être calculé dans les études de cohorte",
+      "Il est possible de déterminer l’incidence d’une maladie dans les études de cohorte",
+      "Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la maladie est significative",
+      "L’odds est le rapport de la probabilité d’un évènement à la probabilité complémentaire = P/(1-P)",
+      "Le RR est une bonne approximation de l’OR si la maladie est rare"
+    ],
+    "correct_answers": [
+      "Le RR est une bonne approximation de l’OR si la maladie est rare",
+      "L’OR ne peut être calculé dans les études de cohorte",
+      "Si 1 est compris dans l’intervalle de confiance d’un RR, alors l’association entre le facteur de risque et la maladie est significative"
+    ],
+    "justification_fausses_reponses": {
+      "Il est possible de déterminer l’incidence d’une maladie dans les études de cohorte": "Cette affirmation est incorrecte car l'incidence d'une maladie peut être déterminée dans les études de cohorte. Les études de cohorte sont conçues pour suivre les individus sur une période de temps et recueillir des données sur l'incidence de certaines maladies ou conditions.",
+      "L’odds est le rapport de la probabilité d’un évènement à la probabilité complémentaire = P/(1-P)": "Cette affirmation est incorrecte car l'odds est bien le rapport de la probabilité d'un événement à la probabilité complémentaire. C'est une mesure couramment utilisée en épidémiologie et en statistiques."
+    }
+  }
+]

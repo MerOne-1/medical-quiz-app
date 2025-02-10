@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules à activité antivirale, signaler la ou les proposition(s) exacte(s)?",
+    "options": [
+      "Ce sont des prodrogues, activée par des kinases cellulaires",
+      "ce sont des analogues de la guanosine",
+      "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+      "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B",
+      "ce sont des inhibiteurs de tyrosine kinase"
+    ],
+    "correct_answers": [
+      "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+      "Ce sont des prodrogues, activée par des kinases cellulaires",
+      "ce sont des analogues de la guanosine",
+      "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B"
+    ],
+    "justification_fausses_reponses": {
+      "ce sont des inhibiteurs de tyrosine kinase": "Cette affirmation est incorrecte car les inhibiteurs de tyrosine kinase sont une classe de médicaments utilisés principalement dans le traitement du cancer et non des virus. Ils agissent en bloquant l'activité des kinases, des enzymes qui jouent un rôle clé dans la signalisation cellulaire, ce qui peut conduire à la prolifération incontrôlée des cellules cancéreuses."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s)?",
+    "options": [
+      "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+      "Cette molécule est utilisé en association avec le cobicistat",
+      "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule n'est pratiquement pas métabolisée par le foie"
+    ],
+    "correct_answers": [
+      "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+      "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule est utilisé en association avec le cobicistat"
+    ],
+    "justification_fausses_reponses": {
+      "Cette molécule n'est pratiquement pas métabolisée par le foie": "Cette affirmation est incorrecte car le darunavir est principalement métabolisé par le foie, plus précisément par l'enzyme cytochrome P450 3A4. Une absence de métabolisation par le foie pourrait entraîner une accumulation de la molécule dans l'organisme, ce qui pourrait être toxique."
+    }
+  }
+]

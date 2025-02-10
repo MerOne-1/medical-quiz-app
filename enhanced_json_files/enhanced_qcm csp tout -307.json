@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "L’amanite phalloïde ( Amanita phalloides ) est un champignon mortel très courant. Pour la reconnaître, on peut rechercher les caractères suivants, qui la caractérisent, au moins en partie :",
+    "options": [
+      "Sporée blanche, lames décurrentes, voile partiel présent.",
+      "Anneau et volve en sac.",
+      "Sporée blanche, lames adnées, voile partiel et voile général présents.",
+      "Sporée blanche et lames libres",
+      "Chapeau rouge portant des flocons blancs"
+    ],
+    "correct_answers": [
+      "Anneau et volve en sac.",
+      "Sporée blanche et lames libres"
+    ],
+    "justification_fausses_reponses": {
+      "Sporée blanche, lames décurrentes, voile partiel présent.": "Cette description ne correspond pas à l'amanite phalloïde. Les lames de l'amanite phalloïde ne sont pas décurrentes (c'est-à-dire qu'elles ne descendent pas le long du pied du champignon), et le voile partiel n'est pas un caractère distinctif de cette espèce.",
+      "Sporée blanche, lames adnées, voile partiel et voile général présents.": "Bien que l'amanite phalloïde ait une sporée blanche et des lames adnées, la présence d'un voile partiel et d'un voile général n'est pas un caractère distinctif de cette espèce.",
+      "Chapeau rouge portant des flocons blancs": "Cette description correspond à l'amanite muscaria, une autre espèce de champignon, et non à l'amanite phalloïde. L'amanite phalloïde a généralement un chapeau de couleur olive à brun, et non rouge."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisir celle(s) contenant que des taxons appartenant à la lignée brune",
+    "options": [
+      "Spiruline, Fucus, Mildiou, Pomme de terre",
+      "Pomme de terre, Spirogyre, Sphaigne",
+      "Diatomée, Fucus, Mildiou de la vigne",
+      "Diatomée, Spirogyre, Sphaigne",
+      "Champignon, Fucus, Sphaigne"
+    ],
+    "correct_answers": [
+      "Diatomée, Fucus, Mildiou de la vigne"
+    ],
+    "justification_fausses_reponses": {
+      "Spiruline, Fucus, Mildiou, Pomme de terre": "La Spiruline est une cyanobactérie, et la Pomme de terre est une plante, elles n'appartiennent donc pas à la lignée brune.",
+      "Pomme de terre, Spirogyre, Sphaigne": "La Pomme de terre est une plante, et la Spirogyre est une algue verte, elles n'appartiennent donc pas à la lignée brune.",
+      "Diatomée, Spirogyre, Sphaigne": "La Spirogyre est une algue verte, et la Sphaigne est une mousse, elles n'appartiennent donc pas à la lignée brune.",
+      "Champignon, Fucus, Sphaigne": "Le Champignon appartient au règne des Fungi, et la Sphaigne est une mousse, ils n'appartiennent donc pas à la lignée brune."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous choisissez celle(s) définissant une espèce dioïque :",
+    "options": [
+      "Une espèce dioïque est une espèce présentant un seul sexe par fleur",
+      "Une espèce dioïque est une espèce présentant un seul sexe par prothalle",
+      "Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle",
+      "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents",
+      "Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur"
+    ],
+    "correct_answers": [
+      "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents"
+    ],
+    "justification_fausses_reponses": {
+      "Une espèce dioïque est une espèce présentant un seul sexe par fleur": "C'est incorrect car une espèce dioïque présente les deux sexes, mais sur des individus différents, pas sur une seule fleur.",
+      "Une espèce dioïque est une espèce présentant un seul sexe par prothalle": "C'est incorrect car le terme 'dioïque' ne s'applique pas aux prothalles, mais aux plantes qui ont des fleurs mâles et femelles sur des individus différents.",
+      "Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle": "C'est incorrect car le terme 'dioïque' ne s'applique pas aux prothalles, mais aux plantes qui ont des fleurs mâles et femelles sur des individus différents.",
+      "Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur": "C'est incorrect car une espèce dioïque présente les deux sexes, mais sur des individus différents, pas dans la même fleur."
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "le système nerveux entérique est entièrement moteur",
+      "la salive sécrète de la pepsine",
+      "la bile a un pH acide",
+      "l’épithélium œsophagien est stratifié",
+      "la secrétine est sécrétée par la muqueuse gastrique"
+    ],
+    "correct_answers": [
+      "l’épithélium œsophagien est stratifié"
+    ],
+    "justification_fausses_reponses": {
+      "le système nerveux entérique est entièrement moteur": "C'est incorrect car le système nerveux entérique est à la fois moteur et sensoriel. Il régule les fonctions du système gastro-intestinal.",
+      "la salive sécrète de la pepsine": "C'est incorrect car la pepsine est une enzyme produite par l'estomac, pas par les glandes salivaires.",
+      "la bile a un pH acide": "C'est incorrect car la bile a un pH alcalin, généralement entre 7,6 et 8,6, ce qui aide à neutraliser l'acide de l'estomac dans le duodénum.",
+      "la secrétine est sécrétée par la muqueuse gastrique": "C'est incorrect car la secrétine est sécrétée par la muqueuse duodénale, pas gastrique. Elle stimule le pancréas pour sécréter du bicarbonate afin de neutraliser l'acide gastrique."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte La capacité résiduelle fonctionnelle peut se mesurer :",
+    "options": [
+      "par utilisation du zénon.",
+      "en utilisant du monoxyde de carbone.",
+      "uniquement chez un sujet en position debout.",
+      "en utilisant la loi de conservation des masses.",
+      "en utilisant un pneumotachygraphe."
+    ],
+    "correct_answers": [
+      "en utilisant la loi de conservation des masses."
+    ],
+    "justification_fausses_reponses": {
+      "par utilisation du zénon.": "Le zénon est un gaz noble qui n'est pas utilisé pour mesurer la capacité résiduelle fonctionnelle. Il est plutôt utilisé en imagerie médicale pour ses propriétés de contraste.",
+      "en utilisant du monoxyde de carbone.": "Le monoxyde de carbone est un gaz toxique et n'est pas utilisé pour mesurer la capacité résiduelle fonctionnelle. Il est plutôt connu pour sa capacité à se lier à l'hémoglobine, ce qui peut être dangereux.",
+      "uniquement chez un sujet en position debout.": "La capacité résiduelle fonctionnelle peut être mesurée chez un sujet dans différentes positions, pas seulement debout. La position du sujet peut affecter la mesure, mais ne la limite pas.",
+      "en utilisant un pneumotachygraphe.": "Un pneumotachygraphe est un appareil qui mesure le débit d'air, pas la capacité résiduelle fonctionnelle. Il est utilisé pour mesurer la vitesse à laquelle l'air entre et sort des poumons."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e: Lors de la phase de dépolarisation d'un potentiel d'action de cellule nerveuse:",
+    "options": [
+      "Les canaux sodiques voltage-dépendants commencent à se fermer.",
+      "Les canaux sodiques voltage-dépendants restent dans la conformation fermée non activable.",
+      "Les canaux potassiques voltage-dépendants commencent à se fermer.",
+      "La cellule est en période réfractaire relative.",
+      "Les canaux potassiques voltage-dépendants commencent à s'ouvrir."
+    ],
+    "correct_answers": [
+      "Les canaux potassiques voltage-dépendants commencent à s'ouvrir."
+    ],
+    "justification_fausses_reponses": {
+      "Les canaux sodiques voltage-dépendants commencent à se fermer.": "C'est incorrect car lors de la phase de dépolarisation, les canaux sodiques voltage-dépendants s'ouvrent, permettant l'entrée de Na+ dans la cellule, ce qui provoque la dépolarisation.",
+      "Les canaux sodiques voltage-dépendants restent dans la conformation fermée non activable.": "C'est incorrect car lors de la phase de dépolarisation, les canaux sodiques voltage-dépendants s'ouvrent, ils ne restent pas fermés.",
+      "Les canaux potassiques voltage-dépendants commencent à se fermer.": "C'est incorrect car lors de la phase de dépolarisation, les canaux potassiques voltage-dépendants commencent à s'ouvrir, pas à se fermer.",
+      "La cellule est en période réfractaire relative.": "C'est incorrect car la période réfractaire relative se produit après la phase de dépolarisation, pas pendant."
+    }
+  }
+]

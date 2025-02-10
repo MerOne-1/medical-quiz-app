@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces médicaments, quels sont ceux susceptibles d’interagir avec leur(s) récepteur(s) par liaison ionique?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les molécules suivantes appartenant à diverses familles d’hormones stéroïdiennes, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "les molécules 2 et 3 ont des propriétés progestatives",
+      "la molécule 2 possède des propriétés androgéniques",
+      "les molécules 1, 3 et 5 ont des propriétés progestatives",
+      "la molécule 6 est un corticoïde",
+      "la molécule 3 dérive de la 19-nor testostérone"
+    ],
+    "correct_answers": [
+      "les molécules 1, 3 et 5 ont des propriétés progestatives",
+      "la molécule 3 dérive de la 19-nor testostérone",
+      "la molécule 6 est un corticoïde"
+    ]
+  }
+]

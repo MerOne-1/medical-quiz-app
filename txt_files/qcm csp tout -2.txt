@@ -1,0 +1,46 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 2/13Question 3
+Non répondue
+Noté sur 1,00
+Question 4
+Non répondue
+Noté sur 1,00
+Question 5
+Non répondue
+Noté sur 1,00Une valeur aberrante, observée pour une variable X,
+Veuillez choisir au moins une réponse :
+peut être détectée par un test de Grubbs
+est une valeur différente de la moyenne
+est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon
+peut être détectée par un test de Dixon
+peut être détectée par un test de normalité
+Votre réponse est incorrecte.
+Les réponses correctes sont : est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon, peut
+être détectée par un test de Grubbs, peut être détectée par un test de Dixon
+Un essai comparatif est réalisé entre deux groupes parallèles (1= traitement et 2= placebo) de 20 sujets chacun. Le critère de
+jugement est une variable quantitative X que le traitement a pour objectif de faire baisser. Sachant que X admet pour
+moyenne ± écart-type estimé les valeurs 90±10 et 100±15 pour les groupes 1 et 2, respectivement, et que le test statistique
+réalisé a fourni un niveau de signification (p-value) p = 0.009, quelles sont, parmi les propositions suivantes, celles qui sont
+exactes :
+Veuillez choisir au moins une réponse :
+Il est nécessaire de réaliser, au préalable, une comparaison de variances
+L’utilisation du test de S tudent nécessite ici une condition de normalité de X
+L’hypothèse nulle est rejetée au seuil de 1%
+L’hypothèse alternative s’écrit {µ  ≠ µ }
+L’hypothèse nulle s’écrit {µ  = µ }1 2
+1 2
+Votre réponse est incorrecte.
+Les réponses correctes sont : L’hypothèse nulle s’écrit {µ  = µ }
+, Il est nécessaire de réaliser, au préalable, une comparaison de variances, L’utilisation du test de S tudent nécessite ici une
+condition de normalité de X, L’hypothèse nulle est rejetée au seuil de 1%1 2
+Concernant le test du Chi², quelles sont les propositions correctes ?
+Veuillez choisir au moins une réponse :
+Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30
+Il concerne des variables qualitatives
+La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou
+égaux à 5
+C’est toujours un test bilatéral
+S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison0
+Votre réponse est incorrecte.
+Les réponses correctes sont : Il concerne des variables qualitatives, S’il est utilisé pour tester l’existence d’une liaison entre
+deux variables, l’hypothèse H  est qu’il n’y a pas de liaison, C’est toujours un test bilatéral0

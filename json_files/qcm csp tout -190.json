@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le syndrome d’alcoolisation fœtal (SAF), laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le diagnostic médical du SAF associe un retard de croissance pré et postnatal, une dysmorphie crâniofaciale caractéristique et une atteinte du système nerveux central.",
+      "Le risque n’est présent qu’en cas de consommation d’alcool durant le second et le troisième trimestre de grossesse.",
+      "Un des axes de prévention primaire du SAF consiste en la mise en place de campagnes d’information.",
+      "Le risque fœtal existe si la consommation d’alcool excède l’équivalent de 2 verres standards par semaine durant la grossesse.",
+      "Le risque fœtal existe si la consommation d’alcool excède l’équivalent de 2 verres standards par jour durant la grossesse."
+    ],
+    "correct_answers": [
+      "Un des axes de prévention primaire du SAF consiste en la mise en place de campagnes d’information.",
+      "Le diagnostic médical du SAF associe un retard de croissance pré et postnatal, une dysmorphie crâniofaciale caractéristique et une atteinte du système nerveux central."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des pesticides de type organophosphorés ou carbamates, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "La toxicité des pesticides du type carbamate est en général plus sévère que celle des organophosphorés.",
+      "Le paraoxon, métabolite du parathion, ne présente pas d’activité anticholinestérasique.",
+      "Les organophosphorés inhibent l’acétylcholinestérase et la butyrylcholinestérase.",
+      "La sévérité d’une intoxication par un organophosphoré est corrélée au degré d’inhibition de la butyrylcholinestérase.",
+      "Lors d’une intoxication aiguë par les organophosphorés, les symptômes de la phase muscarinique sont traités par administration d’atropine."
+    ],
+    "correct_answers": [
+      "La toxicité des pesticides du type carbamate est en général plus sévère que celle des organophosphorés.",
+      "Le paraoxon, métabolite du parathion, ne présente pas d’activité anticholinestérasique.",
+      "La sévérité d’une intoxication par un organophosphoré est corrélée au degré d’inhibition de la butyrylcholinestérase."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le trichloréthylène, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "La voie principale d’absorption du trichloroéthylène dans l’organisme lors d’une exposition chronique est la voie orale.",
+      "Les métabolites principaux du trichloroéthylène sont le trichloroéthanol et l'acide trichloracétique.",
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet le dosage urinaire du trichloroéthylène.",
+      "Le trichloroéthylène dans l'organisme subit un métabolisme oxydatif.",
+      "L'intoxication aiguë au trichloroéthylène entraîne des signes d'hyperexcitabilité cardiaque."
+    ],
+    "correct_answers": [
+      "La voie principale d’absorption du trichloroéthylène dans l’organisme lors d’une exposition chronique est la voie orale.",
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet le dosage urinaire du trichloroéthylène."
+    ]
+  }
+]

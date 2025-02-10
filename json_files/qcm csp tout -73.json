@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "L'histamine est un médiateur chimique sécrété par certains globules blancs. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "A pH 11,5, la forme 3 de l'histamine est majoritaire",
+      "A pH 3,5, la forme 1 de l'histamine est majoritaire",
+      "Dans le sang, à pH 7,4, les formes 2 et 3 de l'histamine sont majoritaires",
+      "Dans le sang, à pH 7,4, la forme 2 de l'histamine est majoritaire",
+      "L'histamine contient un hétérocycle de type thiazole"
+    ],
+    "correct_answers": [
+      "A pH 11,5, la forme 3 de l'histamine est majoritaire",
+      "A pH 3,5, la forme 1 de l'histamine est majoritaire",
+      "Dans le sang, à pH 7,4, la forme 2 de l'histamine est majoritaire"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "L'isotrétinoïne est un stéréo-isomère de l'acide tout-trans rétinoïque (trétinoïne). L'isotrétinoïne est utilisée dans la prise en charge d'acnés. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'isotrétinoïne est un diterpène",
+      "L'isotrétinoïne est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "L'isotrétinoïne possède un carbone asymétrique",
+      "La dernière liaison double C=C, à droite de la molécule, est de configuration cis",
+      "L'isotrétinoïne peut être obtenue par oxydation de son analogue aldéhyde"
+    ],
+    "correct_answers": [
+      "L'isotrétinoïne est un diterpène",
+      "La dernière liaison double C=C, à droite de la molécule, est de configuration cis",
+      "L'isotrétinoïne peut être obtenue par oxydation de son analogue aldéhyde"
+    ]
+  }
+]

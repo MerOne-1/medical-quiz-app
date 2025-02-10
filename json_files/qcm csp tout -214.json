@@ -1,0 +1,69 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les fluoroquinolones :",
+    "options": [
+      "les fluoroquinolones ne sont pas absorbées par voie orale",
+      "les fluoroquinolones peuvent entraîner des troubles du rythme et des torsades de pointe",
+      "ce sont des antibiotiques toujours actifs sur les staphylocoques méticilline-résistants (SARM)",
+      "les fluoroquinolones sont indiquées dans le traitement d'infections ostéoarticulaires",
+      "ce sont des antibiotiques qui agissent en inhibant la réplication de l'ADN bactérien"
+    ],
+    "correct_answers": [
+      "ce sont des antibiotiques qui agissent en inhibant la réplication de l'ADN bactérien",
+      "les fluoroquinolones sont indiquées dans le traitement d'infections ostéoarticulaires",
+      "les fluoroquinolones peuvent entraîner des troubles du rythme et des torsades de pointe"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : La coloration de Gram fait intervenir :",
+    "options": [
+      "2 étapes de lavage à l'éthanol",
+      "2 colorants",
+      "la fuchsine",
+      "le violet de gentiane",
+      "une étape utilisant un oxydant à base d'iode"
+    ],
+    "correct_answers": [
+      "2 colorants",
+      "le violet de gentiane",
+      "la fuchsine",
+      "une étape utilisant un oxydant à base d'iode"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos de Clostridium difficile  :",
+    "options": [
+      "c'est un bacille à Gram positif aérobie strict non sporulant",
+      "le traitement des formes peu sévères fait appel en première intention au métronidazole per os",
+      "le pouvoir pathogène est principalement lié à la sécrétion de toxines",
+      "il est impliqué dans la survenue de diarrhées dites « post-antibiotiques »",
+      "il est responsable de diarrhées nosocomiales fréquemment récidivantes"
+    ],
+    "correct_answers": [
+      "il est responsable de diarrhées nosocomiales fréquemment récidivantes",
+      "le pouvoir pathogène est principalement lié à la sécrétion de toxines",
+      "il est impliqué dans la survenue de diarrhées dites « post-antibiotiques »",
+      "le traitement des formes peu sévères fait appel en première intention au métronidazole per os"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Salmonella enterica  est :",
+    "options": [
+      "une entérobactérie",
+      "parfois responsable de toxi-infections alimentaires collectives",
+      "entéro-invasive",
+      "capable de se développer uniquement sur des milieux hautement sélectifs",
+      "souvent transmise par des ovo-produits"
+    ],
+    "correct_answers": [
+      "parfois responsable de toxi-infections alimentaires collectives",
+      "une entérobactérie",
+      "entéro-invasive",
+      "souvent transmise par des ovo-produits"
+    ]
+  }
+]

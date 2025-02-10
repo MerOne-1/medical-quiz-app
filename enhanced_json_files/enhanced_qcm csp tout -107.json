@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de l’éplérénone, représentée ci-dessous :",
+    "options": [
+      "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+      "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller",
+      "c’est un glucocorticoïde",
+      "Cette molécule est un antagoniste puissant du récepteur des androgènes",
+      "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque"
+    ],
+    "correct_answers": [
+      "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+      "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque",
+      "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller"
+    ],
+    "justification_fausses_reponses": {
+      "c’est un glucocorticoïde": "L'éplérénone n'est pas un glucocorticoïde. Les glucocorticoïdes sont une classe de corticostéroïdes, qui sont une classe de stéroïdes. L'éplérénone est un antagoniste sélectif du récepteur aux minéralocorticoïdes, ce qui signifie qu'elle bloque l'action des minéralocorticoïdes, une autre classe de corticostéroïdes.",
+      "Cette molécule est un antagoniste puissant du récepteur des androgènes": "L'éplérénone n'est pas un antagoniste du récepteur des androgènes. Les antagonistes des récepteurs aux androgènes sont utilisés pour traiter les maladies qui sont exacerbées par les androgènes, comme le cancer de la prostate. L'éplérénone est un antagoniste sélectif du récepteur aux minéralocorticoïdes, ce qui signifie qu'elle bloque l'action des minéralocorticoïdes."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s):",
+    "options": [
+      "Ces molécules sont toutes utilisées dans le traitement des infections par VIH-1",
+      "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+      "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+      "La molécule 1 est un inhibiteur de protéase virale",
+      "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+    ],
+    "correct_answers": [
+      "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+      "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+      "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+    ],
+    "justification_fausses_reponses": {
+      "Ces molécules sont toutes utilisées dans le traitement des infections par VIH-1": "Cette affirmation est incorrecte car toutes les molécules ne sont pas utilisées pour le traitement du VIH-1. Certaines sont utilisées pour d'autres types de virus, comme l'hépatite B ou le virus herpétique.",
+      "La molécule 1 est un inhibiteur de protéase virale": "Cette affirmation est incorrecte car la molécule 1 n'est pas un inhibiteur de protéase virale. Elle agit plutôt en inhibant l'activité de l'ADN polymérase-transcriptase inverse virale."
+    }
+  }
+]

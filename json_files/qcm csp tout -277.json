@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "A quoi cela vous fait-il penser ?",
+    "options": [
+      "une lente de poux",
+      "un œuf d'oxyure",
+      "un insecte",
+      "un acarien",
+      "une larve de pou qui émerge"
+    ],
+    "correct_answers": [
+      "une lente de poux",
+      "une larve de pou qui émerge",
+      "un insecte"
+    ]
+  }
+]

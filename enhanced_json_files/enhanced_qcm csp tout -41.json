@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ( lesquelles) est (sont) exacte(s)? En spectrométrie UV-visible, l’absorbance :",
+    "options": [
+      "Dépend de l’épaisseur de la cuve",
+      "Est égale au rapport I/I",
+      "Dépend de la concentration de la solution",
+      "Dépend du coefficient d’absorption molaire du composé dosé",
+      "Dépend de la longueur d’onde"
+    ],
+    "correct_answers": [
+      "Dépend de la longueur d’onde",
+      "Dépend de l’épaisseur de la cuve",
+      "Dépend de la concentration de la solution",
+      "Dépend du coefficient d’absorption molaire du composé dosé"
+    ],
+    "justification_fausses_reponses": {
+      "Est égale au rapport I/I": "Cette affirmation est incorrecte car l'absorbance en spectrométrie UV-visible n'est pas égale au rapport I/I. En réalité, l'absorbance est définie comme le logarithme décimal du rapport de l'intensité de la lumière incidente à l'intensité de la lumière transmise. Donc, l'absorbance est proportionnelle à la concentration de la solution, à l'épaisseur de la cuve, au coefficient d'absorption molaire du composé dosé et à la longueur d'onde de la lumière."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes sur la spectrophotométrie UV-visible, quelle est (sont) celle(s) qui est (sont) exactes(s) ?",
+    "options": [
+      "En solution diluée, la relation entre l’absorbance et la concentration est linéaire",
+      "Lors d’un dosage il faut toujours soustraire l’absorbance du blanc",
+      "Les cuves en verre permettent de travailler entre 200 nm et 800 nm",
+      "Les absorbances de deux composés présents en solution s’additionnent",
+      "Pour que la loi de Beer-Lambert soit vérifiée le rayonnement doit être monochromatique"
+    ],
+    "correct_answers": [
+      "En solution diluée, la relation entre l’absorbance et la concentration est linéaire",
+      "Pour que la loi de Beer-Lambert soit vérifiée le rayonnement doit être monochromatique",
+      "Les absorbances de deux composés présents en solution s’additionnent",
+      "Lors d’un dosage il faut toujours soustraire l’absorbance du blanc"
+    ],
+    "justification_fausses_reponses": {
+      "Les cuves en verre permettent de travailler entre 200 nm et 800 nm": "Cette affirmation est incorrecte car les cuves en verre ne permettent pas de travailler dans la gamme de longueurs d'onde de 200 nm à 800 nm. En effet, le verre absorbe les rayonnements UV en dessous de 320 nm, ce qui rend impossible la mesure de l'absorbance dans cette gamme de longueurs d'onde avec des cuves en verre."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "On solubilise de l’aspirine (acide faible de type R-C OOH (pKa = 3,48)) dans des solutions aqueuses dont le pH est fixé au préalable. Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "le pH de la solution est égal au pKa de l’aspirine, la solution contient la forme acide faible et sa base conjuguée en proportion équivalente",
+      "le pH de la solution est de 1, l’aspirine est sous forme cationique",
+      "le pH de la solution est de 1, l’aspirine est sous forme neutre",
+      "le pH de la solution est de 1, l’aspirine est sous forme anionique",
+      "le pH de la solution est de 9, c’est la forme acide faible qui prédomine"
+    ],
+    "correct_answers": [
+      "le pH de la solution est de 1, l’aspirine est sous forme neutre",
+      "le pH de la solution est égal au pKa de l’aspirine, la solution contient la forme acide faible et sa base conjuguée en proportion équivalente"
+    ],
+    "justification_fausses_reponses": {
+      "le pH de la solution est de 1, l’aspirine est sous forme cationique": "C'est incorrect car à un pH de 1, l'aspirine, un acide faible, est principalement sous forme neutre et non cationique.",
+      "le pH de la solution est de 1, l’aspirine est sous forme anionique": "C'est incorrect car à un pH de 1, l'aspirine, un acide faible, est principalement sous forme neutre et non anionique.",
+      "le pH de la solution est de 9, c’est la forme acide faible qui prédomine": "C'est incorrect car à un pH de 9, l'aspirine est principalement sous forme de base conjuguée (anion) et non sous forme d'acide faible."
+    }
+  }
+]

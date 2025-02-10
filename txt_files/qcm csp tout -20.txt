@@ -1,0 +1,46 @@
+16/05/2020 Quiz - Biophysique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573068&cmid=205585 7/9Question 19
+Non répondue
+Noté sur 1,00
+Question 20
+Non répondue
+Noté sur 1,00
+Question 21
+Non répondue
+Noté sur 1,00Quelle(s) proposition(s) est (sont) exactes(s) concernant  le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-
+d ?
+Veuillez choisir au moins une réponse :
+Le OH est échangeable en présence d’eau lourde
+On n’observera aucun signal pour le OH
+Le OH est échangeable avec le deutérium du chloroforme-d
+On observera un doublet pour OH
+On observera un singulet pour OH1
+1
+1
+Votre réponse est incorrecte.
+Les réponses correctes sont : On observera un singulet pour OH, Le OH est échangeable en présence d’eau lourde
+Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?
+Veuillez choisir au moins une réponse :
+10 cm  = 1 mm
+10 cm = 10  l
+10 dm  =  10  mm
+10nm = 10  m
+10μm  = 10  m-1 -1
+-3 3 -6
+-3 -5 -3
+-5 -14
+4 -2 16 -2
+Votre réponse est incorrecte.
+Les réponses correctes sont : 10 dm  =  10  mm , 10 cm  = 1 mm , 10 nm = 10  m, 10 μm  = 10  m, 10  cm = 10
+l-3 -5 -3 -1 -1 -5 -14 4 -2 16 -2 -3 3 -
+6
+Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?
+Veuillez choisir au moins une réponse :
+Toutes les molécules peuvent êtres dosées par fluorescence
+La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible
+La polarimétrie permet de doser des molécules optiquement actives
+Seules les molécules fluorées peuvent êtres dosées par fluorescence
+Un dossier d’AMM requiert le spectre RMN H du principe actif1
+Votre réponse est incorrecte.
+Les réponses correctes sont : La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible, Un dossier d’AMM requiert le
+spectre RMN H du principe actif, La polarimétrie permet de doser des molécules optiquement actives1

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant la grossesse",
+    "options": [
+      "les anticorps IgA passent la barrière placentaire",
+      "les trophoblastes expriment des molécules de CMH de classe 2",
+      "les trophoblastes sont des cellules maternelles formant la barrière placentaire",
+      "les trois premiers mois correspondent à la période foetale",
+      "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+    ],
+    "correct_answers": [
+      "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+    ],
+    "justification_fausses_reponses": {
+      "les anticorps IgA passent la barrière placentaire": "C'est incorrect car ce sont les anticorps IgG qui traversent la barrière placentaire, pas les IgA. Les IgG sont les seuls anticorps qui peuvent traverser le placenta pour fournir une immunité passive au fœtus.",
+      "les trophoblastes expriment des molécules de CMH de classe 2": "C'est faux car les trophoblastes n'expriment pas de molécules de CMH de classe 2. Cela permet d'éviter une réaction immunitaire maternelle contre le fœtus.",
+      "les trophoblastes sont des cellules maternelles formant la barrière placentaire": "C'est incorrect car les trophoblastes sont des cellules fœtales, pas maternelles. Ils forment la partie externe du blastocyste et fournissent des nutriments au fœtus et sont également impliqués dans l'implantation de l'embryon.",
+      "les trois premiers mois correspondent à la période foetale": "C'est faux car les trois premiers mois de la grossesse correspondent à la période embryonnaire. La période fœtale commence à partir de la 9ème semaine de grossesse."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "L’activation thymo-dépendante des lymphocytes B",
+    "options": [
+      "se réalise dans les organes lymphoïdes primaires",
+      "nécessite la présente de lymphocytes T CD4",
+      "permet la génération de lymphocytes T CD8 cytotoxiques",
+      "conduit à la génération de lymphocytes B mémoire",
+      "forme un centre germinatif"
+    ],
+    "correct_answers": [
+      "nécessite la présente de lymphocytes T CD4",
+      "forme un centre germinatif",
+      "conduit à la génération de lymphocytes B mémoire"
+    ],
+    "justification_fausses_reponses": {
+      "se réalise dans les organes lymphoïdes primaires": "L'activation thymo-dépendante des lymphocytes B se réalise dans les organes lymphoïdes secondaires, comme les ganglions lymphatiques, et non dans les organes lymphoïdes primaires.",
+      "permet la génération de lymphocytes T CD8 cytotoxiques": "L'activation thymo-dépendante des lymphocytes B ne permet pas la génération de lymphocytes T CD8 cytotoxiques. Ce sont les lymphocytes T CD4 qui sont nécessaires pour l'activation des lymphocytes B."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant Gardasil® et Cervarix®, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Ils contiennent tous les deux des pseudo-particules virales",
+      "Nécessite un rappel 10 ans après la première injection",
+      "Ils protègent tous les deux contre l’infection par les papillomavirus HPV 6 et 11",
+      "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans",
+      "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus"
+    ],
+    "correct_answers": [
+      "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus",
+      "Ils contiennent tous les deux des pseudo-particules virales",
+      "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans"
+    ],
+    "justification_fausses_reponses": {
+      "Nécessite un rappel 10 ans après la première injection": "Cette affirmation est incorrecte car le rappel pour ces vaccins n'est pas nécessaire après 10 ans. Les études montrent que l'immunité persiste pendant au moins 10 ans, mais la durée exacte de la protection n'est pas encore connue.",
+      "Ils protègent tous les deux contre l’infection par les papillomavirus HPV 6 et 11": "Cette affirmation est fausse car seul le Gardasil protège contre les HPV 6 et 11, qui sont responsables de la majorité des cas de verrues génitales. Cervarix ne protège pas contre ces types de HPV."
+    }
+  }
+]

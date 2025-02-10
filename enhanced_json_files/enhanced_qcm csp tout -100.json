@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées en thérapeutique",
+    "options": [
+      "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+      "La molécule 4 est un antidiabétique oral",
+      "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+      "Les molécules 1, 2 et 3 font partie des diurétiques thiazidiques et apparentés",
+      "La molécule 4 est un diurétique majeur"
+    ],
+    "correct_answers": [
+      "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+      "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+      "La molécule 4 est un antidiabétique oral"
+    ],
+    "justification_fausses_reponses": {
+      "Les molécules 1, 2 et 3 font partie des diurétiques thiazidiques et apparentés": "Cette affirmation est incorrecte car toutes les molécules ne font pas nécessairement partie des diurétiques thiazidiques et apparentés. Cela dépend de leur structure chimique et de leur mécanisme d'action.",
+      "La molécule 4 est un diurétique majeur": "Cette affirmation est incorrecte car la molécule 4 est identifiée comme un antidiabétique oral dans les réponses correctes, et non comme un diurétique."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les groupes bioisostères trivalents",
+    "options": [
+      "-OH",
+      "-CH=",
+      "-O-",
+      "-N=",
+      "-SH"
+    ],
+    "correct_answers": [
+      "-N=",
+      "-CH="
+    ],
+    "justification_fausses_reponses": {
+      "-OH": "Le groupe -OH n'est pas un bioisostère trivalent car il ne possède que deux liaisons, une liaison simple et une liaison dative.",
+      "-O-": "Le groupe -O- n'est pas un bioisostère trivalent car il ne possède que deux liaisons, toutes deux sont des liaisons simples.",
+      "-SH": "Le groupe -SH n'est pas un bioisostère trivalent car il ne possède que deux liaisons, une liaison simple et une liaison dative."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces groupements chimiques, les quels sont des donneurs de liaisons hydrogène?",
+    "options": [
+      "-OH",
+      "=N-",
+      "-NH",
+      "-O-",
+      "-C=O"
+    ],
+    "correct_answers": [
+      "-OH",
+      "-NH"
+    ],
+    "justification_fausses_reponses": {
+      "=N-": "Le groupement =N- n'est pas un donneur de liaison hydrogène car il ne possède pas d'atome d'hydrogène lié à un atome électronégatif (oxygène, azote ou fluor).",
+      "-O-": "Le groupement -O- n'est pas un donneur de liaison hydrogène car il ne possède pas d'atome d'hydrogène lié à un atome électronégatif (oxygène, azote ou fluor).",
+      "-C=O": "Le groupement -C=O n'est pas un donneur de liaison hydrogène car bien qu'il contienne un atome d'oxygène, celui-ci n'est pas lié à un atome d'hydrogène."
+    }
+  }
+]

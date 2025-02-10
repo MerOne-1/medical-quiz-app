@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "le système nerveux entérique est entièrement moteur",
+      "la salive sécrète de la pepsine",
+      "la bile a un pH acide",
+      "l’épithélium œsophagien est stratifié",
+      "la secrétine est sécrétée par la muqueuse gastrique"
+    ],
+    "correct_answers": [
+      "l’épithélium œsophagien est stratifié"
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte La capacité résiduelle fonctionnelle peut se mesurer :",
+    "options": [
+      "par utilisation du zénon.",
+      "en utilisant du monoxyde de carbone.",
+      "uniquement chez un sujet en position debout.",
+      "en utilisant la loi de conservation des masses.",
+      "en utilisant un pneumotachygraphe."
+    ],
+    "correct_answers": [
+      "en utilisant la loi de conservation des masses."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e: Lors de la phase de dépolarisation d'un potentiel d'action de cellule nerveuse:",
+    "options": [
+      "Les canaux sodiques voltage-dépendants commencent à se fermer.",
+      "Les canaux sodiques voltage-dépendants restent dans la conformation fermée non activable.",
+      "Les canaux potassiques voltage-dépendants commencent à se fermer.",
+      "La cellule est en période réfractaire relative.",
+      "Les canaux potassiques voltage-dépendants commencent à s'ouvrir."
+    ],
+    "correct_answers": [
+      "Les canaux potassiques voltage-dépendants commencent à s'ouvrir."
+    ]
+  }
+]

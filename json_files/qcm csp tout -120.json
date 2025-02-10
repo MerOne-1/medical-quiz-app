@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les stupéfiants, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les stupéfiants doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+      "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités).",
+      "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+      "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+      "Les stupéfiants peuvent être prescrits sur la même ordonnance pour une durée de 3 mois."
+    ],
+    "correct_answers": [
+      "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+      "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+      "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités)."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Quelle source de droit du travail a le plus de force ?",
+    "options": [
+      "Le contrat de travail",
+      "L'accord d'entreprise",
+      "Le règlement intérieur",
+      "L'usage",
+      "La Convention collective"
+    ],
+    "correct_answers": [
+      "La Convention collective"
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces formes d'entreprises, lesquelles permettent de limiter la responsabilité des associés ?",
+    "options": [
+      "A. La société anonyme",
+      "B. La société à responsabilité limitée",
+      "C. La société en nom collectif",
+      "D. La société par action simplifiée",
+      "E. L'entreprise individuelle"
+    ],
+    "correct_answers": [
+      "La société anonyme",
+      "La société à responsabilité limitée",
+      "La société par action simplifiée"
+    ]
+  }
+]

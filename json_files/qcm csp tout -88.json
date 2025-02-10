@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes relatives au cyclophosphamide représenté ci-dessous, quelle est (sont) celle(s) qui est (sont) exactes",
+    "options": [
+      "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+      "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+      "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+      "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase",
+      "La présence d’une forte activité aldéhyde déshydrogénases (ALDH) est indispensable à la production de métabolites toxiques"
+    ],
+    "correct_answers": [
+      "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+      "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+      "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+      "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "omeprazole",
+      "aprepitant",
+      "cimetidine",
+      "odansetron",
+      "metoclopramide"
+    ],
+    "correct_answers": [
+      "omeprazole"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant une concentration déterminée à 0,2500 mol.l  avec une précision de 5%, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+    "options": [
+      "Son incertitude relative est de 0,05 mol.l",
+      "Son incertitude absolue est de 0,0125 mol.l",
+      "Son incertitude relative est de 0,0125 mol.l",
+      "Son incertitude absolue est de 1,25 %",
+      "Son incertitude absolue est de 0,05 mol.l-1"
+    ],
+    "correct_answers": [
+      "Son incertitude absolue est de 0,0125 mol.l"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+    "options": [
+      "La spectrométrie IR est basée sur l’émission stimulée de lumière",
+      "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+      "La spectrométrie UV-visible est basée sur l’absorption de lumière",
+      "Le principe du L ASER est basé sur l’émission spontanée de lumière",
+      "La polarimétrie est basée sur l’émission spontanée de lumière"
+    ],
+    "correct_answers": [
+      "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+      "La spectrométrie UV-visible est basée sur l’absorption de lumière"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’atome C, la(les)quelle(s) est (sont) exacte(s) :",
+    "options": [
+      "Il est isotope du carbone-12",
+      "Il contient 6 neutrons et 7 protons",
+      "Son numéro atomique est égal à 13",
+      "Il contient 6 protons et 7 neutrons",
+      "Il est constitué d’un noyau de carbone et de 6 électrons"
+    ],
+    "correct_answers": [
+      "Il est constitué d’un noyau de carbone et de 6 électrons",
+      "Il contient 6 protons et 7 neutrons",
+      "Il est isotope du carbone-12"
+    ]
+  }
+]

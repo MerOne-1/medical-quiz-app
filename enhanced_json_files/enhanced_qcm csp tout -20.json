@@ -1,0 +1,67 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Quelle(s) proposition(s) est (sont) exactes(s) concernant le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Le OH est échangeable en présence d’eau lourde",
+      "On n’observera aucun signal pour le OH",
+      "Le OH est échangeable avec le deutérium du chloroforme-d",
+      "On observera un doublet pour OH",
+      "On observera un singulet pour OH"
+    ],
+    "correct_answers": [
+      "On observera un singulet pour OH",
+      "Le OH est échangeable en présence d’eau lourde"
+    ],
+    "justification_fausses_reponses": {
+      "On n’observera aucun signal pour le OH": "C'est incorrect car le groupe OH de l'Ibuprofen® est détectable par RMN. Il apparaît généralement comme un singulet dans le spectre RMN.",
+      "Le OH est échangeable avec le deutérium du chloroforme-d": "C'est incorrect car le deutérium du chloroforme-d n'est pas échangeable avec le groupe OH. Le chloroforme-d est utilisé comme solvant en RMN car il ne donne pas de signal dans la région où la plupart des composés organiques sont détectés.",
+      "On observera un doublet pour OH": "C'est incorrect car le groupe OH de l'Ibuprofen® apparaît comme un singulet dans le spectre RMN, et non comme un doublet. Un doublet indiquerait une interaction spin-spin avec un proton voisin, ce qui n'est pas le cas ici."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "10 cm  = 1 mm",
+      "10 cm = 10  l",
+      "10 dm  = 10  mm",
+      "10nm = 10  m",
+      "10μm  = 10  m"
+    ],
+    "correct_answers": [
+      "10 dm  = 10  mm",
+      "10 cm  = 1 mm",
+      "10 nm = 10  m",
+      "10 μm  = 10  m",
+      "10  cm = 10 l"
+    ],
+    "justification_fausses_reponses": {
+      "10 cm  = 1 mm": "C'est incorrect car 10 cm équivaut à 100 mm. Le centimètre (cm) est une unité de longueur du système international d'unités (SI) équivalente à 10 millimètres (mm).",
+      "10 cm = 10  l": "C'est incorrect car le centimètre (cm) est une unité de longueur et le litre (l) est une unité de volume. Ils ne peuvent donc pas être équivalents.",
+      "10 dm  = 10  mm": "C'est incorrect car 10 dm équivaut à 1000 mm. Le décimètre (dm) est une unité de longueur du système international d'unités (SI) équivalente à 100 millimètres (mm).",
+      "10nm = 10  m": "C'est incorrect car 10 nm équivaut à 1e-8 m. Le nanomètre (nm) est une unité de longueur du système international d'unités (SI) équivalente à 1e-9 mètres (m).",
+      "10μm  = 10  m": "C'est incorrect car 10 μm équivaut à 1e-5 m. Le micromètre (μm) est une unité de longueur du système international d'unités (SI) équivalente à 1e-6 mètres (m)."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "Toutes les molécules peuvent êtres dosées par fluorescence",
+      "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+      "La polarimétrie permet de doser des molécules optiquement actives",
+      "Seules les molécules fluorées peuvent êtres dosées par fluorescence",
+      "Un dossier d’AMM requiert le spectre RMN H du principe actif"
+    ],
+    "correct_answers": [
+      "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+      "Un dossier d’AMM requiert le spectre RMN H du principe actif",
+      "La polarimétrie permet de doser des molécules optiquement actives"
+    ],
+    "justification_fausses_reponses": {
+      "Toutes les molécules peuvent êtres dosées par fluorescence": "C'est incorrect car toutes les molécules ne sont pas fluorescentes. Seules les molécules qui peuvent absorber la lumière à une certaine longueur d'onde et la réémettre à une longueur d'onde plus longue sont fluorescentes.",
+      "Seules les molécules fluorées peuvent êtres dosées par fluorescence": "C'est incorrect car bien que les molécules fluorées soient généralement dosées par fluorescence, d'autres molécules peuvent également l'être si elles sont fluorescentes."
+    }
+  }
+]

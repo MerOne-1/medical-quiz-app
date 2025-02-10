@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives aux cellules végétales, choisissez celle(s) exacte(s) :",
+    "options": [
+      "La paroi cellulaire est une matrice extracellulaire",
+      "Les plasmodesmes ne laissent pas passer les grosses molécules.",
+      "La paroi cellulaire est phospholipidique",
+      "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+      "La paroi cellulaire est complètement imperméable"
+    ],
+    "correct_answers": [
+      "La paroi cellulaire est une matrice extracellulaire",
+      "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+      "Les plasmodesmes ne laissent pas passer les grosses molécules."
+    ],
+    "justification_fausses_reponses": {
+      "La paroi cellulaire est phospholipidique": "C'est incorrect car la paroi cellulaire des plantes est principalement composée de cellulose, hémicellulose et de pectine, et non de phospholipides qui sont les composants majeurs des membranes cellulaires.",
+      "La paroi cellulaire est complètement imperméable": "C'est faux car la paroi cellulaire n'est pas complètement imperméable. Elle permet le passage de l'eau et de certaines molécules, notamment à travers les plasmodesmes."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les Basidiomycètes dont les sporophores présentent pied et chapeau, très diversifiés en forêt, on peut consommer sans risque ni désagrément les espèces :",
+    "options": [
+      "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle",
+      "Dont l’hyménophore est lamellé, la chair cassante et sans lait, la sporée blanche.",
+      "Dont l’hyménophore est lamellé, à pied sans anneau ni volve",
+      "Dont l’hyménophore est poré et dont la sporée est rose",
+      "Dont l’hyménophore est lamellé, la sporée brune et présentant une cortine"
+    ],
+    "correct_answers": [
+      "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle"
+    ],
+    "justification_fausses_reponses": {
+      "Dont l’hyménophore est lamellé, la chair cassante et sans lait, la sporée blanche.": "Cette description correspond à des espèces de champignons qui peuvent être toxiques. La sporée blanche est souvent un signe de toxicité.",
+      "Dont l’hyménophore est lamellé, à pied sans anneau ni volve": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. L'absence d'anneau et de volve n'est pas un indicateur fiable de comestibilité.",
+      "Dont l’hyménophore est poré et dont la sporée est rose": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. La sporée rose n'est pas un indicateur fiable de comestibilité.",
+      "Dont l’hyménophore est lamellé, la sporée brune et présentant une cortine": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. La présence d'une cortine n'est pas un indicateur fiable de comestibilité."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous concernant l'akène, choisissez celle(s) exacte(s)",
+    "options": [
+      "L’akène est un fruit contenant plusieurs graines",
+      "L’akène peut être une semence",
+      "L’akène est un fruit sec",
+      "L’akène s’ouvre à maturité",
+      "L’akène possède un noyau dur"
+    ],
+    "correct_answers": [
+      "L’akène est un fruit sec",
+      "L’akène peut être une semence"
+    ],
+    "justification_fausses_reponses": {
+      "L’akène est un fruit contenant plusieurs graines": "C'est incorrect car l'akène est un fruit sec qui ne contient qu'une seule graine.",
+      "L’akène s’ouvre à maturité": "C'est incorrect car l'akène est un fruit sec indehiscent, c'est-à-dire qu'il ne s'ouvre pas à maturité pour libérer sa graine.",
+      "L’akène possède un noyau dur": "C'est incorrect car l'akène ne possède pas de noyau dur. Il contient une graine qui est entourée par le péricarpe, une paroi de fruit, qui est généralement mince et dure."
+    }
+  }
+]

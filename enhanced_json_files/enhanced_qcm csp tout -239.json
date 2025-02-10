@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les étapes suivantes, quelles sont celles relatives au protocole d’immunofluorescence sur culture de cellules en monocouche :",
+    "options": [
+      "Séparation des protéines par électrophorèse",
+      "Incubation de la culture cellulaire avec un anticorps radiomarqué",
+      "Dosage des protéines totales",
+      "Inclusion de la culture cellulaire dans une résine",
+      "Observation des cellules à l’aide d’un microscope optique"
+    ],
+    "correct_answers": [
+      "Observation des cellules à l’aide d’un microscope optique"
+    ],
+    "justification_fausses_reponses": {
+      "Séparation des protéines par électrophorèse": "Cette étape est utilisée dans le protocole de Western Blot, pas dans le protocole d'immunofluorescence.",
+      "Incubation de la culture cellulaire avec un anticorps radiomarqué": "Dans le protocole d'immunofluorescence, on utilise des anticorps conjugués à des fluorochromes, pas des anticorps radiomarqués.",
+      "Dosage des protéines totales": "Le dosage des protéines totales est une étape de quantification, pas une étape du protocole d'immunofluorescence.",
+      "Inclusion de la culture cellulaire dans une résine": "L'inclusion dans une résine est une étape de préparation des échantillons pour la microscopie électronique, pas pour l'immunofluorescence."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant l’adhérence cellulaire, quelles sont les propositions vraies :",
+    "options": [
+      "Les récepteurs d’adhérence sont en général des récepteurs nucléaires",
+      "L’adhérence cellulaire peut être stable ou transitoire",
+      "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+      "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires",
+      "La seule fonction de l’adhérence cellulaire est de permettre la cohésion des cellules pour former un tissu dans un organisme pluricellulaire"
+    ],
+    "correct_answers": [
+      "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+      "L’adhérence cellulaire peut être stable ou transitoire",
+      "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires"
+    ],
+    "justification_fausses_reponses": {
+      "Les récepteurs d’adhérence sont en général des récepteurs nucléaires": "C'est incorrect car les récepteurs d'adhérence sont généralement des protéines transmembranaires et non des récepteurs nucléaires. Les récepteurs nucléaires sont un type de récepteur intracellulaire qui se trouve dans le noyau de la cellule, pas sur la membrane cellulaire.",
+      "La seule fonction de l’adhérence cellulaire est de permettre la cohésion des cellules pour former un tissu dans un organisme pluricellulaire": "C'est faux car l'adhérence cellulaire a plusieurs fonctions, pas seulement la cohésion des cellules. Par exemple, elle joue également un rôle dans la communication cellulaire et la migration cellulaire."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l’expression d’une protéine spécifique :",
+    "options": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Dosage colorimétrique des protéines totales",
+      "Immunofluorescence",
+      "Western Blot",
+      "Dot blot"
+    ],
+    "correct_answers": [
+      "Immunofluorescence",
+      "Western Blot",
+      "Dot blot"
+    ],
+    "justification_fausses_reponses": {
+      "PCR quantitative (Polymerase Chain Reaction)": "La PCR quantitative est une technique qui permet de quantifier l'ADN, et non les protéines. Elle est donc incapable d'évaluer l'expression d'une protéine spécifique.",
+      "Dosage colorimétrique des protéines totales": "Le dosage colorimétrique des protéines totales permet de mesurer la concentration totale de protéines dans un échantillon, mais il ne permet pas de distinguer une protéine spécifique parmi les autres."
+    }
+  }
+]

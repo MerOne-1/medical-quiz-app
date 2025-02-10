@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la spectrométrie d'absorption atomique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Est mise en œuvre sur des spectromètres à double faisceau.",
+      "Est une méthode d'analyse quantitative d'éléments atomiques à l'état de vapeur.",
+      "Utilise un four en graphite pour vaporiser les éléments.",
+      "Nécessite une correction des interférences par lampe au deutérium.",
+      "Exploite l'absorption d'énergie lumineuse fournie par une lampe à cathode creuse."
+    ],
+    "correct_answers": [
+      "Est une méthode d'analyse quantitative d'éléments atomiques à l'état de vapeur.",
+      "Exploite l'absorption d'énergie lumineuse fournie par une lampe à cathode creuse.",
+      "Utilise un four en graphite pour vaporiser les éléments.",
+      "Nécessite une correction des interférences par lampe au deutérium."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les drogues illicites, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "L’hypothermie est un signe toxique majeur lors d’une intoxication par la MDMA.",
+      "L’action hallucinogène du LSD et de la MDMA (ecstasy) est liée à leur propriété d’agonistes sérotoninergiques.",
+      "L’intoxication aiguë par l’héroïne se caractérise par un coma profond, une dépression respiratoire et un myosis bilatéral.",
+      "La cocaïne présente une cardiotoxicité liée notamment à son effet stabilisant de membrane.",
+      "La consommation d’héroïne peut être mise en évidence par l’identification dans le sang de la 6-monoacétylmorphine."
+    ],
+    "correct_answers": [
+      "L’hypothermie est un signe toxique majeur lors d’une intoxication par la MDMA."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Quel(s) élément(s) peut(vent) être dosé(s) par photométrie de flamme ?",
+    "options": [
+      "Cuivre.",
+      "Lithium.",
+      "Aluminium.",
+      "Potassium.",
+      "Sodium."
+    ],
+    "correct_answers": [
+      "Potassium.",
+      "Sodium.",
+      "Lithium."
+    ]
+  }
+]

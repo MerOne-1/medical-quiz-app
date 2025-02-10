@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les cellules suivantes, laquelle (lesquelles) est (sont) observée(s) sur un frottis sanguin coloré au May-Grünwald Giemsa d’un sujet sain",
+    "options": [
+      "Polynucléaires éosinophiles",
+      "Blastes",
+      "Mégacaryocytes",
+      "Plasmocytes",
+      "Réticulocytes"
+    ],
+    "correct_answers": [
+      "Polynucléaires éosinophiles"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quels sont les signes biologiques associés à l’hyperhémolyse",
+    "options": [
+      "L’élévation de la bilirubine libre",
+      "Microcytose",
+      "L’élévation des ASA T",
+      "La diminution de l’haptoglobine",
+      "L’élévation des LDH"
+    ],
+    "correct_answers": [
+      "L’élévation de la bilirubine libre",
+      "L’élévation des LDH",
+      "La diminution de l’haptoglobine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "A l’occasion d’une visite d’embauche dans une usine de fabrication de solvants, Monsieur M..20 ans, d’origine algérienne a réalisé un hémogramme dont les résultats sont les suivants : Hématies : 6,76 T/L. Hb : 122g/L. V GM : 68fl. T CMH : 18pg. Leucocytes : 6G/L. Plaquettes : 275G/L. la formule leucocytaire est normale",
+    "options": [
+      "L’hémogramme montre une polyglobulie microcytaire hypochrome",
+      "Le mode de transmission de la β thalassémie est lié à l’X",
+      "L’exposition chronique aux solvants est une cause d’aplasie médullaire",
+      "Dans la β thalassémie hétérozygote, l’électrophorèse de l’hémoglobine met en évidence une augmentation de l’Hb A2 > 30%",
+      "Le diagnostic de β thalassémie mineure au doit être évoqué"
+    ],
+    "correct_answers": [
+      "L’hémogramme montre une polyglobulie microcytaire hypochrome",
+      "Le diagnostic de β thalassémie mineure au doit être évoqué",
+      "L’exposition chronique aux solvants est une cause d’aplasie médullaire"
+    ]
+  }
+]

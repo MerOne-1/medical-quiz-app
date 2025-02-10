@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant l’Agence européenne du médicament (EMA), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "L’EMA est située à Strasbourg.",
+      "Les différentes commissions de l’EMA rédigent des notes explicatives ou « guidelines » destinées à aider les industriels dans l’élaboration de leurs dossiers d’AMM.",
+      "L’EMA était située à Londres mais elle a déménagé à Amsterdam en 2019 suite au vote britannique en faveur du Brexit.",
+      "L’EMA comporte différents comités spécialisés dans un domaine particulier, comme par exemple les médicaments orphelins, les médicaments à base de plantes ou les médicaments pédiatriques.",
+      "L’EMA s’occupe notamment de l’évaluation des dossiers d’AMM européens."
+    ],
+    "correct_answers": [
+      "L’EMA s’occupe notamment de l’évaluation des dossiers d’AMM européens.",
+      "L’EMA était située à Londres mais elle a déménagé à Amsterdam en 2019 suite au vote britannique en faveur du Brexit.",
+      "L’EMA comporte différents comités spécialisés dans un domaine particulier, comme par exemple les médicaments orphelins, les médicaments à base de plantes ou les médicaments pédiatriques.",
+      "Les différentes commissions de l’EMA rédigent des notes explicatives ou « guidelines » destinées à aider les industriels dans l’élaboration de leurs dossiers d’AMM."
+    ],
+    "justification_fausses_reponses": {
+      "L’EMA est située à Strasbourg.": "Cette affirmation est incorrecte car l'Agence européenne du médicament (EMA) est située à Amsterdam, aux Pays-Bas. Elle a déménagé de Londres à Amsterdam en 2019 suite au vote britannique en faveur du Brexit."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant le monopole pharmaceutique, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Le monopole pharmaceutique peut être partagé avec d’autres professionnels comme les vétérinaires ou les opticiens-lunetiers.",
+      "Le monopole pharmaceutique concerne la fabrication, la préparation et la dispensation des médicaments et de certains autres produits de santé.",
+      "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à tout médecin qui en effectue la demande, et ce quel que soit son lieu d’exercice.",
+      "Le monopole pharmaceutique ne comprend que les médicaments.",
+      "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à quelques rares médecins qui exercent dans des zones reculées et dépourvues de pharmacie."
+    ],
+    "correct_answers": [
+      "Le monopole pharmaceutique concerne la fabrication, la préparation et la dispensation des médicaments et de certains autres produits de santé.",
+      "Le monopole pharmaceutique peut être partagé avec d’autres professionnels comme les vétérinaires ou les opticiens-lunetiers.",
+      "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à quelques rares médecins qui exercent dans des zones reculées et dépourvues de pharmacie."
+    ],
+    "justification_fausses_reponses": {
+      "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à tout médecin qui en effectue la demande, et ce quel que soit son lieu d’exercice.": "Cette affirmation est incorrecte car la propharmacie n'est pas une dérogation accordée à tout médecin qui en fait la demande. Elle est réservée à certains médecins qui exercent dans des zones reculées et dépourvues de pharmacie.",
+      "Le monopole pharmaceutique ne comprend que les médicaments.": "Cette affirmation est incorrecte car le monopole pharmaceutique ne se limite pas aux médicaments. Il concerne également la fabrication, la préparation et la dispensation de certains autres produits de santé."
+    }
+  }
+]

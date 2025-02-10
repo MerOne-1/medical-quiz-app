@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les composés suivants, lequel (lesquels) est (sont) méthémoglobinisant(s) ?",
+    "options": [
+      "L’acide ascorbique.",
+      "Les dérivés nitrés.",
+      "Le bleu de méthylène.",
+      "La dapsone.",
+      "Le plomb."
+    ],
+    "correct_answers": [
+      "Les dérivés nitrés.",
+      "Le bleu de méthylène.",
+      "La dapsone."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la réaction de Fujiwara et Ross, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Se réalise en milieu chlorhydrique",
+      "Est caractéristique des composés gemtrichlorés",
+      "Donne une coloration rose-rouge",
+      "Est obtenue avec les salicylés en milieu acide",
+      "Montre la présence de méthémoglobine"
+    ],
+    "correct_answers": [
+      "Donne une coloration rose-rouge",
+      "Est caractéristique des composés gemtrichlorés"
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Les parents du jeune Mathieu, 3 ans et demi, viennent vous voir dans votre officine, très inquiets, car l’enfant a avalé trente minutes auparavant une petite quantité d’essence qui avait été conservée dans une bouteille d’eau. Quand ils s’en sont rendu compte, ils ont cherché sur l’internet comment traiter ce genre d’ « empoisonnement », et ont lu qu’ils pouvaient lui administrer un peu de lait, ce qu’ils ont fait. Ils vous précisent que l’enfant a vomi durant le trajet vers la pharmacie. L’enfant ne vous semble pas inquiétant, mais présente néanmoins une légère toux à intervalles réguliers. Parmi les propositions suivantes concernant cet accident, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L’administration de lait par les parents risque de majorer les risques toxiques.",
+      "L’essence ingérée par Mathieu est un produit dont la toxicité est à rattacher à celle des produits caustiques.",
+      "Mathieu devra suivre un régime alimentaire spécifique durant les prochaines heures.",
+      "Mathieu risque une pneumopathie d'inhalation.",
+      "Le risque majeur dans ce cas est lié à la toxicité hépatique de l’essence."
+    ],
+    "correct_answers": [
+      "L’administration de lait par les parents risque de majorer les risques toxiques.",
+      "Mathieu risque une pneumopathie d'inhalation.",
+      "Mathieu devra suivre un régime alimentaire spécifique durant les prochaines heures."
+    ]
+  }
+]

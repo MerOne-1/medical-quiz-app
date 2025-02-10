@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives aux  Cycas et les Ginkgos, choisir celle(s) exacte(s)",
+    "options": [
+      "La fécondation n’est pas aquatique",
+      "La graine est une pseudo-graine",
+      "Les anthérozoïdes sont ciliés",
+      "Les réserves se forment avant la fécondation",
+      "Le gamétophyte est chlorophyllien"
+    ],
+    "correct_answers": [
+      "La graine est une pseudo-graine",
+      "Les réserves se forment avant la fécondation",
+      "Les anthérozoïdes sont ciliés",
+      "Le gamétophyte est chlorophyllien"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisir celle(s) qui est exacte. le bois homoxylé est :",
+    "options": [
+      "Souvent résineux",
+      "Composé de trachéides",
+      "Un xylème II°",
+      "Caractéristique des Angiospermes",
+      "Formé de faisceaux de même taille"
+    ],
+    "correct_answers": [
+      "Un xylème II°",
+      "Composé de trachéides",
+      "Souvent résineux"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Choisir la (ou les) proposition(s) vraie(s) concernant la sporée des champignons à hyménophore lamellé et à texture fibreuse :",
+    "options": [
+      "Elle suffit pour reconnaître les espèces comestibles des espèces toxiques",
+      "On peut l’observer objectivement grâce à un test de sporulation provoquée",
+      "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+      "Elle peut varier, au sein d’une espèce donnée, selon les conditions climatiques",
+      "Elle est bien visible sur les lames des exemplaires murs"
+    ],
+    "correct_answers": [
+      "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+      "On peut l’observer objectivement grâce à un test de sporulation provoquée"
+    ]
+  }
+]

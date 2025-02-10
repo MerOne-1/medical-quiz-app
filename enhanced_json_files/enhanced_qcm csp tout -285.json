@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Identifiez ce que vous voyez sur cette photo",
+    "options": [
+      "une puce",
+      "un pou",
+      "un acarien",
+      "un insecte",
+      "une larve"
+    ],
+    "correct_answers": [
+      "une puce",
+      "un insecte"
+    ],
+    "justification_fausses_reponses": {
+      "un pou": "La réponse est incorrecte car un pou est généralement plus grand et a une forme différente de celle d'une puce ou d'un insecte.",
+      "un acarien": "La réponse est incorrecte car un acarien est généralement plus petit et a une forme différente de celle d'une puce ou d'un insecte.",
+      "une larve": "La réponse est incorrecte car une larve est généralement plus petite et n'a pas la forme d'un insecte adulte comme une puce."
+    }
+  }
+]

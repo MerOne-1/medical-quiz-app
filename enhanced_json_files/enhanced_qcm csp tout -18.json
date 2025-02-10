@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Quelle sera la multiplicité du signal B sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Doublet",
+      "Quintuplet",
+      "Quadruplet",
+      "Singulet",
+      "Triplet"
+    ],
+    "correct_answers": [
+      "Quadruplet"
+    ],
+    "justification_fausses_reponses": {
+      "Doublet": "Un doublet indique que le proton est couplé à un autre proton. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+      "Quintuplet": "Un quintuplet indique que le proton est couplé à quatre autres protons. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+      "Singulet": "Un singulet indique que le proton n'est couplé à aucun autre proton. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+      "Triplet": "Un triplet indique que le proton est couplé à deux autres protons. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Quelle sera la multiplicité du signal A sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Nonuplet",
+      "Octuplet",
+      "Triplet",
+      "Quadruplet",
+      "Singulet"
+    ],
+    "correct_answers": [
+      "Nonuplet"
+    ],
+    "justification_fausses_reponses": {
+      "Octuplet": "La multiplicité du signal A n'est pas un octuplet. En RMN, l'octuplet se produit lorsque le proton est couplé à sept autres protons, ce qui n'est pas le cas ici.",
+      "Triplet": "La multiplicité du signal A n'est pas un triplet. En RMN, le triplet se produit lorsque le proton est couplé à deux autres protons, ce qui n'est pas le cas ici.",
+      "Quadruplet": "La multiplicité du signal A n'est pas un quadruplet. En RMN, le quadruplet se produit lorsque le proton est couplé à trois autres protons, ce qui n'est pas le cas ici.",
+      "Singulet": "La multiplicité du signal A n'est pas un singulet. En RMN, le singulet se produit lorsque le proton n'est couplé à aucun autre proton, ce qui n'est pas le cas ici."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Combien de signaux seront observés sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "1",
+      "8",
+      "6",
+      "11",
+      "5"
+    ],
+    "correct_answers": [
+      "8"
+    ],
+    "justification_fausses_reponses": {
+      "1": "C'est incorrect car l'Ibuprofen a plus d'un type d'atome d'hydrogène dans des environnements chimiques différents, donc plus d'un signal serait observé.",
+      "6": "C'est incorrect car l'Ibuprofen a plus de six types d'atomes d'hydrogène dans des environnements chimiques différents, donc plus de six signaux seraient observés.",
+      "11": "C'est incorrect car l'Ibuprofen a moins de onze types d'atomes d'hydrogène dans des environnements chimiques différents, donc moins de onze signaux seraient observés.",
+      "5": "C'est incorrect car l'Ibuprofen a plus de cinq types d'atomes d'hydrogène dans des environnements chimiques différents, donc plus de cinq signaux seraient observés."
+    }
+  }
+]

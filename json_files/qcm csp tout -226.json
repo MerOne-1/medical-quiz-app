@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’ictère à bilirubine exclusivement non conjuguée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il est observé dans l’hépatite virale",
+      "Il est observé dans les cholestases",
+      "Il est observé dans les déficits complets en glucuronyl transférase hépatique",
+      "Il est observé dans les anémies hémolytiques",
+      "Il est observé dans la cirrhose hépatique"
+    ],
+    "correct_answers": [
+      "Il est observé dans les anémies hémolytiques",
+      "Il est observé dans les déficits complets en glucuronyl transférase hépatique"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la PCR quantitative en temps réel, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il s’agit d’une mesure en point final",
+      "Aucune des affirmations n’est exacte",
+      "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence",
+      "Elle mesure la quantité d’amorces utilisées",
+      "Le Cycle seuil (Ct) permet la quantification du gène amplifié"
+    ],
+    "correct_answers": [
+      "Le Cycle seuil (Ct) permet la quantification du gène amplifié",
+      "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes",
+      "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+      "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+      "Les glycogénoses sont des pathologies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme des glycoprotéines",
+      "Les molécules énergétiques utilisées par le cerveau sont le glucose en période post-prandiale et les acides gras en période de jeûne"
+    ],
+    "correct_answers": [
+      "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+      "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+      "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes"
+    ]
+  }
+]

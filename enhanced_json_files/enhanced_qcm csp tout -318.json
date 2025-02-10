@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant le virus de la poliomyélite, quelles sont les réponses vraies ?",
+    "options": [
+      "C'est un virus transmissible par le sang",
+      "C'est un virus transmissible par voie fécale orale",
+      "C'est un virus responsable de paralysies flasques",
+      "La vaccination contre la poliomyélite est obligatoire en France",
+      "C'est un virus responsable de gastro-entérites"
+    ],
+    "correct_answers": [
+      "C'est un virus transmissible par voie fécale orale",
+      "C'est un virus responsable de paralysies flasques",
+      "La vaccination contre la poliomyélite est obligatoire en France"
+    ],
+    "justification_fausses_reponses": {
+      "C'est un virus transmissible par le sang": "Le virus de la poliomyélite n'est pas principalement transmis par le sang, mais plutôt par la voie fécale-orale, généralement par l'ingestion d'eau ou de nourriture contaminée.",
+      "C'est un virus responsable de gastro-entérites": "Bien que le virus de la poliomyélite puisse causer des symptômes gastro-intestinaux initiaux, il n'est pas le principal responsable des gastro-entérites. Son principal effet est de causer des paralysies flasques."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "Parmi les conseils suivants, lesquels donnez-vous à la mère de Kevin ?",
+    "options": [
+      "Vacciner Kevin par le Rotateq ou le Rotarix",
+      "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+      "Ne pas mettre Kevin en contact avec son frère de 5 ans",
+      "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+      "Kevin doit se laver les mains après chaque selle"
+    ],
+    "correct_answers": [
+      "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+      "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+      "Kevin doit se laver les mains après chaque selle"
+    ],
+    "justification_fausses_reponses": {
+      "Vacciner Kevin par le Rotateq ou le Rotarix": "La vaccination par le Rotateq ou le Rotarix est généralement recommandée pour prévenir la gastro-entérite à rotavirus chez les nourrissons, mais elle n'est pas utilisée comme traitement une fois que la maladie est installée.",
+      "Ne pas mettre Kevin en contact avec son frère de 5 ans": "Bien que le rotavirus puisse être contagieux, l'isolement n'est pas nécessairement la meilleure solution. Il est plus important de se concentrer sur l'hygiène personnelle, comme le lavage des mains, pour prévenir la propagation du virus."
+    }
+  }
+]

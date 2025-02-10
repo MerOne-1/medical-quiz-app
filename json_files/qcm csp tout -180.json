@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Une extrasystole ventriculaire:",
+    "options": [
+      "n’est jamais isolée mais toujours en salves.",
+      "prend naissance dans le ventricule sans modifier le QRS.",
+      "provient d’une anomalie du nœud sinusal.",
+      "prend naissance dans le ventricule et provoque un élargissement important du QRS.",
+      "n’est jamais aléatoire mais revient toujours après le même nombre de cycles cardiaques."
+    ],
+    "correct_answers": [
+      "prend naissance dans le ventricule et provoque un élargissement important du QRS."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Le « mal des transports » :",
+    "options": [
+      "Le « mal des transports » apparaît quand il y a un conflit de signification entre les informations qui proviennent de l’appareil vestibulaire et de la vision.",
+      "Les accélérations angulaires ne favorisent pas l’apparition du « mal des transports ».",
+      "Le risque d’apparition du « mal des transports » est élevé quand un sujet se déplace en voiture sur une route comportant de nombreux virages.",
+      "L’appareil vestibulaire n’est pas le seul système neuro-physiologique impliqué dans l’apparition du « mal des transports ».",
+      "Les canaux semi-circulaires jouent un rôle dans l’apparition du « mal des transports »."
+    ],
+    "correct_answers": [
+      "Les accélérations angulaires ne favorisent pas l’apparition du « mal des transports »."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’angiotensine II entraîne une vasoconstriction des artérioles afférentes ET efférentes.",
+      "La rénine transforme l’angiotensine I en angiotensine II.",
+      "Le peptide auriculaire natriurétique (atrial natriuretic peptide) diminue le débit de filtration glomérulaire.",
+      "L’angiotensine II augmente le débit sanguin rénal.",
+      "Une augmentation de l’activité nerveuse sympathique rénale augmente le débit de filtration glomérulaire."
+    ],
+    "correct_answers": [
+      "L’angiotensine II entraîne une vasoconstriction des artérioles afférentes ET efférentes."
+    ]
+  }
+]

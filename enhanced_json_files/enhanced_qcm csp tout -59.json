@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Si la constante d’équilibre pour est égale à 0,125, la valeur de la constante d’équilibre pour est égale à :",
+    "options": [
+      "16,0",
+      "0,25",
+      "-0,125",
+      "8,0",
+      "0,125"
+    ],
+    "correct_answers": [
+      "8,0"
+    ],
+    "justification_fausses_reponses": {
+      "16,0": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être multipliée par un facteur de 128 pour obtenir 16. La constante d'équilibre est une valeur qui dépend de la température et de la nature des réactifs et des produits.",
+      "0,25": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être multipliée par un facteur de 2 pour obtenir 0,25. La constante d'équilibre est une valeur qui dépend de la température et de la nature des réactifs et des produits.",
+      "-0,125": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être négative. Elle est une mesure de l'équilibre entre les réactifs et les produits dans une réaction chimique à une température donnée.",
+      "0,125": "Cette réponse est incorrecte car elle est égale à la constante d'équilibre initiale, ce qui signifie qu'il n'y a pas eu de changement dans l'équilibre de la réaction."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes relatives au diagramme de Clapeyron de l’eau, indiquer la proposition qui indique le nom des transitions de phases dans la direction des flèches (1, 2, 3).",
+    "options": [
+      "liquéfaction, solidification, condensation",
+      "sublimation, condensation, fusion",
+      "fusion, vaporisation, sublimation",
+      "vaporisation, condensation, solidification",
+      "solidification, sublimation, vaporisation"
+    ],
+    "correct_answers": [
+      "sublimation, condensation, fusion"
+    ],
+    "justification_fausses_reponses": {
+      "liquéfaction, solidification, condensation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La liquéfaction est le passage de l'état gazeux à l'état liquide, la solidification est le passage de l'état liquide à l'état solide et la condensation est le passage de l'état gazeux à l'état liquide.",
+      "fusion, vaporisation, sublimation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La fusion est le passage de l'état solide à l'état liquide, la vaporisation est le passage de l'état liquide à l'état gazeux et la sublimation est le passage de l'état solide à l'état gazeux.",
+      "vaporisation, condensation, solidification": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La vaporisation est le passage de l'état liquide à l'état gazeux, la condensation est le passage de l'état gazeux à l'état liquide et la solidification est le passage de l'état liquide à l'état solide.",
+      "solidification, sublimation, vaporisation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La solidification est le passage de l'état liquide à l'état solide, la sublimation est le passage de l'état solide à l'état gazeux et la vaporisation est le passage de l'état liquide à l'état gazeux."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "5,1 g d’un acide carboxylique sont dosés par une solution de soude de concentration C  = 1 mol.L . Le dosage donne un volume équivalent V = 50 mL. Quelle est la masse molaire de cet acide ?",
+    "options": [
+      "210 g.mol-1",
+      "40 g.mol-1",
+      "75 g.mol-1",
+      "102 g.mol-1",
+      "98 g.mol-1"
+    ],
+    "correct_answers": [
+      "102 g.mol-1"
+    ],
+    "justification_fausses_reponses": {
+      "210 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire trop élevée. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur inférieure.",
+      "40 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire trop faible. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur supérieure.",
+      "75 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire inférieure à la valeur correcte. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur supérieure.",
+      "98 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire légèrement inférieure à la valeur correcte. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur légèrement supérieure."
+    }
+  }
+]

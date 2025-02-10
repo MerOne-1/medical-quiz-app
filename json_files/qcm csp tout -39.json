@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant les méthodes spectrales, quelles sont celles qui sont exactes ? La loi de Beer-Lambert est vérifiée pour un acide faible en spectrophotométrie d'absorption moléculaire dans l'UV si :",
+    "options": [
+      "Les cuves de mesure sont en quartz",
+      "Les solutions sont limpides",
+      "L'acide absorbe la lumière à 450 nm",
+      "Le rayonnement incident est polychromatique",
+      "La concentration est de l'ordre de la molarité"
+    ],
+    "correct_answers": [
+      "Les solutions sont limpides",
+      "Les cuves de mesure sont en quartz"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ( lesquelles) est (sont) exacte(s)? En spectrophotométrie UV moléculaire:",
+    "options": [
+      "Il est possible de doser des chromophores absorbant à 600 nm",
+      "Les cellules d'analyse sont en verre",
+      "L'absorption obéit à la loi de Beer-Lambert",
+      "La source d'émission la plus courante est une lampe au deutérium",
+      "On exploite un spectre de bandes"
+    ],
+    "correct_answers": [
+      "On exploite un spectre de bandes",
+      "La source d'émission la plus courante est une lampe au deutérium",
+      "L'absorption obéit à la loi de Beer-Lambert"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, concernant les solutions tampons, lesquelles sont exactes ?",
+    "options": [
+      "Une solution d’acide acétique 0,1 M est une solution tampon",
+      "Un mélange d’acide acétique (0,2 mol) et d’acétate d’ammonium (0,3 mol) constitue une solution tampon",
+      "La dilution d’une solution tampon modifie la valeur de son pH",
+      "L’addition d’une faible quantité d’acide ne modifie pas le pH d’une solution tampon",
+      "L’addition d’une faible quantité de base modifie le pH d’une solution tampon"
+    ],
+    "correct_answers": [
+      "Un mélange d’acide acétique (0,2 mol) et d’acétate d’ammonium (0,3 mol) constitue une solution tampon",
+      "L’addition d’une faible quantité d’acide ne modifie pas le pH d’une solution tampon"
+    ]
+  }
+]

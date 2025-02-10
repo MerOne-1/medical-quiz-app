@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "La ciclosporine inhibe la synthèse de cytokines anti-inflammatoires, notamment de l'interleukine 4.",
+      "La ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, notamment de l'interleukine 2.",
+      "La ciclosporine est extraite d'un champignon.",
+      "La ciclosporine est éliminée par voie urinaire sous forme inchangée.",
+      "La ciclosporine est un substrat de l'isoenzyme CYP3A4 et a une métabolisation hépatique importante."
+    ],
+    "correct_answers": [
+      "La ciclosporine est extraite d'un champignon.",
+      "La ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, notamment de l'interleukine 2.",
+      "La ciclosporine est un substrat de l'isoenzyme CYP3A4 et a une métabolisation hépatique importante."
+    ],
+    "justification_fausses_reponses": {
+      "La ciclosporine inhibe la synthèse de cytokines anti-inflammatoires, notamment de l'interleukine 4.": "C'est incorrect car la ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, pas anti-inflammatoires. Elle agit en inhibant l'activité de la calcineurine, ce qui empêche la transcription de l'interleukine-2, une cytokine pro-inflammatoire.",
+      "La ciclosporine est éliminée par voie urinaire sous forme inchangée.": "C'est incorrect car la ciclosporine est principalement métabolisée par le foie et est éliminée dans la bile. Seulement une petite quantité est éliminée par voie urinaire, et ce n'est pas sous forme inchangée."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La dose d'un anticancéreux est toujours exprimée en mg/m²",
+      "Une chimiothérapie néo-adjuvante est une chimiothérapie première",
+      "Les évaluations de l’efficacité et de la tolérance d'un anticancéreux se réalisent après chaque cure",
+      "Les soins Oncologiques de Support (SOS) comprennent les anticancéreux"
+    ],
+    "correct_answers": [
+      "Une chimiothérapie néo-adjuvante est une chimiothérapie première"
+    ],
+    "justification_fausses_reponses": {
+      "La dose d'un anticancéreux est toujours exprimée en mg/m²": "C'est incorrect car la dose d'un anticancéreux peut être exprimée de différentes manières, pas seulement en mg/m². Cela dépend du type de médicament et de la méthode de dosage.",
+      "Les évaluations de l’efficacité et de la tolérance d'un anticancéreux se réalisent après chaque cure": "C'est faux car les évaluations de l'efficacité et de la tolérance d'un anticancéreux ne se font pas nécessairement après chaque cure. Elles peuvent être effectuées à des intervalles spécifiques ou en fonction de l'état du patient.",
+      "Les soins Oncologiques de Support (SOS) comprennent les anticancéreux": "C'est incorrect car les soins oncologiques de support (SOS) ne comprennent pas les anticancéreux. Les SOS sont des soins qui visent à améliorer la qualité de vie des patients atteints de cancer, mais ne comprennent pas les traitements anticancéreux eux-mêmes."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+    "options": [
+      "La toxicité chronique d'un médicament est déterminée par le calcul de la DL50",
+      "Les essais pré-cliniques utilisent des modèles in vitro et in vivo",
+      "Un Ki élevé permet de déduire une affinité élevée d'une substance pour un récepteur",
+      "Le binding pharmacologique permet de déterminer des CI50 pour des substances actives",
+      "Les méthodes alternatives permettent de réduire le nombre d'animaux utilisés dans les essais pré-cliniques"
+    ],
+    "correct_answers": [
+      "Les méthodes alternatives permettent de réduire le nombre d'animaux utilisés dans les essais pré-cliniques",
+      "Le binding pharmacologique permet de déterminer des CI50 pour des substances actives",
+      "Les essais pré-cliniques utilisent des modèles in vitro et in vivo"
+    ],
+    "justification_fausses_reponses": {
+      "La toxicité chronique d'un médicament est déterminée par le calcul de la DL50": "La DL50 est une mesure de la toxicité aiguë, pas chronique. Elle représente la dose qui causerait la mort de 50% d'une population testée, mais ne reflète pas les effets à long terme d'une exposition continue à un médicament.",
+      "Un Ki élevé permet de déduire une affinité élevée d'une substance pour un récepteur": "C'est l'inverse qui est vrai. Un Ki faible indique une forte affinité d'une substance pour un récepteur. Le Ki est une mesure de l'inhibition, donc plus le Ki est élevé, moins la substance a d'affinité pour le récepteur."
+    }
+  }
+]

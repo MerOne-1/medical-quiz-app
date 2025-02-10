@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Comment optimiser le processus de stérilisation d'une solution aqueuse injectable ?",
+    "options": [
+      "par remplissage des ampoules en salle blanche.",
+      "par conditionnement sous azote après remplissage des ampoules",
+      "par chauffage à 121°C sous pression après conditionnement en flacons",
+      "par filtration sur filtre écran de 0,22 microns",
+      "par préparation dans une eau purifiée"
+    ],
+    "correct_answers": [
+      "par chauffage à 121°C sous pression après conditionnement en flacons"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelle (s) est( sont) la (les) proposition(s) exacte(s) concernant les comprimés ?",
+    "options": [
+      "L'enrobage à la carboxyméthylcellulose assure la gastro-résistance",
+      "La granulation humide est précédée d'un compactage",
+      "L'amidon de maïs est utilisé comme liant dans la granulation sèche.",
+      "Les comprimés nus doivent être désagrégés en moins de 15 secondes",
+      "La granulation améliore l'écoulement du mélange pour compression"
+    ],
+    "correct_answers": [
+      "La granulation améliore l'écoulement du mélange pour compression"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les affirmations suivantes concernant les solutés de remplissage, quelles sont celles qui sont exactes ?",
+    "options": [
+      "Les colloïdes sont d'origine naturelle",
+      "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+      "L'albumine est le soluté colloïde le mieux supporté.",
+      "Les dextrans ne doivent pas être administrés chez la femme enceinte",
+      "La solution de ringer Lactate est un toujours un cristalloïde hypertonique"
+    ],
+    "correct_answers": [
+      "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+      "Les dextrans ne doivent pas être administrés chez la femme enceinte"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes concernant les comprimés, la (les) quelle (s) est (sont) exacte (s) ?",
+    "options": [
+      "l'addition d'amidon de maïs facilite la compression",
+      "la PVP est utilisée comme liant",
+      "le pelliculage est un enrobage à l'acétophtalate de cellulose",
+      "la silice colloïdale est un excipient pour compression directe",
+      "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+    ],
+    "correct_answers": [
+      "la PVP est utilisée comme liant",
+      "la silice colloïdale est un excipient pour compression directe",
+      "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+    ]
+  }
+]

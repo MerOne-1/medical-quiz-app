@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les étiologies suivantes, lesquelles peuvent être responsables de carences en vitamine B12 ?",
+    "options": [
+      "Traitements par la colchicine",
+      "Résections de l’iléon",
+      "Maladie de Biermer",
+      "Traitements par les Hydantoines",
+      "Gastrectomies"
+    ],
+    "correct_answers": [
+      "Gastrectomies",
+      "Traitements par les Hydantoines",
+      "Maladie de Biermer",
+      "Résections de l’iléon",
+      "Traitements par la colchicine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant la thrombopénie de type II induite par l'héparine:",
+    "options": [
+      "Elle survient toujours après plus de 21 jours de traitement par l'héparine",
+      "Le risque majeur de ces thrombopénies est un risque hémorragique",
+      "Elle est liée à la production d’auto-anticorps anti-plaquettes dirigés contre la glycoprotéine plaquettaire Gp IIb-IIIa",
+      "Elle peut survenir quels que soit la voie d’administration, la dose ou le type d’héparine",
+      "Elle ne nécessite pas d'arrêt du traitement par l'héparine"
+    ],
+    "correct_answers": [
+      "Elle peut survenir quels que soit la voie d’administration, la dose ou le type d’héparine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Lors d’une carence en fer,",
+    "options": [
+      "La ferritinémie est élevée",
+      "Le taux de transferrine est diminué",
+      "La capacité ́ totale de fixation de la transferrine est élevée",
+      "Le taux de fer sérique est abaissé",
+      "Le coefficient de saturation de la transferrine est élevé"
+    ],
+    "correct_answers": [
+      "La capacité ́ totale de fixation de la transferrine est élevée",
+      "Le taux de fer sérique est abaissé"
+    ]
+  }
+]

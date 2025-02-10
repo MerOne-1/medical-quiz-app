@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la vitamine D et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ces composés sont dénués de toute toxicité",
+      "ces composés sont très hydrophiles",
+      "ces composés sont de nature stérolique",
+      "ces composés sont très polaires",
+      "leur production naturelle nécessite l’action des UV"
+    ],
+    "correct_answers": [
+      "ces composés sont de nature stérolique",
+      "leur production naturelle nécessite l’action des UV"
+    ],
+    "justification_fausses_reponses": {
+      "ces composés sont dénués de toute toxicité": "C'est incorrect car une surdose de vitamine D peut entraîner une toxicité, connue sous le nom d'hypervitaminose D, qui peut causer des nausées, des vomissements, une perte d'appétit, une constipation, une faiblesse et une perte de poids.",
+      "ces composés sont très hydrophiles": "C'est incorrect car la vitamine D est liposoluble, ce qui signifie qu'elle est soluble dans les graisses et les huiles, et non dans l'eau.",
+      "ces composés sont très polaires": "C'est incorrect car la vitamine D est une molécule non polaire en raison de sa structure chimique, qui est principalement composée de chaînes d'hydrocarbures."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule",
+    "options": [
+      "finasteride",
+      "mirabegron",
+      "sildenafil",
+      "alfuzosine",
+      "yohimbine"
+    ],
+    "correct_answers": [
+      "sildenafil"
+    ],
+    "justification_fausses_reponses": {
+      "finasteride": "Le finastéride est incorrect car c'est un inhibiteur de la 5-alpha réductase utilisé pour traiter l'hypertrophie bénigne de la prostate et la calvitie, et non la molécule en question.",
+      "mirabegron": "Le mirabegron est incorrect car c'est un agoniste des récepteurs β3-adrénergiques utilisé pour traiter l'hyperactivité vésicale, et non la molécule en question.",
+      "alfuzosine": "L'alfuzosine est incorrecte car c'est un antagoniste des récepteurs α1-adrénergiques utilisé pour traiter l'hypertrophie bénigne de la prostate, et non la molécule en question.",
+      "yohimbine": "La yohimbine est incorrecte car c'est un antagoniste des récepteurs α2-adrénergiques utilisé comme aphrodisiaque, et non la molécule en question."
+    }
+  }
+]

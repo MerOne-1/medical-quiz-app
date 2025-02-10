@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l'expression d'un gène spécifique en ARNm",
+    "options": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Dosage colorimétrique des protéines totales",
+      "Northern blot",
+      "Western Blot",
+      "Immunofluorescence"
+    ],
+    "correct_answers": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Northern blot"
+    ],
+    "justification_fausses_reponses": {
+      "Dosage colorimétrique des protéines totales": "Cette technique mesure la concentration totale de protéines dans un échantillon, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm.",
+      "Western Blot": "Le Western Blot est une technique qui permet de détecter une protéine spécifique dans un échantillon, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm.",
+      "Immunofluorescence": "L'immunofluorescence est une technique qui utilise des anticorps pour détecter des protéines spécifiques dans des cellules ou des tissus, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le noyau, quelles sont les propositions vraies",
+    "options": [
+      "L’échange nucléo-cytoplasmique est bidirectionnel",
+      "Le nucléole est le lieu de synthèse des ARNs ribosomaux",
+      "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+      "Le nucléole est le lieu de synthèse des protéines",
+      "En microscopie électronique à transmission, le nucléole correspond à une zone claire dans le noyau"
+    ],
+    "correct_answers": [
+      "L’échange nucléo-cytoplasmique est bidirectionnel",
+      "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+      "Le nucléole est le lieu de synthèse des ARNs ribosomaux"
+    ],
+    "justification_fausses_reponses": {
+      "Le nucléole est le lieu de synthèse des protéines": "C'est incorrect car le nucléole est le lieu de synthèse des ARNs ribosomaux, pas des protéines. La synthèse des protéines a lieu dans le cytoplasme, sur les ribosomes.",
+      "En microscopie électronique à transmission, le nucléole correspond à une zone claire dans le noyau": "C'est incorrect car en microscopie électronique à transmission, le nucléole apparaît comme une zone dense et non claire. Il est plus dense en raison de sa riche activité de transcription des ARNs ribosomaux."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les cellules souches, quelles sont les propositions vraies",
+    "options": [
+      "Elles ne se trouvent qu’au stade embryonnaire",
+      "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+      "Elles sont indifférenciées",
+      "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome",
+      "Elles se caractérisent par leur potentiel de différenciation"
+    ],
+    "correct_answers": [
+      "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+      "Elles sont indifférenciées",
+      "Elles se caractérisent par leur potentiel de différenciation",
+      "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome"
+    ],
+    "justification_fausses_reponses": {
+      "Elles ne se trouvent qu’au stade embryonnaire": "Cette affirmation est incorrecte car les cellules souches ne se trouvent pas uniquement au stade embryonnaire. On les trouve également chez l'adulte dans certains tissus comme la moelle osseuse, le cerveau ou la peau. Ces cellules souches adultes ont la capacité de se différencier en différents types de cellules selon le tissu où elles se trouvent."
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la famille des «glucocorticoides », illustrée par la structure ci-dessous, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "pour les composés naturels, la jonction des cycles B/C et C/D est toujours trans",
+      "ils peuvent provoquer un syndrome de Cushing",
+      "ils sont aussi appelés AIS",
+      "ils ont un effet hypoglycémiant",
+      "ce sont des dérivés à structure de prégnane"
+    ],
+    "correct_answers": [
+      "ce sont des dérivés à structure de prégnane",
+      "ils sont aussi appelés AIS",
+      "pour les composés naturels, la jonction des cycles B/C et C/D est toujours trans",
+      "ils peuvent provoquer un syndrome de Cushing"
+    ],
+    "justification_fausses_reponses": {
+      "ils ont un effet hypoglycémiant": "C'est incorrect. Les glucocorticoïdes ont en réalité un effet hyperglycémiant, c'est-à-dire qu'ils augmentent le taux de glucose dans le sang, et non l'inverse."
+    }
+  }
+]

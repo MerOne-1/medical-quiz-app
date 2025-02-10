@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les stupéfiants, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les stupéfiants doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+      "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités).",
+      "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+      "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+      "Les stupéfiants peuvent être prescrits sur la même ordonnance pour une durée de 3 mois."
+    ],
+    "correct_answers": [
+      "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+      "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+      "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités)."
+    ],
+    "justification_fausses_reponses": {
+      "Les stupéfiants doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.": "Cette affirmation est incorrecte car les stupéfiants doivent être prescrits sur une ordonnance sécurisée et non sur une ordonnance bleue à 4 volets.",
+      "Les stupéfiants peuvent être prescrits sur la même ordonnance pour une durée de 3 mois.": "Cette affirmation est incorrecte car la durée de prescription des stupéfiants est limitée à 28 jours maximum, et non 3 mois."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Quelle source de droit du travail a le plus de force ?",
+    "options": [
+      "Le contrat de travail",
+      "L'accord d'entreprise",
+      "Le règlement intérieur",
+      "L'usage",
+      "La Convention collective"
+    ],
+    "correct_answers": [
+      "La Convention collective"
+    ],
+    "justification_fausses_reponses": {
+      "Le contrat de travail": "Bien que le contrat de travail soit une source de droit du travail, il n'a pas la plus grande force. Il est subordonné à la Convention collective et ne peut pas contenir des clauses moins favorables pour le salarié.",
+      "L'accord d'entreprise": "L'accord d'entreprise est une source de droit du travail, mais il est subordonné à la Convention collective. Il ne peut pas contenir des dispositions moins favorables pour le salarié que celles de la Convention collective.",
+      "Le règlement intérieur": "Le règlement intérieur est une source de droit du travail qui régit les règles de vie dans l'entreprise. Cependant, il est subordonné à la Convention collective et ne peut pas contenir des dispositions moins favorables pour le salarié.",
+      "L'usage": "L'usage est une source de droit du travail qui découle de pratiques répétées dans l'entreprise. Cependant, il est subordonné à la Convention collective et ne peut pas contenir des dispositions moins favorables pour le salarié."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces formes d'entreprises, lesquelles permettent de limiter la responsabilité des associés ?",
+    "options": [
+      "A. La société anonyme",
+      "B. La société à responsabilité limitée",
+      "C. La société en nom collectif",
+      "D. La société par action simplifiée",
+      "E. L'entreprise individuelle"
+    ],
+    "correct_answers": [
+      "La société anonyme",
+      "La société à responsabilité limitée",
+      "La société par action simplifiée"
+    ],
+    "justification_fausses_reponses": {
+      "C. La société en nom collectif": "Dans une société en nom collectif, les associés sont tous commerçants et répondent indéfiniment et solidairement des dettes sociales. Donc, cette forme d'entreprise ne permet pas de limiter la responsabilité des associés.",
+      "E. L'entreprise individuelle": "Dans une entreprise individuelle, l'entrepreneur est responsable sur l'ensemble de son patrimoine personnel des dettes contractées pour son activité professionnelle. Donc, cette forme d'entreprise ne permet pas de limiter la responsabilité de l'entrepreneur."
+    }
+  }
+]

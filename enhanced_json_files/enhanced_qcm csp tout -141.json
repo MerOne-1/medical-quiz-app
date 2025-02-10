@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+      "Les traitements par anticancéreux par voie orale au long cours se multiplient",
+      "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+      "L'incidence d'un syndrome pharmacogénétique est fréquente"
+    ],
+    "correct_answers": [
+      "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+      "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+      "Les traitements par anticancéreux par voie orale au long cours se multiplient"
+    ],
+    "justification_fausses_reponses": {
+      "L'incidence d'un syndrome pharmacogénétique est fréquente": "Cette affirmation est incorrecte car l'incidence d'un syndrome pharmacogénétique n'est pas fréquente. Les syndromes pharmacogénétiques sont des réactions anormales à des médicaments causées par des variations génétiques, et ils ne sont pas courants dans la population générale."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les antipsychotiques suivants ; lequel ou lesquels appartienne(nt) à la famille des antipsychotiques atypiques ?",
+    "options": [
+      "Risperidone",
+      "Chlorpromazine",
+      "Aripiprazole",
+      "Clozapine",
+      "Olanzapine"
+    ],
+    "correct_answers": [
+      "Risperidone",
+      "Clozapine",
+      "Olanzapine",
+      "Aripiprazole"
+    ],
+    "justification_fausses_reponses": {
+      "Chlorpromazine": "La Chlorpromazine n'appartient pas à la famille des antipsychotiques atypiques mais à celle des antipsychotiques typiques. Les antipsychotiques typiques sont la première génération d'antipsychotiques et ont un effet principalement sur les symptômes positifs de la schizophrénie, tandis que les antipsychotiques atypiques, qui sont la deuxième génération, ont un effet sur les symptômes positifs et négatifs."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant l'élimination du lithium, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Elle est favorisée par la réabsorption au niveau du tube proximal",
+      "Elle peut être augmentée par la dialyse",
+      "Elle est favorisée par l'hyponatrémie",
+      "Elle peut être augmentée par la diurétiques thiazidiques",
+      "Elle est diminuée par la diurétiques anti-aldostérone"
+    ],
+    "correct_answers": [
+      "Elle peut être augmentée par la dialyse",
+      "Elle est diminuée par la diurétiques anti-aldostérone"
+    ],
+    "justification_fausses_reponses": {
+      "Elle est favorisée par la réabsorption au niveau du tube proximal": "C'est incorrect car le lithium n'est pas réabsorbé au niveau du tube proximal. Il est principalement éliminé par filtration glomérulaire.",
+      "Elle est favorisée par l'hyponatrémie": "C'est incorrect car l'hyponatrémie ne favorise pas l'élimination du lithium. Au contraire, elle peut augmenter la réabsorption rénale du lithium et donc augmenter sa toxicité.",
+      "Elle peut être augmentée par la diurétiques thiazidiques": "C'est incorrect car les diurétiques thiazidiques peuvent en réalité diminuer l'élimination du lithium en augmentant sa réabsorption rénale."
+    }
+  }
+]

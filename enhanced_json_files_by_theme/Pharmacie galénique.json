@@ -1,0 +1,386 @@
+{
+    "theme": "Pharmacie galénique",
+    "questions": [
+        {
+            "question": "Quelles sont les affirmations exactes concernant les solutés de remplissage ?",
+            "options": [
+                "Le ringer lactate est un cristaloïde hypertonique",
+                "Les cristaloïdes hypertoniques possèdent une osmolalité supérieure à celle du plasma (300 mosmol/kg)",
+                "Les HEA sont des polysaccharides modifiés, extraits du maïs",
+                "Les gélatines modifiées entraînent des réactions anaphylactiques, une diminution de l'agrégation plaquettaire.",
+                "l'isofundine est un soluté de la famille des colloïdes"
+            ],
+            "correct_answers": [
+                "Les cristaloïdes hypertoniques possèdent une osmolalité supérieure à celle du plasma (300 mosmol/kg)",
+                "Les HEA sont des polysaccharides modifiés, extraits du maïs",
+                "Les gélatines modifiées entraînent des réactions anaphylactiques, une diminution de l'agrégation plaquettaire."
+            ],
+            "justification_fausses_reponses": {
+                "Le ringer lactate est un cristaloïde hypertonique": "Cette affirmation est incorrecte car le ringer lactate est un cristaloïde isotonic, pas hypertonique. Il a une osmolalité proche de celle du plasma sanguin.",
+                "l'isofundine est un soluté de la famille des colloïdes": "Cette affirmation est incorrecte car l'isofundine est un cristalloïde, pas un colloïde. Les cristalloïdes sont des solutions de sels minéraux ou de sucres, tandis que les colloïdes contiennent des molécules de grande taille, comme des protéines."
+            }
+        },
+        {
+            "question": "La biodisponibilit é d'un pr incipe actif lipophile, uniquement éliminé p ar ex crétion, administr é par voie orale en gélule, peut êtr e inf luencée p ar :",
+            "options": [
+                "Le premier passage hépatique",
+                "La prise à jeun ou pendant un repas",
+                "Le mode de remplissage de la gélule",
+                "Le type de diluant ajouté dans la gélule",
+                "Le volume de distribution du principe actif"
+            ],
+            "correct_answers": [
+                "Le mode de remplissage de la gélule",
+                "La prise à jeun ou pendant un repas",
+                "Le type de diluant ajouté dans la gélule"
+            ],
+            "justification_fausses_reponses": {
+                "Le premier passage hépatique": "Le premier passage hépatique n'influence pas la biodisponibilité d'un principe actif lipophile uniquement éliminé par excrétion. Ce processus concerne plutôt la métabolisation des médicaments par le foie.",
+                "Le volume de distribution du principe actif": "Le volume de distribution du principe actif est une caractéristique pharmacocinétique qui n'est pas directement influencée par la formulation galénique du médicament, mais plutôt par les propriétés physico-chimiques du principe actif et son interaction avec les tissus de l'organisme."
+            }
+        },
+        {
+            "question": "Concernant les formes destinées à traiter des pathologies oculaires, la(les) quelle(s) de ces propositions est (sont) exacte(s) ?",
+            "options": [
+                "Les collyres d'amphotéricine B sont fabriqués à partir de Fungizone (forme classique) ou à partir de la forme liposomale (Ambisome), sans qu'il n'y ait de différence en termes de stabilité, d'efficacité ou de tolérance.",
+                "Autant que possible, il faut réaliser des formes multidoses plutot que monodoses, afin d'allonger la date de péremption, et ce en ajoutant des conservateurs l'emploi de conservateurs pour les formes multidoses,.",
+                "Les conditionnements des collyres sont en verre type II ou en plastique.",
+                "Il n'est pas possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres.",
+                "Les collyres d'ED TA sont employés pour réaliser les kératites en bandelette, pour réaliser une détersion de dépots calciques au niveau de l'oeil."
+            ],
+            "correct_answers": [
+                "Les collyres d'amphotéricine B sont fabriqués à partir de Fungizone (forme classique) ou à partir de la forme liposomale (Ambisome), sans qu'il n'y ait de différence en termes de stabilité, d'efficacité ou de tolérance.",
+                "Les conditionnements des collyres sont en verre type II ou en plastique.",
+                "Les collyres d'ED TA sont employés pour réaliser les kératites en bandelette, pour réaliser une détersion de dépots calciques au niveau de l'oeil."
+            ],
+            "justification_fausses_reponses": {
+                "Autant que possible, il faut réaliser des formes multidoses plutot que monodoses, afin d'allonger la date de péremption, et ce en ajoutant des conservateurs l'emploi de conservateurs pour les formes multidoses,.": "Cette affirmation est incorrecte car les formes multidoses ne sont pas toujours préférables aux formes monodoses. Les formes monodoses sont souvent préférées pour des raisons de sécurité et d'hygiène, car elles réduisent le risque de contamination.",
+                "Il n'est pas possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres.": "Cette affirmation est incorrecte car il est tout à fait possible de préparer des pommades ophtalmiques dans une unité hospitalière fabriquant des collyres, à condition de respecter les bonnes pratiques de fabrication."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? Les solutions de remplissage vasculaire peuvent être:",
+            "options": [
+                "Des solutés de dextran",
+                "Des solutés de gélatine fluide",
+                "Des émulsions lipidiques injectables",
+                "De l'albumine d'origine humaine",
+                "Des solutés de glucose"
+            ],
+            "correct_answers": [
+                "Des solutés de gélatine fluide",
+                "De l'albumine d'origine humaine",
+                "Des solutés de dextran"
+            ],
+            "justification_fausses_reponses": {
+                "Des émulsions lipidiques injectables": "Les émulsions lipidiques injectables ne sont pas utilisées comme solutions de remplissage vasculaire. Elles sont principalement utilisées pour l'administration de médicaments liposolubles ou comme source de lipides dans la nutrition parentérale.",
+                "Des solutés de glucose": "Les solutés de glucose ne sont pas utilisés comme solutions de remplissage vasculaire. Ils sont principalement utilisés pour fournir de l'énergie et traiter l'hypoglycémie."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, choisissez la ou les proposition(s) exacte(s) Dans cette même étude",
+            "options": [
+                "pour apprécier la vitesse de mise à disposition, on compare les pentes de la phase décroissante des cinétiques après la linéarisation.",
+                "D'un point de vue quantitatif, on va apprécier l'aire sous la courbe des concentrations urinaires en X, si on effectue une étude par prélèvements urinaires.",
+                "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+                "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique.",
+                "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps."
+            ],
+            "correct_answers": [
+                "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps.",
+                "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+                "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique."
+            ],
+            "justification_fausses_reponses": {
+                "pour apprécier la vitesse de mise à disposition, on compare les pentes de la phase décroissante des cinétiques après la linéarisation.": "Cette affirmation est incorrecte car la vitesse de mise à disposition d'un médicament n'est pas appréciée par la comparaison des pentes de la phase décroissante des cinétiques après linéarisation. En réalité, elle est généralement évaluée par la mesure du temps nécessaire pour atteindre la concentration maximale du médicament dans le plasma.",
+                "D'un point de vue quantitatif, on va apprécier l'aire sous la courbe des concentrations urinaires en X, si on effectue une étude par prélèvements urinaires.": "Cette affirmation est incorrecte car l'aire sous la courbe des concentrations urinaires n'est pas un indicateur fiable de la biodisponibilité d'un médicament. En effet, elle ne tient pas compte de la variabilité interindividuelle de l'excrétion urinaire et peut donc conduire à des estimations erronées de la biodisponibilité."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les glycérides hémi-synthétiques solides utilisés comme excipient pour des suppositoires (ex : Witepsol®), quelles ont celles qui sont exactes ?",
+            "options": [
+                "montrent une bonne rétractabilité",
+                "sont uniquement des triglycérides.",
+                "se dissolvent dans le contenu du rectum.",
+                "fondent à température corporelle.",
+                "montrent une zone de fusion très large."
+            ],
+            "correct_answers": [
+                "sont uniquement des triglycérides.",
+                "fondent à température corporelle."
+            ],
+            "justification_fausses_reponses": {
+                "montrent une bonne rétractabilité": "Les glycérides hémi-synthétiques solides utilisés comme excipients pour des suppositoires ne montrent pas une bonne rétractabilité. La rétractabilité est la capacité d'un matériau à retrouver sa forme initiale après déformation, ce qui n'est pas le cas pour ces substances.",
+                "se dissolvent dans le contenu du rectum.": "Les glycérides hémi-synthétiques solides ne se dissolvent pas dans le contenu du rectum. Ils sont conçus pour fondre à la température corporelle et libérer le médicament, mais ils ne se dissolvent pas.",
+                "montrent une zone de fusion très large.": "Les glycérides hémi-synthétiques solides n'ont pas une zone de fusion très large. Ils sont conçus pour fondre à une température spécifique (la température corporelle), donc leur zone de fusion est relativement étroite."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les DM sont répartis dans 4 classes de risque en fonction de règles établies réglementairement et de critères de dangerosité",
+                "L'action principale d'un dispositif médical peut être obtenue par des moyens pharmacologiques ou immunologiques.",
+                "Le marquage CE d'un dispositif médical est accordé par l'ANSM.",
+                "A l'exception des dispositifs médicaux de plus faible risque, une évaluation par un organisme tiers, appelé organisme notifié, désigné par l'autorité compétente est nécessaire avant d'apposer le marquage CE.",
+                "L'ANSM est l'autorité compétente en matière de sécurité d'utilisation des dispositifs médicaux"
+            ],
+            "correct_answers": [
+                "L'ANSM est l'autorité compétente en matière de sécurité d'utilisation des dispositifs médicaux",
+                "Les DM sont répartis dans 4 classes de risque en fonction de règles établies réglementairement et de critères de dangerosité",
+                "A l'exception des dispositifs médicaux de plus faible risque, une évaluation par un organisme tiers, appelé organisme notifié, désigné par l'autorité compétente est nécessaire avant d'apposer le marquage CE."
+            ],
+            "justification_fausses_reponses": {
+                "L'action principale d'un dispositif médical peut être obtenue par des moyens pharmacologiques ou immunologiques.": "Cette affirmation est incorrecte car l'action principale d'un dispositif médical est obtenue principalement par des moyens physiques ou mécaniques, et non pharmacologiques ou immunologiques.",
+                "Le marquage CE d'un dispositif médical est accordé par l'ANSM.": "Cette affirmation est incorrecte car le marquage CE d'un dispositif médical est accordé par un organisme notifié, et non par l'ANSM."
+            }
+        },
+        {
+            "question": "Concernant les émulsions lipidiques employées en nutrition parentérale, la(les)quelle(s) de ces propositions est (sont) exacte(s) ?",
+            "options": [
+                "Il existe des émulsions obtenues à partir d'huile de poisson.",
+                "Les émulsions lipidiques peuvent être administrées par voie intra-veineuse, sur une voie veineuse centrale ou périphérique",
+                "Les émulsions lipidiques utilisées en nutrition parentérale sont de type eau dans huile H/L (huile : phase dispersante)",
+                "Il existe une monographie spécifique dans la Pharmacopée Européenne permettant de les caractériser et les contrôler.",
+                "Ces émulsions peuvent être administrées avec un filtre de porosité de 0,2µm sur la ligne de perfusion."
+            ],
+            "correct_answers": [
+                "Les émulsions lipidiques peuvent être administrées par voie intra-veineuse, sur une voie veineuse centrale ou périphérique",
+                "Il existe des émulsions obtenues à partir d'huile de poisson."
+            ],
+            "justification_fausses_reponses": {
+                "Les émulsions lipidiques utilisées en nutrition parentérale sont de type eau dans huile H/L (huile : phase dispersante)": "C'est incorrect car les émulsions lipidiques utilisées en nutrition parentérale sont de type huile dans eau (O/W), où l'huile est la phase dispersée et l'eau est la phase continue.",
+                "Il existe une monographie spécifique dans la Pharmacopée Européenne permettant de les caractériser et les contrôler.": "C'est faux car il n'existe pas de monographie spécifique dans la Pharmacopée Européenne pour les émulsions lipidiques utilisées en nutrition parentérale. Ces émulsions sont généralement caractérisées et contrôlées selon les normes générales pour les émulsions.",
+                "Ces émulsions peuvent être administrées avec un filtre de porosité de 0,2µm sur la ligne de perfusion.": "C'est incorrect car l'utilisation d'un filtre de porosité de 0,2µm pourrait entraîner le blocage du filtre en raison de la taille des gouttelettes d'huile dans l'émulsion. Un filtre de porosité plus grande est généralement recommandé."
+            }
+        },
+        {
+            "question": "Les matrices hydrophiles",
+            "options": [
+                "comportent, parmi les excipients de structure possibles, l'acétophtalate de cellulose ;",
+                "se présentent généralement sous forme de comprimés",
+                "gonflent au contact des fluides digestifs ;",
+                "libèrent leur principe actif lentement par diffusion ;",
+                "s'érodent lentement en surface lors du transit digestif ;"
+            ],
+            "correct_answers": [
+                "libèrent leur principe actif lentement par diffusion ;",
+                "gonflent au contact des fluides digestifs ;",
+                "se présentent généralement sous forme de comprimés"
+            ],
+            "justification_fausses_reponses": {
+                "comportent, parmi les excipients de structure possibles, l'acétophtalate de cellulose ;": "L'acétophtalate de cellulose est un excipient de structure utilisé dans les matrices hydrophobes, pas dans les matrices hydrophiles. Les matrices hydrophiles utilisent des polymères hydrophiles comme excipients de structure.",
+                "s'érodent lentement en surface lors du transit digestif ;": "Les matrices hydrophiles ne s'érodent pas lentement en surface lors du transit digestif. Au contraire, elles gonflent et se dissolvent progressivement au contact des fluides digestifs, libérant ainsi leur principe actif."
+            }
+        },
+        {
+            "question": "Après que le don ait été qualifié, il va soit être utilisé comme produit sanguin labile soit être intégré dans une chaîne de production pharmaceutique. Parmi les étapes suivantes, quelles sont celles qui sont réalisées systématiquement à l'arrivée du plasma",
+            "options": [
+                "Mélange des prélèvements pour constituer un pool.",
+                "Vérification de la qualification réalisée post don",
+                "Requalification des prélèvements (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+                "Requalification des mélanges (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+                "Mise en quarantaine à -30°C"
+            ],
+            "correct_answers": [
+                "Vérification de la qualification réalisée post don",
+                "Requalification des prélèvements (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+                "Mise en quarantaine à -30°C",
+                "Mélange des prélèvements pour constituer un pool.",
+                "Requalification des mélanges (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2)."
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant les nanoparticules ?",
+            "options": [
+                "les nanoparticules sont toujours sous forme de petits réservoirs, dénommés nanocapsules",
+                "Les nanoparticules sont généralement à base de polymères biodégradables ou de lipides",
+                "Les nanoparticules ne peuvent jamais être non biodégradables car elles s'accumuleraient.",
+                "Il n'existe qu'un seul processus de fabrication qui permettent d'obtenir des nanoparticules",
+                "Il existe de nombreuses techniques de fabrication"
+            ],
+            "correct_answers": [
+                "Les nanoparticules sont généralement à base de polymères biodégradables ou de lipides",
+                "Il existe de nombreuses techniques de fabrication"
+            ],
+            "justification_fausses_reponses": {
+                "les nanoparticules sont toujours sous forme de petits réservoirs, dénommés nanocapsules": "Cette affirmation est fausse car les nanoparticules peuvent prendre différentes formes, pas seulement celle de nanocapsules. Elles peuvent aussi être des nanosphères, des nanotubes, etc.",
+                "Les nanoparticules ne peuvent jamais être non biodégradables car elles s'accumuleraient.": "C'est incorrect. Bien que l'accumulation de nanoparticules non biodégradables puisse poser des problèmes environnementaux et de santé, il existe néanmoins des nanoparticules non biodégradables.",
+                "Il n'existe qu'un seul processus de fabrication qui permettent d'obtenir des nanoparticules": "C'est faux. Il existe de nombreuses méthodes pour fabriquer des nanoparticules, y compris la synthèse chimique, la lithographie, et la méthode de la précipitation."
+            }
+        },
+        {
+            "question": "Vous devez stériliser et garantir la stérilité d'une préparation injectable d'insuline, quelle(s) opération(s) allez-vous mettre en œuvre ?",
+            "options": [
+                "Filtration stérilisante",
+                "Chauffage à 121°C pendant 10 minutes",
+                "Addition d'un antiseptique",
+                "Préparations dans de l'eau p.p.i.",
+                "Préparation et conditionnement aseptique"
+            ],
+            "correct_answers": [
+                "Préparations dans de l'eau p.p.i.",
+                "Préparation et conditionnement aseptique"
+            ],
+            "justification_fausses_reponses": {
+                "Filtration stérilisante": "La filtration stérilisante n'est pas appropriée pour les préparations d'insuline car elle peut entraîner la dénaturation de la protéine d'insuline.",
+                "Chauffage à 121°C pendant 10 minutes": "Le chauffage à 121°C pendant 10 minutes n'est pas approprié pour les préparations d'insuline car il peut dénaturer la protéine d'insuline, ce qui rendrait la préparation inutilisable.",
+                "Addition d'un antiseptique": "L'addition d'un antiseptique n'est pas appropriée pour les préparations d'insuline car elle pourrait interférer avec l'activité de l'insuline et causer des effets indésirables chez le patient."
+            }
+        },
+        {
+            "question": "Soit les affirmations suivantes concernant, l'origine contrôlée des dons :",
+            "options": [
+                "Une age supérieur à 60 ans constitue une contre indication à tout don",
+                "Un soin dentaire depuis moins d'un mois est une contre-indication",
+                "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois",
+                "Un poids trop faible constitue une contre-indication au don",
+                "Un visite médicale est systématique"
+            ],
+            "correct_answers": [
+                "Un visite médicale est systématique",
+                "Un poids trop faible constitue une contre-indication au don",
+                "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois"
+            ],
+            "justification_fausses_reponses": {
+                "Une age supérieur à 60 ans constitue une contre indication à tout don": "Cette affirmation est fausse car l'âge n'est pas une contre-indication absolue au don. Il est possible de donner du sang jusqu'à 70 ans, voire plus, à condition d'être en bonne santé et d'avoir l'accord du médecin de la collecte.",
+                "Un soin dentaire depuis moins d'un mois est une contre-indication": "Cette affirmation est incorrecte. Un soin dentaire n'est pas une contre-indication au don de sang. Cependant, un délai de 7 jours est recommandé après un soin dentaire pour éviter tout risque d'infection."
+            }
+        },
+        {
+            "question": "Parmi les actions suivantes de sécurisation, quelles sont celles qui appartiennent à la classe des traitements ?",
+            "options": [
+                "Inactivation des pathogènes",
+                "Phénotypage",
+                "ajout d'une solution de conservation ;",
+                "Préparation pédiatrique",
+                "Irradiation"
+            ],
+            "correct_answers": [
+                "ajout d'une solution de conservation ;",
+                "Inactivation des pathogènes"
+            ],
+            "justification_fausses_reponses": {
+                "Phénotypage": "Le phénotypage est une technique de caractérisation des organismes et non une action de sécurisation ou un traitement.",
+                "Préparation pédiatrique": "La préparation pédiatrique est une méthode de formulation de médicaments pour les enfants, et non une action de sécurisation ou un traitement.",
+                "Irradiation": "L'irradiation est une méthode de stérilisation et non un traitement. Elle est utilisée pour éliminer les micro-organismes, mais ne fait pas partie de la classe des traitements."
+            }
+        },
+        {
+            "question": "Parmi les étapes suivantes, quelles sont celles qui participent à l'élimination du prion ?",
+            "options": [
+                "filtration profondeur et nanofiltration",
+                "Fractionnement éthanolique",
+                "PH4/pepsine",
+                "Pasteurisation",
+                "Chauffage à sec",
+                "Différents types de Chromatographies"
+            ],
+            "correct_answers": [
+                "Fractionnement éthanolique",
+                "Différents types de Chromatographies",
+                "filtration profondeur et nanofiltration"
+            ],
+            "justification_fausses_reponses": {
+                "PH4/pepsine": "Le traitement PH4/pepsine n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à ce type de traitement.",
+                "Pasteurisation": "La pasteurisation n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à des températures élevées.",
+                "Chauffage à sec": "Le chauffage à sec n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à des températures élevées."
+            }
+        },
+        {
+            "question": "Comment optimiser le processus de stérilisation d'une solution aqueuse injectable ?",
+            "options": [
+                "par remplissage des ampoules en salle blanche.",
+                "par conditionnement sous azote après remplissage des ampoules",
+                "par chauffage à 121°C sous pression après conditionnement en flacons",
+                "par filtration sur filtre écran de 0,22 microns",
+                "par préparation dans une eau purifiée"
+            ],
+            "correct_answers": [
+                "par chauffage à 121°C sous pression après conditionnement en flacons"
+            ],
+            "justification_fausses_reponses": {
+                "par remplissage des ampoules en salle blanche.": "Bien que la salle blanche réduise la contamination, elle ne stérilise pas la solution. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par le simple remplissage en salle blanche.",
+                "par conditionnement sous azote après remplissage des ampoules": "Le conditionnement sous azote peut aider à préserver la solution, mais il ne stérilise pas. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par le conditionnement sous azote.",
+                "par filtration sur filtre écran de 0,22 microns": "La filtration peut éliminer les particules et les micro-organismes de taille supérieure à 0,22 microns, mais elle ne peut pas éliminer les virus et les prions plus petits. Par conséquent, elle ne garantit pas une stérilisation complète.",
+                "par préparation dans une eau purifiée": "La préparation dans une eau purifiée peut réduire la contamination, mais elle ne stérilise pas la solution. La stérilisation nécessite l'élimination de tous les micro-organismes, ce qui n'est pas garanti par la préparation dans une eau purifiée."
+            }
+        },
+        {
+            "question": "Quelle (s) est( sont) la (les) proposition(s) exacte(s) concernant les comprimés ?",
+            "options": [
+                "L'enrobage à la carboxyméthylcellulose assure la gastro-résistance",
+                "La granulation humide est précédée d'un compactage",
+                "L'amidon de maïs est utilisé comme liant dans la granulation sèche.",
+                "Les comprimés nus doivent être désagrégés en moins de 15 secondes",
+                "La granulation améliore l'écoulement du mélange pour compression"
+            ],
+            "correct_answers": [
+                "La granulation améliore l'écoulement du mélange pour compression"
+            ],
+            "justification_fausses_reponses": {
+                "L'enrobage à la carboxyméthylcellulose assure la gastro-résistance": "C'est incorrect. L'enrobage à la carboxyméthylcellulose n'assure pas la gastro-résistance. Il est plutôt utilisé pour améliorer la solubilité et la stabilité du médicament.",
+                "La granulation humide est précédée d'un compactage": "C'est faux. Dans le processus de fabrication des comprimés, la granulation humide n'est pas précédée d'un compactage. Le compactage est plutôt une étape qui suit la granulation.",
+                "L'amidon de maïs est utilisé comme liant dans la granulation sèche.": "C'est incorrect. L'amidon de maïs n'est pas utilisé comme liant dans la granulation sèche. Il est plutôt utilisé comme désintégrant pour faciliter la désagrégation du comprimé dans l'estomac.",
+                "Les comprimés nus doivent être désagrégés en moins de 15 secondes": "C'est faux. Les comprimés nus n'ont pas besoin de se désagréger en moins de 15 secondes. Le temps de désagrégation dépend de la formulation du comprimé et de son usage prévu."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les solutés de remplissage, quelles sont celles qui sont exactes ?",
+            "options": [
+                "Les colloïdes sont d'origine naturelle",
+                "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+                "L'albumine est le soluté colloïde le mieux supporté.",
+                "Les dextrans ne doivent pas être administrés chez la femme enceinte",
+                "La solution de ringer Lactate est un toujours un cristalloïde hypertonique"
+            ],
+            "correct_answers": [
+                "Le pouvoir d'expansion volémique d'un soluté de remplissage dépendent de l'osmolarité du produit.",
+                "Les dextrans ne doivent pas être administrés chez la femme enceinte"
+            ],
+            "justification_fausses_reponses": {
+                "Les colloïdes sont d'origine naturelle": "Cette affirmation est fausse car tous les colloïdes ne sont pas d'origine naturelle. Il existe des colloïdes synthétiques comme les hydroxyéthylamidons.",
+                "L'albumine est le soluté colloïde le mieux supporté.": "Cette affirmation est incorrecte car la tolérance à l'albumine varie d'un individu à l'autre et dépend de nombreux facteurs, y compris la condition médicale du patient.",
+                "La solution de ringer Lactate est un toujours un cristalloïde hypertonique": "Cette affirmation est fausse car la solution de Ringer Lactate est généralement isotone, pas hypertonique. Elle a une osmolarité proche de celle du plasma sanguin."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant les comprimés, la (les) quelle (s) est (sont) exacte (s) ?",
+            "options": [
+                "l'addition d'amidon de maïs facilite la compression",
+                "la PVP est utilisée comme liant",
+                "le pelliculage est un enrobage à l'acétophtalate de cellulose",
+                "la silice colloïdale est un excipient pour compression directe",
+                "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+            ],
+            "correct_answers": [
+                "la PVP est utilisée comme liant",
+                "la silice colloïdale est un excipient pour compression directe",
+                "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+            ],
+            "justification_fausses_reponses": {
+                "l'addition d'amidon de maïs facilite la compression": "C'est incorrect. L'amidon de maïs est généralement utilisé comme agent de désagrégation plutôt que pour faciliter la compression. Il absorbe l'eau rapidement, ce qui aide le comprimé à se désintégrer et à libérer le médicament.",
+                "le pelliculage est un enrobage à l'acétophtalate de cellulose": "C'est incorrect. L'acétophtalate de cellulose est un type de plastifiant, pas un enrobage. Le pelliculage est généralement fait avec des polymères comme l'hydroxypropylméthylcellulose."
+            }
+        },
+        {
+            "question": "Quelles sont les affirmations correctes concernant la production des protéines recombinantes à propriété thérapeutique ?",
+            "options": [
+                "Seules quelques protéines humaines peuvent aujourd'hui être synthétisées par génie génétique",
+                "Les protéines recombinantes sont utilisées depuis environ 5 ans en thérapeutique",
+                "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+                "Les protéines recombinantes ne sont pas jamais glycosylées",
+                "La première molécule fabriquée par génie génétique a été l'insuline"
+            ],
+            "correct_answers": [
+                "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+                "La première molécule fabriquée par génie génétique a été l'insuline"
+            ],
+            "justification_fausses_reponses": {
+                "Seules quelques protéines humaines peuvent aujourd'hui être synthétisées par génie génétique": "Cette affirmation est fausse car de nombreuses protéines humaines peuvent être synthétisées par génie génétique, pas seulement quelques-unes.",
+                "Les protéines recombinantes sont utilisées depuis environ 5 ans en thérapeutique": "Cette affirmation est incorrecte car les protéines recombinantes sont utilisées en thérapeutique depuis plus de 5 ans. En fait, l'insuline recombinante a été approuvée pour la première fois en 1982.",
+                "Les protéines recombinantes ne sont pas jamais glycosylées": "Cette affirmation est incorrecte car les protéines recombinantes peuvent être glycosylées. La glycosylation est un processus post-traductionnel qui peut affecter la fonction et la stabilité des protéines."
+            }
+        }
+    ]
+}

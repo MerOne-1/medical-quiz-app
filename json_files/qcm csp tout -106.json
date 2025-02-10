@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine",
+      "Les molécules 1 et 2 font partie des « antimétabolites »",
+      "La molécule 1 est biodisponible par voie orale",
+      "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+      "La molécule 2 est administrée sous forme de poudre pour inhalation"
+    ],
+    "correct_answers": [
+      "La molécule 1 est biodisponible par voie orale",
+      "La molécule 2 est administrée sous forme de poudre pour inhalation",
+      "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+      "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "La dénomination commerciale des médicaments suit les règles définies par:",
+    "options": [
+      "l'OMS",
+      "l'IUPAC",
+      "l'IUPHAR",
+      "les firmes pharmaceutiques",
+      "les pharmacopées"
+    ],
+    "correct_answers": [
+      "les firmes pharmaceutiques"
+    ]
+  }
+]

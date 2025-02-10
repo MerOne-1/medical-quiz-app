@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les DM sont répartis dans 4 classes de risque en fonction de règles établies réglementairement et de critères de dangerosité",
+      "L'action principale d'un dispositif médical peut être obtenue par des moyens pharmacologiques ou immunologiques.",
+      "Le marquage CE d'un dispositif médical est accordé par l'ANSM.",
+      "A l'exception des dispositifs médicaux de plus faible risque, une évaluation par un organisme tiers, appelé organisme notifié, désigné par l'autorité compétente est nécessaire avant d'apposer le marquage CE.",
+      "L'ANSM est l'autorité compétente en matière de sécurité d'utilisation des dispositifs médicaux"
+    ],
+    "correct_answers": [
+      "L'ANSM est l'autorité compétente en matière de sécurité d'utilisation des dispositifs médicaux",
+      "Les DM sont répartis dans 4 classes de risque en fonction de règles établies réglementairement et de critères de dangerosité",
+      "A l'exception des dispositifs médicaux de plus faible risque, une évaluation par un organisme tiers, appelé organisme notifié, désigné par l'autorité compétente est nécessaire avant d'apposer le marquage CE."
+    ],
+    "justification_fausses_reponses": {
+      "L'action principale d'un dispositif médical peut être obtenue par des moyens pharmacologiques ou immunologiques.": "Cette affirmation est incorrecte car l'action principale d'un dispositif médical est obtenue principalement par des moyens physiques ou mécaniques, et non pharmacologiques ou immunologiques.",
+      "Le marquage CE d'un dispositif médical est accordé par l'ANSM.": "Cette affirmation est incorrecte car le marquage CE d'un dispositif médical est accordé par un organisme notifié, et non par l'ANSM."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Concernant les émulsions lipidiques employées en nutrition parentérale, la(les)quelle(s) de ces propositions est (sont) exacte(s) ?",
+    "options": [
+      "Il existe des émulsions obtenues à partir d'huile de poisson.",
+      "Les émulsions lipidiques peuvent être administrées par voie intra-veineuse, sur une voie veineuse centrale ou périphérique",
+      "Les émulsions lipidiques utilisées en nutrition parentérale sont de type eau dans huile H/L (huile : phase dispersante)",
+      "Il existe une monographie spécifique dans la Pharmacopée Européenne permettant de les caractériser et les contrôler.",
+      "Ces émulsions peuvent être administrées avec un filtre de porosité de 0,2µm sur la ligne de perfusion."
+    ],
+    "correct_answers": [
+      "Les émulsions lipidiques peuvent être administrées par voie intra-veineuse, sur une voie veineuse centrale ou périphérique",
+      "Il existe des émulsions obtenues à partir d'huile de poisson."
+    ],
+    "justification_fausses_reponses": {
+      "Les émulsions lipidiques utilisées en nutrition parentérale sont de type eau dans huile H/L (huile : phase dispersante)": "C'est incorrect car les émulsions lipidiques utilisées en nutrition parentérale sont de type huile dans eau (O/W), où l'huile est la phase dispersée et l'eau est la phase continue.",
+      "Il existe une monographie spécifique dans la Pharmacopée Européenne permettant de les caractériser et les contrôler.": "C'est faux car il n'existe pas de monographie spécifique dans la Pharmacopée Européenne pour les émulsions lipidiques utilisées en nutrition parentérale. Ces émulsions sont généralement caractérisées et contrôlées selon les normes générales pour les émulsions.",
+      "Ces émulsions peuvent être administrées avec un filtre de porosité de 0,2µm sur la ligne de perfusion.": "C'est incorrect car l'utilisation d'un filtre de porosité de 0,2µm pourrait entraîner le blocage du filtre en raison de la taille des gouttelettes d'huile dans l'émulsion. Un filtre de porosité plus grande est généralement recommandé."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Les matrices hydrophiles",
+    "options": [
+      "comportent, parmi les excipients de structure possibles, l'acétophtalate de cellulose ;",
+      "se présentent généralement sous forme de comprimés",
+      "gonflent au contact des fluides digestifs ;",
+      "libèrent leur principe actif lentement par diffusion ;",
+      "s'érodent lentement en surface lors du transit digestif ;"
+    ],
+    "correct_answers": [
+      "libèrent leur principe actif lentement par diffusion ;",
+      "gonflent au contact des fluides digestifs ;",
+      "se présentent généralement sous forme de comprimés"
+    ],
+    "justification_fausses_reponses": {
+      "comportent, parmi les excipients de structure possibles, l'acétophtalate de cellulose ;": "L'acétophtalate de cellulose est un excipient de structure utilisé dans les matrices hydrophobes, pas dans les matrices hydrophiles. Les matrices hydrophiles utilisent des polymères hydrophiles comme excipients de structure.",
+      "s'érodent lentement en surface lors du transit digestif ;": "Les matrices hydrophiles ne s'érodent pas lentement en surface lors du transit digestif. Au contraire, elles gonflent et se dissolvent progressivement au contact des fluides digestifs, libérant ainsi leur principe actif."
+    }
+  }
+]

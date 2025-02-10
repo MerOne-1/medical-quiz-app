@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des antipsychotiques, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "En cas d’intoxication aiguë sévère, tous les neuroleptiques dits « classiques », comme la chlorpromazine ou la fluphénazine, peuvent entraîner la survenue d’un coma calme, profond et hypotonique.",
+      "En cas d’intoxication aiguë, les antipsychotiques de 1ère génération peuvent entraîner la survenue d’un syndrome anticholinergique.",
+      "Les neuroleptiques de type phénothiazine sont responsables de résultats faussement positifs avec les méthodes de dépistage sanguin et urinaire, de type immunoanalyse, des antidépresseurs tricycliques.",
+      "Leur mécanisme d’action toxique repose sur leur propriété d’agonistes dopaminergiques non sélectifs.",
+      "Le syndrome malin aux neuroleptiques correspond à un syndrome de sevrage aux neuroleptiques."
+    ],
+    "correct_answers": [
+      "Leur mécanisme d’action toxique repose sur leur propriété d’agonistes dopaminergiques non sélectifs.",
+      "En cas d’intoxication aiguë sévère, tous les neuroleptiques dits « classiques », comme la chlorpromazine ou la fluphénazine, peuvent entraîner la survenue d’un coma calme, profond et hypotonique.",
+      "Le syndrome malin aux neuroleptiques correspond à un syndrome de sevrage aux neuroleptiques."
+    ],
+    "justification_fausses_reponses": {
+      "En cas d’intoxication aiguë, les antipsychotiques de 1ère génération peuvent entraîner la survenue d’un syndrome anticholinergique.": "Cette affirmation est incorrecte car les antipsychotiques de première génération ont des effets anticholinergiques, mais ils ne provoquent pas de syndrome anticholinergique en cas d'intoxication aiguë. Le syndrome anticholinergique est caractérisé par une sécheresse de la bouche, une mydriase, une tachycardie, une rétention urinaire, une constipation, une confusion et des hallucinations.",
+      "Les neuroleptiques de type phénothiazine sont responsables de résultats faussement positifs avec les méthodes de dépistage sanguin et urinaire, de type immunoanalyse, des antidépresseurs tricycliques.": "Cette affirmation est incorrecte car les neuroleptiques de type phénothiazine ne sont pas connus pour donner des résultats faussement positifs lors des tests de dépistage des antidépresseurs tricycliques. Les tests de dépistage sont spécifiques et ne devraient pas être affectés par la présence de neuroleptiques."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication par les hydrocarbures aromatiques polycycliques (HAP), laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Ils sont responsables d’effets irritants, inflammatoires, voire mutagènes/cancérogènes.",
+      "Ils sont présents dans l’atmosphère uniquement sous forme particulaire.",
+      "Ils sont mesurables dans les matrices humaines que sous formes de métabolites et par CLHP-UV.",
+      "Ils sont issus de la pyrolyse/pyrosynthèse de matériaux inorganiques.",
+      "Ils sont métabolisés dans l’organisme humain après l’activation de la voie de signalisation de l’Aryl hydrocarbon Receptor (AhR)."
+    ],
+    "correct_answers": [
+      "Ils sont issus de la pyrolyse/pyrosynthèse de matériaux inorganiques.",
+      "Ils sont métabolisés dans l’organisme humain après l’activation de la voie de signalisation de l’Aryl hydrocarbon Receptor (AhR).",
+      "Ils sont responsables d’effets irritants, inflammatoires, voire mutagènes/cancérogènes."
+    ],
+    "justification_fausses_reponses": {
+      "Ils sont présents dans l’atmosphère uniquement sous forme particulaire.": "Cette affirmation est incorrecte car les HAP peuvent être présents dans l'atmosphère sous forme gazeuse ou particulaire, en fonction de leur poids moléculaire et de la température.",
+      "Ils sont mesurables dans les matrices humaines que sous formes de métabolites et par CLHP-UV.": "Cette affirmation est incorrecte car les HAP peuvent être mesurés dans les matrices humaines sous différentes formes, pas seulement sous forme de métabolites. De plus, plusieurs méthodes analytiques peuvent être utilisées, pas seulement la CLHP-UV."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces composés, lequel (lesquels) a (ont) été classé(s) par le CIRC cancérogène(s) pour l’homme :",
+    "options": [
+      "Benzo[a]pyrène.",
+      "Benzène.",
+      "Aluminium.",
+      "Hexane.",
+      "Amiante."
+    ],
+    "correct_answers": [
+      "Amiante.",
+      "Benzène.",
+      "Benzo[a]pyrène."
+    ],
+    "justification_fausses_reponses": {
+      "Aluminium.": "L'aluminium n'a pas été classé comme cancérogène pour l'homme par le CIRC. Bien qu'il soit omniprésent dans notre environnement et que son exposition à long terme ait été associée à certains problèmes de santé, les preuves de sa cancérogénicité ne sont pas suffisantes.",
+      "Hexane.": "L'hexane n'a pas été classé comme cancérogène pour l'homme par le CIRC. Il est principalement utilisé comme solvant dans l'industrie et peut causer des problèmes de santé en cas d'exposition prolongée, mais il n'est pas considéré comme cancérogène."
+    }
+  }
+]

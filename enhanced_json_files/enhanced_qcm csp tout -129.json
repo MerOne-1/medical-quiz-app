@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "La vinorelbine :",
+    "options": [
+      "est réservée à la voie injectable",
+      "est un anticancéreux",
+      "est utilisée uniquement en milieu hospitalier",
+      "nécessite une surveillance hématologique",
+      "requiert un carnet de suivi à remettre au patient"
+    ],
+    "correct_answers": [
+      "est un anticancéreux",
+      "nécessite une surveillance hématologique",
+      "requiert un carnet de suivi à remettre au patient"
+    ],
+    "justification_fausses_reponses": {
+      "est réservée à la voie injectable": "La vinorelbine peut être administrée par voie orale ou injectable. Elle n'est donc pas réservée uniquement à la voie injectable.",
+      "est utilisée uniquement en milieu hospitalier": "La vinorelbine peut être utilisée en milieu hospitalier mais aussi en ambulatoire, sous la surveillance d'un professionnel de santé. Elle n'est donc pas utilisée uniquement en milieu hospitalier."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’une bactérie ?",
+    "options": [
+      "Exénatide",
+      "Amphotéricine B",
+      "Vancomycine",
+      "Artémisinine",
+      "Pénicilline G"
+    ],
+    "correct_answers": [
+      "Vancomycine",
+      "Amphotéricine B"
+    ],
+    "justification_fausses_reponses": {
+      "Exénatide": "L'Exénatide est un peptide synthétisé à partir de la salive du monstre de Gila, un lézard venimeux, et non d'une bactérie.",
+      "Artémisinine": "L'Artémisinine est une molécule issue de la plante Artemisia annua, utilisée en médecine traditionnelle chinoise, et non d'une bactérie.",
+      "Pénicilline G": "La Pénicilline G est produite par un champignon, le Penicillium chrysogenum, et non par une bactérie."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les associations ‘médicament – immunophiline – cible’ suivantes, la/lesquelle(s) est (sont) pertinente(s) ?",
+    "options": [
+      "Tacrolimus – FKBP12 – calcineurine",
+      "Sirolimus –FKBP12 – mT OR",
+      "Acide mycophénolique – FKBP12 - mT OR",
+      "Ciclosporine – cyclophiline A – calcineurine",
+      "Rapamycine – cyclophiline A- mT OR"
+    ],
+    "correct_answers": [
+      "Ciclosporine – cyclophiline A – calcineurine",
+      "Tacrolimus – FKBP12 – calcineurine",
+      "Sirolimus –FKBP12 – mT OR"
+    ],
+    "justification_fausses_reponses": {
+      "Acide mycophénolique – FKBP12 - mT OR": "L'acide mycophénolique n'interagit pas avec FKBP12, mais inhibe plutôt l'enzyme inosine monophosphate déshydrogénase, ce qui a un effet immunosuppresseur.",
+      "Rapamycine – cyclophiline A- mT OR": "La rapamycine, également connue sous le nom de sirolimus, interagit avec FKBP12 et non avec la cyclophiline A. De plus, sa cible est mTOR et non mTOR."
+    }
+  }
+]

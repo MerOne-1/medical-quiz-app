@@ -1,0 +1,40 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 5/22Question 12
+Non répondue
+Noté sur 1,00
+Question 13
+Non répondue
+Noté sur 1,00
+Question 14
+Non répondue
+Noté sur 1,00En spectrophométrie moléculaire, la sensibilité d'un dosage dépend:
+Veuillez choisir au moins une réponse :
+De l'intensité du rayonnement incident
+De la longueur du trajet optique
+De la longueur d'onde du maximum d'absorption du solvant
+Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption
+Du système de mesure de l'intensité de la lumière transmise
+Votre réponse est incorrecte.
+Les réponses correctes sont : Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption, De
+la longueur du trajet optique, Du système de mesure de l'intensité de la lumière transmise
+A combien de microlitres correspond un litre ?
+Veuillez choisir au moins une réponse :
+10
+10
+1 000 000
+1/10
+0.001-6
+5
+-6
+Votre réponse est incorrecte.
+Les réponses correctes sont : 1 000 000, 1/10-6
+Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
+En électrophorèse capillaire, la mobilité apparente (expérimentale):
+Veuillez choisir au moins une réponse :
+Ne dépend pas du flux électroosmotique
+Est proportionnelle au temps de migration
+Dépend du flux électroosmotique
+Ne dépend que de la vitesse électrophorétique de l'analyte
+Est proportionnelle à la longueur du tube capillaire
+Votre réponse est incorrecte.
+Les réponses correctes sont : Dépend du flux électroosmotique, Est proportionnelle à la longueur du tube capillaire

@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les maladies infectieuses suivantes, laquelle n'est pas à déclaration obligatoire?",
+    "options": [
+      "Méningite cérébro-spinale",
+      "Grippe",
+      "Fièvre typhoïde",
+      "Rougeole",
+      "Légionellose"
+    ],
+    "correct_answers": [
+      "Grippe"
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "D’après la classification de Zimmerman, les réactions hépatotoxiques à caractère prévisible se caractérisent par :",
+    "options": [
+      "Un risque augmenté par induction enzymatique.",
+      "Une récidive en cas de ré-administration de la substance toxique.",
+      "Des signes d’hypersensibilité.",
+      "Une relation dose-dépendante.",
+      "Une reproductibilité chez l’animal."
+    ],
+    "correct_answers": [
+      "Une relation dose-dépendante.",
+      "Une récidive en cas de ré-administration de la substance toxique.",
+      "Une reproductibilité chez l’animal.",
+      "Un risque augmenté par induction enzymatique."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces affirmations concernant le syndrome de fièvres isolées transitoires consécutives à l’inhalation de certaines substances toxiques, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Cette affection maligne très spécifique débute par une irritation des voies aériennes supérieures, une oppression thoracique et une hyperthermie.",
+      "Ce syndrome peut être lié à l’inhalation d’oxydes métalliques.",
+      "Ce syndrome évolue très fréquemment en œdème aigu du poumon.",
+      "Le développement de ce syndrome implique l’activation des macrophages alvéolaires et le développement d’une réponse inflammatoire.",
+      "Ce syndrome fébrile est irréversible."
+    ],
+    "correct_answers": [
+      "Ce syndrome peut être lié à l’inhalation d’oxydes métalliques.",
+      "Le développement de ce syndrome implique l’activation des macrophages alvéolaires et le développement d’une réponse inflammatoire."
+    ]
+  }
+]

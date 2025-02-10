@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la PCR laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+      "Elle nécessite l’utilisation d’amorces d’ARN",
+      "Il s’agit d’une technique d’amplification d’ADN",
+      "Il s’agit d’une technique de clonage cellulaire",
+      "Elle nécessite l’utilisation d’amorces aléatoires"
+    ],
+    "correct_answers": [
+      "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+      "Il s’agit d’une technique d’amplification d’ADN"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le bromure d’éthidium, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet de visualiser les acides nucléiques",
+      "Il permet d’extraire les ARN des cellules",
+      "Aucune des affirmations n’est exacte",
+      "Il dénature l’ADN",
+      "Il dégrade spécifiquement l’ADN"
+    ],
+    "correct_answers": [
+      "Il permet de visualiser les acides nucléiques"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Le métabolisme des acides aminés est lié à d’autres voies métaboliques. Laquelle (lesquelles) ?",
+    "options": [
+      "Glycolyse",
+      "Néoglucogenèse",
+      "Voie des pentoses phosphate",
+      "Cycle de Krebs",
+      "Biosynthèse des nucléotides"
+    ],
+    "correct_answers": [
+      "Cycle de Krebs",
+      "Voie des pentoses phosphate",
+      "Biosynthèse des nucléotides",
+      "Glycolyse",
+      "Néoglucogenèse"
+    ]
+  }
+]

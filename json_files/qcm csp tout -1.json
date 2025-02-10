@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Soit un échantillon représentatif d’une certaine population constitué de 60 individus ayant bénéficié de trois traitements différents (20 individus pour chaque traitement) visant à diminuer la cholestérolémie. On veut, avec un test paramétrique, tester s’il y a des différences d’efficacité entre les trois traitements en comparant les cholestérolémies moyennes. P armi les propositions suivantes, lesquelles sont correctes ?",
+    "options": [
+      "La variable de décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au dénominateur",
+      "Si la variable de décision calculée est à l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+      "La variable de décision est le rapport entre la variance intra-groupes sur la variance inter-groupes",
+      "Si la variable de décision calculée est en dehors de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+      "Il s’agit d’une analyse de variance à un facteur fixe"
+    ],
+    "correct_answers": [
+      "Il s’agit d’une analyse de variance à un facteur fixe",
+      "Si la variable de décision calculée est à l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+      "La variable de décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au dénominateur"
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant la régression linéaire simple de Y en fonction de X, quelles sont les propositions correctes ?",
+    "options": [
+      "Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y",
+      "La régression simple la plus pertinente de Y en fonction de X est toujours linéaire",
+      "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+      "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ  contre la valeur zéro",
+      "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression soient distribués selon une loi normale"
+    ],
+    "correct_answers": [
+      "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+      "Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y",
+      "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression soient distribués selon une loi normale",
+      "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ  contre la valeur zéro"
+    ]
+  }
+]

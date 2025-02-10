@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "L'estramustine est un agent antinéoplasique, il est utilisé dans la prise en charge de cancers de la prostate. La synthèse de l'estramustine à partir de l'estradiol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le composé 1 est un réactif nucléophile",
+      "Le composé 1 est un réactif électrophile",
+      "L'estradiol possède une fonction phénol",
+      "L'estramustine présente un caractère électrophile",
+      "L'Estradiol présente un caractère électrophile"
+    ],
+    "correct_answers": [
+      "Le composé 1 est un réactif électrophile",
+      "L'estradiol possède une fonction phénol",
+      "L'estramustine présente un caractère électrophile"
+    ],
+    "justification_fausses_reponses": {
+      "Le composé 1 est un réactif nucléophile": "Cette affirmation est incorrecte car le composé 1 est un réactif électrophile, ce qui signifie qu'il a tendance à attirer les électrons et non à les donner, comme le ferait un réactif nucléophile.",
+      "L'Estradiol présente un caractère électrophile": "Cette affirmation est incorrecte car l'estradiol, en tant que stéroïde, possède une fonction phénol et non un caractère électrophile. Un composé électrophile est un accepteur d'électrons, ce qui n'est pas le cas de l'estradiol."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+      "Le levosalbutamol possède une fonction phénol",
+      "Le levosalbutamol possède une fonction amide",
+      "Le levosalbutamol possède une fonction amine tertiaire",
+      "Le levosalbutamol possède un carbone asymétrique"
+    ],
+    "correct_answers": [
+      "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+      "Le levosalbutamol possède une fonction phénol",
+      "Le levosalbutamol possède un carbone asymétrique"
+    ],
+    "justification_fausses_reponses": {
+      "Le levosalbutamol possède une fonction amide": "Cette affirmation est incorrecte car le levosalbutamol ne possède pas de fonction amide. Une fonction amide est un groupe fonctionnel qui contient une liaison carbone-nitrogène double et une liaison carbone-nitrogène simple, ce qui n'est pas le cas dans la structure du levosalbutamol.",
+      "Le levosalbutamol possède une fonction amine tertiaire": "Cette affirmation est incorrecte car le levosalbutamol ne possède pas de fonction amine tertiaire. Une fonction amine tertiaire est un groupe fonctionnel qui contient un atome d'azote lié à trois groupes alkyles, ce qui n'est pas le cas dans la structure du levosalbutamol."
+    }
+  }
+]

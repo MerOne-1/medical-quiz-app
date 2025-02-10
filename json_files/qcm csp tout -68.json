@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La structure du glutathion présente deux atomes de carbone asymétriques",
+      "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+      "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+      "La structure du glutathion présente une cystéine et une glycine",
+      "Le glutathion peut former des ponts disulfures"
+    ],
+    "correct_answers": [
+      "La structure du glutathion présente deux atomes de carbone asymétriques",
+      "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+      "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+      "La structure du glutathion présente une cystéine et une glycine",
+      "Le glutathion peut former des ponts disulfures"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La chloroquine possède un noyau indole",
+      "La chloroquine est administrée sous la forme d'un mélange racémique",
+      "La chloroquine est protonée à pH physiologique (pH 7,4)",
+      "L'atome de chlore présente un effet inductif électroattracteur",
+      "L'atome d'azote de l'hétérocycle est un bon donneur de liaison hydrogène"
+    ],
+    "correct_answers": [
+      "La chloroquine est administrée sous la forme d'un mélange racémique",
+      "La chloroquine est protonée à pH physiologique (pH 7,4)",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ]
+  }
+]

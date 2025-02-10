@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Mme Jeanine V, 27 ans, traductrice, est enceinte de 6 mois. Un bilan biologique a été réalisé qui donne les résultats suivants : Recherche de l'antigène HBs : négative Recherche d'anticorps anti-Rubéole : de type IgG : négative de type IgM : négative Parmi les items suivants, lesquels s'appliquent à ces résultats ?",
+    "options": [
+      "Mme Jeanine V n'est pas infectée par le HBV",
+      "Mme Jeanine V n'est pas immunisée contre la Rubéole",
+      "Mme Jeanine V est infectée par le HBV",
+      "Mme Jeanine V est infectée par le virus de la Rubéole",
+      "Mme Jeanine V est immunisée contre la Rubéole"
+    ],
+    "correct_answers": [
+      "Mme Jeanine V n'est pas infectée par le HBV",
+      "Mme Jeanine V n'est pas immunisée contre la Rubéole"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Mme Juliette T., 21 ans, étudiante, se plaint de boutons de fièvres. Concernant cette pathologie, quels sont les réponses vraies ?",
+    "options": [
+      "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+      "C'est une forme clinique potentiellement récidivante",
+      "Un traitement par Ganciclovir peut être proposé",
+      "Un traitement par Aciclovir en topique peut être proposé",
+      "C'est une forme clinique très contagieuse"
+    ],
+    "correct_answers": [
+      "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+      "C'est une forme clinique très contagieuse",
+      "C'est une forme clinique potentiellement récidivante",
+      "Un traitement par Aciclovir en topique peut être proposé"
+    ]
+  }
+]

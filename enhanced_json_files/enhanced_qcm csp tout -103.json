@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule?",
+    "options": [
+      "cetirizine",
+      "ipratropium",
+      "loratadine",
+      "théophylline",
+      "ephedrine"
+    ],
+    "correct_answers": [
+      "loratadine"
+    ],
+    "justification_fausses_reponses": {
+      "cetirizine": "La cetirizine est incorrecte car sa structure chimique est différente de celle de la loratadine. La cetirizine est un antihistaminique utilisé pour traiter les allergies, tandis que la loratadine est également un antihistaminique mais avec une structure et des propriétés différentes.",
+      "ipratropium": "L'ipratropium est incorrect car sa structure chimique est différente de celle de la loratadine. L'ipratropium est un médicament utilisé pour traiter les maladies pulmonaires obstructives chroniques, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies.",
+      "théophylline": "La théophylline est incorrecte car sa structure chimique est différente de celle de la loratadine. La théophylline est un bronchodilatateur utilisé pour traiter l'asthme et d'autres maladies pulmonaires, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies.",
+      "ephedrine": "L'éphédrine est incorrecte car sa structure chimique est différente de celle de la loratadine. L'éphédrine est un stimulant, un suppresseur de l'appétit et un décongestionnant, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Les interactions p - p ( stacking  ou empilage) sont des:",
+    "options": [
+      "Interactions dipôle-dipôle",
+      "Interactions hydrophobes",
+      "Interactions charge-dipôle",
+      "Liaisons hydrogène",
+      "Interactions électrostatiques"
+    ],
+    "correct_answers": [
+      "Interactions électrostatiques",
+      "Interactions dipôle-dipôle"
+    ],
+    "justification_fausses_reponses": {
+      "Interactions hydrophobes": "Les interactions hydrophobes sont des interactions non polaires qui se produisent entre des molécules non polaires dans un environnement aqueux. Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle.",
+      "Interactions charge-dipôle": "Les interactions charge-dipôle se produisent entre une molécule polaire et une molécule chargée. Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle.",
+      "Liaisons hydrogène": "Les liaisons hydrogène sont des interactions spécifiques qui se produisent entre un atome d'hydrogène et un atome électronégatif (comme l'oxygène, l'azote ou le fluor). Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle."
+    }
+  }
+]

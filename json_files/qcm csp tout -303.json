@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Cocher la (ou les) bonnes propositions de placements selon l’ordre évolutif",
+    "options": [
+      "Gymnospermes, Plantes terrestres, ptéridophytes, Angiospermes, bryophytes, Embryophytes",
+      "Algues vertes, bryophytes, ptéridophytes, G ymnospermes, Angiospermes",
+      "Bryophytes, Embryophytes, G ymnospermes, Plantes terrestres, Angiospermes, ptéridophytes",
+      "Algues vertes, Plantes terrestres, ptéridophytes, G ymnospermes, Angiospermes",
+      "Algues vertes, ptéridophytes, G ymnospermes, Angiospermes, Embryophytes, bryophytes"
+    ],
+    "correct_answers": [
+      "Algues vertes, bryophytes, ptéridophytes, G ymnospermes, Angiospermes",
+      "Algues vertes, Plantes terrestres, ptéridophytes, G ymnospermes, Angiospermes"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à un état diploïde",
+    "options": [
+      "Opercule, protonéma, spore",
+      "Protonéma, spore, sporogone",
+      "Archégone, sporogone",
+      "Sporogone, sporophyte",
+      "Opercule, zygote"
+    ],
+    "correct_answers": [
+      "Sporogone, sporophyte",
+      "Opercule, zygote"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+    "options": [
+      "La phase claire de la photosynthèse permet la transformation de l'énergie lumineuse en énergie utilisable par la cellule (A TP)",
+      "La photosynthèse consomme du C O2 et émet de l'O2 alors que les échanges gazeux lors de la respiration sont l'inverse",
+      "Les éléments produits lors de la phase claire sont utilisés ors de la phase sombre",
+      "Les premières molécules produites par la photosynthèse sont des acides aminés",
+      "L'équation générale de la photosynthèse est : 6CO2 + 12H2O + lumière → C6H12O6 + 6O2 + 6H2O."
+    ],
+    "correct_answers": [
+      "La photosynthèse consomme du C O2 et émet de l'O2 alors que les échanges gazeux lors de la respiration sont l'inverse",
+      "La phase claire de la photosynthèse permet la transformation de l'énergie lumineuse en énergie utilisable par la cellule (A TP)",
+      "L'équation générale de la photosynthèse est : 6CO2 + 12H2O + lumière → C6H12O6 + 6O2 + 6H2O.",
+      "Les éléments produits lors de la phase claire sont utilisés ors de la phase sombre"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 3/22Question 6
+Non répondue
+Noté sur 1,00
+Question 7
+Non répondue
+Noté sur 1,00
+Question 8
+Non répondue
+Noté sur 1,00Le dosage d’une solution d’ibuprofène est réalisé par CLHP. L’expérience est répétée 3 fois. Les résultats obtenus sont les
+suivants : C  = 1,98 mg/L, C  = 2,00 mg/L et C  = 2,02 mg/L. Comment doivent être présentés les résultats ?
+Veuillez choisir au moins une réponse :
+C  = 2,00 mg/L ; écart-type = 0,1 ; coefficient de variation = 2 %
+C  = 2,00 mg/L ; écart-type = 0,02 ; coefficient de variation = 1 %
+C  = 2 mg/L ; écart-type = 0,0200 ; coefficient de variation = 1,00 %
+C  = 2,0 mg/L ; écart-type = 0,2 ; coefficient de variation = 10 %
+C  = 2 mg/L ; écart-type = 0,01 ; coefficient de variation = 5 %1 2 3
+moyenne
+moyenne
+moyenne
+moyenne
+moyenne
+Votre réponse est incorrecte.
+La réponse correcte est : C  = 2,00 mg/L ; écart-type = 0,02 ; coefficient de variation = 1 % moyenne
+Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
+En électrophorèse capillaire, le sens de migration de l'analyte dépend:
+Veuillez choisir au moins une réponse :
+De la nature de l'analyte
+Du flux d'électroendosmose
+De la vitesse électrophorétique de l'analyte chargé
+De la longueur du tube capillaire
+De l'intensité du courant électrique
+Votre réponse est incorrecte.
+Les réponses correctes sont : De la nature de l'analyte, Du flux d'électroendosmose, De la vitesse électrophorétique de
+l'analyte chargé
+Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exactes?
+Le coefficient d'extinction molaire d' une substance absorbante peut:
+Veuillez choisir au moins une réponse :
+Varier avec la longueur d'onde
+Etre modifié par la nature du solvant
+Etre identique à 2 longueurs d'onde différentes
+Varier avec  la température
+Varier avec la longueur du trajet optique
+Votre réponse est incorrecte.
+Les réponses correctes sont : V arier avec  la température, V arier avec la longueur d'onde, Etre modifié par la nature du solvant,
+Etre identique à 2 longueurs d'onde différentes

@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Lorsqu’on fait une dilution au-demi d’une solution A dans l’eau, quels volumes mélange-t-on ?",
+    "options": [
+      "20 mL A + 40 cm HO",
+      "200µL A + 4/5 mLH O",
+      "50 mL A + 50 mL H O",
+      "20 mL A + 10 mL H O",
+      "0.50 L A + 500 mL H O"
+    ],
+    "correct_answers": [
+      "50 mL A + 50 mL H O",
+      "0.50 L A + 500 mL H O"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? Pour doser le paracétamol dans un comprimé par spectroscopie dans le domaine spectrale de l’UV, après avoir broyé le comprimé pour obtenir une poudre homogène :",
+    "options": [
+      "on pourra mesurer l’absorbance de l’échantillon préparé, à 243 nm",
+      "on pourra mesurer l’absorbance de l’échantillon préparé, à 420 nm",
+      "on préparera une solution aqueuse de paracétamol en introduisant une masse connue de la poudre issue du comprimé dans un volume connu de solvant",
+      "on utilisera une cuve en verre",
+      "on préparera une pastille de KBr en introduisant une masse connue de la poudre issue du comprimé dans une masse donnée de KBr"
+    ],
+    "correct_answers": [
+      "on préparera une solution aqueuse de paracétamol en introduisant une masse connue de la poudre issue du comprimé dans un volume connu de solvant",
+      "on pourra mesurer l’absorbance de l’échantillon préparé, à 243 nm"
+    ]
+  }
+]

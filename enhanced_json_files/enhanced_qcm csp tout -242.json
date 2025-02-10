@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les cellules souches embryonnaires, quelles sont les propositions vraies",
+    "options": [
+      "Elles se trouvent dans tous les tissus adultes",
+      "Elles sont indifférenciées",
+      "Elles se trouvent dans la masse cellulaire interne de l’embryon au stade blastocyste",
+      "Elles sont totipotentes",
+      "Elles peuvent être mises en culture"
+    ],
+    "correct_answers": [
+      "Elles se trouvent dans la masse cellulaire interne de l’embryon au stade blastocyste",
+      "Elles sont indifférenciées",
+      "Elles peuvent être mises en culture"
+    ],
+    "justification_fausses_reponses": {
+      "Elles se trouvent dans tous les tissus adultes": "C'est incorrect car les cellules souches embryonnaires ne se trouvent pas dans tous les tissus adultes. Elles sont présentes uniquement dans l'embryon au stade blastocyste.",
+      "Elles sont totipotentes": "C'est incorrect car les cellules souches embryonnaires ne sont pas totipotentes, mais pluripotentes. Elles peuvent donner naissance à tous les types de cellules de l'organisme, mais pas à un organisme entier comme le peuvent les cellules totipotentes."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la mitose, quelles sont les propositions vraies",
+    "options": [
+      "La quantité d’ADN double pendant la prophase",
+      "Des cellules en mitose se caractérisent par des chromosomes visibles en microscopie optique",
+      "L’anaphase est une phase de la mitose",
+      "La phase M est constituée de 5 phases",
+      "La prophase correspond à la phase où les chromosomes homologues se séparent"
+    ],
+    "correct_answers": [
+      "L’anaphase est une phase de la mitose",
+      "Des cellules en mitose se caractérisent par des chromosomes visibles en microscopie optique",
+      "La phase M est constituée de 5 phases"
+    ],
+    "justification_fausses_reponses": {
+      "La quantité d’ADN double pendant la prophase": "C'est incorrect car la quantité d'ADN double pendant la phase S de l'interphase, pas pendant la prophase de la mitose.",
+      "La prophase correspond à la phase où les chromosomes homologues se séparent": "C'est incorrect car c'est pendant l'anaphase que les chromosomes homologues se séparent, pas pendant la prophase."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les biothérapies, quelles sont les propositions vraies",
+    "options": [
+      "Dans le cas de la thérapie cellulaire par utilisation de cellules iPS (induced Pluripotent Stem cells), il est nécessaire de trouver une lignée de cellules souches embryonnaires immuno-compatibles",
+      "Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants",
+      "La thérapie cellulaire consiste à l’injection de cellules souches pour réparer un tissu ou la fonction d’un organe",
+      "Dans le cas de la thérapie cellulaire, les cellules greffées n’ont pas besoin d’être immuno-compatibles",
+      "Les biothérapies basées sur l’utilisation de molécules naturelles produites par des organismes vivants ciblent la guérison définitive des patients par une administration unique (« one shot treatment »)"
+    ],
+    "correct_answers": [
+      "Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants"
+    ],
+    "justification_fausses_reponses": {
+      "Dans le cas de la thérapie cellulaire par utilisation de cellules iPS (induced Pluripotent Stem cells), il est nécessaire de trouver une lignée de cellules souches embryonnaires immuno-compatibles": "C'est incorrect car les cellules iPS sont générées à partir des cellules somatiques du patient, donc elles sont déjà immuno-compatibles.",
+      "La thérapie cellulaire consiste à l’injection de cellules souches pour réparer un tissu ou la fonction d’un organe": "C'est une simplification excessive. La thérapie cellulaire peut impliquer l'utilisation de cellules souches, mais elle peut également impliquer l'utilisation d'autres types de cellules.",
+      "Dans le cas de la thérapie cellulaire, les cellules greffées n’ont pas besoin d’être immuno-compatibles": "C'est faux. Les cellules greffées doivent être immuno-compatibles pour éviter le rejet par le système immunitaire du patient.",
+      "Les biothérapies basées sur l’utilisation de molécules naturelles produites par des organismes vivants ciblent la guérison définitive des patients par une administration unique (« one shot treatment »)": "C'est incorrect. Bien que certaines biothérapies puissent viser une guérison définitive, elles nécessitent généralement plusieurs administrations et ne garantissent pas toujours une guérison complète."
+    }
+  }
+]

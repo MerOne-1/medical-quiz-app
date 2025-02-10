@@ -1,0 +1,50 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 1/13Accueil /Mes cours /Faculté de Pharmacie /Diplôme de Docteur en pharmacie /4 ème année
+/CSP - Certificat de synthèse pharmaceutique /Préparation du CSP /Sciences physico-chimiques et ingénierie appliquée à la santé
+/Quiz - Biomathématiques
+Question 1
+Non répondue
+Noté sur 1,00
+Question 2
+Non répondue
+Noté sur 1,00Commencé le samedi 16 mai 2020, 06:45
+État Terminé
+Terminé le samedi 16 mai 2020, 06:46
+Temps mis 6 s
+Soit un échantillon représentatif d’une certaine population constitué de 60 individus ayant bénéficié de trois traitements
+différents (20 individus pour chaque traitement) visant à diminuer la cholestérolémie. On veut, avec un test paramétrique,
+tester s’il y a des différences d’efficacité entre les trois traitements en comparant les cholestérolémies moyennes. P armi les
+propositions suivantes, lesquelles sont correctes ?
+Veuillez choisir au moins une réponse :
+La variable de décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au
+numérateur et à 57 au dénominateur
+Si la variable de décision calculée est à l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter
+l’hypothèse H  d’égalité des moyennes
+La variable de décision est le rapport entre la variance intra-groupes sur la variance inter-groupes
+Si la variable de décision calculée est en dehors de l’intervalle de confiance à 95%, alors on ne peut pas rejeter
+l’hypothèse H  d’égalité des moyennes
+Il s’agit d’une analyse de variance à un facteur fixe0
+0
+0
+Votre réponse est incorrecte.
+Les réponses correctes sont : Il s’agit d’une analyse de variance à un facteur fixe, Si la variable de décision calculée est à
+l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes, La variable de
+décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au
+dénominateur0
+0
+Concernant la régression linéaire simple de Y en fonction de X, quelles sont les propositions correctes ?
+Veuillez choisir au moins une réponse :
+Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et
+Y
+La régression simple la plus pertinente de Y en fonction de X est toujours linéaire
+On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β
+Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ  contre la
+valeur zéro
+Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la
+régression soient distribués selon une loi normaleXY
+Votre réponse est incorrecte.
+Les réponses correctes sont : On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β, T ester la
+pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y, P our
+pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression
+soient distribués selon une loi normale, T ester la pente de la droite de régression contre la valeur zéro revient à tester le
+coefficient de corrélation ρ  contre la valeur zéroXY

@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D.",
+      "Les triglycérides ne peuvent être absorbés qu’après digestion complète en acides gras et glycérol.",
+      "Les entérocytes sécrètent une lipase dans la lumière intestinale.",
+      "L’anhydrase carbonique est essentielle à la sécrétion de l’acide chlorhydrique par la muqueuse gastrique.",
+      "La gastrine est seule responsable de la sécrétion acide gastrique."
+    ],
+    "correct_answers": [
+      "L’anhydrase carbonique est essentielle à la sécrétion de l’acide chlorhydrique par la muqueuse gastrique."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "TOUTES LES PROPOSITIONS SONT EXACTES, SAUF UNE. SELECTIONNER LA SEULE PROPOSITION INEXACTE Les récepteurs muscariniques :",
+    "options": [
+      "Les récepteurs muscariniques M2 sont des récepteurs métabotropiques.",
+      "Les récepteurs muscariniques M3 n’induisent pas le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.",
+      "Les récepteurs muscariniques M2 sont ceux qui induisent le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.",
+      "La stimulation des récepteurs muscariniques M2 induit une inhibition du courant if dans les cellules du nœud sinusal.",
+      "Les récepteurs muscariniques M2 sont absents du cœur."
+    ],
+    "correct_answers": [
+      "Les récepteurs muscariniques M2 sont absents du cœur."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "la présence de lipides dans le duodénum augmente les contractions de l’antre gastrique",
+      "l’activité nerveuse parasympathique diminue le tonus du pylore",
+      "le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D",
+      "l’étape essentielle de la sécrétion d’acide chlorhydrique par l’estomac est celle de l’activité de l’anhydrase carbonique intra-cytoplasmique",
+      "la présence de lipides dans le repas accélère le passage du chyme gastrique à travers le pylore"
+    ],
+    "correct_answers": [
+      "l’activité nerveuse parasympathique diminue le tonus du pylore"
+    ]
+  }
+]

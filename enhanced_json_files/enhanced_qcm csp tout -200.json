@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la spectrométrie d'absorption atomique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Est mise en œuvre sur des spectromètres à double faisceau.",
+      "Est une méthode d'analyse quantitative d'éléments atomiques à l'état de vapeur.",
+      "Utilise un four en graphite pour vaporiser les éléments.",
+      "Nécessite une correction des interférences par lampe au deutérium.",
+      "Exploite l'absorption d'énergie lumineuse fournie par une lampe à cathode creuse."
+    ],
+    "correct_answers": [
+      "Est une méthode d'analyse quantitative d'éléments atomiques à l'état de vapeur.",
+      "Exploite l'absorption d'énergie lumineuse fournie par une lampe à cathode creuse.",
+      "Utilise un four en graphite pour vaporiser les éléments.",
+      "Nécessite une correction des interférences par lampe au deutérium."
+    ],
+    "justification_fausses_reponses": {
+      "Est mise en œuvre sur des spectromètres à double faisceau.": "Cette affirmation est incorrecte car la spectrométrie d'absorption atomique peut être mise en œuvre sur des spectromètres à simple faisceau ou à double faisceau. Le choix dépend de l'application spécifique et des exigences de précision."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les drogues illicites, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "L’hypothermie est un signe toxique majeur lors d’une intoxication par la MDMA.",
+      "L’action hallucinogène du LSD et de la MDMA (ecstasy) est liée à leur propriété d’agonistes sérotoninergiques.",
+      "L’intoxication aiguë par l’héroïne se caractérise par un coma profond, une dépression respiratoire et un myosis bilatéral.",
+      "La cocaïne présente une cardiotoxicité liée notamment à son effet stabilisant de membrane.",
+      "La consommation d’héroïne peut être mise en évidence par l’identification dans le sang de la 6-monoacétylmorphine."
+    ],
+    "correct_answers": [
+      "L’hypothermie est un signe toxique majeur lors d’une intoxication par la MDMA."
+    ],
+    "justification_fausses_reponses": {
+      "L’action hallucinogène du LSD et de la MDMA (ecstasy) est liée à leur propriété d’agonistes sérotoninergiques.": "C'est incorrect car l'action hallucinogène du LSD est principalement due à son effet sur les récepteurs de la sérotonine, tandis que la MDMA (ecstasy) agit principalement en augmentant la libération de la sérotonine et en inhibant sa recapture.",
+      "L’intoxication aiguë par l’héroïne se caractérise par un coma profond, une dépression respiratoire et un myosis bilatéral.": "C'est incorrect car l'intoxication aiguë par l'héroïne se caractérise par une dépression respiratoire, une hypotension, une bradycardie et un myosis, mais pas nécessairement par un coma profond.",
+      "La cocaïne présente une cardiotoxicité liée notamment à son effet stabilisant de membrane.": "C'est incorrect car la cardiotoxicité de la cocaïne est principalement due à son effet sympathomimétique, qui augmente la fréquence cardiaque et la pression artérielle, et non à un effet stabilisant de membrane.",
+      "La consommation d’héroïne peut être mise en évidence par l’identification dans le sang de la 6-monoacétylmorphine.": "C'est incorrect car la 6-monoacétylmorphine est un métabolite de l'héroïne qui peut être détecté dans l'urine, mais pas dans le sang."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Quel(s) élément(s) peut(vent) être dosé(s) par photométrie de flamme ?",
+    "options": [
+      "Cuivre.",
+      "Lithium.",
+      "Aluminium.",
+      "Potassium.",
+      "Sodium."
+    ],
+    "correct_answers": [
+      "Potassium.",
+      "Sodium.",
+      "Lithium."
+    ],
+    "justification_fausses_reponses": {
+      "Cuivre.": "Le cuivre n'est pas généralement dosé par photométrie de flamme car sa détection nécessite des techniques plus sensibles comme la spectrométrie d'absorption atomique.",
+      "Aluminium.": "L'aluminium n'est pas dosé par photométrie de flamme car sa détection nécessite des techniques plus sensibles comme la spectrométrie d'absorption atomique."
+    }
+  }
+]

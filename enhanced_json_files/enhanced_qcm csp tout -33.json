@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? On désire contrôler la concentration d’une solution de céfuroxime dans un collyre annoncée à 10 mg/mL en céfuroxime et à 9 g/L en NaCl, par spectroscopie UV.",
+    "options": [
+      "on préparera une série de solutions étalons allant de 8 à 12 mg/mL en céfuroxime",
+      "on préparera une série de solutions étalons allant de 2 à 8 mg/mL en céfuroxime",
+      "on préparera une série de solutions étalons allant de 0 à 100 mg/mL en céfuroxime",
+      "les solutions étalons seront préparées dans du NaCl à 9 g/L",
+      "les solutions étalons seront préparées dans de l’eau"
+    ],
+    "correct_answers": [
+      "on préparera une série de solutions étalons allant de 8 à 12 mg/mL en céfuroxime",
+      "les solutions étalons seront préparées dans du NaCl à 9 g/L"
+    ],
+    "justification_fausses_reponses": {
+      "on préparera une série de solutions étalons allant de 2 à 8 mg/mL en céfuroxime": "Cette option est incorrecte car la concentration de la solution à tester est de 10 mg/mL. Les solutions étalons doivent donc être préparées dans une gamme de concentrations qui inclut la concentration de la solution à tester.",
+      "on préparera une série de solutions étalons allant de 0 à 100 mg/mL en céfuroxime": "Cette option est incorrecte car la gamme de concentrations est trop large. Pour une mesure précise, les solutions étalons doivent être préparées dans une gamme de concentrations proche de celle de la solution à tester.",
+      "les solutions étalons seront préparées dans de l’eau": "Cette option est incorrecte car la solution à tester contient du NaCl à 9 g/L. Les solutions étalons doivent donc être préparées dans les mêmes conditions pour assurer la précision de la mesure."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "On désire contrôler la concentration d’une solution de céfuroxime dans un collyre annoncé à 10 mg/mL en céfuroxime et à 9 g/L en NaCl, par spectroscopie UV. Pour ce faire :",
+    "options": [
+      "préparer et analyser les solutions étalons suivantes : 8 ; 9 ; 10 ; 11 et 12 mg/mL",
+      "préparer et analyser les solutions étalons suivantes : 1 ; 2 ; 3 ; 4 et 5 mg/mL",
+      "les solutions étalons seront préparées dans du NaCl à 9g/L",
+      "les solutions étalons seront préparées dans de l’eau",
+      "préparer et analyser les solutions étalons suivantes : 0 ; 1 ; 2 ; 3 à 108 mg/mL"
+    ],
+    "correct_answers": [
+      "les solutions étalons seront préparées dans du NaCl à 9g/L",
+      "préparer et analyser les solutions étalons suivantes : 8 ; 9 ; 10 ; 11 et 12 mg/mL"
+    ],
+    "justification_fausses_reponses": {
+      "préparer et analyser les solutions étalons suivantes : 1 ; 2 ; 3 ; 4 et 5 mg/mL": "Ces concentrations sont trop faibles pour correspondre à la concentration de céfuroxime dans le collyre qui est de 10 mg/mL.",
+      "les solutions étalons seront préparées dans de l’eau": "La préparation des solutions étalons dans de l'eau ne permet pas de reproduire les conditions réelles de la solution à analyser qui contient du NaCl à 9g/L.",
+      "préparer et analyser les solutions étalons suivantes : 0 ; 1 ; 2 ; 3 à 108 mg/mL": "Ces concentrations sont soit trop faibles, soit trop élevées pour correspondre à la concentration de céfuroxime dans le collyre qui est de 10 mg/mL."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? On désire préparer une solution d’acide chlorhydrique à 1 mol/L. Pour cela, on peut :",
+    "options": [
+      "mélanger 1900 µL d’eau et 100 µL d’une solution à 20 mol/L",
+      "mélanger 10 mL d’eau et 1 mL d’une solution à 10 mol/L",
+      "mélanger 9 mL d’eau et 1 mL d’une solution à 10 mol/L",
+      "diluer au dixième, une solution à 10 mol/L",
+      "mélanger 0,9 mL d’eau et 100 µL d’une solution à 10 mol/L"
+    ],
+    "correct_answers": [
+      "mélanger 9 mL d’eau et 1 mL d’une solution à 10 mol/L",
+      "diluer au dixième, une solution à 10 mol/L",
+      "mélanger 0,9 mL d’eau et 100 µL d’une solution à 10 mol/L",
+      "mélanger 1900 µL d’eau et 100 µL d’une solution à 20 mol/L"
+    ],
+    "justification_fausses_reponses": {
+      "mélanger 10 mL d’eau et 1 mL d’une solution à 10 mol/L": "Cette option est incorrecte car elle ne respecte pas la loi de dilution de C1V1 = C2V2. En effet, si on mélange 10 mL d'eau avec 1 mL d'une solution à 10 mol/L, on obtient une solution de 1,1 mol/L, ce qui est supérieur à la concentration désirée de 1 mol/L."
+    }
+  }
+]

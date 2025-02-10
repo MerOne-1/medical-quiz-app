@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Quelles sont les caract éristiques générales d’une lignée cellulair e :",
+    "options": [
+      "Congélation possible en vue d’une utilisation ultérieure",
+      "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+      "Prolifération infinie en culture",
+      "Durée de vie limitée",
+      "Cellules obtenues à partir d’un tissu sain"
+    ],
+    "correct_answers": [
+      "Prolifération infinie en culture",
+      "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+      "Congélation possible en vue d’une utilisation ultérieure"
+    ],
+    "justification_fausses_reponses": {
+      "Durée de vie limitée": "Cette affirmation est incorrecte car une caractéristique des lignées cellulaires est leur capacité à se diviser indéfiniment, elles n'ont donc pas une durée de vie limitée.",
+      "Cellules obtenues à partir d’un tissu sain": "Cette affirmation est incorrecte car les lignées cellulaires sont généralement obtenues à partir de tissus cancéreux ou de cellules transformées, et non de tissus sains."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concer nant le cy tosquelett e, quelles sont les pr opositions vraies :",
+    "options": [
+      "Le cytosquelette d’une cellule eucaryote est constitué de 4 types de filament",
+      "Les filaments du cytosquelette sont tous cytoplasmiques",
+      "Les filaments du cytosquelette sont constitués de différentes sous-unités protéiques",
+      "Les filaments du cytosquelette sont dynamiques dans une cellule en croissance",
+      "Les filaments du cytosquelette s’organisent dans la cellule grâce à leur association avec des protéines"
+    ],
+    "correct_answers": [
+      "Les filaments du cytosquelette sont dynamiques dans une cellule en croissance",
+      "Les filaments du cytosquelette sont constitués de différentes sous-unités protéiques",
+      "Les filaments du cytosquelette s’organisent dans la cellule grâce à leur association avec des protéines"
+    ],
+    "justification_fausses_reponses": {
+      "Le cytosquelette d’une cellule eucaryote est constitué de 4 types de filament": "Cette affirmation est incorrecte car le cytosquelette d'une cellule eucaryote est constitué de trois types de filaments : les microfilaments, les filaments intermédiaires et les microtubules.",
+      "Les filaments du cytosquelette sont tous cytoplasmiques": "Cette affirmation est incorrecte car tous les filaments du cytosquelette ne sont pas cytoplasmiques. Par exemple, les filaments intermédiaires peuvent également être trouvés dans le noyau de la cellule."
+    }
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concer nant les chr omosomes, quelles sont les pr opositions vraies :",
+    "options": [
+      "En mitose, une cellule somatique possède 2n chromosomes à 2 chromatides",
+      "Les chromosomes d’une cellule eucaryote ne possèdent qu’une seule origine de réplication",
+      "Un chromosome possède 2 centromères et un télomère",
+      "Les chromosomes sont les plus visibles en interphase",
+      "L’homme possède 24 paires de chromosomes dans ses cellules"
+    ],
+    "correct_answers": [
+      "En mitose, une cellule somatique possède 2n chromosomes à 2 chromatides"
+    ],
+    "justification_fausses_reponses": {
+      "Les chromosomes d’une cellule eucaryote ne possèdent qu’une seule origine de réplication": "C'est incorrect car un chromosome eucaryote possède plusieurs origines de réplication pour permettre une réplication rapide et efficace de l'ADN.",
+      "Un chromosome possède 2 centromères et un télomère": "C'est faux car un chromosome possède un seul centromère et deux télomères, un à chaque extrémité.",
+      "Les chromosomes sont les plus visibles en interphase": "C'est incorrect car les chromosomes sont les plus visibles pendant la métaphase, pas en interphase.",
+      "L’homme possède 24 paires de chromosomes dans ses cellules": "C'est faux car l'homme possède 23 paires de chromosomes dans ses cellules, pas 24."
+    }
+  }
+]

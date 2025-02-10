@@ -1,0 +1,243 @@
+[
+    {
+        "question": "Soit un échantillon représentatif d'une certaine population constitué de 60 individus ayant bénéficié de trois traitements différents (20 individus pour chaque traitement) visant à diminuer la cholestérolémie. On veut, avec un test paramétrique, tester s'il y a des différences d'efficacité entre les trois traitements en comparant les cholestérolémies moyennes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+        "options": [
+            "La variable de décision suit, sous l'hypothèse H0, une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au dénominateur",
+            "Si la variable de décision calculée est à l'intérieur de l'intervalle de confiance à 95%, alors on ne peut pas rejeter l'hypothèse H0 d'égalité des moyennes",
+            "La variable de décision est le rapport entre la variance intra-groupes sur la variance inter-groupes",
+            "Si la variable de décision calculée est en dehors de l'intervalle de confiance à 95%, alors on ne peut pas rejeter l'hypothèse H0 d'égalité des moyennes",
+            "Il s'agit d'une analyse de variance à un facteur fixe"
+        ],
+        "correctAnswers": [0, 1, 4]
+    },
+    {
+        "question": "Concernant la régression linéaire simple de Y en fonction de X, quelles sont les propositions correctes ?",
+        "options": [
+            "Tester la pente de la droite de régression contre la valeur zéro revient à tester l'existence d'une liaison linéaire entre X et Y",
+            "La régression simple la plus pertinente de Y en fonction de X est toujours linéaire",
+            "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+            "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρXY contre la valeur zéro",
+            "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression soient distribués selon une loi normale"
+        ],
+        "correctAnswers": [0, 2, 3, 4]
+    },
+    {
+        "question": "Une valeur aberrante, observée pour une variable X,",
+        "options": [
+            "peut être détectée par un test de Grubbs",
+            "est une valeur différente de la moyenne",
+            "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l'échantillon",
+            "peut être détectée par un test de Dixon",
+            "peut être détectée par un test de normalité"
+        ],
+        "correctAnswers": [0, 2, 3]
+    },
+    {
+        "question": "Un essai comparatif est réalisé entre deux groupes parallèles (1= traitement et 2= placebo) de 20 sujets chacun. Le critère de jugement est une variable quantitative X que le traitement a pour objectif de faire baisser. Sachant que X admet pour moyenne ± écart-type estimé les valeurs 90±10 et 100±15 pour les groupes 1 et 2, respectivement, et que le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.009, quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+        "options": [
+            "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+            "L'utilisation du test de Student nécessite ici une condition de normalité de X",
+            "L'hypothèse nulle est rejetée au seuil de 1%",
+            "L'hypothèse alternative s'écrit {μ1 ≠ μ2}",
+            "L'hypothèse nulle s'écrit {μ1 = μ2}"
+        ],
+        "correctAnswers": [0, 1, 2, 4]
+    },
+    {
+        "question": "Concernant le test du Chi², quelles sont les propositions correctes ?",
+        "options": [
+            "Il faut vérifier la normalité des variables étudiées si la taille de l'échantillon est inférieure à 30",
+            "Il concerne des variables qualitatives",
+            "La condition pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5",
+            "C'est toujours un test bilatéral",
+            "S'il est utilisé pour tester l'existence d'une liaison entre deux variables, l'hypothèse H0 est qu'il n'y a pas de liaison"
+        ],
+        "correctAnswers": [1, 3, 4]
+    },
+    {
+        "question": "On veut tester avec un Chi², l'hypothèse selon laquelle l'occurrence d'une certaine maladie est liée au sexe. Au cours de la réalisation du test, on obtient le tableau de contingence suivant : Malade (H:6, F:14) Non malade (H:44, F:36). Le calcul du Chi donne 4. Sachant que dans la table du Chi2 on lit : P(Chi ≥3,841)=0,05, quelles sont les propositions correctes?",
+        "options": [
+            "Tous les effectifs théoriques sont supérieurs ou égaux à 5",
+            "Au seuil de 5%, on rejette l'hypothèse de l'absence de liaison entre l'occurrence de cette maladie et le sexe",
+            "Au seuil de 5%, on ne rejette pas l'hypothèse de l'absence de liaison entre l'occurrence de cette maladie et le sexe",
+            "Le nombre de degrés de liberté lié à ce test est égal à 1",
+            "On ne peut pas utiliser un test du Chi² pour tester cette hypothèse"
+        ],
+        "correctAnswers": [0, 1, 3],
+        "explanation": "Les effectifs théoriques sont supérieurs à 5, le Chi² calculé (4) est supérieur à la valeur critique (3.841), et il y a 1 degré de liberté."
+    },
+    {
+        "question": "On veut étudier la liaison entre deux variables X et Y qualitatives. Concernant le test à utiliser et les hypothèses, quelles sont les réponses exactes?",
+        "options": [
+            "H0: X et Y liées",
+            "H0: ρ = 0, H1: ρ ≠ 0",
+            "H0: X et Y indépendantes",
+            "Test du Khi2 d'indépendance",
+            "Test de corrélation"
+        ],
+        "correctAnswers": [2, 3],
+        "explanation": "Pour des variables qualitatives, on utilise le test du Khi2 d'indépendance avec H0: indépendance des variables."
+    },
+    {
+        "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin d'évaluer les relations entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Quelles propositions sont correctes?",
+        "options": [
+            "On peut utiliser un test du coefficient de corrélation linéaire",
+            "On peut utiliser un test de Student",
+            "On peut utiliser un test du khi-deux",
+            "On peut effectuer une analyse de variance",
+            "On peut construire une droite de régression linéaire"
+        ],
+        "correctAnswers": [0, 4],
+        "explanation": "Pour deux variables quantitatives, on peut utiliser la corrélation linéaire et la régression linéaire."
+    },
+    {
+        "question": "La valeur permettant de séparer un échantillon d'observations d'une variable quantitative X en deux sous-échantillons de même effectif est égale à:",
+        "options": [
+            "au troisième quartile",
+            "à la moyenne",
+            "à la médiane",
+            "au deuxième quartile",
+            "au mode"
+        ],
+        "correctAnswers": [2, 3],
+        "explanation": "La médiane (qui est aussi le deuxième quartile) divise l'échantillon en deux groupes de même effectif."
+    },
+    {
+        "question": "Concernant les paramètres de la statistique descriptive, quelles sont les réponses exactes?",
+        "options": [
+            "Les quartiles sont au nombre de quatre",
+            "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne.",
+            "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)",
+            "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+            "Les quartiles sont au nombre de trois"
+        ],
+        "correctAnswers": [1, 3, 4],
+        "explanation": "Il y a trois quartiles (Q1, Q2, Q3), l'écart-type est toujours positif ou nul, et le coefficient de corrélation est compris entre -1 et 1."
+    },
+    {
+        "question": "On aimerait savoir si la moyenne d'âge d'une population est supérieure à 65 ans. Un échantillon de 35 individus, extrait de cette population, présente une moyenne d'âge de 58 ans. Concernant le test paramétrique utilisé et la valeur p, quelles sont les réponses exactes?",
+        "options": [
+            "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral",
+            "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral",
+            "p < 5 %",
+            "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral",
+            "p > 5 %"
+        ],
+        "correctAnswers": [0, 4],
+        "explanation": "C'est un test unilatéral de comparaison de moyenne, et comme la moyenne observée (58) est inférieure à la valeur testée (65), p est nécessairement > 5%."
+    },
+    {
+        "question": "A propos d'une variable X suivant une loi normale de moyenne μ et d'écart-type σ, quelles sont les propositions correctes?",
+        "options": [
+            "La variable centrée réduite suit une loi normale de moyenne 0 et d'écart-type 1",
+            "Environ 95% des valeurs de X sont comprises entre -2 et +2",
+            "La variable X̄, moyenne de X obtenue sur des échantillons de taille n, suit une loi normale de moyenne μ et d'écart-type σ/√n",
+            "L'écart-type mesure la dispersion des valeurs de X autour de la moyenne",
+            "La moyenne μ et la médiane sont confondues"
+        ],
+        "correctAnswers": [0, 2, 3, 4],
+        "explanation": "Pour une loi normale, toutes ces propriétés sont vraies sauf que 95% des valeurs sont comprises entre μ-2σ et μ+2σ, pas entre -2 et +2."
+    },
+    {
+        "question": "Une variable aléatoire X est distribuée selon la loi normale de moyenne μ et d'écart-type σ. Concernant la distribution de la variable aléatoire X̄ (définie à partir d'échantillons de même taille n), quelles sont les réponses exactes?",
+        "options": [
+            "Une loi de Student",
+            "Une loi normale de moyenne μ/n",
+            "Une loi normale d'écart-type σ",
+            "Une loi normale d'écart-type σ/√n",
+            "Une loi normale de moyenne μ"
+        ],
+        "correctAnswers": [3, 4],
+        "explanation": "La moyenne d'échantillonnage X̄ suit une loi normale de moyenne μ et d'écart-type σ/√n."
+    },
+    {
+        "question": "Une étude, réalisée auprès de 10 000 personnes adultes ne souffrant pas de surpoids, avait pour objectif de vérifier si la pression artérielle (PA, en mmHg) augmentait avec l'indice de masse corporelle (IMC, en kg/m²). Le test statistique réalisé a fourni un niveau de signification p = 0.02. Quelles propositions sont exactes?",
+        "options": [
+            "Le test utilisé est un test de corrélation",
+            "Au seuil de 1%, on ne peut pas dire que la PA augmente avec l'IMC",
+            "La valeur obtenue de p signifie que la PA augmente en moyenne de 0.02 mmHg lorsque l'IMC augmente de 1 kg/m²",
+            "Le test utilisé est le test d'indépendance du khi-deux (χ²)",
+            "Le test utilisé est le test de Student de comparaison de moyennes"
+        ],
+        "correctAnswers": [0, 1],
+        "explanation": "Pour étudier la relation entre deux variables quantitatives, on utilise un test de corrélation. Avec p=0.02, on rejette H0 au seuil 5% mais pas au seuil 1%."
+    },
+    {
+        "question": "Un patient subit un test d'hyperglycémie provoquée. Sa glycémie à jeun est mesurée et une solution contenant une quantité de glucose lui est alors administrée. On effectue ensuite 10 mesures régulières de sa glycémie. Concernant la droite de régression donnant la glycémie en fonction du temps, quelles sont les réponses exactes?",
+        "options": [
+            "Son équation s'écrit : glycémie = a (temps) + b",
+            "Son équation s'écrit : glycémie = α (temps) + β",
+            "Le temps est la variable explicative et la glycémie est la variable expliquée",
+            "Le temps est la variable expliquée et la glycémie est la variable explicative",
+            "Son équation s'écrit : temps = a (glycémie) + b"
+        ],
+        "correctAnswers": [0, 2],
+        "explanation": "Dans une régression linéaire, on cherche à expliquer Y (glycémie) en fonction de X (temps). L'équation s'écrit Y = aX + b."
+    },
+    {
+        "question": "Une étude sur l'arrêt progressif du tabac en consultation de tabacologie a été publiée par l'Institut de Veille Sanitaire. L'étude a porté sur 14 960 sujets venus en consultation et ayant arrêté de fumer durant leur suivi. Les résultats croisant le mode d'arrêt du tabac (avec ou sans réduction) et le type de prise en charge (5 prises en charge possibles) sont les suivants. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+        "options": [
+            "Parmi les consultants ayant arrêté de fumer progressivement, la proportion de sujets venus en consultation au moins 7 fois est plus élevée que celle des sujets venus entre 4 et 6 fois",
+            "Parmi les consultants ayant bénéficié d'une prise en charge comportementale avec prescription de formes orales de TSN, la proportion de sujets ayant arrêté de fumer sans réduction est plus élevée que celle des sujets ayant arrêté progressivement",
+            "Parmi les consultants ayant arrêté de fumer sans réduction, la prise en charge la plus prescrite est la prise en charge comportementale avec prescription de patch nicotinique et de formes orales de TSN",
+            "Dans l'étude, la proportion de prises en charge comportementale sans prescription pharmacologique est plus élevée chez les sujets ayant arrêté progressivement que chez les sujets ayant arrêté sans réduction",
+            "Parmi les consultants ayant arrêté de fumer progressivement, la prise en charge la moins prescrite est la prise en charge comportementale avec prescription de varénicline"
+        ],
+        "correctAnswers": [0, 1, 2, 3]
+    },
+    {
+        "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin de déterminer s'il existe un lien entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Dans l'échantillon de 309 sujets, le coefficient de corrélation linéaire est égal à 0.035, le degré de signification du test à mettre en oeuvre est égal à 54%. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+        "options": [
+            "Les valeurs du coefficient de corrélation linéaire sont toujours comprises entre 0 et 1",
+            "Le test à mettre en oeuvre est bilatéral",
+            "L'hypothèse nulle du test à mettre en oeuvre stipule que le coefficient de corrélation est égal à 1",
+            "On peut également tester les paramètres d'une droite de régression linéaire pour répondre à la problématique posée",
+            "Au risque 5%, on ne peut pas conclure à une liaison entre l'âge et la CRP"
+        ],
+        "correctAnswers": [1, 3, 4]
+    },
+    {
+        "question": "Pour comparer plus de deux moyennes observées sur échantillons indépendants, le(s) test(s) paramétrique(s) que l'on peut réaliser est(sont) :",
+        "options": [
+            "Un test du Khi2 d'indépendance",
+            "Un test de comparaison de deux moyennes observées",
+            "Une analyse de variance à un facteur",
+            "Un test de corrélation",
+            "Un test du Khi2 d'homogénéité"
+        ],
+        "correctAnswers": [2]
+    },
+    {
+        "question": "Soit un échantillon représentatif d'une certaine population constitué de 40 individus sur lesquels, entre autres paramètres, l'âge a été relevé. On se propose de mener un test (au risque α = 5%) pour savoir si l'âge moyen dans cette population est supérieur à 80 ans. Parmi les propositions suivantes, lesquelles sont correctes ?",
+        "options": [
+            "On peut faire un test paramétrique sans étudier la normalité de l'âge dans la population car la taille de l'échantillon est supérieure à 30",
+            "Le test est unilatéral",
+            "L'hypothèse H0 de ce test est μ > μ0 avec μ0 = 80",
+            "Si la signification du test est supérieure à 0,05 alors je dois rejeter l'hypothèse H0 et accepter l'hypothèse H1",
+            "La variable de décision de ce test suit, sous l'hypothèse H0, une loi de Student avec un nombre de degrés de liberté = 39"
+        ],
+        "correctAnswers": [0, 1, 4]
+    },
+    {
+        "question": "Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en deux groupes parallèles et suivis pendant un minimum d'un an. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+        "options": [
+            "Un test de supériorité est un test unilatéral",
+            "Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai",
+            "Dans un essai randomisé, les traitements sont attribués au hasard",
+            "L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous traitement R",
+            "Le test à mettre en oeuvre est un test de comparaison de deux moyennes"
+        ],
+        "correctAnswers": [0, 1, 2]
+    },
+    {
+        "question": "Trois méthodes sont habituellement utilisées pour doser une protéine P chez l'adulte. On souhaite comparer les résultats obtenus par ces trois méthodes pour un même sérum pédiatrique. On réalise, pour chacune des méthodes, 5 répétitions et l'on obtient les moyennes respectives suivantes (en mg/L) : 10.5, 10.2 et 10.6. Le test statistique utilisé fournit un niveau de signification (p-value) p = 0.42. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+        "options": [
+            "L'hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+            "Le test utilisé est le test de Student, en supposant l'hypothèse de normalité vérifiée",
+            "Au seuil de 5%, on peut dire qu'en moyenne les trois méthodes ne fournissent pas la même valeur de dosage",
+            "S'agissant d'un plan équilibré, la condition d'égalité des variances n'est pas nécessaire pour réaliser le test",
+            "Le test utilisé est un test d'ANOVA"
+        ],
+        "correctAnswers": [0, 3, 4]
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les gliflozines, nouveaux anti diabétiques",
+    "options": [
+      "Leur action dépend du taux d'insulinémie des patients",
+      "Ces médicaments agissent en provoquant une glycosurie par inhibition de la réabsorption tubulaire du glucose",
+      "Ils agissent par inhibition sélective du cotransporteur sodium-glucose SGL T2 au niveau rénal",
+      "Ils peuvent induire un coma par acidose lactique en diminuant la néoglucogénèse hépatique",
+      "Ces médicaments peuvent entraîner une hypovolémie par excrétion accrue du Na+"
+    ],
+    "correct_answers": [
+      "Ces médicaments agissent en provoquant une glycosurie par inhibition de la réabsorption tubulaire du glucose",
+      "Ces médicaments peuvent entraîner une hypovolémie par excrétion accrue du Na+",
+      "Ils agissent par inhibition sélective du cotransporteur sodium-glucose SGL T2 au niveau rénal"
+    ],
+    "justification_fausses_reponses": {
+      "Leur action dépend du taux d'insulinémie des patients": "C'est incorrect car les gliflozines agissent indépendamment du taux d'insuline. Elles inhibent le cotransporteur sodium-glucose SGL T2, réduisant ainsi la réabsorption du glucose et augmentant son excrétion urinaire.",
+      "Ils peuvent induire un coma par acidose lactique en diminuant la néoglucogénèse hépatique": "C'est incorrect car les gliflozines n'induisent pas d'acidose lactique. Ce sont les biguanides, une autre classe d'antidiabétiques, qui peuvent provoquer une acidose lactique en inhibant la néoglucogénèse hépatique."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes",
+    "options": [
+      "La varénicline (Champix) est utilisée en première intention dans le sevrage tabagique",
+      "Le bupropion (Z yban) est un dérivé amphétaminique",
+      "Les patchs nicotiniques sont contre-indiqués chez la femme enceinte",
+      "Les gommes à mâcher nicotiniques sont à utiliser comme des chewing-gum",
+      "Les gommes à mâcher et les patchs nicotiniques peuvent être associés dans le sevrage tabagique"
+    ],
+    "correct_answers": [
+      "Le bupropion (Z yban) est un dérivé amphétaminique",
+      "Les gommes à mâcher et les patchs nicotiniques peuvent être associés dans le sevrage tabagique"
+    ],
+    "justification_fausses_reponses": {
+      "La varénicline (Champix) est utilisée en première intention dans le sevrage tabagique": "La varénicline n'est pas toujours utilisée en première intention dans le sevrage tabagique. Le choix du traitement dépend de plusieurs facteurs, dont les préférences du patient, les antécédents médicaux et la sévérité de la dépendance.",
+      "Les patchs nicotiniques sont contre-indiqués chez la femme enceinte": "Les patchs nicotiniques ne sont pas systématiquement contre-indiqués chez la femme enceinte. Leur utilisation doit être évaluée au cas par cas, en tenant compte des risques et des bénéfices.",
+      "Les gommes à mâcher nicotiniques sont à utiliser comme des chewing-gum": "Les gommes à mâcher nicotiniques ne doivent pas être utilisées comme des chewing-gums ordinaires. Elles doivent être mâchées lentement et par intermittence pour permettre l'absorption de la nicotine à travers la muqueuse buccale."
+    }
+  }
+]

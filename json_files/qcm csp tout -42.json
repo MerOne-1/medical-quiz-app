@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ? En chromatographie en phase liquide, la résolution entre deux composés dépend :",
+    "options": [
+      "De la longueur de la colonne",
+      "De l’efficacité de la colonne",
+      "Des facteurs de rétention",
+      "De la sélectivité de la colonne",
+      "De la hauteur des pics chromatographiques"
+    ],
+    "correct_answers": [
+      "De l’efficacité de la colonne",
+      "Des facteurs de rétention",
+      "De la longueur de la colonne",
+      "De la sélectivité de la colonne"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la loi de Beer-Lambert, indiquer la (les) proposition(s) exacte(s) :",
+    "options": [
+      "Elle s’applique aux dosages polarimétriques",
+      "Elle est valable quelle que soit la concentration de la solution",
+      "Ce n’est pas une loi additive",
+      "Elle s’applique aux dosages spectrophotométriques",
+      "Elle n’est applicable qu’en lumière polychromatique"
+    ],
+    "correct_answers": [
+      "Elle s’applique aux dosages spectrophotométriques"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon acéto-acétique (V= 1L et C= 100 mM, pKa = 4.8) de pH 4.8 si on y ajoute 1.10 mole de soude:",
+    "options": [
+      "10",
+      "3.0",
+      "4.8",
+      "5.5",
+      "7.0-4"
+    ],
+    "correct_answers": [
+      "4.8"
+    ]
+  }
+]

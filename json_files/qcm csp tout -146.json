@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Pour un médicament administré par voie intra-veineuse rapide avec un temps de demi vie plasmatique de 4 H, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Une forme à libération prolongée va entraîner plus de variations des concentrations plasmatiques en cas d'administrations réitérées",
+      "Il reste 12 h après l'administration 25 % de la concentration plasmatique maximale",
+      "Pour obtenir d'emblée l'état d'équilibre dès la première injection, il faut faire une dose de charge",
+      "Il faudra 3,3 t1/2 pour obtenir 90 % de l'état d'équilibre (steady state) après administrations réitérées",
+      "Une augmentation de ce temps de demi-vie plasmatique va entraîner une augmentation de la constante de vitesse d'élimination plasmatique"
+    ],
+    "correct_answers": [
+      "Il faudra 3,3 t1/2 pour obtenir 90 % de l'état d'équilibre (steady state) après administrations réitérées",
+      "Pour obtenir d'emblée l'état d'équilibre dès la première injection, il faut faire une dose de charge"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant les torsades de pointes, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Elles sont favorisées par un allongement de l'intervalle Q T pré-existant",
+      "Elles sont favorisées par l'hyperkalièmie",
+      "Elles peuvent être provoquées par le Sotalol",
+      "Elles font parties des troubles du rythme ventriculaire",
+      "Elles sont favorisées par la tachycardie"
+    ],
+    "correct_answers": [
+      "Elles peuvent être provoquées par le Sotalol",
+      "Elles font parties des troubles du rythme ventriculaire",
+      "Elles sont favorisées par un allongement de l'intervalle Q T pré-existant"
+    ]
+  }
+]

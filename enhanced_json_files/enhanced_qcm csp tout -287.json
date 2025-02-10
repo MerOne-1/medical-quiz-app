@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "Les teignes ne nécessitent jamais de traitement par voie orale.",
+      "La présence de levures appartenant au genre Candida  au niveau vaginal est toujours pathologique.",
+      "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+      "Les onychomycoses nécessitent toujours un traitement par voie orale.",
+      "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+    ],
+    "correct_answers": [
+      "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+      "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+    ],
+    "justification_fausses_reponses": {
+      "Les teignes ne nécessitent jamais de traitement par voie orale.": "C'est incorrect. Les teignes, qui sont des infections fongiques du cuir chevelu ou de la peau, peuvent nécessiter un traitement par voie orale, surtout si l'infection est sévère ou ne répond pas aux traitements topiques.",
+      "La présence de levures appartenant au genre Candida  au niveau vaginal est toujours pathologique.": "C'est incorrect. Les levures du genre Candida peuvent être présentes dans le vagin sans causer de symptômes ou de maladie. C'est seulement lorsque ces levures se multiplient de manière incontrôlée qu'elles peuvent causer une infection, appelée candidose vaginale.",
+      "Les onychomycoses nécessitent toujours un traitement par voie orale.": "C'est incorrect. Les onychomycoses, ou infections fongiques des ongles, peuvent souvent être traitées avec des médicaments topiques. Cependant, dans les cas graves ou récalcitrants, un traitement par voie orale peut être nécessaire."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les propositions suivantes se rapportant aux ectoparasites, quelles sont celles qui sont exactes ?",
+    "options": [
+      "Tous les ectoparasites sont des insectes.",
+      "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+      "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+      "Seuls les ectoparasites adultes parasitent l'espèce humaine.",
+      "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+    ],
+    "correct_answers": [
+      "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+      "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+      "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+    ],
+    "justification_fausses_reponses": {
+      "Tous les ectoparasites sont des insectes.": "Cette affirmation est fausse car tous les ectoparasites ne sont pas des insectes. Les ectoparasites peuvent être des insectes, mais aussi des arachnides comme les tiques ou les acariens.",
+      "Seuls les ectoparasites adultes parasitent l'espèce humaine.": "Cette affirmation est incorrecte car toutes les étapes de développement d'un ectoparasite (œufs, larves, nymphes, adultes) peuvent parasiter l'espèce humaine, pas seulement les adultes."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi ces arthropodes, cochez les espèces qui sont hématophages à l'état adulte et à l'état larvaire.",
+    "options": [
+      "Ctenocephalus canis",
+      "Pediculus humanus  var. capitis",
+      "Cimex lectularius",
+      "Phtirius pubis",
+      "Sarcoptes scabiei"
+    ],
+    "correct_answers": [
+      "Pediculus humanus  var. capitis",
+      "Cimex lectularius",
+      "Phtirius pubis"
+    ],
+    "justification_fausses_reponses": {
+      "Ctenocephalus canis": "Ctenocephalus canis, également connu sous le nom de puce du chien, n'est pas hématophage à l'état larvaire. Les larves se nourrissent de matières organiques et non de sang.",
+      "Sarcoptes scabiei": "Sarcoptes scabiei, l'agent de la gale, n'est pas hématophage. Il se nourrit de cellules de l'épiderme et non de sang."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les propositions exactes concernant le pou du pubis ou morpion , Phtirius pubis",
+    "options": [
+      "Les morpions sont spécifiques de leur hôte.",
+      "La transmission des morpions nécessite un contact intime.",
+      "On peut attraper des morpions en s'asseyant dans la pelouse.",
+      "Il est possible de retrouver des lentes de morpions aux niveau des cils.",
+      "Les morpions peuvent souvent se localiser au niveau des poils des mollets."
+    ],
+    "correct_answers": [
+      "Les morpions sont spécifiques de leur hôte.",
+      "La transmission des morpions nécessite un contact intime.",
+      "Il est possible de retrouver des lentes de morpions aux niveau des cils."
+    ],
+    "justification_fausses_reponses": {
+      "On peut attraper des morpions en s'asseyant dans la pelouse.": "Cette affirmation est incorrecte car les morpions ne peuvent pas survivre longtemps loin de l'hôte humain. Ils ne peuvent pas être attrapés en s'asseyant dans la pelouse, ils nécessitent un contact direct avec une personne infectée.",
+      "Les morpions peuvent souvent se localiser au niveau des poils des mollets.": "Cette affirmation est fausse car les morpions préfèrent les zones du corps où les poils sont plus épais et plus rapprochés, comme les poils pubiens. Ils sont rarement trouvés sur les poils des mollets."
+    }
+  }
+]

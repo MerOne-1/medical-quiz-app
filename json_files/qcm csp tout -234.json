@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte (s) ? Dans l'insuffisance rénale chronique non traitée on observe :",
+    "options": [
+      "Une hypokaliémie",
+      "Une diminution de la clairance de la créatinine",
+      "Une anémie",
+      "Une hypocalcémie",
+      "Une destruction progressive de néphrons"
+    ],
+    "correct_answers": [
+      "Une destruction progressive de néphrons",
+      "Une hypocalcémie",
+      "Une anémie",
+      "Une diminution de la clairance de la créatinine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le syndrome de cholestase, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il se caractérise par des selles décolorées",
+      "Il se caractérise par une diminution de facteur V plasmatique",
+      "Il se caractérise par une augmentation de l'activité sérique de l'aspartate aminotransférase",
+      "Il se caractérise par une augmentation de l'activité sérique de la phosphatase alcaline",
+      "Il se caractérise par une augmentation de la concentration sérique de bilirubine conjuguée"
+    ],
+    "correct_answers": [
+      "Il se caractérise par une augmentation de la concentration sérique de bilirubine conjuguée",
+      "Il se caractérise par une augmentation de l'activité sérique de la phosphatase alcaline",
+      "Il se caractérise par des selles décolorées"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes relatives aux vitamines, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L’anémie pernicieuse ou maladie de Biermer résulte d’une carence en vitamine B2 induite par un déficit de son absorption intestinale",
+      "La vitamine C est un cofacteur essentiel dans la biosynthèse du collagène",
+      "La dihydrofolate réductase est la cible thérapeutique du méthotrexate",
+      "La vitamine B9 correspond à la folacine, vitamine hydrosoluble nécessaire à la synthèse du F AD et du FMN",
+      "L’absorption intestinale des vitamines hydrosolubles est diminuée par la Colestyramine (Questran)"
+    ],
+    "correct_answers": [
+      "La vitamine C est un cofacteur essentiel dans la biosynthèse du collagène",
+      "La dihydrofolate réductase est la cible thérapeutique du méthotrexate"
+    ]
+  }
+]

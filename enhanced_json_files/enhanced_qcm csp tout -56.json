@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Quels sont les signes de ΔH et ΔS pour une réaction spontanée à toutes les températures ?",
+    "options": [
+      "ΔH positiv e et ΔS positiv e",
+      "ΔH négativ e et ΔS négativ e",
+      "ΔH négativ e et ΔS positiv e",
+      "aucune des r éponses pr oposées",
+      "ΔH positiv e et ΔS négativ e"
+    ],
+    "correct_answers": [
+      "ΔH négativ e et ΔS positiv e"
+    ],
+    "justification_fausses_reponses": {
+      "ΔH positiv e et ΔS positiv e": "Une réaction spontanée à toutes les températures nécessite une enthalpie négative (ΔH) pour libérer de l'énergie et une entropie positive (ΔS) pour augmenter le désordre. Une ΔH positive signifie que la réaction absorbe de l'énergie, ce qui n'est pas spontané.",
+      "ΔH négativ e et ΔS négativ e": "Une réaction spontanée à toutes les températures nécessite une entropie positive (ΔS) pour augmenter le désordre. Une ΔS négative signifie que le désordre diminue, ce qui n'est pas spontané.",
+      "aucune des r éponses pr oposées": "Il y a une réponse correcte proposée, qui est 'ΔH négativ e et ΔS positiv e'.",
+      "ΔH positiv e et ΔS négativ e": "Une réaction spontanée à toutes les températures nécessite une enthalpie négative (ΔH) pour libérer de l'énergie et une entropie positive (ΔS) pour augmenter le désordre. Une ΔH positive et une ΔS négative signifient que la réaction absorbe de l'énergie et que le désordre diminue, ce qui n'est pas spontané."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Etablir la bonne série de relations de cause à effet concernant le bore :",
+    "options": [
+      "1z, 2x, 3y",
+      "1y, 2x, 3z",
+      "1y, 2z, 3x",
+      "1x, 2z, 3y",
+      "1x, 2y , 3z3"
+    ],
+    "correct_answers": [
+      "1y, 2x, 3z"
+    ],
+    "justification_fausses_reponses": {
+      "1z, 2x, 3y": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1z.",
+      "1y, 2z, 3x": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Après l'état 1y, le bore passe à l'état 2x, pas 2z.",
+      "1x, 2z, 3y": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1x, et après l'état 1y, il passe à l'état 2x, pas 2z.",
+      "1x, 2y , 3z3": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1x, et après l'état 1y, il passe à l'état 2x, pas 2y. De plus, il n'y a pas d'état 3z3 pour le bore."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Combien de litres d’eau doit-on ajouter à 1L d’une solution d’acide fort monoprotique pour augmenter le pH de 1 unité ?",
+    "options": [
+      "1,0",
+      "100,0",
+      "0,1",
+      "9,0",
+      "0,9"
+    ],
+    "correct_answers": [
+      "9,0"
+    ],
+    "justification_fausses_reponses": {
+      "1,0": "Ajouter 1L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande.",
+      "100,0": "Ajouter 100L d'eau à 1L d'acide dilue excessivement la solution. Cela augmenterait le pH de plus d'une unité, ce qui n'est pas l'objectif de la question.",
+      "0,1": "Ajouter 0,1L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande.",
+      "0,9": "Ajouter 0,9L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande."
+    }
+  }
+]

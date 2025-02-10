@@ -1,0 +1,666 @@
+{
+    "theme": "Chimie générale et bio inorganique",
+    "questions": [
+        {
+            "question": "On s’intéresse à la formation des ions les plus probables pour quelques éléments : Aluminium (Al) ; Baryum (Ba) ; Césium (Cs) ; Cuivre (Cu) ; Iode (I). Indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "Il y a deux cations possibles pour le cuivre.",
+                "L’aluminium peut donner l’ion Al .2-.",
+                "L’iode peut donner l’ion I .2+",
+                "Le césium peut donner l’ion Cs .2+",
+                "Le baryum peut donner l’ion Ba .2+"
+            ],
+            "correct_answers": [
+                "Il y a deux cations possibles pour le cuivre.",
+                "Le baryum peut donner l’ion Ba .2+"
+            ],
+            "justification_fausses_reponses": {
+                "L’aluminium peut donner l’ion Al .2-.": "C'est incorrect car l'aluminium, étant un métal, a tendance à perdre des électrons pour former un cation. L'ion le plus probable pour l'aluminium est Al3+.",
+                "L’iode peut donner l’ion I .2+": "C'est incorrect car l'iode, étant un non-métal, a tendance à gagner des électrons pour former un anion. L'ion le plus probable pour l'iode est I-.",
+                "Le césium peut donner l’ion Cs .2+": "C'est incorrect car le césium, étant un métal alcalin, a tendance à perdre un électron pour former un cation. L'ion le plus probable pour le césium est Cs+."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives, indiquer la (ou les) proposition (s) qui correspond (ent) à une augmentation de l’entropie.",
+            "options": [
+                "congélation d’un liquide",
+                "fusion d’un solide",
+                "sublimation d’un solide"
+            ],
+            "correct_answers": [
+                "fusion d’un solide",
+                "sublimation d’un solide"
+            ],
+            "justification_fausses_reponses": {
+                "congélation d’un liquide": "La congélation d'un liquide est un processus exothermique qui mène à une diminution de l'entropie. En effet, lors de la congélation, les molécules d'un liquide passent à un état solide, ce qui réduit leur désordre et donc leur entropie."
+            }
+        },
+        {
+            "question": "Soit l’équation suivante : Quelles sont les valeurs de x, y et z qui relient les quantités de matière des composés de cette réaction ? n(MnO ) = x.n(Mn ) n(H ) = y.n(H O) n(Br ) = z.n(Br )",
+            "options": [
+                "x = 1, y = 2, z = 1/2",
+                "x = 1, y = 1, z = 1",
+                "x = 1, y = 1/2, z = 2",
+                "x = 2, y = 8, z = 10",
+                "x = 0, y = 1/2, z = 24- 2+"
+            ],
+            "correct_answers": [
+                "x = 1, y = 2, z = 1/2"
+            ],
+            "justification_fausses_reponses": {
+                "x = 1, y = 1, z = 1": "Cette option est incorrecte car elle ne respecte pas la loi de conservation de la matière. Dans une réaction chimique, le nombre total d'atomes de chaque élément doit rester constant avant et après la réaction.",
+                "x = 1, y = 1/2, z = 2": "Cette option est incorrecte car elle ne respecte pas la loi de conservation de la matière. Le nombre d'atomes d'hydrogène (H) ne peut pas être réduit de moitié dans la réaction.",
+                "x = 2, y = 8, z = 10": "Cette option est incorrecte car elle suggère que le nombre de molécules de MnO et de H augmente, ce qui viole la loi de conservation de la matière.",
+                "x = 0, y = 1/2, z = 24- 2+": "Cette option est incorrecte car elle suggère que le nombre de molécules de MnO est nul, ce qui est impossible dans cette réaction chimique."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "L’électronégativité des éléments augmente quand Z croît dans une colonne de la classification.",
+                "L’électronégativité des éléments augmente de gauche à droite dans une période de la classification.",
+                "L’électronégativité d’un élément engagé dans une liaison covalente évalue sa capacité à attirer le doublet de liaison.",
+                "Une liaison est d’autant plus polarisée que la différence d’électronégativité entre les deux atomes est grande.",
+                "Un potentiel d’ionisation élevé et une affinité électronique forte imposent une électronégativité élevée."
+            ],
+            "correct_answers": [
+                "L’électronégativité d’un élément engagé dans une liaison covalente évalue sa capacité à attirer le doublet de liaison.",
+                "L’électronégativité des éléments augmente de gauche à droite dans une période de la classification.",
+                "Un potentiel d’ionisation élevé et une affinité électronique forte imposent une électronégativité élevée.",
+                "Une liaison est d’autant plus polarisée que la différence d’électronégativité entre les deux atomes est grande."
+            ],
+            "justification_fausses_reponses": {
+                "L’électronégativité des éléments augmente quand Z croît dans une colonne de la classification.": "Cette affirmation est incorrecte. En réalité, l'électronégativité des éléments diminue quand Z (le numéro atomique) croît dans une colonne de la classification périodique. Cela est dû à l'augmentation de la taille de l'atome et à l'éloignement des électrons de valence du noyau, ce qui réduit leur attraction par le noyau."
+            }
+        },
+        {
+            "question": "Trois béchers contiennent une solution 1,0 M de CuCl . Une pièce de métal est placée dans chacun des trois béchers. On donne E° Ag /Ag = 0,80 V; E° Cu /Cu = 0,34 V; E° Zn /Zn = - 0,76 V ; E° Ni /Ni = -0,25 V. Une réaction a lieu dans",
+            "options": [
+                "les bécher s n°1 et n°3 seulement",
+                "tous les bécher s",
+                "le bécher n°2 seulement",
+                "les bécher s n°1 et n°2 seulement",
+                "aucun des bécher s"
+            ],
+            "correct_answers": [
+                "les bécher s n°1 et n°3 seulement"
+            ],
+            "justification_fausses_reponses": {
+                "tous les bécher s": "C'est incorrect car une réaction ne se produit que si le potentiel standard de réduction du métal est inférieur à celui du Cu. Seuls Zn et Ni ont un potentiel inférieur à celui du Cu.",
+                "le bécher n°2 seulement": "C'est incorrect car une réaction ne se produit que si le potentiel standard de réduction du métal est inférieur à celui du Cu. Le métal dans le bécher n°2 (Ag) a un potentiel supérieur à celui du Cu, donc aucune réaction ne se produit.",
+                "les bécher s n°1 et n°2 seulement": "C'est incorrect car une réaction ne se produit que si le potentiel standard de réduction du métal est inférieur à celui du Cu. Le métal dans le bécher n°2 (Ag) a un potentiel supérieur à celui du Cu, donc aucune réaction ne se produit dans le bécher n°2.",
+                "aucun des bécher s": "C'est incorrect car une réaction se produit dans les béchers n°1 et n°3. Les métaux dans ces béchers (Zn et Ni) ont un potentiel standard de réduction inférieur à celui du Cu, donc une réaction se produit."
+            }
+        },
+        {
+            "question": "A 37°C, un antibiotique A est métabolisé avec une constante de vitesse k égale à 3.10 s. L’efficacité d’un traitement par cet antibiotique implique de maintenir une concentration toujours supérieure à 2 mg par kg de poids corporel. Un patient dont le poids est de 70 kg absorbe à intervalle régulier des comprimés renfermant 400 mg de cet antibiotique. Si l’intervalle maximum de temps entre deux prises de médicaments pour un patient sans fièvre est de 9,7h,  que devient cet intervalle pour un patient fébrile à 39,5°C (la constante de vitesse est alors égale à 4.10  s) ?",
+            "options": [
+                "7,2 h",
+                "3,5 h",
+                "11,9 h",
+                "8,6 h",
+                "9,7 h"
+            ],
+            "correct_answers": [
+                "7,2 h"
+            ],
+            "justification_fausses_reponses": {
+                "3,5 h": "Cette réponse est incorrecte car elle est inférieure à la bonne réponse. La constante de vitesse de métabolisation de l'antibiotique augmente avec la température, ce qui signifie que l'antibiotique est métabolisé plus rapidement à une température plus élevée. Par conséquent, l'intervalle de temps entre les prises de médicaments doit être réduit, mais pas autant que 3,5 heures.",
+                "11,9 h": "Cette réponse est incorrecte car elle est supérieure à la bonne réponse. La constante de vitesse de métabolisation de l'antibiotique augmente avec la température, ce qui signifie que l'antibiotique est métabolisé plus rapidement à une température plus élevée. Par conséquent, l'intervalle de temps entre les prises de médicaments doit être réduit, pas augmenté.",
+                "8,6 h": "Cette réponse est incorrecte car elle est supérieure à la bonne réponse. La constante de vitesse de métabolisation de l'antibiotique augmente avec la température, ce qui signifie que l'antibiotique est métabolisé plus rapidement à une température plus élevée. Par conséquent, l'intervalle de temps entre les prises de médicaments doit être réduit, pas augmenté.",
+                "9,7 h": "Cette réponse est incorrecte car elle est égale à l'intervalle de temps pour un patient sans fièvre. La constante de vitesse de métabolisation de l'antibiotique augmente avec la température, ce qui signifie que l'antibiotique est métabolisé plus rapidement à une température plus élevée. Par conséquent, l'intervalle de temps entre les prises de médicaments doit être réduit."
+            }
+        },
+        {
+            "question": "Maurice, un étudiant pharmacien, prépare une solution tampon en mélangeant de façon équimolaire une solution de NH Cl avec une solution de NH . Une petite quantité d’hydroxyde de sodium est ajoutée. Que se passe-t-il? On donne pKa (NH / NH ) = 9,2",
+            "options": [
+                "La base intr oduit e réagit av ec NH  et le pH diminue",
+                "La base intr oduit e réagit av ec NH   et le pH change peu",
+                "La base intr oduit e réagit av ec NH  et le pH change peu",
+                "Le pH initialement de 7 devient 9,2 apr ès ajout de la b ase",
+                "La base intr oduit e réagit av ec NH  et le pH diminue"
+            ],
+            "correct_answers": [
+                "La base intr oduit e réagit av ec NH  et le pH change peu"
+            ],
+            "justification_fausses_reponses": {
+                "La base intr oduit e réagit av ec NH  et le pH diminue": "C'est incorrect car dans une solution tampon, l'ajout d'une petite quantité de base ne diminue pas le pH, mais le change peu.",
+                "La base intr oduit e réagit av ec NH   et le pH change peu": "C'est incorrect car la base ajoutée réagit avec NH4+ et non NH3 dans une solution tampon.",
+                "Le pH initialement de 7 devient 9,2 apr ès ajout de la b ase": "C'est incorrect car dans une solution tampon, l'ajout d'une petite quantité de base ne fait pas augmenter le pH jusqu'à la valeur du pKa."
+            }
+        },
+        {
+            "question": "Pour quelle molécule, la distance internucléaire est-elle la plus grande ?",
+            "options": [
+                "Cl2",
+                "N2",
+                "F2",
+                "H2",
+                "O2"
+            ],
+            "correct_answers": [
+                "Cl2"
+            ],
+            "justification_fausses_reponses": {
+                "N2": "La molécule d'azote (N2) a une distance internucléaire plus petite que celle du Cl2 car l'azote est plus petit que le chlore.",
+                "F2": "La molécule de fluor (F2) a une distance internucléaire plus petite que celle du Cl2 car le fluor est plus petit que le chlore.",
+                "H2": "La molécule d'hydrogène (H2) a une distance internucléaire plus petite que celle du Cl2 car l'hydrogène est plus petit que le chlore.",
+                "O2": "La molécule d'oxygène (O2) a une distance internucléaire plus petite que celle du Cl2 car l'oxygène est plus petit que le chlore."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle est la valeur de Δ H de la réaction",
+            "options": [
+                "- 294,6 kJ/mol",
+                "+ 0,1 kJ/mol",
+                "aucune des v aleur s proposées",
+                "- 204,3 kJ/mol",
+                "+ 66,3 kJ/molr"
+            ],
+            "correct_answers": [
+                "+ 66,3 kJ/mol"
+            ],
+            "justification_fausses_reponses": {
+                "- 294,6 kJ/mol": "Cette valeur est incorrecte car elle indiquerait une réaction exothermique, alors que la réaction est endothermique.",
+                "+ 0,1 kJ/mol": "Cette valeur est trop faible pour représenter la variation d'enthalpie de la réaction.",
+                "aucune des v aleur s proposées": "Cette option est incorrecte car la valeur correcte de Δ H est bien proposée parmi les options.",
+                "- 204,3 kJ/mol": "Cette valeur est incorrecte car elle indiquerait une réaction exothermique, alors que la réaction est endothermique."
+            }
+        },
+        {
+            "question": "Lors de l’alcootest, l’éthanol (CH CHOH) de l’air expiré réduit les ions dichromate Cr O en Cr  en milieu acide et est oxydé en acide acétique (CH COOH). Equilibrer la réaction redox se produisant dans un alcootest.",
+            "options": [
+                "3 2 272- 3+",
+                "3"
+            ],
+            "correct_answers": [],
+            "justification_fausses_reponses": {
+                "3 2 272- 3+": "Cette option est incorrecte car elle ne représente pas une équation chimique équilibrée. Les nombres devant les molécules dans une équation chimique représentent les coefficients stoechiométriques, qui doivent être ajustés de manière à ce que le nombre d'atomes de chaque élément soit le même des deux côtés de l'équation. Ici, les nombres ne semblent pas correspondre à une équation équilibrée.",
+                "3": "Cette option est incorrecte car elle ne représente pas une équation chimique équilibrée. Un seul nombre sans aucune molécule associée ne peut pas représenter une équation chimique. De plus, dans le contexte de l'équilibrage d'une réaction redox, nous devons prendre en compte à la fois les nombres d'atomes et les charges électriques."
+            }
+        },
+        {
+            "question": "L’enthalpie de combustion du méthanol est égale à -711 kJ/mol. Quelle masse de méthanol doit-on brûler dans l’oxygène pour libérer une énergie de 71,1 kJ ?",
+            "options": [
+                "aucune des v aleur s proposées",
+                "71,5 g",
+                "3,2 g",
+                "715 g",
+                "32 g"
+            ],
+            "correct_answers": [
+                "3,2 g"
+            ],
+            "justification_fausses_reponses": {
+                "aucune des v aleur s proposées": "Cette option est incorrecte car il existe une valeur correcte parmi les options proposées, qui est 3,2 g.",
+                "71,5 g": "Cette option est incorrecte car elle est trop élevée. La combustion de 71,5 g de méthanol libérerait une énergie bien supérieure à 71,1 kJ.",
+                "715 g": "Cette option est incorrecte car elle est beaucoup trop élevée. La combustion de 715 g de méthanol libérerait une énergie extrêmement supérieure à 71,1 kJ.",
+                "32 g": "Cette option est incorrecte car elle est trop élevée. La combustion de 32 g de méthanol libérerait une énergie bien supérieure à 71,1 kJ."
+            }
+        },
+        {
+            "question": "Etablir la bonne série de relations de cause à effet concernant le phosphore : Causes Effets 1. Le phosphore est oxophile 2. Les composés du phosphore les plus stables sont ceux où P a le degré d'oxydation le plus faible 3. le phosphore peut établir des doubles liaisons avec le carbonex. Les sels de phosphonium formés par réaction entre la triphénylphosphine et un halogénure d'alkyle primaire sont déprotonables en milieu fortement basique, contrairement aux sels d'ammonium formés par réaction entre la triméthylamine et un halogénure d'alkyle primaire y. La réaction de Wittig est stéréosélective z. Les phosphines sont instables",
+            "options": [
+                "1x, 2y , 3z",
+                "1x, 2z, 3y",
+                "1y, 2z, 3x",
+                "1y, 2x, 3z",
+                "1z, 2x, 3y"
+            ],
+            "correct_answers": [
+                "1y, 2z, 3x"
+            ],
+            "justification_fausses_reponses": {
+                "1x, 2y , 3z": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+                "1x, 2z, 3y": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+                "1y, 2x, 3z": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+                "1z, 2x, 3y": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x)."
+            }
+        },
+        {
+            "question": "Après action du chlor e sur le benzène on peut isoler 3 isomèr es chlor és : Que per met la mesur e du moment dipolair e de chacune de ces molécules ?",
+            "options": [
+                "distinguer  M de P et O",
+                "distinguer P de O et M",
+                "montr er que la molécule M a un moment dipolair e nul",
+                "distinguer les tr ois isomèr es",
+                "distinguer  O de M et P"
+            ],
+            "correct_answers": [
+                "distinguer les tr ois isomèr es"
+            ],
+            "justification_fausses_reponses": {
+                "distinguer  M de P et O": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement M de P et O. Elle permet de distinguer les trois isomères.",
+                "distinguer P de O et M": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement P de O et M. Elle permet de distinguer les trois isomères.",
+                "montr er que la molécule M a un moment dipolair e nul": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de montrer que la molécule M a un moment dipolaire nul. Elle permet de distinguer les trois isomères.",
+                "distinguer  O de M et P": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement O de M et P. Elle permet de distinguer les trois isomères."
+            }
+        },
+        {
+            "question": "Indiquer la (ou les) proposition(s) exacte(s) concernant le tazarotène ZORA C, représenté ci-dessous et utilisé pour le traitement du psoriasis.",
+            "options": [
+                "Les liaisons π entre l’atome de carbone 1 et l’atome de carbone 2 proviennent du recouvrement d’orbitales hybrides p et p .",
+                "Les liaisons σ formées à partir de l’atome de carbone 3 sont dans le même plan",
+                "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp .",
+                "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp.",
+                "L’atome de carbone 3 est hybridé sp ."
+            ],
+            "correct_answers": [
+                "Les liaisons σ formées à partir de l’atome de carbone 3 sont dans le même plan",
+                "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp ."
+            ],
+            "justification_fausses_reponses": {
+                "Les liaisons π entre l’atome de carbone 1 et l’atome de carbone 2 proviennent du recouvrement d’orbitales hybrides p et p .": "Cette affirmation est incorrecte car les liaisons π sont formées par le recouvrement latéral des orbitales p, et non par le recouvrement des orbitales hybrides.",
+                "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp.": "Cette affirmation est incorrecte car elle est répétée deux fois dans les options. Il s'agit probablement d'une erreur.",
+                "L’atome de carbone 3 est hybridé sp .": "Cette affirmation est incorrecte car l'hybridation sp nécessite que l'atome de carbone soit lié à deux autres atomes seulement. Dans le tazarotène, l'atome de carbone 3 est lié à plus de deux atomes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s). Une réaction est spontanée si",
+            "options": [
+                "ΔG<O",
+                "elle produit de la chaleur",
+                "sa constante d’équilibre est plus grande que 1",
+                "elle est totale",
+                "elle est très rapider0"
+            ],
+            "correct_answers": [
+                "Δ G<O",
+                "sa constante d’équilibre est plus grande que 1",
+                "elle est totaler0"
+            ],
+            "justification_fausses_reponses": {
+                "elle produit de la chaleur": "La production de chaleur n'est pas un indicateur de spontanéité d'une réaction. Une réaction exothermique libère de la chaleur, mais cela ne signifie pas nécessairement qu'elle est spontanée. La spontanéité d'une réaction dépend de la variation de l'énergie libre de Gibbs (ΔG) et de la constante d'équilibre.",
+                "elle est très rapider0": "La vitesse d'une réaction n'est pas un indicateur de sa spontanéité. Une réaction peut être rapide mais non spontanée, ou lente mais spontanée. La spontanéité d'une réaction dépend de la variation de l'énergie libre de Gibbs (ΔG) et de la constante d'équilibre."
+            }
+        },
+        {
+            "question": "Si la constante d’équilibre pour est égale à 0,125, la valeur de la constante d’équilibre pour est égale à :",
+            "options": [
+                "16,0",
+                "0,25",
+                "-0,125",
+                "8,0",
+                "0,125"
+            ],
+            "correct_answers": [
+                "8,0"
+            ],
+            "justification_fausses_reponses": {
+                "16,0": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être multipliée par un facteur de 128 pour obtenir 16. La constante d'équilibre est une valeur qui dépend de la température et de la nature des réactifs et des produits.",
+                "0,25": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être multipliée par un facteur de 2 pour obtenir 0,25. La constante d'équilibre est une valeur qui dépend de la température et de la nature des réactifs et des produits.",
+                "-0,125": "Cette réponse est incorrecte car la constante d'équilibre ne peut pas être négative. Elle est une mesure de l'équilibre entre les réactifs et les produits dans une réaction chimique à une température donnée.",
+                "0,125": "Cette réponse est incorrecte car elle est égale à la constante d'équilibre initiale, ce qui signifie qu'il n'y a pas eu de changement dans l'équilibre de la réaction."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives au diagramme de Clapeyron de l’eau, indiquer la proposition qui indique le nom des transitions de phases dans la direction des flèches (1, 2, 3).",
+            "options": [
+                "liquéfaction, solidification, condensation",
+                "sublimation, condensation, fusion",
+                "fusion, vaporisation, sublimation",
+                "vaporisation, condensation, solidification",
+                "solidification, sublimation, vaporisation"
+            ],
+            "correct_answers": [
+                "sublimation, condensation, fusion"
+            ],
+            "justification_fausses_reponses": {
+                "liquéfaction, solidification, condensation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La liquéfaction est le passage de l'état gazeux à l'état liquide, la solidification est le passage de l'état liquide à l'état solide et la condensation est le passage de l'état gazeux à l'état liquide.",
+                "fusion, vaporisation, sublimation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La fusion est le passage de l'état solide à l'état liquide, la vaporisation est le passage de l'état liquide à l'état gazeux et la sublimation est le passage de l'état solide à l'état gazeux.",
+                "vaporisation, condensation, solidification": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La vaporisation est le passage de l'état liquide à l'état gazeux, la condensation est le passage de l'état gazeux à l'état liquide et la solidification est le passage de l'état liquide à l'état solide.",
+                "solidification, sublimation, vaporisation": "Ces termes ne correspondent pas aux transitions de phases dans la direction des flèches sur le diagramme de Clapeyron de l'eau. La solidification est le passage de l'état liquide à l'état solide, la sublimation est le passage de l'état solide à l'état gazeux et la vaporisation est le passage de l'état liquide à l'état gazeux."
+            }
+        },
+        {
+            "question": "5,1 g d’un acide carboxylique sont dosés par une solution de soude de concentration C  = 1 mol.L . Le dosage donne un volume équivalent V = 50 mL. Quelle est la masse molaire de cet acide ?",
+            "options": [
+                "210 g.mol-1",
+                "40 g.mol-1",
+                "75 g.mol-1",
+                "102 g.mol-1",
+                "98 g.mol-1"
+            ],
+            "correct_answers": [
+                "102 g.mol-1"
+            ],
+            "justification_fausses_reponses": {
+                "210 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire trop élevée. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur inférieure.",
+                "40 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire trop faible. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur supérieure.",
+                "75 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire inférieure à la valeur correcte. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur supérieure.",
+                "98 g.mol-1": "Cette option est incorrecte car elle donne une masse molaire légèrement inférieure à la valeur correcte. En utilisant la formule de la masse molaire (M = m/n), on obtient une valeur légèrement supérieure."
+            }
+        },
+        {
+            "question": "Soient les équilibres: Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "L’équilibre 3 sera déplacé vers la gauche si on augmente la pression à température constante",
+                "L’équilibre 2 sera déplacé vers la droite si on augmente la température à pression constante",
+                "L’équilibre 3 sera déplacé vers la droite si on augmente la quantité de CaC O",
+                "L’équilibre 2 sera déplacé vers la gauche si on diminue le volume à température constante",
+                "L’équilibre 1 sera déplacé vers la gauche si on diminue le volume à température constante3"
+            ],
+            "correct_answers": [
+                "L’équilibre 2 sera déplacé vers la droite si on augmente la température à pression constante",
+                "L’équilibre 2 sera déplacé vers la gauche si on diminue le volume à température constante",
+                "L’équilibre 3 sera déplacé vers la gauche si on augmente la pression à température constante"
+            ],
+            "justification_fausses_reponses": {
+                "L’équilibre 3 sera déplacé vers la droite si on augmente la quantité de CaC O": "C'est incorrect car l'ajout d'un réactif ou d'un produit ne déplace pas nécessairement l'équilibre. Cela dépend de la réaction et de la manière dont elle est affectée par les changements de concentration.",
+                "L’équilibre 1 sera déplacé vers la gauche si on diminue le volume à température constante3": "C'est incorrect car la diminution du volume à température constante déplace l'équilibre vers le côté de la réaction qui a le moins de moles de gaz. Cela dépend de la réaction spécifique et ne peut pas être généralisé."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives à la géométrie des édifices chimiques, indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "BeCl est linéaire",
+                "SO est plan",
+                "NH est tétraédrique",
+                "BF est tétraédrique",
+                "HCO est plan"
+            ],
+            "correct_answers": [
+                "BeCl est linéaire",
+                "SO est plan",
+                "NH est tétraédrique",
+                "HCO est plan"
+            ],
+            "justification_fausses_reponses": {
+                "BF est tétraédrique": "BF est incorrect car la molécule de trifluorure de bore (BF3) a une géométrie trigonale plan, et non tétraédrique. Cela est dû à la présence de trois liaisons et aucun électron non apparié sur l'atome de bore."
+            }
+        },
+        {
+            "question": "Quels sont les signes de ΔH et ΔS pour une réaction spontanée à toutes les températures ?",
+            "options": [
+                "ΔH positiv e et ΔS positiv e",
+                "ΔH négativ e et ΔS négativ e",
+                "ΔH négativ e et ΔS positiv e",
+                "aucune des r éponses pr oposées",
+                "ΔH positiv e et ΔS négativ e"
+            ],
+            "correct_answers": [
+                "ΔH négativ e et ΔS positiv e"
+            ],
+            "justification_fausses_reponses": {
+                "ΔH positiv e et ΔS positiv e": "Une réaction spontanée à toutes les températures nécessite une enthalpie négative (ΔH) pour libérer de l'énergie et une entropie positive (ΔS) pour augmenter le désordre. Une ΔH positive signifie que la réaction absorbe de l'énergie, ce qui n'est pas spontané.",
+                "ΔH négativ e et ΔS négativ e": "Une réaction spontanée à toutes les températures nécessite une entropie positive (ΔS) pour augmenter le désordre. Une ΔS négative signifie que le désordre diminue, ce qui n'est pas spontané.",
+                "aucune des r éponses pr oposées": "Il y a une réponse correcte proposée, qui est 'ΔH négativ e et ΔS positiv e'.",
+                "ΔH positiv e et ΔS négativ e": "Une réaction spontanée à toutes les températures nécessite une enthalpie négative (ΔH) pour libérer de l'énergie et une entropie positive (ΔS) pour augmenter le désordre. Une ΔH positive et une ΔS négative signifient que la réaction absorbe de l'énergie et que le désordre diminue, ce qui n'est pas spontané."
+            }
+        },
+        {
+            "question": "Etablir la bonne série de relations de cause à effet concernant le bore :",
+            "options": [
+                "1z, 2x, 3y",
+                "1y, 2x, 3z",
+                "1y, 2z, 3x",
+                "1x, 2z, 3y",
+                "1x, 2y , 3z3"
+            ],
+            "correct_answers": [
+                "1y, 2x, 3z"
+            ],
+            "justification_fausses_reponses": {
+                "1z, 2x, 3y": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1z.",
+                "1y, 2z, 3x": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Après l'état 1y, le bore passe à l'état 2x, pas 2z.",
+                "1x, 2z, 3y": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1x, et après l'état 1y, il passe à l'état 2x, pas 2z.",
+                "1x, 2y , 3z3": "Cette option est incorrecte car elle ne respecte pas la bonne séquence de cause à effet pour le bore. Le bore commence par l'état 1y, pas 1x, et après l'état 1y, il passe à l'état 2x, pas 2y. De plus, il n'y a pas d'état 3z3 pour le bore."
+            }
+        },
+        {
+            "question": "Combien de litres d’eau doit-on ajouter à 1L d’une solution d’acide fort monoprotique pour augmenter le pH de 1 unité ?",
+            "options": [
+                "1,0",
+                "100,0",
+                "0,1",
+                "9,0",
+                "0,9"
+            ],
+            "correct_answers": [
+                "9,0"
+            ],
+            "justification_fausses_reponses": {
+                "1,0": "Ajouter 1L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande.",
+                "100,0": "Ajouter 100L d'eau à 1L d'acide dilue excessivement la solution. Cela augmenterait le pH de plus d'une unité, ce qui n'est pas l'objectif de la question.",
+                "0,1": "Ajouter 0,1L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande.",
+                "0,9": "Ajouter 0,9L d'eau à 1L d'acide ne dilue pas suffisamment la solution pour augmenter le pH de 1 unité. Le pH est une mesure logarithmique, donc une augmentation de 1 unité nécessite une dilution dix fois plus grande."
+            }
+        },
+        {
+            "question": "Le point triple de l’eau est à T = 273,15K et P = 6.10  atm. Dans quels états 1 et 2 se trouve l’eau à T  = 300K et P  = 10  atm et T  = 200K et P  = 6.10  atm ?",
+            "options": [
+                "gaz, gaz",
+                "gaz, solide",
+                "gaz, liquide",
+                "solide, liquide",
+                "liquide, gaz"
+            ],
+            "correct_answers": [
+                "gaz, solide"
+            ],
+            "justification_fausses_reponses": {
+                "gaz, gaz": "C'est incorrect car à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non gazeux.",
+                "gaz, liquide": "C'est incorrect car à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non liquide.",
+                "solide, liquide": "C'est incorrect car à T = 300K et P = 10 atm, l'eau se trouve à l'état gazeux et non solide.",
+                "liquide, gaz": "C'est incorrect car à T = 300K et P = 10 atm, l'eau se trouve à l'état gazeux et non liquide, et à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non gazeux."
+            }
+        },
+        {
+            "question": "Soit les composés azotés N , NH , NO, HNO , NO , HNO . Quel est le bon classement de ces molécules par ordre croissant du nombre d’oxydation de l’azote ?",
+            "options": [
+                "HNO  < N  < NO < NO  < HNO  < NH",
+                "NH < N  < NO < NO  < HNO  < HNO",
+                "NH < N  < NO < HNO  < NO  < HNO",
+                "N < NO < HNO  < NO  < HNO  < NH",
+                "N < NH  < NO < HNO  < NO  < HNO"
+            ],
+            "correct_answers": [
+                "NH < N  < NO < HNO  < NO  < HNO"
+            ],
+            "justification_fausses_reponses": {
+                "HNO  < N  < NO < NO  < HNO  < NH": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans HNO est +5, qui est plus élevé que dans N (0), NO (+2), NO (+4) et NH (-3).",
+                "NH < N  < NO < NO  < HNO  < HNO": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans HNO est +5, qui est plus élevé que dans N (0), NO (+2) et NO (+4). De plus, il y a une répétition de HNO.",
+                "N < NO < HNO  < NO  < HNO  < NH": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans NH est -3, qui est plus bas que dans N (0), NO (+2), NO (+4) et HNO (+5).",
+                "N < NH  < NO < HNO  < NO  < HNO": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans NH est -3, qui est plus bas que dans N (0), NO (+2), NO (+4) et HNO (+5). De plus, il y a une répétition de NO et HNO."
+            }
+        },
+        {
+            "question": "Soient les atomes A-E dans leur état fondamental dans le tableau ci-dessous. Indiquer la ou les proposition(s) exactes.",
+            "options": [
+                "Les atomes A et E ont les mêmes propriétés chimiques.",
+                "Les atomes A et C ont le même nombre d’électrons.",
+                "Les atomes A, B et E sont trois isotopes.",
+                "Les atomes D et E sont deux isotopes.",
+                "Les atomes D et E ont le même nombre de neutrons"
+            ],
+            "correct_answers": [
+                "Les atomes A et E ont les mêmes propriétés chimiques.",
+                "Les atomes A, B et E sont trois isotopes."
+            ],
+            "justification_fausses_reponses": {
+                "Les atomes A et C ont le même nombre d’électrons.": "Cette affirmation est incorrecte car les atomes A et C n'ont pas le même nombre d'électrons. Le nombre d'électrons détermine la charge de l'atome et donc ses propriétés chimiques.",
+                "Les atomes D et E sont deux isotopes.": "Cette affirmation est incorrecte car les isotopes sont des atomes d'un même élément qui ont le même nombre de protons mais un nombre différent de neutrons. Ici, les atomes D et E ne sont pas du même élément.",
+                "Les atomes D et E ont le même nombre de neutrons": "Cette affirmation est incorrecte car le nombre de neutrons ne détermine pas l'identité d'un atome. Deux atomes peuvent avoir le même nombre de neutrons mais être de différents éléments."
+            }
+        },
+        {
+            "question": "Parmi les liaisons suivantes, laquelle est la plus polaire ?",
+            "options": [
+                "O=O",
+                "Br-Br",
+                "F-H",
+                "O-Cl",
+                "N-O"
+            ],
+            "correct_answers": [
+                "F-H"
+            ],
+            "justification_fausses_reponses": {
+                "O=O": "La liaison O=O est une liaison covalente entre deux atomes identiques, donc la différence d'électronegativité est nulle, ce qui signifie qu'il n'y a pas de polarité.",
+                "Br-Br": "La liaison Br-Br est une liaison covalente entre deux atomes identiques, donc la différence d'électronegativité est nulle, ce qui signifie qu'il n'y a pas de polarité.",
+                "O-Cl": "Bien que la liaison O-Cl soit polaire, la différence d'électronegativité entre l'oxygène et le chlore est moins grande que celle entre le fluor et l'hydrogène, donc la liaison F-H est plus polaire.",
+                "N-O": "Bien que la liaison N-O soit polaire, la différence d'électronegativité entre l'azote et l'oxygène est moins grande que celle entre le fluor et l'hydrogène, donc la liaison F-H est plus polaire."
+            }
+        },
+        {
+            "question": "Soit l’élément soufre S qui possède 4 isotopes S, S, S et S. Indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "Le soufre est plus électronégatif que le fluor.",
+                "L’anion divalent S  a une configuration électronique plus stable que l’atome de soufre dans son état fondamental.",
+                "Dans son état fondamental, le soufre a une valence égale à 2.",
+                "L’atome de soufre possède 16 électrons et 17 protons.",
+                "Sachant que sa masse atomique expérimentale est de 32,06 g/mol, l’isotope le plus abondant naturellement est S."
+            ],
+            "correct_answers": [
+                "Dans son état fondamental, le soufre a une valence égale à 2.",
+                "L’anion divalent S  a une configuration électronique plus stable que l’atome de soufre dans son état fondamental."
+            ],
+            "justification_fausses_reponses": {
+                "Le soufre est plus électronégatif que le fluor.": "C'est incorrect car l'électronégativité du fluor est la plus élevée de tous les éléments du tableau périodique, donc il est plus électronégatif que le soufre.",
+                "L’atome de soufre possède 16 électrons et 17 protons.": "C'est incorrect car dans un atome neutre, le nombre de protons (nombre atomique) est égal au nombre d'électrons. Le soufre a 16 protons et donc 16 électrons.",
+                "Sachant que sa masse atomique expérimentale est de 32,06 g/mol, l’isotope le plus abondant naturellement est S.": "C'est incorrect car la masse atomique expérimentale est une moyenne pondérée des masses des isotopes, elle ne permet pas de déterminer directement quel isotope est le plus abondant."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quel est l’atome (quels sont les atomes) qui possède (nt) 3 électrons célibataires à l’état fondamental ?",
+            "options": [
+                "As",
+                "V",
+                "Ca",
+                "P",
+                "Na"
+            ],
+            "correct_answers": [
+                "V",
+                "As",
+                "P"
+            ],
+            "justification_fausses_reponses": {
+                "Ca": "Le calcium (Ca) a deux électrons célibataires à l'état fondamental, pas trois. Il appartient à la deuxième colonne du tableau périodique, ce qui signifie qu'il a deux électrons sur sa couche externe.",
+                "Na": "Le sodium (Na) a un seul électron célibataire à l'état fondamental. Il appartient à la première colonne du tableau périodique, ce qui signifie qu'il a un seul électron sur sa couche externe."
+            }
+        },
+        {
+            "question": "Le bleu de bromophénol est un indicateur coloré, que l’on notera IndH (pKa = 3,9). Si [IndH] / [Ind ] > 10, la solution apparaît jaune. Si [IndH] / [Ind ] < 0,1 la solution apparaît bleue. Une solution de l’espèce X colore le bleu de bromophénol en vert. Que pourrait-être X ? On donne pKa (acide acétique) = 4,8",
+            "options": [
+                "Du chlor ure de sodium",
+                "Une solution d’ acide acétique à 0,5 M",
+                "Un sel d’ acide faible et de b ase for te",
+                "De l’ acétat e de sodium",
+                "Un sel d’ acide for t et de b ase faible"
+            ],
+            "correct_answers": [
+                "Un sel d’ acide for t et de b ase faible"
+            ],
+            "justification_fausses_reponses": {
+                "Du chlor ure de sodium": "Le chlorure de sodium est un sel neutre, il ne peut pas changer la couleur de l'indicateur de bromophénol bleu.",
+                "Une solution d’ acide acétique à 0,5 M": "L'acide acétique est un acide faible, il rendrait la solution acide et donc l'indicateur de bromophénol bleu deviendrait jaune, pas vert.",
+                "Un sel d’ acide faible et de b ase for te": "Un sel d'un acide faible et d'une base forte rendrait la solution basique, donc l'indicateur de bromophénol bleu deviendrait bleu, pas vert.",
+                "De l’ acétat e de sodium": "L'acétate de sodium est un sel d'un acide faible et d'une base forte, il rendrait la solution basique, donc l'indicateur de bromophénol bleu deviendrait bleu, pas vert."
+            }
+        },
+        {
+            "question": "X représente l’élément de numéro atomique 9 et Y celui de numéro atomique 20. Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "La liaison formée entre X et Y est de nature covalente",
+                "La liaison formée entre X et Y est de nature ionique.",
+                "La formule brute du composé formé est XY.",
+                "La formule brute du composé formé est X Y.",
+                "La formule brute du composé formé est XY .2"
+            ],
+            "correct_answers": [
+                "La liaison formée entre X et Y est de nature ionique.",
+                "La formule brute du composé formé est X Y.2"
+            ],
+            "justification_fausses_reponses": {
+                "La liaison formée entre X et Y est de nature covalente": "Cette affirmation est incorrecte car X (Fluor) et Y (Calcium) forment une liaison ionique, pas covalente. Dans une liaison covalente, les atomes partagent des électrons, tandis que dans une liaison ionique, un atome donne un ou plusieurs électrons à un autre atome.",
+                "La formule brute du composé formé est XY.": "Cette affirmation est incorrecte car la formule brute du composé formé par X (Fluor) et Y (Calcium) est CaF2 (XY.2), pas XY. Le calcium a deux électrons de valence à donner, tandis que le fluor a sept électrons de valence et a besoin d'un électron supplémentaire pour atteindre la stabilité. Par conséquent, deux atomes de fluor sont nécessaires pour chaque atome de calcium.",
+                "La formule brute du composé formé est X Y.": "Cette affirmation est incorrecte car la formule brute du composé formé par X (Fluor) et Y (Calcium) est CaF2 (XY.2), pas X Y. Le calcium a deux électrons de valence à donner, tandis que le fluor a sept électrons de valence et a besoin d'un électron supplémentaire pour atteindre la stabilité. Par conséquent, deux atomes de fluor sont nécessaires pour chaque atome de calcium."
+            }
+        },
+        {
+            "question": "La vanilline, de formule brute C HO, a une masse molaire de 152 g.mol . L’analyse élémentaire donne les résultats suivants : % = 63,15 et %  = 5,3. On donne  M  = 12 g.mol         M  = 1 g.mol               M  = 16 g.mol. Quelle est la formule brute de la vanilline ?",
+            "options": [
+                "CHO",
+                "CHOxyz-1",
+                "C H",
+                "C-1H-1O-1",
+                "824 2",
+                "10 16",
+                "744",
+                "883",
+                "912 2"
+            ],
+            "correct_answers": [
+                "CHO 883"
+            ],
+            "justification_fausses_reponses": {
+                "CHO": "Cette option est incorrecte car elle ne correspond pas à la masse molaire de la vanilline qui est de 152 g.mol.",
+                "CHOxyz-1": "Cette option est incorrecte car elle ne correspond pas à une formule brute valide pour un composé chimique.",
+                "C H": "Cette option est incorrecte car elle ne correspond pas à la formule brute de la vanilline qui contient aussi de l'oxygène.",
+                "C-1H-1O-1": "Cette option est incorrecte car elle suggère une quantité négative d'atomes, ce qui est impossible.",
+                "824 2": "Cette option est incorrecte car elle ne correspond pas à une formule brute valide pour un composé chimique.",
+                "10 16": "Cette option est incorrecte car elle ne correspond pas à une formule brute valide pour un composé chimique.",
+                "744": "Cette option est incorrecte car elle ne correspond pas à une formule brute valide pour un composé chimique.",
+                "912 2": "Cette option est incorrecte car elle ne correspond pas à une formule brute valide pour un composé chimique."
+            }
+        },
+        {
+            "question": "A 37°C, un antibiotique A est métabolisé avec une constante de vitesse k égale à 3.10 s. L’efficacité d’un traitement par cet antibiotique implique de maintenir une concentration toujours supérieure à 2 mg par kg de poids corporel. Un patient dont le poids est de 70 kg absorbe à intervalle régulier des comprimés renfermant 400 mg de cet antibiotique. Quel doit être l’intervalle maximum de temps entre deux prises de médicaments (on suppose que la distribution du médicament est instantanée et uniforme dans tout l’organisme) ?",
+            "options": [
+                "11,9 h",
+                "7,2 h",
+                "3,5 h",
+                "9,7 h",
+                "8,6 h"
+            ],
+            "correct_answers": [
+                "9,7 h"
+            ],
+            "justification_fausses_reponses": {
+                "11,9 h": "C'est trop long. La concentration de l'antibiotique dans le corps serait tombée en dessous du seuil efficace avant la prochaine dose.",
+                "7,2 h": "C'est trop court. La concentration de l'antibiotique dans le corps serait encore au-dessus du seuil efficace, ce qui pourrait entraîner une surdose.",
+                "3,5 h": "C'est beaucoup trop court. La concentration de l'antibiotique dans le corps serait bien au-dessus du seuil efficace, ce qui pourrait entraîner une surdose sévère.",
+                "8,6 h": "C'est un peu trop court. La concentration de l'antibiotique dans le corps serait encore légèrement au-dessus du seuil efficace, ce qui pourrait entraîner une légère surdose."
+            }
+        },
+        {
+            "question": "Indiquer la (ou les) proposition (s) exacte (s). PCl est",
+            "options": [
+                "un nucléophile, à cause du doublet non liant",
+                "une molécule plane car P est trivalent",
+                "une molécule en forme en forme de bipyramide trigonale",
+                "un composé du phosphore au degré d’oxydation -3",
+                "un électrophile"
+            ],
+            "correct_answers": [
+                "un électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "un nucléophile, à cause du doublet non liant": "C'est incorrect car PCl est un électrophile, pas un nucléophile. Un nucléophile est une espèce chimique qui donne un doublet d'électrons, ce qui n'est pas le cas de PCl.",
+                "une molécule plane car P est trivalent": "C'est incorrect car PCl est une molécule en forme de bipyramide trigonale, pas une molécule plane. La géométrie d'une molécule dépend de la répartition des électrons autour de l'atome central.",
+                "une molécule en forme en forme de bipyramide trigonale": "C'est incorrect car PCl est une molécule en forme de tétraèdre, pas une bipyramide trigonale. La forme de bipyramide trigonale est typique des molécules avec cinq paires d'électrons autour de l'atome central.",
+                "un composé du phosphore au degré d’oxydation -3": "C'est incorrect car dans PCl, le phosphore a un degré d'oxydation de +3, pas -3. Le degré d'oxydation est déterminé par le nombre d'électrons qu'un atome perd ou gagne lors de la formation d'un composé."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives aux liaisons faibles, indiquer la (ou les) proposition (s) exacte (s).",
+            "options": [
+                "La liaison hydrogène est une des nombreuses liaisons faibles expliquant la structure secondaire des protéines",
+                "Seules des forces de London peuvent s’établir entre 2 molécules de O",
+                "Les forces de Keesom s’établissent entre molécules polaires",
+                "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+                "Les forces de Debye sont les forces de Van der Waals les plus stabilisantes"
+            ],
+            "correct_answers": [
+                "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+                "Les forces de Keesom s’établissent entre molécules polaires",
+                "Seules des forces de London peuvent s’établir entre 2 molécules de O"
+            ],
+            "justification_fausses_reponses": {
+                "La liaison hydrogène est une des nombreuses liaisons faibles expliquant la structure secondaire des protéines": "Cette affirmation est incorrecte car la structure secondaire des protéines est principalement déterminée par des liaisons hydrogène, mais pas uniquement. D'autres types de liaisons, comme les liaisons peptidiques, jouent également un rôle important.",
+                "Les forces de Debye sont les forces de Van der Waals les plus stabilisantes": "Cette affirmation est incorrecte car les forces de Debye ne sont pas les plus stabilisantes parmi les forces de Van der Waals. Les forces de Keesom, qui sont des interactions dipôle-dipôle, sont généralement plus stabilisantes."
+            }
+        }
+    ]
+}

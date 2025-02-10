@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon acéto-acétique (V= 1L et C= 100 mM, pKa = 4.8) de pH 4.8 si on y ajoute 1.10 mole d’acide chlorhydrique :",
+    "options": [
+      "4.8",
+      "9.6",
+      "4.3",
+      "6.0",
+      "2.4-4"
+    ],
+    "correct_answers": [
+      "4.8"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En électrophorèse capillaire, la mobilité apparente (expérimentale):",
+    "options": [
+      "Est toujours nulle pour les particules non chargées",
+      "Dépend de la vitesse électrophorétique de l'analyte",
+      "Ne dépend pas du flux électroosmotique",
+      "Dépend du flux électroosmotique",
+      "Ne dépend pas de la vitesse électrophorétique de l'analyte"
+    ],
+    "correct_answers": [
+      "Ne dépend pas du flux électroosmotique",
+      "Est toujours nulle pour les particules non chargées",
+      "Ne dépend pas de la vitesse électrophorétique de l'analyte"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En électrophorèse, la mobilité électrophorétique d’une particule varie selon :",
+    "options": [
+      "La tension appliquée",
+      "Le rayon de la particule",
+      "Le champ électrique appliqué",
+      "La charge de la particule",
+      "Le pH du milieu"
+    ],
+    "correct_answers": [
+      "Le champ électrique appliqué"
+    ]
+  }
+]

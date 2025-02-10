@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les médicaments suivants utilisés dans le traitement des troubles du rythme cardiaque, lequel (lesquels) exerce(nt) une action résultant essentiellement d'un ralentissement du courant potassique ?",
+    "options": [
+      "propranolol (A VLOCARDYL)",
+      "atenolol (TENORMINE)",
+      "verapamil (ISOPTINE)",
+      "hydroxyquinidine (SEREC OR)",
+      "amiodarone (C ORDARONE)"
+    ],
+    "correct_answers": [
+      "amiodarone (C ORDARONE)"
+    ],
+    "justification_fausses_reponses": {
+      "propranolol (A VLOCARDYL)": "Le propranolol est un bêta-bloquant qui agit en bloquant les récepteurs bêta-adrénergiques, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+      "atenolol (TENORMINE)": "L'atenolol est également un bêta-bloquant. Il agit en bloquant les récepteurs bêta-adrénergiques, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+      "verapamil (ISOPTINE)": "Le vérapamil est un bloqueur des canaux calciques. Il agit en bloquant les canaux calciques du cœur, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+      "hydroxyquinidine (SEREC OR)": "L'hydroxyquinidine est un antiarythmique de classe Ia. Il agit en bloquant les canaux sodiques, ce qui ralentit la conduction cardiaque. Il n'a pas d'effet direct sur le courant potassique."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels des sulfamides hypoglycémiants :",
+    "options": [
+      "Ils provoquent une prise de poids par effet insulinosécréteur",
+      "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience.",
+      "Les hypoglycémies dues aux sulfamides hypoglycémiants sont prises en charge habituellement par injection de Glucagon",
+      "Les hypoglycémies provoquées par ces médicaments sont mineures et sans séquelles neurologiques possibles",
+      "Ils induisent une perte de poids par action au niveau du SNC"
+    ],
+    "correct_answers": [
+      "Ils provoquent une prise de poids par effet insulinosécréteur",
+      "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience."
+    ],
+    "justification_fausses_reponses": {
+      "Les hypoglycémies dues aux sulfamides hypoglycémiants sont prises en charge habituellement par injection de Glucagon": "C'est incorrect car les hypoglycémies dues aux sulfamides hypoglycémiants sont généralement traitées par l'administration de glucose, et non de glucagon.",
+      "Les hypoglycémies provoquées par ces médicaments sont mineures et sans séquelles neurologiques possibles": "C'est faux car les hypoglycémies provoquées par ces médicaments peuvent être graves et entraîner des séquelles neurologiques.",
+      "Ils induisent une perte de poids par action au niveau du SNC": "C'est incorrect car les sulfamides hypoglycémiants provoquent généralement une prise de poids, et non une perte de poids."
+    }
+  }
+]

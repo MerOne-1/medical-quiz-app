@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse des variants de l’hémoglobine, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le point isoelectrique de l’HbS est plus élevé que celui de l’HbA1",
+      "C’est une aide au diagnostic des hémoglobinopathies",
+      "C’est une aide au diagnostic des porphyries",
+      "Cette électrophorèse est réalisable sur gel d’agarose ou par électrophorèse capillaire",
+      "Toutes les affirmations sont exactes"
+    ],
+    "correct_answers": [
+      "Cette électrophorèse est réalisable sur gel d’agarose ou par électrophorèse capillaire",
+      "C’est une aide au diagnostic des hémoglobinopathies",
+      "Le point isoelectrique de l’HbS est plus élevé que celui de l’HbA1"
+    ],
+    "justification_fausses_reponses": {
+      "C’est une aide au diagnostic des porphyries": "L'électrophorèse des variants de l'hémoglobine n'est pas utilisée pour le diagnostic des porphyries. Les porphyries sont des maladies métaboliques rares liées à un défaut de synthèse de l'hème, et leur diagnostic repose sur d'autres méthodes, comme la mesure des porphyrines dans le sang, les urines ou les selles.",
+      "Toutes les affirmations sont exactes": "Cette affirmation est incorrecte car l'électrophorèse des variants de l'hémoglobine n'est pas une aide au diagnostic des porphyries, comme expliqué précédemment."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la vitamine D, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "C'est une vitamine liposoluble, faisant partie des stérols",
+      "Elle agit sur l'intestin, l'os et le rein",
+      "L'ergocalciférol est utilisé dans les compléments alimentaires",
+      "Sa surcharge entraîne une ostéolyse accrue",
+      "Le cholécalciférol correspond à la vitamine D2"
+    ],
+    "correct_answers": [
+      "C'est une vitamine liposoluble, faisant partie des stérols",
+      "L'ergocalciférol est utilisé dans les compléments alimentaires",
+      "Elle agit sur l'intestin, l'os et le rein",
+      "Sa surcharge entraîne une ostéolyse accrue"
+    ],
+    "justification_fausses_reponses": {
+      "Le cholécalciférol correspond à la vitamine D2": "Cette affirmation est incorrecte car le cholécalciférol correspond à la vitamine D3 et non à la vitamine D2. La vitamine D2, ou ergocalciférol, est une forme de vitamine D que l'on trouve principalement dans les plantes et les compléments alimentaires."
+    }
+  }
+]

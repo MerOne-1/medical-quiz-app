@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les groupes bioisostères divalents :",
+    "options": [
+      "=N-",
+      "-CH -",
+      "-S-",
+      "-OH",
+      "-O-2"
+    ],
+    "correct_answers": [
+      "-O-",
+      "-S-",
+      "-CH -2"
+    ],
+    "justification_fausses_reponses": {
+      "=N-": "Le groupe =N- n'est pas un bioisostère divalent. Les bioisostères divalents ont deux atomes de liaison, ce qui n'est pas le cas pour =N- qui a trois atomes de liaison.",
+      "-OH": "Le groupe -OH n'est pas un bioisostère divalent. Les bioisostères divalents ont deux atomes de liaison, ce qui n'est pas le cas pour -OH qui a un atome d'oxygène lié à un atome d'hydrogène, formant ainsi une seule liaison."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "ce composé est un IMA O",
+      "présente une forte toxicité hépatique",
+      "ce composé est un antiparasitaire",
+      "ce composé est un tuberculostatique",
+      "ce composé est un hydrazide"
+    ],
+    "correct_answers": [
+      "ce composé est un hydrazide",
+      "ce composé est un tuberculostatique",
+      "présente une forte toxicité hépatique"
+    ],
+    "justification_fausses_reponses": {
+      "ce composé est un IMA O": "Cette affirmation est incorrecte car la molécule en question n'est pas un inhibiteur de la monoamine oxydase (IMA O). Les IMA O sont des médicaments utilisés pour traiter la dépression et d'autres troubles psychiatriques, ce qui n'est pas le cas de la molécule en question.",
+      "ce composé est un antiparasitaire": "Cette affirmation est incorrecte car la molécule en question n'est pas un antiparasitaire. Les antiparasitaires sont des médicaments utilisés pour traiter les infections parasitaires, ce qui n'est pas le cas de la molécule en question."
+    }
+  }
+]

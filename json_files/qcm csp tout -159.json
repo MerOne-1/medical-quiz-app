@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+    "options": [
+      "Elle est prescrite à ½ dose si la clairance à la créatinine est comprise entre 30 et 60 ml/mn",
+      "Elle n'est pas contre indiquée en cas d'insuffisance rénale car elle n'est pas éliminée par voie rénale sous forme active",
+      "Elle peut être prescrite en cas d'administration de produits de contraste iodé",
+      "Elle est contre indiquée en cas d'insuffisance respiratoire ou d'insuffisance circulatoire",
+      "Elle est contre indiquée en cas de clairance à la créatinine < 30 ml/mn"
+    ],
+    "correct_answers": [
+      "Elle est contre indiquée en cas de clairance à la créatinine < 30 ml/mn",
+      "Elle est contre indiquée en cas d'insuffisance respiratoire ou d'insuffisance circulatoire"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Une recherche Biomédicale multicentrique ne comporte pas obligatoirement plusieurs bras de traitement",
+      "CPP signifie Consignes pour le Promoteur et le Pharmacien",
+      "Tout investigateur d'un essai clinique est nécessairement un promoteur",
+      "EudraCT est la base de données qui recense tous les essais ouverts en France"
+    ],
+    "correct_answers": [
+      "Une recherche Biomédicale multicentrique ne comporte pas obligatoirement plusieurs bras de traitement"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmations exacte(s) :",
+    "options": [
+      "La digoxine augmente la fréquence cardiaque (effet chronotrope positif).",
+      "La digoxine bloque les canaux calciques voltage-dépendants de type L (lent).",
+      "La digoxine inhibe la pompe sodium-potassium A TPase dépendante.",
+      "La digoxine augmente la contractilité myocardique (effet inotrope positif).",
+      "La digoxine ralentit la conduction dans le nœud auriculoventriculaire (effet dromotrope négatif)."
+    ],
+    "correct_answers": [
+      "La digoxine inhibe la pompe sodium-potassium A TPase dépendante.",
+      "La digoxine augmente la contractilité myocardique (effet inotrope positif).",
+      "La digoxine ralentit la conduction dans le nœud auriculoventriculaire (effet dromotrope négatif)."
+    ]
+  }
+]

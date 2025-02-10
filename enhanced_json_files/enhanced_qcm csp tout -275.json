@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Indiquer la (les) proposition(s) exacte(s) concernant le vaccin contre la rubéole",
+    "options": [
+      "Il est contre-indiqué pendant la grossesse",
+      "Il est toujours associé aux vaccins contre la rougeole et les oreillons",
+      "Il est recommandée à l’âge de 12 mois pour la première injection, 16-18 mois pour la seconde et 6 ans pour la troisième",
+      "Il est recommandé pour toute femme non vaccinée ayant un projet de grossesse",
+      "C’est un vaccin vivant atténué"
+    ],
+    "correct_answers": [
+      "Il est contre-indiqué pendant la grossesse",
+      "Il est toujours associé aux vaccins contre la rougeole et les oreillons",
+      "C’est un vaccin vivant atténué",
+      "Il est recommandé pour toute femme non vaccinée ayant un projet de grossesse"
+    ],
+    "justification_fausses_reponses": {
+      "Il est recommandée à l’âge de 12 mois pour la première injection, 16-18 mois pour la seconde et 6 ans pour la troisième": "Cette affirmation est incorrecte car le calendrier vaccinal recommande deux doses de vaccin contre la rubéole, généralement administrées à l'âge de 12 mois et entre 16 et 18 mois. Il n'y a pas de troisième dose recommandée à l'âge de 6 ans."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Dans l’immunité vis-à-vis d’une bactérie extracellulaire",
+    "options": [
+      "La voie alterne du complément est initiée par les anticorps",
+      "Les lymphocytes B produisent des perforines",
+      "L’opsonisation joue un rôle important grâce au système du complément",
+      "L’opsonisation joue un rôle important grâce aux IgM",
+      "Les lymphocytes NK phagocytent les bactéries"
+    ],
+    "correct_answers": [
+      "L’opsonisation joue un rôle important grâce au système du complément"
+    ],
+    "justification_fausses_reponses": {
+      "La voie alterne du complément est initiée par les anticorps": "La voie alterne du complément est initiée par la reconnaissance directe de la surface de la bactérie, et non par les anticorps.",
+      "Les lymphocytes B produisent des perforines": "Les perforines sont produites par les cellules cytotoxiques, comme les lymphocytes T cytotoxiques et les cellules NK, et non par les lymphocytes B.",
+      "L’opsonisation joue un rôle important grâce aux IgM": "Bien que les IgM puissent participer à l'opsonisation, elles ne sont pas le principal mécanisme. Le système du complément joue un rôle plus important dans l'opsonisation.",
+      "Les lymphocytes NK phagocytent les bactéries": "Les lymphocytes NK ne phagocytent pas les bactéries. Ce sont les macrophages et les neutrophiles qui sont responsables de la phagocytose."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les maladies inflammatoires chroniques de l’intestin (MICI), quelle(s) proposition(s) est (sont) exacte(s)",
+    "options": [
+      "La maladie de Crohn doit son nom au premier patient chez qui elle a été décrite, William Crohn",
+      "Dans les pays industrialisés, la prévalence moyenne des MICI est d’environ 10 à 20 cas pour 1000 habitants",
+      "Les MICI évoluent généralement sur un mode intermittent, avec une alternance de poussées et de rémissions",
+      "Il existe deux principales formes de MICI : la maladie de Crohn et la rectocolite hémorragique",
+      "Les MICI touchent principalement les adultes jeunes"
+    ],
+    "correct_answers": [
+      "Il existe deux principales formes de MICI : la maladie de Crohn et la rectocolite hémorragique",
+      "Les MICI touchent principalement les adultes jeunes",
+      "Les MICI évoluent généralement sur un mode intermittent, avec une alternance de poussées et de rémissions"
+    ],
+    "justification_fausses_reponses": {
+      "La maladie de Crohn doit son nom au premier patient chez qui elle a été décrite, William Crohn": "C'est incorrect. La maladie de Crohn doit son nom au Dr Burrill B. Crohn qui a été le premier à décrire cette maladie en 1932.",
+      "Dans les pays industrialisés, la prévalence moyenne des MICI est d’environ 10 à 20 cas pour 1000 habitants": "C'est incorrect. La prévalence des MICI dans les pays industrialisés est d'environ 0,5% soit 5 cas pour 1000 habitants."
+    }
+  }
+]

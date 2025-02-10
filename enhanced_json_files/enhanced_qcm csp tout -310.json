@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Pour aborder de manière rationnelle et méthodique l’observation d’un sporophore de champignon macromycète, en vue de sa détermination, il faut s’attacher à observer correctement :",
+    "options": [
+      "La texture de la chair",
+      "La couleur de la sporée",
+      "La couleur du chapeau",
+      "La nature d’éventuelles ornementations présentes à la surface du chapeau.",
+      "Le diamètre du pied"
+    ],
+    "correct_answers": [
+      "La texture de la chair",
+      "La couleur de la sporée",
+      "La nature d’éventuelles ornementations présentes à la surface du chapeau."
+    ],
+    "justification_fausses_reponses": {
+      "La couleur du chapeau": "La couleur du chapeau n'est pas un critère fiable pour l'identification des champignons macromycètes car elle peut varier en fonction de l'âge du champignon ou des conditions environnementales.",
+      "Le diamètre du pied": "Le diamètre du pied n'est pas un critère déterminant pour l'identification des champignons macromycètes car il peut varier en fonction de l'âge du champignon et n'est pas spécifique à une espèce."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes tous spécifiques des racines :",
+    "options": [
+      "Péricycle, poils absorbants",
+      "Poils absorbants, stomates",
+      "Stomates, sclérenchyme, xylème",
+      "Cuticule, épiderme, cotylédon",
+      "Cotylédon, péricycle"
+    ],
+    "correct_answers": [
+      "Péricycle, poils absorbants"
+    ],
+    "justification_fausses_reponses": {
+      "Poils absorbants, stomates": "Les stomates ne sont pas spécifiques aux racines, ils sont présents sur les feuilles et permettent les échanges gazeux.",
+      "Stomates, sclérenchyme, xylème": "Les stomates ne sont pas spécifiques aux racines, ils sont présents sur les feuilles. Le sclérenchyme et le xylème ne sont pas non plus spécifiques aux racines, ils sont présents dans toutes les parties de la plante.",
+      "Cuticule, épiderme, cotylédon": "La cuticule et l'épiderme ne sont pas spécifiques aux racines, ils sont présents sur toutes les parties aériennes de la plante. Le cotylédon est une partie de la graine, pas de la racine.",
+      "Cotylédon, péricycle": "Le cotylédon n'est pas spécifique aux racines, il fait partie de la graine."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous relatives aux plastes, choisissez celle(s) exacte(s)",
+    "options": [
+      "Les leucoplastes sont les plastes de stockage de sucre",
+      "Les plastes sont dans la vacuole",
+      "Les chromoplastes sont responsables de la coloration de différents organes",
+      "Les amyloplastes se rencontrent dans les tissus de réserve",
+      "Les oléoplastes sont les plastes de stockage de lipides"
+    ],
+    "correct_answers": [
+      "Les chromoplastes sont responsables de la coloration de différents organes",
+      "Les amyloplastes se rencontrent dans les tissus de réserve",
+      "Les oléoplastes sont les plastes de stockage de lipides"
+    ],
+    "justification_fausses_reponses": {
+      "Les leucoplastes sont les plastes de stockage de sucre": "C'est incorrect. Les leucoplastes sont des plastes incolores qui sont impliqués dans la synthèse et le stockage de molécules organiques, mais pas spécifiquement de sucre. Les amyloplastes, un type de leucoplaste, sont responsables du stockage de l'amidon, un type de sucre.",
+      "Les plastes sont dans la vacuole": "C'est incorrect. Les plastes sont des organites présents dans les cellules végétales, mais ils ne sont pas situés à l'intérieur de la vacuole. La vacuole est un autre organite qui sert à stocker l'eau et d'autres substances."
+    }
+  }
+]

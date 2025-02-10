@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelles sont les affirmations correctes concernant la production des protéines recombinantes à propriété thérapeutique ?",
+    "options": [
+      "Seules quelques protéines humaines peuvent aujourd'hui être synthétisées par génie génétique",
+      "Les protéines recombinantes sont utilisées depuis environ 5 ans en thérapeutique",
+      "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+      "Les protéines recombinantes ne sont pas jamais glycosylées",
+      "La première molécule fabriquée par génie génétique a été l'insuline"
+    ],
+    "correct_answers": [
+      "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser",
+      "La première molécule fabriquée par génie génétique a été l'insuline"
+    ]
+  }
+]

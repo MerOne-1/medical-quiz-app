@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Une valeur aberrante, observée pour une variable X,",
+    "options": [
+      "peut être détectée par un test de Grubbs",
+      "est une valeur différente de la moyenne",
+      "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+      "peut être détectée par un test de Dixon",
+      "peut être détectée par un test de normalité"
+    ],
+    "correct_answers": [
+      "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+      "peut être détectée par un test de Grubbs",
+      "peut être détectée par un test de Dixon"
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Un essai comparatif est réalisé entre deux groupes parallèles (1= traitement et 2= placebo) de 20 sujets chacun. Le critère de jugement est une variable quantitative X que le traitement a pour objectif de faire baisser. Sachant que X admet pour moyenne ± écart-type estimé les valeurs 90±10 et 100±15 pour les groupes 1 et 2, respectivement, et que le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.009, quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+    "options": [
+      "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+      "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+      "L’hypothèse nulle est rejetée au seuil de 1%",
+      "L’hypothèse alternative s’écrit {µ  ≠ µ }",
+      "L’hypothèse nulle s’écrit {µ  = µ }1 2"
+    ],
+    "correct_answers": [
+      "L’hypothèse nulle s’écrit {µ  = µ }1 2",
+      "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+      "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+      "L’hypothèse nulle est rejetée au seuil de 1%"
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant le test du Chi², quelles sont les propositions correctes ?",
+    "options": [
+      "Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30",
+      "Il concerne des variables qualitatives",
+      "La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5",
+      "C’est toujours un test bilatéral",
+      "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison0"
+    ],
+    "correct_answers": [
+      "Il concerne des variables qualitatives",
+      "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison",
+      "C’est toujours un test bilatéral"
+    ]
+  }
+]

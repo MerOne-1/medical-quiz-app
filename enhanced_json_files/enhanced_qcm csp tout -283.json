@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les éléments de réponse qui caractérisent l'oxyurose ?",
+    "options": [
+      "Après traitement du ou des patients, il faut laver la literie et les vêtements de l'enfant à 60°C et passer l'aspirateur dans toute la maison.",
+      "Le signe clinique majeur est le prurit anal.",
+      "Les œufs contiennent une larve infectante dans les heures qui suivent la ponte.",
+      "La transmission de la maladie se fait via les selles d'origine animale.",
+      "Les semences de courges fraîches sont très efficaces comme traitement alternatif."
+    ],
+    "correct_answers": [
+      "Le signe clinique majeur est le prurit anal.",
+      "Les œufs contiennent une larve infectante dans les heures qui suivent la ponte.",
+      "Après traitement du ou des patients, il faut laver la literie et les vêtements de l'enfant à 60°C et passer l'aspirateur dans toute la maison."
+    ],
+    "justification_fausses_reponses": {
+      "La transmission de la maladie se fait via les selles d'origine animale.": "C'est incorrect car l'oxyurose est une maladie qui se transmet d'humain à humain, généralement par ingestion d'œufs d'oxyures qui ont été déposés sur des surfaces par une personne infectée.",
+      "Les semences de courges fraîches sont très efficaces comme traitement alternatif.": "C'est incorrect car bien que certaines personnes puissent utiliser des remèdes naturels comme les graines de courge pour traiter l'oxyurose, il n'y a pas de preuves scientifiques solides pour soutenir leur efficacité. Le traitement standard de l'oxyurose est médicamenteux."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "La cuisson suffisante de la viande est une des mesures préventives vis-à-vis des parasitoses suivantes :",
+    "options": [
+      "L'oxyurose à Enterobius vermicularis",
+      "Le téniasis à Tænia saginata",
+      "La fasciolose à  Fasciola hepatica",
+      "La giardiose à Giardia intestinalis",
+      "Le paludisme à Plasmodium falciparum"
+    ],
+    "correct_answers": [
+      "Le téniasis à Tænia saginata"
+    ]
+  }
+]

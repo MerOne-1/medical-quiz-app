@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces bactéries, quelle(s) est(sont) celle(s) qui peut(peuvent) être responsable(s) de diarrhées entéro-invasives :",
+    "options": [
+      "Shigella dysenteriae",
+      "Clostridium tetani",
+      "Staphylococcus aureus",
+      "Helicobacter pylori",
+      "Salmonella enterica subsp. enterica"
+    ],
+    "correct_answers": [
+      "Salmonella enterica subsp. enterica"
+    ],
+    "justification_fausses_reponses": {
+      "Shigella dysenteriae": "Bien que Shigella dysenteriae puisse causer des diarrhées, elle n'est pas classée comme entéro-invasive.",
+      "Clostridium tetani": "Clostridium tetani est principalement associé au tétanos, une maladie neurologique, et non à des diarrhées entéro-invasives.",
+      "Staphylococcus aureus": "Staphylococcus aureus peut causer des intoxications alimentaires, mais n'est pas typiquement associé à des diarrhées entéro-invasives.",
+      "Helicobacter pylori": "Helicobacter pylori est principalement associé aux ulcères gastriques et duodénaux, et non à des diarrhées entéro-invasives."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Le traitement de 1ère intention de la pneumonie aiguë communautaire à pneumocoque fait appel à :",
+    "options": [
+      "une bêta-lactamine",
+      "la rifampicine",
+      "une fluoroquinolone",
+      "l'amoxicilline",
+      "la clarithromycine"
+    ],
+    "correct_answers": [
+      "l'amoxicilline",
+      "une bêta-lactamine"
+    ],
+    "justification_fausses_reponses": {
+      "la rifampicine": "La rifampicine est un antibiotique utilisé principalement dans le traitement de la tuberculose, et non dans le traitement de première intention de la pneumonie à pneumocoque.",
+      "une fluoroquinolone": "Les fluoroquinolones sont généralement réservées pour le traitement des infections graves ou pour les patients allergiques aux bêta-lactamines. Elles ne sont pas le traitement de première intention pour la pneumonie à pneumocoque.",
+      "la clarithromycine": "La clarithromycine est un antibiotique de la famille des macrolides, utilisé dans le traitement de diverses infections bactériennes, mais elle n'est pas le traitement de première intention pour la pneumonie à pneumocoque."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) :  Legionella thermophila  :",
+    "options": [
+      "a comme habitat primitif l'eau douce",
+      "est présent dans les infections communautaires et nosocomiales",
+      "est thermophile",
+      "se développe sur des milieux conventionnels",
+      "contamine l'homme par ingestion d'eau contaminée"
+    ],
+    "correct_answers": [
+      "est thermophile",
+      "a comme habitat primitif l'eau douce",
+      "est présent dans les infections communautaires et nosocomiales"
+    ],
+    "justification_fausses_reponses": {
+      "se développe sur des milieux conventionnels": "C'est incorrect car Legionella thermophila ne se développe pas sur des milieux conventionnels. Il nécessite des milieux spéciaux pour sa croissance.",
+      "contamine l'homme par ingestion d'eau contaminée": "C'est incorrect car Legionella thermophila contamine l'homme principalement par inhalation d'aérosols d'eau contaminée, et non par ingestion."
+    }
+  }
+]

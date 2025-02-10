@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Les activités ont été mesurées pour une série de β-antagonistes et de β - agonistes. Parmi les propositions suivantes, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "3 n’est pas affin pour β2",
+      "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique",
+      "2 est le salbutamol",
+      "1 est l’antagoniste le plus puissant sur β1",
+      "2 est le ligand le plus affin sur β2"
+    ],
+    "correct_answers": [
+      "2 est le ligand le plus affin sur β2",
+      "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique"
+    ],
+    "justification_fausses_reponses": {
+      "3 n’est pas affin pour β2": "Cette affirmation est incorrecte car l'affinité d'une molécule pour un récepteur dépend de sa structure chimique et non de son numéro dans une série.",
+      "2 est le salbutamol": "Cette affirmation est incorrecte car le salbutamol est un β2-agoniste, pas un β-antagoniste. Il est utilisé pour détendre les muscles des voies respiratoires et augmenter le flux d'air vers les poumons.",
+      "1 est l’antagoniste le plus puissant sur β1": "Cette affirmation est incorrecte car la puissance d'un antagoniste dépend de sa capacité à se lier à un récepteur et à bloquer son activité. Sans informations supplémentaires sur la molécule 1, nous ne pouvons pas affirmer qu'elle est l'antagoniste le plus puissant sur β1."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les paramètres à considérer pour qu’une molécule puisse interagir avec sa cible?",
+    "options": [
+      "paramètres lipophiles",
+      "paramètres allostériques",
+      "paramètres stériques",
+      "paramètres électrostatiques",
+      "paramètres hydrophiles"
+    ],
+    "correct_answers": [
+      "paramètres stériques",
+      "paramètres électrostatiques",
+      "paramètres lipophiles"
+    ],
+    "justification_fausses_reponses": {
+      "paramètres allostériques": "Les paramètres allostériques ne sont pas directement liés à l'interaction d'une molécule avec sa cible. Ils se réfèrent plutôt à la régulation de l'activité d'une protéine par la liaison d'un effecteur à un site autre que le site actif.",
+      "paramètres hydrophiles": "Les paramètres hydrophiles ne sont pas un facteur déterminant pour l'interaction d'une molécule avec sa cible. Bien que l'hydrophilie puisse influencer la solubilité d'une molécule dans l'eau, elle n'affecte pas directement sa capacité à interagir avec une cible spécifique."
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+      "Le NADH et le F ADH2 transfèrent leurs protons à l’A TP synthase ce qui conduit à la synthèse d’A TP",
+      "La néoglucogenèse se déroule dans le muscle en activité intense pour fournir le glucose dont l’oxydation fournira l’A TP nécessaire à la contraction",
+      "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie",
+      "Le cycle de Krebs se déroule dans le cytosol de la cellule"
+    ],
+    "correct_answers": [
+      "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+      "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "L’analyse d’un profil électrophorétique des protéines sériques est en faveur du diagnostic. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+      "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées",
+      "Aucune des affirmations n’est exacte",
+      "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+      "D’une cirrhose si un bloc béta-gamma est détecté"
+    ],
+    "correct_answers": [
+      "D’une cirrhose si un bloc béta-gamma est détecté",
+      "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+      "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+      "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le rôle d’une enzyme au cours d’une réaction biochimique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elle permet d’augmenter la variation d’énergie libre de la réaction",
+      "Elle permet d’augmenter la température à laquelle s’effectue la réaction",
+      "Elle permet de ralentir la vitesse de réaction",
+      "Elle permet de diminuer l’énergie d’activation",
+      "Elle permet d’éviter le passage à un état de transition"
+    ],
+    "correct_answers": [
+      "Elle permet de diminuer l’énergie d’activation"
+    ]
+  }
+]

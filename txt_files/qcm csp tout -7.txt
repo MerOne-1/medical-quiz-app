@@ -1,0 +1,43 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 7/13Question 14
+Non répondue
+Noté sur 1,00
+Question 15
+Non répondue
+Noté sur 1,00
+Question 16
+Non répondue
+Noté sur 1,00La valeur permettant de séparer un échantillon d'observations d'une variable quantitative X en deux sous-échantillons de
+même effectif est égale
+Veuillez choisir au moins une réponse :
+au troisième quartile
+à la moyenne
+à la médiane
+au deuxième quartile
+au mode
+Votre réponse est incorrecte.
+Les réponses correctes sont : à la médiane, au deuxième quartile
+Concernant les paramètres de la statistique descriptive, la(les) réponse(s) exacte(s) est(sont) :
+Veuillez choisir au moins une réponse :
+Les quartiles sont au nombre de quatre
+Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la
+moyenne.
+Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)
+Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)
+Les quartiles sont au nombre de trois
+Votre réponse est incorrecte.
+Les réponses correctes sont : Les quartiles sont au nombre de trois, Un coefficient de corrélation est toujours compris entre -1
+et 1 (bornes incluses), Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées
+relativement à la moyenne.
+On aimerait savoir si la moyenne d'âge d'une population est supérieure à 65 ans.
+Un échantillon de 35 individus, extrait de cette population, présente une moyenne d'âge de 58 ans.
+Concernant le test paramétrique utilisé pour répondre à la question posée et la valeur du degré de signification p du test,
+la(les) réponse(s) exacte(s) est (sont) :
+Veuillez choisir au moins une réponse :
+Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral
+Test de comparaison d'une proportion observée à une proportion théorique en unilatéral
+p < 5 %
+Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral
+p > 5 %
+Votre réponse est incorrecte.
+Les réponses correctes sont : p > 5 %, T est de comparaison d'une moyenne observée à une moyenne théorique en unilatéral

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Un adolescent originaire d’Afrique Noire est admis aux urgences pour une crise douloureuse abdominale fébrile. L’examen clinique révèle une splénomégalie et un ictère conjonctival L’hémogramme montre les résultats suivants : Hb : 80g/L. V GM : 85 fl. TCMH : 28,8pg. Leucocytes : 11G/L. Plaquettes : 300G/L. R éticulocytes : 320G/L. Veuillez choisir au moins une réponse :",
+    "options": [
+      "L’anomalie à rechercher sur le frottis est la présence d’hématies falciformes ou drépanocytes",
+      "Le traitement de l’anémie hémolytique de la drépanocytose homozygote repose sur la splénectomie",
+      "Le diagnostic le plus probable évoqué est celui d’une drépanocytose hétérozygote",
+      "Dans la drépanocytose majeure, l’électrophorèse de l’hémoglobine montre la présence d’hémoglobine S à un taux supérieur à 70% ainsi qu’une augmentation de l’HbF ; l’hémoglobine A1 est proche de 15%",
+      "Le diagnostic hématologique est une anémie sévère normocytaire, normochrome et régénérative à caractère probablement hémolytique"
+    ],
+    "correct_answers": [
+      "Le diagnostic hématologique est une anémie sévère normocytaire, normochrome et régénérative à caractère probablement hémolytique",
+      "L’anomalie à rechercher sur le frottis est la présence d’hématies falciformes ou drépanocytes"
+    ],
+    "justification_fausses_reponses": {
+      "Le traitement de l’anémie hémolytique de la drépanocytose homozygote repose sur la splénectomie": "Cette affirmation est incorrecte car la splénectomie n'est pas le traitement de première ligne pour l'anémie hémolytique de la drépanocytose. Le traitement repose principalement sur la prévention des crises et la gestion des complications.",
+      "Le diagnostic le plus probable évoqué est celui d’une drépanocytose hétérozygote": "Cette affirmation est incorrecte car les symptômes décrits correspondent plus à une drépanocytose homozygote. La drépanocytose hétérozygote ne présente généralement pas de symptômes sévères.",
+      "Dans la drépanocytose majeure, l’électrophorèse de l’hémoglobine montre la présence d’hémoglobine S à un taux supérieur à 70% ainsi qu’une augmentation de l’HbF ; l’hémoglobine A1 est proche de 15%": "Cette affirmation est incorrecte car dans la drépanocytose majeure, l'hémoglobine S est généralement présente à un taux supérieur à 80% et l'hémoglobine A est absente."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant la maladie hémolytique du nouveau-né dans le système Rhésus ?",
+    "options": [
+      "Elle survient chez la mère Rhésus positif portant un enfant Rhésus négatif",
+      "Elle est liée au fait que l’antigène D est peu immunogène",
+      "Elle survient toujours lors d'une première grossesse",
+      "Elle peut être prévenue par l'injection d'immunoglobulines anti-D",
+      "Elle est liée au passage transplacentaire d'immunoglobulines de type IgM"
+    ],
+    "correct_answers": [
+      "Elle peut être prévenue par l'injection d'immunoglobulines anti-D"
+    ],
+    "justification_fausses_reponses": {
+      "Elle survient chez la mère Rhésus positif portant un enfant Rhésus négatif": "C'est l'inverse qui est vrai. La maladie hémolytique du nouveau-né survient lorsque la mère est Rhésus négatif et porte un enfant Rhésus positif.",
+      "Elle est liée au fait que l’antigène D est peu immunogène": "Au contraire, l'antigène D est très immunogène, c'est pourquoi il peut provoquer une réponse immunitaire chez la mère Rhésus négatif.",
+      "Elle survient toujours lors d'une première grossesse": "La maladie hémolytique du nouveau-né est plus susceptible de se produire lors de grossesses ultérieures, car la mère a déjà été sensibilisée à l'antigène Rhésus lors de la première grossesse.",
+      "Elle est liée au passage transplacentaire d'immunoglobulines de type IgM": "Les IgM ne traversent pas le placenta. Ce sont les immunoglobulines de type IgG qui sont impliquées dans la maladie hémolytique du nouveau-né."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant la leucémie myéloïde chronique, quelles sont les propositions fausses ?",
+    "options": [
+      "Le myélogramme permet de déterminer la phase de la maladie (chronique, accélérée, ou blastique)",
+      "Une hyperéosinophilie peut être observée au diagnostic",
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "Il n’existe pas d’anomalie cytogénétique récurrente dans cette maladie",
+      "Le traitement repose principalement sur des inhibiteurs de tyrosine kinase"
+    ],
+    "correct_answers": [
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "Il n’existe pas d’anomalie cytogénétique récurrente dans cette maladie"
+    ],
+    "justification_fausses_reponses": {
+      "Le myélogramme permet de déterminer la phase de la maladie (chronique, accélérée, ou blastique)": "Cette affirmation est incorrecte car le myélogramme est un examen qui permet d'analyser la moelle osseuse, mais il ne permet pas de déterminer la phase de la leucémie myéloïde chronique. La détermination de la phase de la maladie se fait plutôt par l'analyse clinique et biologique.",
+      "Une hyperéosinophilie peut être observée au diagnostic": "Cette affirmation est incorrecte car l'hyperéosinophilie n'est pas un signe typique de la leucémie myéloïde chronique. Elle peut être présente dans certaines maladies, mais elle n'est pas spécifique à la leucémie myéloïde chronique.",
+      "Le traitement repose principalement sur des inhibiteurs de tyrosine kinase": "Cette affirmation est incorrecte car bien que les inhibiteurs de tyrosine kinase soient un traitement couramment utilisé pour la leucémie myéloïde chronique, ils ne sont pas le principal traitement. Le traitement de la leucémie myéloïde chronique est généralement une combinaison de plusieurs approches, y compris la chimiothérapie, la radiothérapie et la greffe de moelle osseuse."
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les conseils suivants, quels sont ceux qui doivent être prodigués à une femme enceinte séronégative vis-à-vis du toxoplasme ?",
+    "options": [
+      "Ne plus manger de poisson cru.",
+      "Bien cuire la viande avant de la consommer.",
+      "Vermifuger son chien.",
+      "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+      "Éviter de changer la litière de son chat surtout s'il est chasseur."
+    ],
+    "correct_answers": [
+      "Bien cuire la viande avant de la consommer.",
+      "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+      "Éviter de changer la litière de son chat surtout s'il est chasseur."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les caractères attribués aux puces, lequel (lesquels) est (sont) exact(s) ?",
+    "options": [
+      "Seuls les adultes sont hématophages.",
+      "La population adulte représente environ 90-95% de la population totale (œufs, nymphes, larves).",
+      "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois.",
+      "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+      "Ce sont des acariens aptères, aplatis dorso-ventralement."
+    ],
+    "correct_answers": [
+      "Seuls les adultes sont hématophages.",
+      "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+      "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi ces propositions concernant le pou de tête, Pediculus humanus  var. capitis , lesquelles sont fausses :",
+    "options": [
+      "Pediculus humanus  var. capitis  est un acarien.",
+      "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+      "La pédiculose du cuir chevelu peut être traitée par des pyréthrinoïdes et/ou le malathion.",
+      "Le pou de tête est parasite du cuir chevelu.",
+      "Le pou de tête peut transmettre des maladies infectieuses."
+    ],
+    "correct_answers": [
+      "Pediculus humanus  var. capitis  est un acarien.",
+      "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+      "Le pou de tête peut transmettre des maladies infectieuses."
+    ]
+  }
+]

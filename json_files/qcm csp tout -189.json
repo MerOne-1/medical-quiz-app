@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant la place du laboratoire dans la prise en charge d’un patient intoxiqué, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "Dans le contexte d’une intoxication aiguë à l’éthanol, la détermination de l’alcoolémie en milieu hospitalier peut être réalisée par une méthode enzymatique.",
+      "La concentration sanguine d’un toxique de type lésionnel est un facteur pronostique dans le cadre d’une intoxication aiguë par ce toxique.",
+      "Quelles que soient l’anamnèse et la symptomatologie présentée par un patient intoxiqué, une analyse toxicologique, basée sur un screening toxicologique sanguin et urinaire, est nécessaire pour établir le diagnostic d’intoxication et mettre en œuvre le traitement du patient.",
+      "Dans le contexte d’une intoxication aiguë par un toxique de type fonctionnel, la détermination de sa concentration sanguine n’a pas d’intérêt pronostique pour la prise en charge du patient.",
+      "Le dosage sanguin du paracétamol ne peut être réalisé qu’à l’aide d’une méthode séparative de type HPLC-UV."
+    ],
+    "correct_answers": [
+      "Quelles que soient l’anamnèse et la symptomatologie présentée par un patient intoxiqué, une analyse toxicologique, basée sur un screening toxicologique sanguin et urinaire, est nécessaire pour établir le diagnostic d’intoxication et mettre en œuvre le traitement du patient.",
+      "Dans le contexte d’une intoxication aiguë par un toxique de type fonctionnel, la détermination de sa concentration sanguine n’a pas d’intérêt pronostique pour la prise en charge du patient.",
+      "Le dosage sanguin du paracétamol ne peut être réalisé qu’à l’aide d’une méthode séparative de type HPLC-UV."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des digitaliques, quelle est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "La présence d’une cupule digitalique (sous-décalage du segment ST avec raccourcissement de l’intervalle QT) au niveau de l’électrocardiogramme signe l’intoxication digitalique.",
+      "Les digitaliques inhibent la pompe Na+/K+ ATPase au niveau des cardiomyocytes.",
+      "L’inhibition de la pompe Na+/K+ ATPase par la digoxine entraîne une diminution de la concentration du calcium intracellulaire, à l’origine d’un effet inotrope négatif.",
+      "L’hypokaliémie, induite par certains médicaments, peut-être un facteur déclenchant d’une intoxication aux digitaliques.",
+      "Le traitement spécifique d’une intoxication par la digoxine repose sur la triade Adrénaline/Diazépam/Ventilation assistée."
+    ],
+    "correct_answers": [
+      "Les digitaliques inhibent la pompe Na+/K+ ATPase au niveau des cardiomyocytes.",
+      "L’hypokaliémie, induite par certains médicaments, peut-être un facteur déclenchant d’une intoxication aux digitaliques."
+    ]
+  }
+]

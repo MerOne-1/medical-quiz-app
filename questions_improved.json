@@ -1,0 +1,3332 @@
+{
+    "questions": [
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y",
+                "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro",
+                "il faut notamment que les résidus de la régression soient distribués selon une loi normale",
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ contre la valeur zéro XY"
+            ],
+            "source_file": "qcm csp tout -1.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il s’agit de la comparaison de moyennes sur deux échantillons indépendants",
+                "Les tailles des échantillons étant inférieures à 30",
+                "il faut s’assurer de la normalité de la variable âge dans la population des hommes et des femmes",
+                "L’hypothèse H est : µ = µ (1 et 2 étant les indices respectivement du groupe des hommes et des femmes)",
+                "Il faut tester l’égalité des variances avant de choisir la variable de décision 0 1 2"
+            ],
+            "source_file": "qcm csp tout -10.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "OH",
+                "NH"
+            ],
+            "source_file": "qcm csp tout -100.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ce composé est un hydrazide",
+                "ce composé est un tuberculostatique",
+                "présente une forte toxicité hépatique"
+            ],
+            "source_file": "qcm csp tout -101.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+                "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+                "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe- Pro",
+                "Cette molécule est utilisé en association avec le cobicistat"
+            ],
+            "source_file": "qcm csp tout -102.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Interactions électrostatiques",
+                "Interactions dipôle-dipôle"
+            ],
+            "source_file": "qcm csp tout -103.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "il s’agit de la nifedipine",
+                "il s’agit d’une dihydropyridine",
+                "il s’agit d’un bloqueur de canal"
+            ],
+            "source_file": "qcm csp tout -104.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ce composé est une benzodiazépine 1",
+                "ce composé est le diazépam"
+            ],
+            "source_file": "qcm csp tout -105.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La molécule 1 est biodisponible par voie orale",
+                "La molécule 2 est administrée sous forme de poudre pour inhalation",
+                "La molécule 1 est obtenue à partir d’acide shikimique",
+                "dont la badiane de Chine a longtemps été la seule source",
+                "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine La dénomination commerciale des médicaments suit les règles définies par: Veuillez choisir au moins une réponse : l'OMS l'IUPAC l'IUPHAR les firmes pharmaceutiques les pharmacopées Votre réponse est incorrecte. La réponse correcte est : les firmes pharmaceutiques"
+            ],
+            "source_file": "qcm csp tout -106.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+                "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+                "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+            ],
+            "source_file": "qcm csp tout -107.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ces composés sont de nature stérolique",
+                "leur production naturelle nécessite l’action des UV Quelle est cette molécule Veuillez choisir au moins une réponse : finasteride mirabegron sildenafil alfuzosine yohimbine Votre réponse est incorrecte. La réponse correcte est : sildenafil"
+            ],
+            "source_file": "qcm csp tout -108.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "les molécules 1",
+                "3 et 5 ont des propriétés progestatives",
+                "la molécule 3 dérive de la 19-nor testostérone",
+                "la molécule 6 est un corticoïde"
+            ],
+            "source_file": "qcm csp tout -109.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Parmi les consultants ayant arrêté de fumer progressivement",
+                "la proportion de sujets venus en consultation au moins 7 fois est plus élevée que celle des sujets venus entre 4 et 6 fois",
+                "Parmi les consultants ayant arrêté de fumer sans réduction",
+                "la prise en charge la plus prescrite est la prise en charge comportementale avec prescription de patch nicotinique et de formes orales de TSN",
+                "Parmi les consultants ayant bénéficié d'une prise en charge comportementale avec prescription de formes orales de TSN",
+                "la proportion de sujets ayant arrêté de fumer sans réduction est plus élevée que celle des sujets ayant arrêté progressivement",
+                "Dans l'étude",
+                "la proportion de prises en charge comportementale sans prescription pharmacologique est plus élevée chez les sujets ayant arrêté progressivement que chez les sujets ayant arrêté sans réduction"
+            ],
+            "source_file": "qcm csp tout -11.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+                "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes"
+            ],
+            "source_file": "qcm csp tout -110.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "il s’agit d’un inhibiteur covalent",
+                "cette molécule cible une serine/thréonine protéase",
+                "il s’agit du bortezomib"
+            ],
+            "source_file": "qcm csp tout -111.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La dénomination chimique",
+                "La dénomination commune nationale",
+                "La dénomination commune internationale"
+            ],
+            "source_file": "qcm csp tout -112.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ils sont construits sur une structure de sérotonine",
+                "ce sont des agonistes 5HT et 5HT",
+                "ils sont utilisés dans le traitement de la crise de migraine 1B 1D ◄ Quiz - Chimie organique Aller à… Quiz - Droit pharmaceutique ►"
+            ],
+            "source_file": "qcm csp tout -113.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le monopole pharmaceutique concerne la fabrication",
+                "la préparation et la dispensation des médicaments et de certains autres produits de santé",
+                "Le monopole pharmaceutique peut être partagé avec d’autres professionnels comme les vétérinaires ou les opticiens-lunetiers",
+                "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à quelques rares médecins qui exercent dans des zones reculées et dépourvues de pharmacie"
+            ],
+            "source_file": "qcm csp tout -114.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La propharmacie est une dérogation légale au monopole pharmaceutique accordée à certains médecins exerçant dans des zones géographiques particulières",
+                "loin de toute officine",
+                "Les médecins propharmaciens (autorisés par l’ARS) peuvent délivrer des médicaments hors liste",
+                "listés ou stupéfiants ainsi qu’un nombre restreint de dispositifs médicaux à condition d’avoir vu le patient en consultation",
+                "Les médecins propharmaciens peuvent pratiquer le tiers-payant sur la délivrance des médicaments",
+                "tout comme le ferait un pharmacien d’officine"
+            ],
+            "source_file": "qcm csp tout -115.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le Formulaire national – inclus dans la Pharmacopée française – comprend des monographies relatives à des préparations officinales et hospitalières",
+                "La Pharmacopée française – dont la 1ère édition date de 1818 – est actuellement rédigée et mise à jour par la Commission de Pharmacopée de l’ANSM"
+            ],
+            "source_file": "qcm csp tout -116.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Son nom complet est actuellement « Ministère des Affaires sociales",
+                "de la Santé et des Droits des femmes »",
+                "L’actuelle ministre est Mme Marisol TOURAINE",
+                "Ce ministère comprend la Direction générale de la Santé (DGS)",
+                "la Direction générale de l’offre de soins (DGOS) et la Direction générale de la Sécurité sociale (DSS)"
+            ],
+            "source_file": "qcm csp tout -117.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Un établissement de fabrication de dispositifs médicaux",
+                "Une officine de pharmacie",
+                "Une pharmacie à usage intérieur"
+            ],
+            "source_file": "qcm csp tout -118.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg)",
+                "La Pharmacopée européenne est publiée en français et en anglais",
+                "aussi bien en version papier qu’en version électronique"
+            ],
+            "source_file": "qcm csp tout -119.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "On peut faire un test paramétrique sans étudier la normalité de l’âge dans la population car la taille de l’échantillon est supérieure à 30",
+                "La variable de décision de ce test suit",
+                "sous l’hypothèse H",
+                "une loi de Student avec un nombre de degrés de liberté = 39",
+                "Le test est unilatéral 0"
+            ],
+            "source_file": "qcm csp tout -12.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La société anonyme",
+                "La société à responsabilité limitée",
+                "La société par action simplifiée"
+            ],
+            "source_file": "qcm csp tout -120.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ce sont des spécialités pharmaceutiques",
+                "Ils devront démontrer leur bioéquivalence par rapport au médicament innovant de référence",
+                "Ils doivent présenter la même forme pharmaceutique que le médicament innovant de référence"
+            ],
+            "source_file": "qcm csp tout -121.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’ANSM comporte 8 divisions « produits »",
+                "L’ANSM comporte 5 divisions « métiers »",
+                "L’ANSM est chargée de la rédaction de la Pharmacopée française dans ses différentes éditions successives"
+            ],
+            "source_file": "qcm csp tout -122.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une rémunération",
+                "Un lien de subordination",
+                "Une prestation de travail"
+            ],
+            "source_file": "qcm csp tout -123.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les médicaments d’exception sont des médicaments qui ne sont remboursés que s’ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d’information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS)",
+                "Pour être pris en charge par l’assurance-maladie",
+                "les médicaments d’exception doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02",
+                "Avant la suppression des vignettes au 1er juillet 2014",
+                "les boîtes de médicaments d’exception étaient reconnaissables à leur vignette blanche entourée d’un liseré vert. ◄ Quiz - Chimie thérapeutique Aller à… Quiz - Pharmacognosie ►"
+            ],
+            "source_file": "qcm csp tout -124.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Streptogramines",
+                "Macrolides",
+                "Aminosides"
+            ],
+            "source_file": "qcm csp tout -125.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "A est un acide gras",
+                "B est une osamine"
+            ],
+            "source_file": "qcm csp tout -126.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les acides gras sont des dérivés issus de la voie des polyacétates",
+                "Le cholestérol est un dérivé terpénique",
+                "Les statines sont des dérivés issus de la voie des polyacétates",
+                "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes"
+            ],
+            "source_file": "qcm csp tout -127.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La colchicine est issue du colchique",
+                "La colchicine inhibe l’assemblage des microtubules",
+                "L’étoposide est un anticancéreux"
+            ],
+            "source_file": "qcm csp tout -128.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ciclosporine – cyclophiline A – calcineurine",
+                "Tacrolimus – FKBP12 – calcineurine",
+                "Sirolimus – FKBP12 – mTOR"
+            ],
+            "source_file": "qcm csp tout -129.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le test utilisé est un test d’ANOVA",
+                "L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+                "S’agissant d’un plan équilibré",
+                "la condition d’égalité des variances n’est pas nécessaire pour réaliser le test ◄ Forum de discussion Aller à… Quiz - Biophysique ►"
+            ],
+            "source_file": "qcm csp tout -13.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Gentamicine",
+                "Pristinamycine",
+                "Minocycline",
+                "Spiramycine"
+            ],
+            "source_file": "qcm csp tout -130.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "est un anticancéreux",
+                "peut être délivrée à l’officine",
+                "est administrable par voie orale",
+                "requiert un carnet de suivi à remettre au patient"
+            ],
+            "source_file": "qcm csp tout -131.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -132.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+                "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines"
+            ],
+            "source_file": "qcm csp tout -133.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les macrolides immunosuppresseurs sont tous désignés par des DCI se terminant par « - rolimus »",
+                "Le sirolimus est la rapamycine",
+                "La ciclosporine et le sirolimus peuvent être associés en thérapeutique"
+            ],
+            "source_file": "qcm csp tout -134.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "est un acide gras",
+                "est un alcaloïde",
+                "est un polyphénol"
+            ],
+            "source_file": "qcm csp tout -135.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "C’est un acide gras polyinsaturé",
+                "Dans une huile végétale",
+                "il sera rencontré surtout conjugué au glycérol ◄ Quiz - Droit pharmaceutique Aller à… Quiz - Pharmacologie et pharmacie clinique ►"
+            ],
+            "source_file": "qcm csp tout -136.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'étiquetage d'un médicament expérimental est spécifique",
+                "Le rapport Bénéfices/Risques est évalué durant chaque phase de développement d'un médicament"
+            ],
+            "source_file": "qcm csp tout -137.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ce sont des médicaments qui augmentent l'exocytose de l'insuline par les cellules béta des ilots de Langherhans",
+                "Ils agissent sur des sous unités de régulation SUR 1 de canal K+ ATP dépendants au niveau des cellules béta des ilots de Langerhans Parmi les antipsychotiques suivants",
+                "lequel nécessite une surveillance hebdomadaire de la numération formule sanguine pendant 18 semaines en raison du risque d'agranulocytose qu'il induit ? Veuillez choisir au moins une réponse : Clozapine Olanzapine Aripiprazole Chlorpromazine Risperidone La réponse correcte est : Clozapine"
+            ],
+            "source_file": "qcm csp tout -138.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Des troubles digestifs surtout en début de traitement",
+                "Une acidose lactique"
+            ],
+            "source_file": "qcm csp tout -139.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "C’est une technique spectroscopique d’absorption",
+                "Ses fréquences sont du domaine du MégaHertz",
+                "C’est une spectroscopie quantitative"
+            ],
+            "source_file": "qcm csp tout -14.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le benserazide",
+                "utilisé dans la prise en charge de la maladie de parkinson",
+                "agit par inhibition de la dopadécarboxylase périphérique",
+                "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+                "L'halopéridol antagonise l'activité de la L DOPA"
+            ],
+            "source_file": "qcm csp tout -140.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Elle peut être augmentée par la dialyse",
+                "Elle est diminuée par la diurétiques anti-aldostérone"
+            ],
+            "source_file": "qcm csp tout -141.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le bupropion (Zyban) est un dérivé amphétaminique",
+                "Les gommes à mâcher et les patchs nicotiniques peuvent être associés dans le sevrage tabagique"
+            ],
+            "source_file": "qcm csp tout -142.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+                "Tout événement indésirable grave doit être signalé sans délai",
+                "La définition du médicament expérimental inclut le placebo"
+            ],
+            "source_file": "qcm csp tout -143.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il est maximal au moment de la phase d'allaitement",
+                "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+                "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement"
+            ],
+            "source_file": "qcm csp tout -144.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le volume de distribution des médicament est augmenté",
+                "Les estrogènes entraînent un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+                "L'élimination rénale est augmentée Quelle est ou quelles sont la ou les bonnes réponses ? Veuillez choisir au moins une réponse : RCP signifie Réunion de Concertation Pluridisciplinaire Deux cent cinquante mille décès sont imputables au cancer annuellement La mortalité par cancer dépend exclusivement de la létalité Dépistage et prévention primaire sont synonymes La réponse correcte est : RCP signifie Réunion de Concertation Pluridisciplinaire"
+            ],
+            "source_file": "qcm csp tout -145.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Elles peuvent être provoquées par le Sotalol",
+                "Elles font parties des troubles du rythme ventriculaire",
+                "Elles sont favorisées par un allongement de l'intervalle QT pré-existant"
+            ],
+            "source_file": "qcm csp tout -146.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le carbimazole est un antithyroidien de synthèse",
+                "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+                "Le carbimazole peut être associé à la lévothyroxine Parmi les propositions suivantes",
+                "indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine : Veuillez choisir au moins une réponse : Elle subit principalement un métabolisme hépatique C'est un médicament inducteur enzymatique Son élimination est rénale et sous forme active C'est un médicament inhibiteur enzymatique En cas d'insuffisance rénale",
+                "il n'y pas d'accumulation possible de ce médicament La réponse correcte est : Son élimination est rénale et sous forme active"
+            ],
+            "source_file": "qcm csp tout -147.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ils stimulent la sécrétion d'insuline",
+                "Ils ralentissent la vidange gastrique"
+            ],
+            "source_file": "qcm csp tout -148.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'infliximab est un anticorps monoclonal chimérique humain/souris",
+                "Le muromonab est un anticorps monoclonal murin"
+            ],
+            "source_file": "qcm csp tout -149.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il peut correspondre à une variation de fréquences d’ondes sonores",
+                "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+                "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+                "Il est observé entre une source et un récepteur",
+                "tous deux mobiles"
+            ],
+            "source_file": "qcm csp tout -15.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La digoxine subit une élimination par voie urinaire surtout (environ 90%)",
+                "La posologie moyenne de la digoxine est à adapter à chaque cas individuel",
+                "et notamment en cas d'insuffisance rénale",
+                "chez le sujet âgé ou en cas de cardiopathie évoluée",
+                "Un surdosage à la digoxine (digoxinémie ≥ 2 ng/ml) est annoncée par des troubles digestifs",
+                "neurosensoriels",
+                "neuropsychiques et des troubles de la conduction et de l'excitabilité cardiaque. Sur une ordonnance d'un enfant de 4 ans",
+                "vous avez lu \"SRO\" 2 à 3 fois /j. Dans quelles circonstances donne t-on un \"SRO\" ? Veuillez choisir au moins une réponse : Réhydratation orale des nourrissons et enfants en bas âge au quotidien Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements Réhydratation orale des nourrissons et enfants en bas âge en cas de soif Pour traiter un enfant souffrant de détresse respiratoire Pour traiter la dénutrition chez l'enfant La réponse correcte est : Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements"
+            ],
+            "source_file": "qcm csp tout -150.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les méthodes alternatives permettent de réduire le nombre d'animaux utilisés dans les essais pré-cliniques",
+                "Le binding pharmacologique permet de déterminer des CI50 pour des substances actives",
+                "Les essais pré-cliniques utilisent des modèles in vitro et in vivo"
+            ],
+            "source_file": "qcm csp tout -151.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Réalisation obligatoire de tests de grossesse (béta-hCG plasmatiques) dans les 7 jours précédant toute prescription"
+            ],
+            "source_file": "qcm csp tout -152.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+                "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+                "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+                "Le tramadol est contre indiqué chez l'épileptique Quelle est ou quelles sont la ou les bonnes réponses ? Veuillez choisir au moins une réponse : La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique Effet indésirable et erreur médicamenteuse ont des origines identiques La retranscription d'une ordonnance doit être bannie Environ 70 % des erreurs médicamenteuses sont évitables La réponse correcte est : La retranscription d'une ordonnance doit être bannie"
+            ],
+            "source_file": "qcm csp tout -153.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Bromocriptine",
+                "Pramipexole"
+            ],
+            "source_file": "qcm csp tout -154.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+                "La présentation unitaire des médicaments doit être privilégiée"
+            ],
+            "source_file": "qcm csp tout -155.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun",
+                "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide"
+            ],
+            "source_file": "qcm csp tout -156.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+                "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque Parmi les 5 médicaments suivants lesquels ou lequel appartiennent à la famille des Benzodiazépines ? Veuillez choisir au moins une réponse : Propofol Etifoxine Hydroxyzine Alprazolam Buspirone La réponse correcte est : Alprazolam Sur une ordonnance d'un enfant de 4 ans",
+                "vous avez lu\"SRO\" 2 à 3 fois / jour que signifie \"SRO\" ? Veuillez choisir au moins une réponse : Soluté de réhydratation orale Soluté pour les problèmes respiratoires obstructifs Autre définition Soluté de remplissage orale Soluté de remplissage œsophagien La réponse correcte est : Soluté de réhydratation orale"
+            ],
+            "source_file": "qcm csp tout -157.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'étanercept est un inhibiteur compétitif de la liaison du TNF à ses récepteurs",
+                "Un traitement par étanercept expose à une diminution de la résistance aux infections pulmonaires"
+            ],
+            "source_file": "qcm csp tout -158.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La digoxine inhibe la pompe sodium-potassium ATPase dépendante",
+                "La digoxine augmente la contractilité myocardique (effet inotrope positif)",
+                "La digoxine ralentit la conduction dans le nœud auriculoventriculaire (effet dromotrope négatif)"
+            ],
+            "source_file": "qcm csp tout -159.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il est constitué d’un noyau de carbone et de 6 électrons",
+                "Il contient 6 protons et 7 neutrons",
+                "Il est isotope du carbone-12"
+            ],
+            "source_file": "qcm csp tout -16.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Selon les dernières recommandations de l'HAS",
+                "on doit prescrire en 1ère intention la metformine pour le traitement médicamenteux du contrôle glycémique",
+                "La mise en place de mesures hygiéno diététiques efficaces est un préalable nécessaire au traitement médicamenteux du contrôle glycémique pour les patients dont le diabète est nouvellement diagnostiqué et dont l'espérance de vie est > à 15 ans",
+                "sans ATCD cardio-vasculaire et sans signes hyperglycémie",
+                "Le but des mesures hygiéno diététiques est de limiter les hyperglycémies postprandiales tout en évitant d'éventuelles hypoglycémies et de limiter aussi certains facteurs de risque cardio-vasculaires"
+            ],
+            "source_file": "qcm csp tout -160.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La rifampicine est un inducteur enzymatique puissant",
+                "La rifampicine provoque une coloration rouge ou orangée des urines",
+                "des selles",
+                "des larmes et des lentilles cornéennes souples"
+            ],
+            "source_file": "qcm csp tout -161.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le trophoblaste constitue la barrière entre le compartiment maternel et le compartiment fœtal",
+                "La surface du trophoblaste augmente",
+                "alors que son épaisseur diminue avec l'âge de gestation",
+                "ce qui facilite le passage des médicaments au niveau fœtal en fin de grossesse"
+            ],
+            "source_file": "qcm csp tout -162.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le temps de demi-vie d'élimination influence le délai d'obtention de l'état d'équilibre",
+                "La phénytoïne possède une cinétique non linéaire",
+                "Le débit sanguin tissulaire influence la pharmacocinétique des médicaments Parmi les solutions aux problèmes rencontrés au cours de la technique dite de « SCATCHARD »",
+                "laquelle est exacte ? Veuillez choisir au moins une réponse : Il faut faire un « SCATCHARD » in vivo Pour éviter les interférences",
+                "il faut faire une filtration très lente. Pour éviter les interférences",
+                "il faut utiliser des récepteurs fluorescents Pour éviter les interférences",
+                "il faut utiliser des ligands fluorescents On utilise les propriétés de la radioactivité en utilisant des ligands radioactifs. La réponse correcte est : On utilise les propriétés de la radioactivité en utilisant des ligands radioactifs. Quelle est ou quelles sont la ou les propositions exactes ? Veuillez choisir au moins une réponse : La lévothyroxine est à prendre pendant le repas du soir La lévothyroxine est la forme biologiquement active La lévothyroxine nécessite plusieurs prises par jour La lévothyroxine possède un temps de demi-vie d'élimination court La lévothyroxine potentialise l'action anticoagulante des AVK La réponse correcte est : La lévothyroxine potentialise l'action anticoagulante des AVK"
+            ],
+            "source_file": "qcm csp tout -163.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ils provoquent une prise de poids par effet insulinosécréteur",
+                "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience"
+            ],
+            "source_file": "qcm csp tout -164.pdf"
+        },
+        {
+            "question": "16/05/2020 Quiz - Pharmacologie et pharmacie clinique 29/31",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -165.pdf"
+        },
+        {
+            "question": "16/05/2020 Quiz - Pharmacologie et pharmacie clinique 30/31",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -166.pdf"
+        },
+        {
+            "question": "16/05/2020 Quiz - Pharmacologie et pharmacie clinique 31/31 ◄ Quiz - Pharmacognosie Aller à… Quiz - Physiologie ►",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -167.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La noradrénaline augmente l’intensité du courant if en stimulant la production d’AMPc dans les cellules du nœud sinusal"
+            ],
+            "source_file": "qcm csp tout -168.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les canaux potassiques voltage-dépendants commencent à s'ouvrir"
+            ],
+            "source_file": "qcm csp tout -169.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "1 kg.dm",
+                "1 g.ml -3 -1 Quelle(s) proposition(s) est (sont) exactes(s) concernant la partie aromatique du spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ? Veuillez choisir au moins une réponse : On observera 4 singulets d’intensité 2 chacun On observera 4 singulets d’intensité 1 chacun Il n’y a pas de protons aromatiques On observera 1 singulet d’intensité 4 On observera 2 doublets d’intensité 2 chacun 1 1 Votre réponse est incorrecte. La réponse correcte est : On observera 2 doublets d’intensité 2 chacun"
+            ],
+            "source_file": "qcm csp tout -17.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le gaz carbonique diffuse plus vite que l’oxygène à travers la membrane alvéolo-capillaire"
+            ],
+            "source_file": "qcm csp tout -170.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La progestérone est une hormone stimulant l’aspect sécrétoire de la muqueuse utérine"
+            ],
+            "source_file": "qcm csp tout -171.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’addition de 2",
+                "3 DPG diminue l’affinité de l’oxygène pour l’hémoglobine"
+            ],
+            "source_file": "qcm csp tout -172.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les muscles extenseurs sont souvent des muscles posturaux"
+            ],
+            "source_file": "qcm csp tout -173.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La voie vestibulo-spinale augmente le tonus des muscles extenseurs"
+            ],
+            "source_file": "qcm csp tout -174.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Provoque l’ouverture d’un canal qui laisse entrer du sodium dans la cellule"
+            ],
+            "source_file": "qcm csp tout -175.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "sa destruction est responsable de la chorée"
+            ],
+            "source_file": "qcm csp tout -176.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "l’activité nerveuse parasympathique diminue le tonus du pylore"
+            ],
+            "source_file": "qcm csp tout -177.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "En cas d’acidose respiratoire",
+                "la concentration sanguine en ions bicarbonates augmente"
+            ],
+            "source_file": "qcm csp tout -178.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une augmentation du débit tubulaire augmente la sécrétion de potassium"
+            ],
+            "source_file": "qcm csp tout -179.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -18.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’angiotensine II entraîne une vasoconstriction des artérioles afférentes ET efférentes"
+            ],
+            "source_file": "qcm csp tout -180.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Cessent de transmettre des potentiels d’action sur la fibre afférente avant la fin de la stimulation"
+            ],
+            "source_file": "qcm csp tout -181.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les faisceaux de Goll et de Burdach"
+            ],
+            "source_file": "qcm csp tout -182.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’hormone de croissance stimule la sécrétion de l’IGF1"
+            ],
+            "source_file": "qcm csp tout -183.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le récepteur muscarinique M2 est associé à une protéine Gi. ◄ Quiz - Pharmacologie et pharmacie clinique Aller à… Quiz - Toxicologie et santé publique ►"
+            ],
+            "source_file": "qcm csp tout -184.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La chloroquine présente une cardiotoxicité du même type que les antidépresseurs tricycliques",
+                "Lors d’une intoxication aiguë à la chloroquine",
+                "des troubles neurosensoriels",
+                "tels que des acouphènes et une vision floue",
+                "peuvent survenir précocement et permettre une orientation diagnostique",
+                "Il n’existe pas de traitement antidotique de l’intoxication à la chloroquine",
+                "Le traitement spécifique d’une intoxication par la chloroquine repose sur la triade Adrénaline/Diazépam/Ventilation assistée"
+            ],
+            "source_file": "qcm csp tout -185.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les métabolites principaux sont le trichloroéthanol et l'acide trichloracétique",
+                "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet de doser les principaux métabolites du trichloroéthylène",
+                "Un contact cutané répété peut être à l'origine de dermatoses",
+                "L'intoxication aiguë entraîne des signes d'hyperexcitabilité cardiaque"
+            ],
+            "source_file": "qcm csp tout -186.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les méthodes de génotypage d’une enzyme du métabolisme des médicaments permettent de prédire le phénotype métabolique d’un individu pour cette enzyme",
+                "Pour un médicament administré sous forme de prodrogue",
+                "à doses standards",
+                "et métabolisé par une enzyme polymorphe",
+                "le phénotype « métaboliseur lent » est à risque d’inefficacité thérapeutique",
+                "Lors d’un test de phénotypage d’une enzyme du métabolisme des médicaments",
+                "il existe un risque de phénocopie en cas de co-administration de médicaments"
+            ],
+            "source_file": "qcm csp tout -187.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ce syndrome peut être lié à l’inhalation d’oxydes métalliques",
+                "Le développement de ce syndrome implique l’activation des macrophages alvéolaires et le développement d’une réponse inflammatoire"
+            ],
+            "source_file": "qcm csp tout -188.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les digitaliques inhibent la pompe Na+/K+ ATPase au niveau des cardiomyocytes",
+                "L’hypokaliémie",
+                "induite par certains médicaments",
+                "peut-être un facteur déclenchant d’une intoxication aux digitaliques"
+            ],
+            "source_file": "qcm csp tout -189.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La réfractométrie permet de mesurer un indice de réfraction absolu",
+                "La photométrie de flamme est basée sur l’émission de lumière par des atomes excités retournant à l’état fondamental",
+                "Le domaine de lumière Visible correspond à la lumière blanche"
+            ],
+            "source_file": "qcm csp tout -19.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La voie principale d’absorption du trichloroéthylène dans l’organisme lors d’une exposition chronique est la voie orale",
+                "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet le dosage urinaire du trichloroéthylène"
+            ],
+            "source_file": "qcm csp tout -190.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La consommation chronique d’éthanol",
+                "La malnutrition",
+                "Le déficit en glutathion"
+            ],
+            "source_file": "qcm csp tout -191.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Halotane",
+                "Amiodarone",
+                "Paracétamol",
+                "Méthyldopa"
+            ],
+            "source_file": "qcm csp tout -192.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les normes pour l’eau destinée à la consommation humaine sont fixées dans le but de limiter le risque sanitaire",
+                "mais aussi de répondre à des exigences de confort pour le consommateur",
+                "Le risque microbiologique lié à la consommation d’eau résulte principalement d’une contamination fécale",
+                "Lors de la production des eaux destinées à la consommation humaine",
+                "il peut se former des sous-produits de désinfection dont certains sont classés comme cancérogènes probables"
+            ],
+            "source_file": "qcm csp tout -193.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La méthode analytique par CPG-FID est l’une des deux méthodes officielles au plan légal pour doser l’éthanol dans le sang",
+                "La méthode de Cordebard consiste en l’extraction de l'éthanol par distillation en présence d'acide picrique",
+                "oxydation à froid par le bichromate de potassium et dosage en retour par iodométrie"
+            ],
+            "source_file": "qcm csp tout -194.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Interdiction de publicité dirigée vers les jeunes",
+                "Message à caractère sanitaire sur les emballages des paquets de cigarettes",
+                "Hausse du prix des cigarettes",
+                "Interdiction de fumer dans les lieux publics"
+            ],
+            "source_file": "qcm csp tout -195.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’odds ratio",
+                "Le risque relatif"
+            ],
+            "source_file": "qcm csp tout -196.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Cette affection est causée par l’inhalation de la silice cristalline",
+                "Cette affection n’implique pas de désordres d’ordre immunologique"
+            ],
+            "source_file": "qcm csp tout -197.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’administration de lait par les parents risque de majorer les risques toxiques",
+                "Mathieu risque une pneumopathie d'inhalation",
+                "Mathieu devra suivre un régime alimentaire spécifique durant les prochaines heures"
+            ],
+            "source_file": "qcm csp tout -198.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Un des objectifs des études toxicologiques est de calculer la première dose de médicament à administrer à l’homme",
+                "Les tests doivent être effectués dans le respect des Bonnes Pratiques de Laboratoire"
+            ],
+            "source_file": "qcm csp tout -199.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il concerne des variables qualitatives",
+                "S’il est utilisé pour tester l’existence d’une liaison entre deux variables",
+                "l’hypothèse H est qu’il n’y a pas de liaison",
+                "C’est toujours un test bilatéral 0"
+            ],
+            "source_file": "qcm csp tout -2.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+                "Un dossier d’AMM requiert le spectre RMN H du principe actif",
+                "La polarimétrie permet de doser des molécules optiquement actives 1"
+            ],
+            "source_file": "qcm csp tout -20.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Potassium",
+                "Sodium",
+                "Lithium"
+            ],
+            "source_file": "qcm csp tout -200.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Amiante",
+                "Benzène",
+                "Benzo[a]pyrène"
+            ],
+            "source_file": "qcm csp tout -201.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Leur caractère mutagène",
+                "Le caractère dose-dépendant de la tumorogénicité",
+                "L’absence de mécanisme à seuil pour la plupart de ces substances"
+            ],
+            "source_file": "qcm csp tout -202.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les BZD entraînent",
+                "en cas d’intoxication sévère",
+                "un coma calme",
+                "hypotonique et hyporéflexique",
+                "Les BZD sont les molécules les plus souvent utilisées en France par les auteurs de soumission chimique",
+                "notamment du fait de leurs propriétés amnésiantes"
+            ],
+            "source_file": "qcm csp tout -203.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le RR est une bonne approximation de l’OR si la maladie est rare",
+                "L’OR ne peut être calculé dans les études de cohorte",
+                "Si 1 est compris dans l’intervalle de confiance d’un RR",
+                "alors l’association entre le facteur de risque et la maladie est significative. ◄ Quiz - Physiologie Aller à… Quiz - Bactériologie ►"
+            ],
+            "source_file": "qcm csp tout -204.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "est thermophile",
+                "a comme habitat primitif l'eau douce",
+                "est présent dans les infections communautaires et nosocomiales"
+            ],
+            "source_file": "qcm csp tout -205.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "c'est une bactérie dont l'habitat principal est l'eau",
+                "le pouvoir pathogène est principalement lié à la présence de toxines",
+                "en phase aiguë de choléra",
+                "la perte liquidienne peut atteindre plusieurs litres par jour Parmi ces affirmations",
+                "laquelle (lesquelles) est (sont) fausse(s) : Quels sont les modes connus de contamination humaine par Leptospira interrogans ? Veuillez choisir au moins une réponse : contact avec l'urine de rongeurs ou éléments souillés par l'urine des rongeurs baignades dans des eaux naturelles (lacs",
+                "rivières",
+                "étangs) douches manipulation de tissus placentaires et de mises-bas d'animaux infectés suite à une morsure de rat contaminé La réponse correcte est : douches"
+            ],
+            "source_file": "qcm csp tout -206.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "il existe plusieurs sérogroupes définis par une protéine de membrane",
+                "c'est un pathogène strictement intracellulaire"
+            ],
+            "source_file": "qcm csp tout -207.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "la multiplication des bactéries est très ralentie",
+                "les bactéries sont recouvertes d'une couche polysaccharidique",
+                "les bactéries mobiles possèdent leurs flagelles",
+                "les antibiotiques pénètrent difficilement",
+                "les bactéries sont à l'abri de la phagocytose"
+            ],
+            "source_file": "qcm csp tout -208.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "classiquement",
+                "la phase d'état comporte une fièvre continue et un tuphos",
+                "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir d'hémocultures",
+                "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir de coprocultures"
+            ],
+            "source_file": "qcm csp tout -209.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La radiologie conventionnelle avec ou sans produit de contraste",
+                "La tomographie à émission de positons",
+                "Le scanner X Parmi les propositions suivantes",
+                "quelle est celle qui correspond à la masse molaire de l’Ibuprofen® C H O en respectant les chiffres significatifs? (M(C) = 12",
+                "01 g.mol ; M(O) = 16",
+                "0 g.mol ; M(H) = 1",
+                "008 g.mol ) Veuillez choisir au moins une réponse : 206",
+                "27 g.mol 206",
+                "274 g.mol 206",
+                "3 g.mol 206 g.mol 206",
+                "300 g.mol 13 18 2 -1 -1 -1 -1 -1 -1 -1 -1 Votre réponse est incorrecte. La réponse correcte est : 206",
+                "3 g.mol-1"
+            ],
+            "source_file": "qcm csp tout -21.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "de lipopolysaccharides en position externe",
+                "de phospholipides sous la couche de lipopolysaccharides"
+            ],
+            "source_file": "qcm csp tout -210.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Veuillez choisir au moins une réponse : des autotrophes des photolithotrophes des auxotrophes des mésotrophes des prototrophes La réponse correcte est : des auxotrophes Parmi les propositions suivantes",
+                "indiquez la(les) proposition(s) exacte(s) concernant l'antigène O des entérobactéries qui est utilisé en épidémiologie. Il correspond à : Veuillez choisir au moins une réponse : la chaîne oligosaccharidique externe des lipopolysaccharides des unités de glycopeptides libres le lipide A la lipoprotéine de Braun une structure de flagelline La réponse correcte est : la chaîne oligosaccharidique externe des lipopolysaccharides L'undecaprénylphosphate est nécessaire à la biosynthèse de la paroi bactérienne. Il permet : Veuillez choisir au moins une réponse : la fixation des bêta-lactamines à la paroi néoformée aucune de ces propositions n'est exacte le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique la fixation des unités de glycopeptides à la paroi néoformée la formation du nucléotide de Park La réponse correcte est : le transport des unités de glycopeptides précurseurs du peptidoglycane à travers la membrane cytoplasmique"
+            ],
+            "source_file": "qcm csp tout -211.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "elle cultive sur gélose ordinaire sans facteurs de croissance",
+                "elle est fréquemment responsable d'infections urinaires"
+            ],
+            "source_file": "qcm csp tout -212.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "est indiquée en cas de diarrhée sanglante",
+                "est indiquée en cas de diarrhée chronique",
+                "est indiquée chez un patient atteint de diarrhée et présentant une fièvre avec température centrale supérieure à 38°C Parmi ces affirmations",
+                "laquelle (lesquelles) est (sont) fausse(s) concernant Francisella tularensis",
+                "bactérie agent de la tularémie : Veuillez choisir au moins une réponse : elle provoque des ulcérations cutanées associées à des adénopathies inflammatoires les rongeurs et les lagomorphes constituent le réservoir de cette bactérie elle peut être transmise via des piqûres de tiques peut être un agent du bioterrorisme c'est une bactérie spirochète La réponse correcte est : c'est une bactérie spirochète"
+            ],
+            "source_file": "qcm csp tout -213.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "parfois responsable de toxi-infections alimentaires collectives",
+                "une entérobactérie",
+                "entéro- invasive",
+                "souvent transmise par des ovo-produits"
+            ],
+            "source_file": "qcm csp tout -214.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "peut donner des diarrhées",
+                "peut donner une gangrène gazeuse",
+                "peut sporuler Parmi ces affirmations",
+                "laquelle (lesquelles) est (sont) fausse(s) concernant la brucellose : Veuillez choisir au moins une réponse : c'est une infection due à des bactéries à Gram négatif",
+                "aérobies strictes elle peut être diagnostiquée par la technique de séroagglutination de Wright c'est une infection asymptomatique dans 90 % des cas dans sa phase aiguë septicémique",
+                "elle provoque une fièvre ondulante sudoro-algique c'est une maladie strictement humaine La réponse correcte est : c'est une maladie strictement humaine Pour la recherche de salmonelles dans des poudres",
+                "la Pharmacopée Européenne préconise d'utiliser le milieu d'enrichissement de Rappaport-Vassiliadis. Il est nécessaire de vérifier les capacités inhibitrices du milieu. Parmi les propositions suivantes",
+                "indiquez la(les) proposition(s) exacte(s) concernant les espèces choisies : Veuillez choisir au moins une réponse : Salmonella enterica subsp.enterica sérovar Abony Clostridium perfringens Salmonella enterica subsp.enterica sérovar Typhimurium Staphylococcus aureus Escherichia coli La réponse correcte est : Staphylococcus aureus"
+            ],
+            "source_file": "qcm csp tout -215.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "sont à déclaration obligatoire",
+                "touchent au moins deux personnes ayant partagé le même repas"
+            ],
+            "source_file": "qcm csp tout -216.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "sa mise en culture en milieu liquide",
+                "sa mise en culture en surface de gélose",
+                "des méthodes d'observation microscopique",
+                "des méthodes mesurant une différence de potentiel",
+                "la spectrophotométrie Parmi ces affirmations",
+                "laquelle (lesquelles) est (sont) fausse(s) concernant la maladie de Lyme : Veuillez choisir au moins une réponse : l'érythème migrant en est le signe pathognomonique c'est une zoonose elle est due à une bactérie du genre Bordetella c'est une borréliose elle peut être à l'origine de signes cliniques divers : cutanés",
+                "articulaires",
+                "nerveux",
+                "cardiaques La réponse correcte est : elle est due à une bactérie du genre Bordetella"
+            ],
+            "source_file": "qcm csp tout -217.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "c'est une bactérie commensale du rhino-pharynx",
+                "il est responsable de méningites chez l'enfant non vacciné"
+            ],
+            "source_file": "qcm csp tout -218.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "il dispose de sa propre origine de réplication",
+                "il possède les gènes codant pour les pili",
+                "après attachement de la cellule donneuse à la cellule receveuse",
+                "les deux cellules (donneuse et receveuse) répliquent un monobrin d'ADN",
+                "il peut être sous forme épisomique ◄ Quiz - Toxicologie et santé publique Aller à… Quiz - Biochimie ►"
+            ],
+            "source_file": "qcm csp tout -219.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Energie E = h (constante de Planck) x ν (fréquence)",
+                "Les ondes gamma sont très énergétiques",
+                "Leur vitesse de propagation dans le vide est de 3 x 10 km.s 5 -1 ◄ Quiz - Biomathématiques Aller à… Quiz - Chimie analytique ►"
+            ],
+            "source_file": "qcm csp tout -22.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "C'est une vitamine liposoluble",
+                "faisant partie des stérols",
+                "L'ergocalciférol est utilisé dans les compléments alimentaires",
+                "Elle agit sur l'intestin",
+                "l'os et le rein",
+                "Sa surcharge entraîne une ostéolyse accrue"
+            ],
+            "source_file": "qcm csp tout -220.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ils peuvent être classés en acides aminés essentiels et non essentiels",
+                "Certains sont indispensables au métabolisme des nucléotides"
+            ],
+            "source_file": "qcm csp tout -221.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+                "L’électrophorèse des protéines sériques est une analyse de routine",
+                "L’électrophorèse est associée à un dosage protéique"
+            ],
+            "source_file": "qcm csp tout -222.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+                "Il permet l’assimilation de l’azote",
+                "Il peut être transformé en glutamine Parmi ces substances",
+                "quelle est celle qui est prescrite afin de limiter la toxicité du méthotrexate lorsque ce dernier est administré à hautes doses ? Veuillez choisir au moins une réponse : Vitamine A Vitamine B12 Acide folinique Vitamine C Calciferol Votre réponse est incorrecte. La réponse correcte est : Acide folinique"
+            ],
+            "source_file": "qcm csp tout -223.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Est une hormone antéhypophysaire",
+                "S'administre par voie intramusculaire"
+            ],
+            "source_file": "qcm csp tout -224.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le foie produit environ 500 ml de bile par jour",
+                "La bilirubine est le produit du catabolisme de l'hème",
+                "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble",
+                "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène Parmi les affirmations suivantes",
+                "laquelle (lesquelles) est (sont) inexacte (s) ? Un syndrome néphrotique entraîne généralement : Veuillez choisir au moins une réponse : Une augmentation des gamma-globulines sériques Des œdèmes Un risque de thrombose Une hypercholestérolémie Une hypoalbuminémie à moins de 30 g/L Votre réponse est incorrecte. La réponse correcte est : Une augmentation des gamma-globulines sériques"
+            ],
+            "source_file": "qcm csp tout -225.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+                "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants",
+                "ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+                "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes"
+            ],
+            "source_file": "qcm csp tout -226.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Amaigrissement rapide avec polyphagie",
+                "Nervosité",
+                "Thermophobie"
+            ],
+            "source_file": "qcm csp tout -227.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "D’une cirrhose si un bloc béta-gamma est détecté",
+                "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+                "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+                "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées Parmi les affirmations suivantes concernant le rôle d’une enzyme au cours d’une réaction biochimique",
+                "laquelle (lesquelles) est (sont) exacte(s) ? Veuillez choisir au moins une réponse : Elle permet d’augmenter la variation d’énergie libre de la réaction Elle permet d’augmenter la température à laquelle s’effectue la réaction Elle permet de ralentir la vitesse de réaction Elle permet de diminuer l’énergie d’activation Elle permet d’éviter le passage à un état de transition Votre réponse est incorrecte. La réponse correcte est : Elle permet de diminuer l’énergie d’activation"
+            ],
+            "source_file": "qcm csp tout -228.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Cycle de Krebs",
+                "Voie des pentoses phosphate",
+                "Biosynthèse des nucléotides",
+                "Glycolyse",
+                "Néoglucogenèse"
+            ],
+            "source_file": "qcm csp tout -229.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "on préparera une solution aqueuse de paracétamol en introduisant une masse connue de la poudre issue du comprimé dans un volume connu de solvant",
+                "on pourra mesurer l’absorbance de l’échantillon préparé",
+                "à 243 nm"
+            ],
+            "source_file": "qcm csp tout -23.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il s’agit d’une réaction enzymatique nécessitant l’utilisation d’une ADN polymérase RNA dépendante",
+                "Il est utilisé dans le cadre d’une RT-PCR pour quantifier l’ARN d’un gène"
+            ],
+            "source_file": "qcm csp tout -230.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il s’agit de protéines",
+                "Il s’agit de catalyseurs biologiques"
+            ],
+            "source_file": "qcm csp tout -231.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves",
+                "La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves",
+                "L’hémochromatose héréditaire est une cause de surcharge en fer"
+            ],
+            "source_file": "qcm csp tout -232.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique",
+                "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+                "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine Parmi les affirmations suivantes concernant l’urée",
+                "laquelle (lesquelles) est (sont) exacte(s) ? Veuillez choisir au moins une réponse : C’est une molécule hydrophobe Elle est éliminée principalement par voie biliaire Elle est synthétisée par le rein Elle est éliminée principalement par voie rénale Elle est éliminée principalement par voie fécale Votre réponse est incorrecte. La réponse correcte est : Elle est éliminée principalement par voie rénale"
+            ],
+            "source_file": "qcm csp tout -233.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La vitamine C est un cofacteur essentiel dans la biosynthèse du collagène",
+                "La dihydrofolate réductase est la cible thérapeutique du méthotrexate"
+            ],
+            "source_file": "qcm csp tout -234.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’électrophorèse s’effectue avec un tampon de migration de pH alcalin",
+                "L’électrophorèse sépare les variants d’hémoglobine en fonction de leur charge",
+                "Cette technique permet de déterminer l’état homozygote ou hétérozygote d’un patient pour une mutation donnée ◄ Quiz - Bactériologie Aller à… Quiz - Biologie cellulaire et moléculaire ►"
+            ],
+            "source_file": "qcm csp tout -235.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Hybridation de la membrane de nitrocellulose avec des anticorps",
+                "Extraction des protéines totales",
+                "Séparation des protéines par électrophorèse",
+                "Dosage des protéines totales"
+            ],
+            "source_file": "qcm csp tout -236.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Durée de vie limitée",
+                "Cellules obtenues à partir d’un tissu sain"
+            ],
+            "source_file": "qcm csp tout -237.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les filaments du cytosquelette sont dynamiques dans une cellule en croissance",
+                "Les filaments du cytosquelette sont constitués de différentes sous-unités protéiques",
+                "Les filaments du cytosquelette s’organisent dans la cellule grâce à leur association avec des protéines Concernant les chromosomes",
+                "quelles sont les propositions vraies : Veuillez choisir au moins une réponse : En mitose",
+                "une cellule somatique possède 2n chromosomes à 2 chromatides Les chromosomes d’une cellule eucaryote ne possèdent qu’une seule origine de réplication Un chromosome possède 2 centromères et un télomère Les chromosomes sont les plus visibles en interphase L’homme possède 24 paires de chromosomes dans ses cellules Votre réponse est incorrecte. La réponse correcte est : En mitose",
+                "une cellule somatique possède 2n chromosomes à 2 chromatides"
+            ],
+            "source_file": "qcm csp tout -238.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Immunofluorescence",
+                "Western Blot",
+                "Dot blot"
+            ],
+            "source_file": "qcm csp tout -239.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le coefficient de partage du composé augmente",
+                "Le nombre d'extractions réalisées augmente",
+                "Le volume du solvant organique augmente"
+            ],
+            "source_file": "qcm csp tout -24.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+                "Elles sont indifférenciées",
+                "Elles se caractérisent par leur potentiel de différenciation",
+                "Si elles sont injectées à une souris immunocompétente",
+                "cela conduira à la formation d’un tératome"
+            ],
+            "source_file": "qcm csp tout -240.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+                "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+            ],
+            "source_file": "qcm csp tout -241.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’anaphase est une phase de la mitose",
+                "Des cellules en mitose se caractérisent par des chromosomes visibles en microscopie optique",
+                "La phase M est constituée de 5 phases Concernant les biothérapies",
+                "quelles sont les propositions vraies : Veuillez choisir au moins une réponse : Dans le cas de la thérapie cellulaire par utilisation de cellules iPS (induced Pluripotent Stem cells)",
+                "il est nécessaire de trouver une lignée de cellules souches embryonnaires immuno-compatibles Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants La thérapie cellulaire consiste à l’injection de cellules souches pour réparer un tissu ou la fonction d’un organe Dans le cas de la thérapie cellulaire",
+                "les cellules greffées n’ont pas besoin d’être immuno-compatibles Les biothérapies basées sur l’utilisation de molécules naturelles produites par des organismes vivants ciblent la guérison définitive des patients par une administration unique (« one shot treatment ») Votre réponse est incorrecte. La réponse correcte est : Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants"
+            ],
+            "source_file": "qcm csp tout -242.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La chromatine est constituée d’ADN associé à des protéines",
+                "Les histones permettent de compacter l’ADN au sein de la chromatine",
+                "On observe les chromosomes fortement condensés au cours de la mitose",
+                "La réplication et la transcription de l’ADN n’ont lieu qu’au niveau des fibres nucléosomiques",
+                "Un nucléosome est composé d’un octamère d’histones associé à une double hélice d’ADN"
+            ],
+            "source_file": "qcm csp tout -243.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’organisme se construit grâce à de nombreuses divisions cellulaires",
+                "Le cycle cellulaire se compose de 4 phases : G1",
+                "G2",
+                "M ◄ Quiz - Biochimie Aller à… Quiz - Hématologie ►"
+            ],
+            "source_file": "qcm csp tout -244.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Déficit en facteur VIII",
+                "Allongement du Temps de Céphaline + Activateur (TCA)",
+                "Taux de prothrombine normal (> 70%)"
+            ],
+            "source_file": "qcm csp tout -245.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La leucémie lymphoïde chronique est fréquente chez l’enfant",
+                "Le myélogramme est indispensable au diagnostic"
+            ],
+            "source_file": "qcm csp tout -246.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les cellules leucémiques présentent un blocage de maturation",
+                "Il n’existe pas d’anomalie cytogénétique récurrente dans cette maladie"
+            ],
+            "source_file": "qcm csp tout -247.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le traitement par AVK débute avant l’arrêt de l’héparinothérapie",
+                "L’arrêt de l’héparine est effectué lorsque 2 INR successifs sont obtenus dans la zone thérapeutique recherchée",
+                "à 24h d’intervalle Chez une femme de 25 ans présentant une asthénie avec pâleur",
+                "l’hémogramme met en évidence une anémie microcytaire hypochrome et arégénérative. Quel(s) est/sont le(s) examen(s) biologique(s) d’intérêt pour le diagnostic ? Veuillez choisir au moins une réponse : L’électrophorèse de l’hémoglobine Un dosage de la vitamine B12 et des folates sériques Le Coombs direct Le myélogramme Le dosage de la ferritinémie Votre réponse est incorrecte. La réponse correcte est : Le dosage de la ferritinémie Concernant le lymphome folliculaire",
+                "sélectionnez la ou les proposition(s) exacte(s). Veuillez choisir au moins une réponse : Les adénopathies sont rares au moment du diagnostic Les cellules lymphomateuses correspondent à des cellules lymphoïdes B CD5+ Les cellules lymphomateuses ont une morphologie identique à celle des lymphocytes normaux Présence quasi constante de la translocation t(11;14)(q13;q32) Il peut se transformer en lymphome diffus à grandes cellules B Votre réponse est incorrecte. La réponse correcte est : Il peut se transformer en lymphome diffus à grandes cellules B"
+            ],
+            "source_file": "qcm csp tout -248.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les anticorps naturels du système ABO sont d’isotype IgM",
+                "Les sujets de groupe AB n’ont pas d’anticorps naturels anti-A et anti-B",
+                "La méthode globulaire de Beth-Vincent permet de rechercher les antigènes du système ABO à la surface des globules rouges",
+                "Il est nécessaire de réaliser 2 prélèvements différents pour valider une carte de groupe sanguin"
+            ],
+            "source_file": "qcm csp tout -249.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Varier avec la température",
+                "Varier avec la longueur d'onde",
+                "Etre modifié par la nature du solvant",
+                "Etre identique à 2 longueurs d'onde différentes"
+            ],
+            "source_file": "qcm csp tout -25.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Dans la maladie de Biermer",
+                "l’hémogramme permet d’affirmer la mégaloblastose",
+                "En pratique",
+                "la cytochimie de la myéloperoxydase est indispensable dans le diagnostic d’une leucémie aigue",
+                "Une hyperéosinophilie sanguine est définie par des polynucléaires éosinophiles sanguins supérieurs à 20% des leucocytes totaux Parmi les propositions suivantes",
+                "laquelle ou lesquelles ne s’applique(nt) pas aux syndromes myélodysplasiques ? Veuillez choisir au moins une réponse : Leur fréquence augmente avec l’âge L’anémie est le plus souvent microcytaire Ils peuvent être secondaires à une chimiothérapie cytotoxique Le caryotype est un facteur pronostique majeur Ils sont caractérisés par une dysmyélopoïèse Votre réponse est incorrecte. La réponse correcte est : L’anémie est le plus souvent microcytaire"
+            ],
+            "source_file": "qcm csp tout -250.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’hémogramme montre une polyglobulie microcytaire hypochrome",
+                "Le diagnostic de β thalassémie mineure au doit être évoqué",
+                "L’exposition chronique aux solvants est une cause d’aplasie médullaire"
+            ],
+            "source_file": "qcm csp tout -251.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une aplasie médullaire médicamenteuse",
+                "L’envahissement métastatique de la moelle osseuse",
+                "Une myélofibrose",
+                "Une carence en vitamines B12 ou en folates"
+            ],
+            "source_file": "qcm csp tout -252.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Un cancer actif",
+                "Un alitement prolongé",
+                "Un déficit en antithrombine",
+                "Une grossesse Toutes ces indications des anti-vitamines K nécessitent un INR compris entre 2 et 3 sauf une",
+                "laquelle ? Veuillez choisir au moins une réponse : Prothèse valvulaire mécanique Fibrillation auriculaire Embolie pulmonaire Prothèse valvulaire biologique Thrombose veineuse profonde des membres inférieurs Votre réponse est incorrecte. La réponse correcte est : Prothèse valvulaire mécanique"
+            ],
+            "source_file": "qcm csp tout -253.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une hyper-réticulocytose",
+                "Des schizocytes sur le frottis",
+                "Une élévation des LDH",
+                "Une baisse de l’haptoglobine"
+            ],
+            "source_file": "qcm csp tout -254.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les anti-inflammatoires non stéroïdiens sont responsables d’agranulocytose",
+                "Dans les PTAI aigus",
+                "les Ig polyvalentes purifiées par voie IV (ou IgG anti Rhésus D ) sont utilisées en traitement d’urgence afin de réduire le risque hémorragique",
+                "Le PTAI de l’enfant se présente généralement sous la forme d’une thrombopénie isolée aigue et sévère dans les suites d’un épisode infectieux viral",
+                "Une polyglobulie microcytaire chez un patient d’origine marocaine doit faire évoquer le diagnostic de thalassémie hétérozygote"
+            ],
+            "source_file": "qcm csp tout -255.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Splénomégalie",
+                "Thrombocytose",
+                "Présence de la mutation V617F du gène JAK2"
+            ],
+            "source_file": "qcm csp tout -256.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le traitement d’urgence des PTT repose sur les échanges plasmatiques",
+                "Dans le SHU classique",
+                "la présence de diarrhées glairo-sanglantes est fréquemment rapportée",
+                "Le SHU classique est le plus souvent associé à la présence d’E.Coli O157 H7 producteur de verotoxine"
+            ],
+            "source_file": "qcm csp tout -257.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Thrombopénie auto-immune",
+                "Syndrome de Richter"
+            ],
+            "source_file": "qcm csp tout -258.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Insuffisants rénaux chroniques hémodialysés",
+                "Traitements par le Méthotrexate L’hémogramme suivant réalisé chez un homme de 57 ans traduit : Hématies: 4",
+                "8 T/L Hémoglobine: 140 g/L VGM: 95fL",
+                "CCMH : 34% Leucocytes: 8 G/L Polynucléaires neutrophiles : 5 G/L",
+                "polynucléaires éosinophiles : 0",
+                "4 G/L",
+                "lymphocytes : 3 G/L",
+                "monocytes : 0",
+                "6 G/L. Plaquettes: 230G/L Veuillez choisir au moins une réponse : Une anémie normocytaire normochrome Des résultats normaux Une hyperéosinophilie Une neutropénie Une polyglobulie Votre réponse est incorrecte. La réponse correcte est : Des résultats normaux"
+            ],
+            "source_file": "qcm csp tout -259.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le volume de la phase aqueuse à extraire augmente",
+                "La concentration initiale du composé dans l’eau augmente"
+            ],
+            "source_file": "qcm csp tout -26.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Elles peuvent être conservées dans l’azote liquide pour une utilisation ultérieure",
+                "Elles présentent des capacités d’autorenouvellement et de différenciation",
+                "Elles expriment l’antigène CD34",
+                "Elles ont une capacité de “homing” pour la moelle osseuse",
+                "ce qui signifie qu’elles retournent dans la moelle osseuse après injection I.V",
+                "Le G-CSF est utilisé pour les mobiliser dans la circulation sanguine"
+            ],
+            "source_file": "qcm csp tout -260.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Leucémie aiguë promyélocytaire",
+                "Leucémie aiguë lymphoïde",
+                "Syndromes myélodysplasiques"
+            ],
+            "source_file": "qcm csp tout -261.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La ferritinémie",
+                "Le taux de fibrinogène"
+            ],
+            "source_file": "qcm csp tout -262.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La capacité́ totale de fixation de la transferrine est élevée",
+                "Le taux de fer sérique est abaissé"
+            ],
+            "source_file": "qcm csp tout -263.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une carence martiale en cours de traitement",
+                "Une anémie hémolytique auto-immune (AHAI)",
+                "Une maladie de Minkowski-Chauffard"
+            ],
+            "source_file": "qcm csp tout -264.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le facteur VII",
+                "Le facteur V",
+                "L’antithrombine",
+                "La protéine C"
+            ],
+            "source_file": "qcm csp tout -265.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "une thrombopénie",
+                "une anémie hémolytique d’origine mécanique",
+                "un TCA supérieur à 1.2 fois le TCA témoin ◄ Quiz - Biologie cellulaire et moléculaire Aller à… Quiz - Immunologie ►"
+            ],
+            "source_file": "qcm csp tout -266.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’atopie est une prédisposition génétique à produire des IgE",
+                "Les prostaglandines sont des médiateurs inflammatoires néoformés"
+            ],
+            "source_file": "qcm csp tout -267.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "interviennent dans l'élimination des micro-organismes",
+                "ont une durée de vie longue",
+                "sont des cellules présentatrices d'antigènes"
+            ],
+            "source_file": "qcm csp tout -268.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI",
+                "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques"
+            ],
+            "source_file": "qcm csp tout -269.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Dépend du flux électroosmotique",
+                "Est proportionnelle à la longueur du tube capillaire"
+            ],
+            "source_file": "qcm csp tout -27.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il est associé à une primo-infection par un papillomavirus",
+                "Il peut être prévenu par la vaccination",
+                "Il peut être prévenu par la détection de lésions précancéreuses"
+            ],
+            "source_file": "qcm csp tout -270.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus",
+                "Ils contiennent tous les deux des pseudo-particules virales",
+                "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans"
+            ],
+            "source_file": "qcm csp tout -271.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Vaccin contre la rubéole",
+                "Vaccin contre la rougeole"
+            ],
+            "source_file": "qcm csp tout -272.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+                "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+                "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2"
+            ],
+            "source_file": "qcm csp tout -273.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "est un anticorps monoclonal chimérique 75% humain/25% souris",
+                "se lie au TNF soluble et membranaire",
+                "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate"
+            ],
+            "source_file": "qcm csp tout -274.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il existe deux principales formes de MICI : la maladie de Crohn et la rectocolite hémorragique",
+                "Les MICI touchent principalement les adultes jeunes",
+                "Les MICI évoluent généralement sur un mode intermittent",
+                "avec une alternance de poussées et de rémissions"
+            ],
+            "source_file": "qcm csp tout -275.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les lymphocytes T",
+                "Les lymphocytes B ◄ Quiz - Hématologie Aller à… Quiz - Parasitologie",
+                "mycologie médicale et biologie animale ►"
+            ],
+            "source_file": "qcm csp tout -276.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "une lente de poux",
+                "une larve de pou qui émerge",
+                "un insecte"
+            ],
+            "source_file": "qcm csp tout -277.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "un pou de tête",
+                "Pediculus humanus var. capitis",
+                "un insecte"
+            ],
+            "source_file": "qcm csp tout -278.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Artéméther + luméfantrine",
+                "Pipéraquine + arténimol (dihydroartémisinine)",
+                "Atovaquone + proguanil Cochez les propositions exactes concernant la transmission des poux de tête",
+                "Pediculus humanus var. capitis Veuillez choisir au moins une réponse : Un pou peut rester vivant hors d'une tête plus de 7 jours. La transmission des poux peut être favorisée par les selfies. Les poux sautent d'une tête à l'autre. Les poux sont capables de voler sur quelques mètres. On peut attraper des poux par contact avec son animal de compagnie. La réponse correcte est : La transmission des poux peut être favorisée par les selfies"
+            ],
+            "source_file": "qcm csp tout -279.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ne dépend pas du flux électroosmotique",
+                "Est toujours nulle pour les particules non chargées",
+                "Ne dépend pas de la vitesse électrophorétique de l'analyte Parmi les propositions suivantes",
+                "laquelle (lesquelles) est (sont) inexacte(s) ? En électrophorèse",
+                "la mobilité électrophorétique d’une particule varie selon : Veuillez choisir au moins une réponse : La tension appliquée Le rayon de la particule Le champ électrique appliqué La charge de la particule Le pH du milieu Votre réponse est incorrecte. La réponse correcte est : Le champ électrique appliqué"
+            ],
+            "source_file": "qcm csp tout -28.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "méfloquine (Lariam®)",
+                "atovaquone + proguanil (Malarone®)",
+                "doxycycline (Doxypalu®)"
+            ],
+            "source_file": "qcm csp tout -280.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La contamination de l'homme se fait par l'ingestion d'embryophores",
+                "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique"
+            ],
+            "source_file": "qcm csp tout -281.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Corps de forme ovoïde",
+                "Quatre paires de pattes à l'état adulte"
+            ],
+            "source_file": "qcm csp tout -282.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le signe clinique majeur est le prurit anal",
+                "Les œufs contiennent une larve infectante dans les heures qui suivent la ponte",
+                "Après traitement du ou des patients",
+                "il faut laver la literie et les vêtements de l'enfant à 60°C et passer l'aspirateur dans toute la maison. Cocher la ou les réponses correcte(s) : La cuisson suffisante de la viande est une des mesures préventives vis-à-vis des parasitoses suivantes : Veuillez choisir au moins une réponse : L'oxyurose à Enterobius vermicularis Le téniasis à Tænia saginata La fasciolose à Fasciola hepatica La giardiose à Giardia intestinalis Le paludisme à Plasmodium falciparum La réponse correcte est : Le téniasis à Tænia saginata"
+            ],
+            "source_file": "qcm csp tout -283.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "un morpion",
+                "un pou"
+            ],
+            "source_file": "qcm csp tout -284.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "une puce",
+                "un insecte"
+            ],
+            "source_file": "qcm csp tout -285.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'agent responsable est très souvent un dermatophyte",
+                "L'humidité et la macération sont des facteurs favorisants",
+                "La lésion est un intertrigo des petits plis"
+            ],
+            "source_file": "qcm csp tout -286.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les morpions sont spécifiques de leur hôte",
+                "La transmission des morpions nécessite un contact intime",
+                "Il est possible de retrouver des lentes de morpions aux niveau des cils"
+            ],
+            "source_file": "qcm csp tout -287.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Céphalothorax d'une tique",
+                "Hypostome",
+                "Ecusson dorsal",
+                "Palpes"
+            ],
+            "source_file": "qcm csp tout -288.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "B : rostre replié dans un sillon ventral",
+                "C : col de Médicis",
+                "D : patte (3 paires de pattes)",
+                "E : abdomen"
+            ],
+            "source_file": "qcm csp tout -289.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’acide chlorhydrique est un acide fort",
+                "L’ammoniaque est une base faible",
+                "L’acide acétique est un acide faible"
+            ],
+            "source_file": "qcm csp tout -29.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "la punaise des lits (Cimex lectularius)",
+                "les agents de myiases",
+                "le pou de tête (Pediculus humanus var. capitis)"
+            ],
+            "source_file": "qcm csp tout -290.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Pediculus humanus var. capitis est un acarien",
+                "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire",
+                "Le pou de tête peut transmettre des maladies infectieuses. ◄ Quiz - Immunologie Aller à… Quiz - Sciences végétales et fongiques ►"
+            ],
+            "source_file": "qcm csp tout -291.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Lycopodium clavatum",
+                "Lycopodiaceae"
+            ],
+            "source_file": "qcm csp tout -292.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La baie est un fruit charnu",
+                "La baie de Génévrier est en fait un cône femelle",
+                "La baie peut contenir de nombreux pépins"
+            ],
+            "source_file": "qcm csp tout -293.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste",
+                "La vacuole occupe la plus grande partie du cytoplasme"
+            ],
+            "source_file": "qcm csp tout -294.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Rhizophytes",
+                "Plantes vasculaires",
+                "Embryophytes",
+                "Archégoniates Parmi les propositions suivantes",
+                "laquelle est fausse ? Veuillez choisir au moins une réponse : A. Les russules n'ont ni voile général ni voile partiel B. Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex C. Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous D. Russula vesca et Russula virescens sont d'excellents comestibles E. Toutes les russules âcres ne doivent pas être consommées. Votre réponse est incorrecte. La réponse correcte est : Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous"
+            ],
+            "source_file": "qcm csp tout -295.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’akène est un fruit sec",
+                "L’akène peut être une semence"
+            ],
+            "source_file": "qcm csp tout -296.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le cône femelle du Pin est l’équivalent d’une inflorescence femelle",
+                "Le cône mâle du Pin est l’équivalent d’une fleur mâle"
+            ],
+            "source_file": "qcm csp tout -297.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La dichotomie existe chez les algues",
+                "les bryophytes et les Fougères",
+                "la dichotomie existe chez les Fougères et le Ginkgo",
+                "la dichotomie est une division régulière en deux parties des tiges",
+                "racines ou nervures"
+            ],
+            "source_file": "qcm csp tout -298.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+                "Il y a peu de sucre de réserve stocké dans les feuilles"
+            ],
+            "source_file": "qcm csp tout -299.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Si le risque de première espèce a été fixé à 5% dans le protocole de l'étude",
+                "on peut conclure à la supériorité du traitement E",
+                "Le test à mettre en œuvre est un test unilatéral α"
+            ],
+            "source_file": "qcm csp tout -3.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le temps de rétention augmente",
+                "Le volume de rétention augmente",
+                "La largeur des pics augmente",
+                "Son efficacité augmente",
+                "La pression en tête de colonne augmente Parmi les propositions suivantes",
+                "laquelle ou (lesquelles) est (sont) exacte(s) ? Un régime isocratique en chromatographie liquide correspond à : Veuillez choisir au moins une réponse : Un débit variable de phase mobile Une composition constante de la phase mobile Une séparation à température constante Une séparation à température variable Une composition variable de la phase mobile Votre réponse est incorrecte. La réponse correcte est : Une composition constante de la phase mobile Une solution est préparée par dissolution de 5 mg de poudre contenant un principe actif (M = 250 g/mol) dans 10 mL d’eau. L’analyse de cette solution par CLHP donne une concentration en principe actif de 1mM. Quelle est la teneur en principe actif ? Veuillez choisir au moins une réponse : La teneur est de 8% La teneur est de 25% La teneur est de 50% La teneur est de 10% La teneur est de 0",
+                "8% Votre réponse est incorrecte. La réponse correcte est : La teneur est de 50%"
+            ],
+            "source_file": "qcm csp tout -30.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Dalycarpie",
+                "syncarpie",
+                "Gynécée isomère",
+                "gynécée oligomère",
+                "Ovule orthotrope",
+                "ovule anatrope"
+            ],
+            "source_file": "qcm csp tout -300.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La mise à profit d’une compétence exclusive",
+                "L’occasion de valoriser une formation universitaire pluri-disciplinaire Choisir la (ou les) bonne liste de taxons appartenant tous aux Algues bleues ou Cyanobactéries : Veuillez choisir au moins une réponse : A. Spiruline",
+                "Spirogyre",
+                "Ulve B. Lycopode",
+                "Nostoc C. Nostoc",
+                "Spiruline D. Fucus",
+                "Lycopode",
+                "Spirogyre E. Fucus",
+                "Nostoc Votre réponse est incorrecte. La réponse correcte est : Nostoc",
+                "Spiruline"
+            ],
+            "source_file": "qcm csp tout -301.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ovaire",
+                "ovule",
+                "téguments",
+                "Nucelle",
+                "sac embryonnaire"
+            ],
+            "source_file": "qcm csp tout -302.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La photosynthèse consomme du CO2 et émet de l'O2 alors que les échanges gazeux lors de la respiration sont l'inverse",
+                "La phase claire de la photosynthèse permet la transformation de l'énergie lumineuse en énergie utilisable par la cellule (ATP)",
+                "L'équation générale de la photosynthèse est : 6CO2 + 12H2O + lumière → C6H12O6 + 6O2 + 6H2O",
+                "Les éléments produits lors de la phase claire sont utilisés ors de la phase sombre"
+            ],
+            "source_file": "qcm csp tout -303.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Sa couleur peut être attribuée à 4 nuances principales : blanc",
+                "rose",
+                "brun et noir",
+                "On peut l’observer objectivement grâce à un test de sporulation provoquée"
+            ],
+            "source_file": "qcm csp tout -304.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une graine exalbuminée n’a plus d’albumen",
+                "La graine exalbuminée présente des cotylédons volumineux Parmi les propositions",
+                "choisir la (ou les) liste(s) de termes correspondant tous à la présence de rhizoïdes Veuillez choisir au moins une réponse : A. Algue verte",
+                "Mousse",
+                "prothalle de fougère B. Pin",
+                "prothalle de fougère",
+                "sac embryonnaire C. Algue verte",
+                "sac embryonnaire D. Prothalle de fougère",
+                "sac embryonnaire E. Mousse",
+                "Pin",
+                "prothalle de fougère Votre réponse est incorrecte. La réponse correcte est : Algue verte"
+            ],
+            "source_file": "qcm csp tout -305.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les 2 noyaux polaires sont haploïdes",
+                "L’embryon est diploïde Parmi les propositions suivantes relatives à L'amanite phalloïde (Amanita phalloides) choisir celle(s) exacte(s) Veuillez choisir au moins une réponse : A. Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel B. Son ingestion provoque des hallucinations C. Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches D. Elle ne possède pas de voile général apparent sur le chapeau",
+                "ni d'anneau E. Elle possède un voile général",
+                "un voile partiel",
+                "des lames libres et une sporée blanche Votre réponse est incorrecte. La réponse correcte est : Elle possède un voile général",
+                "des lames libres et une sporée blanche"
+            ],
+            "source_file": "qcm csp tout -306.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Anneau et volve en sac",
+                "Sporée blanche et lames libres Parmi les propositions ci-dessous",
+                "choisir celle(s) contenant que des taxons appartenant à la lignée brune Veuillez choisir au moins une réponse : A. Spiruline",
+                "Fucus",
+                "Mildiou",
+                "Pomme de terre B. Pomme de terre",
+                "Spirogyre",
+                "Sphaigne C. Diatomée",
+                "Mildiou de la vigne D. Diatomée",
+                "Sphaigne E. Champignon",
+                "Sphaigne Votre réponse est incorrecte. La réponse correcte est : Diatomée",
+                "Mildiou de la vigne Parmi les propositions ci-dessous choisissez celle(s) définissant une espèce dioïque : Veuillez choisir au moins une réponse : A. Une espèce dioïque est une espèce présentant un seul sexe par fleur B. Une espèce dioïque est une espèce présentant un seul sexe par prothalle C. Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle D. Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents E. Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur Votre réponse est incorrecte. La réponse correcte est : Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents"
+            ],
+            "source_file": "qcm csp tout -307.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le cambium est absent",
+                "Les racines présentent au moins 7 pôles de xylème I°",
+                "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme Un champignon possédant comme caractéristiques",
+                "des lames décurrentes et une sporée blanche",
+                "un voile partiel et poussant sur du bois appartient à un groupe dont les représentants sont extrêmement courants et font l’objet d’une bonne partie des sollicitations de clients à l’officine. Il s’agit : Veuillez choisir au moins une réponse : Du paxille enroulé De l’amanite phalloïde Des russules Des armillaires Des girolles. Votre réponse est incorrecte. La réponse correcte est : Des armillaires"
+            ],
+            "source_file": "qcm csp tout -308.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il permet d'appréhender un risque mortel",
+                "Il doit être considéré avec précautions en cas de mélange"
+            ],
+            "source_file": "qcm csp tout -309.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "On utilise des cuves avec 2 faces polies",
+                "La présence d’une impureté modifie la position des longueurs d’onde des maxima d’absorption",
+                "C’est une méthode qui permet l’analyse des mélanges",
+                "Les formes acide et basique d’une même molécule peuvent avoir des spectres différents"
+            ],
+            "source_file": "qcm csp tout -31.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les chromoplastes sont responsables de la coloration de différents organes",
+                "Les amyloplastes se rencontrent dans les tissus de réserve",
+                "Les oléoplastes sont les plastes de stockage de lipides ◄ Quiz - Parasitologie",
+                "mycologie médicale et biologie animale Aller à… Quiz - Virologie ►"
+            ],
+            "source_file": "qcm csp tout -310.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ce sont des vaccins contre l'hépatite A",
+                "Ce sont des vaccins recommandés chez les personnes infectées par le virus de l'hépatite B",
+                "Il s'agit de vaccins",
+                "ils doivent être conservés à +4°C"
+            ],
+            "source_file": "qcm csp tout -311.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Éviter le tabagisme passif",
+                "Coucher l'enfant en position proclive",
+                "Aérer la chambre de l'enfant matin et soir"
+            ],
+            "source_file": "qcm csp tout -312.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+                "C'est une forme clinique très contagieuse",
+                "C'est une forme clinique potentiellement récidivante",
+                "Un traitement par Aciclovir en topique peut être proposé"
+            ],
+            "source_file": "qcm csp tout -313.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'association darunavir+ritonavir est une association de 2 antiprotéases",
+                "L'association emtricitabine+tenofovir est une association de 2 inhibiteurs de la transcriptase inverse",
+                "Dans le traitement initial d'une infection par le HIV",
+                "une trithérapie est toujours conseillée",
+                "M. Jean-Claude M. doit prendre son traitement à heures fixes"
+            ],
+            "source_file": "qcm csp tout -314.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une mesure régulière de la charge virale du HIV",
+                "Une mesure régulière de la charge virale du taux de lymphocyte TCD4+",
+                "Une surveillance régulière de l'hémogramme",
+                "Une surveillance régulière de la fonction rénale",
+                "Une surveillance régulière des transaminases"
+            ],
+            "source_file": "qcm csp tout -315.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Un régime alimentaire adapté",
+                "Des conseils d'hygiène"
+            ],
+            "source_file": "qcm csp tout -316.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+                "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+                "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+            ],
+            "source_file": "qcm csp tout -317.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Nourrir Kevin avec du riz et des bananes jusqu'au retour à un transit normal",
+                "Faire boire Kevin régulièrement avec un soluté de réhydratation oral",
+                "Kevin doit se laver les mains après chaque selle"
+            ],
+            "source_file": "qcm csp tout -318.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Se faire vacciner contre la Rubéole dans les jours qui suivent l'accouchement",
+                "Se faire vacciner contre la Rubéole dans les mois qui suivent l'accouchement",
+                "Se faire vacciner contre le HBV après l'accouchement"
+            ],
+            "source_file": "qcm csp tout -319.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "on devra peser 1 mg de codéine",
+                "après pesée de la codéine et introduction dans la fiole jaugée",
+                "on remplira la fiole au 2/3 de son volume et solubilisera la codéine sans retourner la fiole",
+                "puis on complètera au trait de jauge avant d’homogénéiser la solution"
+            ],
+            "source_file": "qcm csp tout -32.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "C'est un inhibiteur de la NS5B",
+                "C'est un inhibiteur de la polymerase virale",
+                "Il est actif sur tous les génotypes du HCV Concernant la vaccination contre les Papillomavirus en France",
+                "quelles sont les réponses vraies ? Veuillez choisir au moins une réponse : C'est un vaccin inactivé Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes Cette vaccination est obligatoire pour les filles à partir de 9 ans C'est un vaccin vivant atténué Cette vaccination n'est pas recommandée car elle est responsable de Sclérose en Plaques La réponse correcte est : Cette vaccination est recommandée chez les hommes ayant des relations sexuelles avec des hommes"
+            ],
+            "source_file": "qcm csp tout -320.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'infection se transmet par voie transplacentaire",
+                "L'infection peut être responsable de surdités uni- ou bilatérales",
+                "L'infection peut être responsable de malformations fœtales ◄ Quiz - Sciences végétales et fongiques Aller à… CSP blanc ►"
+            ],
+            "source_file": "qcm csp tout -321.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "mélanger 9 mL d’eau et 1 mL d’une solution à 10 mol/L",
+                "diluer au dixième",
+                "une solution à 10 mol/L",
+                "mélanger 0",
+                "9 mL d’eau et 100 µL d’une solution à 10 mol/L",
+                "mélanger 1900 µL d’eau et 100 µL d’une solution à 20 mol/L"
+            ],
+            "source_file": "qcm csp tout -33.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La solution soumise à mesure doit être limpide",
+                "La loi de Beer-Lambert est additive"
+            ],
+            "source_file": "qcm csp tout -34.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "une fiole jaugée de 1 L et une pipette jaugée de 50 mL",
+                "une fiole jaugée de 100 mL et une pipette jaugée de 5 mL"
+            ],
+            "source_file": "qcm csp tout -35.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les composés les plus polaires seront élués en premier",
+                "les particules ont une taille de 5 µm",
+                "La phase stationnaire est apolaire Parmi les espèces chimiques suivantes indiquez combien sont des bases : KOH ; NaOH ; NaCl ; CH COONa ; NH Cl ;H SO Veuillez choisir au moins une réponse : 1 6 5 Aucune 3 3 4 2 4 Votre réponse est incorrecte. La réponse correcte est : 3 Quel est le nouveau pH d’une solution tampon ammoniaque de pH 9 après avoir diluée au-demi : Veuillez choisir au moins une réponse : 4.50 7.00 9.00 0.90 0.45 Votre réponse est incorrecte. La réponse correcte est : 9.00"
+            ],
+            "source_file": "qcm csp tout -36.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Dépend de leurs facteurs de rétention",
+                "Dépend du nombre de plateaux théoriques de la colonne",
+                "Est fonction de la composition de la phase mobile"
+            ],
+            "source_file": "qcm csp tout -37.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Utilise une phase mobile hydro-organique",
+                "Peut-être appliquée aux espèces ionisées",
+                "Elue en premier les solutés les plus polaires"
+            ],
+            "source_file": "qcm csp tout -38.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Un mélange d’acide acétique (0",
+                "2 mol) et d’acétate d’ammonium (0",
+                "3 mol) constitue une solution tampon",
+                "L’addition d’une faible quantité d’acide ne modifie pas le pH d’une solution tampon"
+            ],
+            "source_file": "qcm csp tout -39.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Pour tester l'existence d'une liaison entre le mode d'arrêt du tabac et le type de prise en charge",
+                "on peut utiliser un test du khi-deux d'indépendance"
+            ],
+            "source_file": "qcm csp tout -4.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "100 µL de solution à 100 mM et 9",
+                "9 mL d’eau",
+                "1 mL de solution à 100 mM et 9",
+                "9 mL d’eau Parmi les espèces chimiques suivantes indiquez combien sont des acides : KOH ; NaCl ; NH ; CH COOH ; HCl ; H PO ;H SO Veuillez choisir au moins une réponse : 6 5 Aucune 7 4 3 3 3 4 2 4 Votre réponse est incorrecte. La réponse correcte est : 4"
+            ],
+            "source_file": "qcm csp tout -40.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "le pH de la solution est de 1",
+                "l’aspirine est sous forme neutre",
+                "le pH de la solution est égal au pKa de l’aspirine",
+                "la solution contient la forme acide faible et sa base conjuguée en proportion équivalente"
+            ],
+            "source_file": "qcm csp tout -41.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "De l’efficacité de la colonne",
+                "Des facteurs de rétention",
+                "De la longueur de la colonne",
+                "De la sélectivité de la colonne Parmi les propositions suivantes concernant la loi de Beer-Lambert",
+                "indiquer la (les) proposition(s) exacte(s) : Veuillez choisir au moins une réponse : Elle s’applique aux dosages polarimétriques Elle est valable quelle que soit la concentration de la solution Ce n’est pas une loi additive Elle s’applique aux dosages spectrophotométriques Elle n’est applicable qu’en lumière polychromatique Votre réponse est incorrecte. La réponse correcte est : Elle s’applique aux dosages spectrophotométriques Quel est le nouveau pH d’une solution tampon acéto-acétique (V= 1L et C= 100 mM",
+                "pKa = 4.8) de pH 4.8 si on y ajoute 1.10 mole de soude: Veuillez choisir au moins une réponse : 10 3.0 4.8 5.5 7.0 -4 Votre réponse est incorrecte. La réponse correcte est : 4.8"
+            ],
+            "source_file": "qcm csp tout -42.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Permet de différencier deux isomères cis-trans",
+                "Se prête à l'analyse quantitative",
+                "Les résultats sont influencés par l'indice de réfraction du solvant ◄ Quiz - Biophysique Aller à… Quiz - Chimie générale et bio inorganique ►"
+            ],
+            "source_file": "qcm csp tout -43.pdf"
+        },
+        {
+            "question": "16/05/2020 Quiz - Chimie analytique 22/22",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -44.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Cl2"
+            ],
+            "source_file": "qcm csp tout -45.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "As",
+                "P Le bleu de bromophénol est un indicateur coloré",
+                "que l’on notera IndH (pKa = 3",
+                "9). Si [IndH] / [Ind ] > 10",
+                "la solution apparaît jaune. Si [IndH] / [Ind ] < 0",
+                "1 la solution apparaît bleue. Une solution de l’espèce X colore le bleu de bromophénol en vert. Que pourrait-être X ? On donne pKa (acide acétique) = 4",
+                "8 Veuillez choisir au moins une réponse : Du chlorure de sodium Une solution d’acide acétique à 0",
+                "5 M Un sel d’acide faible et de base forte De l’acétate de sodium Un sel d’acide fort et de base faible - - Votre réponse est incorrecte. La réponse correcte est : Un sel d’acide fort et de base faible"
+            ],
+            "source_file": "qcm csp tout -46.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La liaison formée entre X et Y est de nature ionique",
+                "La formule brute du composé formé est X Y. 2 La vanilline",
+                "de formule brute C H O",
+                "a une masse molaire de 152 g.mol . L’analyse élémentaire donne les résultats suivants : % = 63",
+                "15 et % = 5",
+                "3. On donne M = 12 g.mol M = 1 g.mol M = 16 g.mol Quelle est la formule brute de la vanilline ? Veuillez choisir au moins une réponse : C H O C H O C H O C H O C H O x y z -1 C H C -1 H -1 O -1 8 24 2 10 16 7 4 4 8 8 3 9 12 2 Votre réponse est incorrecte. La réponse correcte est : C H O 8 8 3"
+            ],
+            "source_file": "qcm csp tout -47.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "fusion d’un solide",
+                "sublimation d’un solide"
+            ],
+            "source_file": "qcm csp tout -48.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -49.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+                "La variable de décision de ce test suit",
+                "sous l’hypothèse H",
+                "une loi normale 0"
+            ],
+            "source_file": "qcm csp tout -5.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Dans son état fondamental",
+                "le soufre a une valence égale à 2",
+                "L’anion divalent S a une configuration électronique plus stable que l’atome de soufre dans son état fondamental. 2-"
+            ],
+            "source_file": "qcm csp tout -50.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+                "Les forces de Keesom s’établissent entre molécules polaires",
+                "Seules des forces de London peuvent s’établir entre 2 molécules de O"
+            ],
+            "source_file": "qcm csp tout -51.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L’électronégativité d’un élément engagé dans une liaison covalente évalue sa capacité à attirer le doublet de liaison",
+                "L’électronégativité des éléments augmente de gauche à droite dans une période de la classification",
+                "Un potentiel d’ionisation élevé et une affinité électronique forte imposent une électronégativité élevée",
+                "Une liaison est d’autant plus polarisée que la différence d’électronégativité entre les deux atomes est grande"
+            ],
+            "source_file": "qcm csp tout -52.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La base introduite réagit avec NH et le pH change peu 4+"
+            ],
+            "source_file": "qcm csp tout -53.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "1y",
+                "2z",
+                "3x"
+            ],
+            "source_file": "qcm csp tout -54.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "BeCl est linéaire",
+                "SO est plan",
+                "NH est tétraédrique",
+                "H CO est plan 2 3 4+ 2"
+            ],
+            "source_file": "qcm csp tout -55.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -56.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les atomes A et E ont les mêmes propriétés chimiques",
+                "Les atomes A",
+                "B et E sont trois isotopes"
+            ],
+            "source_file": "qcm csp tout -57.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Δ G <O",
+                "sa constante d’équilibre est plus grande que 1",
+                "elle est totale r 0"
+            ],
+            "source_file": "qcm csp tout -58.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "102 g.mol-1"
+            ],
+            "source_file": "qcm csp tout -59.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée",
+                "On peut construire une droite de régression linéaire pour répondre à la problématique posée"
+            ],
+            "source_file": "qcm csp tout -6.pdf"
+        },
+        {
+            "question": "16/05/2020 Quiz - Chimie générale et bio inorganique 16/16 ◄ Quiz - Chimie analytique Aller à… Quiz - Pharmacie galénique ►",
+            "options": {},
+            "correct_answers": null,
+            "source_file": "qcm csp tout -60.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Fractionnement éthanolique",
+                "Différents types de Chromatographies",
+                "filtration profondeur et nanofiltration"
+            ],
+            "source_file": "qcm csp tout -61.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "libèrent leur principe actif lentement par diffusion ;",
+                "gonflent au contact des fluides digestifs ;",
+                "se présentent généralement sous forme de comprimés"
+            ],
+            "source_file": "qcm csp tout -62.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Préparations dans de l'eau p.p.i",
+                "Préparation et conditionnement aseptique"
+            ],
+            "source_file": "qcm csp tout -63.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les collyres d'amphotéricine B sont fabriqués à partir de Fungizone (forme classique) ou à partir de la forme liposomale (Ambisome)",
+                "sans qu'il n'y ait de différence en termes de stabilité",
+                "d'efficacité ou de tolérance",
+                "Les conditionnements des collyres sont en verre type II ou en plastique",
+                "Les collyres d'EDTA sont employés pour réaliser les kératites en bandelette",
+                "pour réaliser une détersion de dépots calciques au niveau de l'oeil"
+            ],
+            "source_file": "qcm csp tout -64.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "sont uniquement des triglycérides",
+                "fondent à température corporelle"
+            ],
+            "source_file": "qcm csp tout -65.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "la PVP est utilisée comme liant",
+                "la silice colloïdale est un excipient pour compression directe",
+                "Le mélange bicarbonate de sodium/acide citrique est utilisé comme agent de désagrégation"
+            ],
+            "source_file": "qcm csp tout -66.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les protéines recombinantes sont des molécules complexes que la chimie traditionnelle ne réussit pas à synthétiser ;",
+                "La première molécule fabriquée par génie génétique a été l'insuline ; ◄ Quiz - Chimie générale et bio inorganique Aller à… Quiz - Chimie organique ►"
+            ],
+            "source_file": "qcm csp tout -67.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La chloroquine est administrée sous la forme d'un mélange racémique",
+                "La chloroquine est protonée à pH physiologique (pH 7",
+                "4)",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "source_file": "qcm csp tout -68.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La voie 1 correspond à une réaction d'oxydation",
+                "Le métabolite 2 présente un cycle aromatique imidazole"
+            ],
+            "source_file": "qcm csp tout -69.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "p > 5 %",
+                "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral"
+            ],
+            "source_file": "qcm csp tout -7.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'AMP cyclique est un dérivé du Ribose",
+                "L'AMP cyclique présente une base de type purine",
+                "L'état d'ionisation de l'AMP cyclique à pH physiologique (pH 7",
+                "4) est égal à -1",
+                "L'AMP cyclique possède un hétérocycle aromatique"
+            ],
+            "source_file": "qcm csp tout -70.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le rivaroxaban possède 2 cycles aromatiques",
+                "Le rivaroxaban possède une fonction carbamate",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "source_file": "qcm csp tout -71.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+                "La bédaquiline possède un atome d'halogène",
+                "La bédaquiline est protonée à pH physiologique (pH 7",
+                "4) L'eltrombopag est utilisé dans la prise en charge des aplasies médullaires acquises sévères",
+                "des purpuras thrombopéniques et des thrombopénies de patients atteints d'hépatite C. Parmi les affirmations suivantes",
+                "laquelle (lesquelles) est (sont) exacte(s) ? Veuillez choisir au moins une réponse : L'eltrombopag présente une fonction phénol L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7",
+                "4) L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène L'eltrombopag est un dérivé de l'acide benzoïque L'eltrombopag est un analogue de l'aspirine La réponse correcte est : L'eltrombopag est un dérivé de l'acide benzoïque"
+            ],
+            "source_file": "qcm csp tout -72.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'isotrétinoïne est un diterpène",
+                "La dernière liaison double C=C",
+                "à droite de la molécule",
+                "est de configuration cis",
+                "L'isotrétinoïne peut être obtenue par oxydation de son analogue aldéhyde"
+            ],
+            "source_file": "qcm csp tout -73.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le tripeptide ci-dessus contient les acides aminés phénylalanine et sérine",
+                "Les fonctions amines sont protonées à pH physiologique (pH 7.4)",
+                "La fonction alcool est accepteur de liaison hydrogène"
+            ],
+            "source_file": "qcm csp tout -74.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La lévofloxacine possède un atome d'halogène",
+                "La lévofloxacine possède une fonction éther"
+            ],
+            "source_file": "qcm csp tout -75.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le composé 1 possède une fonction nitrile",
+                "La fonction CN est constituée de deux liaisons π et d'une liaison σ",
+                "On peut utiliser de l'acide sulfurique H SO comme réactif 1 2 4"
+            ],
+            "source_file": "qcm csp tout -76.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le diltiazem est protoné à pH physiologique (pH 7",
+                "4)",
+                "Le diltiazem possède une fonction ester"
+            ],
+            "source_file": "qcm csp tout -77.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'aztréonam présente dans sa structure deux hétérocycles dont un est aromatique",
+                "L'aztréonam possède deux carbones asymétriques",
+                "Le mode d'action de l'aztréonam s'explique par la présence d'un atome de carbone électrophile dans l'hétérocycle à 4 sommets",
+                "L'aztréonam possède un cycle béta-lactame",
+                "L'aztréonam peut former une liaison covalente avec un nucléophile comme la sérine d'une enzyme par exemple"
+            ],
+            "source_file": "qcm csp tout -78.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le levosalbutamol est protoné à pH physiologique (pH 7",
+                "4)",
+                "Le levosalbutamol possède une fonction phénol",
+                "Le levosalbutamol possède un carbone asymétrique"
+            ],
+            "source_file": "qcm csp tout -79.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le test utilisé est un test de corrélation",
+                "Au seuil de 1%",
+                "on ne peut pas dire que la PA augmente avec l’IMC"
+            ],
+            "source_file": "qcm csp tout -8.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La structure de l'énalapril présente une amine secondaire",
+                "L'état d'ionisation de l'énalapril à pH physiologique (pH 7",
+                "4) est égal à 0",
+                "La structure de l'énalapril présente une proline"
+            ],
+            "source_file": "qcm csp tout -80.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le bortézomib présente une fonction acide boronique",
+                "Le bortézomib présente un hétérocycle aromatique",
+                "Le bortézomib possède un centre électrophile"
+            ],
+            "source_file": "qcm csp tout -81.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'afatinib possède une fonction amide",
+                "une fonction amine tertiaire et une fonction éther",
+                "L'afatinib est à l'état d'ionisation +1 à pH physiologique (pH 7",
+                "4)",
+                "L'afatinib présente un hétérocycle aromatique",
+                "L'afatinib est un accepteur de Michaël"
+            ],
+            "source_file": "qcm csp tout -82.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "La lévocétirizine possède un carbone asymétrique",
+                "La conformation la plus stable de l'hétérocycle central est la conformation chaise",
+                "La fonction acide carboxylique de la lévocétirizine est déprotonée à pH physiologique (pH 7",
+                "4)"
+            ],
+            "source_file": "qcm csp tout -83.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le réactif 1 possède une fonction phénol",
+                "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7",
+                "4)",
+                "Le réactif 1 est un nucléophile",
+                "Le réactif 2 est un électrophile"
+            ],
+            "source_file": "qcm csp tout -84.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "L'étape 1 correspond à une réaction d'addition nucléophile",
+                "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+                "Le produit 1 est un électrophile"
+            ],
+            "source_file": "qcm csp tout -85.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le réactif 2 est la diéthylamine",
+                "Le nicéthamide est achiral ◄ Quiz - Pharmacie galénique Aller à… Quiz - Chimie thérapeutique ►"
+            ],
+            "source_file": "qcm csp tout -86.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ce sont des dérivés à structure de prégnane",
+                "ils sont aussi appelés AIS",
+                "pour les composés naturels",
+                "la jonction des cycles B/C et C/D est toujours trans",
+                "ils peuvent provoquer un syndrome de Cushing"
+            ],
+            "source_file": "qcm csp tout -87.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+                "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+                "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+                "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase quelle est cette molécule: Veuillez choisir au moins une réponse : omeprazole aprepitant cimetidine odansetron metoclopramide Votre réponse est incorrecte. La réponse correcte est : omeprazole"
+            ],
+            "source_file": "qcm csp tout -88.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le « switch chiral » consiste à identifier puis développer un médicament sous forme d’enantiomère pur après qu’il ait été commercialisé sous forme racémique",
+                "Le « switch chiral » peut conduire à des échecs",
+                "avec arrêt de développement liés à la survenue d’effets secondaires graves inattendus",
+                "Le « switch chiral » est encouragé par les agences du médicament",
+                "qui voient un avantage à l’usage d’énantiomères purs",
+                "dont elles attendent des relations effets dose plus simples et une moindre variation interindividuelle"
+            ],
+            "source_file": "qcm csp tout -89.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Si la taille de l’échantillon est inférieure à 30",
+                "alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir donner une estimation par intervalle de confiance",
+                "L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne",
+                "La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne calculée sur l’échantillon x¯ On souhaite comparer deux moyennes en séries appariées et l'on utilise",
+                "pour cela",
+                "un test paramétrique (les conditions d'utilisation sont supposées remplies). L'échantillon est de taille 30. La variable de décision suit",
+                "sous l'hypothèse nulle",
+                "une Veuillez choisir au moins une réponse : loi de Fisher-Snedecor loi de Poisson loi de Student loi normale loi du khi-deux Votre réponse est incorrecte. La réponse correcte est : loi de Student"
+            ],
+            "source_file": "qcm csp tout -9.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+                "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+                "L’azote en position 7 de la guanine",
+                "accessible via le grand sillon de l’ADN",
+                "représente un site de réaction privilégié de cette molécule"
+            ],
+            "source_file": "qcm csp tout -90.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Ce composé est un analogue de nucléoside",
+                "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+                "Ce composé comporte un cycle triazolopyrimidine La dénomination chimique des médicaments suit les règles définies par: Veuillez choisir au moins une réponse : les firmes pharmaceutiques l'IUPHAR les pharmacopées l'IUPAC l'OMS Votre réponse est incorrecte. La réponse correcte est : l'IUPAC"
+            ],
+            "source_file": "qcm csp tout -91.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Elles possèdent toutes au moins 1 centre de chiralité",
+                "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+                "les molécules 2",
+                "4 et 5 sont commercialisées sous forme d'énantiomère pur",
+                "les molécules 1 et 3 ne sont commercialisées que sous forme racémique quelle est cette molécule : Veuillez choisir au moins une réponse : salmeterol atenolol propranolol vilanterol salbutamol Votre réponse est incorrecte. La réponse correcte est : salbutamol"
+            ],
+            "source_file": "qcm csp tout -92.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "la vitamine A naturelle et dérivés sont formées de 4 unités isopréniques et 1 groupe fonctionnel",
+                "dans leur DCI on trouve le segment clef « rétin… »",
+                "les membres de cette famille de 3 génération sont environ mille fois plus actifs",
+                "ces composés sont hautement tératogènes ème Le losartan présente un groupement tétrazole. Par quel groupement bioisostère peut-on l’échanger ? Veuillez choisir au moins une réponse : -OH -NH -CF -COOH -CH OH 2 3 2 Votre réponse est incorrecte. La réponse correcte est : -COOH"
+            ],
+            "source_file": "qcm csp tout -93.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "Les produits appartenant à un même groupe pharmacologique sont regroupés selon des consonances voisines",
+                "Toute influence commerciale est exclue",
+                "Elle est attribuée par l’OMS"
+            ],
+            "source_file": "qcm csp tout -94.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "molécule A",
+                "molécule C",
+                "molécule D",
+                "molécule E"
+            ],
+            "source_file": "qcm csp tout -95.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "paramètres stériques",
+                "paramètres électrostatiques",
+                "paramètres lipophiles"
+            ],
+            "source_file": "qcm csp tout -96.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ce composé est un antibiotique",
+                "ce composé est un bêtalactame",
+                "ce composé est une céphalosporine"
+            ],
+            "source_file": "qcm csp tout -97.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "OH",
+                "SH"
+            ],
+            "source_file": "qcm csp tout -98.pdf"
+        },
+        {
+            "question": "",
+            "options": {},
+            "correct_answers": [
+                "ils sont des antagonistes 5HT",
+                "ils sont métabolisés au niveau hépatique",
+                "ils sont construits sur une structure d’indole ou bioisostère de l’indole 3"
+            ],
+            "source_file": "qcm csp tout -99.pdf"
+        }
+    ]
+}

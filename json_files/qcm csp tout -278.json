@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Les résultats du diagnostic sérologique de la toxoplasmose conduisent aux conclusions suivantes ; laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+      "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+      "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale.",
+      "Une sérologie positive chez le nouveau-né signe obligatoirement une toxoplasmose évolutive.",
+      "Une sérologie négative oblige à l'administration du vaccin anti-toxoplasme."
+    ],
+    "correct_answers": [
+      "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+      "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+      "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite ?",
+    "options": [
+      "Pediculus humanus var. capitis",
+      "un sarcopte",
+      "un insecte",
+      "un morpion",
+      "un pou de tête"
+    ],
+    "correct_answers": [
+      "un pou de tête",
+      "Pediculus humanus var. capitis",
+      "un insecte"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmations exacte(s)",
+    "options": [
+      "La digoxine subit une élimination par voie urinaire surtout (environ 90%).",
+      "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance hépatique, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+      "Un surdosage à la digoxine (digoxinémie ≥ 2 ng/ml) est annoncée par des troubles digestifs, neurosensoriels, neuropsychiques et des troubles de la conduction et de l'excitabilité cardiaque.",
+      "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance rénale, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+      "La digoxine est principalement éliminée par biotransformation hépatique."
+    ],
+    "correct_answers": [
+      "La digoxine subit une élimination par voie urinaire surtout (environ 90%).",
+      "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance rénale, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+      "Un surdosage à la digoxine (digoxinémie ≥ 2 ng/ml) est annoncée par des troubles digestifs, neurosensoriels, neuropsychiques et des troubles de la conduction et de l'excitabilité cardiaque."
+    ],
+    "justification_fausses_reponses": {
+      "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance hépatique, chez le sujet âgé ou en cas de cardiopathie évoluée.": "Cette affirmation est incorrecte car la digoxine est principalement éliminée par les reins, et non par le foie. Par conséquent, une insuffisance hépatique n'aurait pas d'impact significatif sur l'élimination de la digoxine.",
+      "La digoxine est principalement éliminée par biotransformation hépatique.": "Cette affirmation est incorrecte car la digoxine est principalement éliminée par voie urinaire, et non par biotransformation hépatique. Environ 60 à 80% de la digoxine est excrétée inchangée par les reins."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Dans quelles circonstances donne t-on un \"SR O\" ?",
+    "options": [
+      "Réhydratation orale des nourrissons et enfants en bas âge au quotidien",
+      "Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements",
+      "Réhydratation orale des nourrissons et enfants en bas âge en cas de soif",
+      "Pour traiter un enfant souffrant de détresse respiratoire",
+      "Pour traiter la dénutrition chez l'enfant"
+    ],
+    "correct_answers": [
+      "Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements"
+    ],
+    "justification_fausses_reponses": {
+      "Réhydratation orale des nourrissons et enfants en bas âge au quotidien": "La réhydratation orale n'est pas nécessaire au quotidien, elle est utilisée en cas de perte excessive de liquides, comme lors de diarrhées ou de vomissements.",
+      "Réhydratation orale des nourrissons et enfants en bas âge en cas de soif": "La soif est généralement traitée par l'apport d'eau et non par une solution de réhydratation orale, qui est utilisée en cas de perte excessive de liquides.",
+      "Pour traiter un enfant souffrant de détresse respiratoire": "La détresse respiratoire est une urgence médicale qui nécessite une intervention médicale immédiate, pas une réhydratation orale.",
+      "Pour traiter la dénutrition chez l'enfant": "La dénutrition est un état de malnutrition grave qui nécessite un traitement nutritionnel spécifique, pas une réhydratation orale."
+    }
+  }
+]

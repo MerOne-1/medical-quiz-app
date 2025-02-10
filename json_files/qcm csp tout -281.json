@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "De quoi est responsable cet ectoparasite ?",
+    "options": [
+      "la pédiculose",
+      "de fortes démangeaisons",
+      "ce n'est pas un ectoparasite",
+      "la gale",
+      "la phtiriase"
+    ],
+    "correct_answers": [
+      "la gale",
+      "de fortes démangeaisons"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cocher les bonnes réponses concernant Echinococcus multilocularis.",
+    "options": [
+      "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique.",
+      "Il est éradiqué en France.",
+      "Il existe un traitement très efficace: le praziquantel.",
+      "L'hôte définitif habituel est le chien.",
+      "La contamination de l'homme se fait par l'ingestion d'embryophores."
+    ],
+    "correct_answers": [
+      "La contamination de l'homme se fait par l'ingestion d'embryophores.",
+      "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique."
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 15/22Question 42
+Non répondue
+Noté sur 1,00
+Question 43
+Non répondue
+Noté sur 1,00
+Question 44
+Non répondue
+Noté sur 1,00Parmi les propositions suivantes, concernant la pesée, laquelle est exacte ?
+Vous devez préparer 50 mL d’une solution d’aspirine à 0,1 g/L en utilisant une balance dont la précision est de 10  g. Quelle
+valeur doit s’afficher sur la balance ?
+Veuillez choisir au moins une réponse :
+0,0500 g
+0,005 g
+0,0050 g
+0,5000 g
+0,050 g-4
+Votre réponse est incorrecte.
+La réponse correcte est : 0,0050 g
+Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
+En chromatographie liquide, la hauteur équivalente à un plateau théorique :
+Veuillez choisir au moins une réponse :
+Augmente avec la longueur de la colonne
+Augmente avec le nombre de plateaux de la colonne
+Est inversement proportionnel au temps d’analyse
+Est une grandeur qui caractérise l’efficacité de la colonne
+Est fonction de la vitesse linéaire de la phase mobile
+Votre réponse est incorrecte.
+Les réponses correctes sont : Est fonction de la vitesse linéaire de la phase mobile, Est une grandeur qui caractérise l’efficacité
+de la colonne
+Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ?
+En chromatographie liquide, la résolution entre deux composés :
+Veuillez choisir au moins une réponse :
+Ne dépend pas de la longueur de la colonne
+Dépend de leurs facteurs de rétention
+Est fonction de la composition de la phase mobile
+Dépend du nombre de plateaux théoriques de la colonne
+Doit être supérieure à 5 pour être totale
+Votre réponse est incorrecte.
+Les réponses correctes sont : Dépend de leurs facteurs de rétention, Dépend du nombre de plateaux théoriques de la colonne,
+Est fonction de la composition de la phase mobile

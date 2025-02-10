@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le milnacipran possède une amine secondaire",
+      "Le milnacipran possède un cycle cyclobutane",
+      "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+      "L'amine primaire est un bon accepteur de liaison hydrogène",
+      "L'amine primaire est un bon donneur de liaison hydrogène"
+    ],
+    "correct_answers": [
+      "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+      "L'amine primaire est un bon accepteur de liaison hydrogène",
+      "L'amine primaire est un bon donneur de liaison hydrogène"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La structure de l'énalapril présente deux cycles aromatiques",
+      "La structure de l'énalapril présente une amine secondaire",
+      "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+      "La structure de l'énalapril présente une tyrosine",
+      "La structure de l'énalapril présente une proline"
+    ],
+    "correct_answers": [
+      "La structure de l'énalapril présente une amine secondaire",
+      "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+      "La structure de l'énalapril présente une proline"
+    ]
+  }
+]

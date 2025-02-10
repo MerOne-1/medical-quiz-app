@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes relatives à l'érythropoïèse, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'acide ascorbique favorise l'absorption intestinale du fer",
+      "L'absorption intestinale du fer a lieu essentiellement au niveau du duodénum",
+      "Le fer provenant de la dégradation physiologique de l'hémoglobine est réutilisé essentiellement pour l'érythropoïèse",
+      "Le fer est à l'état ferreux dans l'hémoglobine",
+      "La protéine de transport plasmatique du fer est la ferritine"
+    ],
+    "correct_answers": [
+      "L'acide ascorbique favorise l'absorption intestinale du fer",
+      "L'absorption intestinale du fer a lieu essentiellement au niveau du duodénum",
+      "Le fer provenant de la dégradation physiologique de l'hémoglobine est réutilisé essentiellement pour l'érythropoïèse",
+      "Le fer est à l'état ferreux dans l'hémoglobine"
+    ],
+    "justification_fausses_reponses": {
+      "La protéine de transport plasmatique du fer est la ferritine": "C'est incorrect. La ferritine est une protéine de stockage du fer, pas de transport. La transferrine est la principale protéine de transport du fer dans le plasma."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Dans une anémie de type inflammatoire, on observe généralement :",
+    "options": [
+      "Une discrète hyperlymphocytose",
+      "Une accélération de la VS",
+      "Une discrète thrombocytose",
+      "Une hyposidérémie",
+      "Une augmentation de la capacité totale de fixation de la transferrine"
+    ],
+    "correct_answers": [
+      "Une hyposidérémie",
+      "Une accélération de la VS",
+      "Une discrète thrombocytose"
+    ],
+    "justification_fausses_reponses": {
+      "Une discrète hyperlymphocytose": "Dans une anémie inflammatoire, on n'observe pas généralement une hyperlymphocytose. L'hyperlymphocytose est plutôt associée à des infections virales ou certains types de cancers comme la leucémie lymphoïde chronique.",
+      "Une augmentation de la capacité totale de fixation de la transferrine": "Dans une anémie inflammatoire, la capacité totale de fixation de la transferrine n'augmente pas. Au contraire, elle peut diminuer en raison de la diminution de la production de transferrine par le foie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes concernant les groupes sanguins, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Un sujet de groupe O Rhésus négatif peut être transfusé avec du sang de groupe O Rhésus positif",
+      "La méthode globulaire de Beth-Vincent permet de rechercher les antigènes du système ABO à la surface des globules rouges",
+      "Il est nécessaire de réaliser 2 prélèvements différents pour valider une carte de groupe sanguin",
+      "Les anticorps naturels du système ABO sont d’isotype IgM",
+      "Les sujets de groupe AB n’ont pas d’anticorps naturels anti-A et anti-B"
+    ],
+    "correct_answers": [
+      "Les anticorps naturels du système ABO sont d’isotype IgM",
+      "Les sujets de groupe AB n’ont pas d’anticorps naturels anti-A et anti-B",
+      "La méthode globulaire de Beth-Vincent permet de rechercher les antigènes du système ABO à la surface des globules rouges",
+      "Il est nécessaire de réaliser 2 prélèvements différents pour valider une carte de groupe sanguin"
+    ],
+    "justification_fausses_reponses": {
+      "Un sujet de groupe O Rhésus négatif peut être transfusé avec du sang de groupe O Rhésus positif": "Cette affirmation est incorrecte car un sujet de groupe O Rhésus négatif ne peut pas recevoir de sang de groupe O Rhésus positif. En effet, le Rhésus négatif signifie que le sujet ne possède pas l'antigène D à la surface de ses globules rouges. Si ce sujet reçoit du sang Rhésus positif, son système immunitaire peut reconnaître l'antigène D comme étranger et déclencher une réaction immunitaire, ce qui peut être dangereux."
+    }
+  }
+]

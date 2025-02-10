@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de l’éplérénone, représentée ci-dessous :",
+    "options": [
+      "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+      "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller",
+      "c’est un glucocorticoïde",
+      "Cette molécule est un antagoniste puissant du récepteur des androgènes",
+      "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque"
+    ],
+    "correct_answers": [
+      "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+      "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque",
+      "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s):",
+    "options": [
+      "Ces molécules sont toutes utilisées dans le traitement des infections par VIH-1",
+      "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+      "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+      "La molécule 1 est un inhibiteur de protéase virale",
+      "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+    ],
+    "correct_answers": [
+      "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+      "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+      "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+    ]
+  }
+]

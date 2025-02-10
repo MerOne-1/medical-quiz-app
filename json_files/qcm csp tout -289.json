@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Chez une femme enceinte, une toxoplasmose congénitale est prouvée si :",
+    "options": [
+      "Des lésions sont observées chez le fœtus par échographie.",
+      "Il y a présence d'IgM spécifiques dans le liquide amniotique.",
+      "La mère présente de la fièvre.",
+      "La mère présente des IgM spécifiques dans son sérum.",
+      "Une amniocentèse est réalisée."
+    ],
+    "correct_answers": [
+      "Des lésions sont observées chez le fœtus par échographie.",
+      "Il y a présence d'IgM spécifiques dans le liquide amniotique."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les éléments de réponses ci-dessous, lesquels sont considérés comme signes de gravité au cours d'un accès palustre à Plasmodium falciparum ?",
+    "options": [
+      "Parasitémie supérieure à 4%",
+      "Ictère",
+      "Troubles neurologiques",
+      "Thrombopénie",
+      "Fièvre à 40°C"
+    ],
+    "correct_answers": [
+      "Parasitémie supérieure à 4%",
+      "Ictère",
+      "Thrombopénie",
+      "Troubles neurologiques"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les légendes exactes",
+    "options": [
+      "A : céphalo-thorax",
+      "C : col de Médicis",
+      "D : patte (3 paires de pattes)",
+      "E : abdomen",
+      "B : rostre replié dans un sillon ventral"
+    ],
+    "correct_answers": [
+      "B : rostre replié dans un sillon ventral",
+      "C : col de Médicis",
+      "D : patte (3 paires de pattes)",
+      "E : abdomen"
+    ]
+  }
+]

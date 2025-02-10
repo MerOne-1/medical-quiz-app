@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métal trouvé dans la molécule de vitamine B12, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Cuivre",
+      "Fer",
+      "Sodium",
+      "Cobalt",
+      "Calcium"
+    ],
+    "correct_answers": [
+      "Cobalt"
+    ],
+    "justification_fausses_reponses": {
+      "Cuivre": "Le cuivre n'est pas le métal trouvé dans la molécule de vitamine B12. C'est le cobalt qui est le métal central de cette vitamine.",
+      "Fer": "Le fer n'est pas le métal trouvé dans la molécule de vitamine B12. Le fer est le métal central de l'hémoglobine, pas de la vitamine B12.",
+      "Sodium": "Le sodium n'est pas le métal trouvé dans la molécule de vitamine B12. Le sodium est un métal alcalin, il ne fait pas partie de la structure de la vitamine B12.",
+      "Calcium": "Le calcium n'est pas le métal trouvé dans la molécule de vitamine B12. Le calcium est un minéral essentiel pour la santé des os et des dents, mais il n'est pas présent dans la structure de la vitamine B12."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Pour initier la transcription d'un gène il est nécessaire d'avoir:",
+    "options": [
+      "Des désoxyribonucléotides triphosphate",
+      "Une ARN polymérase",
+      "Une ADN polymérase",
+      "Un promoteur en amont du gène à transcrire",
+      "Des amorces d'ARN"
+    ],
+    "correct_answers": [
+      "Un promoteur en amont du gène à transcrire",
+      "Une ARN polymérase"
+    ],
+    "justification_fausses_reponses": {
+      "Des désoxyribonucléotides triphosphate": "Les désoxyribonucléotides triphosphate sont nécessaires pour la réplication de l'ADN, pas pour la transcription d'un gène.",
+      "Une ADN polymérase": "L'ADN polymérase est impliquée dans la réplication de l'ADN, pas dans la transcription. C'est l'ARN polymérase qui est nécessaire pour la transcription.",
+      "Des amorces d'ARN": "Les amorces d'ARN sont nécessaires pour initier la réplication de l'ADN, pas la transcription. Dans la transcription, l'ARN polymérase peut commencer la synthèse de l'ARN à partir d'une matrice d'ADN sans amorce."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le processus de rétro-transcription, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Aucune des affirmations n’est exacte",
+      "Il nécessite des amorces spécifiques",
+      "Il est utilisé dans le cadre d’une RT-PCR pour quantifier l’ARN d’un gène",
+      "Il s’agit de la synthèse d’un brin d’ARN à partir d’une matrice d’ADN",
+      "Il s’agit d’une réaction enzymatique nécessitant l’utilisation d’une ADN polymérase RNA dépendante"
+    ],
+    "correct_answers": [
+      "Il s’agit d’une réaction enzymatique nécessitant l’utilisation d’une ADN polymérase RNA dépendante",
+      "Il est utilisé dans le cadre d’une RT-PCR pour quantifier l’ARN d’un gène"
+    ],
+    "justification_fausses_reponses": {
+      "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car il y a des affirmations correctes dans les options.",
+      "Il nécessite des amorces spécifiques": "Cette affirmation est incorrecte car la rétro-transcription ne nécessite pas d'amorces spécifiques. Elle utilise plutôt des amorces aléatoires ou des amorces spécifiques à l'ARN.",
+      "Il s’agit de la synthèse d’un brin d’ARN à partir d’une matrice d’ADN": "Cette affirmation est incorrecte car la rétro-transcription est le processus de synthèse d'un brin d'ADN à partir d'une matrice d'ARN, et non l'inverse."
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la différenciation cellulaire, quelles sont les propositions vraies",
+    "options": [
+      "La différenciation cellulaire repose sur l’expression sélective des gènes",
+      "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+      "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte",
+      "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+      "La différenciation cellulaire nécessite la suppression ou l’addition de certains gènes dans le génome de la cellule"
+    ],
+    "correct_answers": [
+      "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+      "La différenciation cellulaire repose sur l’expression sélective des gènes",
+      "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+      "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la mitochondrie, quelles sont les propositions vraies",
+    "options": [
+      "Les mitochondries se trouvent chez les procaryotes et les eucaryotes",
+      "La mitochondrie est délimitée par une seule membrane",
+      "La mitochondrie est un organite",
+      "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+      "Toutes les protéines mitochondriales sont codées par l’ADN mitochondrial"
+    ],
+    "correct_answers": [
+      "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+      "La mitochondrie est un organite"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le noyau cellulaire, quelles sont les propositions vraies",
+    "options": [
+      "Le noyau est délimité par une simple membrane appelée enveloppe nucléaire",
+      "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+      "On observe le noyau uniquement en mitose",
+      "Les cellules procaryotes possèdent toutes un noyau",
+      "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+    ],
+    "correct_answers": [
+      "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+      "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Quel est le nombre de noyaux dans le sac embryonnaire des Angiospermes",
+    "options": [
+      "Un",
+      "Nombreux",
+      "Huit",
+      "Deux",
+      "Quatre"
+    ],
+    "correct_answers": [
+      "Huit"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, choisir le (ou les) organisme(s) pouvant présenter de la dichotomie dans leur appareil végétatif",
+    "options": [
+      "Pin",
+      "Fougère",
+      "Ginkgo",
+      "Fucus",
+      "Hépatique"
+    ],
+    "correct_answers": [
+      "Fucus",
+      "Fougère",
+      "Ginkgo",
+      "Hépatique"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes, indiquer celle(s) avec des termes synonymes :",
+    "options": [
+      "Plantes à ovaires, Plantes à graines",
+      "Rhizophytes, Plantes vasculaires",
+      "Angiospermes, Rhizophytes",
+      "Spermatophytes, G ymnospermes",
+      "Embryophytes, Archégoniates"
+    ],
+    "correct_answers": [
+      "Rhizophytes, Plantes vasculaires",
+      "Embryophytes, Archégoniates"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, laquelle est fausse ?",
+    "options": [
+      "Les russules n'ont ni voile général ni voile partiel",
+      "Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex",
+      "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous",
+      "Russula vesca  et Russula virescens  sont d'excellents comestibles",
+      "Toutes les russules âcres ne doivent pas être consommées."
+    ],
+    "correct_answers": [
+      "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous"
+    ]
+  }
+]

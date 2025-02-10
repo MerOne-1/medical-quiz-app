@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? Les solutions de remplissage vasculaire peuvent être:",
+    "options": [
+      "Des solutés de dextran",
+      "Des solutés de gélatine fluide",
+      "Des émulsions lipidiques injectables",
+      "De l'albumine d'origine humaine",
+      "Des solutés de glucose"
+    ],
+    "correct_answers": [
+      "Des solutés de gélatine fluide",
+      "De l'albumine d'origine humaine",
+      "Des solutés de dextran"
+    ],
+    "justification_fausses_reponses": {
+      "Des émulsions lipidiques injectables": "Les émulsions lipidiques injectables ne sont pas utilisées comme solutions de remplissage vasculaire. Elles sont principalement utilisées pour l'administration de médicaments liposolubles ou comme source de lipides dans la nutrition parentérale.",
+      "Des solutés de glucose": "Les solutés de glucose ne sont pas utilisés comme solutions de remplissage vasculaire. Ils sont principalement utilisés pour fournir de l'énergie et traiter l'hypoglycémie."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes, choisissez la ou les proposition(s) exacte(s) Dans cette même étude",
+    "options": [
+      "pour apprécier la vitesse de mise à disposition, on compare les pentes de la phase décroissante des cinétiques après la linéarisation.",
+      "D'un point de vue quantitatif, on va apprécier l'aire sous la courbe des concentrations urinaires en X, si on effectue une étude par prélèvements urinaires.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique.",
+      "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps."
+    ],
+    "correct_answers": [
+      "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique."
+    ],
+    "justification_fausses_reponses": {
+      "pour apprécier la vitesse de mise à disposition, on compare les pentes de la phase décroissante des cinétiques après la linéarisation.": "Cette affirmation est incorrecte car la vitesse de mise à disposition d'un médicament n'est pas appréciée par la comparaison des pentes de la phase décroissante des cinétiques après linéarisation. En réalité, elle est généralement évaluée par la mesure du temps nécessaire pour atteindre la concentration maximale du médicament dans le plasma.",
+      "D'un point de vue quantitatif, on va apprécier l'aire sous la courbe des concentrations urinaires en X, si on effectue une étude par prélèvements urinaires.": "Cette affirmation est incorrecte car l'aire sous la courbe des concentrations urinaires n'est pas un indicateur fiable de la biodisponibilité d'un médicament. En effet, elle ne tient pas compte de la variabilité interindividuelle de l'excrétion urinaire et peut donc conduire à des estimations erronées de la biodisponibilité."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les affirmations suivantes concernant les glycérides hémi-synthétiques solides utilisés comme excipient pour des suppositoires (ex : Witepsol®), quelles ont celles qui sont exactes ?",
+    "options": [
+      "montrent une bonne rétractabilité",
+      "sont uniquement des triglycérides.",
+      "se dissolvent dans le contenu du rectum.",
+      "fondent à température corporelle.",
+      "montrent une zone de fusion très large."
+    ],
+    "correct_answers": [
+      "sont uniquement des triglycérides.",
+      "fondent à température corporelle."
+    ],
+    "justification_fausses_reponses": {
+      "montrent une bonne rétractabilité": "Les glycérides hémi-synthétiques solides utilisés comme excipients pour des suppositoires ne montrent pas une bonne rétractabilité. La rétractabilité est la capacité d'un matériau à retrouver sa forme initiale après déformation, ce qui n'est pas le cas pour ces substances.",
+      "se dissolvent dans le contenu du rectum.": "Les glycérides hémi-synthétiques solides ne se dissolvent pas dans le contenu du rectum. Ils sont conçus pour fondre à la température corporelle et libérer le médicament, mais ils ne se dissolvent pas.",
+      "montrent une zone de fusion très large.": "Les glycérides hémi-synthétiques solides n'ont pas une zone de fusion très large. Ils sont conçus pour fondre à une température spécifique (la température corporelle), donc leur zone de fusion est relativement étroite."
+    }
+  }
+]

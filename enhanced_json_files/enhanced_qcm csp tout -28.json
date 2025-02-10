@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Quel est le nouveau pH d’une solution tampon acéto-acétique (V= 1L et C= 100 mM, pKa = 4.8) de pH 4.8 si on y ajoute 1.10 mole d’acide chlorhydrique :",
+    "options": [
+      "4.8",
+      "9.6",
+      "4.3",
+      "6.0",
+      "2.4-4"
+    ],
+    "correct_answers": [
+      "4.8"
+    ],
+    "justification_fausses_reponses": {
+      "9.6": "Cette réponse est incorrecte car l'ajout d'acide chlorhydrique à une solution tampon acéto-acétique ne peut pas augmenter le pH. L'acide chlorhydrique est un acide fort qui va diminuer le pH de la solution, pas l'augmenter.",
+      "4.3": "Cette réponse est incorrecte car l'ajout d'acide chlorhydrique à une solution tampon acéto-acétique ne va pas diminuer significativement le pH. La capacité tampon de la solution va résister à ce changement de pH.",
+      "6.0": "Cette réponse est incorrecte car l'ajout d'acide chlorhydrique à une solution tampon acéto-acétique ne peut pas augmenter le pH. L'acide chlorhydrique est un acide fort qui va diminuer le pH de la solution, pas l'augmenter.",
+      "2.4-4": "Cette réponse est incorrecte car elle ne représente pas un pH possible. Le pH est une mesure de l'acidité ou de la basicité d'une solution et est toujours exprimé comme un nombre unique, pas une plage de valeurs."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En électrophorèse capillaire, la mobilité apparente (expérimentale):",
+    "options": [
+      "Est toujours nulle pour les particules non chargées",
+      "Dépend de la vitesse électrophorétique de l'analyte",
+      "Ne dépend pas du flux électroosmotique",
+      "Dépend du flux électroosmotique",
+      "Ne dépend pas de la vitesse électrophorétique de l'analyte"
+    ],
+    "correct_answers": [
+      "Ne dépend pas du flux électroosmotique",
+      "Est toujours nulle pour les particules non chargées",
+      "Ne dépend pas de la vitesse électrophorétique de l'analyte"
+    ],
+    "justification_fausses_reponses": {
+      "Dépend de la vitesse électrophorétique de l'analyte": "Cette affirmation est incorrecte car la mobilité apparente en électrophorèse capillaire est indépendante de la vitesse électrophorétique de l'analyte. Elle est plutôt déterminée par le champ électrique et la charge de l'analyte.",
+      "Dépend du flux électroosmotique": "Cette affirmation est incorrecte car la mobilité apparente en électrophorèse capillaire est indépendante du flux électroosmotique. Le flux électroosmotique est un phénomène qui se produit lorsque le solvant se déplace à travers la capillaire sous l'effet d'un champ électrique, mais il n'affecte pas la mobilité apparente de l'analyte."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En électrophorèse, la mobilité électrophorétique d’une particule varie selon :",
+    "options": [
+      "La tension appliquée",
+      "Le rayon de la particule",
+      "Le champ électrique appliqué",
+      "La charge de la particule",
+      "Le pH du milieu"
+    ],
+    "correct_answers": [
+      "Le champ électrique appliqué"
+    ],
+    "justification_fausses_reponses": {
+      "La tension appliquée": "La tension appliquée affecte la vitesse de migration des particules en électrophorèse, donc cette affirmation est correcte.",
+      "Le rayon de la particule": "Le rayon de la particule affecte sa mobilité en électrophorèse. Les particules plus grandes se déplacent plus lentement que les particules plus petites, donc cette affirmation est correcte.",
+      "La charge de la particule": "La charge de la particule affecte sa mobilité en électrophorèse. Les particules chargées positivement se déplacent vers l'électrode négative et vice versa, donc cette affirmation est correcte.",
+      "Le pH du milieu": "Le pH du milieu peut affecter la charge de la particule, et donc sa mobilité en électrophorèse. Par exemple, à un pH bas, une protéine peut porter une charge positive et se déplacer vers l'électrode négative, donc cette affirmation est correcte."
+    }
+  }
+]

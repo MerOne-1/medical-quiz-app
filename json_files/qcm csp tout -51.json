@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "A 37°C, un antibiotique A est métabolisé avec une constante de vitesse k égale à 3.10 s. L’efficacité d’un traitement par cet antibiotique implique de maintenir une concentration toujours supérieure à 2 mg par kg de poids corporel. Un patient dont le poids est de 70 kg absorbe à intervalle régulier des comprimés renfermant 400 mg de cet antibiotique. Quel doit être l’intervalle maximum de temps entre deux prises de médicaments (on suppose que la distribution du médicament est instantanée et uniforme dans tout l’organisme) ?",
+    "options": [
+      "11,9 h",
+      "7,2 h",
+      "3,5 h",
+      "9,7 h",
+      "8,6 h"
+    ],
+    "correct_answers": [
+      "9,7 h"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Indiquer la (ou les) proposition (s) exacte (s). PCl est",
+    "options": [
+      "un nucléophile, à cause du doublet non liant",
+      "une molécule plane car P est trivalent",
+      "une molécule en forme en forme de bipyramide trigonale",
+      "un composé du phosphore au degré d’oxydation -3",
+      "un électrophile"
+    ],
+    "correct_answers": [
+      "un électrophile"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes relatives aux liaisons faibles, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "La liaison hydrogène est une des nombreuses liaisons faibles expliquant la structure secondaire des protéines",
+      "Seules des forces de London peuvent s’établir entre 2 molécules de O",
+      "Les forces de Keesom s’établissent entre molécules polaires",
+      "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+      "Les forces de Debye sont les forces de Van der Waals les plus stabilisantes"
+    ],
+    "correct_answers": [
+      "La présence de liaisons hydrogène explique que la densité de la glace soit inférieure à celle de l’eau liquide",
+      "Les forces de Keesom s’établissent entre molécules polaires",
+      "Seules des forces de London peuvent s’établir entre 2 molécules de O"
+    ]
+  }
+]

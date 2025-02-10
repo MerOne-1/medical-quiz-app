@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant l’usage de stupéfiants et la sécurité routière, laquelle (ou lesquelles) est (ou sont) inexacte(s) ?",
+    "options": [
+      "Les tests de dépistage des stupéfiants, urinaires ou salivaires, permettent de confirmer que le conducteur était sous influence d’une ou de plusieurs drogues au moment du test.",
+      "La conduite automobile sous l’influence de stupéfiant et d’alcool est passible des mêmes peines et amendes que la conduite automobile sous l’influence de stupéfiants uniquement.",
+      "La conduite automobile sous l’influence de stupéfiant est passible de 2 ans d’emprisonnement selon la Loi française du 3 février 2003.",
+      "Les tests de dépistage salivaires des stupéfiants, pratiqués sur les automobilistes, concernent le cannabis, la cocaïne, les amphétamines et les opiacés.",
+      "Un dépistage salivaire positif au cannabis chez un automobiliste doit être systématiquement confirmé par un dosage dans le sang."
+    ],
+    "correct_answers": [
+      "La conduite automobile sous l’influence de stupéfiant et d’alcool est passible des mêmes peines et amendes que la conduite automobile sous l’influence de stupéfiants uniquement.",
+      "Les tests de dépistage des stupéfiants, urinaires ou salivaires, permettent de confirmer que le conducteur était sous influence d’une ou de plusieurs drogues au moment du test."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie de la chloroquine, quelle est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "La chloroquine présente une cardiotoxicité du même type que les antidépresseurs tricycliques.",
+      "Il n’existe pas de traitement antidotique de l’intoxication à la chloroquine.",
+      "Lors d’une intoxication aiguë à la chloroquine, des troubles neurosensoriels, tels que des acouphènes et une vision floue, peuvent survenir précocement et permettre une orientation diagnostique.",
+      "Les toxiques à effet stabilisant de membrane (ESM) inhibent principalement l’entrée du calcium dans la cellule myocardique.",
+      "Le traitement spécifique d’une intoxication par la chloroquine repose sur la triade Adrénaline/Diazépam/Ventilation assistée."
+    ],
+    "correct_answers": [
+      "La chloroquine présente une cardiotoxicité du même type que les antidépresseurs tricycliques.",
+      "Lors d’une intoxication aiguë à la chloroquine, des troubles neurosensoriels, tels que des acouphènes et une vision floue, peuvent survenir précocement et permettre une orientation diagnostique.",
+      "Il n’existe pas de traitement antidotique de l’intoxication à la chloroquine.",
+      "Le traitement spécifique d’une intoxication par la chloroquine repose sur la triade Adrénaline/Diazépam/Ventilation assistée."
+    ]
+  }
+]

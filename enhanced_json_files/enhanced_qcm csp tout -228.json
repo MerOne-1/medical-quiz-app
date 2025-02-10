@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+      "Le NADH et le F ADH2 transfèrent leurs protons à l’A TP synthase ce qui conduit à la synthèse d’A TP",
+      "La néoglucogenèse se déroule dans le muscle en activité intense pour fournir le glucose dont l’oxydation fournira l’A TP nécessaire à la contraction",
+      "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie",
+      "Le cycle de Krebs se déroule dans le cytosol de la cellule"
+    ],
+    "correct_answers": [
+      "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+      "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie"
+    ],
+    "justification_fausses_reponses": {
+      "Le NADH et le F ADH2 transfèrent leurs protons à l’A TP synthase ce qui conduit à la synthèse d’A TP": "C'est incorrect car le NADH et le FADH2 transfèrent leurs électrons, et non leurs protons, à la chaîne de transport d'électrons, qui conduit à la synthèse d'ATP.",
+      "La néoglucogenèse se déroule dans le muscle en activité intense pour fournir le glucose dont l’oxydation fournira l’A TP nécessaire à la contraction": "C'est incorrect car la néoglucogenèse se déroule principalement dans le foie et les reins, et non dans le muscle. Le muscle utilise le glucose pour produire de l'ATP, mais ne le produit pas lui-même.",
+      "Le cycle de Krebs se déroule dans le cytosol de la cellule": "C'est incorrect car le cycle de Krebs se déroule dans la matrice mitochondriale, et non dans le cytosol de la cellule."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "L’analyse d’un profil électrophorétique des protéines sériques est en faveur du diagnostic. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+      "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées",
+      "Aucune des affirmations n’est exacte",
+      "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+      "D’une cirrhose si un bloc béta-gamma est détecté"
+    ],
+    "correct_answers": [
+      "D’une cirrhose si un bloc béta-gamma est détecté",
+      "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+      "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+      "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées"
+    ],
+    "justification_fausses_reponses": {
+      "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car toutes les autres options sont correctes. Chaque option décrit correctement une condition médicale qui peut être diagnostiquée par l'analyse d'un profil électrophorétique des protéines sériques."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le rôle d’une enzyme au cours d’une réaction biochimique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elle permet d’augmenter la variation d’énergie libre de la réaction",
+      "Elle permet d’augmenter la température à laquelle s’effectue la réaction",
+      "Elle permet de ralentir la vitesse de réaction",
+      "Elle permet de diminuer l’énergie d’activation",
+      "Elle permet d’éviter le passage à un état de transition"
+    ],
+    "correct_answers": [
+      "Elle permet de diminuer l’énergie d’activation"
+    ],
+    "justification_fausses_reponses": {
+      "Elle permet d’augmenter la variation d’énergie libre de la réaction": "Faux, une enzyme ne modifie pas la variation d'énergie libre de la réaction, elle facilite seulement le processus en diminuant l'énergie d'activation nécessaire.",
+      "Elle permet d’augmenter la température à laquelle s’effectue la réaction": "Faux, une enzyme n'affecte pas la température de la réaction. Elle fonctionne plutôt en optimisant les conditions pour que la réaction se produise à la température existante.",
+      "Elle permet de ralentir la vitesse de réaction": "Faux, une enzyme accélère la vitesse de réaction en diminuant l'énergie d'activation nécessaire pour la réaction.",
+      "Elle permet d’éviter le passage à un état de transition": "Faux, une enzyme ne permet pas d'éviter le passage à un état de transition, mais elle facilite ce passage en diminuant l'énergie d'activation nécessaire."
+    }
+  }
+]

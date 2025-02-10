@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "L'amphotéricine B :",
+    "options": [
+      "est produite par une bactérie",
+      "peut être administrée par voie orale pour une action systémique",
+      "est un antifongique polyénique",
+      "a un mécanisme d’action qui repose sur son caractère amphotère",
+      "est structuralement apparentée à la nystatine"
+    ],
+    "correct_answers": [
+      "est un antifongique polyénique",
+      "a un mécanisme d’action qui repose sur son caractère amphotère",
+      "est structuralement apparentée à la nystatine",
+      "est produite par une bactérie"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "est un alcaloïde",
+      "est un polyphénol",
+      "est un alcaloïde",
+      "est un acide gras",
+      "est un polyphénol"
+    ],
+    "correct_answers": [
+      "est un acide gras",
+      "est un alcaloïde",
+      "est un polyphénol"
+    ]
+  }
+]

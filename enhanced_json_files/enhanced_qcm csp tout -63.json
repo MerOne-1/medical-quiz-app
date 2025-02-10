@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Après que le don ait été qualifié, il va soit être utilisé comme produit sanguin labile soit être intégré dans une chaîne de production pharmaceutique. Parmi les étapes suivantes, quelles sont celles qui sont réalisées systématiquement à l'arrivée du plasma",
+    "options": [
+      "Mélange des prélèvements pour constituer un pool.",
+      "Vérification de la qualification réalisée post don",
+      "Requalification des prélèvements (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+      "Requalification des mélanges (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+      "Mise en quarantaine à -30°C"
+    ],
+    "correct_answers": [
+      "Vérification de la qualification réalisée post don",
+      "Requalification des prélèvements (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2).",
+      "Mise en quarantaine à -30°C",
+      "Mélange des prélèvements pour constituer un pool.",
+      "Requalification des mélanges (recherche parvovirus ( B19) et les virus de l'hépatite A et C, et celui du SIDA ( HIV 1 et 2)."
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant les nanoparticules ?",
+    "options": [
+      "les nanoparticules sont toujours sous forme de petits réservoirs, dénommés nanocapsules",
+      "Les nanoparticules sont généralement à base de polymères biodégradables ou de lipides",
+      "Les nanoparticules ne peuvent jamais être non biodégradables car elles s'accumuleraient.",
+      "Il n'existe qu'un seul processus de fabrication qui permettent d'obtenir des nanoparticules",
+      "Il existe de nombreuses techniques de fabrication"
+    ],
+    "correct_answers": [
+      "Les nanoparticules sont généralement à base de polymères biodégradables ou de lipides",
+      "Il existe de nombreuses techniques de fabrication"
+    ],
+    "justification_fausses_reponses": {
+      "les nanoparticules sont toujours sous forme de petits réservoirs, dénommés nanocapsules": "Cette affirmation est fausse car les nanoparticules peuvent prendre différentes formes, pas seulement celle de nanocapsules. Elles peuvent aussi être des nanosphères, des nanotubes, etc.",
+      "Les nanoparticules ne peuvent jamais être non biodégradables car elles s'accumuleraient.": "C'est incorrect. Bien que l'accumulation de nanoparticules non biodégradables puisse poser des problèmes environnementaux et de santé, il existe néanmoins des nanoparticules non biodégradables.",
+      "Il n'existe qu'un seul processus de fabrication qui permettent d'obtenir des nanoparticules": "C'est faux. Il existe de nombreuses méthodes pour fabriquer des nanoparticules, y compris la synthèse chimique, la lithographie, et la méthode de la précipitation."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Vous devez stériliser et garantir la stérilité d'une préparation injectable d'insuline, quelle(s) opération(s) allez-vous mettre en œuvre ?",
+    "options": [
+      "Filtration stérilisante",
+      "Chauffage à 121°C pendant 10 minutes",
+      "Addition d'un antiseptique",
+      "Préparations dans de l'eau p.p.i.",
+      "Préparation et conditionnement aseptique"
+    ],
+    "correct_answers": [
+      "Préparations dans de l'eau p.p.i.",
+      "Préparation et conditionnement aseptique"
+    ],
+    "justification_fausses_reponses": {
+      "Filtration stérilisante": "La filtration stérilisante n'est pas appropriée pour les préparations d'insuline car elle peut entraîner la dénaturation de la protéine d'insuline.",
+      "Chauffage à 121°C pendant 10 minutes": "Le chauffage à 121°C pendant 10 minutes n'est pas approprié pour les préparations d'insuline car il peut dénaturer la protéine d'insuline, ce qui rendrait la préparation inutilisable.",
+      "Addition d'un antiseptique": "L'addition d'un antiseptique n'est pas appropriée pour les préparations d'insuline car elle pourrait interférer avec l'activité de l'insuline et causer des effets indésirables chez le patient."
+    }
+  }
+]

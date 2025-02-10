@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les signes suivants, quels sont ceux que l’on ne rencontre pas dans le cadre du diagnostic d’une gammapathie monoclonale de signification indéterminée (MGUS) ?",
+    "options": [
+      "Lésions ostéolytiques",
+      "Pic monoclonal sérique à IgG kappa",
+      "Hypercalcémie",
+      "Plasmocytose médullaire à 20%",
+      "Insuffisance rénale"
+    ],
+    "correct_answers": [
+      "Plasmocytose médullaire à 20%",
+      "Hypercalcémie",
+      "Lésions ostéolytiques",
+      "Insuffisance rénale"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le diagnostic de certitude d’une anémie ferriprive repose sur le myélogramme",
+      "Dans la maladie de Biermer, l’hémogramme permet d’affirmer la mégaloblastose",
+      "En pratique, la cytochimie de la myéloperoxydase est indispensable dans le diagnostic d’une leucémie aigue",
+      "Une hyperéosinophilie sanguine est définie par des polynucléaires éosinophiles sanguins supérieurs à 20% des leucocytes totaux",
+      "Une numération plaquettaire normale sur tube citraté permet d’éliminer une fausse thrombopénie à l’ED TA"
+    ],
+    "correct_answers": [
+      "Dans la maladie de Biermer, l’hémogramme permet d’affirmer la mégaloblastose",
+      "En pratique, la cytochimie de la myéloperoxydase est indispensable dans le diagnostic d’une leucémie aigue",
+      "Une hyperéosinophilie sanguine est définie par des polynucléaires éosinophiles sanguins supérieurs à 20% des leucocytes totaux"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle ou lesquelles ne s’applique(nt) pas aux syndromes myélodysplasiques ?",
+    "options": [
+      "Leur fréquence augmente avec l’âge",
+      "L’anémie est le plus souvent microcytaire",
+      "Ils peuvent être secondaires à une chimiothérapie cytotoxique",
+      "Le caryotype est un facteur pronostique majeur",
+      "Ils sont caractérisés par une dysmyélopoïèse"
+    ],
+    "correct_answers": [
+      "L’anémie est le plus souvent microcytaire"
+    ]
+  }
+]

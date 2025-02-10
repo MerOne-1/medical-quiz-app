@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants indiqués dans la prise en charge de la sclérose en plaque lequel ou lesquels est/sont immunomodulateur(s) ?",
+    "options": [
+      "Interferon béta 1a",
+      "Mitoxantrone",
+      "Natalizumab",
+      "Cyclophosphamide",
+      "Acetate de glatiramère"
+    ],
+    "correct_answers": [
+      "Interferon béta 1a",
+      "Acetate de glatiramère"
+    ],
+    "justification_fausses_reponses": {
+      "Mitoxantrone": "La mitoxantrone est un agent antinéoplasique et immunosuppresseur, mais pas un immunomodulateur. Elle agit en inhibant la synthèse de l'ADN et de l'ARN, ce qui n'est pas une action immunomodulatrice.",
+      "Natalizumab": "Le natalizumab est un anticorps monoclonal utilisé dans le traitement de la sclérose en plaques, mais il n'est pas considéré comme un immunomodulateur. Il agit en empêchant les cellules immunitaires d'entrer dans le cerveau et la moelle épinière, ce qui est différent de la modulation du système immunitaire.",
+      "Cyclophosphamide": "Le cyclophosphamide est un agent alkylant cytotoxique utilisé en chimiothérapie. Il n'est pas un immunomodulateur car il agit en endommageant l'ADN des cellules, ce qui entraîne leur mort."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "Le carbimazole possède une action rapide grâce à sa demi-vie courte",
+      "Le carbimazole est un antithyroidien de synthèse",
+      "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+      "Le carbimazole est contre indiqué avec l'amiodarone",
+      "Le carbimazole peut être associé à la lévothyroxine"
+    ],
+    "correct_answers": [
+      "Le carbimazole est un antithyroidien de synthèse",
+      "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+      "Le carbimazole peut être associé à la lévothyroxine"
+    ],
+    "justification_fausses_reponses": {
+      "Le carbimazole possède une action rapide grâce à sa demi-vie courte": "C'est incorrect. Le carbimazole a une demi-vie longue, ce qui signifie qu'il reste dans le corps pendant une longue période, ce qui ralentit son action.",
+      "Le carbimazole est contre indiqué avec l'amiodarone": "C'est incorrect. Il n'y a pas de contre-indication spécifique entre le carbimazole et l'amiodarone. Cependant, comme tous les médicaments, ils doivent être utilisés avec prudence et sous surveillance médicale."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+    "options": [
+      "Elle subit principalement un métabolisme hépatique",
+      "C'est un médicament inducteur enzymatique",
+      "Son élimination est rénale et sous forme active",
+      "C'est un médicament inhibiteur enzymatique",
+      "En cas d'insuffisance rénale, il n'y pas d'accumulation possible de ce médicament"
+    ],
+    "correct_answers": [
+      "Son élimination est rénale et sous forme active"
+    ],
+    "justification_fausses_reponses": {
+      "Elle subit principalement un métabolisme hépatique": "La metformine n'est pas métabolisée par le foie, elle est éliminée sous forme inchangée par les reins.",
+      "C'est un médicament inducteur enzymatique": "La metformine n'est pas un inducteur enzymatique. Elle n'augmente pas la production d'enzymes qui décomposent les médicaments.",
+      "C'est un médicament inhibiteur enzymatique": "La metformine n'est pas un inhibiteur enzymatique. Elle n'empêche pas l'action des enzymes qui décomposent les médicaments.",
+      "En cas d'insuffisance rénale, il n'y pas d'accumulation possible de ce médicament": "En cas d'insuffisance rénale, l'élimination de la metformine est réduite, ce qui peut entraîner une accumulation du médicament dans l'organisme."
+    }
+  }
+]

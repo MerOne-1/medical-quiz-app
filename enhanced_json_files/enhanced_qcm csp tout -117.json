@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Une sociét é d'ex ercice libéral (SEL)...",
+    "options": [
+      "ne peut être détenue que par un seul pharmacien.",
+      "doit s'ajouter à une autre forme de société.",
+      "permet à elle seule d'exploiter un fonds de commerce d'une officine.",
+      "peut détenir des participations dans d'autres SEL.",
+      "doit s'ajouter à une autre forme juridique d'entreprise, société ou non."
+    ],
+    "correct_answers": [
+      "doit s'ajouter à une autre forme de société.",
+      "peut détenir des participations dans d'autres SEL."
+    ],
+    "justification_fausses_reponses": {
+      "ne peut être détenue que par un seul pharmacien.": "C'est incorrect car une SEL peut être détenue par plusieurs pharmaciens. La loi n'impose pas de limite au nombre de pharmaciens pouvant détenir une SEL.",
+      "permet à elle seule d'exploiter un fonds de commerce d'une officine.": "C'est incorrect car une SEL ne peut pas exploiter un fonds de commerce d'une officine par elle-même. Elle doit être associée à une autre forme de société pour cela.",
+      "doit s'ajouter à une autre forme juridique d'entreprise, société ou non.": "C'est incorrect car une SEL peut fonctionner indépendamment et n'a pas besoin de s'ajouter à une autre forme juridique d'entreprise. Elle peut toutefois détenir des participations dans d'autres SEL."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi les pr opositions suiv antes concer nant la publicit é pour les médicaments, laquelle / lesquelles est / sont exact e(s) ?",
+    "options": [
+      "Elle doit être réalisée sous la responsabilité du pharmacien responsable.",
+      "Elle est possible pour les médicaments qui ont obtenu une AMM ou une autorisation temporaire d’utilisation.",
+      "Une publicité pour les médicaments ne peut être faite qu’à destination des professionnels de santé.",
+      "Elle doit être conforme à l’AMM et aux recommandations de la HAS.",
+      "Elle doit être préalablement autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé."
+    ],
+    "correct_answers": [
+      "Elle doit être préalablement autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé.",
+      "Elle doit être conforme à l’AMM et aux recommandations de la HAS.",
+      "Elle doit être réalisée sous la responsabilité du pharmacien responsable."
+    ],
+    "justification_fausses_reponses": {
+      "Elle est possible pour les médicaments qui ont obtenu une AMM ou une autorisation temporaire d’utilisation.": "Cette affirmation est incorrecte car même si un médicament a obtenu une AMM ou une autorisation temporaire d'utilisation, cela ne signifie pas automatiquement qu'il peut être publicisé. La publicité pour les médicaments est soumise à des règles strictes et doit être autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé.",
+      "Une publicité pour les médicaments ne peut être faite qu’à destination des professionnels de santé.": "Cette affirmation est incorrecte car la publicité pour les médicaments peut également être destinée au grand public, à condition qu'elle respecte certaines conditions, notamment l'obtention d'une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces pr opositions concer nant le Minist ère de la Sant é, laquelle / lesquelles est / sont exact e(s) ?",
+    "options": [
+      "Son nom complet est actuellement « Ministère de la Santé et de la Sécurité sociale ».",
+      "L’actuelle ministre est Mme Isabelle ADENO T.",
+      "Son nom complet est actuellement « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+      "L’actuelle ministre est Mme Marisol T OURAINE.",
+      "Ce ministère comprend la Direction générale de la Santé (DGS), la Direction générale de l’offre de soins (DGOS) et la Direction générale de la Sécurité sociale (DSS)."
+    ],
+    "correct_answers": [
+      "Son nom complet est actuellement « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+      "L’actuelle ministre est Mme Marisol T OURAINE.",
+      "Ce ministère comprend la Direction générale de la Santé (DGS), la Direction générale de l’offre de soins (DGOS) et la Direction générale de la Sécurité sociale (DSS)."
+    ],
+    "justification_fausses_reponses": {
+      "Son nom complet est actuellement « Ministère de la Santé et de la Sécurité sociale ».": "Cette affirmation est incorrecte car le nom actuel du ministère est « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+      "L’actuelle ministre est Mme Isabelle ADENO T.": "Cette affirmation est incorrecte car l'actuelle ministre est Mme Marisol T OURAINE."
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Pour produire le vaccin Haemophilus influenzae  type b conjugué, il est nécessaire de cultiver la souche d' Haemophilus influenzae  avant d'extraire le polysaccharide vaccinant. P our assurer l'innocuité du vaccin, une stérilisation de la biomasse est donc nécessaire. Le fabricant doit assurer l'efficacité du procédé. Choisira-t-il d'appliquer une procédure avec un risque résiduel de :",
+    "options": [
+      "1/10",
+      "aucune de ces propositions",
+      "1/10",
+      "1/10",
+      "1/106",
+      "23",
+      "9",
+      "17"
+    ],
+    "correct_answers": [
+      "1/1017"
+    ],
+    "justification_fausses_reponses": {
+      "1/10": "Cette option est incorrecte car un risque résiduel de 1/10 est trop élevé pour assurer l'innocuité du vaccin.",
+      "aucune de ces propositions": "Cette option est incorrecte car il existe une réponse correcte dans les options proposées.",
+      "1/106": "Cette option est incorrecte car un risque résiduel de 1/106 est encore trop élevé pour assurer l'innocuité du vaccin.",
+      "23": "Cette option est incorrecte car elle ne représente pas un risque résiduel en termes de probabilité.",
+      "9": "Cette option est incorrecte car elle ne représente pas un risque résiduel en termes de probabilité.",
+      "17": "Cette option est incorrecte car elle ne représente pas un risque résiduel en termes de probabilité."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Le diagnostic indirect d'une infection bactérienne peut être établi à l'aide :",
+    "options": [
+      "de tests sérologiques",
+      "de l'observation microscopique de la bactérie issue d'un prélèvement biologique",
+      "d'une mise en évidence de l'ADN bactérien par technique d'amplification génique",
+      "d'une mise en évidence des anticorps produits par le patient infecté en réaction à l'agent bactérien causal",
+      "d'une recherche d'antigènes spécifiques de la bactérie en cause dans l'infection"
+    ],
+    "correct_answers": [
+      "de tests sérologiques",
+      "d'une mise en évidence des anticorps produits par le patient infecté en réaction à l'agent bactérien causal"
+    ],
+    "justification_fausses_reponses": {
+      "de l'observation microscopique de la bactérie issue d'un prélèvement biologique": "Cette méthode est une forme de diagnostic direct et non indirect. Elle implique l'observation directe de la bactérie, et non la détection de la réponse immunitaire du corps à l'infection.",
+      "d'une mise en évidence de l'ADN bactérien par technique d'amplification génique": "Cette méthode est également une forme de diagnostic direct. Elle implique la détection de l'ADN de la bactérie, et non la détection de la réponse immunitaire du corps à l'infection.",
+      "d'une recherche d'antigènes spécifiques de la bactérie en cause dans l'infection": "Cette méthode est une forme de diagnostic direct. Elle implique la détection des antigènes spécifiques de la bactérie, et non la détection de la réponse immunitaire du corps à l'infection."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos de la fièvre typhoïde :",
+    "options": [
+      "elle peut être due à plusieurs centaines de sérovars de Salmonella enterica subsp enterica",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir de coprocultures",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir d'hémocultures",
+      "Salmonella enterica  est un coque à Gram négatif de la famille des entérobactéries",
+      "classiquement, la phase d'état comporte une fièvre continue et un tuphos"
+    ],
+    "correct_answers": [
+      "classiquement, la phase d'état comporte une fièvre continue et un tuphos",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir d'hémocultures",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir de coprocultures"
+    ],
+    "justification_fausses_reponses": {
+      "elle peut être due à plusieurs centaines de sérovars de Salmonella enterica subsp enterica": "La fièvre typhoïde est causée par une seule sérovar de Salmonella enterica subsp enterica, appelée Typhi. Les autres sérovars ne causent pas la fièvre typhoïde.",
+      "Salmonella enterica  est un coque à Gram négatif de la famille des entérobactéries": "Salmonella enterica est une bactérie à Gram négatif, mais elle n'est pas un coque. Elle est en réalité une bacille, ce qui signifie qu'elle a une forme de bâtonnet."
+    }
+  }
+]

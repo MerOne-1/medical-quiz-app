@@ -1,0 +1,479 @@
+{
+    "theme": "Biologie cellulaire et moléculaire",
+    "questions": [
+        {
+            "question": "Concernant les cellules eucaryotes, quelles sont les propositions vraies :",
+            "options": [
+                "Il existe deux sites intracellulaires majeurs de dégradation : les lysosomes et le protéasome",
+                "Le réticulum endoplasmique assure la synthèse des phospholipides destinés à la membrane plasmique",
+                "L’organisme humain est constitué de 200 types cellulaires différents",
+                "Des signaux d’adressage sont nécessaires et suffisants pour orienter les protéines synthétisées dans le cytosol vers leurs compartiments finaux",
+                "L’exocytose est un processus permettant aux cellules de capturer des molécules extracellulaires en les englobant dans des vésicules provenant de la membrane plasmique"
+            ],
+            "correct_answers": [
+                "Des signaux d’adressage sont nécessaires et suffisants pour orienter les protéines synthétisées dans le cytosol vers leurs compartiments finaux",
+                "Le réticulum endoplasmique assure la synthèse des phospholipides destinés à la membrane plasmique",
+                "Il existe deux sites intracellulaires majeurs de dégradation : les lysosomes et le protéasome",
+                "L’organisme humain est constitué de 200 types cellulaires différents"
+            ],
+            "justification_fausses_reponses": {
+                "L’exocytose est un processus permettant aux cellules de capturer des molécules extracellulaires en les englobant dans des vésicules provenant de la membrane plasmique": "Cette affirmation est incorrecte car l'exocytose est un processus par lequel les cellules expulsent des molécules, et non les capturent. Le processus de capture des molécules extracellulaires est appelé endocytose."
+            }
+        },
+        {
+            "question": "Quelle(s) est(sont) la(les) caractéristique(s) générale(s) des cellules eucaryotes :",
+            "options": [
+                "Elles sont dépourvues de noyau",
+                "Leur matériel génétique est principalement contenu dans un noyau",
+                "La synthèse de leurs protéines se fait dans le noyau",
+                "Leur contenu est compartimenté",
+                "Les organites sont délimités par une ou plusieurs membranes"
+            ],
+            "correct_answers": [
+                "Leur contenu est compartimenté",
+                "Leur matériel génétique est principalement contenu dans un noyau",
+                "Les organites sont délimités par une ou plusieurs membranes"
+            ],
+            "justification_fausses_reponses": {
+                "Elles sont dépourvues de noyau": "C'est incorrect car le terme 'eucaryote' signifie littéralement 'vrai noyau'. Les cellules eucaryotes sont caractérisées par la présence d'un noyau qui contient leur matériel génétique.",
+                "La synthèse de leurs protéines se fait dans le noyau": "C'est incorrect car la synthèse des protéines se fait dans le cytoplasme, plus précisément sur les ribosomes, et non dans le noyau. Le noyau contient l'ADN qui est transcrit en ARN messager, lequel est ensuite traduit en protéines dans le cytoplasme."
+            }
+        },
+        {
+            "question": "Quelles sont les caractéristiques générales des cellules primaires :",
+            "options": [
+                "Durée de vie limitée",
+                "Prolifération infinie en culture",
+                "Cellules obtenues à partir d’un tissu sain",
+                "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+                "Cellules très faciles à mettre en culture"
+            ],
+            "correct_answers": [
+                "Durée de vie limitée",
+                "Cellules obtenues à partir d’un tissu sain"
+            ],
+            "justification_fausses_reponses": {
+                "Prolifération infinie en culture": "Les cellules primaires ont une durée de vie limitée et ne peuvent pas se proliférer indéfiniment en culture. C'est une caractéristique des cellules immortelles ou transformées.",
+                "Cellules dérivées d’un tissu cancéreux ou cellules transformées": "Les cellules primaires sont obtenues à partir de tissus sains et non cancéreux. Les cellules dérivées d'un tissu cancéreux sont appelées cellules transformées ou cellules cancéreuses.",
+                "Cellules très faciles à mettre en culture": "Les cellules primaires sont généralement plus difficiles à cultiver que les lignées cellulaires établies ou les cellules transformées, car elles nécessitent des conditions de culture plus spécifiques et délicates."
+            }
+        },
+        {
+            "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l'expression d'un gène spécifique en ARNm",
+            "options": [
+                "PCR quantitative (Polymerase Chain Reaction)",
+                "Dosage colorimétrique des protéines totales",
+                "Northern blot",
+                "Western Blot",
+                "Immunofluorescence"
+            ],
+            "correct_answers": [
+                "PCR quantitative (Polymerase Chain Reaction)",
+                "Northern blot"
+            ],
+            "justification_fausses_reponses": {
+                "Dosage colorimétrique des protéines totales": "Cette technique mesure la concentration totale de protéines dans un échantillon, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm.",
+                "Western Blot": "Le Western Blot est une technique qui permet de détecter une protéine spécifique dans un échantillon, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm.",
+                "Immunofluorescence": "L'immunofluorescence est une technique qui utilise des anticorps pour détecter des protéines spécifiques dans des cellules ou des tissus, mais ne permet pas d'évaluer l'expression d'un gène spécifique en ARNm."
+            }
+        },
+        {
+            "question": "Concernant le noyau, quelles sont les propositions vraies",
+            "options": [
+                "L’échange nucléo-cytoplasmique est bidirectionnel",
+                "Le nucléole est le lieu de synthèse des ARNs ribosomaux",
+                "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+                "Le nucléole est le lieu de synthèse des protéines",
+                "En microscopie électronique à transmission, le nucléole correspond à une zone claire dans le noyau"
+            ],
+            "correct_answers": [
+                "L’échange nucléo-cytoplasmique est bidirectionnel",
+                "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+                "Le nucléole est le lieu de synthèse des ARNs ribosomaux"
+            ],
+            "justification_fausses_reponses": {
+                "Le nucléole est le lieu de synthèse des protéines": "C'est incorrect car le nucléole est le lieu de synthèse des ARNs ribosomaux, pas des protéines. La synthèse des protéines a lieu dans le cytoplasme, sur les ribosomes.",
+                "En microscopie électronique à transmission, le nucléole correspond à une zone claire dans le noyau": "C'est incorrect car en microscopie électronique à transmission, le nucléole apparaît comme une zone dense et non claire. Il est plus dense en raison de sa riche activité de transcription des ARNs ribosomaux."
+            }
+        },
+        {
+            "question": "Concernant les cellules souches, quelles sont les propositions vraies",
+            "options": [
+                "Elles ne se trouvent qu’au stade embryonnaire",
+                "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+                "Elles sont indifférenciées",
+                "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome",
+                "Elles se caractérisent par leur potentiel de différenciation"
+            ],
+            "correct_answers": [
+                "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+                "Elles sont indifférenciées",
+                "Elles se caractérisent par leur potentiel de différenciation",
+                "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome"
+            ],
+            "justification_fausses_reponses": {
+                "Elles ne se trouvent qu’au stade embryonnaire": "Cette affirmation est incorrecte car les cellules souches ne se trouvent pas uniquement au stade embryonnaire. On les trouve également chez l'adulte dans certains tissus comme la moelle osseuse, le cerveau ou la peau. Ces cellules souches adultes ont la capacité de se différencier en différents types de cellules selon le tissu où elles se trouvent."
+            }
+        },
+        {
+            "question": "Concernant la différenciation cellulaire, quelles sont les propositions vraies",
+            "options": [
+                "La différenciation cellulaire repose sur l’expression sélective des gènes",
+                "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+                "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte",
+                "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+                "La différenciation cellulaire nécessite la suppression ou l’addition de certains gènes dans le génome de la cellule"
+            ],
+            "correct_answers": [
+                "La différenciation cellulaire est la capacité d’une cellule non spécialisée à donner un ou différents types cellulaires fonctionnels",
+                "La différenciation cellulaire repose sur l’expression sélective des gènes",
+                "L’adhérence de cellules souches à la matrice ou à d’autres cellules peut permettre d’induire leur différenciation",
+                "Les cellules souches pluripotentes peuvent se différencier en toute cellule d’un organisme adulte"
+            ],
+            "justification_fausses_reponses": {
+                "La différenciation cellulaire nécessite la suppression ou l’addition de certains gènes dans le génome de la cellule": "Cette affirmation est incorrecte car la différenciation cellulaire ne modifie pas le génome de la cellule. Elle repose plutôt sur l'expression sélective de certains gènes déjà présents dans le génome. Aucun gène n'est ajouté ou supprimé lors de ce processus."
+            }
+        },
+        {
+            "question": "Concernant la mitochondrie, quelles sont les propositions vraies",
+            "options": [
+                "Les mitochondries se trouvent chez les procaryotes et les eucaryotes",
+                "La mitochondrie est délimitée par une seule membrane",
+                "La mitochondrie est un organite",
+                "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+                "Toutes les protéines mitochondriales sont codées par l’ADN mitochondrial"
+            ],
+            "correct_answers": [
+                "Le nombre de mitochondries dépend du besoin en énergie d’une cellule",
+                "La mitochondrie est un organite"
+            ],
+            "justification_fausses_reponses": {
+                "Les mitochondries se trouvent chez les procaryotes et les eucaryotes": "C'est incorrect car les mitochondries sont uniquement présentes chez les eucaryotes. Les procaryotes, comme les bactéries, n'ont pas de mitochondries.",
+                "La mitochondrie est délimitée par une seule membrane": "C'est faux car la mitochondrie est délimitée par deux membranes : une membrane externe lisse et une membrane interne plissée, formant des crêtes mitochondriales.",
+                "Toutes les protéines mitochondriales sont codées par l’ADN mitochondrial": "C'est incorrect car bien que l'ADN mitochondrial code pour certaines protéines mitochondriales, la majorité des protéines mitochondriales sont codées par l'ADN nucléaire et importées dans la mitochondrie."
+            }
+        },
+        {
+            "question": "Concernant le noyau cellulaire, quelles sont les propositions vraies",
+            "options": [
+                "Le noyau est délimité par une simple membrane appelée enveloppe nucléaire",
+                "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+                "On observe le noyau uniquement en mitose",
+                "Les cellules procaryotes possèdent toutes un noyau",
+                "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+            ],
+            "correct_answers": [
+                "Le noyau est le lieu de stockage de pratiquement toute l’information génétique",
+                "Les complexes de pores nucléaires permettent l’échange de matériel entre le nucléoplasme et le cytoplasme"
+            ],
+            "justification_fausses_reponses": {
+                "Le noyau est délimité par une simple membrane appelée enveloppe nucléaire": "C'est incorrect car le noyau est délimité par une double membrane appelée enveloppe nucléaire, qui sépare le contenu du noyau du reste de la cellule.",
+                "On observe le noyau uniquement en mitose": "C'est incorrect car le noyau est observable à toutes les étapes du cycle cellulaire, pas seulement en mitose. En mitose, l'enveloppe nucléaire se dissout pour permettre la séparation des chromosomes.",
+                "Les cellules procaryotes possèdent toutes un noyau": "C'est incorrect car les cellules procaryotes, contrairement aux cellules eucaryotes, ne possèdent pas de noyau. Leur ADN est plutôt contenu dans une région appelée le nucléoïde."
+            }
+        },
+        {
+            "question": "Concer nant une pr otéine dont la destinée est d’êtr e sécr étée, quelles sont les pr opositions vraies :",
+            "options": [
+                "Elle sera adressée à l’espace extracellulaire par trafic vésiculaire",
+                "Elle peut être glycosylée en passant dans le protéasome",
+                "Elle passe directement du cytosol à l’espace extracellulaire",
+                "Elle subit un contrôle de qualité dans le réticulum endoplasmique",
+                "Elle est synthétisée dans le noyau"
+            ],
+            "correct_answers": [
+                "Elle subit un contrôle de qualité dans le réticulum endoplasmique",
+                "Elle sera adressée à l’espace extracellulaire par trafic vésiculaire"
+            ],
+            "justification_fausses_reponses": {
+                "Elle peut être glycosylée en passant dans le protéasome": "La glycosylation est un processus qui se produit dans le réticulum endoplasmique et l'appareil de Golgi, pas dans le protéasome qui est plutôt impliqué dans la dégradation des protéines.",
+                "Elle passe directement du cytosol à l’espace extracellulaire": "Les protéines ne passent pas directement du cytosol à l'espace extracellulaire. Elles sont d'abord transportées dans le réticulum endoplasmique, puis dans l'appareil de Golgi, avant d'être sécrétées à l'extérieur de la cellule par exocytose.",
+                "Elle est synthétisée dans le noyau": "Les protéines ne sont pas synthétisées dans le noyau. La synthèse des protéines a lieu dans le cytosol par les ribosomes."
+            }
+        },
+        {
+            "question": "Concer nant le cy tosquelett e, quelles sont les pr opositions vraies :",
+            "options": [
+                "Le centrosome est indispensable à la polymérisation des microtubules dans la cellule eucaryote",
+                "Les filaments intermédiaires sont indispensables à la cytodiérèse",
+                "La contraction cellulaire fait intervenir des fibres contractiles composées de microtubules",
+                "Le fuseau mitotique est constitué de filaments d’actine",
+                "Les filaments d’actine sont stables dans les microvillosités"
+            ],
+            "correct_answers": [
+                "Les filaments d’actine sont stables dans les microvillosités",
+                "Le centrosome est indispensable à la polymérisation des microtubules dans la cellule eucaryote"
+            ],
+            "justification_fausses_reponses": {
+                "Les filaments intermédiaires sont indispensables à la cytodiérèse": "La cytodiérèse est le processus de division cellulaire. Bien que les filaments intermédiaires jouent un rôle dans la structure et la stabilité de la cellule, ils ne sont pas directement impliqués dans la cytodiérèse.",
+                "La contraction cellulaire fait intervenir des fibres contractiles composées de microtubules": "La contraction cellulaire fait plutôt intervenir des fibres contractiles composées d'actine et de myosine, et non de microtubules.",
+                "Le fuseau mitotique est constitué de filaments d’actine": "Le fuseau mitotique est en réalité constitué de microtubules, et non de filaments d'actine."
+            }
+        },
+        {
+            "question": "Parmi les étapes suiv antes, quelles sont celles r elativ es au pr otocole de W estern blot :",
+            "options": [
+                "Séparation des protéines par électrophorèse",
+                "Dosage des protéines totales",
+                "Hybridation de la membrane de nitrocellulose avec des anticorps",
+                "Extraction des protéines totales",
+                "Observation des cellules à l’aide d’un microscope optique"
+            ],
+            "correct_answers": [
+                "Hybridation de la membrane de nitrocellulose avec des anticorps",
+                "Extraction des protéines totales",
+                "Séparation des protéines par électrophorèse",
+                "Dosage des protéines totales"
+            ],
+            "justification_fausses_reponses": {
+                "Observation des cellules à l’aide d’un microscope optique": "Cette option est incorrecte car l'observation des cellules à l'aide d'un microscope optique n'est pas une étape du protocole de Western blot. Le Western blot est une technique de biologie moléculaire permettant de détecter une protéine spécifique dans un mélange de protéines, ce qui ne nécessite pas d'observation microscopique des cellules."
+            }
+        },
+        {
+            "question": "Concernant les cellules souches embryonnaires, quelles sont les propositions vraies",
+            "options": [
+                "Elles se trouvent dans tous les tissus adultes",
+                "Elles sont indifférenciées",
+                "Elles se trouvent dans la masse cellulaire interne de l’embryon au stade blastocyste",
+                "Elles sont totipotentes",
+                "Elles peuvent être mises en culture"
+            ],
+            "correct_answers": [
+                "Elles se trouvent dans la masse cellulaire interne de l’embryon au stade blastocyste",
+                "Elles sont indifférenciées",
+                "Elles peuvent être mises en culture"
+            ],
+            "justification_fausses_reponses": {
+                "Elles se trouvent dans tous les tissus adultes": "C'est incorrect car les cellules souches embryonnaires ne se trouvent pas dans tous les tissus adultes. Elles sont présentes uniquement dans l'embryon au stade blastocyste.",
+                "Elles sont totipotentes": "C'est incorrect car les cellules souches embryonnaires ne sont pas totipotentes, mais pluripotentes. Elles peuvent donner naissance à tous les types de cellules de l'organisme, mais pas à un organisme entier comme le peuvent les cellules totipotentes."
+            }
+        },
+        {
+            "question": "Concernant la mitose, quelles sont les propositions vraies",
+            "options": [
+                "La quantité d’ADN double pendant la prophase",
+                "Des cellules en mitose se caractérisent par des chromosomes visibles en microscopie optique",
+                "L’anaphase est une phase de la mitose",
+                "La phase M est constituée de 5 phases",
+                "La prophase correspond à la phase où les chromosomes homologues se séparent"
+            ],
+            "correct_answers": [
+                "L’anaphase est une phase de la mitose",
+                "Des cellules en mitose se caractérisent par des chromosomes visibles en microscopie optique",
+                "La phase M est constituée de 5 phases"
+            ],
+            "justification_fausses_reponses": {
+                "La quantité d’ADN double pendant la prophase": "C'est incorrect car la quantité d'ADN double pendant la phase S de l'interphase, pas pendant la prophase de la mitose.",
+                "La prophase correspond à la phase où les chromosomes homologues se séparent": "C'est incorrect car c'est pendant l'anaphase que les chromosomes homologues se séparent, pas pendant la prophase."
+            }
+        },
+        {
+            "question": "Concernant les biothérapies, quelles sont les propositions vraies",
+            "options": [
+                "Dans le cas de la thérapie cellulaire par utilisation de cellules iPS (induced Pluripotent Stem cells), il est nécessaire de trouver une lignée de cellules souches embryonnaires immuno-compatibles",
+                "Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants",
+                "La thérapie cellulaire consiste à l’injection de cellules souches pour réparer un tissu ou la fonction d’un organe",
+                "Dans le cas de la thérapie cellulaire, les cellules greffées n’ont pas besoin d’être immuno-compatibles",
+                "Les biothérapies basées sur l’utilisation de molécules naturelles produites par des organismes vivants ciblent la guérison définitive des patients par une administration unique (« one shot treatment »)"
+            ],
+            "correct_answers": [
+                "Les biothérapies concernent l’ensemble des thérapeutiques basées sur l’emploi d’organismes vivants ou de substances prélevées sur des organismes vivants"
+            ],
+            "justification_fausses_reponses": {
+                "Dans le cas de la thérapie cellulaire par utilisation de cellules iPS (induced Pluripotent Stem cells), il est nécessaire de trouver une lignée de cellules souches embryonnaires immuno-compatibles": "C'est incorrect car les cellules iPS sont générées à partir des cellules somatiques du patient, donc elles sont déjà immuno-compatibles.",
+                "La thérapie cellulaire consiste à l’injection de cellules souches pour réparer un tissu ou la fonction d’un organe": "C'est une simplification excessive. La thérapie cellulaire peut impliquer l'utilisation de cellules souches, mais elle peut également impliquer l'utilisation d'autres types de cellules.",
+                "Dans le cas de la thérapie cellulaire, les cellules greffées n’ont pas besoin d’être immuno-compatibles": "C'est faux. Les cellules greffées doivent être immuno-compatibles pour éviter le rejet par le système immunitaire du patient.",
+                "Les biothérapies basées sur l’utilisation de molécules naturelles produites par des organismes vivants ciblent la guérison définitive des patients par une administration unique (« one shot treatment »)": "C'est incorrect. Bien que certaines biothérapies puissent viser une guérison définitive, elles nécessitent généralement plusieurs administrations et ne garantissent pas toujours une guérison complète."
+            }
+        },
+        {
+            "question": "Parmi les étapes suivantes, quelles sont celles relatives au protocole d’immunofluorescence sur culture de cellules en monocouche :",
+            "options": [
+                "Séparation des protéines par électrophorèse",
+                "Incubation de la culture cellulaire avec un anticorps radiomarqué",
+                "Dosage des protéines totales",
+                "Inclusion de la culture cellulaire dans une résine",
+                "Observation des cellules à l’aide d’un microscope optique"
+            ],
+            "correct_answers": [
+                "Observation des cellules à l’aide d’un microscope optique"
+            ],
+            "justification_fausses_reponses": {
+                "Séparation des protéines par électrophorèse": "Cette étape est utilisée dans le protocole de Western Blot, pas dans le protocole d'immunofluorescence.",
+                "Incubation de la culture cellulaire avec un anticorps radiomarqué": "Dans le protocole d'immunofluorescence, on utilise des anticorps conjugués à des fluorochromes, pas des anticorps radiomarqués.",
+                "Dosage des protéines totales": "Le dosage des protéines totales est une étape de quantification, pas une étape du protocole d'immunofluorescence.",
+                "Inclusion de la culture cellulaire dans une résine": "L'inclusion dans une résine est une étape de préparation des échantillons pour la microscopie électronique, pas pour l'immunofluorescence."
+            }
+        },
+        {
+            "question": "Concernant l’adhérence cellulaire, quelles sont les propositions vraies :",
+            "options": [
+                "Les récepteurs d’adhérence sont en général des récepteurs nucléaires",
+                "L’adhérence cellulaire peut être stable ou transitoire",
+                "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+                "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires",
+                "La seule fonction de l’adhérence cellulaire est de permettre la cohésion des cellules pour former un tissu dans un organisme pluricellulaire"
+            ],
+            "correct_answers": [
+                "Les récepteurs d’adhérence peuvent avoir des ligands multiples",
+                "L’adhérence cellulaire peut être stable ou transitoire",
+                "L’adhérence cellulaire peut induire des voies de signalisation intracellulaires"
+            ],
+            "justification_fausses_reponses": {
+                "Les récepteurs d’adhérence sont en général des récepteurs nucléaires": "C'est incorrect car les récepteurs d'adhérence sont généralement des protéines transmembranaires et non des récepteurs nucléaires. Les récepteurs nucléaires sont un type de récepteur intracellulaire qui se trouve dans le noyau de la cellule, pas sur la membrane cellulaire.",
+                "La seule fonction de l’adhérence cellulaire est de permettre la cohésion des cellules pour former un tissu dans un organisme pluricellulaire": "C'est faux car l'adhérence cellulaire a plusieurs fonctions, pas seulement la cohésion des cellules. Par exemple, elle joue également un rôle dans la communication cellulaire et la migration cellulaire."
+            }
+        },
+        {
+            "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l’expression d’une protéine spécifique :",
+            "options": [
+                "PCR quantitative (Polymerase Chain Reaction)",
+                "Dosage colorimétrique des protéines totales",
+                "Immunofluorescence",
+                "Western Blot",
+                "Dot blot"
+            ],
+            "correct_answers": [
+                "Immunofluorescence",
+                "Western Blot",
+                "Dot blot"
+            ],
+            "justification_fausses_reponses": {
+                "PCR quantitative (Polymerase Chain Reaction)": "La PCR quantitative est une technique qui permet de quantifier l'ADN, et non les protéines. Elle est donc incapable d'évaluer l'expression d'une protéine spécifique.",
+                "Dosage colorimétrique des protéines totales": "Le dosage colorimétrique des protéines totales permet de mesurer la concentration totale de protéines dans un échantillon, mais il ne permet pas de distinguer une protéine spécifique parmi les autres."
+            }
+        },
+        {
+            "question": "Quelles sont les caract éristiques générales d’une lignée cellulair e :",
+            "options": [
+                "Congélation possible en vue d’une utilisation ultérieure",
+                "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+                "Prolifération infinie en culture",
+                "Durée de vie limitée",
+                "Cellules obtenues à partir d’un tissu sain"
+            ],
+            "correct_answers": [
+                "Prolifération infinie en culture",
+                "Cellules dérivées d’un tissu cancéreux ou cellules transformées",
+                "Congélation possible en vue d’une utilisation ultérieure"
+            ],
+            "justification_fausses_reponses": {
+                "Durée de vie limitée": "Cette affirmation est incorrecte car une caractéristique des lignées cellulaires est leur capacité à se diviser indéfiniment, elles n'ont donc pas une durée de vie limitée.",
+                "Cellules obtenues à partir d’un tissu sain": "Cette affirmation est incorrecte car les lignées cellulaires sont généralement obtenues à partir de tissus cancéreux ou de cellules transformées, et non de tissus sains."
+            }
+        },
+        {
+            "question": "Concer nant le cy tosquelett e, quelles sont les pr opositions vraies :",
+            "options": [
+                "Le cytosquelette d’une cellule eucaryote est constitué de 4 types de filament",
+                "Les filaments du cytosquelette sont tous cytoplasmiques",
+                "Les filaments du cytosquelette sont constitués de différentes sous-unités protéiques",
+                "Les filaments du cytosquelette sont dynamiques dans une cellule en croissance",
+                "Les filaments du cytosquelette s’organisent dans la cellule grâce à leur association avec des protéines"
+            ],
+            "correct_answers": [
+                "Les filaments du cytosquelette sont dynamiques dans une cellule en croissance",
+                "Les filaments du cytosquelette sont constitués de différentes sous-unités protéiques",
+                "Les filaments du cytosquelette s’organisent dans la cellule grâce à leur association avec des protéines"
+            ],
+            "justification_fausses_reponses": {
+                "Le cytosquelette d’une cellule eucaryote est constitué de 4 types de filament": "Cette affirmation est incorrecte car le cytosquelette d'une cellule eucaryote est constitué de trois types de filaments : les microfilaments, les filaments intermédiaires et les microtubules.",
+                "Les filaments du cytosquelette sont tous cytoplasmiques": "Cette affirmation est incorrecte car tous les filaments du cytosquelette ne sont pas cytoplasmiques. Par exemple, les filaments intermédiaires peuvent également être trouvés dans le noyau de la cellule."
+            }
+        },
+        {
+            "question": "Concer nant les chr omosomes, quelles sont les pr opositions vraies :",
+            "options": [
+                "En mitose, une cellule somatique possède 2n chromosomes à 2 chromatides",
+                "Les chromosomes d’une cellule eucaryote ne possèdent qu’une seule origine de réplication",
+                "Un chromosome possède 2 centromères et un télomère",
+                "Les chromosomes sont les plus visibles en interphase",
+                "L’homme possède 24 paires de chromosomes dans ses cellules"
+            ],
+            "correct_answers": [
+                "En mitose, une cellule somatique possède 2n chromosomes à 2 chromatides"
+            ],
+            "justification_fausses_reponses": {
+                "Les chromosomes d’une cellule eucaryote ne possèdent qu’une seule origine de réplication": "C'est incorrect car un chromosome eucaryote possède plusieurs origines de réplication pour permettre une réplication rapide et efficace de l'ADN.",
+                "Un chromosome possède 2 centromères et un télomère": "C'est faux car un chromosome possède un seul centromère et deux télomères, un à chaque extrémité.",
+                "Les chromosomes sont les plus visibles en interphase": "C'est incorrect car les chromosomes sont les plus visibles pendant la métaphase, pas en interphase.",
+                "L’homme possède 24 paires de chromosomes dans ses cellules": "C'est faux car l'homme possède 23 paires de chromosomes dans ses cellules, pas 24."
+            }
+        },
+        {
+            "question": "Concernant les points de contrôle du cycle cellulaire, quelles sont les propositions vraies",
+            "options": [
+                "Dans certains cancers de la rétine, le gène qui code pour la protéine pRb est muté",
+                "Une mutation de pRb peut entrainer une perte du point de restriction",
+                "Le point de restriction est situé en phase G1",
+                "Il existe 3 points de contrôle du cycle cellulaire",
+                "Une carence en facteurs mitogènes permet le passage du point de restriction"
+            ],
+            "correct_answers": [
+                "Il existe 3 points de contrôle du cycle cellulaire",
+                "Le point de restriction est situé en phase G1",
+                "Dans certains cancers de la rétine, le gène qui code pour la protéine pRb est muté",
+                "Une mutation de pRb peut entrainer une perte du point de restriction"
+            ],
+            "justification_fausses_reponses": {
+                "Une carence en facteurs mitogènes permet le passage du point de restriction": "C'est incorrect. Les facteurs mitogènes sont nécessaires pour le passage du point de restriction. Une carence en facteurs mitogènes empêcherait plutôt la cellule de passer le point de restriction, bloquant ainsi le cycle cellulaire en phase G1."
+            }
+        },
+        {
+            "question": "Concernant le noyau, quelles sont les propositions vraies",
+            "options": [
+                "La transcription de l’ADN n’a lieu que pendant la mitose",
+                "La réplication de l’ADN a lieu majoritairement dans le noyau",
+                "Le génome ne contient que des gènes",
+                "Chez les cellules eucaryotes, la réplication de l’ADN n’a lieu que pendant la phase S du cycle cellulaire",
+                "ADN signifie Acide Ribonucléique"
+            ],
+            "correct_answers": [
+                "La réplication de l’ADN a lieu majoritairement dans le noyau",
+                "Chez les cellules eucaryotes, la réplication de l’ADN n’a lieu que pendant la phase S du cycle cellulaire"
+            ],
+            "justification_fausses_reponses": {
+                "La transcription de l’ADN n’a lieu que pendant la mitose": "C'est incorrect car la transcription de l'ADN, qui est le processus de création d'ARN à partir de l'ADN, peut se produire à n'importe quel moment du cycle cellulaire, pas seulement pendant la mitose.",
+                "Le génome ne contient que des gènes": "C'est faux car le génome contient non seulement des gènes, mais aussi des séquences non codantes et des régions régulatrices.",
+                "ADN signifie Acide Ribonucléique": "C'est incorrect car ADN signifie Acide Désoxyribonucléique. L'Acide Ribonucléique est l'ARN, pas l'ADN."
+            }
+        },
+        {
+            "question": "Concernant la compaction de l’ADN, quelles sont les propositions vraies",
+            "options": [
+                "Les histones permettent de compacter l’ADN au sein de la chromatine",
+                "On observe les chromosomes fortement condensés au cours de la mitose",
+                "La réplication et la transcription de l’ADN n’ont lieu qu’au niveau des fibres nucléosomiques",
+                "Un nucléosome est composé d’un octamère d’histones associé à une double hélice d’ADN",
+                "La chromatine est constituée d’ADN associé à des protéines"
+            ],
+            "correct_answers": [
+                "La chromatine est constituée d’ADN associé à des protéines",
+                "Les histones permettent de compacter l’ADN au sein de la chromatine",
+                "On observe les chromosomes fortement condensés au cours de la mitose",
+                "La réplication et la transcription de l’ADN n’ont lieu qu’au niveau des fibres nucléosomiques",
+                "Un nucléosome est composé d’un octamère d’histones associé à une double hélice d’ADN"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Concernant le cycle cellulaire, quelles sont les propositions vraies :",
+            "options": [
+                "La réplication du matériel génétique dans une cellule eucaryote se déroule tout au long du cycle cellulaire",
+                "Le cycle cellulaire se compose de 4 phases : G1, S, G2, M",
+                "La phase M est la phase la plus longue du cycle cellulaire",
+                "A l’âge adulte, toutes les cellules de l’organisme prolifèrent",
+                "L’organisme se construit grâce à de nombreuses divisions cellulaires"
+            ],
+            "correct_answers": [
+                "L’organisme se construit grâce à de nombreuses divisions cellulaires",
+                "Le cycle cellulaire se compose de 4 phases : G1, S, G2, M"
+            ],
+            "justification_fausses_reponses": {
+                "La réplication du matériel génétique dans une cellule eucaryote se déroule tout au long du cycle cellulaire": "C'est incorrect car la réplication du matériel génétique ne se produit que pendant la phase S du cycle cellulaire, pas tout au long du cycle.",
+                "La phase M est la phase la plus longue du cycle cellulaire": "C'est faux car la phase M (mitose) n'est pas la plus longue. La phase la plus longue est généralement la phase G1.",
+                "A l’âge adulte, toutes les cellules de l’organisme prolifèrent": "C'est incorrect car toutes les cellules ne prolifèrent pas à l'âge adulte. Certaines cellules, comme les neurones, cessent de se diviser une fois qu'elles sont pleinement développées."
+            }
+        }
+    ]
+}

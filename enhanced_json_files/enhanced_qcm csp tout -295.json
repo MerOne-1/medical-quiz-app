@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Quel est le nombre de noyaux dans le sac embryonnaire des Angiospermes",
+    "options": [
+      "Un",
+      "Nombreux",
+      "Huit",
+      "Deux",
+      "Quatre"
+    ],
+    "correct_answers": [
+      "Huit"
+    ],
+    "justification_fausses_reponses": {
+      "Un": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus d'un noyau. Il en contient précisément huit.",
+      "Nombreux": "C'est incorrect car bien que 'nombreux' puisse suggérer un grand nombre, le sac embryonnaire des Angiospermes contient un nombre spécifique de noyaux, qui est de huit.",
+      "Deux": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus de deux noyaux. Il en contient précisément huit.",
+      "Quatre": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus de quatre noyaux. Il en contient précisément huit."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, choisir le (ou les) organisme(s) pouvant présenter de la dichotomie dans leur appareil végétatif",
+    "options": [
+      "Pin",
+      "Fougère",
+      "Ginkgo",
+      "Fucus",
+      "Hépatique"
+    ],
+    "correct_answers": [
+      "Fucus",
+      "Fougère",
+      "Ginkgo",
+      "Hépatique"
+    ],
+    "justification_fausses_reponses": {
+      "Pin": "Le Pin ne présente pas de dichotomie dans son appareil végétatif. La dichotomie est un mode de croissance où une extrémité se divise en deux parties égales, ce qui n'est pas le cas chez le Pin dont la croissance est monopodiale, c'est-à-dire qu'elle se fait par l'allongement d'un axe principal."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes, indiquer celle(s) avec des termes synonymes :",
+    "options": [
+      "Plantes à ovaires, Plantes à graines",
+      "Rhizophytes, Plantes vasculaires",
+      "Angiospermes, Rhizophytes",
+      "Spermatophytes, G ymnospermes",
+      "Embryophytes, Archégoniates"
+    ],
+    "correct_answers": [
+      "Rhizophytes, Plantes vasculaires",
+      "Embryophytes, Archégoniates"
+    ],
+    "justification_fausses_reponses": {
+      "Plantes à ovaires, Plantes à graines": "Ces termes ne sont pas synonymes. Les plantes à ovaires sont spécifiques aux angiospermes, tandis que les plantes à graines incluent à la fois les angiospermes et les gymnospermes.",
+      "Angiospermes, Rhizophytes": "Ces termes ne sont pas synonymes. Les angiospermes sont un groupe spécifique de plantes à graines, tandis que les rhizophytes sont un terme général pour les plantes possédant des racines.",
+      "Spermatophytes, G ymnospermes": "Ces termes ne sont pas synonymes. Les spermatophytes sont un groupe de plantes qui produisent des graines, tandis que les gymnospermes sont un sous-groupe spécifique de spermatophytes."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, laquelle est fausse ?",
+    "options": [
+      "Les russules n'ont ni voile général ni voile partiel",
+      "Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex",
+      "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous",
+      "Russula vesca  et Russula virescens  sont d'excellents comestibles",
+      "Toutes les russules âcres ne doivent pas être consommées."
+    ],
+    "correct_answers": [
+      "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous"
+    ],
+    "justification_fausses_reponses": {
+      "Les russules n'ont ni voile général ni voile partiel": "Cette affirmation est vraie. Les russules sont des champignons qui ne possèdent ni voile général ni voile partiel, ce qui les distingue de certains autres types de champignons.",
+      "Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex": "Cette affirmation est également vraie. Les lactaires sont des champignons qui se caractérisent par leur structure cassante et leur production de latex lorsqu'ils sont coupés ou blessés.",
+      "Russula vesca  et Russula virescens  sont d'excellents comestibles": "Cette affirmation est vraie. Russula vesca et Russula virescens sont deux espèces de russules qui sont considérées comme d'excellents comestibles.",
+      "Toutes les russules âcres ne doivent pas être consommées.": "Cette affirmation est vraie. Les russules âcres ont un goût fort et désagréable et ne doivent pas être consommées."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La ticlopidine présente un atome de carbone asymétrique",
+      "Le clopidogrel présente un atome de carbone asymétrique",
+      "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+      "Le clopidogrel présente une fonction ester",
+      "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+    ],
+    "correct_answers": [
+      "Le clopidogrel présente un atome de carbone asymétrique",
+      "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+      "Le clopidogrel présente une fonction ester",
+      "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+    ],
+    "justification_fausses_reponses": {
+      "La ticlopidine présente un atome de carbone asymétrique": "Cette affirmation est incorrecte car la ticlopidine ne présente pas d'atome de carbone asymétrique. Un atome de carbone asymétrique est un atome de carbone qui est lié à quatre groupes différents. Dans la structure de la ticlopidine, aucun atome de carbone ne remplit cette condition."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'étape 1 correspond à une réaction de substitution nucléophile",
+      "L'étape 1 correspond à une réaction d'addition nucléophile",
+      "L'étape 2 correspond à une réaction de réduction de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "Le produit 1 est un électrophile"
+    ],
+    "correct_answers": [
+      "L'étape 1 correspond à une réaction d'addition nucléophile",
+      "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "Le produit 1 est un électrophile"
+    ],
+    "justification_fausses_reponses": {
+      "L'étape 1 correspond à une réaction de substitution nucléophile": "Cette affirmation est incorrecte car l'étape 1 est une réaction d'addition nucléophile, où un nucléophile est ajouté à une molécule, et non une réaction de substitution où un groupe est remplacé par un autre.",
+      "L'étape 2 correspond à une réaction de réduction de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)": "Cette affirmation est incorrecte car l'étape 2 est une réaction d'oxydation, où un atome perd des électrons, et non une réaction de réduction où un atome gagne des électrons."
+    }
+  }
+]

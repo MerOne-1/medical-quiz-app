@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes relatives à la vitamine B12, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les réserves de l’organisme en vitamine B12 sont suffisantes pour 3 à 4 ans",
+      "Les régimes végétariens peuvent être responsables de carences en vitamine B12",
+      "La vitamine B12, associée au facteur intrinsèque de Castle est absorbée au niveau de l’iléon distale",
+      "Les carences en vitamine B12 sont en général responsables d’anémies macrocytaires",
+      "Une carence en vitamine B12 induit un ralentissement de la biosynthèse d’ADN touchant tous les tissus à index mitotique élevé"
+    ],
+    "correct_answers": [
+      "La vitamine B12, associée au facteur intrinsèque de Castle est absorbée au niveau de l’iléon distale",
+      "Les carences en vitamine B12 sont en général responsables d’anémies macrocytaires",
+      "Une carence en vitamine B12 induit un ralentissement de la biosynthèse d’ADN touchant tous les tissus à index mitotique élevé",
+      "Les réserves de l’organisme en vitamine B12 sont suffisantes pour 3 à 4 ans"
+    ],
+    "justification_fausses_reponses": {
+      "Les régimes végétariens peuvent être responsables de carences en vitamine B12": "Cette affirmation est incorrecte car les régimes végétariens ne sont pas nécessairement responsables de carences en vitamine B12. Bien que la vitamine B12 soit principalement présente dans les produits d'origine animale, elle peut également être obtenue à partir de suppléments ou d'aliments enrichis en vitamine B12."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Une diminution du taux de facteur VIII peut être l’expression d’une ou plusieurs des affections suivantes. La(les)quelle(s) ?",
+    "options": [
+      "un traitement par aspirine",
+      "une hypovitaminose K",
+      "une hémophilie B",
+      "une maladie de Willebrand",
+      "une thrombopathie"
+    ],
+    "correct_answers": [
+      "une maladie de Willebrand"
+    ],
+    "justification_fausses_reponses": {
+      "un traitement par aspirine": "L'aspirine n'affecte pas le taux de facteur VIII. Elle agit en inhibant la cyclo-oxygénase, une enzyme impliquée dans la production de thromboxanes qui favorisent l'agrégation plaquettaire.",
+      "une hypovitaminose K": "La vitamine K est nécessaire pour la synthèse de plusieurs facteurs de coagulation, mais pas le facteur VIII. Une carence en vitamine K peut donc affecter la coagulation, mais pas par une diminution du taux de facteur VIII.",
+      "une hémophilie B": "L'hémophilie B est causée par une déficience en facteur IX, et non en facteur VIII. C'est l'hémophilie A qui est associée à une déficience en facteur VIII.",
+      "une thrombopathie": "Les thrombopathies sont des maladies qui affectent la fonction des plaquettes, et non le taux de facteur VIII. Elles peuvent causer des problèmes de coagulation, mais pas par une diminution du taux de facteur VIII."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant la leucémie lymphoïde chronique, sélectionnez la ou les proposition(s) fausse(s).",
+    "options": [
+      "Le score de Matutes contribue au diagnostic différentiel",
+      "La leucémie lymphoïde chronique est fréquente chez l’enfant",
+      "Le lymphocyte de leucémie lymphoïde chronique est une cellule lymphoïde B mature",
+      "L’immunophénotypage des lymphocytes sanguins est indispensable au diagnostic",
+      "Le myélogramme est indispensable au diagnostic"
+    ],
+    "correct_answers": [
+      "La leucémie lymphoïde chronique est fréquente chez l’enfant",
+      "Le myélogramme est indispensable au diagnostic"
+    ],
+    "justification_fausses_reponses": {
+      "Le score de Matutes contribue au diagnostic différentiel": "Cette affirmation est correcte. Le score de Matutes est un système de classification utilisé pour aider au diagnostic de la leucémie lymphoïde chronique.",
+      "Le lymphocyte de leucémie lymphoïde chronique est une cellule lymphoïde B mature": "Cette affirmation est correcte. Dans la leucémie lymphoïde chronique, les lymphocytes B matures sont les cellules principalement affectées.",
+      "L’immunophénotypage des lymphocytes sanguins est indispensable au diagnostic": "Cette affirmation est correcte. L'immunophénotypage est une technique utilisée pour identifier les cellules spécifiques en fonction des types de protéines ou d'antigènes présents sur la surface des cellules. Il est essentiel pour le diagnostic de la leucémie lymphoïde chronique."
+    }
+  }
+]

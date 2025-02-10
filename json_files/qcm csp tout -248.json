@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Quelles propositions s’appliquent à un relai héparine-A VK ?",
+    "options": [
+      "Les doses d’héparine sont réduites de moitié lors de l’introduction du traitement A VK",
+      "A son introduction, le traitement A VK est administré en fonction du poids du patient",
+      "Le traitement par A VK débute à l’arrêt de l’héparinothérapie",
+      "Le traitement par A VK débute avant l’arrêt de l’héparinothérapie",
+      "L’arrêt de l’héparine est effectué lorsque 2 INR successifs sont obtenus dans la zone thérapeutique recherchée, à 24h d’intervalle"
+    ],
+    "correct_answers": [
+      "Le traitement par A VK débute avant l’arrêt de l’héparinothérapie",
+      "L’arrêt de l’héparine est effectué lorsque 2 INR successifs sont obtenus dans la zone thérapeutique recherchée, à 24h d’intervalle"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Chez une femme de 25 ans présentant une asthénie avec pâleur, l’hémogramme met en évidence une anémie microcytaire hypochrome et arégénérative. Quel(s) est/sont le(s) examen(s) biologique(s) d’intérêt pour le diagnostic ?",
+    "options": [
+      "L’électrophorèse de l’hémoglobine",
+      "Un dosage de la vitamine B12 et des folates sériques",
+      "Le Coombs direct",
+      "Le myélogramme",
+      "Le dosage de la ferritinémie"
+    ],
+    "correct_answers": [
+      "Le dosage de la ferritinémie"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le lymphome folliculaire, sélectionnez la ou les proposition(s) exacte(s).",
+    "options": [
+      "Les adénopathies sont rares au moment du diagnostic",
+      "Les cellules lymphomateuses correspondent à des cellules lymphoïdes B CD5+",
+      "Les cellules lymphomateuses ont une morphologie identique à celle des lymphocytes normaux",
+      "Présence quasi constante de la translocation  t(11;14)(q13;q32)",
+      "Il peut se transformer en lymphome diffus à grandes cellules B"
+    ],
+    "correct_answers": [
+      "Il peut se transformer en lymphome diffus à grandes cellules B"
+    ]
+  }
+]

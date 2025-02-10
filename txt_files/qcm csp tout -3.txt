@@ -1,0 +1,34 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 3/13Question 6
+Non répondue
+Noté sur 1,00
+Question 7
+Non répondue
+Noté sur 1,00On souhaite savoir si un nouvel antalgique (A2) est meilleur que l’antalgique de référence (A1). Un essai randomisé est réalisé
+sur 2 groupes parallèles de 100 sujets chacun. On a noté une atténuation de la douleur chez 66% des sujets affectés au
+traitement A2 contre 54% chez ceux affectés au traitement A1. Les calculs, réalisés sur logiciel, ont fourni un niveau de
+signification (p-value) bilat éral p = 0.08. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :
+Veuillez choisir au moins une réponse :
+Les échantillons étant grands, la variable observée suit approximativement une loi normale
+Le test utilisé est un test de comparaison de proportions
+Le test utilisé est un test de comparaison de moyennes
+Au seuil de 10%, on peut affirmer que A1 est plus efficace que A2
+Au seuil de 5%, on peut affirmer que A2 est plus efficace que A1
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le test utilisé est un test de comparaison de proportions, Au seuil de 5%, on peut affirmer que
+A2 est plus efficace que A1
+Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence
+R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en
+deux groupes parallèles et suivis pendant un minimum d'un an. Les taux de décès observés après un an de suivi sont 40% sous
+traitement R, contre 20% sous traitement E. Le degré de signification du test de supériorité à mettre en œuvre est égal à 1%.
+Parmi les propositions suivantes, quelles sont celles qui sont correctes ?
+Veuillez choisir au moins une réponse :
+On peut conclure à la supériorité du traitement E sans faire de test car 20% < 40%
+Si le risque de première espèce  a été fixé à 5% dans le protocole de l'étude, on peut conclure à la supériorité du
+traitement E.
+L'hypothèse alternative du test est l'égalité des taux de décès
+Le test à mettre en œuvre est un test unilatéral
+On ne peut pas conclure à la supériorité du traitement E car 20% < 40%α
+Les réponses correctes sont : Si le risque de première espèce  a été fixé à 5% dans le protocole de l'étude, on peut conclure à
+la supériorité du traitement E.
+, Le test à mettre en œuvre est un test unilatéralα

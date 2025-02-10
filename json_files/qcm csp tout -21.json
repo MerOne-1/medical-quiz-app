@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "On dissout une masse m = 6,00 g de paracétamol  (M=151,15 g.mol ) dans un volume V = 150,0 ml de solution, quelle est la concentration molaire de cette solution (en mol.l ) en respectant les chiffres significatifs ?",
+    "options": [
+      "0,2646 mol.l-1",
+      "0,3 mol.l-1",
+      "0,265 mol.l-1",
+      "0,26 mol.l-1",
+      "0,26464 mol.l-1"
+    ],
+    "correct_answers": [
+      "0,265 mol.l-1"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les techniques d’imagerie médicale suivantes, la(les)quelle(s) utilise(nt) des rayonnements ionisants ?",
+    "options": [
+      "L’échographie",
+      "La tomographie à émission de positons",
+      "La radiologie conventionnelle avec ou sans produit de contraste",
+      "L’imagerie par résonance magnétique",
+      "Le scanner X"
+    ],
+    "correct_answers": [
+      "La radiologie conventionnelle avec ou sans produit de contraste",
+      "La tomographie à émission de positons",
+      "Le scanner X"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle est celle qui correspond à la masse molaire de l’Ibuprofen® C HOen respectant les chiffres significatifs? (M(C) = 12,01 g.mol ; M(O) = 16,0 g.mol ; M(H) = 1,008 g.mol )",
+    "options": [
+      "206,27 g.mol-1",
+      "206,274 g.mol-1",
+      "206,3 g.mol-1",
+      "206 g.mol-1",
+      "206,300 g.mol-1"
+    ],
+    "correct_answers": [
+      "206,3 g.mol-1"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant cette ordonnance, quels conseils doit-on donner à M. Victor B ?",
+    "options": [
+      "M. Victor B. ne doit jamais interrompre son traitement",
+      "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+      "Il doit éviter l'automédication",
+      "Il doit signaler toute anomalie survenant au cours de son traitement",
+      "Le traitement doit être impérativement pris pendant les repas"
+    ],
+    "correct_answers": [
+      "Le traitement doit être impérativement pris pendant les repas",
+      "M. Victor B. ne doit jamais interrompre son traitement",
+      "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+      "Il doit signaler toute anomalie survenant au cours de son traitement",
+      "Il doit éviter l'automédication"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Virologie",
+    "question": "Face aux parents d'un nourrisson porteur d'une bronchiolite, quels sont les conseils à leur donner ?",
+    "options": [
+      "Coucher l'enfant en position proclive",
+      "Éviter le jus d'orange avant le coucher",
+      "Faire dormir l'enfant fenêtre ouverte",
+      "Éviter le tabagisme passif",
+      "Aérer la chambre de l'enfant matin et soir"
+    ],
+    "correct_answers": [
+      "Éviter le tabagisme passif",
+      "Coucher l'enfant en position proclive",
+      "Aérer la chambre de l'enfant matin et soir"
+    ],
+    "justification_fausses_reponses": {
+      "Éviter le jus d'orange avant le coucher": "Le jus d'orange n'a pas d'effet direct sur la bronchiolite. Il est important de maintenir une bonne hydratation, mais le type de liquide n'a pas d'importance spécifique dans ce contexte.",
+      "Faire dormir l'enfant fenêtre ouverte": "Faire dormir un enfant avec la fenêtre ouverte peut le rendre plus vulnérable aux variations de température et aux courants d'air, ce qui peut aggraver les symptômes de la bronchiolite. Il est préférable de maintenir une température stable et confortable dans la chambre."
+    }
+  }
+]

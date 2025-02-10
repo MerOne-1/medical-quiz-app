@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Une maladie auto-immune",
+    "options": [
+      "peut être causée par un mimétisme moléculaire",
+      "peut être associée à un déficit d’un composant du complément",
+      "concerne toujours un organe cible reconnu par des autoanticorps",
+      "est toujours associée à un rôle pathologique des auto-anticorps",
+      "peut être associée à une rupture de tolérance"
+    ],
+    "correct_answers": [
+      "peut être associée à un déficit d’un composant du complément",
+      "peut être causée par un mimétisme moléculaire",
+      "peut être associée à une rupture de tolérance"
+    ],
+    "justification_fausses_reponses": {
+      "concerne toujours un organe cible reconnu par des autoanticorps": "C'est incorrect car toutes les maladies auto-immunes ne ciblent pas toujours un organe spécifique. Certaines peuvent affecter l'ensemble du corps.",
+      "est toujours associée à un rôle pathologique des auto-anticorps": "C'est incorrect car bien que les auto-anticorps jouent souvent un rôle dans les maladies auto-immunes, ils ne sont pas toujours pathologiques. Parfois, ils peuvent être une réponse normale du système immunitaire."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Un prick test",
+    "options": [
+      "Permet de doser les IgE",
+      "Permet de quantifier les mastocytes dans l’épiderme",
+      "Est un test d’hypersensibilité retardée",
+      "Est un test de sensibilisation cutanée à un allergène",
+      "Permet de doser l’histamine"
+    ],
+    "correct_answers": [
+      "Est un test de sensibilisation cutanée à un allergène"
+    ],
+    "justification_fausses_reponses": {
+      "Permet de doser les IgE": "Le prick test ne permet pas de doser les IgE. Il sert à déterminer si une personne est allergique à une substance spécifique.",
+      "Permet de quantifier les mastocytes dans l’épiderme": "Le prick test ne permet pas de quantifier les mastocytes dans l'épiderme. Il sert à tester la réaction de la peau à une substance spécifique.",
+      "Est un test d’hypersensibilité retardée": "Le prick test n'est pas un test d'hypersensibilité retardée. Il sert à tester une réaction allergique immédiate, pas une réaction retardée.",
+      "Permet de doser l’histamine": "Le prick test ne permet pas de doser l'histamine. Il sert à tester la réaction de la peau à une substance spécifique, pas à mesurer les niveaux d'histamine."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Donner la (les) proposition(s) exacte(s) concernant les anticorps monoclonaux utilisés en thérapeutique",
+    "options": [
+      "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2",
+      "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+      "Le suffixe « ximab » de la DCI indique un anticorps monoclonal thérapeutique humanisé",
+      "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+      "Le rituximab (MAB THERA®) a pour cible le TNF"
+    ],
+    "correct_answers": [
+      "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+      "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+      "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2"
+    ],
+    "justification_fausses_reponses": {
+      "Le suffixe « ximab » de la DCI indique un anticorps monoclonal thérapeutique humanisé": "C'est incorrect. Le suffixe « ximab » indique un anticorps chimérique, pas humanisé. Les anticorps humanisés ont le suffixe « zumab ».",
+      "Le rituximab (MAB THERA®) a pour cible le TNF": "C'est incorrect. Le rituximab cible le CD20, une protéine présente à la surface des cellules B, et non le TNF (facteur de nécrose tumorale)."
+    }
+  }
+]

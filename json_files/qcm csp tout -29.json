@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? En chromatographie:",
+    "options": [
+      "La théorie des plateaux permet d’expliquer tous les résultats observés",
+      "La hauteur d’un plateau augmente quand la longueur de la colonne augmente",
+      "La colonne chromatographique est constituée de plateaux réels",
+      "La hauteur d’un plateau diminue quand le diamètre des particules de phase stationnaire diminue",
+      "La théorie cinétique, plus récente, a supplanté la théorie des plateaux, plus ancienne"
+    ],
+    "correct_answers": [
+      "La théorie des plateaux permet d’expliquer tous les résultats observés",
+      "La théorie cinétique, plus récente, a supplanté la théorie des plateaux, plus ancienne",
+      "La colonne chromatographique est constituée de plateaux réels",
+      "La hauteur d’un plateau augmente quand la longueur de la colonne augmente"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En chomatographie,:",
+    "options": [
+      "Tous les composés ont des volumes de rétention identiques",
+      "Tous les composés ont la même vitesse apparente dans la phase mobile",
+      "Tous les composés ont des vitesses réelles différentes dans la phase mobile",
+      "Tous les composés ont la même vitesse réelle dans la phase mobile",
+      "Tous les composés ont des temps de rétention différents"
+    ],
+    "correct_answers": [
+      "Tous les composés ont la même vitesse réelle dans la phase mobile",
+      "Tous les composés ont des temps de rétention différents"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "L’acide chlorhydrique est un acide fort",
+      "L’acide acétique est un acide faible",
+      "Le chlorure de sodium est un acide",
+      "L’ammoniaque est une base faible",
+      "La soude est une base faible"
+    ],
+    "correct_answers": [
+      "L’acide chlorhydrique est un acide fort",
+      "L’ammoniaque est une base faible",
+      "L’acide acétique est un acide faible"
+    ]
+  }
+]

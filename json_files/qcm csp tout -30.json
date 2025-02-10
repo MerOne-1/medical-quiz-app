@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Si on augmente la longueur de la colonne :",
+    "options": [
+      "Le volume de rétention augmente",
+      "La pression en tête de colonne augmente",
+      "Son efficacité augmente",
+      "La largeur des pics augmente",
+      "Le temps de rétention augmente"
+    ],
+    "correct_answers": [
+      "Le temps de rétention augmente",
+      "Le volume de rétention augmente",
+      "La largeur des pics augmente",
+      "Son efficacité augmente",
+      "La pression en tête de colonne augmente"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ? Un régime isocratique en chromatographie liquide correspond à :",
+    "options": [
+      "Un débit variable de phase mobile",
+      "Une composition constante de la phase mobile",
+      "Une séparation à température constante",
+      "Une séparation à température variable",
+      "Une composition variable de la phase mobile"
+    ],
+    "correct_answers": [
+      "Une composition constante de la phase mobile"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Une solution est préparée par dissolution de 5 mg de poudre contenant un principe actif (M = 250 g/mol) dans 10 mL d’eau. L’analyse de cette solution par CLHP donne une concentration en principe actif de 1mM. Quelle est la teneur en principe actif ?",
+    "options": [
+      "La teneur est de 8%",
+      "La teneur est de 25%",
+      "La teneur est de 50%",
+      "La teneur est de 10%",
+      "La teneur est de 0,8%"
+    ],
+    "correct_answers": [
+      "La teneur est de 50%"
+    ]
+  }
+]

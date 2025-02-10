@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Lors d'une intoxication aiguë par l'acide acétylsalicylique chez l'adulte, quel est (sont) le (les) symptôme(s) que l’on peut observer ?",
+    "options": [
+      "Une alcalose respiratoire.",
+      "Des vomissements.",
+      "Des bourdonnements d'oreilles.",
+      "Une hypothermie.",
+      "Des céphalées."
+    ],
+    "correct_answers": [
+      "Une alcalose respiratoire.",
+      "Des bourdonnements d'oreilles.",
+      "Des céphalées.",
+      "Des vomissements."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la toxicité du paracétamol, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La néphropathie tubulaire aiguë constitue un signe précoce d'intoxication.",
+      "La N-acétylcystéine per os est d’autant plus efficace si elle est associée à du charbon activé.",
+      "L'administration précoce de charbon activé diminue la biodisponibilité du paracétamol.",
+      "Le dosage du paracétamol dans le sang 4 heures après ingestion est un bon élément du pronostic.",
+      "Lors d’une intoxication par le paracétamol, il peut être observé des signes précoces non spécifiques comme des nausées ou des vomissements."
+    ],
+    "correct_answers": [
+      "L'administration précoce de charbon activé diminue la biodisponibilité du paracétamol.",
+      "Le dosage du paracétamol dans le sang 4 heures après ingestion est un bon élément du pronostic.",
+      "Lors d’une intoxication par le paracétamol, il peut être observé des signes précoces non spécifiques comme des nausées ou des vomissements."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Les agents cancérigènes génotoxiques se caractérisent par : donner la (les) réponse(s) exacte(s).",
+    "options": [
+      "Le caractère dose-dépendant de la tumorogénicité.",
+      "Une spécificité d’espèce, de souche et de tissu.",
+      "L’absence de lésion directe de l’ADN.",
+      "Leur caractère mutagène.",
+      "L’absence de mécanisme à seuil pour la plupart de ces substances."
+    ],
+    "correct_answers": [
+      "Leur caractère mutagène.",
+      "Le caractère dose-dépendant de la tumorogénicité.",
+      "L’absence de mécanisme à seuil pour la plupart de ces substances."
+    ]
+  }
+]

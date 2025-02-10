@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées en thérapeutique:",
+    "options": [
+      "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels",
+      "La molécule 1 est un inhibiteur de l’aromatase",
+      "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+      "Ces molécules possèdent toutes des indications dans le traitement du cancer du sein",
+      "Ces molécules sont toutes des antagonistes des récepteurs des estrogènes"
+    ],
+    "correct_answers": [
+      "La molécule 1 est un inhibiteur de l’aromatase",
+      "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+      "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels"
+    ],
+    "justification_fausses_reponses": {
+      "Ces molécules possèdent toutes des indications dans le traitement du cancer du sein": "Cette affirmation est incorrecte car toutes les molécules mentionnées ne sont pas nécessairement indiquées pour le traitement du cancer du sein. Chaque molécule a des indications spécifiques en fonction de sa structure chimique et de son mécanisme d'action.",
+      "Ces molécules sont toutes des antagonistes des récepteurs des estrogènes": "Cette affirmation est fausse car toutes les molécules mentionnées ne sont pas des antagonistes des récepteurs des estrogènes. Certaines peuvent être des agonistes ou avoir d'autres mécanismes d'action."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous :",
+    "options": [
+      "il s’agit de l’ofloxacine",
+      "il s’agit de la nifedipine",
+      "il s’agit d’une quinolone",
+      "il s’agit d’une dihydropyridine",
+      "il s’agit d’un bloqueur de canal"
+    ],
+    "correct_answers": [
+      "il s’agit de la nifedipine",
+      "il s’agit d’une dihydropyridine",
+      "il s’agit d’un bloqueur de canal"
+    ],
+    "justification_fausses_reponses": {
+      "il s’agit de l’ofloxacine": "Cette affirmation est incorrecte car l'ofloxacine est un antibiotique de la famille des fluoroquinolones, ce qui n'est pas le cas de la molécule en question.",
+      "il s’agit d’une quinolone": "Cette affirmation est incorrecte car la molécule en question est une dihydropyridine, une classe de médicaments utilisés pour traiter l'hypertension, et non une quinolone, une classe d'antibiotiques."
+    }
+  }
+]

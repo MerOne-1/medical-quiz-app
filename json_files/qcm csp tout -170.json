@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "La sécrétion de la salive est accentuée par une stimulation du système nerveux sympathique.",
+      "La salive contient une protéase.",
+      "L'absorption intestinale du glucose s’effectue de façon passive.",
+      "La cholecystokinine diminue la contractilité gastrique.",
+      "L'œsophage est recouvert par un épithélium mono-couche."
+    ],
+    "correct_answers": [
+      "La cholecystokinine diminue la contractilité gastrique."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’acidose métabolique due à une diarrhée est responsable d’une forte modification de la ventilation.",
+      "La ventilation diminue mais reste régulière durant la phase de sommeil associée à des mouvements rapides des yeux.",
+      "Les corpuscules carotidiens ont une sensibilité plus élevée lorsque le pH diminue.",
+      "La capacité maximale de capitation de l’oxygène par l’organisme est limitée par la capacité musculaire à fixer l’oxygène.",
+      "Les corpuscules carotidiens sont des récepteurs mesurant le contenu sanguin en oxygène."
+    ],
+    "correct_answers": [
+      "Les corpuscules carotidiens ont une sensibilité plus élevée lorsque le pH diminue."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le gaz carbonique diffuse plus vite que l’oxygène à travers la membrane alvéolo-capillaire.",
+      "La diffusion du protoxyde d’azote est limitée par le débit sanguin et la capacité de diffusion de la membrane alvéolo-capillaire.",
+      "Lors de l’exploration fonctionnelle respiratoire, la capacité de diffusion de la membrane alvéolo-capillaire est mesurée par des mesures de pressions d’oxygène.",
+      "La réserve de diffusion du gaz carbonique est plus faible que celle de l’oxygène.",
+      "La diffusion du monoxyde de carbone est limitée par le débit sanguin dans les capillaires."
+    ],
+    "correct_answers": [
+      "Le gaz carbonique diffuse plus vite que l’oxygène à travers la membrane alvéolo-capillaire."
+    ]
+  }
+]

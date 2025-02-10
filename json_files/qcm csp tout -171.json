@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition inexact e : Les cordons postérieurs transmettent les informations sensitives suivantes, sauf une :",
+    "options": [
+      "Proprioception consciente concernant la position des membres.",
+      "Vibration appliquées à la peau.",
+      "Pression légères exercées sur la peau.",
+      "Douleurs cutanées d’origine mécanique et thermique.",
+      "Sensations fines et discriminées du touché."
+    ],
+    "correct_answers": [
+      "Douleurs cutanées d’origine mécanique et thermique."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le surfactant est secrété par les glandes muqueuses des bronches.",
+      "Les pressions alvéolaires des gaz peut s’apprécier à partir des pressions mesurées dans l’air expiré.",
+      "Lors du cycle cardiaque, la circulation pulmonaire sanguine s’effectue dans tous les capillaires lors de la diastole.",
+      "La quantité de sang dans les poumons est environ 1 litre.",
+      "Le débit sanguin pulmonaire se calculé grâce à des mesures de la pression du gaz carbonique dans différents prélèvements sanguins et aériens."
+    ],
+    "correct_answers": [
+      "Les pressions alvéolaires des gaz peut s’apprécier à partir des pressions mesurées dans l’air expiré."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’oxytocine stimule la production cellulaire du lait.",
+      "La mélatonine est sécrétée principalement durant la période diurne.",
+      "La progestérone est une hormone stimulant l’aspect sécrétoire de la muqueuse utérine.",
+      "La ménopause est liée à une diminution de l’activité hypophysaire.",
+      "La concentration élevée de testostérone dans la lumière du tube séminifère est la conséquence d’une sécrétion d’une prostacycline par les cellules de Sertoli."
+    ],
+    "correct_answers": [
+      "La progestérone est une hormone stimulant l’aspect sécrétoire de la muqueuse utérine."
+    ]
+  }
+]

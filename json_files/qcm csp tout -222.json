@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les signes fréquemment rencontrés lors d’une cirrhose décompensée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Une augmentation de l’albumine sérique",
+      "Une formation d’un liquide d’ascite",
+      "Une augmentation de la zone alpha 2 du protéinogramme",
+      "Une augmentation de la bilirubine totale plasmatique",
+      "Une hyperammoniémie"
+    ],
+    "correct_answers": [
+      "Une formation d’un liquide d’ascite",
+      "Une hyperammoniémie",
+      "Une augmentation de la bilirubine totale plasmatique"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+      "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+      "La néoglucogenèse est la voie métabolique de synthèse du glycogène à partir d’éléments non glucidiques",
+      "Le glycogène hépatique et le glycogène musculaire permettent le maintien d’une glycémie constante",
+      "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+    ],
+    "correct_answers": [
+      "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+      "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+      "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse sur gel d’agarose des protéines sériques, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Aucune des affirmations n’est exacte",
+      "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+      "Cette technique d’analyse permet une séparation fine des protéines sériques",
+      "L’électrophorèse est associée à un dosage protéique",
+      "L’électrophorèse des protéines sériques est une analyse de routine"
+    ],
+    "correct_answers": [
+      "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+      "L’électrophorèse des protéines sériques est une analyse de routine",
+      "L’électrophorèse est associée à un dosage protéique"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les fluoroquinolones :",
+    "options": [
+      "les fluoroquinolones ne sont pas absorbées par voie orale",
+      "les fluoroquinolones peuvent entraîner des troubles du rythme et des torsades de pointe",
+      "ce sont des antibiotiques toujours actifs sur les staphylocoques méticilline-résistants (SARM)",
+      "les fluoroquinolones sont indiquées dans le traitement d'infections ostéoarticulaires",
+      "ce sont des antibiotiques qui agissent en inhibant la réplication de l'ADN bactérien"
+    ],
+    "correct_answers": [
+      "ce sont des antibiotiques qui agissent en inhibant la réplication de l'ADN bactérien",
+      "les fluoroquinolones sont indiquées dans le traitement d'infections ostéoarticulaires",
+      "les fluoroquinolones peuvent entraîner des troubles du rythme et des torsades de pointe"
+    ],
+    "justification_fausses_reponses": {
+      "les fluoroquinolones ne sont pas absorbées par voie orale": "C'est incorrect. Les fluoroquinolones sont bien absorbées par voie orale, ce qui permet leur administration par cette voie.",
+      "ce sont des antibiotiques toujours actifs sur les staphylocoques méticilline-résistants (SARM)": "C'est faux. Les SARM sont résistants à de nombreux antibiotiques, y compris les fluoroquinolones. Leur résistance est due à une modification de la cible de l'antibiotique, qui empêche ce dernier d'exercer son action."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : La coloration de Gram fait intervenir :",
+    "options": [
+      "2 étapes de lavage à l'éthanol",
+      "2 colorants",
+      "la fuchsine",
+      "le violet de gentiane",
+      "une étape utilisant un oxydant à base d'iode"
+    ],
+    "correct_answers": [
+      "2 colorants",
+      "le violet de gentiane",
+      "la fuchsine",
+      "une étape utilisant un oxydant à base d'iode"
+    ],
+    "justification_fausses_reponses": {
+      "2 étapes de lavage à l'éthanol": "La coloration de Gram ne nécessite qu'une seule étape de lavage à l'éthanol. Cette étape est cruciale car elle permet de différencier les bactéries Gram positives des bactéries Gram négatives. Les bactéries Gram positives restent colorées en violet après ce lavage, tandis que les bactéries Gram négatives sont décolorées."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos de Clostridium difficile  :",
+    "options": [
+      "c'est un bacille à Gram positif aérobie strict non sporulant",
+      "le traitement des formes peu sévères fait appel en première intention au métronidazole per os",
+      "le pouvoir pathogène est principalement lié à la sécrétion de toxines",
+      "il est impliqué dans la survenue de diarrhées dites « post-antibiotiques »",
+      "il est responsable de diarrhées nosocomiales fréquemment récidivantes"
+    ],
+    "correct_answers": [
+      "il est responsable de diarrhées nosocomiales fréquemment récidivantes",
+      "le pouvoir pathogène est principalement lié à la sécrétion de toxines",
+      "il est impliqué dans la survenue de diarrhées dites « post-antibiotiques »",
+      "le traitement des formes peu sévères fait appel en première intention au métronidazole per os"
+    ],
+    "justification_fausses_reponses": {
+      "c'est un bacille à Gram positif aérobie strict non sporulant": "Cette affirmation est incorrecte car Clostridium difficile est un bacille à Gram positif anaérobie strict et sporulant. Il peut survivre dans des conditions défavorables grâce à la formation de spores."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Salmonella enterica  est :",
+    "options": [
+      "une entérobactérie",
+      "parfois responsable de toxi-infections alimentaires collectives",
+      "entéro-invasive",
+      "capable de se développer uniquement sur des milieux hautement sélectifs",
+      "souvent transmise par des ovo-produits"
+    ],
+    "correct_answers": [
+      "parfois responsable de toxi-infections alimentaires collectives",
+      "une entérobactérie",
+      "entéro-invasive",
+      "souvent transmise par des ovo-produits"
+    ],
+    "justification_fausses_reponses": {
+      "capable de se développer uniquement sur des milieux hautement sélectifs": "Cette affirmation est incorrecte car Salmonella enterica peut se développer sur une variété de milieux, pas seulement sur des milieux hautement sélectifs. Elle est capable de se développer dans des conditions environnementales variées, ce qui contribue à sa capacité à causer des maladies."
+    }
+  }
+]

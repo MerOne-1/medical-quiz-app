@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La bédaquiline est un antituberculeux utilisé dans le traitement de la tuberculose multi-résistante. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+      "La bédaquiline possède un atome d'halogène",
+      "La bédaquiline est protonée à pH physiologique (pH 7,4)",
+      "La bédaquiline possède un noyau indole",
+      "La bédaquiline possède une amine secondaire"
+    ],
+    "correct_answers": [
+      "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+      "La bédaquiline possède un atome d'halogène",
+      "La bédaquiline est protonée à pH physiologique (pH 7,4)"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "L'eltrombopag est utilisé dans la prise en charge des aplasies médullaires acquises sévères, des purpuras thrombopéniques et des thrombopénies de patients atteints d'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'eltrombopag présente une fonction phénol",
+      "L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène",
+      "L'eltrombopag est un dérivé de l'acide benzoïque",
+      "L'eltrombopag est un analogue de l'aspirine"
+    ],
+    "correct_answers": [
+      "L'eltrombopag est un dérivé de l'acide benzoïque"
+    ]
+  }
+]

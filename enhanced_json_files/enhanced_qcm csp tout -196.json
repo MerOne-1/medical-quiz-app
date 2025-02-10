@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des médicaments psychotropes, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "Le dosage de la lithémie peut-être réalisé par spectrophotométrie d’absorption atomique.",
+      "Une mono-intoxication aiguë aux antidépresseurs tricycliques entraîne un coma calme, hypotonique et hyporéflexique.",
+      "Une intoxication aiguë au lithium est en général moins sévère chez un patient traité chroniquement que chez un sujet naïf.",
+      "La complication redoutée d’une intoxication par un inhibiteur sélectif de la recapture de la sérotonine est le syndrome anticholinergique.",
+      "Les antidépresseurs tricycliques présentent à dose toxique un effet stabilisant de membrane."
+    ],
+    "correct_answers": [
+      "Une intoxication aiguë au lithium est en général moins sévère chez un patient traité chroniquement que chez un sujet naïf.",
+      "Une mono-intoxication aiguë aux antidépresseurs tricycliques entraîne un coma calme, hypotonique et hyporéflexique.",
+      "La complication redoutée d’une intoxication par un inhibiteur sélectif de la recapture de la sérotonine est le syndrome anticholinergique."
+    ],
+    "justification_fausses_reponses": {
+      "Le dosage de la lithémie peut-être réalisé par spectrophotométrie d’absorption atomique.": "Cette affirmation est incorrecte car le dosage de la lithémie est généralement réalisé par chromatographie en phase liquide à haute performance (HPLC) ou par spectrométrie de masse, et non par spectrophotométrie d'absorption atomique.",
+      "Les antidépresseurs tricycliques présentent à dose toxique un effet stabilisant de membrane.": "Cette affirmation est fausse car les antidépresseurs tricycliques, à dose toxique, ont un effet déstabilisant de membrane. Ils inhibent la recapture de la noradrénaline et de la sérotonine, ce qui peut entraîner une surstimulation du système nerveux central."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le toxidrome est un syndrome causé par un toxique spécifique.",
+      "Le toxidrome s’applique particulièrement en cas d’intoxications multiples.",
+      "La connaissance du toxidrome permet d’orienter la prise en charge thérapeutique.",
+      "Toutes ces propositions.",
+      "Il existe un toxidrome spécifique à chaque intoxication."
+    ],
+    "correct_answers": [
+      "Le toxidrome est un syndrome causé par un toxique spécifique.",
+      "La connaissance du toxidrome permet d’orienter la prise en charge thérapeutique."
+    ],
+    "justification_fausses_reponses": {
+      "Le toxidrome s’applique particulièrement en cas d’intoxications multiples.": "Cette affirmation est incorrecte car le toxidrome est un ensemble de symptômes spécifiques à un toxique et non à plusieurs intoxications simultanées.",
+      "Toutes ces propositions.": "Cette affirmation est incorrecte car toutes les propositions ne sont pas correctes. Par exemple, le toxidrome ne s'applique pas particulièrement en cas d'intoxications multiples.",
+      "Il existe un toxidrome spécifique à chaque intoxication.": "Cette affirmation est incorrecte car bien que chaque toxique ait un toxidrome spécifique, il n'existe pas un toxidrome unique pour chaque intoxication. Plusieurs toxiques peuvent partager des symptômes similaires."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les deux principales mesures d’association entre une maladie et un facteur de risque, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "La prévalence",
+      "Le taux d’incidence",
+      "Le risque relatif",
+      "L’odds ratio",
+      "L’incidence cumulée"
+    ],
+    "correct_answers": [
+      "L’odds ratio",
+      "Le risque relatif"
+    ],
+    "justification_fausses_reponses": {
+      "La prévalence": "La prévalence est une mesure de l'état de santé d'une population à un moment donné, et non une mesure d'association entre une maladie et un facteur de risque.",
+      "Le taux d’incidence": "Le taux d'incidence est une mesure de la fréquence à laquelle une maladie se produit dans une population, et non une mesure d'association entre une maladie et un facteur de risque.",
+      "L’incidence cumulée": "L'incidence cumulée est une mesure du risque de développer une maladie sur une période de temps spécifique, et non une mesure d'association entre une maladie et un facteur de risque."
+    }
+  }
+]

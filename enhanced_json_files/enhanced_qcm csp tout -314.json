@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "M. Jean-Claude M., 47 ans, gérant de magasin, est infecté par le HIV. Il vous présente l'ordonnance suivante : Concernant cette ordonnance, quelles sont les réponses exactes ?",
+    "options": [
+      "M. Jean-Claude M. doit prendre son traitement à jeun",
+      "L'association darunavir+ritonavir est une association de 2 antiprotéases",
+      "L'association emtricitabine+tenofovir est une association de 2 inhibiteurs de la transcriptase inverse",
+      "Dans le traitement initial d'une infection par le HIV, une trithérapie est toujours conseillée",
+      "M. Jean-Claude M. doit prendre son traitement à heures fixes"
+    ],
+    "correct_answers": [
+      "L'association darunavir+ritonavir est une association de 2 antiprotéases",
+      "L'association emtricitabine+tenofovir est une association de 2 inhibiteurs de la transcriptase inverse",
+      "Dans le traitement initial d'une infection par le HIV, une trithérapie est toujours conseillée",
+      "M. Jean-Claude M. doit prendre son traitement à heures fixes"
+    ],
+    "justification_fausses_reponses": {
+      "M. Jean-Claude M. doit prendre son traitement à jeun": "Cette affirmation est incorrecte. Les médicaments antirétroviraux peuvent être pris avec ou sans nourriture, selon les recommandations spécifiques de chaque médicament. Il est important de suivre les instructions du médecin ou du pharmacien concernant la prise de ces médicaments."
+    }
+  }
+]

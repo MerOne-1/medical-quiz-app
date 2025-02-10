@@ -1,0 +1,41 @@
+16/05/2020 Quiz - Biophysique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573068&cmid=205585 2/9Question 4
+Non répondue
+Noté sur 1,00
+Question 5
+Non répondue
+Noté sur 1,00
+Question 6
+Non répondue
+Noté sur 1,00Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?
+Veuillez choisir au moins une réponse :
+Le domaine de l’IR correspond à des énergies supérieures à celles du Visible
+Le domaine du Visible correspond à des énergies supérieures à celles de l’IR
+Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV
+Le domaine de l’UV correspond à des énergies inférieures à celles du Visible
+Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV, Le domaine de
+l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR, Le domaine du Visible correspond à des énergies
+supérieures à celles de l’IR
+Parmi les propositions suivantes  concernant l’Imagerie par R ésonance Magnétique, la(les)quelle(s) est (sont) exacte(s) :
+Veuillez choisir au moins une réponse :
+C’est une technique d’imagerie utilisant la radioactivité
+Par IRM, on observe les protons de l’eau dans le corps humain
+Par IRM, on détecte les noyaux émetteurs beta
+Cette technique nécessite un champ magnétique intense
+Par IRM, on détecte les rayons X+
+Votre réponse est incorrecte.
+Les réponses correctes sont : P ar IRM, on observe les protons de l’eau dans le corps humain, Cette technique nécessite un
+champ magnétique intense
+Parmi les propositions suivantes concernant l’effet Doppler, la(les)quelle(s) est (sont) exacte(s) :
+Veuillez choisir au moins une réponse :
+Il est observé entre une source et un récepteur, tous deux immobiles
+Il peut correspondre à une variation de fréquences d’ondes sonores
+Il peut correspondre à une variation de fréquences d’ondes lumineuses
+Il peut correspondre à une variation de fréquences d’ondes ultrasonores
+Il est observé entre une source et un récepteur, tous deux mobiles
+Votre réponse est incorrecte.
+Les réponses correctes sont : Il peut correspondre à une variation de fréquences d’ondes sonores, Il peut correspondre à une
+variation de fréquences d’ondes ultrasonores, Il peut correspondre à une variation de fréquences d’ondes lumineuses, Il est
+observé entre une source et un récepteur, tous deux mobiles

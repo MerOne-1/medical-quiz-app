@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous concernant les Angiospermes primitives jusqu’aux Monocotylédones incluses, choisir celle(s) exacte(s) :",
+    "options": [
+      "Les feuilles sont simples",
+      "La disposition des fleurs est spiralée",
+      "Le pollen est à une ouverture",
+      "Ce sont toutes des plantes ligneuses",
+      "Les fleurs sont gamopétales"
+    ],
+    "correct_answers": [
+      "Le pollen est à une ouverture",
+      "Les feuilles sont simples"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions concernant l'endoprothallie, choisir la (ou les) exacte(s) :",
+    "options": [
+      "L’endoprothallie correspond à la germination de la spore dans le sol",
+      "L’endoprothallie correspond à la germination de la spore en protonéma",
+      "L’endoprothallie permet l’apparition de la graine",
+      "L’endoprothallie produit directement  l’albumen",
+      "L’endoprothallie produit directement l’endosperme"
+    ],
+    "correct_answers": [
+      "L’endoprothallie produit directement l’endosperme",
+      "L’endoprothallie permet l’apparition de la graine"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la dichotomie, choisir celle(s) exacte(s) :",
+    "options": [
+      "la dichotomie correspond au sporophyte et non au gamétophyte",
+      "la dichotomie existe chez les Fougères et le  Ginkgo",
+      "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+      "la dichotomie correspond à l’état diploïde des cellules",
+      "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+    ],
+    "correct_answers": [
+      "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+      "la dichotomie existe chez les Fougères et le  Ginkgo",
+      "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+    ]
+  }
+]

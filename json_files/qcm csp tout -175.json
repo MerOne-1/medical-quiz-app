@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Le diaphragme est:",
+    "options": [
+      "un muscle essentiellement expiratoire.",
+      "innervé par les nerfs phréniques issus des racines D1 à D3 de la moelle épinière.",
+      "un muscle musculaire lisse.",
+      "s’attache en partie au rachis.",
+      "uniquement sous contrôle automatique."
+    ],
+    "correct_answers": [
+      "s’attache en partie au rachis."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le gradient de pressions à l’origine de la diffusion est plus important pour le gaz carbonique que pour l’oxygène.",
+      "L’oxygène diffuse plus vite à travers la membrane alvéolo-capillaire que le gaz carbonique.",
+      "La diffusion de protoxyde d’azote est complète vers la moitié du parcours du capillaire pulmonaire par le sang.",
+      "La diffusion du monoxyde de carbone est limitée par la capacité de diffusion de la membrane alvéolo-capillaire.",
+      "Un frein important à la diffusion de l’oxygène à travers la membrane alvéolo-capillaire est constitué par la liaison de l’oxygène à l’hémoglobine."
+    ],
+    "correct_answers": [
+      "La diffusion du monoxyde de carbone est limitée par la capacité de diffusion de la membrane alvéolo-capillaire."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "La liaison de l’acétylcholine sur le récepteur nicotinique:",
+    "options": [
+      "Provoque l’ouverture d’un canal qui laisse entrer du sodium dans la cellule.",
+      "Provoque la fermeture d’un canal qui laisse entrer du potassium dans la cellule.",
+      "Active une protéine G1.",
+      "Provoque l’ouverture d’un canal qui laisse sortir du potassium de la cellule.",
+      "Active une protéine Gs."
+    ],
+    "correct_answers": [
+      "Provoque l’ouverture d’un canal qui laisse entrer du sodium dans la cellule."
+    ]
+  }
+]

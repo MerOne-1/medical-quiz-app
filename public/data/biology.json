@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Plant and Fungal Sciences",
+    "question": "To rationally and methodically approach the observation of a macromycete mushroom sporophore for identification, it is important to correctly observe:",
+    "options": [
+      "The texture of the flesh",
+      "The color of the spore print",
+      "The color of the cap",
+      "The nature of any ornamentation present on the cap surface",
+      "The diameter of the stem"
+    ],
+    "correct_answers": [
+      "The texture of the flesh",
+      "The color of the spore print",
+      "The nature of any ornamentation present on the cap surface"
+    ],
+    "justification_fausses_reponses": {
+      "The color of the cap": "The color of the cap is not a reliable criterion for identifying macromycete mushrooms as it can vary with age or environmental conditions.",
+      "The diameter of the stem": "The diameter of the stem is not a determining factor for identifying macromycete mushrooms as it can vary with age and is not species-specific."
+    }
+  }
+]

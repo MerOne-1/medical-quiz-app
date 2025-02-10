@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "X représente l’élément de numéro atomique 9 et Y celui de numéro atomique 20. Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "La liaison formée entre X et Y est de nature covalente",
+      "La liaison formée entre X et Y est de nature ionique.",
+      "La formule brute du composé formé est XY.",
+      "La formule brute du composé formé est X Y.",
+      "La formule brute du composé formé est XY .2"
+    ],
+    "correct_answers": [
+      "La liaison formée entre X et Y est de nature ionique.",
+      "La formule brute du composé formé est X Y.2"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "La vanilline, de formule brute C HO, a une masse molaire de 152 g.mol . L’analyse élémentaire donne les résultats suivants : % = 63,15 et %  = 5,3. On donne  M  = 12 g.mol         M  = 1 g.mol               M  = 16 g.mol. Quelle est la formule brute de la vanilline ?",
+    "options": [
+      "CHO",
+      "CHOxyz-1",
+      "C H",
+      "C-1H-1O-1",
+      "824 2",
+      "10 16",
+      "744",
+      "883",
+      "912 2"
+    ],
+    "correct_answers": [
+      "CHO 883"
+    ]
+  }
+]

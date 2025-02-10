@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite?",
+    "options": [
+      "Ixodes ricinus",
+      "Sarcoptes scabiei",
+      "Argas reflexus",
+      "Cimex lectularius",
+      "Dermacentor reticulatus"
+    ],
+    "correct_answers": [
+      "Ixodes ricinus"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Un homme de 30 ans, européen, souhaite voyager sac-au-dos pendant 2 mois l'été en Asie du sud-est (zone 3 de chimiorésistance). Quelles chimioprophylaxies contre le paludisme vous semblent possibles ?",
+    "options": [
+      "chloroquine (Nivaquine®)",
+      "méfloquine (Lariam®)",
+      "doxycycline (Doxypalu®)",
+      "atovaquone + proguanil (Malarone®)",
+      "chloroquine + proguanil (Savarine®)"
+    ],
+    "correct_answers": [
+      "méfloquine (Lariam®)",
+      "atovaquone + proguanil (Malarone®)",
+      "doxycycline (Doxypalu®)"
+    ]
+  }
+]

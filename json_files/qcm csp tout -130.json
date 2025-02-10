@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les macrolides agissent sur la paroi bactérienne",
+      "Les glycopeptides agissent sur la paroi bactérienne",
+      "Les échinocandines agissent sur la paroi fongique",
+      "Les céphalosporines agissent sur la paroi bactérienne",
+      "Les pénicillines agissent sur la paroi bactérienne"
+    ],
+    "correct_answers": [
+      "Les pénicillines agissent sur la paroi bactérienne",
+      "Les céphalosporines agissent sur la paroi bactérienne",
+      "Les glycopeptides agissent sur la paroi bactérienne",
+      "Les échinocandines agissent sur la paroi fongique"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Le docétaxel agit sur les microtubules",
+      "La doxorubicine agit sur les microtubules",
+      "La vinorelbine agit sur les microtubules",
+      "La bléomycine agit sur les microtubules",
+      "Le paclitaxel agit sur les microtubules"
+    ],
+    "correct_answers": [
+      "Le paclitaxel agit sur les microtubules",
+      "La vinorelbine agit sur les microtubules",
+      "Le docétaxel agit sur les microtubules"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+    "options": [
+      "Pristinamycine",
+      "Gentamicine",
+      "Minocycline",
+      "Fosfomycine",
+      "Spiramycine"
+    ],
+    "correct_answers": [
+      "Gentamicine",
+      "Pristinamycine",
+      "Minocycline",
+      "Spiramycine"
+    ]
+  }
+]

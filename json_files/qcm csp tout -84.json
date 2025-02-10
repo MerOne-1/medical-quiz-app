@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Le boceprevir est utilisé dans le traitement de l'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le boceprevir possède exactement trois carbones asymétriques",
+      "Le boceprevir possède une fonction urée",
+      "Le boceprevir possède une fonction cétone électrophile",
+      "Le boceprevir est protoné à pH physiologique (pH 7,4)",
+      "Le boceprevir possède un cycle cyclobutyle"
+    ],
+    "correct_answers": [
+      "Le boceprevir possède une fonction urée",
+      "Le boceprevir possède une fonction cétone électrophile",
+      "Le boceprevir possède un cycle cyclobutyle"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse la synthèse de la rivastigmine, un inhibiteur de l'acétylcholinestérase, utilisé dans la prise en charge de la maladie d'Alzheimer. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La rivastigmine est administrée sous forme racémique",
+      "Le réactif 1 possède une fonction phénol",
+      "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le réactif 1 est un nucléophile",
+      "Le réactif 2 est un électrophile"
+    ],
+    "correct_answers": [
+      "Le réactif 1 possède une fonction phénol",
+      "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le réactif 1 est un nucléophile",
+      "Le réactif 2 est un électrophile"
+    ]
+  }
+]

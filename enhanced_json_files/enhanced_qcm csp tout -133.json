@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "L’amphotéricine B :",
+    "options": [
+      "peut être administrée par voie orale",
+      "a pour cible la paroi fongique",
+      "est un antifongique",
+      "appartient à la classe des polyènes, comme la nystatine",
+      "est produite par un champignon"
+    ],
+    "correct_answers": [
+      "est un antifongique",
+      "peut être administrée par voie orale",
+      "appartient à la classe des polyènes, comme la nystatine"
+    ],
+    "justification_fausses_reponses": {
+      "a pour cible la paroi fongique": "L'amphotéricine B cible plutôt la membrane cellulaire des champignons, en se liant spécifiquement à l'ergostérol, un composant majeur de cette membrane.",
+      "est produite par un champignon": "L'amphotéricine B est en réalité produite par une bactérie, Streptomyces nodosus, et non par un champignon."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Le colza fournit une huile végétale riche en acides gras de type oméga 3",
+      "Les huiles végétales sont essentiellement obtenues par hydrodistillation",
+      "L’insaponifiable représente généralement la partie la plus importante quantitativement dans une huile végétale",
+      "Les huiles végétales sont constituées principalement de glycérides",
+      "Les huiles végétales sont des composés chimiquement purs"
+    ],
+    "correct_answers": [
+      "Les huiles végétales sont constituées principalement de glycérides",
+      "Le colza fournit une huile végétale riche en acides gras de type oméga 3"
+    ],
+    "justification_fausses_reponses": {
+      "Les huiles végétales sont essentiellement obtenues par hydrodistillation": "C'est incorrect car les huiles végétales sont généralement obtenues par pression à froid ou extraction à chaud, et non par hydrodistillation qui est une méthode utilisée pour obtenir des huiles essentielles.",
+      "L’insaponifiable représente généralement la partie la plus importante quantitativement dans une huile végétale": "C'est faux car l’insaponifiable ne représente qu'une petite partie d'une huile végétale, généralement moins de 2%. La majorité est constituée de triglycérides.",
+      "Les huiles végétales sont des composés chimiquement purs": "C'est incorrect car les huiles végétales sont des mélanges complexes de différents composés, principalement des triglycérides, et non des composés chimiquement purs."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+      "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines",
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont issues de champignons",
+      "Les molécules dont la DCI se termine par ‘-cycline’ sont des anthracyclines",
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont des macrolides"
+    ],
+    "correct_answers": [
+      "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+      "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines"
+    ],
+    "justification_fausses_reponses": {
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont issues de champignons": "C'est incorrect car les molécules dont la DCI se termine par ‘-mycine’ sont généralement des antibiotiques produits par des bactéries, et non des champignons.",
+      "Les molécules dont la DCI se termine par ‘-cycline’ sont des anthracyclines": "C'est incorrect car les molécules dont la DCI se termine par ‘-cycline’ sont des antibiotiques de la famille des tétracyclines, et non des anthracyclines.",
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont des macrolides": "C'est incorrect car bien que certaines molécules dont la DCI se termine par ‘-mycine’ soient des macrolides, toutes ne le sont pas. Par exemple, les aminoglycosides se terminent également par ‘-mycine’."
+    }
+  }
+]

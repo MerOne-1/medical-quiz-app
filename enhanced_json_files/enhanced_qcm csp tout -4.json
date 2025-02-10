@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Une étude sur l'arrêt progressif du tabac en consultation de tabacologie a été publiée par l'Institut de V eille Sanitaire (Bulletin Épidémiologique Hebdomadaire, mai 2015). L'étude a porté sur 14 960 sujets venus en consultation et ayant arrêté de fumer durant leur suivi. Les résultats croisant le mode d'arrêt du tabac (avec ou sans réduction) et le type de prise en charge (5 prises en charge possibles) sont les suivants : Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+    "options": [
+      "Chez les sujets ayant arrêté progressivement, pour tester si les cinq prises en charge sont prescrites dans les mêmes proportions, on peut utiliser un test du khi-deux d'indépendance",
+      "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test du coefficient de corrélation linéaire",
+      "Pour tester si la proportion de sujets ayant arrêté progressivement est plus élevée que celle des sujets ayant arrêté sans réduction, on peut utiliser un test de comparaison de deux proportions observées indépendantes",
+      "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test de la pente de la droite de régression linéaire du nombre de consultations en fonction du mode d'arrêt du tabac",
+      "Pour tester l'existence d'une liaison entre le mode d'arrêt du tabac et le type de prise en charge, on peut utiliser un test du khi-deux d'indépendance"
+    ],
+    "correct_answers": [
+      "Pour tester l'existence d'une liaison entre le mode d'arrêt du tabac et le type de prise en charge, on peut utiliser un test du khi-deux d'indépendance"
+    ],
+    "justification_fausses_reponses": {
+      "Chez les sujets ayant arrêté progressivement, pour tester si les cinq prises en charge sont prescrites dans les mêmes proportions, on peut utiliser un test du khi-deux d'indépendance": "Cette affirmation est incorrecte car le test du khi-deux d'indépendance est utilisé pour tester l'indépendance entre deux variables catégorielles, et non pour comparer des proportions.",
+      "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test du coefficient de corrélation linéaire": "Cette affirmation est incorrecte car le test du coefficient de corrélation linéaire est utilisé pour mesurer la force et la direction de la relation entre deux variables continues, et non entre une variable continue et une variable catégorielle.",
+      "Pour tester si la proportion de sujets ayant arrêté progressivement est plus élevée que celle des sujets ayant arrêté sans réduction, on peut utiliser un test de comparaison de deux proportions observées indépendantes": "Cette affirmation est incorrecte car un test de comparaison de deux proportions observées indépendantes est utilisé pour comparer deux proportions indépendantes, et non pour tester si une proportion est plus élevée que l'autre.",
+      "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test de la pente de la droite de régression linéaire du nombre de consultations en fonction du mode d'arrêt du tabac": "Cette affirmation est incorrecte car le test de la pente de la droite de régression linéaire est utilisé pour tester l'existence d'une relation linéaire entre deux variables continues, et non entre une variable continue et une variable catégorielle."
+    }
+  }
+]

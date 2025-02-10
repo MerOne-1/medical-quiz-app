@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’un/de champignon(s) ?",
+    "options": [
+      "Rapamycine",
+      "Ciclosporine",
+      "Erythromycine",
+      "Aminosides",
+      "Pénicillines"
+    ],
+    "correct_answers": [
+      "Ciclosporine",
+      "Pénicillines"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "La vinorelbine :",
+    "options": [
+      "a une neurotoxicité plus importante que la vincristine",
+      "requiert un carnet de suivi à remettre au patient",
+      "peut être délivrée à l’officine",
+      "est administrable par voie orale",
+      "est un anticancéreux"
+    ],
+    "correct_answers": [
+      "est un anticancéreux",
+      "peut être délivrée à l’officine",
+      "est administrable par voie orale",
+      "requiert un carnet de suivi à remettre au patient"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes proposées, choisir la (ou les) liste(s) de termes tous homologues",
+    "options": [
+      "Sporange de fougère, sporogone",
+      "Sac embryonnaire, ovule, pollen",
+      "Macrosporange, sac embryonnaire, archégone",
+      "Microsporange, archégone, ovaire",
+      "Microsporange, sac pollinique, sporogone"
+    ],
+    "correct_answers": [
+      "Microsporange, sac pollinique, sporogone",
+      "Sporange de fougère, sporogone"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle(s) définissant l'entomogamie",
+    "options": [
+      "Le transport des semences par le vent",
+      "Le transport des semences par les insectes",
+      "Le transport des graines par les oiseaux",
+      "Le transport du pollen par les insectes",
+      "La fécondation des fleurs par le vent"
+    ],
+    "correct_answers": [
+      "Le transport du pollen par les insectes"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la vacuole, indiquez celle(s) exacte(s)",
+    "options": [
+      "La vacuole occupe la plus grande partie du cytoplasme",
+      "La vacuole ne sert qu'au stockage des déchets de la cellule",
+      "La vacuole est l'organite où se déroule la photosynthèse",
+      "La vacuole contient le noyau de la cellule",
+      "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste"
+    ],
+    "correct_answers": [
+      "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste",
+      "La vacuole occupe la plus grande partie du cytoplasme"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Système végétatif",
+    "options": [
+      "Les neurones pré-ganglionnaires (1  neurone) du système para-sympathique sont longs.",
+      "Les neurones post-ganglionnaires (seconds neurones) du système sympathique sont toujours longs.",
+      "Le nerf vague correspond à la XI éme paire de nerfs crâniens.",
+      "La médullosurrénale est innervée par des premiers neurones adrénergiques qui induisent indirectement la libération d’acétylcholine par la corticosurrénale.",
+      "Le système végétatif est totalement déconnecté du système nerveux central."
+    ],
+    "correct_answers": [
+      "Les neurones pré-ganglionnaires (1  neurone) du système para-sympathique sont longs."
+    ],
+    "justification_fausses_reponses": {
+      "Les neurones post-ganglionnaires (seconds neurones) du système sympathique sont toujours longs.": "C'est incorrect car les neurones post-ganglionnaires du système sympathique peuvent être courts ou longs, selon leur localisation et leur fonction.",
+      "Le nerf vague correspond à la XI éme paire de nerfs crâniens.": "C'est incorrect car le nerf vague est en réalité la dixième paire de nerfs crâniens, pas la onzième.",
+      "La médullosurrénale est innervée par des premiers neurones adrénergiques qui induisent indirectement la libération d’acétylcholine par la corticosurrénale.": "C'est incorrect car la médullosurrénale est innervée par des neurones pré-ganglionnaires cholinergiques, qui libèrent directement l'acétylcholine, pas indirectement.",
+      "Le système végétatif est totalement déconnecté du système nerveux central.": "C'est incorrect car le système végétatif est en réalité étroitement lié au système nerveux central, qui contrôle et régule ses fonctions."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionnez la seule bonne réponse:",
+    "options": [
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et les muscles extenseurs axiaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et les muscles extenseurs axiaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et stimule les muscles extenseurs axiaux.",
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et inhibe les muscles extenseurs axiaux."
+    ],
+    "correct_answers": [
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et inhibe les muscles extenseurs axiaux."
+    ],
+    "justification_fausses_reponses": {
+      "La voie rubro-spinale stimule les muscle fléchisseurs distaux et les muscles extenseurs axiaux.": "C'est incorrect car la voie rubro-spinale inhibe les muscles extenseurs axiaux, elle ne les stimule pas.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et les muscles extenseurs axiaux.": "C'est incorrect car la voie rubro-spinale stimule les muscles fléchisseurs distaux, elle ne les inhibe pas.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux.": "C'est incorrect car la voie rubro-spinale stimule les muscles fléchisseurs distaux, elle ne les inhibe pas.",
+      "La voie rubro-spinale inhibe les muscle fléchisseurs distaux et stimule les muscles extenseurs axiaux.": "C'est incorrect car la voie rubro-spinale stimule les muscles fléchisseurs distaux et inhibe les muscles extenseurs axiaux."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "En cas d’acidose respiratoire, la concentration sanguine en ions bicarbonates augmente.",
+      "Les centres neurologiques régulant la respiration sont situées dans partie haute de la moelle épinière.",
+      "Le système tampon du sang est uniquement constitué par le système tampon gaz carbonique / ions bicarbonates.",
+      "Le système tampon gaz carbonique / ions bicarbonates est un système tampon fermé.",
+      "Le pH artériel est le facteur majeur de régulation de la respiration."
+    ],
+    "correct_answers": [
+      "En cas d’acidose respiratoire, la concentration sanguine en ions bicarbonates augmente."
+    ],
+    "justification_fausses_reponses": {
+      "Les centres neurologiques régulant la respiration sont situées dans partie haute de la moelle épinière.": "C'est incorrect car les centres neurologiques qui régulent la respiration sont situés dans le bulbe rachidien et le pont de Varole, qui sont des parties du tronc cérébral, et non dans la moelle épinière.",
+      "Le système tampon du sang est uniquement constitué par le système tampon gaz carbonique / ions bicarbonates.": "C'est faux car le système tampon du sang comprend également le tampon phosphate et les protéines tampons, en plus du système tampon gaz carbonique / ions bicarbonates.",
+      "Le système tampon gaz carbonique / ions bicarbonates est un système tampon fermé.": "C'est incorrect car le système tampon gaz carbonique / ions bicarbonates est un système ouvert, ce qui signifie qu'il peut échanger des ions avec l'environnement extérieur.",
+      "Le pH artériel est le facteur majeur de régulation de la respiration.": "C'est faux car bien que le pH artériel influence la respiration, il n'est pas le facteur majeur. Les niveaux de dioxyde de carbone (CO2) dans le sang sont le facteur majeur de régulation de la respiration."
+    }
+  }
+]

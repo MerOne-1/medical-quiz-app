@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le système français de toxicovigilance et les missions des centres antipoison, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les centres antipoison sont chargés de répondre 24h sur 24 à toute demande d’avis ou de conseil concernant le diagnostic, le pronostic et le traitement de cas d’intoxications humaines.",
+      "La toxicovigilance a pour objet la surveillance et l’évaluation des effets toxiques pour l’homme de l’exposition à un mélange ou une substance naturelle ou de synthèse.",
+      "Les centres antipoison (CAP) sont des organismes chargés de la toxicovigilance.",
+      "Les centres antipoison sont des organismes très impliqués dans le dispositif de surveillance du saturnisme infantile et de la tularémie.",
+      "La toxicovigilance a uniquement pour objet la surveillance des effets toxiques aigus."
+    ],
+    "correct_answers": [
+      "La toxicovigilance a pour objet la surveillance et l’évaluation des effets toxiques pour l’homme de l’exposition à un mélange ou une substance naturelle ou de synthèse.",
+      "Les centres antipoison (CAP) sont des organismes chargés de la toxicovigilance.",
+      "Les centres antipoison sont chargés de répondre 24h sur 24 à toute demande d’avis ou de conseil concernant le diagnostic, le pronostic et le traitement de cas d’intoxications humaines."
+    ],
+    "justification_fausses_reponses": {
+      "Les centres antipoison sont des organismes très impliqués dans le dispositif de surveillance du saturnisme infantile et de la tularémie.": "Cette affirmation est incorrecte car bien que les centres antipoison jouent un rôle dans la surveillance de diverses maladies, ils ne sont pas spécifiquement impliqués dans la surveillance du saturnisme infantile et de la tularémie.",
+      "La toxicovigilance a uniquement pour objet la surveillance des effets toxiques aigus.": "Cette affirmation est incorrecte car la toxicovigilance ne se limite pas à la surveillance des effets toxiques aigus. Elle comprend également la surveillance et l'évaluation des effets toxiques chroniques et à long terme de l'exposition à des substances naturelles ou synthétiques."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes, lesquelles sont des actions de prévention primaire dans la lutte contre l’alcoolisme ?",
+    "options": [
+      "Suivi des patients en sortie de cure de sevrage.",
+      "Dépistage clinique de l'alcoolisme par le médecin.",
+      "Législation sur les débits de boissons et la répression de l'ivresse publique.",
+      "Campagnes publicitaires de prévention.",
+      "Instauration d'un taux de l'alcoolémie maximal autorisé pour les conducteurs automobiles."
+    ],
+    "correct_answers": [
+      "Campagnes publicitaires de prévention.",
+      "Instauration d'un taux de l'alcoolémie maximal autorisé pour les conducteurs automobiles.",
+      "Législation sur les débits de boissons et la répression de l'ivresse publique."
+    ],
+    "justification_fausses_reponses": {
+      "Suivi des patients en sortie de cure de sevrage.": "Cette option est incorrecte car elle représente une action de prévention tertiaire, qui vise à réduire les complications et à prévenir la récidive après un traitement. La prévention primaire, en revanche, vise à prévenir l'apparition de la maladie.",
+      "Dépistage clinique de l'alcoolisme par le médecin.": "Cette option est incorrecte car elle représente une action de prévention secondaire, qui vise à détecter une maladie à un stade précoce pour la traiter rapidement. La prévention primaire, en revanche, vise à prévenir l'apparition de la maladie."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la variabilité de réponse aux médicaments d’origine génétique, quelle est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "Les méthodes de génotypage d’une enzyme du métabolisme des médicaments permettent de prédire le phénotype métabolique d’un individu pour cette enzyme.",
+      "Lors d’un test de phénotypage d’une enzyme du métabolisme des médicaments, il existe un risque de phénocopie en cas de co-administration de médicaments.",
+      "L’existence de différents phénotypes métaboliques pour une enzyme donnée dans la population générale n’a d’impact sur la réponse thérapeutique à un médicament-substrat de cette enzyme que si son index thérapeutique est étroit.",
+      "En général, et quel que soit le médicament concerné, le phénotype « métaboliseur ultra-rapide » correspond à un phénotype à risque accru d’effets indésirables.",
+      "Pour un médicament administré sous forme de prodrogue, à doses standards, et métabolisé par une enzyme polymorphe, le phénotype « métaboliseur lent » est à risque d’inefficacité thérapeutique."
+    ],
+    "correct_answers": [
+      "Les méthodes de génotypage d’une enzyme du métabolisme des médicaments permettent de prédire le phénotype métabolique d’un individu pour cette enzyme.",
+      "Pour un médicament administré sous forme de prodrogue, à doses standards, et métabolisé par une enzyme polymorphe, le phénotype « métaboliseur lent » est à risque d’inefficacité thérapeutique.",
+      "Lors d’un test de phénotypage d’une enzyme du métabolisme des médicaments, il existe un risque de phénocopie en cas de co-administration de médicaments."
+    ],
+    "justification_fausses_reponses": {
+      "L’existence de différents phénotypes métaboliques pour une enzyme donnée dans la population générale n’a d’impact sur la réponse thérapeutique à un médicament-substrat de cette enzyme que si son index thérapeutique est étroit.": "Cette affirmation est incorrecte car l'impact de la variabilité des phénotypes métaboliques sur la réponse thérapeutique ne dépend pas uniquement de l'index thérapeutique du médicament. D'autres facteurs, tels que la dose du médicament, la présence d'autres médicaments et les caractéristiques individuelles du patient, peuvent également jouer un rôle.",
+      "En général, et quel que soit le médicament concerné, le phénotype « métaboliseur ultra-rapide » correspond à un phénotype à risque accru d’effets indésirables.": "Cette affirmation est incorrecte car le risque d'effets indésirables n'est pas systématiquement accru chez les métaboliseurs ultra-rapides. Cela dépend du médicament spécifique et de la manière dont il est métabolisé. Par exemple, pour certains médicaments, un métabolisme plus rapide peut en fait réduire le risque d'effets indésirables en éliminant plus rapidement le médicament de l'organisme."
+    }
+  }
+]

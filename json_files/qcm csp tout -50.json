@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les liaisons suivantes, laquelle est la plus polaire ?",
+    "options": [
+      "O=O",
+      "Br-Br",
+      "F-H",
+      "O-Cl",
+      "N-O"
+    ],
+    "correct_answers": [
+      "F-H"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soit l’élément soufre S qui possède 4 isotopes S, S, S et S. Indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "Le soufre est plus électronégatif que le fluor.",
+      "L’anion divalent S  a une configuration électronique plus stable que l’atome de soufre dans son état fondamental.",
+      "Dans son état fondamental, le soufre a une valence égale à 2.",
+      "L’atome de soufre possède 16 électrons et 17 protons.",
+      "Sachant que sa masse atomique expérimentale est de 32,06 g/mol, l’isotope le plus abondant naturellement est S."
+    ],
+    "correct_answers": [
+      "Dans son état fondamental, le soufre a une valence égale à 2.",
+      "L’anion divalent S  a une configuration électronique plus stable que l’atome de soufre dans son état fondamental."
+    ]
+  }
+]

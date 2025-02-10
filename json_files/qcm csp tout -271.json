@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant la grossesse",
+    "options": [
+      "les anticorps IgA passent la barrière placentaire",
+      "les trophoblastes expriment des molécules de CMH de classe 2",
+      "les trophoblastes sont des cellules maternelles formant la barrière placentaire",
+      "les trois premiers mois correspondent à la période foetale",
+      "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+    ],
+    "correct_answers": [
+      "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "L’activation thymo-dépendante des lymphocytes B",
+    "options": [
+      "se réalise dans les organes lymphoïdes primaires",
+      "nécessite la présente de lymphocytes T CD4",
+      "permet la génération de lymphocytes T CD8 cytotoxiques",
+      "conduit à la génération de lymphocytes B mémoire",
+      "forme un centre germinatif"
+    ],
+    "correct_answers": [
+      "nécessite la présente de lymphocytes T CD4",
+      "forme un centre germinatif",
+      "conduit à la génération de lymphocytes B mémoire"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant Gardasil® et Cervarix®, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Ils contiennent tous les deux des pseudo-particules virales",
+      "Nécessite un rappel 10 ans après la première injection",
+      "Ils protègent tous les deux contre l’infection par les papillomavirus HPV 6 et 11",
+      "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans",
+      "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus"
+    ],
+    "correct_answers": [
+      "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus",
+      "Ils contiennent tous les deux des pseudo-particules virales",
+      "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La venlafaxine possède deux carbones asymétriques",
+      "L'hydroxyle de la venlafaxine est protoné à pH physiologique (pH 7,4)",
+      "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+      "La venlafaxine possède une fonction éther",
+      "L'hydroxyle de la venlafaxine est en position axiale"
+    ],
+    "correct_answers": [
+      "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+      "La venlafaxine possède une fonction éther",
+      "L'hydroxyle de la venlafaxine est en position axiale"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le bortézomib présente une fonction acide boronique",
+      "Le bortézomib possède 3 carbones asymétriques",
+      "Le bortézomib présente un hétérocycle aromatique",
+      "Le bortézomib possède un centre électrophile",
+      "Le bortézomib possède dans sa structure un tryptophane"
+    ],
+    "correct_answers": [
+      "Le bortézomib présente une fonction acide boronique",
+      "Le bortézomib présente un hétérocycle aromatique",
+      "Le bortézomib possède un centre électrophile"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Le point triple de l’eau est à T = 273,15K et P = 6.10  atm. Dans quels états 1 et 2 se trouve l’eau à T  = 300K et P  = 10  atm et T  = 200K et P  = 6.10  atm ?",
+    "options": [
+      "gaz, gaz",
+      "gaz, solide",
+      "gaz, liquide",
+      "solide, liquide",
+      "liquide, gaz"
+    ],
+    "correct_answers": [
+      "gaz, solide"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soit les composés azotés N , NH , NO, HNO , NO , HNO . Quel est le bon classement de ces molécules par ordre croissant du nombre d’oxydation de l’azote ?",
+    "options": [
+      "HNO  < N  < NO < NO  < HNO  < NH",
+      "NH < N  < NO < NO  < HNO  < HNO",
+      "NH < N  < NO < HNO  < NO  < HNO",
+      "N < NO < HNO  < NO  < HNO  < NH",
+      "N < NH  < NO < HNO  < NO  < HNO"
+    ],
+    "correct_answers": [
+      "NH < N  < NO < HNO  < NO  < HNO"
+    ]
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soient les atomes A-E dans leur état fondamental dans le tableau ci-dessous. Indiquer la ou les proposition(s) exactes.",
+    "options": [
+      "Les atomes A et E ont les mêmes propriétés chimiques.",
+      "Les atomes A et C ont le même nombre d’électrons.",
+      "Les atomes A, B et E sont trois isotopes.",
+      "Les atomes D et E sont deux isotopes.",
+      "Les atomes D et E ont le même nombre de neutrons"
+    ],
+    "correct_answers": [
+      "Les atomes A et E ont les mêmes propriétés chimiques.",
+      "Les atomes A, B et E sont trois isotopes."
+    ]
+  }
+]

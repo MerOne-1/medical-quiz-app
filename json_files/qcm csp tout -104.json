@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées en thérapeutique:",
+    "options": [
+      "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels",
+      "La molécule 1 est un inhibiteur de l’aromatase",
+      "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+      "Ces molécules possèdent toutes des indications dans le traitement du cancer du sein",
+      "Ces molécules sont toutes des antagonistes des récepteurs des estrogènes"
+    ],
+    "correct_answers": [
+      "La molécule 1 est un inhibiteur de l’aromatase",
+      "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+      "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous :",
+    "options": [
+      "il s’agit de l’ofloxacine",
+      "il s’agit de la nifedipine",
+      "il s’agit d’une quinolone",
+      "il s’agit d’une dihydropyridine",
+      "il s’agit d’un bloqueur de canal"
+    ],
+    "correct_answers": [
+      "il s’agit de la nifedipine",
+      "il s’agit d’une dihydropyridine",
+      "il s’agit d’un bloqueur de canal"
+    ]
+  }
+]

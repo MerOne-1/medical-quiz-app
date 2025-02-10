@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant les homologues du benzène, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "La spectrophotométrie UV est la méthode de référence de dosage de ces composés en milieu atmosphérique",
+      "Ce sont des irritants des muqueuses.",
+      "Ils exercent un effet dépresseur du système nerveux central.",
+      "Ils sont majoritairement éliminés en nature par voie pulmonaire.",
+      "Ce sont tous des toxiques hématologiques."
+    ],
+    "correct_answers": [
+      "Ce sont des irritants des muqueuses.",
+      "Ils exercent un effet dépresseur du système nerveux central."
+    ],
+    "justification_fausses_reponses": {
+      "La spectrophotométrie UV est la méthode de référence de dosage de ces composés en milieu atmosphérique": "La spectrophotométrie UV n'est pas la méthode de référence pour le dosage des homologues du benzène en milieu atmosphérique. D'autres méthodes comme la chromatographie en phase gazeuse sont plus couramment utilisées.",
+      "Ils sont majoritairement éliminés en nature par voie pulmonaire.": "Les homologues du benzène ne sont pas majoritairement éliminés par voie pulmonaire. Ils sont plutôt métabolisés par le foie et éliminés par voie urinaire.",
+      "Ce sont tous des toxiques hématologiques.": "Tous les homologues du benzène ne sont pas toxiques pour le système hématologique. Certains peuvent l'être, mais d'autres peuvent avoir des effets toxiques sur d'autres systèmes, comme le système nerveux central."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication par les méthémoglobinisants, laquelle (lesquelles) est (sont) inexacte(s)?",
+    "options": [
+      "Il y a mort du sujet pour une méthémoglobine >10% de l’Hb totale.",
+      "Le principal antidote est le bleu de méthylène.",
+      "L’alcool favorise la métabolisation de la MetHb.",
+      "Elle débute cliniquement par une cyanose.",
+      "La mesure de la MetHb se fait le plus souvent par méthode spectrophotométrique."
+    ],
+    "correct_answers": [
+      "Il y a mort du sujet pour une méthémoglobine >10% de l’Hb totale.",
+      "L’alcool favorise la métabolisation de la MetHb."
+    ],
+    "justification_fausses_reponses": {
+      "Le principal antidote est le bleu de méthylène.": "Cette affirmation est incorrecte car bien que le bleu de méthylène soit utilisé comme antidote dans certains cas d'intoxication par les méthémoglobinisants, il n'est pas le principal antidote pour tous les cas.",
+      "Elle débute cliniquement par une cyanose.": "Cette affirmation est incorrecte car la cyanose n'est pas le premier signe clinique d'une intoxication par les méthémoglobinisants. D'autres symptômes peuvent apparaître avant, comme des maux de tête ou une fatigue intense.",
+      "La mesure de la MetHb se fait le plus souvent par méthode spectrophotométrique.": "Cette affirmation est incorrecte car la mesure de la MetHb peut se faire par différentes méthodes, et pas seulement par méthode spectrophotométrique. D'autres méthodes peuvent inclure l'oxymétrie de pouls ou la co-oxymétrie."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le trichloréthylène, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet de doser les principaux métabolites du trichloroéthylène.",
+      "Les métabolites principaux sont le trichloroéthanol et l'acide trichloracétique.",
+      "L'intoxication aiguë entraîne des signes d'hyperexcitabilité cardiaque.",
+      "L'exposition à long terme entraîne une destruction des os des doigts.",
+      "Un contact cutané répété peut être à l'origine de dermatoses."
+    ],
+    "correct_answers": [
+      "Les métabolites principaux sont le trichloroéthanol et l'acide trichloracétique.",
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet de doser les principaux métabolites du trichloroéthylène.",
+      "Un contact cutané répété peut être à l'origine de dermatoses.",
+      "L'intoxication aiguë entraîne des signes d'hyperexcitabilité cardiaque."
+    ],
+    "justification_fausses_reponses": {
+      "L'exposition à long terme entraîne une destruction des os des doigts.": "Cette affirmation est incorrecte. L'exposition à long terme au trichloréthylène peut causer de nombreux problèmes de santé, notamment des problèmes hépatiques, rénaux et respiratoires, ainsi que des troubles du système nerveux central. Cependant, il n'y a pas de preuve scientifique montrant qu'elle entraîne une destruction des os des doigts."
+    }
+  }
+]

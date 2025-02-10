@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Identifiez ce que vous voyez sur cette photo",
+    "options": [
+      "une puce",
+      "un pou",
+      "un acarien",
+      "un insecte",
+      "une larve"
+    ],
+    "correct_answers": [
+      "une puce",
+      "un insecte"
+    ]
+  }
+]

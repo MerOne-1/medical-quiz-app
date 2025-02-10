@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Pseudomonas aeruginosa  est une bactérie :",
+    "options": [
+      "aérobie stricte",
+      "à Gram négatif",
+      "produisant habituellement un pigment pyocyanique",
+      "produisant une oxydase",
+      "naturellement résistante à toutes les bêta-lactamines"
+    ],
+    "correct_answers": [
+      "à Gram négatif",
+      "produisant une oxydase",
+      "aérobie stricte",
+      "produisant habituellement un pigment pyocyanique"
+    ],
+    "justification_fausses_reponses": {
+      "naturellement résistante à toutes les bêta-lactamines": "Cette affirmation est incorrecte car bien que Pseudomonas aeruginosa soit résistante à de nombreux antibiotiques, elle n'est pas naturellement résistante à toutes les bêta-lactamines. Certaines bêta-lactamines, comme les céphalosporines de troisième génération, peuvent être efficaces contre elle."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant le peptidoglycane :",
+    "options": [
+      "il est responsable de la coloration différentielle de Gram",
+      "il s'agit d'un réseau de nature glycannique et protéique",
+      "il est plus épais chez les bactéries à Gram - que chez les bactéries à Gram +",
+      "c'est un constituant de la paroi des bactéries",
+      "les bactéries à Gram négatif en sont dépourvues"
+    ],
+    "correct_answers": [
+      "les bactéries à Gram négatif en sont dépourvues",
+      "il est plus épais chez les bactéries à Gram - que chez les bactéries à Gram +"
+    ],
+    "justification_fausses_reponses": {
+      "il est responsable de la coloration différentielle de Gram": "Bien que le peptidoglycane joue un rôle dans la coloration de Gram, il n'est pas le seul responsable. La coloration de Gram dépend également de la structure de la membrane externe des bactéries.",
+      "il s'agit d'un réseau de nature glycannique et protéique": "Le peptidoglycane est un polymère de sucres et d'acides aminés qui forme une maille autour de la bactérie pour protéger la cellule, mais il n'est pas de nature protéique.",
+      "c'est un constituant de la paroi des bactéries": "Cette affirmation est vraie. Le peptidoglycane est un composant majeur de la paroi cellulaire des bactéries, fournissant une structure rigide qui protège la cellule."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos de Vibrio cholerae :",
+    "options": [
+      "en phase aiguë de choléra, la perte liquidienne peut atteindre plusieurs litres par jour",
+      "c'est une bactérie dont l'habitat principal est l'eau",
+      "c'est une bactérie fréquemment responsable de diarrhées en Europe",
+      "le pouvoir pathogène est principalement lié à la présence de toxines",
+      "les sérogroupes O1 et O139 sont responsables de syndromes dysentériques"
+    ],
+    "correct_answers": [
+      "c'est une bactérie dont l'habitat principal est l'eau",
+      "le pouvoir pathogène est principalement lié à la présence de toxines",
+      "en phase aiguë de choléra, la perte liquidienne peut atteindre plusieurs litres par jour"
+    ],
+    "justification_fausses_reponses": {
+      "c'est une bactérie fréquemment responsable de diarrhées en Europe": "Cette affirmation est incorrecte car Vibrio cholerae n'est pas fréquemment responsable de diarrhées en Europe. Cette bactérie est principalement présente dans les régions où les conditions sanitaires sont précaires, notamment en Asie, en Afrique et en Amérique latine.",
+      "les sérogroupes O1 et O139 sont responsables de syndromes dysentériques": "Cette affirmation est incorrecte car les sérogroupes O1 et O139 de Vibrio cholerae sont responsables du choléra, une maladie diarrhéique aiguë, et non de syndromes dysentériques."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) : Quels sont les modes connus de contamination humaine par Leptospira interrogans  ?",
+    "options": [
+      "contact avec l'urine de rongeurs ou éléments souillés par l'urine des rongeurs",
+      "baignades dans des eaux naturelles (lacs, rivières, étangs)",
+      "douches",
+      "manipulation de tissus placentaires et de mises-bas d'animaux infectés",
+      "suite à une morsure de rat contaminé"
+    ],
+    "correct_answers": [
+      "douches"
+    ],
+    "justification_fausses_reponses": {
+      "contact avec l'urine de rongeurs ou éléments souillés par l'urine des rongeurs": "Cette affirmation est incorrecte car Leptospira interrogans est une bactérie qui peut être transmise à l'homme par contact avec l'urine de rongeurs ou des éléments souillés par cette urine.",
+      "baignades dans des eaux naturelles (lacs, rivières, étangs)": "Cette affirmation est incorrecte car Leptospira interrogans peut survivre dans l'eau douce pendant une longue période et peut infecter les personnes qui se baignent dans des eaux naturelles contaminées.",
+      "manipulation de tissus placentaires et de mises-bas d'animaux infectés": "Cette affirmation est incorrecte car Leptospira interrogans peut être transmise à l'homme lors de la manipulation de tissus placentaires et de mises-bas d'animaux infectés.",
+      "suite à une morsure de rat contaminé": "Cette affirmation est incorrecte car Leptospira interrogans peut être transmise à l'homme suite à une morsure de rat contaminé."
+    }
+  }
+]

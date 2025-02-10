@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les cellules suivantes, laquelle (lesquelles) est (sont) observée(s) sur un frottis sanguin coloré au May-Grünwald Giemsa d’un sujet sain",
+    "options": [
+      "Polynucléaires éosinophiles",
+      "Blastes",
+      "Mégacaryocytes",
+      "Plasmocytes",
+      "Réticulocytes"
+    ],
+    "correct_answers": [
+      "Polynucléaires éosinophiles"
+    ],
+    "justification_fausses_reponses": {
+      "Blastes": "Les blastes sont des cellules immatures qui ne sont normalement pas présentes dans le sang périphérique d'un individu sain. Leur présence peut indiquer une maladie du sang comme la leucémie.",
+      "Mégacaryocytes": "Les mégacaryocytes sont des cellules de la moelle osseuse qui produisent les plaquettes sanguines. Ils ne sont pas normalement présents dans le sang périphérique.",
+      "Plasmocytes": "Les plasmocytes sont des cellules du système immunitaire qui produisent des anticorps. Ils sont normalement présents dans la moelle osseuse et les tissus lymphoïdes, mais pas dans le sang périphérique d'un individu sain.",
+      "Réticulocytes": "Les réticulocytes sont des globules rouges immatures. Bien qu'ils soient présents dans le sang périphérique, ils ne sont pas normalement détectables sur un frottis sanguin coloré au May-Grünwald Giemsa."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quels sont les signes biologiques associés à l’hyperhémolyse",
+    "options": [
+      "L’élévation de la bilirubine libre",
+      "Microcytose",
+      "L’élévation des ASA T",
+      "La diminution de l’haptoglobine",
+      "L’élévation des LDH"
+    ],
+    "correct_answers": [
+      "L’élévation de la bilirubine libre",
+      "L’élévation des LDH",
+      "La diminution de l’haptoglobine"
+    ],
+    "justification_fausses_reponses": {
+      "Microcytose": "La microcytose est un signe de l'anémie et non de l'hyperhémolyse. Elle se caractérise par des globules rouges plus petits que la normale.",
+      "L’élévation des ASA T": "L'élévation des ASA T n'est pas un signe de l'hyperhémolyse. Les ASA T sont des anticorps anti-thyroïdiens, qui sont généralement élevés dans les maladies auto-immunes de la thyroïde."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "A l’occasion d’une visite d’embauche dans une usine de fabrication de solvants, Monsieur M..20 ans, d’origine algérienne a réalisé un hémogramme dont les résultats sont les suivants : Hématies : 6,76 T/L. Hb : 122g/L. V GM : 68fl. T CMH : 18pg. Leucocytes : 6G/L. Plaquettes : 275G/L. la formule leucocytaire est normale",
+    "options": [
+      "L’hémogramme montre une polyglobulie microcytaire hypochrome",
+      "Le mode de transmission de la β thalassémie est lié à l’X",
+      "L’exposition chronique aux solvants est une cause d’aplasie médullaire",
+      "Dans la β thalassémie hétérozygote, l’électrophorèse de l’hémoglobine met en évidence une augmentation de l’Hb A2 > 30%",
+      "Le diagnostic de β thalassémie mineure au doit être évoqué"
+    ],
+    "correct_answers": [
+      "L’hémogramme montre une polyglobulie microcytaire hypochrome",
+      "Le diagnostic de β thalassémie mineure au doit être évoqué",
+      "L’exposition chronique aux solvants est une cause d’aplasie médullaire"
+    ],
+    "justification_fausses_reponses": {
+      "Le mode de transmission de la β thalassémie est lié à l’X": "La β thalassémie n'est pas liée au chromosome X. Elle est héritée de manière autosomique récessive, ce qui signifie que les deux parents doivent porter le gène pour qu'un enfant soit affecté.",
+      "Dans la β thalassémie hétérozygote, l’électrophorèse de l’hémoglobine met en évidence une augmentation de l’Hb A2 > 30%": "Dans la β thalassémie hétérozygote, l'électrophorèse de l'hémoglobine montre généralement une augmentation de l'Hb A2, mais elle est généralement comprise entre 3,5 et 7%, pas plus de 30%."
+    }
+  }
+]

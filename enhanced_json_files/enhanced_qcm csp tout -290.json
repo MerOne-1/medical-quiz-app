@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi ces propositions concernant la gale, Sarcoptes scabiei , lesquelles sont vraies :",
+    "options": [
+      "Elle se transmet uniquement par contact sexuel.",
+      "L'agent de la gale est un protiste à tropisme cutané.",
+      "La symptomatologie est caractérisée par un prurit intense à recrudescence nocturne.",
+      "L'ivermectine (S tromectol®) est un traitement efficace dans le cas d'une gale commune.",
+      "Le traitement de l'entourage du cas index est indispensable."
+    ],
+    "correct_answers": [
+      "L'ivermectine (S tromectol®) est un traitement efficace dans le cas d'une gale commune.",
+      "La symptomatologie est caractérisée par un prurit intense à recrudescence nocturne.",
+      "Le traitement de l'entourage du cas index est indispensable."
+    ],
+    "justification_fausses_reponses": {
+      "Elle se transmet uniquement par contact sexuel.": "La gale n'est pas uniquement transmise par contact sexuel. Elle peut également être transmise par contact direct avec la peau d'une personne infectée ou par le partage de vêtements ou de literie.",
+      "L'agent de la gale est un protiste à tropisme cutané.": "L'agent de la gale n'est pas un protiste, mais un acarien, Sarcoptes scabiei. Il s'agit d'un parasite qui creuse des tunnels dans la couche supérieure de la peau où il pond ses œufs."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les propositions suivantes concernant l'oxyurose, lesquelles sont vraies ?",
+    "options": [
+      "Lorsqu'un enfant est parasité, les parents, les frères et sœurs vivant sous le même toit doivent être traités.",
+      "Il faut renouveler le traitement après 2 à 3 semaines.",
+      "L'agent responsable de l'oxyurose est un nématode du nom d' Enterobius vermicularis .",
+      "Le traitement par Flubendazole (FL UVERMAL®) est efficace.",
+      "L'auto-infestation de l'enfant est possible."
+    ],
+    "correct_answers": [
+      "L'agent responsable de l'oxyurose est un nématode du nom d' Enterobius vermicularis .",
+      "L'auto-infestation de l'enfant est possible.",
+      "Lorsqu'un enfant est parasité, les parents, les frères et sœurs vivant sous le même toit doivent être traités.",
+      "Le traitement par Flubendazole (FL UVERMAL®) est efficace.",
+      "Il faut renouveler le traitement après 2 à 3 semaines."
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les arthropodes suivants, lesquels font partie du groupe des insectes ou hexapodes ?",
+    "options": [
+      "la punaise des lits ( Cimex lectularius )",
+      "les tiques ( Ixodes ricinus , Argas reflexus )",
+      "les agents de myiases",
+      "le sarcopte de la gale ( Sarcoptes scabiei )",
+      "le pou de tête ( Pediculus humanus  var. capitis)"
+    ],
+    "correct_answers": [
+      "la punaise des lits ( Cimex lectularius )",
+      "les agents de myiases",
+      "le pou de tête ( Pediculus humanus  var. capitis)"
+    ],
+    "justification_fausses_reponses": {
+      "les tiques ( Ixodes ricinus , Argas reflexus )": "Les tiques ne font pas partie du groupe des insectes ou hexapodes. Elles appartiennent à la classe des arachnides, qui comprend également les araignées et les scorpions. Les arachnides se distinguent des insectes par le nombre de leurs pattes : ils en ont huit, tandis que les insectes en ont six.",
+      "le sarcopte de la gale ( Sarcoptes scabiei )": "Le sarcopte de la gale n'est pas un insecte mais un acarien. Les acariens, comme les tiques, appartiennent à la classe des arachnides. Ils se distinguent des insectes par plusieurs caractéristiques, dont le nombre de pattes : les acariens et les autres arachnides en ont huit, tandis que les insectes en ont six."
+    }
+  }
+]

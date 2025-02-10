@@ -1,0 +1,41 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 16/22Question 45
+Non répondue
+Noté sur 1,00
+Question 46
+Non répondue
+Noté sur 1,00
+Question 47
+Non répondue
+Noté sur 1,00Parmi les propositions suivantes concernant la spectroscopie électronique moléculaire UV-visible, quelle est (sont) celle(s) qui
+est (sont) fausse(s) ?
+Veuillez choisir au moins une réponse :
+Elle nécessite une source lumineuse
+Elle donne un spectre bien différencié pour chaque molécule
+Elle permet le dosage des alcanes
+Elle permet de définir la structure d’une molécule
+Elle permet le dosage des ions minéraux
+Votre réponse est incorrecte.
+Les réponses correctes sont : Elle permet de définir la structure d’une molécule, Elle permet le dosage des ions minéraux, Elle
+donne un spectre bien différencié pour chaque molécule, Elle permet le dosage des alcanes
+Le dosage en spectrophotométrie UV d’un comprimé de paracétamol donne une teneur de 45%. La teneur annoncée par le
+fournisseur est de 50%. Quelle(s) est (sont) l(es) affirmation(s) exacte(s) ?
+Veuillez choisir au moins une réponse :
+L’erreur relative est de 2,5%
+L’écart-type est de 2,5%
+L’erreur relative est de 5%
+L’erreur relative est de 10%
+L’écart-type est de 5%
+Votre réponse est incorrecte.
+La réponse correcte est : L’erreur relative est de 10%
+Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ?
+La chromatographie à polarité de phase inversée :
+Veuillez choisir au moins une réponse :
+Utilise une phase stationnaire polaire
+Utilise une phase mobile hydro-organique
+Peut-être appliquée aux espèces ionisées
+Utilise une phase stationnaire en silice vierge
+Elue en premier les solutés les plus polaires
+Votre réponse est incorrecte.
+Les réponses correctes sont : Utilise une phase mobile hydro-organique, P eut-être appliquée aux espèces ionisées, Elue en
+premier les solutés les plus polaires

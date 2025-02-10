@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le cycle cellulaire, quelles sont les propositions vraies :",
+    "options": [
+      "La réplication du matériel génétique dans une cellule eucaryote se déroule tout au long du cycle cellulaire",
+      "Le cycle cellulaire se compose de 4 phases : G1, S, G2, M",
+      "La phase M est la phase la plus longue du cycle cellulaire",
+      "A l’âge adulte, toutes les cellules de l’organisme prolifèrent",
+      "L’organisme se construit grâce à de nombreuses divisions cellulaires"
+    ],
+    "correct_answers": [
+      "L’organisme se construit grâce à de nombreuses divisions cellulaires",
+      "Le cycle cellulaire se compose de 4 phases : G1, S, G2, M"
+    ]
+  }
+]

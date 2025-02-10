@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes relatives aux réticulocytes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le stade réticulocyte est obtenu après expulsion du noyau de l’érythroblaste acidophile",
+      "Un taux de réticulocytes à 50 G/L permet d’affirmer l’origine centrale d’une anémie",
+      "Ils sont morphologiquement reconnaissables sur un frottis sanguin coloré au May Grünwald Giemsa",
+      "Les anémies hémolytiques sont des anémies régénératives associées à une hyperréticulocytose",
+      "Les réticulocytes sont des cellules immatures exclusivement retrouvées dans la moelle osseuse"
+    ],
+    "correct_answers": [
+      "Le stade réticulocyte est obtenu après expulsion du noyau de l’érythroblaste acidophile",
+      "Un taux de réticulocytes à 50 G/L permet d’affirmer l’origine centrale d’une anémie",
+      "Les anémies hémolytiques sont des anémies régénératives associées à une hyperréticulocytose"
+    ],
+    "justification_fausses_reponses": {
+      "Ils sont morphologiquement reconnaissables sur un frottis sanguin coloré au May Grünwald Giemsa": "Cette affirmation est incorrecte car les réticulocytes ne sont pas facilement identifiables sur un frottis sanguin coloré au May Grünwald Giemsa. Ils nécessitent une coloration spécifique (coloration de crétine) pour être visualisés.",
+      "Les réticulocytes sont des cellules immatures exclusivement retrouvées dans la moelle osseuse": "Cette affirmation est incorrecte car les réticulocytes, bien qu'étant des cellules immatures, ne sont pas exclusivement retrouvés dans la moelle osseuse. Ils sont également présents dans le sang périphérique."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant les leucémies aiguës, sélectionnez la ou les proposition(s) exacte(s).",
+    "options": [
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "La réaction cytochimique de la myéloperoxydase peut orienter le diagnostic",
+      "Elles se définissent par la présence d’au moins 20% de blastes dans la moelle osseuse",
+      "Elles peuvent se manifester par un syndrome d’insuffisance médullaire",
+      "Chez l’enfant, les leucémies aiguës lymphoïdes sont plus fréquentes que les leucémies aiguës myéloïdes"
+    ],
+    "correct_answers": [
+      "Elles se définissent par la présence d’au moins 20% de blastes dans la moelle osseuse",
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "La réaction cytochimique de la myéloperoxydase peut orienter le diagnostic",
+      "Elles peuvent se manifester par un syndrome d’insuffisance médullaire",
+      "Chez l’enfant, les leucémies aiguës lymphoïdes sont plus fréquentes que les leucémies aiguës myéloïdes"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Dans les microangiopathies thrombotiques, il est habituel de retrouver :",
+    "options": [
+      "Des schizocytes sur le frottis",
+      "Des sphérocytes sur le frottis",
+      "Une hyper-réticulocytose",
+      "Une élévation des LDH",
+      "Une baisse de l’haptoglobine"
+    ],
+    "correct_answers": [
+      "Une hyper-réticulocytose",
+      "Des schizocytes sur le frottis",
+      "Une élévation des LDH",
+      "Une baisse de l’haptoglobine"
+    ],
+    "justification_fausses_reponses": {
+      "Des sphérocytes sur le frottis": "Les sphérocytes sont généralement associés à l'anémie hémolytique, et non aux microangiopathies thrombotiques. Dans les microangiopathies thrombotiques, on retrouve plutôt des schizocytes, qui sont des globules rouges fragmentés."
+    }
+  }
+]

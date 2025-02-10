@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les sulfamides hypoglycémiants",
+    "options": [
+      "Ce sont des médicaments qui augmentent la synthèse d'insuline par les cellules béta des ilots de Langherhans",
+      "Ce sont des médicaments qui augmentent l'exocytose de l'insuline par les cellules béta des ilots de Langherhans",
+      "L'efficacité hypoglycémiante de ces médicaments est indépendante de la capacité résiduelle du pancréas à secréter de l'insuline",
+      "Ils agissent sur des sous unités de régulation SUR 1 de canal K+ A TP dépendants au niveau des cellules béta des ilots de Langerhans",
+      "L'effet insulino sécréteur de ces médicaments dépend du taux de glucose présent dans le sang"
+    ],
+    "correct_answers": [
+      "Ce sont des médicaments qui augmentent l'exocytose de l'insuline par les cellules béta des ilots de Langherhans",
+      "Ils agissent sur des sous unités de régulation SUR 1 de canal K+ A TP dépendants au niveau des cellules béta des ilots de Langerhans"
+    ],
+    "justification_fausses_reponses": {
+      "Ce sont des médicaments qui augmentent la synthèse d'insuline par les cellules béta des ilots de Langherhans": "C'est incorrect car les sulfamides hypoglycémiants n'augmentent pas la synthèse d'insuline, mais plutôt sa libération par les cellules béta des ilots de Langerhans.",
+      "L'efficacité hypoglycémiante de ces médicaments est indépendante de la capacité résiduelle du pancréas à secréter de l'insuline": "C'est incorrect car l'efficacité des sulfamides hypoglycémiants dépend de la capacité résiduelle du pancréas à secréter de l'insuline. Si le pancréas ne peut plus produire d'insuline, ces médicaments ne seront pas efficaces.",
+      "L'effet insulino sécréteur de ces médicaments dépend du taux de glucose présent dans le sang": "C'est incorrect car l'effet insulino sécréteur des sulfamides hypoglycémiants est indépendant du taux de glucose dans le sang. Ces médicaments stimulent la libération d'insuline indépendamment du taux de glucose."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les antipsychotiques suivants, lequel nécessite une surveillance hebdomadaire de la numération formule sanguine pendant 18 semaines en raison du risque d'agranulocytose qu'il induit ?",
+    "options": [
+      "Clozapine",
+      "Olanzapine",
+      "Aripiprazole",
+      "Chlorpromazine",
+      "Risperidone"
+    ],
+    "correct_answers": [
+      "Clozapine"
+    ],
+    "justification_fausses_reponses": {
+      "Olanzapine": "L'Olanzapine ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose.",
+      "Aripiprazole": "L'Aripiprazole ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car il n'induit pas de risque d'agranulocytose.",
+      "Chlorpromazine": "La Chlorpromazine ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose.",
+      "Risperidone": "La Risperidone ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose."
+    }
+  }
+]

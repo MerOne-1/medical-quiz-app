@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La synthèse du propanolol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 est l'isopropylamine",
+      "Le réactif 1 est la diméthylamine",
+      "Le propanolol possède deux carbones asymétriques",
+      "Le propanolol est protoné à pH physiologique (pH 7,4)",
+      "Le propanolol possède une fonction amine tertiaire"
+    ],
+    "correct_answers": [
+      "Le réactif 1 est l'isopropylamine",
+      "Le propanolol est protoné à pH physiologique (pH 7,4)"
+    ],
+    "justification_fausses_reponses": {
+      "Le réactif 1 est la diméthylamine": "C'est incorrect car le réactif 1 dans la synthèse du propanolol est l'isopropylamine et non la diméthylamine.",
+      "Le propanolol possède deux carbones asymétriques": "C'est incorrect car le propanolol ne possède qu'un seul carbone asymétrique.",
+      "Le propanolol possède une fonction amine tertiaire": "C'est incorrect car le propanolol possède une fonction amine secondaire et non tertiaire."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse la synthèse du Nicéthamide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 est un anhydride d'acide",
+      "Le réactif 2 est la diéthylamine",
+      "Le nicéthamide présente un hétérocycle non aromatique",
+      "Le nicéthamide est protoné à pH 7,4",
+      "Le nicéthamide est achiral"
+    ],
+    "correct_answers": [
+      "Le réactif 2 est la diéthylamine",
+      "Le nicéthamide est achiral"
+    ],
+    "justification_fausses_reponses": {
+      "Le réactif 1 est un anhydride d'acide": "Cette affirmation est incorrecte car dans la synthèse du Nicéthamide, le réactif 1 est généralement un acide carboxylique et non un anhydride d'acide.",
+      "Le nicéthamide présente un hétérocycle non aromatique": "Cette affirmation est incorrecte car le nicéthamide ne présente pas de hétérocycle dans sa structure chimique. Il est composé d'un groupe amide attaché à une chaîne carbonée.",
+      "Le nicéthamide est protoné à pH 7,4": "Cette affirmation est incorrecte car le nicéthamide est une base faible et ne serait pas protoné à un pH de 7,4. Il serait plutôt déprotoné."
+    }
+  }
+]

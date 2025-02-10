@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Les activités ont été mesurées pour une série de β-antagonistes et de β - agonistes. Parmi les propositions suivantes, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "3 n’est pas affin pour β2",
+      "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique",
+      "2 est le salbutamol",
+      "1 est l’antagoniste le plus puissant sur β1",
+      "2 est le ligand le plus affin sur β2"
+    ],
+    "correct_answers": [
+      "2 est le ligand le plus affin sur β2",
+      "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les paramètres à considérer pour qu’une molécule puisse interagir avec sa cible?",
+    "options": [
+      "paramètres lipophiles",
+      "paramètres allostériques",
+      "paramètres stériques",
+      "paramètres électrostatiques",
+      "paramètres hydrophiles"
+    ],
+    "correct_answers": [
+      "paramètres stériques",
+      "paramètres électrostatiques",
+      "paramètres lipophiles"
+    ]
+  }
+]

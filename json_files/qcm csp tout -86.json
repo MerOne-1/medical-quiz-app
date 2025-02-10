@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La synthèse du propanolol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 est l'isopropylamine",
+      "Le réactif 1 est la diméthylamine",
+      "Le propanolol possède deux carbones asymétriques",
+      "Le propanolol est protoné à pH physiologique (pH 7,4)",
+      "Le propanolol possède une fonction amine tertiaire"
+    ],
+    "correct_answers": [
+      "Le réactif 1 est l'isopropylamine",
+      "Le propanolol est protoné à pH physiologique (pH 7,4)"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse la synthèse du Nicéthamide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le réactif 1 est un anhydride d'acide",
+      "Le réactif 2 est la diéthylamine",
+      "Le nicéthamide présente un hétérocycle non aromatique",
+      "Le nicéthamide est protoné à pH 7,4",
+      "Le nicéthamide est achiral"
+    ],
+    "correct_answers": [
+      "Le réactif 2 est la diéthylamine",
+      "Le nicéthamide est achiral"
+    ]
+  }
+]

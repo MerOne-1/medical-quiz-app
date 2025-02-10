@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "En France, quelles sont les pathologies ou les germes ciblés par les vaccins obligatoires ?",
+    "options": [
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, BC G, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, virus influenza",
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae, Papilloma virus"
+    ],
+    "correct_answers": [
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae"
+    ],
+    "justification_fausses_reponses": {
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, BC G, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae": "Le vaccin BCG n'est plus obligatoire en France depuis 2007, il est seulement recommandé pour les personnes à risque.",
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, virus influenza": "Le vaccin contre le virus influenza n'est pas obligatoire en France, il est recommandé pour les personnes âgées ou à risque.",
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae, Papilloma virus": "Le vaccin contre le Papilloma virus n'est pas obligatoire en France, il est recommandé pour les filles de 11 à 14 ans."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les allergies alimentaires",
+    "options": [
+      "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+      "Le syndrome oral est souvent associé à des allergies croisées",
+      "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+      "Ce sont des hypersensibilités de type 1",
+      "L’allergie aux protéines d’œufs est plus fréquente chez l’adulte que chez l’enfant"
+    ],
+    "correct_answers": [
+      "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+      "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+      "Ce sont des hypersensibilités de type 1",
+      "Le syndrome oral est souvent associé à des allergies croisées"
+    ],
+    "justification_fausses_reponses": {
+      "L’allergie aux protéines d’œufs est plus fréquente chez l’adulte que chez l’enfant": "Cette affirmation est incorrecte. En réalité, l'allergie aux protéines d'œufs est plus fréquente chez les enfants. La plupart des enfants surmontent cette allergie à mesure qu'ils grandissent."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Indiquez la ou les bonne(s) réponse(s) : l’infliximab (REMICADE®)",
+    "options": [
+      "s’administre par voie sous-cutanée",
+      "se lie au TNF soluble et membranaire",
+      "est un anticorps monoclonal chimérique 75% humain/25% souris",
+      "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate",
+      "est un anticorps monoclonal chimérique 25% humain/75% souris"
+    ],
+    "correct_answers": [
+      "est un anticorps monoclonal chimérique 75% humain/25% souris",
+      "se lie au TNF soluble et membranaire",
+      "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate"
+    ],
+    "justification_fausses_reponses": {
+      "s’administre par voie sous-cutanée": "L'infliximab est administré par voie intraveineuse, et non sous-cutanée. La voie d'administration sous-cutanée est incorrecte pour ce médicament.",
+      "est un anticorps monoclonal chimérique 25% humain/75% souris": "L'infliximab est un anticorps monoclonal chimérique 75% humain et 25% souris. Cette option inverse les proportions, ce qui est incorrect."
+    }
+  }
+]

@@ -1,0 +1,41 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 2/22Question 3
+Non répondue
+Noté sur 1,00
+Question 4
+Non répondue
+Noté sur 1,00
+Question 5
+Non répondue
+Noté sur 1,00Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) inexacte(s) ?
+En chromatographie, dans les relations de Purnell, la résolution entre deux composés est fonction :
+Veuillez choisir au moins une réponse :
+De la sélectivité
+De l’efficacité
+Des temps de rétention
+Des facteurs de rétention
+Du débit de phase mobile
+Votre réponse est incorrecte.
+Les réponses correctes sont : Des temps de rétention, Du débit de phase mobile
+Parmi les propositions suivantes, lesquelles sont exactes ?
+Une solution éthanolique de couleur rouge est dosée par spectrophotométrie,
+Veuillez choisir au moins une réponse :
+l’eau permet la mesure du blanc
+la longueur d’onde d’analyse se situe entre 400 et 800 nm
+la longueur d’onde d’analyse se situe entre 200 et 400 nm
+il sera nécessaire d’allumer la lampe au deutérium
+les mesures sont effectuées en utilisant des cuves en plastique
+Votre réponse est incorrecte.
+Les réponses correctes sont : les mesures sont effectuées en utilisant des cuves en plastique, la longueur d’onde d’analyse se
+situe entre 400 et 800 nm
+Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?
+Le rendement de l'extraction par un solvant organique d'un composé neutre en solution dans l'eau augmente lorsque:
+Veuillez choisir au moins une réponse :
+Le temps de contact entre les deux phases augmente
+Le volume de la phase aqueuse à extraire augmente
+Le nombre d'extractions réalisées augmente
+Le coefficient de partage du composé augmente
+Le volume du solvant organique augmente
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le coefficient de partage du composé augmente, Le nombre d'extractions réalisées augmente, Le
+volume du solvant organique augmente

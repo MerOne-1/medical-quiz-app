@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique:",
+    "options": [
+      "Cette molécule comporte une N-méthyl-pipérazine qui contribue à sa solubilité",
+      "Elle bloque l’enzyme cible sous forme inactive",
+      "Sa sélectivité repose sur une interaction hydrophobe allostérique due à la partie benzamide",
+      "Cette molécule comporte un enchaînement phénylaminopyrimidine",
+      "Elle correspond au premier inhibiteur de tyrosine kinase utilisé en thérapeutique"
+    ],
+    "correct_answers": [
+      "Cette molécule comporte un enchaînement phénylaminopyrimidine",
+      "Elle correspond au premier inhibiteur de tyrosine kinase utilisé en thérapeutique",
+      "Elle bloque l’enzyme cible sous forme inactive",
+      "Sa sélectivité repose sur une interaction hydrophobe allostérique due à la partie benzamide",
+      "Cette molécule comporte une N-méthyl-pipérazine qui contribue à sa solubilité"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les groupes bioisostères mono-OH-valents?",
+    "options": [
+      "-CH -",
+      "-O-",
+      "=N-",
+      "-OH",
+      "-SH2"
+    ],
+    "correct_answers": [
+      "-OH",
+      "-SH"
+    ]
+  }
+]

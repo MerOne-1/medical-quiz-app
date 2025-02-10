@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le débit de filtration glomérulaire augmente quand le débit sanguin rénal augmente.",
+      "Chez un sujet ayant des variations de pression artérielle moyenne dans une zone normale (100 – 140 mm Hg), le débit de filtration glomérulaire augmente quand la pression sanguine augmente.",
+      "La fraction de filtration augmente quand le débit sanguin rénal augmente.",
+      "Les pressions s’exerçant sur la paroi des capillaires péritubulaires favorisent l’excrétion urinaire des solutés.",
+      "Les résistances vasculaires rénales sont principalement la conséquence de celles des capillaires glomérulaires."
+    ],
+    "correct_answers": [
+      "Le débit de filtration glomérulaire augmente quand le débit sanguin rénal augmente."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Le débit cardiaque :",
+    "options": [
+      "n’est pas modifié quand le sujet passe du repos à une activité physique intense.",
+      "correspond pour un sujet adulte à la fréquence cardiaque maximale du nourrisson diminuée de l'âge de l'adulte, et multipliée par le volume d’éjection systolique.",
+      "augmente quand le système parasympathique est stimulé.",
+      "correspond à la fréquence cardiaque (nombre de battements par minute) multipliée par le volume d’éjection systolique.",
+      "diminue quand le système sympathique est stimulé."
+    ],
+    "correct_answers": [
+      "correspond à la fréquence cardiaque (nombre de battements par minute) multipliée par le volume d’éjection systolique."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’effet Haldane permet d’obtenir une pression en gaz carbonique plus basse quand l’oxygène se fixe sur l’hémoglobine.",
+      "L’addition de 2,3 DPG diminue l’affinité de l’oxygène pour l’hémoglobine.",
+      "Chez un sujet en position debout, la pression en oxygène dans le sang est plus faible à la sortie des capillaires situés au sommet des poumons qu’à celle des capillaires des bases pulmonaires.",
+      "L’effet shunt est présent quand une zone ventilée n’est pas perfusée.",
+      "Le canal thoracique relie l’artère pulmonaire à l’aorte chez le fœtus."
+    ],
+    "correct_answers": [
+      "L’addition de 2,3 DPG diminue l’affinité de l’oxygène pour l’hémoglobine."
+    ]
+  }
+]

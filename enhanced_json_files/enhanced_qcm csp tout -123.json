@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant le Code de déontologie pharmaceutique (2e version), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Ce Code de déontologie comporte des dispositions générales ainsi que des dispositions spécifiques aux différents modes d’exercice de la pharmacie.",
+      "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSS dont il constitue les articles R. 4235-1 à R. 4235-77.",
+      "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSP dont il constitue les articles R. 4235-1 à R. 4235-77.",
+      "Le respect de ce Code par les pharmaciens est facultatif.",
+      "La première version du Code de déontologie pharmaceutique date de 1953 ; la seconde version (encore en vigueur actuellement) remonte à 1995."
+    ],
+    "correct_answers": [
+      "La première version du Code de déontologie pharmaceutique date de 1953 ; la seconde version (encore en vigueur actuellement) remonte à 1995.",
+      "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSP dont il constitue les articles R. 4235-1 à R. 4235-77.",
+      "Ce Code de déontologie comporte des dispositions générales ainsi que des dispositions spécifiques aux différents modes d’exercice de la pharmacie."
+    ],
+    "justification_fausses_reponses": {
+      "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSS dont il constitue les articles R. 4235-1 à R. 4235-77.": "Cette affirmation est incorrecte car le Code de déontologie pharmaceutique est inclus dans le Code de la santé publique (CSP), et non dans le Code de la sécurité sociale (CSS).",
+      "Le respect de ce Code par les pharmaciens est facultatif.": "Cette affirmation est incorrecte car le Code de déontologie pharmaceutique a un caractère obligatoire et opposable pour tous les pharmaciens, quel que soit leur mode d'exercice."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les médicaments à prescription restreinte, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les médicaments à prescription hospitalière peuvent être délivrés à l’officine dès lors qu’ils y sont disponibles et que le patient présente une ordonnance hospitalière.",
+      "Les médicaments à prescription initiale hospitalière peuvent être délivrés la 1ère fois et les fois suivantes à l’officine dès lors qu’ils y sont disponibles et que le patient présente une primo-prescription hospitalière.",
+      "Les médicaments à prescription initiale hospitalière ne peuvent être délivrés la 1ère fois qu’en PUI hospitalières ; lors des renouvellements, ils peuvent cependant être délivrés en officine.",
+      "Un médicament réservé à l’usage hospitalier peut être rétrocédé à un patient ambulatoire s’il est prescrit par un médecin hospitalier.",
+      "Les médicaments à prescription hospitalière ne peuvent être délivrés qu’en PUI hospitalières."
+    ],
+    "correct_answers": [
+      "Les médicaments à prescription hospitalière peuvent être délivrés à l’officine dès lors qu’ils y sont disponibles et que le patient présente une ordonnance hospitalière.",
+      "Les médicaments à prescription initiale hospitalière peuvent être délivrés la 1ère fois et les fois suivantes à l’officine dès lors qu’ils y sont disponibles et que le patient présente une primo-prescription hospitalière."
+    ],
+    "justification_fausses_reponses": {
+      "Les médicaments à prescription initiale hospitalière ne peuvent être délivrés la 1ère fois qu’en PUI hospitalières ; lors des renouvellements, ils peuvent cependant être délivrés en officine.": "Cette affirmation est incorrecte car les médicaments à prescription initiale hospitalière peuvent être délivrés dès la première fois en officine, à condition que le patient présente une primo-prescription hospitalière.",
+      "Un médicament réservé à l’usage hospitalier peut être rétrocédé à un patient ambulatoire s’il est prescrit par un médecin hospitalier.": "Cette affirmation est fausse car un médicament réservé à l'usage hospitalier ne peut pas être délivré à un patient ambulatoire, même si la prescription provient d'un médecin hospitalier.",
+      "Les médicaments à prescription hospitalière ne peuvent être délivrés qu’en PUI hospitalières.": "Cette affirmation est incorrecte car les médicaments à prescription hospitalière peuvent être délivrés en officine si le patient présente une ordonnance hospitalière."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Quels sont les trois les éléments pris en compte par la jurisprudence pour qualifier une relation de travail salarié ?",
+    "options": [
+      "Des horaires précis",
+      "Une rémunération",
+      "Une fiche de paie",
+      "Une prestation de travail",
+      "Un lien de subordination"
+    ],
+    "correct_answers": [
+      "Une rémunération",
+      "Un lien de subordination",
+      "Une prestation de travail"
+    ],
+    "justification_fausses_reponses": {
+      "Des horaires précis": "Bien que les horaires précis puissent être un indicateur d'une relation de travail salarié, ils ne sont pas un critère déterminant en soi. Une personne peut avoir des horaires précis sans être salariée.",
+      "Une fiche de paie": "La fiche de paie est un document qui atteste de la rémunération d'un salarié, mais elle n'est pas un élément pris en compte pour qualifier une relation de travail salarié. Elle est plutôt une conséquence de cette qualification."
+    }
+  }
+]

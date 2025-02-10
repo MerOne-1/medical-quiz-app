@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication au CO, laquelle (lesquelles) est (sont) inexacte(s) ?",
+    "options": [
+      "Le CO se caractérise par une odeur très caractéristique.",
+      "Il n’y a pas de HbCO chez un sujet normal.",
+      "Les effets cliniques ne se manifestent qu’à partir d’un taux de carboxyhémoglobine > 60%.",
+      "L'HbCO présente deux bandes d’absorption dans le spectre visible, non modifiées sous l’effet d’un réducteur.",
+      "La combinaison entre l’Hb et le CO est stable mais réversible."
+    ],
+    "correct_answers": [
+      "Les effets cliniques ne se manifestent qu’à partir d’un taux de carboxyhémoglobine > 60%.",
+      "Il n’y a pas de HbCO chez un sujet normal.",
+      "Le CO se caractérise par une odeur très caractéristique."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant la soumission chimique, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les analyses toxicologiques réalisées chez une victime de soumission chimique, supposée ou avérée, reposent exclusivement sur une analyse capillaire réalisée à distance des faits.",
+      "Les substances administrées dans un contexte de soumission chimique sont dans la grande majorité des cas des médicaments antidépresseurs.",
+      "Les victimes de soumission chimique sont principalement les jeunes femmes et les enfants.",
+      "Les substances administrées dans un contexte de soumission chimique présentent en général des durées d’action et des demi-vies d’élimination courtes.",
+      "Dans un contexte de suspicion de soumission chimique, l’identification et le dosage des benzodiazépines au niveau sanguin sont idéalement réalisés par une méthode rapide automatisée de type immunochimique."
+    ],
+    "correct_answers": [
+      "Les victimes de soumission chimique sont principalement les jeunes femmes et les enfants.",
+      "Les substances administrées dans un contexte de soumission chimique présentent en général des durées d’action et des demi-vies d’élimination courtes."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces substances, laquelle (lesquelles) est (sont) hépatotoxique(s) ?",
+    "options": [
+      "Paracétamol.",
+      "Méthyldopa.",
+      "Amiodarone.",
+      "Aucune de ces propositions.",
+      "Halotane."
+    ],
+    "correct_answers": [
+      "Halotane.",
+      "Amiodarone.",
+      "Paracétamol.",
+      "Méthyldopa."
+    ]
+  }
+]

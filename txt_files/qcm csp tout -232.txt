@@ -1,0 +1,39 @@
+16/05/2020 Quiz - Biochimie
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573051&cmid=205597 13/16Question 36
+Non répondue
+Noté sur 1,00
+Question 37
+Non répondue
+Noté sur 1,00
+Question 38
+Non répondue
+Noté sur 1,00Parmi les affir mations suiv antes concer nant la T aq polymérase, laquelle (lesquelles) est (sont) exact e(s) ?
+Veuillez choisir au moins une réponse :
+Il s’agit d’une transcriptase inverse
+Il s’agit d’une ADN polymérase
+Il s’agit d’une enzyme de restriction
+Il s’agit d’une ARN polymérase
+Aucune des affirmations n’est exacte
+Votre réponse est incorrecte.
+La réponse correcte est : Il s’agit d’une ADN polymérase
+Parmi les affir mations suiv antes concer nant le Km, la constant e de Michaelis, laquelle (lesquelles) est (sont) exact e(s) ?
+Veuillez choisir au moins une réponse :
+Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est égale à  V / 2
+Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substrat
+Elle est diminuée en présence d’un inhibiteur compétitif
+Cette constante est identique pour toutes les enzymes
+Elle s’exprime en mol/minmax
+Votre réponse est incorrecte.
+Les réponses correctes sont : Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est
+égale à  V / 2, Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substratmax
+Parmi les affir mations suiv antes concer nant le métabolisme du fer , laquelle (lesquelles) est (sont) exact e(s) ?
+Veuillez choisir au moins une réponse :
+Le fer excédentaire est physiologiquement éliminé par voie urinaire
+La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves
+Le degré de saturation de la transferrine permet d’apprécier la quantité de fer dans les réserves
+Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves
+L’hémochromatose héréditaire est une cause de surcharge en fer
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des
+réserves, La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves,
+L’hémochromatose héréditaire est une cause de surcharge en fer

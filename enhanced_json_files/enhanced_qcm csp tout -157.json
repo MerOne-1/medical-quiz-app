@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la sclérose en plaque, laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "L'acetate de glatiramere est un interferon Beta 1a",
+      "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque",
+      "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+      "Toutes les spécialités de type interferon Béta utilisées dans la sclérose en plaque sont systématiquement injectés par voie sous cutanée",
+      "Diméthyl fumarate doit systématiquement être prescrit avec une dose de charge (posologie 2 fois supérieure à la posologie d'entretien) pendant 7 jours pour être efficace"
+    ],
+    "correct_answers": [
+      "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+      "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque"
+    ],
+    "justification_fausses_reponses": {
+      "L'acetate de glatiramere est un interferon Beta 1a": "L'acétate de glatiramère n'est pas un interféron bêta-1a, mais un médicament immunomodulateur utilisé dans le traitement de la sclérose en plaques.",
+      "Toutes les spécialités de type interferon Béta utilisées dans la sclérose en plaque sont systématiquement injectés par voie sous cutanée": "Toutes les spécialités d'interféron bêta ne sont pas systématiquement injectées par voie sous-cutanée. Certaines peuvent être administrées par voie intramusculaire.",
+      "Diméthyl fumarate doit systématiquement être prescrit avec une dose de charge (posologie 2 fois supérieure à la posologie d'entretien) pendant 7 jours pour être efficace": "Le diméthyl fumarate n'a pas besoin d'être prescrit avec une dose de charge pour être efficace. La posologie est généralement augmentée progressivement pour minimiser les effets secondaires."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants lesquels ou lequel appartiennent à la famille des Benzodiazépines ?",
+    "options": [
+      "Propofol",
+      "Etifoxine",
+      "Hydroxyzine",
+      "Alprazolam",
+      "Buspirone"
+    ],
+    "correct_answers": [
+      "Alprazolam"
+    ],
+    "justification_fausses_reponses": {
+      "Propofol": "Le Propofol est un anesthésique général, il n'appartient pas à la famille des Benzodiazépines.",
+      "Etifoxine": "L'Etifoxine est un anxiolytique non-benzodiazépine, il n'appartient donc pas à la famille des Benzodiazépines.",
+      "Hydroxyzine": "L'Hydroxyzine est un antihistaminique de première génération, il n'appartient pas à la famille des Benzodiazépines.",
+      "Buspirone": "La Buspirone est un anxiolytique non-benzodiazépine, elle n'appartient donc pas à la famille des Benzodiazépines."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu\"SR O\" 2 à 3 fois / jour que signifie \"SR O\" ?",
+    "options": [
+      "Soluté de réhydratation orale",
+      "Soluté pour les problèmes respiratoires obstructifs",
+      "Autre définition",
+      "Soluté de remplissage orale",
+      "Soluté de remplissage œsophagien"
+    ],
+    "correct_answers": [
+      "Soluté de réhydratation orale"
+    ],
+    "justification_fausses_reponses": {
+      "Soluté pour les problèmes respiratoires obstructifs": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale', qui est utilisé pour traiter la déshydratation, et non les problèmes respiratoires.",
+      "Autre définition": "Cette option est incorrecte car 'SR O' a une signification spécifique en pharmacologie, qui est 'Soluté de réhydratation orale'. Il n'y a pas d'autre définition valide dans ce contexte.",
+      "Soluté de remplissage orale": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale'. Le terme 'soluté de remplissage' n'est pas utilisé en pharmacologie.",
+      "Soluté de remplissage œsophagien": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale'. Le terme 'soluté de remplissage œsophagien' n'est pas utilisé en pharmacologie."
+    }
+  }
+]

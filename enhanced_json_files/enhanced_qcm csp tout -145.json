@@ -1,0 +1,58 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Trente neuf pour cent des erreurs médicamenteuses sont mises en évidence durant la phase d'administration",
+      "Conseils au patient et Éducation Thérapeutique du patient sont des expressions équivalentes",
+      "Meddispar° est une base de données qui recense tous les médicaments",
+      "Le Dossier de pharmaceutique (DP) recense tous les médicaments dispensés pour une personne sur une durée d'un an"
+    ],
+    "correct_answers": [
+      "Trente neuf pour cent des erreurs médicamenteuses sont mises en évidence durant la phase d'administration"
+    ],
+    "justification_fausses_reponses": {
+      "Conseils au patient et Éducation Thérapeutique du patient sont des expressions équivalentes": "Ces deux expressions ne sont pas équivalentes. L'éducation thérapeutique du patient est un processus plus global qui comprend des conseils au patient mais aussi l'apprentissage de la gestion de sa maladie.",
+      "Meddispar° est une base de données qui recense tous les médicaments": "Meddispar° est une base de données qui recense les médicaments à usage hospitalier uniquement, et non tous les médicaments.",
+      "Le Dossier de pharmaceutique (DP) recense tous les médicaments dispensés pour une personne sur une durée d'un an": "Le Dossier Pharmaceutique (DP) recense les médicaments délivrés en pharmacie de ville sur les 4 derniers mois, et non sur une durée d'un an."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la pharmacocinétique des médicaments chez la femme enceinte, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La progestérone entraîne un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+      "L'absorption intestinale les médicaments est diminuée",
+      "Les estrogènes entraînent un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+      "L'élimination rénale est augmentée",
+      "Le volume de distribution des médicament est augmenté"
+    ],
+    "correct_answers": [
+      "Le volume de distribution des médicament est augmenté",
+      "Les estrogènes entraînent un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+      "L'élimination rénale est augmentée"
+    ],
+    "justification_fausses_reponses": {
+      "La progestérone entraîne un effet inhibiteur enzymatique sur la métabolisation de certains médicaments": "C'est incorrect. La progestérone n'a pas d'effet inhibiteur sur la métabolisation des médicaments. Au contraire, elle peut augmenter le métabolisme de certains médicaments en induisant les enzymes du foie.",
+      "L'absorption intestinale les médicaments est diminuée": "C'est incorrect. L'absorption intestinale des médicaments n'est pas nécessairement diminuée pendant la grossesse. En fait, les changements physiologiques pendant la grossesse peuvent augmenter l'absorption de certains médicaments."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "RCP signifie R éunion de Concertation Pluridisciplinaire",
+      "Deux cent cinquante mille décès sont imputables au cancer annuellement",
+      "La mortalité par cancer dépend exclusivement de la létalité",
+      "Dépistage et prévention primaire sont synonymes"
+    ],
+    "correct_answers": [
+      "RCP signifie R éunion de Concertation Pluridisciplinaire"
+    ],
+    "justification_fausses_reponses": {
+      "Deux cent cinquante mille décès sont imputables au cancer annuellement": "Cette affirmation est incorrecte car le nombre de décès dus au cancer varie chaque année et dépend de nombreux facteurs, y compris les progrès de la recherche médicale et les politiques de santé publique.",
+      "La mortalité par cancer dépend exclusivement de la létalité": "Cette affirmation est incorrecte car la mortalité par cancer dépend de nombreux facteurs, y compris la létalité, mais aussi le taux d'incidence, l'âge au moment du diagnostic, la qualité des soins médicaux et les facteurs de risque individuels.",
+      "Dépistage et prévention primaire sont synonymes": "Cette affirmation est incorrecte car le dépistage et la prévention primaire sont deux concepts différents en santé publique. La prévention primaire vise à prévenir l'apparition d'une maladie, tandis que le dépistage vise à identifier une maladie à un stade précoce, lorsque le traitement est généralement plus efficace."
+    }
+  }
+]

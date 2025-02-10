@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule active, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique",
+      "Sa cible thérapeutique est une aspartyl-protéase",
+      "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+      "Cette molécule est biodisponible par voie orale",
+      "Cette molécule est le captopril"
+    ],
+    "correct_answers": [
+      "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+      "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la famille des «sétrons », signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "ils sont métabolisés au niveau hépatique",
+      "ils sont des antagonistes 5HT",
+      "ils sont aussi alpha-bloquants",
+      "ils diminuent la vidange gastrique",
+      "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+    ],
+    "correct_answers": [
+      "ils sont des antagonistes 5HT",
+      "ils sont métabolisés au niveau hépatique",
+      "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+    ]
+  }
+]

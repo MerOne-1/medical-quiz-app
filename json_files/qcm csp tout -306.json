@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives au clitocybe de l'olivier ( Omphalotus olearius)  choisir celle(s) exacte(s)",
+    "options": [
+      "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+      "Il est confondu le plus souvent avec la chanterelle comestible",
+      "Il provoque des sudations nocturnes sans précédent",
+      "C’est une espèce courante dans le Nord – P as-de-Calais",
+      "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+    ],
+    "correct_answers": [
+      "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+      "Il est confondu le plus souvent avec la chanterelle comestible",
+      "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle(s) qui est (sont) vraie(s)",
+    "options": [
+      "L’albumen est haploïde",
+      "L’embryon est diploïde",
+      "Le nucelle est haploïde",
+      "Les 2 noyaux polaires sont haploïdes",
+      "Le sac embryonnaire est diploïde"
+    ],
+    "correct_answers": [
+      "Les 2 noyaux polaires sont haploïdes",
+      "L’embryon est diploïde"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives à L'amanite phalloïde ( Amanita phalloides ) choisir celle(s) exacte(s)",
+    "options": [
+      "Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel",
+      "Son ingestion provoque des hallucinations",
+      "Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches",
+      "Elle ne possède pas de voile général apparent sur le chapeau, ni d'anneau",
+      "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+    ],
+    "correct_answers": [
+      "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+    ]
+  }
+]

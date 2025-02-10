@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes relatives à l'érythropoïèse, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'acide ascorbique favorise l'absorption intestinale du fer",
+      "L'absorption intestinale du fer a lieu essentiellement au niveau du duodénum",
+      "Le fer provenant de la dégradation physiologique de l'hémoglobine est réutilisé essentiellement pour l'érythropoïèse",
+      "Le fer est à l'état ferreux dans l'hémoglobine",
+      "La protéine de transport plasmatique du fer est la ferritine"
+    ],
+    "correct_answers": [
+      "L'acide ascorbique favorise l'absorption intestinale du fer",
+      "L'absorption intestinale du fer a lieu essentiellement au niveau du duodénum",
+      "Le fer provenant de la dégradation physiologique de l'hémoglobine est réutilisé essentiellement pour l'érythropoïèse",
+      "Le fer est à l'état ferreux dans l'hémoglobine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Dans une anémie de type inflammatoire, on observe généralement :",
+    "options": [
+      "Une discrète hyperlymphocytose",
+      "Une accélération de la VS",
+      "Une discrète thrombocytose",
+      "Une hyposidérémie",
+      "Une augmentation de la capacité totale de fixation de la transferrine"
+    ],
+    "correct_answers": [
+      "Une hyposidérémie",
+      "Une accélération de la VS",
+      "Une discrète thrombocytose"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes concernant les groupes sanguins, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Un sujet de groupe O Rhésus négatif peut être transfusé avec du sang de groupe O Rhésus positif",
+      "La méthode globulaire de Beth-Vincent permet de rechercher les antigènes du système ABO à la surface des globules rouges",
+      "Il est nécessaire de réaliser 2 prélèvements différents pour valider une carte de groupe sanguin",
+      "Les anticorps naturels du système ABO sont d’isotype IgM",
+      "Les sujets de groupe AB n’ont pas d’anticorps naturels anti-A et anti-B"
+    ],
+    "correct_answers": [
+      "Les anticorps naturels du système ABO sont d’isotype IgM",
+      "Les sujets de groupe AB n’ont pas d’anticorps naturels anti-A et anti-B",
+      "La méthode globulaire de Beth-Vincent permet de rechercher les antigènes du système ABO à la surface des globules rouges",
+      "Il est nécessaire de réaliser 2 prélèvements différents pour valider une carte de groupe sanguin"
+    ]
+  }
+]

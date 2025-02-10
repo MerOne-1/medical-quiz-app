@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "L’amanite phalloïde ( Amanita phalloides ) est un champignon mortel très courant. Pour la reconnaître, on peut rechercher les caractères suivants, qui la caractérisent, au moins en partie :",
+    "options": [
+      "Sporée blanche, lames décurrentes, voile partiel présent.",
+      "Anneau et volve en sac.",
+      "Sporée blanche, lames adnées, voile partiel et voile général présents.",
+      "Sporée blanche et lames libres",
+      "Chapeau rouge portant des flocons blancs"
+    ],
+    "correct_answers": [
+      "Anneau et volve en sac.",
+      "Sporée blanche et lames libres"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisir celle(s) contenant que des taxons appartenant à la lignée brune",
+    "options": [
+      "Spiruline, Fucus, Mildiou, Pomme de terre",
+      "Pomme de terre, Spirogyre, Sphaigne",
+      "Diatomée, Fucus, Mildiou de la vigne",
+      "Diatomée, Spirogyre, Sphaigne",
+      "Champignon, Fucus, Sphaigne"
+    ],
+    "correct_answers": [
+      "Diatomée, Fucus, Mildiou de la vigne"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous choisissez celle(s) définissant une espèce dioïque :",
+    "options": [
+      "Une espèce dioïque est une espèce présentant un seul sexe par fleur",
+      "Une espèce dioïque est une espèce présentant un seul sexe par prothalle",
+      "Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle",
+      "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents",
+      "Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur"
+    ],
+    "correct_answers": [
+      "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents"
+    ]
+  }
+]

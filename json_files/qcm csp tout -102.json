@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules à activité antivirale, signaler la ou les proposition(s) exacte(s)?",
+    "options": [
+      "Ce sont des prodrogues, activée par des kinases cellulaires",
+      "ce sont des analogues de la guanosine",
+      "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+      "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B",
+      "ce sont des inhibiteurs de tyrosine kinase"
+    ],
+    "correct_answers": [
+      "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+      "Ce sont des prodrogues, activée par des kinases cellulaires",
+      "ce sont des analogues de la guanosine",
+      "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s)?",
+    "options": [
+      "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+      "Cette molécule est utilisé en association avec le cobicistat",
+      "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule n'est pratiquement pas métabolisée par le foie"
+    ],
+    "correct_answers": [
+      "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+      "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+      "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+      "Cette molécule est utilisé en association avec le cobicistat"
+    ]
+  }
+]

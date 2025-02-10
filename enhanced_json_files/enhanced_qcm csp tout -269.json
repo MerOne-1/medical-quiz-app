@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant la maladie de Crohn, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+      "la maladie de Crohn est beaucoup plus fréquente que la rectocolite hémorragique",
+      "Les lésions intestinales sont segmentaires et transmurales",
+      "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn",
+      "la maladie de Crohn est plus fréquente chez les fumeurs"
+    ],
+    "correct_answers": [
+      "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+      "la maladie de Crohn est plus fréquente chez les fumeurs",
+      "Les lésions intestinales sont segmentaires et transmurales",
+      "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn"
+    ],
+    "justification_fausses_reponses": {
+      "la maladie de Crohn est beaucoup plus fréquente que la rectocolite hémorragique": "Cette affirmation est incorrecte. La prévalence de la maladie de Crohn et de la rectocolite hémorragique est similaire, avec une légère prédominance de la rectocolite hémorragique dans certaines régions."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "La voie classique du complément",
+    "options": [
+      "est initiée par des complexes immuns",
+      "renforce la réaction inflammatoire",
+      "facilite l’élimination des complexes immuns",
+      "est initiée par une surface bactérienne",
+      "appartient à l’immunité adaptative"
+    ],
+    "correct_answers": [
+      "renforce la réaction inflammatoire",
+      "est initiée par des complexes immuns",
+      "facilite l’élimination des complexes immuns"
+    ],
+    "justification_fausses_reponses": {
+      "est initiée par une surface bactérienne": "La voie classique du complément n'est pas initiée par une surface bactérienne, mais par la liaison du complément C1q à des anticorps fixés à des antigènes, formant ainsi des complexes immuns.",
+      "appartient à l’immunité adaptative": "La voie classique du complément appartient à l'immunité innée, pas à l'immunité adaptative. L'immunité innée est la première ligne de défense du corps contre les infections, tandis que l'immunité adaptative est une réponse immunitaire spécifique à un antigène particulier."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les maladies inflammatoires chroniques de l’intestin (MICI), quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il n’existe pas de traitement curatif des MICI",
+      "Le Vedolizumab (ENTYVIO®) inhibe les chimiokines impliquées dans le recrutement des lymphocytes au cours des MICI",
+      "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques",
+      "Le Rituximab (MABTHERA®) permet d’obtenir la rémission de la maladie de Crohn",
+      "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI"
+    ],
+    "correct_answers": [
+      "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI",
+      "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques"
+    ],
+    "justification_fausses_reponses": {
+      "Il n’existe pas de traitement curatif des MICI": "Cette affirmation est incorrecte car bien qu'il n'y ait pas de remède définitif pour les MICI, il existe des traitements qui peuvent aider à gérer les symptômes et à prévenir les complications.",
+      "Le Vedolizumab (ENTYVIO®) inhibe les chimiokines impliquées dans le recrutement des lymphocytes au cours des MICI": "Cette affirmation est incorrecte car le Vedolizumab n'inhibe pas les chimiokines, mais plutôt l'intégrine α4β7, ce qui empêche les lymphocytes de se lier à la molécule d'adressage des cellules MadCAM-1 dans l'intestin.",
+      "Le Rituximab (MABTHERA®) permet d’obtenir la rémission de la maladie de Crohn": "Cette affirmation est incorrecte car le Rituximab, un anticorps monoclonal qui cible les cellules B, n'est pas utilisé pour traiter la maladie de Crohn. Il est principalement utilisé pour traiter certaines formes de cancer et de maladies auto-immunes."
+    }
+  }
+]

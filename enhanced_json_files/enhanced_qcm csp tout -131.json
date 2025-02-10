@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’un/de champignon(s) ?",
+    "options": [
+      "Rapamycine",
+      "Ciclosporine",
+      "Erythromycine",
+      "Aminosides",
+      "Pénicillines"
+    ],
+    "correct_answers": [
+      "Ciclosporine",
+      "Pénicillines"
+    ],
+    "justification_fausses_reponses": {
+      "Rapamycine": "La Rapamycine est une molécule produite par la bactérie Streptomyces hygroscopicus, et non par un champignon.",
+      "Erythromycine": "L'Erythromycine est un antibiotique produit par la bactérie Saccharopolyspora erythraea, et non par un champignon.",
+      "Aminosides": "Les Aminosides sont une classe d'antibiotiques produits par diverses bactéries, comme Streptomyces et Micromonospora, et non par des champignons."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "La vinorelbine :",
+    "options": [
+      "a une neurotoxicité plus importante que la vincristine",
+      "requiert un carnet de suivi à remettre au patient",
+      "peut être délivrée à l’officine",
+      "est administrable par voie orale",
+      "est un anticancéreux"
+    ],
+    "correct_answers": [
+      "est un anticancéreux",
+      "peut être délivrée à l’officine",
+      "est administrable par voie orale",
+      "requiert un carnet de suivi à remettre au patient"
+    ],
+    "justification_fausses_reponses": {
+      "a une neurotoxicité plus importante que la vincristine": "C'est incorrect. La vinorelbine a une neurotoxicité moins importante que la vincristine. La neurotoxicité est un effet secondaire courant des médicaments anticancéreux, mais la vinorelbine est généralement mieux tolérée que la vincristine à cet égard."
+    }
+  }
+]

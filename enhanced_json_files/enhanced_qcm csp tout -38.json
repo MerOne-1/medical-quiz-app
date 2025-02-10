@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la spectroscopie électronique moléculaire UV-visible, quelle est (sont) celle(s) qui est (sont) fausse(s) ?",
+    "options": [
+      "Elle nécessite une source lumineuse",
+      "Elle donne un spectre bien différencié pour chaque molécule",
+      "Elle permet le dosage des alcanes",
+      "Elle permet de définir la structure d’une molécule",
+      "Elle permet le dosage des ions minéraux"
+    ],
+    "correct_answers": [
+      "Elle permet de définir la structure d’une molécule",
+      "Elle permet le dosage des ions minéraux",
+      "Elle donne un spectre bien différencié pour chaque molécule",
+      "Elle permet le dosage des alcanes"
+    ],
+    "justification_fausses_reponses": {
+      "Elle nécessite une source lumineuse": "Cette affirmation est fausse car la spectroscopie électronique moléculaire UV-visible n'a pas besoin d'une source lumineuse externe. Elle utilise l'absorption de la lumière UV-visible par les molécules pour produire un spectre."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Le dosage en spectrophotométrie UV d’un comprimé de paracétamol donne une teneur de 45%. La teneur annoncée par le fournisseur est de 50%. Quelle(s) est (sont) l(es) affirmation(s) exacte(s) ?",
+    "options": [
+      "L’erreur relative est de 2,5%",
+      "L’écart-type est de 2,5%",
+      "L’erreur relative est de 5%",
+      "L’erreur relative est de 10%",
+      "L’écart-type est de 5%"
+    ],
+    "correct_answers": [
+      "L’erreur relative est de 10%"
+    ],
+    "justification_fausses_reponses": {
+      "L’erreur relative est de 2,5%": "L'erreur relative est calculée en prenant la différence entre la valeur mesurée et la valeur réelle, divisée par la valeur réelle. Ici, la différence est de 5% (50% - 45%), donc l'erreur relative est de 10% (5% / 50%), pas de 2,5%.",
+      "L’écart-type est de 2,5%": "L'écart-type est une mesure de la dispersion des valeurs autour de la moyenne. Il n'est pas pertinent dans ce contexte car nous comparons une seule mesure à une valeur attendue, pas un ensemble de mesures.",
+      "L’erreur relative est de 5%": "L'erreur relative est calculée en prenant la différence entre la valeur mesurée et la valeur réelle, divisée par la valeur réelle. Ici, la différence est de 5% (50% - 45%), donc l'erreur relative est de 10% (5% / 50%), pas de 5%.",
+      "L’écart-type est de 5%": "L'écart-type est une mesure de la dispersion des valeurs autour de la moyenne. Il n'est pas pertinent dans ce contexte car nous comparons une seule mesure à une valeur attendue, pas un ensemble de mesures."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ? La chromatographie à polarité de phase inversée :",
+    "options": [
+      "Utilise une phase stationnaire polaire",
+      "Utilise une phase mobile hydro-organique",
+      "Peut-être appliquée aux espèces ionisées",
+      "Utilise une phase stationnaire en silice vierge",
+      "Elue en premier les solutés les plus polaires"
+    ],
+    "correct_answers": [
+      "Utilise une phase mobile hydro-organique",
+      "Peut-être appliquée aux espèces ionisées",
+      "Elue en premier les solutés les plus polaires"
+    ],
+    "justification_fausses_reponses": {
+      "Utilise une phase stationnaire polaire": "C'est incorrect car dans la chromatographie à polarité de phase inversée, la phase stationnaire est non polaire. C'est l'inverse de la chromatographie en phase normale où la phase stationnaire est polaire.",
+      "Utilise une phase stationnaire en silice vierge": "C'est incorrect car dans la chromatographie à polarité de phase inversée, la phase stationnaire est généralement constituée de silice modifiée par des groupes alkyles, et non de silice vierge."
+    }
+  }
+]

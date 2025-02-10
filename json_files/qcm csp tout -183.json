@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Chez un sujet en bonne santé, l’urée filtrée par le glomérule est complètement éliminée dans les urines.",
+      "L’appareil juxta-glomérulaire est constitué par des cellules situées dans l’artériole glomérulaire afférente, des cellules mésangiales et des cellules du tube contourné proximal.",
+      "La réabsorption tubulaire de l’eau est plus importante par les néphrons ayant une anse de Henlé s’enfonçant profondément dans la médullaire que dans ceux ayant une courte anse de Henlé.",
+      "Le débit sanguin dans l’artériole glomérulaire efférente est plus élevé que dans l’artériole glomérulaire afférente.",
+      "Le rein participe au métabolisme de la vitamine D en l’excrétant dans les urines."
+    ],
+    "correct_answers": [
+      "La réabsorption tubulaire de l’eau est plus importante par les néphrons ayant une anse de Henlé s’enfonçant profondément dans la médullaire que dans ceux ayant une courte anse de Henlé."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "SELECTIONNER L A SEULE BONNE PR OPOSITION Le cervelet :",
+    "options": [
+      "n’est pas connecté à l’hypothalamus.",
+      "reçoit des informations du cortex sans recevoir d’informations des noyaux réticulés, des noyaux du pont et des noyaux rouges.",
+      "ne reçoit pas d’informations proprioceptives médullaires.",
+      "reçoit des informations de l’appareil vestibulaire (oreille interne) mais non des noyaux vestibulaires.",
+      "compare les informations motrices qu’il reçoit du cortex moteur aux informations proprioceptives qui lui proviennent de la moelle épinière, ce qui lui permet de corriger le mouvement."
+    ],
+    "correct_answers": [
+      "compare les informations motrices qu’il reçoit du cortex moteur aux informations proprioceptives qui lui proviennent de la moelle épinière, ce qui lui permet de corriger le mouvement."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une hormone peptidique a un effet sur sa cellule cible par l’intermédiaire de sa fixation sur un récepteur intracellulaire.",
+      "L'hormone de croissance augmente la sensibilité les cellules musculaires à l’insuline.",
+      "L’hormone de croissance stimule la sécrétion de l’IGF1.",
+      "L’hormone de croissance augmente la dégradation protéique au niveau des muscles.",
+      "L'hormone de croissance est principalement secrétée en fin d’après-midi."
+    ],
+    "correct_answers": [
+      "L’hormone de croissance stimule la sécrétion de l’IGF1."
+    ]
+  }
+]

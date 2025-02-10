@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Les espèces responsables du syndrome muscarinien se rencontrent dans les espèces ou genres suivants",
+    "options": [
+      "Inocybe  et Clitocybe",
+      "Boletus satanas",
+      "Inocybe jurana  et Lepista nebularis  (clitocybe nébuleux)",
+      "Psilocybe  et Panaeolus",
+      "Amanita muscaria  et Amanita pantherina"
+    ],
+    "correct_answers": [
+      "Inocybe  et Clitocybe"
+    ],
+    "justification_fausses_reponses": {
+      "Boletus satanas": "Boletus satanas n'est pas responsable du syndrome muscarinien. Il est associé au syndrome satanique, qui est différent.",
+      "Inocybe jurana  et Lepista nebularis  (clitocybe nébuleux)": "Bien que ces espèces soient toxiques, elles ne sont pas associées au syndrome muscarinien. Leur toxicité est due à d'autres composés.",
+      "Psilocybe  et Panaeolus": "Ces genres de champignons sont principalement associés au syndrome hallucinogène, pas au syndrome muscarinien.",
+      "Amanita muscaria  et Amanita pantherina": "Ces espèces sont associées au syndrome panthérinien, qui est différent du syndrome muscarinien."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, laquelle est vraie ?",
+    "options": [
+      "Toutes les amanites ont une volve et un voile partiel",
+      "Tous les champignons consommés par au moins un autre mammifère que nous, sont d'emblée considérés comme comestibles",
+      "Toutes les amanites ont un voile général",
+      "Toutes les amanites sont toxiques crues",
+      "Toutes les amanites sont comestibles cuites"
+    ],
+    "correct_answers": [
+      "Toutes les amanites ont un voile général"
+    ],
+    "justification_fausses_reponses": {
+      "Toutes les amanites ont une volve et un voile partiel": "Bien que la plupart des amanites aient une volve et un voile partiel, ce n'est pas une caractéristique universelle de toutes les amanites.",
+      "Tous les champignons consommés par au moins un autre mammifère que nous, sont d'emblée considérés comme comestibles": "C'est une idée fausse. Certains mammifères peuvent consommer des champignons qui sont toxiques pour les humains.",
+      "Toutes les amanites sont toxiques crues": "Toutes les amanites ne sont pas toxiques crues. Certaines espèces d'amanites sont comestibles après une cuisson appropriée.",
+      "Toutes les amanites sont comestibles cuites": "C'est faux. Certaines espèces d'amanites restent toxiques même après la cuisson."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives au temps d'incubation dans les cas de mycétisme, choisir celle(s) exacte(s)",
+    "options": [
+      "Il permet de connaître la durée totale des syndromes",
+      "S'il est court (< 3h), il permet d'envisager un dosage des CPK, des transaminases, de la créatinine sanguine…",
+      "Pour tous les champignons toxiques, il permet de savoir si le pronostic vital est engagé",
+      "Il permet d'appréhender un risque mortel",
+      "Il doit être considéré avec précautions en cas de mélange"
+    ],
+    "correct_answers": [
+      "Il permet d'appréhender un risque mortel",
+      "Il doit être considéré avec précautions en cas de mélange"
+    ],
+    "justification_fausses_reponses": {
+      "Il permet de connaître la durée totale des syndromes": "C'est incorrect car le temps d'incubation ne permet pas de connaître la durée totale des syndromes. Il s'agit du temps entre l'ingestion du champignon et l'apparition des premiers symptômes, mais cela ne donne pas d'information sur la durée totale des symptômes.",
+      "S'il est court (< 3h), il permet d'envisager un dosage des CPK, des transaminases, de la créatinine sanguine…": "C'est incorrect car le temps d'incubation ne détermine pas directement la nécessité d'un dosage de ces biomarqueurs. Ces dosages sont généralement effectués en fonction des symptômes présentés par le patient, et non du temps d'incubation.",
+      "Pour tous les champignons toxiques, il permet de savoir si le pronostic vital est engagé": "C'est incorrect car le temps d'incubation ne permet pas de déterminer si le pronostic vital est engagé pour tous les champignons toxiques. Le pronostic dépend de nombreux facteurs, dont la quantité de champignons ingérée, le type de champignon, l'état de santé général du patient, etc."
+    }
+  }
+]

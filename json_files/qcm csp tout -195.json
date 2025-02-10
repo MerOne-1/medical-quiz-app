@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les législations en matière de drogues, laquelle (ou lesquelles) est (ou sont) exacte(s) ?",
+    "options": [
+      "La consommation de cannabis est interdite dans tous les pays d’Europe.",
+      "La loi française du 31 décembre 1970 réprime la consommation, la production et la vente de substances illicites.",
+      "Selon la loi française, les peines d’emprisonnement et/ou d’amende encourues pour un usage de cannabis sont les mêmes que celles encourues pour un usage d’héroïne.",
+      "La vente de produits à base de cocaïne a toujours été interdite en France.",
+      "L’injonction thérapeutique peut être une alternative à une peine d’emprisonnement d’un usager de stupéfiants."
+    ],
+    "correct_answers": [
+      "La loi française du 31 décembre 1970 réprime la consommation, la production et la vente de substances illicites.",
+      "L’injonction thérapeutique peut être une alternative à une peine d’emprisonnement d’un usager de stupéfiants.",
+      "Selon la loi française, les peines d’emprisonnement et/ou d’amende encourues pour un usage de cannabis sont les mêmes que celles encourues pour un usage d’héroïne."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant les antidotes, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Il n’existe pas d’antidote permettant la prise en charge de l’intoxication par la digoxine.",
+      "Le charbon activé est un antidote permettant la prise en charge de nombreuses intoxications.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés.",
+      "La N-acétylcystéine est l'antidote d'une intoxication au paracétamol.",
+      "Le bleu de méthylène peut être utilisé comme antidote de toxiques méthémoglobinisants."
+    ],
+    "correct_answers": [
+      "La N-acétylcystéine est l'antidote d'une intoxication au paracétamol.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés.",
+      "Le bleu de méthylène peut être utilisé comme antidote de toxiques méthémoglobinisants."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes, lesquelles sont des actions de prévention primaire dans la lutte contre le tabagisme ?",
+    "options": [
+      "Sevrage tabagique.",
+      "Interdiction de publicité dirigée vers les jeunes.",
+      "Hausse du prix des cigarettes.",
+      "Message à caractère sanitaire sur les emballages des paquets de cigarettes.",
+      "Interdiction de fumer dans les lieux publics."
+    ],
+    "correct_answers": [
+      "Interdiction de publicité dirigée vers les jeunes.",
+      "Message à caractère sanitaire sur les emballages des paquets de cigarettes.",
+      "Hausse du prix des cigarettes.",
+      "Interdiction de fumer dans les lieux publics."
+    ]
+  }
+]

@@ -1,0 +1,548 @@
+{
+    "theme": "Biomathématiques",
+    "questions": [
+        {
+            "question": "Soit un échantillon représentatif d’une certaine population constitué de 60 individus ayant bénéficié de trois traitements différents (20 individus pour chaque traitement) visant à diminuer la cholestérolémie. On veut, avec un test paramétrique, tester s’il y a des différences d’efficacité entre les trois traitements en comparant les cholestérolémies moyennes. P armi les propositions suivantes, lesquelles sont correctes ?",
+            "options": [
+                "La variable de décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au dénominateur",
+                "Si la variable de décision calculée est à l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+                "La variable de décision est le rapport entre la variance intra-groupes sur la variance inter-groupes",
+                "Si la variable de décision calculée est en dehors de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+                "Il s’agit d’une analyse de variance à un facteur fixe"
+            ],
+            "correct_answers": [
+                "Il s’agit d’une analyse de variance à un facteur fixe",
+                "Si la variable de décision calculée est à l'intérieur de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes",
+                "La variable de décision suit, sous l’hypothèse H , une loi de Fisher avec nombre de degrés de liberté égal à 2 au numérateur et à 57 au dénominateur"
+            ],
+            "justification_fausses_reponses": {
+                "La variable de décision est le rapport entre la variance intra-groupes sur la variance inter-groupes": "C'est incorrect car la variable de décision est le rapport entre la variance inter-groupes et la variance intra-groupes, et non l'inverse. C'est ce rapport qui suit une loi de Fisher.",
+                "Si la variable de décision calculée est en dehors de l’intervalle de confiance à 95%, alors on ne peut pas rejeter l’hypothèse H  d’égalité des moyennes": "C'est incorrect car si la variable de décision calculée est en dehors de l'intervalle de confiance à 95%, alors on doit rejeter l'hypothèse H d'égalité des moyennes. En dehors de cet intervalle, la différence est considérée comme statistiquement significative."
+            }
+        },
+        {
+            "question": "Concernant la régression linéaire simple de Y en fonction de X, quelles sont les propositions correctes ?",
+            "options": [
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y",
+                "La régression simple la plus pertinente de Y en fonction de X est toujours linéaire",
+                "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ  contre la valeur zéro",
+                "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression soient distribués selon une loi normale"
+            ],
+            "correct_answers": [
+                "On cherche à modéliser la relation entre Y et X par une équation du genre Y = α . X + β",
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester l’existence d’une liaison linéaire entre X et Y",
+                "Pour pouvoir tester la pente de la droite de régression contre la valeur zéro, il faut notamment que les résidus de la régression soient distribués selon une loi normale",
+                "Tester la pente de la droite de régression contre la valeur zéro revient à tester le coefficient de corrélation ρ  contre la valeur zéro"
+            ],
+            "justification_fausses_reponses": {
+                "La régression simple la plus pertinente de Y en fonction de X est toujours linéaire": "Cette affirmation est incorrecte car la régression la plus pertinente n'est pas toujours linéaire. En effet, la nature de la relation entre X et Y peut être non linéaire, par exemple quadratique, exponentielle, logarithmique, etc. Le choix du type de régression dépend de la distribution des données et de la relation entre les variables."
+            }
+        },
+        {
+            "question": "Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en deux groupes parallèles et suivis pendant un minimum d'un an. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "Un test de supériorité est un test unilatéral",
+                "Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai",
+                "Dans un essai randomisé, les traitements sont attribués au hasard",
+                "L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous traitement R",
+                "Le test à mettre en œuvre est un test de comparaison de deux moyennes"
+            ],
+            "correct_answers": [
+                "Un test de supériorité est un test unilatéral",
+                "Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai",
+                "Dans un essai randomisé, les traitements sont attribués au hasard"
+            ],
+            "justification_fausses_reponses": {
+                "L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous traitement R": "C'est incorrect. Une étude de supériorité cherche à démontrer qu'un traitement est plus efficace qu'un autre, pas qu'il a un taux de mortalité plus élevé.",
+                "Le test à mettre en œuvre est un test de comparaison de deux moyennes": "C'est incorrect. Dans ce contexte, le test approprié serait un test de comparaison de deux proportions, pas de deux moyennes."
+            }
+        },
+        {
+            "question": "Trois méthodes sont habituellement utilisées pour doser une protéine P chez l’adulte. On souhaite comparer les résultats obtenus par ces trois méthodes pour un même sérum pédiatrique. On réalise, pour chacune des méthodes, 5 répétitions et l’on obtient les moyennes respectives suivantes (en mg/L) : 10.5, 10.2 et 10.6. Le test statistique utilisé fournit un niveau de signification (p-value) p = 0.42. Quelles sont, parmi les propositions suivantes, celles qui sont exactes ?",
+            "options": [
+                "L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+                "Le test utilisé est le test de Student, en supposant l’hypothèse de normalité vérifiée",
+                "Au seuil de 5%, on peut dire qu’en moyenne les trois méthodes ne fournissent pas la même valeur de dosage",
+                "S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire pour réaliser le test",
+                "Le test utilisé est un test d’ANOVA"
+            ],
+            "correct_answers": [
+                "Le test utilisé est un test d’ANOVA",
+                "L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes",
+                "S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire pour réaliser le test"
+            ],
+            "justification_fausses_reponses": {
+                "Le test utilisé est le test de Student, en supposant l’hypothèse de normalité vérifiée": "Cette affirmation est incorrecte car le test de Student est généralement utilisé pour comparer les moyennes de deux groupes, pas de trois. Ici, un test d'ANOVA est plus approprié car il permet de comparer les moyennes de plusieurs groupes.",
+                "Au seuil de 5%, on peut dire qu’en moyenne les trois méthodes ne fournissent pas la même valeur de dosage": "Cette affirmation est incorrecte car la p-value obtenue (0.42) est supérieure au seuil de 5%. Cela signifie que l'on ne peut pas rejeter l'hypothèse nulle, qui est que les moyennes des trois méthodes sont égales."
+            }
+        },
+        {
+            "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin de déterminer s'il existe un lien entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Dans l'échantillon de 309 sujets, le coefficient de corrélation linéaire est égal à 0.035, le degré de signification du test à mettre en œuvre est égal à 54%. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "Les valeurs du coefficient de corrélation linéaire sont toujours comprises entre 0 et 1",
+                "Le test à mettre en œuvre est bilatéral",
+                "L'hypothèse nulle du test à mettre en œuvre stipule que le coefficient de corrélation est égal à 1",
+                "On peut également tester les paramètres d'une droite de régression linéaire pour répondre à la problématique posée",
+                "Au risque 5%, on ne peut pas conclure à une liaison entre l'âge et la CRP"
+            ],
+            "correct_answers": [
+                "Au risque 5%, on ne peut pas conclure à une liaison entre l'âge et la CRP",
+                "Le test à mettre en œuvre est bilatéral",
+                "On peut également tester les paramètres d'une droite de régression linéaire pour répondre à la problématique posée"
+            ],
+            "justification_fausses_reponses": {
+                "Les valeurs du coefficient de corrélation linéaire sont toujours comprises entre 0 et 1": "C'est incorrect. Les valeurs du coefficient de corrélation linéaire peuvent varier de -1 à 1. Un coefficient de 1 indique une corrélation positive parfaite, un coefficient de -1 indique une corrélation négative parfaite et un coefficient de 0 indique l'absence de corrélation.",
+                "L'hypothèse nulle du test à mettre en œuvre stipule que le coefficient de corrélation est égal à 1": "C'est incorrect. L'hypothèse nulle du test de corrélation stipule généralement que le coefficient de corrélation est égal à 0, ce qui signifie qu'il n'y a pas de corrélation entre les deux variables."
+            }
+        },
+        {
+            "question": "Pour comparer plus de deux moyennes observées sur échantillons indépendants, le(s) test(s) paramétrique(s) que l'on peut réaliser est(sont) :",
+            "options": [
+                "Un test du Khi2 d'indépendance",
+                "Un test de comparaison de deux moyennes observées",
+                "Une analyse de variance à un facteur",
+                "Un test de corrélation",
+                "Un test du Khi2 d'homogénéité"
+            ],
+            "correct_answers": [
+                "Une analyse de variance à un facteur"
+            ],
+            "justification_fausses_reponses": {
+                "Un test du Khi2 d'indépendance": "Ce test est utilisé pour déterminer si deux variables catégorielles sont indépendantes ou non, pas pour comparer des moyennes.",
+                "Un test de comparaison de deux moyennes observées": "Ce test est utilisé pour comparer seulement deux moyennes, pas plus.",
+                "Un test de corrélation": "Ce test est utilisé pour évaluer la relation entre deux variables continues, pas pour comparer des moyennes.",
+                "Un test du Khi2 d'homogénéité": "Ce test est utilisé pour vérifier si les fréquences observées dans différentes catégories suivent une distribution spécifique, pas pour comparer des moyennes."
+            }
+        },
+        {
+            "question": "Soit un échantillon représentatif d’une certaine population constitué de 40 individus sur lesquels, entre autres paramètres, l’âge a été relevé. On se propose de mener un test (au risque α = 5%) pour savoir si l’âge moyen dans cette population est supérieur à 80 ans. Parmi les propositions suivantes, lesquelles sont correctes ?",
+            "options": [
+                "On peut faire un test paramétrique sans étudier la normalité de l’âge dans la population car la taille de l’échantillon est supérieure à 30",
+                "Le test est unilatéral",
+                "L’hypothèse H de ce test est µ > µ  avec µ = 80",
+                "Si la signification du test est supérieure à 0,05 alors je dois rejeter l’hypothèse H  et accepter l’hypothèse H",
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi de S tudent avec un nombre de degrés de liberté = 39"
+            ],
+            "correct_answers": [
+                "On peut faire un test paramétrique sans étudier la normalité de l’âge dans la population car la taille de l’échantillon est supérieure à 30",
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi de S tudent avec un nombre de degrés de liberté = 39",
+                "Le test est unilatéral"
+            ],
+            "justification_fausses_reponses": {
+                "L’hypothèse H de ce test est µ > µ  avec µ = 80": "Cette affirmation est incorrecte car l'hypothèse H de ce test devrait être µ = 80. L'hypothèse alternative serait µ > 80.",
+                "Si la signification du test est supérieure à 0,05 alors je dois rejeter l’hypothèse H  et accepter l’hypothèse H": "Cette affirmation est incorrecte car si la signification du test est supérieure à 0,05, cela signifie que nous ne pouvons pas rejeter l'hypothèse nulle. En d'autres termes, nous n'avons pas suffisamment de preuves pour conclure que l'âge moyen est supérieur à 80 ans."
+            }
+        },
+        {
+            "question": "La valeur permettant de séparer un échantillon d'observations d'une variable quantitative X en deux sous-échantillons de même effectif est égale",
+            "options": [
+                "au troisième quartile",
+                "à la moyenne",
+                "à la médiane",
+                "au deuxième quartile",
+                "au mode"
+            ],
+            "correct_answers": [
+                "à la médiane",
+                "au deuxième quartile"
+            ],
+            "justification_fausses_reponses": {
+                "au troisième quartile": "Le troisième quartile est la valeur qui sépare les données en deux parties, où environ 75% des données sont inférieures à cette valeur. Il ne divise pas l'échantillon en deux sous-échantillons de même effectif.",
+                "à la moyenne": "La moyenne est la somme de toutes les valeurs divisée par le nombre total de valeurs. Elle ne garantit pas une division de l'échantillon en deux sous-échantillons de même effectif.",
+                "au mode": "Le mode est la valeur qui apparaît le plus fréquemment dans un ensemble de données. Il ne divise pas nécessairement l'échantillon en deux sous-échantillons de même effectif."
+            }
+        },
+        {
+            "question": "Concernant les paramètres de la statistique descriptive, la(les) réponse(s) exacte(s) est(sont)",
+            "options": [
+                "Les quartiles sont au nombre de quatre",
+                "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne.",
+                "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)",
+                "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+                "Les quartiles sont au nombre de trois"
+            ],
+            "correct_answers": [
+                "Les quartiles sont au nombre de trois",
+                "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+                "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne."
+            ],
+            "justification_fausses_reponses": {
+                "Les quartiles sont au nombre de quatre": "C'est incorrect car les quartiles sont au nombre de trois : le premier quartile (Q1), le deuxième quartile (Q2) qui est également la médiane, et le troisième quartile (Q3).",
+                "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)": "C'est incorrect car un coefficient de corrélation, qui mesure la force et la direction d'une relation linéaire entre deux variables, peut varier de -1 à 1. Un coefficient de 1 indique une relation linéaire positive forte, -1 une relation linéaire négative forte et 0 aucune relation linéaire."
+            }
+        },
+        {
+            "question": "On aimerait savoir si la moyenne d'âge d'une population est supérieure à 65 ans. Un échantillon de 35 individus, extrait de cette population, présente une moyenne d'âge de 58 ans. Concernant le test paramétrique utilisé pour répondre à la question posée et la valeur du degré de signification p du test, la(les) réponse(s) exacte(s) est (sont)",
+            "options": [
+                "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral",
+                "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral",
+                "p < 5 %",
+                "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral",
+                "p > 5 %"
+            ],
+            "correct_answers": [
+                "p > 5 %",
+                "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral"
+            ],
+            "justification_fausses_reponses": {
+                "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral": "Cette option est incorrecte car le test de comparaison d'une proportion observée à une proportion théorique en unilatéral est utilisé pour comparer des proportions, pas des moyennes.",
+                "p < 5 %": "Cette option est incorrecte car une valeur de p inférieure à 5 % indiquerait que la différence observée est statistiquement significative, ce qui n'est pas le cas ici car la moyenne observée est inférieure à la moyenne théorique.",
+                "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral": "Cette option est incorrecte car le test bilatéral est utilisé lorsque l'on souhaite tester si la moyenne observée est différente de la moyenne théorique, sans préciser si elle est supérieure ou inférieure. Ici, on cherche spécifiquement à savoir si la moyenne est supérieure à une valeur donnée, donc un test unilatéral est approprié."
+            }
+        },
+        {
+            "question": "On veut tester avec un Chi², l’hypothèse selon laquelle l’occurrence d’une certaine maladie est liée au sexe. Au cours de la réalisation du test, on obtient le tableau de contingence suivant : Malade Non malade Total Hommes 6 44 50 Femmes 14 36 50 Total 20 80 100 Le calcul du Chi donne 4. Sachant que dans la table du Chi2 on lit : P(Chi ≥3,841)=0,05, quelles sont les propositions correctes?",
+            "options": [
+                "Tous les effectifs théoriques sont supérieurs ou égaux à 5",
+                "Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie et le sexe",
+                "Au seuil de 5%, on ne rejette pas l’hypothèse de l’absence de liaison entre l’occurrence de cette maladie et le sexe",
+                "Le nombre de degrés de liberté lié à ce test est égal à 1",
+                "On ne peut pas utiliser un test du Chi² pour tester cette hypothèse"
+            ],
+            "correct_answers": [
+                "Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie et le sexe",
+                "Le nombre de degrés de liberté lié à ce test est égal à 1",
+                "Tous les effectifs théoriques sont supérieurs ou égaux à 5"
+            ],
+            "justification_fausses_reponses": {
+                "Au seuil de 5%, on ne rejette pas l’hypothèse de l’absence de liaison entre l’occurrence de cette maladie et le sexe": "Cette proposition est incorrecte car la valeur du Chi² obtenue (4) est supérieure à la valeur critique (3,841) pour un seuil de 5%. Cela signifie qu'il y a moins de 5% de chances que les différences observées soient dues au hasard, donc on rejette l'hypothèse de l'absence de liaison.",
+                "On ne peut pas utiliser un test du Chi² pour tester cette hypothèse": "Cette proposition est incorrecte car le test du Chi² est précisément conçu pour tester l'indépendance de deux variables catégorielles, comme c'est le cas ici avec le sexe et l'occurrence de la maladie."
+            }
+        },
+        {
+            "question": "On veut étudier la liaison entre deux variables X et Y qualitatives. Concernant le test à utiliser et les hypothèses, la(les) réponse(s) exacte(s) est(sont) :",
+            "options": [
+                "H : X et Y liées",
+                "H : ρ = 0 H ρ ≠ 0",
+                "H : X et Y indépendantes",
+                "Test du Khi2 d'indépendance",
+                "Test de corrélation"
+            ],
+            "correct_answers": [
+                "Test du Khi2 d'indépendance",
+                "H : X et Y indépendantes"
+            ],
+            "justification_fausses_reponses": {
+                "H : X et Y liées": "Cette hypothèse est incorrecte car elle suppose une liaison entre X et Y, alors que la question demande d'étudier l'indépendance entre ces deux variables.",
+                "H : ρ = 0 H ρ ≠ 0": "Cette hypothèse est incorrecte car elle concerne la corrélation, qui est une mesure de la relation linéaire entre deux variables quantitatives, pas qualitatives.",
+                "Test de corrélation": "Ce test est incorrect car il est utilisé pour mesurer la force et la direction de la relation entre deux variables quantitatives. Ici, on étudie deux variables qualitatives."
+            }
+        },
+        {
+            "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin d'évaluer les relations entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée",
+                "On peut utiliser un test de Student pour répondre à la problématique posée",
+                "On peut utiliser un test du khi-deux pour répondre à la problématique posée",
+                "On peut effectuer une analyse de variance pour répondre à la problématique posée",
+                "On peut construire une droite de régression linéaire pour répondre à la problématique posée"
+            ],
+            "correct_answers": [
+                "On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée",
+                "On peut construire une droite de régression linéaire pour répondre à la problématique posée"
+            ],
+            "justification_fausses_reponses": {
+                "On peut utiliser un test de Student pour répondre à la problématique posée": "Le test de Student est utilisé pour comparer les moyennes de deux groupes indépendants. Il n'est pas approprié pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP.",
+                "On peut utiliser un test du khi-deux pour répondre à la problématique posée": "Le test du khi-deux est utilisé pour tester l'indépendance entre deux variables catégorielles. Il n'est pas approprié pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP.",
+                "On peut effectuer une analyse de variance pour répondre à la problématique posée": "L'analyse de variance est utilisée pour comparer les moyennes de plus de deux groupes. Elle n'est pas appropriée pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP."
+            }
+        },
+        {
+            "question": "Relativement aux hypothèses d’un test statistique, quelles sont les propositions correctes ?",
+            "options": [
+                "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H",
+                "Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale",
+                "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+                "Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H",
+                "Le test s'effectue toujours au risque α=5%"
+            ],
+            "correct_answers": [
+                "Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H",
+                "Les deux conclusions possibles d’un test sont, au risque consenti α : Non rejet de l'hypothèse H, Rejet de l'hypothèse H  et acceptation de l'hypothèse H"
+            ],
+            "justification_fausses_reponses": {
+                "Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale": "Cette affirmation est incorrecte car l'hypothèse H peut être unilatérale ou bilatérale indépendamment de l'intitulé de la question. Cela dépend plutôt de la nature des données et de l'objectif de l'étude.",
+                "Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H": "Cette affirmation est incorrecte car si la variable de décision est à l'intérieur de l'intervalle de confiance, on ne rejette pas l'hypothèse H. Au contraire, cela signifie que l'hypothèse H est plausible.",
+                "Le test s'effectue toujours au risque α=5%": "Cette affirmation est incorrecte car le niveau de risque α n'est pas toujours fixé à 5%. Il peut être défini en fonction des besoins de l'étude et du niveau de certitude souhaité."
+            }
+        },
+        {
+            "question": "Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes. On se propose de mener un test pour savoir si, en population, on peut dire qu’il y a plus de femmes que d’hommes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+            "options": [
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi de Student avec un nombre de degrés de liberté = 39",
+                "Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30",
+                "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+                "Il s’agit de la comparaison entre deux pourcentages observés",
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+            ],
+            "correct_answers": [
+                "Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique",
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi normale"
+            ],
+            "justification_fausses_reponses": {
+                "La variable de décision de ce test suit, sous l’hypothèse H , une loi de Student avec un nombre de degrés de liberté = 39": "C'est incorrect car la loi de Student n'est pas utilisée dans ce contexte. Dans ce cas, on utilise une loi normale pour la variable de décision.",
+                "Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30": "C'est incorrect car le test de normalité n'est pas nécessaire dans ce contexte. Le test de normalité est généralement utilisé lorsque l'on veut vérifier si un ensemble de données suit une distribution normale, ce qui n'est pas le cas ici.",
+                "Il s’agit de la comparaison entre deux pourcentages observés": "C'est incorrect car le test ne compare pas deux pourcentages observés, mais un pourcentage observé (le nombre de femmes dans l'échantillon) à un pourcentage théorique (le nombre de femmes dans la population totale)."
+            }
+        },
+        {
+            "question": "Un patient subit un test d'hyperglycémie provoquée. Sa glycémie à jeun est mesurée et une solution contenant une quantité de glucose lui est alors administrée. On effectue ensuite 10 mesures régulières de sa glycémie. Concernant la droite de régression donnant la glycémie en fonction du temps sur cet échantillon de mesures, la(les) réponse(s) exacte(s) est(sont) :",
+            "options": [
+                "Son équation s'écrit : glycémie = a (temps) + b",
+                "Son équation s'écrit : glycémie = α (temps) + β",
+                "Le temps est la variable explicative et la glycémie est la variable expliquée",
+                "Le temps est la variable expliquée et la glycémie est la variable explicative",
+                "Son équation s'écrit : temps = a (glycémie) + b"
+            ],
+            "correct_answers": [
+                "Son équation s'écrit : glycémie = a (temps) + b",
+                "Le temps est la variable explicative et la glycémie est la variable expliquée"
+            ],
+            "justification_fausses_reponses": {
+                "Son équation s'écrit : glycémie = α (temps) + β": "Cette option est incorrecte car les coefficients de la droite de régression sont généralement notés 'a' et 'b'. 'α' et 'β' sont souvent utilisés pour désigner les paramètres d'une distribution statistique, pas d'une droite de régression.",
+                "Le temps est la variable expliquée et la glycémie est la variable explicative": "Cette option est incorrecte car dans le contexte de ce test, le temps est la variable indépendante (ou explicative) et la glycémie est la variable dépendante (ou expliquée). En d'autres termes, on mesure comment la glycémie change en fonction du temps, et non l'inverse.",
+                "Son équation s'écrit : temps = a (glycémie) + b": "Cette option est incorrecte car elle inverse les rôles des variables. Dans le contexte de ce test, la glycémie est une fonction du temps, et non l'inverse. L'équation de la droite de régression devrait donc exprimer la glycémie en fonction du temps."
+            }
+        },
+        {
+            "question": "Concernant l’estimation de la moyenne d’une variable quantitative à partir d’un échantillon, quelles sont les propositions correctes ?",
+            "options": [
+                "La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillon",
+                "L’intervalle de confiance de la moyenne est d’autant plus large que le niveau de confiance est faible",
+                "Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir donner une estimation par intervalle de confiance",
+                "L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne",
+                "L’estimation ponctuelle est plus précise que l’estimation par intervalle de confiance"
+            ],
+            "correct_answers": [
+                "Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir donner une estimation par intervalle de confiance",
+                "L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne",
+                "La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillon"
+            ],
+            "justification_fausses_reponses": {
+                "L’intervalle de confiance de la moyenne est d’autant plus large que le niveau de confiance est faible": "C'est l'inverse qui est vrai. Plus le niveau de confiance est élevé, plus l'intervalle de confiance sera large. Cela est dû au fait qu'un niveau de confiance plus élevé signifie que nous sommes plus sûrs que la vraie moyenne se trouve dans cet intervalle, donc l'intervalle doit être plus large pour accueillir cette incertitude.",
+                "L’estimation ponctuelle est plus précise que l’estimation par intervalle de confiance": "C'est incorrect. L'estimation par intervalle de confiance est généralement plus précise car elle fournit une plage de valeurs possibles pour la moyenne, plutôt qu'une seule valeur. Cela permet de prendre en compte l'incertitude inhérente à l'estimation à partir d'un échantillon."
+            }
+        },
+        {
+            "question": "On souhaite comparer deux moyennes en séries appariées et l'on utilise, pour cela, un test paramétrique (les conditions d'utilisation sont supposées remplies). L'échantillon est de taille 30. La variable de décision suit, sous l'hypothèse nulle, une",
+            "options": [
+                "loi de Fisher-Snedecor",
+                "loi de P oisson",
+                "loi de S tudent",
+                "loi normale",
+                "loi du khi-deux"
+            ],
+            "correct_answers": [
+                "loi de S tudent"
+            ],
+            "justification_fausses_reponses": {
+                "loi de Fisher-Snedecor": "La loi de Fisher-Snedecor est utilisée pour comparer les variances de deux populations, pas les moyennes.",
+                "loi de P oisson": "La loi de Poisson est utilisée pour modéliser le nombre d'événements qui se produisent dans un intervalle de temps ou d'espace fixe, pas pour comparer les moyennes.",
+                "loi normale": "La loi normale est utilisée lorsque la taille de l'échantillon est suffisamment grande (généralement > 30) et que les données sont distribuées de manière symétrique, mais elle n'est pas appropriée pour comparer deux moyennes en séries appariées.",
+                "loi du khi-deux": "La loi du khi-deux est utilisée pour tester l'indépendance de deux variables catégorielles, pas pour comparer les moyennes."
+            }
+        },
+        {
+            "question": "A propos d’une variable X suivant une loi normale de moyenne µ et d’écart-type σ, quelles sont les propositions correctes ?",
+            "options": [
+                "La variable centrée réduite suit une loi normale de moyenne 0 et d’écart-type 1",
+                "Environ 95% des valeurs de X sont comprises entre -2 et +2",
+                "La variable, moyenne de X obtenue sur des échantillons de taille n, suit une loi normale de moyenne µ et d’écart-type",
+                "L’écart-type mesure la dispersion des valeurs de X autour de la moyenne",
+                "La moyenne µ et la médiane sont confondues"
+            ],
+            "correct_answers": [
+                "La moyenne µ et la médiane sont confondues",
+                "La variable, moyenne de X obtenue sur des échantillons de taille n, suit une loi normale de moyenne µ et d’écart-type",
+                "L’écart-type mesure la dispersion des valeurs de X autour de la moyenne",
+                "La variable centrée réduite suit une loi normale de moyenne 0 et d’écart-type 1"
+            ],
+            "justification_fausses_reponses": {
+                "Environ 95% des valeurs de X sont comprises entre -2 et +2": "Cette affirmation est incorrecte car dans une distribution normale, environ 95% des valeurs sont comprises entre µ-2σ et µ+2σ, et non entre -2 et +2. Le symbole µ représente la moyenne et σ l'écart-type de la distribution."
+            }
+        },
+        {
+            "question": "Une variable aléatoire X est distribuée selon la loi normale de moyenne μ et d'écart-type σ. Concernant la distribution de la variable aléatoire (définie à partir d'échantillons de même taille n), la(les) réponse(s) exacte(s) est(sont) :",
+            "options": [
+                "Une loi de Student",
+                "Une loi normale de moyenne μ / n",
+                "Une loi normale d'écart-type σ /",
+                "Une loi normale d'écart-type σ",
+                "Une loi normale de moyenne μ"
+            ],
+            "correct_answers": [
+                "Une loi normale de moyenne μ",
+                "Une loi normale d'écart-type σ /"
+            ],
+            "justification_fausses_reponses": {
+                "Une loi de Student": "La loi de Student est utilisée lorsque la taille de l'échantillon est petite et que la variance de la population est inconnue. Ce n'est pas le cas ici car nous avons une distribution normale avec des paramètres connus.",
+                "Une loi normale de moyenne μ / n": "La moyenne de la distribution de la variable aléatoire ne change pas avec la taille de l'échantillon. Elle reste μ, et non μ / n.",
+                "Une loi normale d'écart-type σ": "L'écart-type de la distribution de la variable aléatoire diminue avec la taille de l'échantillon. Il devient σ / √n, et non σ."
+            }
+        },
+        {
+            "question": "Une étude, réalisée auprès de 10 000 personnes adultes (femmes et hommes) ne souffrant pas de surpoids, avait pour objectif de vérifier si la pression artérielle (P A, en mmHg) augmentait avec l’indice de masse corporelle (IMC, en kg/m²). Le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.02. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+            "options": [
+                "Le test utilisé est un test de corrélation",
+                "Au seuil de 1%, on ne peut pas dire que la P A augmente avec l’IMC",
+                "La valeur obtenue de p signifie que la P A augmente en moyenne de 0.02 mmHg lorsque l’IMC augmente de 1 kg/m²",
+                "Le test utilisé est le test d’indépendance du khi-deux (χ²)",
+                "Le test utilisé est le test de Student de comparaison de moyennes"
+            ],
+            "correct_answers": [
+                "Le test utilisé est un test de corrélation",
+                "Au seuil de 1%, on ne peut pas dire que la P A augmente avec l’IMC"
+            ],
+            "justification_fausses_reponses": {
+                "La valeur obtenue de p signifie que la P A augmente en moyenne de 0.02 mmHg lorsque l’IMC augmente de 1 kg/m²": "La p-value ne représente pas l'augmentation moyenne de la pression artérielle en fonction de l'IMC. Elle indique plutôt la probabilité d'obtenir un résultat au moins aussi extrême que celui observé, si l'hypothèse nulle était vraie.",
+                "Le test utilisé est le test d’indépendance du khi-deux (χ²)": "Le test du khi-deux est utilisé pour tester l'indépendance entre deux variables catégorielles, pas pour tester une corrélation entre deux variables quantitatives comme dans ce cas.",
+                "Le test utilisé est le test de Student de comparaison de moyennes": "Le test de Student est utilisé pour comparer les moyennes de deux groupes indépendants. Ici, on cherche à établir une corrélation entre deux variables quantitatives, donc ce n'est pas le bon test."
+            }
+        },
+        {
+            "question": "Une étude sur l'arrêt progressif du tabac en consultation de tabacologie a été publiée par l'Institut de V eille Sanitaire (Bulletin Épidémiologique Hebdomadaire, mai 2015). L'étude a porté sur 14 960 sujets venus en consultation et ayant arrêté de fumer durant leur suivi. Les résultats croisant le mode d'arrêt du tabac (avec ou sans réduction) et le type de prise en charge (5 prises en charge possibles) sont les suivants : Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "Chez les sujets ayant arrêté progressivement, pour tester si les cinq prises en charge sont prescrites dans les mêmes proportions, on peut utiliser un test du khi-deux d'indépendance",
+                "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test du coefficient de corrélation linéaire",
+                "Pour tester si la proportion de sujets ayant arrêté progressivement est plus élevée que celle des sujets ayant arrêté sans réduction, on peut utiliser un test de comparaison de deux proportions observées indépendantes",
+                "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test de la pente de la droite de régression linéaire du nombre de consultations en fonction du mode d'arrêt du tabac",
+                "Pour tester l'existence d'une liaison entre le mode d'arrêt du tabac et le type de prise en charge, on peut utiliser un test du khi-deux d'indépendance"
+            ],
+            "correct_answers": [
+                "Pour tester l'existence d'une liaison entre le mode d'arrêt du tabac et le type de prise en charge, on peut utiliser un test du khi-deux d'indépendance"
+            ],
+            "justification_fausses_reponses": {
+                "Chez les sujets ayant arrêté progressivement, pour tester si les cinq prises en charge sont prescrites dans les mêmes proportions, on peut utiliser un test du khi-deux d'indépendance": "Cette affirmation est incorrecte car le test du khi-deux d'indépendance est utilisé pour tester l'indépendance entre deux variables catégorielles, et non pour comparer des proportions.",
+                "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test du coefficient de corrélation linéaire": "Cette affirmation est incorrecte car le test du coefficient de corrélation linéaire est utilisé pour mesurer la force et la direction de la relation entre deux variables continues, et non entre une variable continue et une variable catégorielle.",
+                "Pour tester si la proportion de sujets ayant arrêté progressivement est plus élevée que celle des sujets ayant arrêté sans réduction, on peut utiliser un test de comparaison de deux proportions observées indépendantes": "Cette affirmation est incorrecte car un test de comparaison de deux proportions observées indépendantes est utilisé pour comparer deux proportions indépendantes, et non pour tester si une proportion est plus élevée que l'autre.",
+                "Pour tester l'existence d'une liaison entre le nombre de consultations reçues (tel que présenté dans le tableau) et le mode d'arrêt du tabac, on peut utiliser un test de la pente de la droite de régression linéaire du nombre de consultations en fonction du mode d'arrêt du tabac": "Cette affirmation est incorrecte car le test de la pente de la droite de régression linéaire est utilisé pour tester l'existence d'une relation linéaire entre deux variables continues, et non entre une variable continue et une variable catégorielle."
+            }
+        },
+        {
+            "question": "Une étude sur l'arrêt progressif du tabac en consultation de tabacologie a été publiée par l'Institut de V eille Sanitaire (Bulletin Épidémiologique Hebdomadaire, mai 2015). L'étude a porté sur 14 960 sujets venus en consultation et ayant arrêté de fumer durant leur suivi. Les résultats croisant le mode d'arrêt du tabac (avec ou sans réduction) et le type de prise en charge (5 prises en charge possibles) sont les suivants : Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "Parmi les consultants ayant arrêté de fumer progressivement, la proportion de sujets venus en consultation au moins 7 fois est plus élevée que celle des sujets venus entre 4 et 6 fois",
+                "Parmi les consultants ayant bénéficié d'une prise en charge comportementale avec prescription de formes orales de TSN, la proportion de sujets ayant arrêté de fumer sans réduction est plus élevée que celle des sujets ayant arrêté progressivement",
+                "Parmi les consultants ayant arrêté de fumer sans réduction, la prise en charge la plus prescrite est la prise en charge comportementale avec prescription de patch nicotinique et de formes orales de T SN",
+                "Dans l'étude, la proportion de prises en charge comportementale sans prescription pharmacologique est plus élevée chez les sujets ayant arrêté progressivement que chez les sujets ayant arrêté sans réduction",
+                "Parmi les consultants ayant arrêté de fumer progressivement, la prise en charge la moins prescrite est la prise en charge comportementale avec prescription de varénicline"
+            ],
+            "correct_answers": [
+                "Parmi les consultants ayant arrêté de fumer progressivement, la proportion de sujets venus en consultation au moins 7 fois est plus élevée que celle des sujets venus entre 4 et 6 fois",
+                "Parmi les consultants ayant arrêté de fumer sans réduction, la prise en charge la plus prescrite est la prise en charge comportementale avec prescription de patch nicotinique et de formes orales de T SN",
+                "Parmi les consultants ayant bénéficié d'une prise en charge comportementale avec prescription de formes orales de T SN, la proportion de sujets ayant arrêté de fumer sans réduction est plus élevée que celle des sujets ayant arrêté progressivement",
+                "Dans l'étude, la proportion de prises en charge comportementale sans prescription pharmacologique est plus élevée chez les sujets ayant arrêté progressivement que chez les sujets ayant arrêté sans réduction"
+            ],
+            "justification_fausses_reponses": {
+                "Parmi les consultants ayant arrêté de fumer progressivement, la prise en charge la moins prescrite est la prise en charge comportementale avec prescription de varénicline": "Cette affirmation est incorrecte car l'étude ne fournit pas d'information sur la prise en charge la moins prescrite parmi les consultants ayant arrêté de fumer progressivement. Il est donc impossible de conclure que la prise en charge comportementale avec prescription de varénicline est la moins prescrite."
+            }
+        },
+        {
+            "question": "On souhaite savoir si un nouvel antalgique (A2) est meilleur que l’antalgique de référence (A1). Un essai randomisé est réalisé sur 2 groupes parallèles de 100 sujets chacun. On a noté une atténuation de la douleur chez 66% des sujets affectés au traitement A2 contre 54% chez ceux affectés au traitement A1. Les calculs, réalisés sur logiciel, ont fourni un niveau de signification (p-value) bilat éral p = 0.08. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+            "options": [
+                "Les échantillons étant grands, la variable observée suit approximativement une loi normale",
+                "Le test utilisé est un test de comparaison de proportions",
+                "Le test utilisé est un test de comparaison de moyennes",
+                "Au seuil de 10%, on peut affirmer que A1 est plus efficace que A2",
+                "Au seuil de 5%, on peut affirmer que A2 est plus efficace que A1"
+            ],
+            "correct_answers": [
+                "Le test utilisé est un test de comparaison de proportions",
+                "Au seuil de 5%, on peut affirmer que A2 est plus efficace que A1"
+            ],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en deux groupes parallèles et suivis pendant un minimum d'un an. Les taux de décès observés après un an de suivi sont 40% sous traitement R, contre 20% sous traitement E. Le degré de signification du test de supériorité à mettre en œuvre est égal à 1%. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "options": [
+                "On peut conclure à la supériorité du traitement E sans faire de test car 20% < 40%",
+                "Si le risque de première espèce  a été fixé à 5% dans le protocole de l'étude, on peut conclure à la supériorité du traitement E.",
+                "L'hypothèse alternative du test est l'égalité des taux de décès",
+                "Le test à mettre en œuvre est un test unilatéral",
+                "On ne peut pas conclure à la supériorité du traitement E car 20% < 40%α"
+            ],
+            "correct_answers": [
+                "Si le risque de première espèce  a été fixé à 5% dans le protocole de l'étude, on peut conclure à la supériorité du traitement E.",
+                "Le test à mettre en œuvre est un test unilatéral"
+            ],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "Une valeur aberrante, observée pour une variable X,",
+            "options": [
+                "peut être détectée par un test de Grubbs",
+                "est une valeur différente de la moyenne",
+                "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+                "peut être détectée par un test de Dixon",
+                "peut être détectée par un test de normalité"
+            ],
+            "correct_answers": [
+                "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+                "peut être détectée par un test de Grubbs",
+                "peut être détectée par un test de Dixon"
+            ],
+            "justification_fausses_reponses": {
+                "est une valeur différente de la moyenne": "Cette affirmation est incorrecte car une valeur aberrante n'est pas simplement une valeur différente de la moyenne. Une valeur aberrante est une valeur qui est significativement différente des autres valeurs de l'échantillon, pas seulement de la moyenne.",
+                "peut être détectée par un test de normalité": "Cette affirmation est incorrecte car un test de normalité est utilisé pour déterminer si un ensemble de données suit une distribution normale, et non pour détecter des valeurs aberrantes."
+            }
+        },
+        {
+            "question": "Un essai comparatif est réalisé entre deux groupes parallèles (1= traitement et 2= placebo) de 20 sujets chacun. Le critère de jugement est une variable quantitative X que le traitement a pour objectif de faire baisser. Sachant que X admet pour moyenne ± écart-type estimé les valeurs 90±10 et 100±15 pour les groupes 1 et 2, respectivement, et que le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.009, quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+            "options": [
+                "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+                "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+                "L’hypothèse nulle est rejetée au seuil de 1%",
+                "L’hypothèse alternative s’écrit {µ  ≠ µ }",
+                "L’hypothèse nulle s’écrit {µ  = µ }1 2"
+            ],
+            "correct_answers": [
+                "L’hypothèse nulle s’écrit {µ  = µ }1 2",
+                "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+                "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+                "L’hypothèse nulle est rejetée au seuil de 1%"
+            ],
+            "justification_fausses_reponses": {
+                "L’hypothèse alternative s’écrit {µ  ≠ µ }": "Cette option est incorrecte car l'hypothèse alternative devrait indiquer une différence spécifique entre les moyennes des deux groupes, et non simplement une inégalité. Par exemple, elle pourrait s'écrire {µ1 > µ2} si le traitement est censé faire baisser la variable X."
+            }
+        },
+        {
+            "question": "Concernant le test du Chi², quelles sont les propositions correctes ?",
+            "options": [
+                "Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30",
+                "Il concerne des variables qualitatives",
+                "La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5",
+                "C’est toujours un test bilatéral",
+                "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison0"
+            ],
+            "correct_answers": [
+                "Il concerne des variables qualitatives",
+                "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison",
+                "C’est toujours un test bilatéral"
+            ],
+            "justification_fausses_reponses": {
+                "Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30": "Cette affirmation est incorrecte car le test du Chi² ne nécessite pas de vérifier la normalité des variables étudiées, peu importe la taille de l'échantillon. Il est utilisé pour tester l'indépendance de deux variables qualitatives.",
+                "La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5": "Cette affirmation est fausse. La condition pour utiliser le test du Chi² est que 80% des effectifs théoriques soient supérieurs à 5, et non les effectifs observés."
+            }
+        },
+        {
+            "question": "Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes sur lesquels, entre autres paramètres, l’âge a été relevé. On se propose de mener un test paramétrique pour savoir si l’âge moyen des hommes est différent de celui des femmes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+            "options": [
+                "L’hypothèse H est : µ = µ (1 et 2 étant les indices respectivement du groupe des hommes et des femmes)",
+                "Il faut tester l’égalité des variances avant de choisir la variable de décision",
+                "Il s’agit de la comparaison de moyennes sur deux échantillons indépendants",
+                "Les tailles des échantillons étant inférieures à 30, il faut s’assurer de la normalité de la variable âge dans la population des hommes et des femmes",
+                "Il s’agit de la comparaison de moyennes sur deux échantillons appariés"
+            ],
+            "correct_answers": [
+                "Il s’agit de la comparaison de moyennes sur deux échantillons indépendants",
+                "Les tailles des échantillons étant inférieures à 30, il faut s’assurer de la normalité de la variable âge dans la population des hommes et des femmes",
+                "L’hypothèse H est : µ = µ (1 et 2 étant les indices respectivement du groupe des hommes et des femmes)",
+                "Il faut tester l’égalité des variances avant de choisir la variable de décision"
+            ],
+            "justification_fausses_reponses": {
+                "Il s’agit de la comparaison de moyennes sur deux échantillons appariés": "Cette affirmation est incorrecte car les échantillons ne sont pas appariés. Dans un échantillon apparié, chaque individu dans un groupe est associé à un individu dans l'autre groupe. Ici, les hommes et les femmes sont deux groupes indépendants."
+            }
+        }
+    ]
+}

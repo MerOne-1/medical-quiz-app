@@ -1,0 +1,574 @@
+{
+    "theme": "Immunologie",
+    "questions": [
+        {
+            "question": "Concernant les cytokines, indiquez la (ou les) bonne(s) réponse(s)",
+            "options": [
+                "La nature biochimique des cytokines est très variable : les cytokines peuvent être des protéines, des sucres ou des lipides",
+                "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales.",
+                "Les cytokines exercent leurs fonctions par l’intermédiaire de la fixation à un récepteur cytoplasmique",
+                "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+                "Infliximab et Adalimumab sont 2 anticorps monoclonaux thérapeutiques dirigés contre le récepteur au TNF"
+            ],
+            "correct_answers": [
+                "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+                "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales."
+            ],
+            "justification_fausses_reponses": {
+                "La nature biochimique des cytokines est très variable : les cytokines peuvent être des protéines, des sucres ou des lipides": "C'est incorrect. Les cytokines sont des protéines, elles ne sont pas des sucres ou des lipides.",
+                "Les cytokines exercent leurs fonctions par l’intermédiaire de la fixation à un récepteur cytoplasmique": "C'est incorrect. Les cytokines exercent leurs fonctions en se liant à des récepteurs spécifiques à la surface des cellules, pas dans le cytoplasme.",
+                "Infliximab et Adalimumab sont 2 anticorps monoclonaux thérapeutiques dirigés contre le récepteur au TNF": "C'est incorrect. Infliximab et Adalimumab sont des anticorps monoclonaux qui ciblent le TNF-alpha, une cytokine pro-inflammatoire, pas son récepteur."
+            }
+        },
+        {
+            "question": "Choisir la ou les proposition(s) exacte(s) pour chacune des affirmations suivantes : Chez l'homme, les immunoglobulines G",
+            "options": [
+                "sont capables de traverser la barrière placentaire",
+                "sont reconnus par les macrophages par leur fragment F ab",
+                "présentent deux paratopes distincts",
+                "présentent une affinité faible pour l'antigène lors d'une réponse secondaire",
+                "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal"
+            ],
+            "correct_answers": [
+                "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal",
+                "sont capables de traverser la barrière placentaire"
+            ],
+            "justification_fausses_reponses": {
+                "sont reconnus par les macrophages par leur fragment F ab": "C'est incorrect car les macrophages reconnaissent les immunoglobulines G par leur fragment Fc, et non F ab.",
+                "présentent deux paratopes distincts": "C'est incorrect car les immunoglobulines G présentent deux paratopes identiques, et non distincts.",
+                "présentent une affinité faible pour l'antigène lors d'une réponse secondaire": "C'est incorrect car lors d'une réponse secondaire, les immunoglobulines G présentent une affinité élevée pour l'antigène, et non faible."
+            }
+        },
+        {
+            "question": "Concernant le cancer du col de l’utérus, quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "Il peut être prévenu par la détection de lésions précancéreuses",
+                "Il peut être prévenu par la vaccination",
+                "Il est associé à une primo-infection par un papillomavirus",
+                "En France, c’est le 2ème cancer le plus meurtrier chez la femme après le cancer du sein",
+                "Seuls les génotypes HPV 16 et HPV 18 de papillomavirus sont impliqués dans le développement du cancer du col de l’utérus"
+            ],
+            "correct_answers": [
+                "Il est associé à une primo-infection par un papillomavirus",
+                "Il peut être prévenu par la vaccination",
+                "Il peut être prévenu par la détection de lésions précancéreuses"
+            ],
+            "justification_fausses_reponses": {
+                "En France, c’est le 2ème cancer le plus meurtrier chez la femme après le cancer du sein": "Cette affirmation est incorrecte. En France, le cancer du col de l'utérus n'est pas le deuxième cancer le plus meurtrier chez la femme. Il est devancé par d'autres types de cancer comme le cancer du poumon ou le cancer colorectal.",
+                "Seuls les génotypes HPV 16 et HPV 18 de papillomavirus sont impliqués dans le développement du cancer du col de l’utérus": "Cette affirmation est fausse. Bien que les génotypes HPV 16 et HPV 18 soient les plus couramment associés au cancer du col de l'utérus, d'autres génotypes de papillomavirus peuvent également être impliqués."
+            }
+        },
+        {
+            "question": "La pr ésence d'anticorps anti-ADNn dans un sér um",
+            "options": [
+                "est associée à la sclérose en plaque",
+                "peut-être détectée à l’aide du test de F arr",
+                "permet d’affirmer le diagnostic de polyarthrite rhumatoïde",
+                "est recherchée par la méthode de western blot",
+                "est associée généralement au lupus érythémateux disséminé"
+            ],
+            "correct_answers": [
+                "est associée généralement au lupus érythémateux disséminé",
+                "peut-être détectée à l’aide du test de F arr"
+            ],
+            "justification_fausses_reponses": {
+                "est associée à la sclérose en plaque": "La sclérose en plaque est une maladie auto-immune qui affecte le système nerveux central, pas spécifiquement associée à la présence d'anticorps anti-ADNn.",
+                "permet d’affirmer le diagnostic de polyarthrite rhumatoïde": "La polyarthrite rhumatoïde est généralement diagnostiquée par la présence d'anticorps anti-CCP et RF, pas d'anticorps anti-ADNn.",
+                "est recherchée par la méthode de western blot": "La méthode de western blot est utilisée pour détecter des protéines spécifiques dans un échantillon, pas des anticorps anti-ADNn."
+            }
+        },
+        {
+            "question": "Indiquez la ou les bonne(s) r éponse(s) : l’ etaner cept (ENBREL ®) est",
+            "options": [
+                "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+                "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine F ab d’une IgG1 humaine",
+                "Indiqué dans le traitement de la polyarthrite rhumatoïde",
+                "Administré par voie sous-cutanée",
+                "Une protéine de fusion entre le domaine F ab d’une IgG1 humaine et le domaine intracellulaire du récepteur TNFR2"
+            ],
+            "correct_answers": [
+                "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+                "Administré par voie sous-cutanée",
+                "Indiqué dans le traitement de la polyarthrite rhumatoïde"
+            ],
+            "justification_fausses_reponses": {
+                "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine F ab d’une IgG1 humaine": "Cette affirmation est incorrecte car l'etanercept est une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine, et non le domaine F ab.",
+                "Une protéine de fusion entre le domaine F ab d’une IgG1 humaine et le domaine intracellulaire du récepteur TNFR2": "Cette affirmation est incorrecte car l'etanercept est une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine, et non le domaine F ab et le domaine intracellulaire du récepteur TNFR2."
+            }
+        },
+        {
+            "question": "Cocher la ou les bonnes r éponses",
+            "options": [
+                "L’atopie est une prédisposition génétique à produire des IgE",
+                "Les IgG sont les médiateurs de l’hypersensibilité immédiate",
+                "L’atopie est une prédisposition génétique à développer des maladies autoimmunes",
+                "Les prostaglandines sont des médiateurs inflammatoires néoformés",
+                "L’histamine est un médiateur inflammatoire néoformé"
+            ],
+            "correct_answers": [
+                "L’atopie est une prédisposition génétique à produire des IgE",
+                "Les prostaglandines sont des médiateurs inflammatoires néoformés"
+            ],
+            "justification_fausses_reponses": {
+                "Les IgG sont les médiateurs de l’hypersensibilité immédiate": "C'est incorrect car les IgG ne sont pas les médiateurs de l'hypersensibilité immédiate. Ce sont plutôt les IgE qui jouent ce rôle.",
+                "L’atopie est une prédisposition génétique à développer des maladies autoimmunes": "C'est incorrect car l'atopie est une prédisposition génétique à produire des IgE et à développer des réactions allergiques, pas des maladies autoimmunes.",
+                "L’histamine est un médiateur inflammatoire néoformé": "C'est incorrect car l'histamine n'est pas un médiateur inflammatoire néoformé. Elle est stockée dans les granules des mastocytes et libérée lors d'une réaction allergique."
+            }
+        },
+        {
+            "question": "Concernant la grossesse",
+            "options": [
+                "les anticorps IgA passent la barrière placentaire",
+                "les trophoblastes expriment des molécules de CMH de classe 2",
+                "les trophoblastes sont des cellules maternelles formant la barrière placentaire",
+                "les trois premiers mois correspondent à la période foetale",
+                "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+            ],
+            "correct_answers": [
+                "une protéinurie peut-être associée au diagnostic d’une prééclampsie"
+            ],
+            "justification_fausses_reponses": {
+                "les anticorps IgA passent la barrière placentaire": "C'est incorrect car ce sont les anticorps IgG qui traversent la barrière placentaire, pas les IgA. Les IgG sont les seuls anticorps qui peuvent traverser le placenta pour fournir une immunité passive au fœtus.",
+                "les trophoblastes expriment des molécules de CMH de classe 2": "C'est faux car les trophoblastes n'expriment pas de molécules de CMH de classe 2. Cela permet d'éviter une réaction immunitaire maternelle contre le fœtus.",
+                "les trophoblastes sont des cellules maternelles formant la barrière placentaire": "C'est incorrect car les trophoblastes sont des cellules fœtales, pas maternelles. Ils forment la partie externe du blastocyste et fournissent des nutriments au fœtus et sont également impliqués dans l'implantation de l'embryon.",
+                "les trois premiers mois correspondent à la période foetale": "C'est faux car les trois premiers mois de la grossesse correspondent à la période embryonnaire. La période fœtale commence à partir de la 9ème semaine de grossesse."
+            }
+        },
+        {
+            "question": "L’activation thymo-dépendante des lymphocytes B",
+            "options": [
+                "se réalise dans les organes lymphoïdes primaires",
+                "nécessite la présente de lymphocytes T CD4",
+                "permet la génération de lymphocytes T CD8 cytotoxiques",
+                "conduit à la génération de lymphocytes B mémoire",
+                "forme un centre germinatif"
+            ],
+            "correct_answers": [
+                "nécessite la présente de lymphocytes T CD4",
+                "forme un centre germinatif",
+                "conduit à la génération de lymphocytes B mémoire"
+            ],
+            "justification_fausses_reponses": {
+                "se réalise dans les organes lymphoïdes primaires": "L'activation thymo-dépendante des lymphocytes B se réalise dans les organes lymphoïdes secondaires, comme les ganglions lymphatiques, et non dans les organes lymphoïdes primaires.",
+                "permet la génération de lymphocytes T CD8 cytotoxiques": "L'activation thymo-dépendante des lymphocytes B ne permet pas la génération de lymphocytes T CD8 cytotoxiques. Ce sont les lymphocytes T CD4 qui sont nécessaires pour l'activation des lymphocytes B."
+            }
+        },
+        {
+            "question": "Concernant Gardasil® et Cervarix®, quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "Ils contiennent tous les deux des pseudo-particules virales",
+                "Nécessite un rappel 10 ans après la première injection",
+                "Ils protègent tous les deux contre l’infection par les papillomavirus HPV 6 et 11",
+                "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans",
+                "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus"
+            ],
+            "correct_answers": [
+                "Sont tous les deux indiqués dans la prévention du cancer du col de l’utérus",
+                "Ils contiennent tous les deux des pseudo-particules virales",
+                "Ils sont recommandés chez toutes les jeunes filles de 11 ans à 14 ans"
+            ],
+            "justification_fausses_reponses": {
+                "Nécessite un rappel 10 ans après la première injection": "Cette affirmation est incorrecte car le rappel pour ces vaccins n'est pas nécessaire après 10 ans. Les études montrent que l'immunité persiste pendant au moins 10 ans, mais la durée exacte de la protection n'est pas encore connue.",
+                "Ils protègent tous les deux contre l’infection par les papillomavirus HPV 6 et 11": "Cette affirmation est fausse car seul le Gardasil protège contre les HPV 6 et 11, qui sont responsables de la majorité des cas de verrues génitales. Cervarix ne protège pas contre ces types de HPV."
+            }
+        },
+        {
+            "question": "Donner la (les) proposition(s) exacte(s) concernant le mécanisme oxydatif (ou poussée respiratoire)",
+            "options": [
+                "Il est défectueux dans la granulomatose septique chronique",
+                "Il permet la production de peroxyde d’hydrogène",
+                "C’est un mécanisme de destruction de bactéries pathogènes",
+                "Il fait intervenir la NADPH oxydase, la myéloperoxydase et la MO synthétase",
+                "Il a lieu dans les macrophages, les neutrophiles et les mastocytes"
+            ],
+            "correct_answers": [
+                "C’est un mécanisme de destruction de bactéries pathogènes",
+                "Il est défectueux dans la granulomatose septique chronique",
+                "Il permet la production de peroxyde d’hydrogène"
+            ],
+            "justification_fausses_reponses": {
+                "Il fait intervenir la NADPH oxydase, la myéloperoxydase et la MO synthétase": "Cette affirmation est incorrecte car le mécanisme oxydatif ne fait pas intervenir la MO synthétase. Il fait intervenir la NADPH oxydase et la myéloperoxydase, mais pas la MO synthétase.",
+                "Il a lieu dans les macrophages, les neutrophiles et les mastocytes": "Cette affirmation est incorrecte car le mécanisme oxydatif n'a pas lieu dans les mastocytes. Il a lieu dans les macrophages et les neutrophiles, mais pas dans les mastocytes."
+            }
+        },
+        {
+            "question": "Concernant les immunosuppresseurs, quelle(s) proposition(s) est (sont) exacte(s)",
+            "options": [
+                "La grossesse est une contre-indication à la prescription de méthotrexate",
+                "L’azathioprine est une prodrogue du méthotrexate",
+                "L’azathioprine est un immunosuppresseur antiprolifératif",
+                "Azathioprine et 6-mercaptopurine sont des inhibiteurs de la DHFR",
+                "Ils vont être associés à une augmentation du risque d’infection"
+            ],
+            "correct_answers": [
+                "Ils vont être associés à une augmentation du risque d’infection",
+                "La grossesse est une contre-indication à la prescription de méthotrexate",
+                "L’azathioprine est un immunosuppresseur antiprolifératif"
+            ],
+            "justification_fausses_reponses": {
+                "L’azathioprine est une prodrogue du méthotrexate": "C'est incorrect car l'azathioprine est une prodrogue de la 6-mercaptopurine, et non du méthotrexate. Une prodrogue est une substance qui est transformée dans l'organisme en une substance pharmacologiquement active.",
+                "Azathioprine et 6-mercaptopurine sont des inhibiteurs de la DHFR": "C'est incorrect car l'azathioprine et la 6-mercaptopurine sont des antimétabolites qui inhibent la synthèse des purines, et non des inhibiteurs de la DHFR (dihydrofolate réductase). Les inhibiteurs de la DHFR, comme le méthotrexate, inhibent la conversion du dihydrofolate en tétrahydrofolate, une étape essentielle dans la synthèse des bases de l'ADN."
+            }
+        },
+        {
+            "question": "Quelles sont les cellules conservant une mémoire immunologique",
+            "options": [
+                "Les cellules dendritiques",
+                "Les lymphocytes B",
+                "Les lymphocytes T",
+                "Les polynucléaires",
+                "Les macrophages"
+            ],
+            "correct_answers": [
+                "Les lymphocytes T",
+                "Les lymphocytes B"
+            ],
+            "justification_fausses_reponses": {
+                "Les cellules dendritiques": "Les cellules dendritiques ne conservent pas une mémoire immunologique. Elles jouent un rôle dans la présentation de l'antigène aux lymphocytes, mais ne possèdent pas de mémoire immunologique.",
+                "Les polynucléaires": "Les polynucléaires sont des cellules de l'immunité innée qui ne possèdent pas de mémoire immunologique. Leur rôle est principalement de phagocyter les pathogènes.",
+                "Les macrophages": "Les macrophages sont des cellules de l'immunité innée qui ne possèdent pas de mémoire immunologique. Ils sont impliqués dans la phagocytose des pathogènes et la présentation de l'antigène aux lymphocytes."
+            }
+        },
+        {
+            "question": "En France, quelles sont les pathologies ou les germes ciblés par les vaccins obligatoires ?",
+            "options": [
+                "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+                "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, BC G, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+                "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, virus influenza",
+                "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, Haemophilus influenzae",
+                "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae, Papilloma virus"
+            ],
+            "correct_answers": [
+                "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae"
+            ],
+            "justification_fausses_reponses": {
+                "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, BC G, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae": "Le vaccin BCG n'est plus obligatoire en France depuis 2007, il est seulement recommandé pour les personnes à risque.",
+                "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, virus influenza": "Le vaccin contre le virus influenza n'est pas obligatoire en France, il est recommandé pour les personnes âgées ou à risque.",
+                "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae, Papilloma virus": "Le vaccin contre le Papilloma virus n'est pas obligatoire en France, il est recommandé pour les filles de 11 à 14 ans."
+            }
+        },
+        {
+            "question": "Concernant les allergies alimentaires",
+            "options": [
+                "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+                "Le syndrome oral est souvent associé à des allergies croisées",
+                "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+                "Ce sont des hypersensibilités de type 1",
+                "L’allergie aux protéines d’œufs est plus fréquente chez l’adulte que chez l’enfant"
+            ],
+            "correct_answers": [
+                "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+                "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+                "Ce sont des hypersensibilités de type 1",
+                "Le syndrome oral est souvent associé à des allergies croisées"
+            ],
+            "justification_fausses_reponses": {
+                "L’allergie aux protéines d’œufs est plus fréquente chez l’adulte que chez l’enfant": "Cette affirmation est incorrecte. En réalité, l'allergie aux protéines d'œufs est plus fréquente chez les enfants. La plupart des enfants surmontent cette allergie à mesure qu'ils grandissent."
+            }
+        },
+        {
+            "question": "Indiquez la ou les bonne(s) réponse(s) : l’infliximab (REMICADE®)",
+            "options": [
+                "s’administre par voie sous-cutanée",
+                "se lie au TNF soluble et membranaire",
+                "est un anticorps monoclonal chimérique 75% humain/25% souris",
+                "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate",
+                "est un anticorps monoclonal chimérique 25% humain/75% souris"
+            ],
+            "correct_answers": [
+                "est un anticorps monoclonal chimérique 75% humain/25% souris",
+                "se lie au TNF soluble et membranaire",
+                "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate"
+            ],
+            "justification_fausses_reponses": {
+                "s’administre par voie sous-cutanée": "L'infliximab est administré par voie intraveineuse, et non sous-cutanée. La voie d'administration sous-cutanée est incorrecte pour ce médicament.",
+                "est un anticorps monoclonal chimérique 25% humain/75% souris": "L'infliximab est un anticorps monoclonal chimérique 75% humain et 25% souris. Cette option inverse les proportions, ce qui est incorrect."
+            }
+        },
+        {
+            "question": "Indiquer la (les) proposition(s) exacte(s) concernant le vaccin contre la rubéole",
+            "options": [
+                "Il est contre-indiqué pendant la grossesse",
+                "Il est toujours associé aux vaccins contre la rougeole et les oreillons",
+                "Il est recommandée à l’âge de 12 mois pour la première injection, 16-18 mois pour la seconde et 6 ans pour la troisième",
+                "Il est recommandé pour toute femme non vaccinée ayant un projet de grossesse",
+                "C’est un vaccin vivant atténué"
+            ],
+            "correct_answers": [
+                "Il est contre-indiqué pendant la grossesse",
+                "Il est toujours associé aux vaccins contre la rougeole et les oreillons",
+                "C’est un vaccin vivant atténué",
+                "Il est recommandé pour toute femme non vaccinée ayant un projet de grossesse"
+            ],
+            "justification_fausses_reponses": {
+                "Il est recommandée à l’âge de 12 mois pour la première injection, 16-18 mois pour la seconde et 6 ans pour la troisième": "Cette affirmation est incorrecte car le calendrier vaccinal recommande deux doses de vaccin contre la rubéole, généralement administrées à l'âge de 12 mois et entre 16 et 18 mois. Il n'y a pas de troisième dose recommandée à l'âge de 6 ans."
+            }
+        },
+        {
+            "question": "Dans l’immunité vis-à-vis d’une bactérie extracellulaire",
+            "options": [
+                "La voie alterne du complément est initiée par les anticorps",
+                "Les lymphocytes B produisent des perforines",
+                "L’opsonisation joue un rôle important grâce au système du complément",
+                "L’opsonisation joue un rôle important grâce aux IgM",
+                "Les lymphocytes NK phagocytent les bactéries"
+            ],
+            "correct_answers": [
+                "L’opsonisation joue un rôle important grâce au système du complément"
+            ],
+            "justification_fausses_reponses": {
+                "La voie alterne du complément est initiée par les anticorps": "La voie alterne du complément est initiée par la reconnaissance directe de la surface de la bactérie, et non par les anticorps.",
+                "Les lymphocytes B produisent des perforines": "Les perforines sont produites par les cellules cytotoxiques, comme les lymphocytes T cytotoxiques et les cellules NK, et non par les lymphocytes B.",
+                "L’opsonisation joue un rôle important grâce aux IgM": "Bien que les IgM puissent participer à l'opsonisation, elles ne sont pas le principal mécanisme. Le système du complément joue un rôle plus important dans l'opsonisation.",
+                "Les lymphocytes NK phagocytent les bactéries": "Les lymphocytes NK ne phagocytent pas les bactéries. Ce sont les macrophages et les neutrophiles qui sont responsables de la phagocytose."
+            }
+        },
+        {
+            "question": "Concernant les maladies inflammatoires chroniques de l’intestin (MICI), quelle(s) proposition(s) est (sont) exacte(s)",
+            "options": [
+                "La maladie de Crohn doit son nom au premier patient chez qui elle a été décrite, William Crohn",
+                "Dans les pays industrialisés, la prévalence moyenne des MICI est d’environ 10 à 20 cas pour 1000 habitants",
+                "Les MICI évoluent généralement sur un mode intermittent, avec une alternance de poussées et de rémissions",
+                "Il existe deux principales formes de MICI : la maladie de Crohn et la rectocolite hémorragique",
+                "Les MICI touchent principalement les adultes jeunes"
+            ],
+            "correct_answers": [
+                "Il existe deux principales formes de MICI : la maladie de Crohn et la rectocolite hémorragique",
+                "Les MICI touchent principalement les adultes jeunes",
+                "Les MICI évoluent généralement sur un mode intermittent, avec une alternance de poussées et de rémissions"
+            ],
+            "justification_fausses_reponses": {
+                "La maladie de Crohn doit son nom au premier patient chez qui elle a été décrite, William Crohn": "C'est incorrect. La maladie de Crohn doit son nom au Dr Burrill B. Crohn qui a été le premier à décrire cette maladie en 1932.",
+                "Dans les pays industrialisés, la prévalence moyenne des MICI est d’environ 10 à 20 cas pour 1000 habitants": "C'est incorrect. La prévalence des MICI dans les pays industrialisés est d'environ 0,5% soit 5 cas pour 1000 habitants."
+            }
+        },
+        {
+            "question": "Concernant Gardasil®, quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "C’est un vaccin vivant atténué",
+                "C’est un vaccin associé à un sur-risque de développement de sclérose en plaque",
+                "C’est un vaccin quadrivalent dirigé contre les souches de papillomavirus HPV 6, 11, 16 et 18",
+                "C’est un vaccin efficace dans la prévention des verrues génitales",
+                "C’est un vaccin recommandé chez toutes les femmes, quel que soit l’âge"
+            ],
+            "correct_answers": [
+                "C’est un vaccin quadrivalent dirigé contre les souches de papillomavirus HPV 6, 11, 16 et 18",
+                "C’est un vaccin efficace dans la prévention des verrues génitales"
+            ],
+            "justification_fausses_reponses": {
+                "C’est un vaccin vivant atténué": "Gardasil® n'est pas un vaccin vivant atténué. Il est fabriqué à partir de particules de type viral, qui sont des protéines qui ressemblent au virus mais qui ne peuvent pas causer de maladie.",
+                "C’est un vaccin associé à un sur-risque de développement de sclérose en plaque": "Il n'y a aucune preuve scientifique montrant que le vaccin Gardasil® est associé à un risque accru de développer une sclérose en plaques.",
+                "C’est un vaccin recommandé chez toutes les femmes, quel que soit l’âge": "Gardasil® est recommandé pour les filles et les femmes âgées de 9 à 26 ans. Il n'est pas recommandé pour toutes les femmes, quel que soit leur âge."
+            }
+        },
+        {
+            "question": "Concernant la rectocolite hémorragique (RCH), quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "les rectorragies sont le symptôme majeur de la RCH",
+                "la RCH peut toucher tout le tube digestif, de la bouche à l’anus",
+                "le tabac protège du risque de développement de la RCH",
+                "l’augmentation du risque de cancer colorectal est l’une des principales complications de la RCH",
+                "l’étiologie exacte de la RCH n’est pas connue et les anticorps monoclonaux anti-TNF sont inefficaces dans la prise en charge thérapeutique"
+            ],
+            "correct_answers": [
+                "les rectorragies sont le symptôme majeur de la RCH",
+                "l’augmentation du risque de cancer colorectal est l’une des principales complications de la RCH",
+                "le tabac protège du risque de développement de la RCH"
+            ],
+            "justification_fausses_reponses": {
+                "la RCH peut toucher tout le tube digestif, de la bouche à l’anus": "C'est incorrect car la RCH est une maladie inflammatoire qui affecte principalement le côlon et le rectum, et non l'ensemble du tube digestif.",
+                "l’étiologie exacte de la RCH n’est pas connue et les anticorps monoclonaux anti-TNF sont inefficaces dans la prise en charge thérapeutique": "C'est faux car même si l'étiologie exacte de la RCH n'est pas entièrement connue, les anticorps monoclonaux anti-TNF sont efficaces dans le traitement de la RCH en réduisant l'inflammation."
+            }
+        },
+        {
+            "question": "Choisir la ou les proposition(s) exacte(s) pour chacune des affirmations suivantes : Les macrophages",
+            "options": [
+                "ont une durée de vie longue",
+                "sont des cellules de la lignée lymphoïde",
+                "sont des cellules présentatrices d'antigènes",
+                "interviennent dans l'élimination des micro-organismes",
+                "sont majoritairement retrouvés dans le sang"
+            ],
+            "correct_answers": [
+                "interviennent dans l'élimination des micro-organismes",
+                "ont une durée de vie longue",
+                "sont des cellules présentatrices d'antigènes"
+            ],
+            "justification_fausses_reponses": {
+                "sont des cellules de la lignée lymphoïde": "Les macrophages ne sont pas des cellules de la lignée lymphoïde, mais de la lignée myéloïde. Ils sont issus de la différenciation des monocytes, une sous-population de leucocytes.",
+                "sont majoritairement retrouvés dans le sang": "Bien que les macrophages puissent être présents dans le sang, ils sont majoritairement retrouvés dans les tissus où ils jouent un rôle clé dans la réponse immunitaire."
+            }
+        },
+        {
+            "question": "Indiquez la ou les bonne(s) r éponse(s) : l ’adalimumab (HUMIRA®)",
+            "options": [
+                "est indiqué dans traitement des maladies inflammatoires chroniques de l’intestin",
+                "est un anticorps monoclonal chimérique 75% humain/25% souris",
+                "s’administre par voie sous-cutanée",
+                "peut être responsable de réactivation de tuberculose",
+                "est un anticorps monoclonal humanisé"
+            ],
+            "correct_answers": [
+                "est un anticorps monoclonal humanisé",
+                "s’administre par voie sous-cutanée",
+                "peut être responsable de réactivation de tuberculose",
+                "est indiqué dans traitement des maladies inflammatoires chroniques de l’intestin"
+            ],
+            "justification_fausses_reponses": {
+                "est un anticorps monoclonal chimérique 75% humain/25% souris": "L'adalimumab est un anticorps monoclonal entièrement humanisé, et non chimérique. Les anticorps chimériques sont composés de parties humaines et non humaines, tandis que les anticorps humanisés sont entièrement humains, ce qui réduit le risque de réactions immunitaires."
+            }
+        },
+        {
+            "question": "Le récept eur à l’ antigène du lymphocy te T",
+            "options": [
+                "est une molécule du complexe majeur d'histocompatibilité de type II",
+                "reconnaît un épitope",
+                "est présent sur tous les lymphocytes T CD4 auxiliaires",
+                "est composé de 2 paratopes",
+                "est exprimé par les lymphocytes T CD4 mais pas les lymphocytes T CD8"
+            ],
+            "correct_answers": [
+                "est présent sur tous les lymphocytes T CD4 auxiliaires",
+                "reconnaît un épitope"
+            ],
+            "justification_fausses_reponses": {
+                "est une molécule du complexe majeur d'histocompatibilité de type II": "C'est incorrect car le récepteur à l'antigène du lymphocyte T n'est pas une molécule du complexe majeur d'histocompatibilité de type II. Il s'agit de deux entités distinctes qui jouent des rôles différents dans la réponse immunitaire.",
+                "est composé de 2 paratopes": "C'est incorrect car le récepteur à l'antigène du lymphocyte T n'est pas composé de paratopes. Les paratopes sont les sites de liaison des anticorps aux antigènes, pas des composants du récepteur à l'antigène.",
+                "est exprimé par les lymphocytes T CD4 mais pas les lymphocytes T CD8": "C'est incorrect car le récepteur à l'antigène est exprimé à la fois par les lymphocytes T CD4 et CD8. La différence entre ces deux types de lymphocytes T réside dans le type de cellule qu'ils ciblent, pas dans l'expression du récepteur à l'antigène."
+            }
+        },
+        {
+            "question": "Dans la list e suiv ante, quels sont les v accins contr e-indiqués chez la femme enceint e?",
+            "options": [
+                "Vaccin anti-grippal",
+                "Vaccin contre la rougeole",
+                "Vaccin D TPolio",
+                "Vaccin anti-hépatite B",
+                "Vaccin contre la rubéole"
+            ],
+            "correct_answers": [
+                "V accin contre la rubéole",
+                "V accin contre la rougeole"
+            ],
+            "justification_fausses_reponses": {
+                "Vaccin anti-grippal": "Le vaccin anti-grippal est recommandé pour les femmes enceintes car il protège à la fois la mère et le fœtus contre la grippe, qui peut être plus sévère pendant la grossesse.",
+                "Vaccin D TPolio": "Le vaccin DTPolio, qui protège contre la diphtérie, le tétanos et la poliomyélite, n'est pas contre-indiqué pendant la grossesse. Il est important de maintenir à jour ces vaccinations pour protéger la mère et le bébé.",
+                "Vaccin anti-hépatite B": "Le vaccin contre l'hépatite B peut être administré pendant la grossesse si la femme est à risque. Il n'y a pas de risque connu pour le fœtus."
+            }
+        },
+        {
+            "question": "Une maladie auto-immune",
+            "options": [
+                "peut être causée par un mimétisme moléculaire",
+                "peut être associée à un déficit d’un composant du complément",
+                "concerne toujours un organe cible reconnu par des autoanticorps",
+                "est toujours associée à un rôle pathologique des auto-anticorps",
+                "peut être associée à une rupture de tolérance"
+            ],
+            "correct_answers": [
+                "peut être associée à un déficit d’un composant du complément",
+                "peut être causée par un mimétisme moléculaire",
+                "peut être associée à une rupture de tolérance"
+            ],
+            "justification_fausses_reponses": {
+                "concerne toujours un organe cible reconnu par des autoanticorps": "C'est incorrect car toutes les maladies auto-immunes ne ciblent pas toujours un organe spécifique. Certaines peuvent affecter l'ensemble du corps.",
+                "est toujours associée à un rôle pathologique des auto-anticorps": "C'est incorrect car bien que les auto-anticorps jouent souvent un rôle dans les maladies auto-immunes, ils ne sont pas toujours pathologiques. Parfois, ils peuvent être une réponse normale du système immunitaire."
+            }
+        },
+        {
+            "question": "Un prick test",
+            "options": [
+                "Permet de doser les IgE",
+                "Permet de quantifier les mastocytes dans l’épiderme",
+                "Est un test d’hypersensibilité retardée",
+                "Est un test de sensibilisation cutanée à un allergène",
+                "Permet de doser l’histamine"
+            ],
+            "correct_answers": [
+                "Est un test de sensibilisation cutanée à un allergène"
+            ],
+            "justification_fausses_reponses": {
+                "Permet de doser les IgE": "Le prick test ne permet pas de doser les IgE. Il sert à déterminer si une personne est allergique à une substance spécifique.",
+                "Permet de quantifier les mastocytes dans l’épiderme": "Le prick test ne permet pas de quantifier les mastocytes dans l'épiderme. Il sert à tester la réaction de la peau à une substance spécifique.",
+                "Est un test d’hypersensibilité retardée": "Le prick test n'est pas un test d'hypersensibilité retardée. Il sert à tester une réaction allergique immédiate, pas une réaction retardée.",
+                "Permet de doser l’histamine": "Le prick test ne permet pas de doser l'histamine. Il sert à tester la réaction de la peau à une substance spécifique, pas à mesurer les niveaux d'histamine."
+            }
+        },
+        {
+            "question": "Donner la (les) proposition(s) exacte(s) concernant les anticorps monoclonaux utilisés en thérapeutique",
+            "options": [
+                "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2",
+                "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+                "Le suffixe « ximab » de la DCI indique un anticorps monoclonal thérapeutique humanisé",
+                "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+                "Le rituximab (MAB THERA®) a pour cible le TNF"
+            ],
+            "correct_answers": [
+                "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+                "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+                "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2"
+            ],
+            "justification_fausses_reponses": {
+                "Le suffixe « ximab » de la DCI indique un anticorps monoclonal thérapeutique humanisé": "C'est incorrect. Le suffixe « ximab » indique un anticorps chimérique, pas humanisé. Les anticorps humanisés ont le suffixe « zumab ».",
+                "Le rituximab (MAB THERA®) a pour cible le TNF": "C'est incorrect. Le rituximab cible le CD20, une protéine présente à la surface des cellules B, et non le TNF (facteur de nécrose tumorale)."
+            }
+        },
+        {
+            "question": "Concernant la maladie de Crohn, quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+                "la maladie de Crohn est beaucoup plus fréquente que la rectocolite hémorragique",
+                "Les lésions intestinales sont segmentaires et transmurales",
+                "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn",
+                "la maladie de Crohn est plus fréquente chez les fumeurs"
+            ],
+            "correct_answers": [
+                "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+                "la maladie de Crohn est plus fréquente chez les fumeurs",
+                "Les lésions intestinales sont segmentaires et transmurales",
+                "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn"
+            ],
+            "justification_fausses_reponses": {
+                "la maladie de Crohn est beaucoup plus fréquente que la rectocolite hémorragique": "Cette affirmation est incorrecte. La prévalence de la maladie de Crohn et de la rectocolite hémorragique est similaire, avec une légère prédominance de la rectocolite hémorragique dans certaines régions."
+            }
+        },
+        {
+            "question": "La voie classique du complément",
+            "options": [
+                "est initiée par des complexes immuns",
+                "renforce la réaction inflammatoire",
+                "facilite l’élimination des complexes immuns",
+                "est initiée par une surface bactérienne",
+                "appartient à l’immunité adaptative"
+            ],
+            "correct_answers": [
+                "renforce la réaction inflammatoire",
+                "est initiée par des complexes immuns",
+                "facilite l’élimination des complexes immuns"
+            ],
+            "justification_fausses_reponses": {
+                "est initiée par une surface bactérienne": "La voie classique du complément n'est pas initiée par une surface bactérienne, mais par la liaison du complément C1q à des anticorps fixés à des antigènes, formant ainsi des complexes immuns.",
+                "appartient à l’immunité adaptative": "La voie classique du complément appartient à l'immunité innée, pas à l'immunité adaptative. L'immunité innée est la première ligne de défense du corps contre les infections, tandis que l'immunité adaptative est une réponse immunitaire spécifique à un antigène particulier."
+            }
+        },
+        {
+            "question": "Concernant les maladies inflammatoires chroniques de l’intestin (MICI), quelle(s) proposition(s) est (sont) exacte(s) ?",
+            "options": [
+                "Il n’existe pas de traitement curatif des MICI",
+                "Le Vedolizumab (ENTYVIO®) inhibe les chimiokines impliquées dans le recrutement des lymphocytes au cours des MICI",
+                "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques",
+                "Le Rituximab (MABTHERA®) permet d’obtenir la rémission de la maladie de Crohn",
+                "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI"
+            ],
+            "correct_answers": [
+                "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI",
+                "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques"
+            ],
+            "justification_fausses_reponses": {
+                "Il n’existe pas de traitement curatif des MICI": "Cette affirmation est incorrecte car bien qu'il n'y ait pas de remède définitif pour les MICI, il existe des traitements qui peuvent aider à gérer les symptômes et à prévenir les complications.",
+                "Le Vedolizumab (ENTYVIO®) inhibe les chimiokines impliquées dans le recrutement des lymphocytes au cours des MICI": "Cette affirmation est incorrecte car le Vedolizumab n'inhibe pas les chimiokines, mais plutôt l'intégrine α4β7, ce qui empêche les lymphocytes de se lier à la molécule d'adressage des cellules MadCAM-1 dans l'intestin.",
+                "Le Rituximab (MABTHERA®) permet d’obtenir la rémission de la maladie de Crohn": "Cette affirmation est incorrecte car le Rituximab, un anticorps monoclonal qui cible les cellules B, n'est pas utilisé pour traiter la maladie de Crohn. Il est principalement utilisé pour traiter certaines formes de cancer et de maladies auto-immunes."
+            }
+        }
+    ]
+}

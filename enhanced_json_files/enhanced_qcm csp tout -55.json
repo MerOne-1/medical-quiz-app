@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soient les équilibres: Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "L’équilibre 3 sera déplacé vers la gauche si on augmente la pression à température constante",
+      "L’équilibre 2 sera déplacé vers la droite si on augmente la température à pression constante",
+      "L’équilibre 3 sera déplacé vers la droite si on augmente la quantité de CaC O",
+      "L’équilibre 2 sera déplacé vers la gauche si on diminue le volume à température constante",
+      "L’équilibre 1 sera déplacé vers la gauche si on diminue le volume à température constante3"
+    ],
+    "correct_answers": [
+      "L’équilibre 2 sera déplacé vers la droite si on augmente la température à pression constante",
+      "L’équilibre 2 sera déplacé vers la gauche si on diminue le volume à température constante",
+      "L’équilibre 3 sera déplacé vers la gauche si on augmente la pression à température constante"
+    ],
+    "justification_fausses_reponses": {
+      "L’équilibre 3 sera déplacé vers la droite si on augmente la quantité de CaC O": "C'est incorrect car l'ajout d'un réactif ou d'un produit ne déplace pas nécessairement l'équilibre. Cela dépend de la réaction et de la manière dont elle est affectée par les changements de concentration.",
+      "L’équilibre 1 sera déplacé vers la gauche si on diminue le volume à température constante3": "C'est incorrect car la diminution du volume à température constante déplace l'équilibre vers le côté de la réaction qui a le moins de moles de gaz. Cela dépend de la réaction spécifique et ne peut pas être généralisé."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes relatives à la géométrie des édifices chimiques, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "BeCl est linéaire",
+      "SO est plan",
+      "NH est tétraédrique",
+      "BF est tétraédrique",
+      "HCO est plan"
+    ],
+    "correct_answers": [
+      "BeCl est linéaire",
+      "SO est plan",
+      "NH est tétraédrique",
+      "HCO est plan"
+    ],
+    "justification_fausses_reponses": {
+      "BF est tétraédrique": "BF est incorrect car la molécule de trifluorure de bore (BF3) a une géométrie trigonale plan, et non tétraédrique. Cela est dû à la présence de trois liaisons et aucun électron non apparié sur l'atome de bore."
+    }
+  }
+]

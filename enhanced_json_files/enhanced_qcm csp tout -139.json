@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la maladie d'Alzheimer laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "Galantamine expose à un risque dose dépendant de tachycardie",
+      "Rivastigmine expose à un risque dose dépendant de constipation opiniâtre",
+      "Mémantine et Donépézil agissent par le même mécanisme d'action",
+      "L'atropine diminue l'efficacité du Donépézil",
+      "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique"
+    ],
+    "correct_answers": [
+      "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique",
+      "L'atropine diminue l'efficacité du Donépézil"
+    ],
+    "justification_fausses_reponses": {
+      "Galantamine expose à un risque dose dépendant de tachycardie": "La galantamine peut causer des effets secondaires cardiovasculaires, mais la tachycardie n'est pas directement liée à la dose.",
+      "Rivastigmine expose à un risque dose dépendant de constipation opiniâtre": "La rivastigmine peut causer de la constipation, mais ce n'est pas un effet dose-dépendant.",
+      "Mémantine et Donépézil agissent par le même mécanisme d'action": "La mémantine et le donépézil ont des mécanismes d'action différents. La mémantine est un antagoniste du NMDA, tandis que le donépézil est un inhibiteur de l'acétylcholinestérase."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la maladie d'Alzheimer, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "La maladie d'Alzheimer est liée à une perte progressive des neurones dopaminergiques de la substance noire.",
+      "La mémantine (EBIXA) est un anticholinestérasique.",
+      "L'aphasie correspond à la difficulté de reconnaître des objets en dépit des fonctions sensorielles intactes.",
+      "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires",
+      "La mémantine (EBIXA) est antagoniste non-compétitif des récepteurs GABA A."
+    ],
+    "correct_answers": [
+      "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires"
+    ],
+    "justification_fausses_reponses": {
+      "La maladie d'Alzheimer est liée à une perte progressive des neurones dopaminergiques de la substance noire.": "C'est incorrect car la maladie d'Alzheimer est principalement liée à une perte de neurones cholinergiques, pas dopaminergiques.",
+      "La mémantine (EBIXA) est un anticholinestérasique.": "C'est faux car la mémantine est un antagoniste non-compétitif des récepteurs NMDA, pas un anticholinestérasique.",
+      "L'aphasie correspond à la difficulté de reconnaître des objets en dépit des fonctions sensorielles intactes.": "C'est incorrect car l'aphasie est un trouble du langage, pas de la reconnaissance des objets. La difficulté à reconnaître des objets malgré des fonctions sensorielles intactes est appelée agnosie.",
+      "La mémantine (EBIXA) est antagoniste non-compétitif des récepteurs GABA A.": "C'est faux car la mémantine est un antagoniste non-compétitif des récepteurs NMDA, pas des récepteurs GABA A."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels de la metformine :",
+    "options": [
+      "Une hypoglycémie profonde quand elle est utilisée en monothérapie",
+      "Une pancréatite",
+      "Une acidose lactique",
+      "Des troubles digestifs surtout en début de traitement",
+      "Une anémie hémolytique"
+    ],
+    "correct_answers": [
+      "Des troubles digestifs surtout en début de traitement",
+      "Une acidose lactique"
+    ],
+    "justification_fausses_reponses": {
+      "Une hypoglycémie profonde quand elle est utilisée en monothérapie": "La metformine est un antidiabétique oral qui ne provoque pas d'hypoglycémie en monothérapie car elle ne stimule pas la sécrétion d'insuline.",
+      "Une pancréatite": "La metformine n'est pas associée à un risque accru de pancréatite. C'est un effet indésirable rare et non spécifique à la metformine.",
+      "Une anémie hémolytique": "L'anémie hémolytique n'est pas un effet indésirable connu de la metformine. Elle peut causer une diminution du niveau de vitamine B12, mais cela ne conduit pas à une anémie hémolytique."
+    }
+  }
+]

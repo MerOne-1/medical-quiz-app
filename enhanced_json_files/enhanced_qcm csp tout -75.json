@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Le baclofène est un myorelaxant commercialisé sous forme racémique. L'énantiomère R est 100 fois plus actif que l'énantiomère S. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le baclofène est administré sous forme racémique ce qui signifie que c'est un mélange équimolaire des énantiomères R et S",
+      "L'énantiomère R est le composé A",
+      "L'énantiomère R est le composé B",
+      "Le baclofène est un acide gamma-aminé",
+      "L'état d'ionisation du baclofène est 0 à pH physiologique (pH 7,4)"
+    ],
+    "correct_answers": [
+      "Le baclofène est administré sous forme racémique ce qui signifie que c'est un mélange équimolaire des énantiomères R et S",
+      "L'énantiomère R est le composé A",
+      "Le baclofène est un acide gamma-aminé",
+      "L'état d'ionisation du baclofène est 0 à pH physiologique (pH 7,4)"
+    ],
+    "justification_fausses_reponses": {
+      "L'énantiomère R est le composé B": "Cette affirmation est incorrecte car l'énantiomère R du baclofène est identifié comme le composé A, pas le composé B. Les énantiomères sont des molécules qui sont des images miroir l'une de l'autre et ne peuvent pas être superposées. Dans ce cas, l'énantiomère R est plus actif et est donc le composé A."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "La lévofloxacine est un antibiotique de synthèse à large spectre, appartenant au groupe des fluoroquinolones. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La lévofloxacine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "La lévofloxacine possède un atome d'halogène",
+      "La lévofloxacine possède une fonction éther",
+      "La lévofloxacine possède deux atomes de carbone asymétrique",
+      "La lévofloxacine possède un cycle pipéridine"
+    ],
+    "correct_answers": [
+      "La lévofloxacine possède un atome d'halogène",
+      "La lévofloxacine possède une fonction éther"
+    ],
+    "justification_fausses_reponses": {
+      "La lévofloxacine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car la lévofloxacine est un antibiotique zwitterionique, ce qui signifie qu'elle possède à la fois des charges positives et négatives à pH physiologique.",
+      "La lévofloxacine possède deux atomes de carbone asymétrique": "C'est incorrect car la lévofloxacine ne possède qu'un seul atome de carbone asymétrique dans sa structure chimique.",
+      "La lévofloxacine possède un cycle pipéridine": "C'est incorrect car la lévofloxacine ne possède pas de cycle pipéridine dans sa structure chimique. Elle possède plutôt un cycle pyridine."
+    }
+  }
+]

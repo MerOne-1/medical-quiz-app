@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "En France, quelles sont les pathologies ou les germes ciblés par les vaccins obligatoires ?",
+    "options": [
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, BC G, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, virus influenza",
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, Haemophilus influenzae",
+      "dipthérie, tétanos, poliomyélite, coqueluche, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae, Papilloma virus"
+    ],
+    "correct_answers": [
+      "dipthérie, tétanos, poliomyélite, coqueluche, hépatite B, pneumocoque, méningocoque C, rougeole, oreillons, rubéole, Haemophilus influenzae"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les allergies alimentaires",
+    "options": [
+      "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+      "Le syndrome oral est souvent associé à des allergies croisées",
+      "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+      "Ce sont des hypersensibilités de type 1",
+      "L’allergie aux protéines d’œufs est plus fréquente chez l’adulte que chez l’enfant"
+    ],
+    "correct_answers": [
+      "L’allergie aux protéines d’œufs a tendance à disparaître lors de la petite enfance",
+      "L’eczéma est la manifestation clinique privilégiée chez les nourrissons",
+      "Ce sont des hypersensibilités de type 1",
+      "Le syndrome oral est souvent associé à des allergies croisées"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Indiquez la ou les bonne(s) réponse(s) : l’infliximab (REMICADE®)",
+    "options": [
+      "s’administre par voie sous-cutanée",
+      "se lie au TNF soluble et membranaire",
+      "est un anticorps monoclonal chimérique 75% humain/25% souris",
+      "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate",
+      "est un anticorps monoclonal chimérique 25% humain/75% souris"
+    ],
+    "correct_answers": [
+      "est un anticorps monoclonal chimérique 75% humain/25% souris",
+      "se lie au TNF soluble et membranaire",
+      "est indiqué pour le traitement de fond de la polyarthrite rhumatoïde en association avec le méthotrexate"
+    ]
+  }
+]

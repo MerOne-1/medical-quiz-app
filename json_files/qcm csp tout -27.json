@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "En spectrophométrie moléculaire, la sensibilité d'un dosage dépend:",
+    "options": [
+      "De l'intensité du rayonnement incident",
+      "De la longueur du trajet optique",
+      "De la longueur d'onde du maximum d'absorption du solvant",
+      "Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption",
+      "Du système de mesure de l'intensité de la lumière transmise"
+    ],
+    "correct_answers": [
+      "Du coefficient d'extinction moléculaire du soluté à la longueur d'onde maximale d'absorption",
+      "De la longueur du trajet optique",
+      "Du système de mesure de l'intensité de la lumière transmise"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "A combien de microlitres correspond un litre ?",
+    "options": [
+      "10",
+      "10",
+      "1 000 000",
+      "1/10",
+      "0.001-6",
+      "5",
+      "-6"
+    ],
+    "correct_answers": [
+      "1 000 000",
+      "1/10-6"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En électrophorèse capillaire, la mobilité apparente (expérimentale):",
+    "options": [
+      "Ne dépend pas du flux électroosmotique",
+      "Est proportionnelle au temps de migration",
+      "Dépend du flux électroosmotique",
+      "Ne dépend que de la vitesse électrophorétique de l'analyte",
+      "Est proportionnelle à la longueur du tube capillaire"
+    ],
+    "correct_answers": [
+      "Dépend du flux électroosmotique",
+      "Est proportionnelle à la longueur du tube capillaire"
+    ]
+  }
+]

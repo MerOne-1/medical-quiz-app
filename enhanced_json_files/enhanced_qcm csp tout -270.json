@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les cytokines, indiquez la (ou les) bonne(s) réponse(s)",
+    "options": [
+      "La nature biochimique des cytokines est très variable : les cytokines peuvent être des protéines, des sucres ou des lipides",
+      "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales.",
+      "Les cytokines exercent leurs fonctions par l’intermédiaire de la fixation à un récepteur cytoplasmique",
+      "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+      "Infliximab et Adalimumab sont 2 anticorps monoclonaux thérapeutiques dirigés contre le récepteur au TNF"
+    ],
+    "correct_answers": [
+      "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+      "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales."
+    ],
+    "justification_fausses_reponses": {
+      "La nature biochimique des cytokines est très variable : les cytokines peuvent être des protéines, des sucres ou des lipides": "C'est incorrect. Les cytokines sont des protéines, elles ne sont pas des sucres ou des lipides.",
+      "Les cytokines exercent leurs fonctions par l’intermédiaire de la fixation à un récepteur cytoplasmique": "C'est incorrect. Les cytokines exercent leurs fonctions en se liant à des récepteurs spécifiques à la surface des cellules, pas dans le cytoplasme.",
+      "Infliximab et Adalimumab sont 2 anticorps monoclonaux thérapeutiques dirigés contre le récepteur au TNF": "C'est incorrect. Infliximab et Adalimumab sont des anticorps monoclonaux qui ciblent le TNF-alpha, une cytokine pro-inflammatoire, pas son récepteur."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Choisir la ou les proposition(s) exacte(s) pour chacune des affirmations suivantes : Chez l'homme, les immunoglobulines G",
+    "options": [
+      "sont capables de traverser la barrière placentaire",
+      "sont reconnus par les macrophages par leur fragment F ab",
+      "présentent deux paratopes distincts",
+      "présentent une affinité faible pour l'antigène lors d'une réponse secondaire",
+      "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal"
+    ],
+    "correct_answers": [
+      "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal",
+      "sont capables de traverser la barrière placentaire"
+    ],
+    "justification_fausses_reponses": {
+      "sont reconnus par les macrophages par leur fragment F ab": "C'est incorrect car les macrophages reconnaissent les immunoglobulines G par leur fragment Fc, et non F ab.",
+      "présentent deux paratopes distincts": "C'est incorrect car les immunoglobulines G présentent deux paratopes identiques, et non distincts.",
+      "présentent une affinité faible pour l'antigène lors d'une réponse secondaire": "C'est incorrect car lors d'une réponse secondaire, les immunoglobulines G présentent une affinité élevée pour l'antigène, et non faible."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant le cancer du col de l’utérus, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il peut être prévenu par la détection de lésions précancéreuses",
+      "Il peut être prévenu par la vaccination",
+      "Il est associé à une primo-infection par un papillomavirus",
+      "En France, c’est le 2ème cancer le plus meurtrier chez la femme après le cancer du sein",
+      "Seuls les génotypes HPV 16 et HPV 18 de papillomavirus sont impliqués dans le développement du cancer du col de l’utérus"
+    ],
+    "correct_answers": [
+      "Il est associé à une primo-infection par un papillomavirus",
+      "Il peut être prévenu par la vaccination",
+      "Il peut être prévenu par la détection de lésions précancéreuses"
+    ],
+    "justification_fausses_reponses": {
+      "En France, c’est le 2ème cancer le plus meurtrier chez la femme après le cancer du sein": "Cette affirmation est incorrecte. En France, le cancer du col de l'utérus n'est pas le deuxième cancer le plus meurtrier chez la femme. Il est devancé par d'autres types de cancer comme le cancer du poumon ou le cancer colorectal.",
+      "Seuls les génotypes HPV 16 et HPV 18 de papillomavirus sont impliqués dans le développement du cancer du col de l’utérus": "Cette affirmation est fausse. Bien que les génotypes HPV 16 et HPV 18 soient les plus couramment associés au cancer du col de l'utérus, d'autres génotypes de papillomavirus peuvent également être impliqués."
+    }
+  }
+]

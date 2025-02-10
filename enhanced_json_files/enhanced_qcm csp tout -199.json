@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant les eaux destinées à la consommation humaine, à l’exception des eaux minérales naturelles, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Ces eaux doivent impérativement respecter les limites de qualité définies légalement.",
+      "Le suivi de leur qualité ne concerne que les risques sanitaires.",
+      "Elles doivent satisfaire à des références de qualité relatives aux propriétés organoleptiques de l’eau ou indicatrices du bon fonctionnement des installations de traitement de potabilisation.",
+      "La fréquence des contrôles sanitaires réglementaires en sortie d’usine de potabilisation dépend du volume d’eau traité.",
+      "Le contrôle de leur qualité microbiologique repose sur la recherche de germes indicateurs de contamination fécale."
+    ],
+    "correct_answers": [
+      "Ces eaux doivent impérativement respecter les limites de qualité définies légalement.",
+      "Elles doivent satisfaire à des références de qualité relatives aux propriétés organoleptiques de l’eau ou indicatrices du bon fonctionnement des installations de traitement de potabilisation.",
+      "Le contrôle de leur qualité microbiologique repose sur la recherche de germes indicateurs de contamination fécale."
+    ],
+    "justification_fausses_reponses": {
+      "Le suivi de leur qualité ne concerne que les risques sanitaires.": "Cette affirmation est incorrecte car le suivi de la qualité de l'eau ne se limite pas uniquement aux risques sanitaires. Il englobe également d'autres aspects tels que les propriétés organoleptiques de l'eau (goût, odeur, couleur) et le bon fonctionnement des installations de traitement de potabilisation.",
+      "La fréquence des contrôles sanitaires réglementaires en sortie d’usine de potabilisation dépend du volume d’eau traité.": "Cette affirmation est fausse car la fréquence des contrôles sanitaires réglementaires ne dépend pas uniquement du volume d'eau traité. Elle est également déterminée par d'autres facteurs tels que la qualité de l'eau brute, le type de traitement utilisé et les exigences réglementaires spécifiques."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant la toxicologie des alcools, quelle est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "Le métabolisme hépatique du méthanol aboutit à la formation d’acide formique.",
+      "Lors d’une intoxication aiguë par l’éthylène glycol, la formation de cristaux d’oxalate de calcium provoque des lésions rénales, à l’origine d’une insuffisance rénale aiguë.",
+      "L’accumulation d’acide formique est responsable d’une acidose respiratoire.",
+      "La toxicité neurologique du méthanol est responsable d’une neuropathie optique, pouvant mener à une cécité irréversible.",
+      "Le traitement antidotique de l’intoxication au méthanol repose sur l’utilisation d’un inhibiteur de l’aldéhyde déshydrogénase."
+    ],
+    "correct_answers": [
+      "Le métabolisme hépatique du méthanol aboutit à la formation d’acide formique.",
+      "La toxicité neurologique du méthanol est responsable d’une neuropathie optique, pouvant mener à une cécité irréversible.",
+      "Lors d’une intoxication aiguë par l’éthylène glycol, la formation de cristaux d’oxalate de calcium provoque des lésions rénales, à l’origine d’une insuffisance rénale aiguë."
+    ],
+    "justification_fausses_reponses": {
+      "L’accumulation d’acide formique est responsable d’une acidose respiratoire.": "Cette affirmation est incorrecte car l'accumulation d'acide formique provoque une acidose métabolique, et non respiratoire. L'acidose respiratoire est due à une hypoventilation, tandis que l'acidose métabolique est due à une augmentation des acides dans le sang.",
+      "Le traitement antidotique de l’intoxication au méthanol repose sur l’utilisation d’un inhibiteur de l’aldéhyde déshydrogénase.": "Cette affirmation est incorrecte car le traitement antidotique de l'intoxication au méthanol repose sur l'utilisation d'un inhibiteur de l'alcool déshydrogénase, et non de l'aldéhyde déshydrogénase. L'inhibition de l'alcool déshydrogénase empêche la formation de métabolites toxiques du méthanol."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant les méthodes d’évaluation de la toxicité des médicaments à usage humain, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+    "options": [
+      "Un des objectifs des études toxicologiques est de calculer la première dose de médicament à administrer à l’homme.",
+      "Les études de reprotoxicité sont divisées en 4 segments.",
+      "Les tests doivent être effectués dans le respect des Bonnes Pratiques de Laboratoire.",
+      "La totalité des tests est effectuée in vivo chez l’animal.",
+      "La toxicité d’un futur médicament est évaluée très tard dans le processus de développement, juste avant sa mise sur le marché."
+    ],
+    "correct_answers": [
+      "Un des objectifs des études toxicologiques est de calculer la première dose de médicament à administrer à l’homme.",
+      "Les tests doivent être effectués dans le respect des Bonnes Pratiques de Laboratoire."
+    ],
+    "justification_fausses_reponses": {
+      "Les études de reprotoxicité sont divisées en 4 segments.": "C'est incorrect. Les études de reprotoxicité sont généralement divisées en trois segments : la fertilité et la reproduction précoce, le développement embryofœtal, et le développement pré- et postnatal.",
+      "La totalité des tests est effectuée in vivo chez l’animal.": "C'est incorrect. Bien que les tests sur les animaux soient une partie importante de l'évaluation de la toxicité, ils ne constituent pas la totalité des tests. Des tests in vitro et des modèles informatiques sont également utilisés.",
+      "La toxicité d’un futur médicament est évaluée très tard dans le processus de développement, juste avant sa mise sur le marché.": "C'est incorrect. L'évaluation de la toxicité d'un médicament est une étape cruciale qui a lieu tout au long du processus de développement, et pas seulement à la fin. Cela permet d'identifier les risques potentiels le plus tôt possible."
+    }
+  }
+]

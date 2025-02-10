@@ -1,0 +1,35 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 13/13
+Question 28
+Non répondue
+Noté sur 1,00
+Question 29
+Non répondue
+Noté sur 1,00Un essai clinique est mené afin de tester la supériorité d'un traitement expérimental E par rapport à un traitement de référence
+R, avec pour critère principal d'évaluation le décès après un an de traitement. Les sujets inclus dans l'étude sont randomisés en
+deux groupes parallèles et suivis pendant un minimum d'un an.
+Parmi les propositions suivantes, quelles sont celles qui sont correctes ?
+Veuillez choisir au moins une réponse :
+Un test de supériorité est un test unilatéral
+Chaque sujet ne reçoit qu'un seul traitement pendant toute la durée de l'essai
+Dans un essai randomisé, les traitements sont attribués au hasard
+L'étude de supériorité cherche à montrer que le taux de décès sous traitement E est plus élevé que le taux de décès sous
+traitement R
+Le test à mettre en œuvre est un test de comparaison de deux moyennes
+Les réponses correctes sont : Un test de supériorité est un test unilatéral, Chaque sujet ne reçoit qu'un seul traitement pendant
+toute la durée de l'essai, Dans un essai randomisé, les traitements sont attribués au hasard
+Trois méthodes sont habituellement utilisées pour doser une protéine P chez l’adulte. On souhaite comparer les résultats
+obtenus par ces trois méthodes pour un même sérum pédiatrique. On réalise, pour chacune des méthodes, 5 répétitions et
+l’on obtient les moyennes respectives suivantes (en mg/L) : 10.5, 10.2 et 10.6. Le test statistique utilisé fournit un niveau de
+signification (p-value) p = 0.42. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :
+Veuillez choisir au moins une réponse :
+L’hypothèse nulle du test correspond à des valeurs moyennes de dosages égales pour les 3 méthodes
+Le test utilisé est le test de S tudent, en supposant l’hypothèse de normalité vérifiée
+Au seuil de 5%, on peut dire qu’en moyenne les trois méthodes ne fournissent pas la même valeur de dosage
+S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire pour réaliser le test
+Le test utilisé est un test d’ANO VA
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le test utilisé est un test d’ANO VA, L’hypothèse nulle du test correspond à des valeurs moyennes
+de dosages égales pour les 3 méthodes, S’agissant d’un plan équilibré, la condition d’égalité des variances n’est pas nécessaire
+pour réaliser le test
+◄ Forum de discussion Aller à… Quiz - Biophysique ►

@@ -1,0 +1,59 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les bactéries suivantes, laquelle (lesquelles) n'est (ne sont) pas responsable(s) de diarrhées ?",
+    "options": [
+      "Clostridium perfringens",
+      "Streptococcus agalactiae",
+      "Escherichia coli",
+      "Salmonella  Typhimurium",
+      "Shigella sonnei"
+    ],
+    "correct_answers": [
+      "Streptococcus agalactiae"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant le vaccin antitétanique ?",
+    "options": [
+      "aucune proposition n'est exacte",
+      "il ne peut être associé à d'autres vaccins",
+      "c'est un vaccin vivant atténué",
+      "il ne doit pas être administré chez la femme enceinte",
+      "il est inutile chez des sujets guéris du tétanos"
+    ],
+    "correct_answers": [
+      "aucune proposition n'est exacte"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Listeria monocytogenes",
+    "options": [
+      "elle est responsable d'infections néonatales sévères",
+      "elle appartient à un groupe antigénique homogène",
+      "c'est un agent responsable de la mononucléose infectieuse",
+      "c'est le premier agent responsable d'encéphalite du nourrisson",
+      "elle est sensible à l'acide nalidixique"
+    ],
+    "correct_answers": [
+      "elle est responsable d'infections néonatales sévères"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : La paroi des entérobactéries est constituée :",
+    "options": [
+      "de peptidoglycane en position externe",
+      "de lipopolysaccharides en position externe",
+      "d'acides teichoïques",
+      "de phospholipides sous la couche de lipopolysaccharides",
+      "de lipoprotéines de Braun entre le peptidoglycane et la membrane plasmique"
+    ],
+    "correct_answers": [
+      "de lipopolysaccharides en position externe",
+      "de phospholipides sous la couche de lipopolysaccharides"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les médicaments suivants, lequel ou lesquels est(sont) indiqué(s) dans la prise en charge thérapeutique d'une séroconversion toxoplasmique chez une femme enceinte au cours du premier trimestre de grossesse ?",
+    "options": [
+      "Atovaquone (W ellvone®)",
+      "Spiramycine (R ovamycine®)",
+      "Fluconazole (T riflucan®)",
+      "Pyriméthamine (Malocide®)",
+      "Métronidazole (Flagyl®)"
+    ],
+    "correct_answers": [
+      "Spiramycine (R ovamycine®)"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Une cliente vous montre qu'elle a été piquée par une tique, Ixodes ricinus  il y a deux jours. Elle vous montre l'acarien toujours en place et vous demande que faire. Cocher les actions que vous pouvez mettre en œuvre.",
+    "options": [
+      "Utiliser un tire-tique et extraire la tique en la dévissant.",
+      "Imbiber un coton d'éther et endormir la tique.",
+      "La rassurer et la laisser rentrer chez elle.",
+      "Extraire la tique avec un pince à épiler en tirant doucement et en vérifiant ensuite que l'acarien ait été complétement ôté.",
+      "Couper la tique au ras de la peau avec une paire de ciseaux ou un scalpel et bien désinfecter à l'alcool."
+    ],
+    "correct_answers": [
+      "Utiliser un tire-tique et extraire la tique en la dévissant.",
+      "Extraire la tique avec un pince à épiler en tirant doucement et en vérifiant ensuite que l'acarien ait été complétement ôté."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les caractéristiques morphologiques présentes chez les acariens.",
+    "options": [
+      "Une paire d'antennes",
+      "Tête-thorax-abdomen",
+      "Quatre paires de pattes à l'état adulte",
+      "Corps de forme ovoïde",
+      "Mandibules"
+    ],
+    "correct_answers": [
+      "Corps de forme ovoïde",
+      "Quatre paires de pattes à l'état adulte"
+    ]
+  }
+]

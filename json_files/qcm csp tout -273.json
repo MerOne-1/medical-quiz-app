@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Une maladie auto-immune",
+    "options": [
+      "peut être causée par un mimétisme moléculaire",
+      "peut être associée à un déficit d’un composant du complément",
+      "concerne toujours un organe cible reconnu par des autoanticorps",
+      "est toujours associée à un rôle pathologique des auto-anticorps",
+      "peut être associée à une rupture de tolérance"
+    ],
+    "correct_answers": [
+      "peut être associée à un déficit d’un composant du complément",
+      "peut être causée par un mimétisme moléculaire",
+      "peut être associée à une rupture de tolérance"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Un prick test",
+    "options": [
+      "Permet de doser les IgE",
+      "Permet de quantifier les mastocytes dans l’épiderme",
+      "Est un test d’hypersensibilité retardée",
+      "Est un test de sensibilisation cutanée à un allergène",
+      "Permet de doser l’histamine"
+    ],
+    "correct_answers": [
+      "Est un test de sensibilisation cutanée à un allergène"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Donner la (les) proposition(s) exacte(s) concernant les anticorps monoclonaux utilisés en thérapeutique",
+    "options": [
+      "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2",
+      "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+      "Le suffixe « ximab » de la DCI indique un anticorps monoclonal thérapeutique humanisé",
+      "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+      "Le rituximab (MAB THERA®) a pour cible le TNF"
+    ],
+    "correct_answers": [
+      "TISABRI® (natalizumab) est indiqué dans la sclérose en plaques",
+      "Les anticorps monoclonaux nécessitent une immunisation chez la souris",
+      "Les isotypes majeurs des anticorps monoclonaux thérapeutiques sont IgG1 et IgG2"
+    ]
+  }
+]

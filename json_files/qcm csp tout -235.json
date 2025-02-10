@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métabolisme des nucléotides, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les pyrimidines sont d’abord synthétisées puis fixées sur le phosphoribose",
+      "Les pyrimidines sont synthétisées directement sur le phosphoribose",
+      "Les purines sont d’abord synthétisées puis fixées sur le phosphoribose",
+      "Les purines sont synthétisées directement sur le phosphoribose",
+      "Les nucléotides peuvent être synthétisés par des voies dites de récupération"
+    ],
+    "correct_answers": [
+      "Les pyrimidines sont d’abord synthétisées puis fixées sur le phosphoribose",
+      "Les purines sont synthétisées directement sur le phosphoribose",
+      "Les nucléotides peuvent être synthétisés par des voies dites de récupération"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Concernant la créatinine plasmatique :",
+    "options": [
+      "Elle est réabsorbée après filtration glomérulaire",
+      "Elle provient du catabolisme de la créatine musculaire",
+      "Elle est physiologiquement plus élevée chez l'homme que chez la femme",
+      "Elle est augmentée au cours de l'insuffisance rénale chronique",
+      "Elle circule liée aux protéines plasmatiques"
+    ],
+    "correct_answers": [
+      "Elle provient du catabolisme de la créatine musculaire",
+      "Elle est augmentée au cours de l'insuffisance rénale chronique",
+      "Elle est physiologiquement plus élevée chez l'homme que chez la femme"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse des variants de l’hémoglobine, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Toutes les affirmations sont exactes",
+      "L’électrophorèse s’effectue avec un tampon de migration de pH alcalin",
+      "Les variants de l’hémoglobine migrent de l’anode vers la cathode si le tampon de migration est de pH alcalin",
+      "Cette technique permet de déterminer l’état homozygote ou hétérozygote d’un patient pour une mutation donnée",
+      "L’électrophorèse sépare les variants d’hémoglobine en fonction de leur charge"
+    ],
+    "correct_answers": [
+      "L’électrophorèse s’effectue avec un tampon de migration de pH alcalin",
+      "L’électrophorèse sépare les variants d’hémoglobine en fonction de leur charge",
+      "Cette technique permet de déterminer l’état homozygote ou hétérozygote d’un patient pour une mutation donnée"
+    ]
+  }
+]

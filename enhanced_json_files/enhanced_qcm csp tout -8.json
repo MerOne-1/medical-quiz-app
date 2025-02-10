@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "A propos d’une variable X suivant une loi normale de moyenne µ et d’écart-type σ, quelles sont les propositions correctes ?",
+    "options": [
+      "La variable centrée réduite suit une loi normale de moyenne 0 et d’écart-type 1",
+      "Environ 95% des valeurs de X sont comprises entre -2 et +2",
+      "La variable, moyenne de X obtenue sur des échantillons de taille n, suit une loi normale de moyenne µ et d’écart-type",
+      "L’écart-type mesure la dispersion des valeurs de X autour de la moyenne",
+      "La moyenne µ et la médiane sont confondues"
+    ],
+    "correct_answers": [
+      "La moyenne µ et la médiane sont confondues",
+      "La variable, moyenne de X obtenue sur des échantillons de taille n, suit une loi normale de moyenne µ et d’écart-type",
+      "L’écart-type mesure la dispersion des valeurs de X autour de la moyenne",
+      "La variable centrée réduite suit une loi normale de moyenne 0 et d’écart-type 1"
+    ],
+    "justification_fausses_reponses": {
+      "Environ 95% des valeurs de X sont comprises entre -2 et +2": "Cette affirmation est incorrecte car dans une distribution normale, environ 95% des valeurs sont comprises entre µ-2σ et µ+2σ, et non entre -2 et +2. Le symbole µ représente la moyenne et σ l'écart-type de la distribution."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Une variable aléatoire X est distribuée selon la loi normale de moyenne μ et d'écart-type σ. Concernant la distribution de la variable aléatoire (définie à partir d'échantillons de même taille n), la(les) réponse(s) exacte(s) est(sont) :",
+    "options": [
+      "Une loi de Student",
+      "Une loi normale de moyenne μ / n",
+      "Une loi normale d'écart-type σ /",
+      "Une loi normale d'écart-type σ",
+      "Une loi normale de moyenne μ"
+    ],
+    "correct_answers": [
+      "Une loi normale de moyenne μ",
+      "Une loi normale d'écart-type σ /"
+    ],
+    "justification_fausses_reponses": {
+      "Une loi de Student": "La loi de Student est utilisée lorsque la taille de l'échantillon est petite et que la variance de la population est inconnue. Ce n'est pas le cas ici car nous avons une distribution normale avec des paramètres connus.",
+      "Une loi normale de moyenne μ / n": "La moyenne de la distribution de la variable aléatoire ne change pas avec la taille de l'échantillon. Elle reste μ, et non μ / n.",
+      "Une loi normale d'écart-type σ": "L'écart-type de la distribution de la variable aléatoire diminue avec la taille de l'échantillon. Il devient σ / √n, et non σ."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Une étude, réalisée auprès de 10 000 personnes adultes (femmes et hommes) ne souffrant pas de surpoids, avait pour objectif de vérifier si la pression artérielle (P A, en mmHg) augmentait avec l’indice de masse corporelle (IMC, en kg/m²). Le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.02. Quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+    "options": [
+      "Le test utilisé est un test de corrélation",
+      "Au seuil de 1%, on ne peut pas dire que la P A augmente avec l’IMC",
+      "La valeur obtenue de p signifie que la P A augmente en moyenne de 0.02 mmHg lorsque l’IMC augmente de 1 kg/m²",
+      "Le test utilisé est le test d’indépendance du khi-deux (χ²)",
+      "Le test utilisé est le test de Student de comparaison de moyennes"
+    ],
+    "correct_answers": [
+      "Le test utilisé est un test de corrélation",
+      "Au seuil de 1%, on ne peut pas dire que la P A augmente avec l’IMC"
+    ],
+    "justification_fausses_reponses": {
+      "La valeur obtenue de p signifie que la P A augmente en moyenne de 0.02 mmHg lorsque l’IMC augmente de 1 kg/m²": "La p-value ne représente pas l'augmentation moyenne de la pression artérielle en fonction de l'IMC. Elle indique plutôt la probabilité d'obtenir un résultat au moins aussi extrême que celui observé, si l'hypothèse nulle était vraie.",
+      "Le test utilisé est le test d’indépendance du khi-deux (χ²)": "Le test du khi-deux est utilisé pour tester l'indépendance entre deux variables catégorielles, pas pour tester une corrélation entre deux variables quantitatives comme dans ce cas.",
+      "Le test utilisé est le test de Student de comparaison de moyennes": "Le test de Student est utilisé pour comparer les moyennes de deux groupes indépendants. Ici, on cherche à établir une corrélation entre deux variables quantitatives, donc ce n'est pas le bon test."
+    }
+  }
+]

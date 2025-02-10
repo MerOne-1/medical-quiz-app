@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les drogues suivantes, quelles sont celles qui constituent la base du traitement des leucémies aiguës myéloïdes (L AM) ?",
+    "options": [
+      "Anthracyclines",
+      "Aracytine",
+      "Vincristine",
+      "Corticoïdes",
+      "Bortézomib"
+    ],
+    "correct_answers": [
+      "Anthracyclines",
+      "Aracytine"
+    ],
+    "justification_fausses_reponses": {
+      "Vincristine": "La Vincristine est principalement utilisée dans le traitement des leucémies aiguës lymphoblastiques, et non des leucémies aiguës myéloïdes.",
+      "Corticoïdes": "Les corticoïdes sont généralement utilisés pour réduire l'inflammation et moduler la réponse immunitaire, mais ne sont pas la base du traitement des leucémies aiguës myéloïdes.",
+      "Bortézomib": "Le Bortézomib est un inhibiteur du protéasome utilisé dans le traitement du myélome multiple, et non des leucémies aiguës myéloïdes."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "sélectionnez la ou les proposition(s) vraie(s).",
+    "options": [
+      "L’association d’une thrombopénie et d’une anémie hémolytique avec présence de schizocytes fait évoquer le diagnostic de microangiopathie thrombotique (MA T)",
+      "L’hyperlymphocytose est définie par un % de lymphocytes supérieur à 60%",
+      "Le tabagisme chronique peut induire une polynucléose neutrophile",
+      "À l'arrêt du médicament responsable d'un épisode d'agranulocytose aiguë médicamenteuse, l’apparition d’une monocytose annonce la normalisation ultérieure du nombre de PNN",
+      "Une étiologie infectieuse doit être recherchée en priorité face à une agranulocytose"
+    ],
+    "correct_answers": [
+      "Le tabagisme chronique peut induire une polynucléose neutrophile",
+      "À l'arrêt du médicament responsable d'un épisode d'agranulocytose aiguë médicamenteuse, l’apparition d’une monocytose annonce la normalisation ultérieure du nombre de PNN",
+      "L’association d’une thrombopénie et d’une anémie hémolytique avec présence de schizocytes fait évoquer le diagnostic de microangiopathie thrombotique (MA T)"
+    ],
+    "justification_fausses_reponses": {
+      "L’hyperlymphocytose est définie par un % de lymphocytes supérieur à 60%": "Cette affirmation est incorrecte car l'hyperlymphocytose est généralement définie par un nombre absolu de lymphocytes supérieur à 4000/mm³ dans le sang périphérique, et non par un pourcentage de lymphocytes.",
+      "Une étiologie infectieuse doit être recherchée en priorité face à une agranulocytose": "Cette affirmation est incorrecte car bien que les infections soient une cause fréquente d'agranulocytose, elles ne sont pas nécessairement la première cause à rechercher. D'autres causes, comme les médicaments, doivent également être envisagées."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quels sont les arguments clinico-biologiques en faveur d’une polyglobulie primitive de type maladie de V aquez ?",
+    "options": [
+      "Présence de la mutation V617F du gène JAK2",
+      "Thrombocytose",
+      "Adénopathies",
+      "Taux d’érythopoïétine sérique augmenté",
+      "Splénomégalie"
+    ],
+    "correct_answers": [
+      "Splénomégalie",
+      "Thrombocytose",
+      "Présence de la mutation V617F du gène JAK2"
+    ],
+    "justification_fausses_reponses": {
+      "Adénopathies": "Les adénopathies ne sont pas un signe clinique de la maladie de Vaquez. Cette maladie est caractérisée par une production excessive de globules rouges, ce qui n'entraîne pas une inflammation des ganglions lymphatiques.",
+      "Taux d’érythopoïétine sérique augmenté": "Dans la maladie de Vaquez, le taux d'érythropoïétine est généralement normal ou bas. Une augmentation de ce taux indiquerait plutôt une réponse à une hypoxie ou une production anormale de l'érythropoïétine, ce qui n'est pas le cas dans la maladie de Vaquez."
+    }
+  }
+]

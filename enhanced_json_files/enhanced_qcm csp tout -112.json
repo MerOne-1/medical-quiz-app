@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos du cobicistat représenté ci-dessous",
+    "options": [
+      "c'est un \"booster\" pharmacocinétique",
+      "C'est un analogue structural du ritonavir",
+      "c'est un analogue structural de l'entecavir",
+      "C'est un inhibiteur de CYP3A4",
+      "cette molécule possède une activité anti-rétrovirale intrinsèque"
+    ],
+    "correct_answers": [
+      "C'est un analogue structural du ritonavir",
+      "C'est un inhibiteur de CYP3A4",
+      "c'est un \"booster\" pharmacocinétique"
+    ],
+    "justification_fausses_reponses": {
+      "c'est un analogue structural de l'entecavir": "C'est incorrect car le cobicistat n'est pas un analogue structural de l'entecavir. L'entecavir est un analogue de la guanosine utilisé comme antiviral, tandis que le cobicistat est un inhibiteur de l'enzyme CYP3A utilisé pour augmenter l'efficacité d'autres médicaments antirétroviraux.",
+      "cette molécule possède une activité anti-rétrovirale intrinsèque": "C'est incorrect car le cobicistat n'a pas d'activité antirétrovirale intrinsèque. Il est utilisé comme un \"booster\" pour augmenter l'efficacité d'autres médicaments antirétroviraux, mais il n'a pas lui-même d'effet sur le virus du VIH."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "acide alendronique",
+      "fosfomycine",
+      "fosinopril",
+      "foscarnet",
+      "fosamprenavir"
+    ],
+    "correct_answers": [
+      "acide alendronique"
+    ],
+    "justification_fausses_reponses": {
+      "fosfomycine": "La fosfomycine est une molécule différente, c'est un antibiotique utilisé pour traiter les infections urinaires.",
+      "fosinopril": "Le fosinopril est une autre molécule, c'est un médicament utilisé pour traiter l'hypertension artérielle et l'insuffisance cardiaque.",
+      "foscarnet": "Le foscarnet est une autre molécule, c'est un antiviral utilisé pour traiter les infections à cytomégalovirus et à herpès.",
+      "fosamprenavir": "Le fosamprenavir est une autre molécule, c'est un médicament antirétroviral utilisé pour traiter le VIH."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelles sont les différentes dénominations des médicaments?",
+    "options": [
+      "Le segment-clé",
+      "La dénomination chimique",
+      "La dénomination commune nationale",
+      "La dénomination commune internationale",
+      "La dénomination vernaculaire"
+    ],
+    "correct_answers": [
+      "La dénomination chimique",
+      "La dénomination commune nationale",
+      "La dénomination commune internationale"
+    ],
+    "justification_fausses_reponses": {
+      "Le segment-clé": "Le segment-clé n'est pas une dénomination de médicament. Il s'agit d'un terme utilisé en marketing pour désigner un groupe spécifique de clients cibles.",
+      "La dénomination vernaculaire": "La dénomination vernaculaire n'est pas une dénomination officielle de médicament. Elle désigne plutôt le nom commun d'une espèce dans une langue particulière, souvent utilisée pour les plantes et les animaux."
+    }
+  }
+]

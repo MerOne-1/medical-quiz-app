@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+      "L’hepcidine est une hormone hypersidérémiante",
+      "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+      "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+      "Le fer de l’hème doit être à l’état ferreux"
+    ],
+    "correct_answers": [
+      "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+      "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+      "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+      "Le fer de l’hème doit être à l’état ferreux"
+    ],
+    "justification_fausses_reponses": {
+      "L’hepcidine est une hormone hypersidérémiante": "C'est incorrect. L'hepcidine est une hormone qui régule le métabolisme du fer en inhibant l'exportation du fer par les cellules. Elle est donc hypoferrémiante et non hypersidérémiante."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse des molécules d’ADN sur un gel d’agarose, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+      "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques",
+      "La séparation des molécules d’ADN se fait en fonction de leur charge",
+      "Les molécules d’ADN migrent vers le pôle positif",
+      "Les molécules d’ADN migrent vers le pôle négatif"
+    ],
+    "correct_answers": [
+      "Les molécules d’ADN migrent vers le pôle positif",
+      "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+      "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques"
+    ],
+    "justification_fausses_reponses": {
+      "La séparation des molécules d’ADN se fait en fonction de leur charge": "Cette affirmation est incorrecte car la séparation des molécules d'ADN lors de l'électrophorèse se fait principalement en fonction de leur taille et non de leur charge. Toutes les molécules d'ADN ont une charge négative due à leurs groupes phosphate, donc leur charge est uniforme.",
+      "Les molécules d’ADN migrent vers le pôle négatif": "Cette affirmation est incorrecte car les molécules d'ADN, ayant une charge négative, migrent vers le pôle positif lors de l'électrophorèse."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les enzymes en général, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il s’agit de glucides",
+      "Il s’agit de lipides",
+      "Il s’agit d’acides nucléiques",
+      "Il s’agit de protéines",
+      "Il s’agit de catalyseurs biologiques"
+    ],
+    "correct_answers": [
+      "Il s’agit de protéines",
+      "Il s’agit de catalyseurs biologiques"
+    ],
+    "justification_fausses_reponses": {
+      "Il s’agit de glucides": "Les enzymes ne sont pas des glucides. Les glucides sont des molécules organiques composées de carbone, d'hydrogène et d'oxygène, qui sont principalement utilisées par les organismes pour stocker et libérer de l'énergie.",
+      "Il s’agit de lipides": "Les enzymes ne sont pas des lipides. Les lipides sont des molécules organiques insolubles dans l'eau, qui jouent un rôle important dans le stockage de l'énergie à long terme, l'isolation thermique et la protection des organes vitaux.",
+      "Il s’agit d’acides nucléiques": "Les enzymes ne sont pas des acides nucléiques. Les acides nucléiques, comme l'ADN et l'ARN, sont des molécules qui stockent et transmettent l'information génétique."
+    }
+  }
+]

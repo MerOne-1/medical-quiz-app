@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous :",
+    "options": [
+      "le motif piperazine assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le Fluor en position 7 de l’aromatique est un élément de pharmacophore",
+      "il s’agit de l’ofloxacine",
+      "il s’agit de la ciprofloxacine"
+    ],
+    "correct_answers": [
+      "il s’agit de la ciprofloxacine",
+      "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le Fluor en position 7 de l’aromatique est un élément de pharmacophore"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces médicaments, quels sont ceux susceptibles d’interagir avec leur(s) récepteur(s) par liaison ionique ?",
+    "options": [
+      "molécule C",
+      "molécule B",
+      "molécule E",
+      "molécule A",
+      "molécule D"
+    ],
+    "correct_answers": [
+      "molécule A",
+      "molécule C",
+      "molécule D",
+      "molécule E"
+    ]
+  }
+]

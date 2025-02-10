@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin de déterminer s'il existe un lien entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Dans l'échantillon de 309 sujets, le coefficient de corrélation linéaire est égal à 0.035, le degré de signification du test à mettre en œuvre est égal à 54%. Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+    "options": [
+      "Les valeurs du coefficient de corrélation linéaire sont toujours comprises entre 0 et 1",
+      "Le test à mettre en œuvre est bilatéral",
+      "L'hypothèse nulle du test à mettre en œuvre stipule que le coefficient de corrélation est égal à 1",
+      "On peut également tester les paramètres d'une droite de régression linéaire pour répondre à la problématique posée",
+      "Au risque 5%, on ne peut pas conclure à une liaison entre l'âge et la CRP"
+    ],
+    "correct_answers": [
+      "Au risque 5%, on ne peut pas conclure à une liaison entre l'âge et la CRP",
+      "Le test à mettre en œuvre est bilatéral",
+      "On peut également tester les paramètres d'une droite de régression linéaire pour répondre à la problématique posée"
+    ],
+    "justification_fausses_reponses": {
+      "Les valeurs du coefficient de corrélation linéaire sont toujours comprises entre 0 et 1": "C'est incorrect. Les valeurs du coefficient de corrélation linéaire peuvent varier de -1 à 1. Un coefficient de 1 indique une corrélation positive parfaite, un coefficient de -1 indique une corrélation négative parfaite et un coefficient de 0 indique l'absence de corrélation.",
+      "L'hypothèse nulle du test à mettre en œuvre stipule que le coefficient de corrélation est égal à 1": "C'est incorrect. L'hypothèse nulle du test de corrélation stipule généralement que le coefficient de corrélation est égal à 0, ce qui signifie qu'il n'y a pas de corrélation entre les deux variables."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Pour comparer plus de deux moyennes observées sur échantillons indépendants, le(s) test(s) paramétrique(s) que l'on peut réaliser est(sont) :",
+    "options": [
+      "Un test du Khi2 d'indépendance",
+      "Un test de comparaison de deux moyennes observées",
+      "Une analyse de variance à un facteur",
+      "Un test de corrélation",
+      "Un test du Khi2 d'homogénéité"
+    ],
+    "correct_answers": [
+      "Une analyse de variance à un facteur"
+    ],
+    "justification_fausses_reponses": {
+      "Un test du Khi2 d'indépendance": "Ce test est utilisé pour déterminer si deux variables catégorielles sont indépendantes ou non, pas pour comparer des moyennes.",
+      "Un test de comparaison de deux moyennes observées": "Ce test est utilisé pour comparer seulement deux moyennes, pas plus.",
+      "Un test de corrélation": "Ce test est utilisé pour évaluer la relation entre deux variables continues, pas pour comparer des moyennes.",
+      "Un test du Khi2 d'homogénéité": "Ce test est utilisé pour vérifier si les fréquences observées dans différentes catégories suivent une distribution spécifique, pas pour comparer des moyennes."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Soit un échantillon représentatif d’une certaine population constitué de 40 individus sur lesquels, entre autres paramètres, l’âge a été relevé. On se propose de mener un test (au risque α = 5%) pour savoir si l’âge moyen dans cette population est supérieur à 80 ans. Parmi les propositions suivantes, lesquelles sont correctes ?",
+    "options": [
+      "On peut faire un test paramétrique sans étudier la normalité de l’âge dans la population car la taille de l’échantillon est supérieure à 30",
+      "Le test est unilatéral",
+      "L’hypothèse H de ce test est µ > µ  avec µ = 80",
+      "Si la signification du test est supérieure à 0,05 alors je dois rejeter l’hypothèse H  et accepter l’hypothèse H",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi de S tudent avec un nombre de degrés de liberté = 39"
+    ],
+    "correct_answers": [
+      "On peut faire un test paramétrique sans étudier la normalité de l’âge dans la population car la taille de l’échantillon est supérieure à 30",
+      "La variable de décision de ce test suit, sous l’hypothèse H , une loi de S tudent avec un nombre de degrés de liberté = 39",
+      "Le test est unilatéral"
+    ],
+    "justification_fausses_reponses": {
+      "L’hypothèse H de ce test est µ > µ  avec µ = 80": "Cette affirmation est incorrecte car l'hypothèse H de ce test devrait être µ = 80. L'hypothèse alternative serait µ > 80.",
+      "Si la signification du test est supérieure à 0,05 alors je dois rejeter l’hypothèse H  et accepter l’hypothèse H": "Cette affirmation est incorrecte car si la signification du test est supérieure à 0,05, cela signifie que nous ne pouvons pas rejeter l'hypothèse nulle. En d'autres termes, nous n'avons pas suffisamment de preuves pour conclure que l'âge moyen est supérieur à 80 ans."
+    }
+  }
+]

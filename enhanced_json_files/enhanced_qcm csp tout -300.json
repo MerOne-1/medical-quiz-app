@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+    "options": [
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour l'azote",
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone",
+      "Il n'y a que les végétaux qui font la photosynthèse",
+      "Chez les végétaux supérieurs, la forme des chloroplastes est très variables",
+      "Tous les végétaux supérieurs font la photosynthèse"
+    ],
+    "correct_answers": [
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone"
+    ],
+    "justification_fausses_reponses": {
+      "Les organismes qui réalisent la photosynthèse sont autotrophes pour l'azote": "C'est incorrect car l'autotrophie pour l'azote signifie que l'organisme peut utiliser l'azote atmosphérique pour produire ses propres composés azotés, ce qui n'est pas le cas pour les organismes photosynthétiques.",
+      "Il n'y a que les végétaux qui font la photosynthèse": "C'est incorrect car d'autres organismes, comme certaines bactéries et algues, peuvent également réaliser la photosynthèse.",
+      "Chez les végétaux supérieurs, la forme des chloroplastes est très variables": "C'est incorrect car chez les végétaux supérieurs, la forme des chloroplastes est généralement assez uniforme, ressemblant à un disque ou une lentille.",
+      "Tous les végétaux supérieurs font la photosynthèse": "C'est incorrect car bien que la majorité des végétaux supérieurs réalisent la photosynthèse, il existe des exceptions, comme certaines plantes parasites qui ne possèdent pas de chlorophylle et ne peuvent donc pas réaliser la photosynthèse."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les combinaisons de caractères suivantes, quelles sont celles qui caractérisent le règne fongique",
+    "options": [
+      "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie",
+      "La capacité de procurer de nouvelles molécules thérapeutiques, la présence de spores biflagellées, l’impact comme agents de biodégradation de denrées alimentaires",
+      "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+      "Des racines chevelues, un mode de vie hétérotrophe, une grande richesse enzymatique",
+      "Une tige, un chapeau, un mode de vie parasitaire"
+    ],
+    "correct_answers": [
+      "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+      "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie"
+    ],
+    "justification_fausses_reponses": {
+      "La capacité de procurer de nouvelles molécules thérapeutiques, la présence de spores biflagellées, l’impact comme agents de biodégradation de denrées alimentaires": "Bien que certains champignons puissent produire des molécules thérapeutiques et agir comme agents de biodégradation, la présence de spores biflagellées n'est pas caractéristique du règne fongique.",
+      "Des racines chevelues, un mode de vie hétérotrophe, une grande richesse enzymatique": "Les champignons n'ont pas de racines chevelues, ce sont les plantes qui en ont. Les champignons ont un mode de vie hétérotrophe, mais ce n'est pas une caractéristique unique à eux.",
+      "Une tige, un chapeau, un mode de vie parasitaire": "Tous les champignons n'ont pas une tige et un chapeau, ces caractéristiques sont spécifiques aux champignons basidiomycètes. De plus, tous les champignons ne sont pas parasites, certains sont saprophytes ou mutualistes."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les listes ci-dessous, choisir celle(s) qui présente(nt) différents termes dans le l’ordre évolutif, du plus primitif au plus évolué",
+    "options": [
+      "Gynécée isomère, gynécée oligomère",
+      "Dalycarpie, syncarpie",
+      "Ovule orthotrope, ovule anatrope",
+      "Ovaire infère, supère",
+      "Gamopétale, dialypétale"
+    ],
+    "correct_answers": [
+      "Dalycarpie, syncarpie",
+      "Gynécée isomère, gynécée oligomère",
+      "Ovule orthotrope, ovule anatrope"
+    ],
+    "justification_fausses_reponses": {
+      "Ovaire infère, supère": "Cette option est incorrecte car l'ordre évolutif n'est pas respecté. En botanique, un ovaire supère est considéré comme plus primitif qu'un ovaire infère.",
+      "Gamopétale, dialypétale": "Cette option est incorrecte car l'ordre évolutif n'est pas respecté. Les fleurs dialypétales, avec des pétales séparés, sont considérées comme plus primitives que les fleurs gamopétales, avec des pétales fusionnés."
+    }
+  }
+]

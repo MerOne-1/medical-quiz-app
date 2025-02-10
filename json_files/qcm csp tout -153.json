@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+      "Les A VK sont utilisés chez la femme enceinte en première intention en cas de T VP",
+      "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+      "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+      "Le tramadol est contre indiqué chez l'épileptique"
+    ],
+    "correct_answers": [
+      "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+      "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+      "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+      "Le tramadol est contre indiqué chez l'épileptique"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique",
+      "Effet indésirable et erreur médicamenteuse ont des origines identiques",
+      "La retranscription d'une ordonnance doit être bannie",
+      "Environ 70 % des erreurs médicamenteuses sont évitables"
+    ],
+    "correct_answers": [
+      "La retranscription d'une ordonnance doit être bannie"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Pour quelle molécule, la distance internucléaire est-elle la plus grande ?",
+    "options": [
+      "Cl2",
+      "N2",
+      "F2",
+      "H2",
+      "O2"
+    ],
+    "correct_answers": [
+      "Cl2"
+    ],
+    "justification_fausses_reponses": {
+      "N2": "La molécule d'azote (N2) a une distance internucléaire plus petite que celle du Cl2 car l'azote est plus petit que le chlore.",
+      "F2": "La molécule de fluor (F2) a une distance internucléaire plus petite que celle du Cl2 car le fluor est plus petit que le chlore.",
+      "H2": "La molécule d'hydrogène (H2) a une distance internucléaire plus petite que celle du Cl2 car l'hydrogène est plus petit que le chlore.",
+      "O2": "La molécule d'oxygène (O2) a une distance internucléaire plus petite que celle du Cl2 car l'oxygène est plus petit que le chlore."
+    }
+  }
+]

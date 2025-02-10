@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces bactéries, quelle(s) est(sont) celle(s) qui peut(peuvent) être responsable(s) de diarrhées entéro-invasives :",
+    "options": [
+      "Shigella dysenteriae",
+      "Clostridium tetani",
+      "Staphylococcus aureus",
+      "Helicobacter pylori",
+      "Salmonella enterica subsp. enterica"
+    ],
+    "correct_answers": [
+      "Salmonella enterica subsp. enterica"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Le traitement de 1ère intention de la pneumonie aiguë communautaire à pneumocoque fait appel à :",
+    "options": [
+      "une bêta-lactamine",
+      "la rifampicine",
+      "une fluoroquinolone",
+      "l'amoxicilline",
+      "la clarithromycine"
+    ],
+    "correct_answers": [
+      "l'amoxicilline",
+      "une bêta-lactamine"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) :  Legionella thermophila  :",
+    "options": [
+      "a comme habitat primitif l'eau douce",
+      "est présent dans les infections communautaires et nosocomiales",
+      "est thermophile",
+      "se développe sur des milieux conventionnels",
+      "contamine l'homme par ingestion d'eau contaminée"
+    ],
+    "correct_answers": [
+      "est thermophile",
+      "a comme habitat primitif l'eau douce",
+      "est présent dans les infections communautaires et nosocomiales"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Un patient subit un test d'hyperglycémie provoquée. Sa glycémie à jeun est mesurée et une solution contenant une quantité de glucose lui est alors administrée. On effectue ensuite 10 mesures régulières de sa glycémie. Concernant la droite de régression donnant la glycémie en fonction du temps sur cet échantillon de mesures, la(les) réponse(s) exacte(s) est(sont) :",
+    "options": [
+      "Son équation s'écrit : glycémie = a (temps) + b",
+      "Son équation s'écrit : glycémie = α (temps) + β",
+      "Le temps est la variable explicative et la glycémie est la variable expliquée",
+      "Le temps est la variable expliquée et la glycémie est la variable explicative",
+      "Son équation s'écrit : temps = a (glycémie) + b"
+    ],
+    "correct_answers": [
+      "Son équation s'écrit : glycémie = a (temps) + b",
+      "Le temps est la variable explicative et la glycémie est la variable expliquée"
+    ],
+    "justification_fausses_reponses": {
+      "Son équation s'écrit : glycémie = α (temps) + β": "Cette option est incorrecte car les coefficients de la droite de régression sont généralement notés 'a' et 'b'. 'α' et 'β' sont souvent utilisés pour désigner les paramètres d'une distribution statistique, pas d'une droite de régression.",
+      "Le temps est la variable expliquée et la glycémie est la variable explicative": "Cette option est incorrecte car dans le contexte de ce test, le temps est la variable indépendante (ou explicative) et la glycémie est la variable dépendante (ou expliquée). En d'autres termes, on mesure comment la glycémie change en fonction du temps, et non l'inverse.",
+      "Son équation s'écrit : temps = a (glycémie) + b": "Cette option est incorrecte car elle inverse les rôles des variables. Dans le contexte de ce test, la glycémie est une fonction du temps, et non l'inverse. L'équation de la droite de régression devrait donc exprimer la glycémie en fonction du temps."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant l’estimation de la moyenne d’une variable quantitative à partir d’un échantillon, quelles sont les propositions correctes ?",
+    "options": [
+      "La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillon",
+      "L’intervalle de confiance de la moyenne est d’autant plus large que le niveau de confiance est faible",
+      "Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir donner une estimation par intervalle de confiance",
+      "L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne",
+      "L’estimation ponctuelle est plus précise que l’estimation par intervalle de confiance"
+    ],
+    "correct_answers": [
+      "Si la taille de l’échantillon est inférieure à 30, alors il faut s’assurer de la normalité de la variable étudiée pour pouvoir donner une estimation par intervalle de confiance",
+      "L'intervalle de confiance à 95% de la moyenne est un intervalle de valeurs qui a 95% de chance de contenir la vraie valeur de la moyenne",
+      "La meilleure estimation ponctuelle possible de la moyenne en population (µ) est la moyenne  calculée sur l’échantillon"
+    ],
+    "justification_fausses_reponses": {
+      "L’intervalle de confiance de la moyenne est d’autant plus large que le niveau de confiance est faible": "C'est l'inverse qui est vrai. Plus le niveau de confiance est élevé, plus l'intervalle de confiance sera large. Cela est dû au fait qu'un niveau de confiance plus élevé signifie que nous sommes plus sûrs que la vraie moyenne se trouve dans cet intervalle, donc l'intervalle doit être plus large pour accueillir cette incertitude.",
+      "L’estimation ponctuelle est plus précise que l’estimation par intervalle de confiance": "C'est incorrect. L'estimation par intervalle de confiance est généralement plus précise car elle fournit une plage de valeurs possibles pour la moyenne, plutôt qu'une seule valeur. Cela permet de prendre en compte l'incertitude inhérente à l'estimation à partir d'un échantillon."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "On souhaite comparer deux moyennes en séries appariées et l'on utilise, pour cela, un test paramétrique (les conditions d'utilisation sont supposées remplies). L'échantillon est de taille 30. La variable de décision suit, sous l'hypothèse nulle, une",
+    "options": [
+      "loi de Fisher-Snedecor",
+      "loi de P oisson",
+      "loi de S tudent",
+      "loi normale",
+      "loi du khi-deux"
+    ],
+    "correct_answers": [
+      "loi de S tudent"
+    ],
+    "justification_fausses_reponses": {
+      "loi de Fisher-Snedecor": "La loi de Fisher-Snedecor est utilisée pour comparer les variances de deux populations, pas les moyennes.",
+      "loi de P oisson": "La loi de Poisson est utilisée pour modéliser le nombre d'événements qui se produisent dans un intervalle de temps ou d'espace fixe, pas pour comparer les moyennes.",
+      "loi normale": "La loi normale est utilisée lorsque la taille de l'échantillon est suffisamment grande (généralement > 30) et que les données sont distribuées de manière symétrique, mais elle n'est pas appropriée pour comparer deux moyennes en séries appariées.",
+      "loi du khi-deux": "La loi du khi-deux est utilisée pour tester l'indépendance de deux variables catégorielles, pas pour comparer les moyennes."
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le cycle de l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet la synthèse de l’arginine",
+      "Il est exclusivement cytoplasmique",
+      "Il permet la synthèse de l’alanine",
+      "Il permet la synthèse du pyruvate",
+      "Il est exclusivement mitochondrial"
+    ],
+    "correct_answers": [
+      "Il permet la synthèse de l’arginine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine",
+      "En électrophorèse, la béta thalassémie se caractérise par une augmentation de l’HbA1",
+      "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+      "Aucune des affirmations n’est exacte",
+      "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique"
+    ],
+    "correct_answers": [
+      "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique",
+      "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+      "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "C’est une molécule hydrophobe",
+      "Elle est éliminée principalement par voie biliaire",
+      "Elle est synthétisée par le rein",
+      "Elle est éliminée principalement par voie rénale",
+      "Elle est éliminée principalement par voie fécale"
+    ],
+    "correct_answers": [
+      "Elle est éliminée principalement par voie rénale"
+    ]
+  }
+]

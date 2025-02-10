@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le milnacipran possède une amine secondaire",
+      "Le milnacipran possède un cycle cyclobutane",
+      "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+      "L'amine primaire est un bon accepteur de liaison hydrogène",
+      "L'amine primaire est un bon donneur de liaison hydrogène"
+    ],
+    "correct_answers": [
+      "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+      "L'amine primaire est un bon accepteur de liaison hydrogène",
+      "L'amine primaire est un bon donneur de liaison hydrogène"
+    ],
+    "justification_fausses_reponses": {
+      "Le milnacipran possède une amine secondaire": "Cette affirmation est incorrecte car le milnacipran possède une amine tertiaire, pas une amine secondaire. Une amine secondaire a deux groupes alkyle attachés à l'atome d'azote, tandis qu'une amine tertiaire en a trois.",
+      "Le milnacipran possède un cycle cyclobutane": "Cette affirmation est incorrecte car le milnacipran ne possède pas de cycle cyclobutane. Le cyclobutane est un cycle à quatre carbones, tandis que le milnacipran possède un cycle à cinq carbones."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La structure de l'énalapril présente deux cycles aromatiques",
+      "La structure de l'énalapril présente une amine secondaire",
+      "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+      "La structure de l'énalapril présente une tyrosine",
+      "La structure de l'énalapril présente une proline"
+    ],
+    "correct_answers": [
+      "La structure de l'énalapril présente une amine secondaire",
+      "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+      "La structure de l'énalapril présente une proline"
+    ],
+    "justification_fausses_reponses": {
+      "La structure de l'énalapril présente deux cycles aromatiques": "C'est incorrect car l'énalapril ne contient pas de cycles aromatiques. Un cycle aromatique est un cycle plan et conjugué comportant 4n+2 électrons π, ce qui n'est pas le cas dans la structure de l'énalapril.",
+      "La structure de l'énalapril présente une tyrosine": "C'est incorrect car la tyrosine est un acide aminé qui n'est pas présent dans la structure de l'énalapril. L'énalapril est un médicament et non une protéine qui pourrait contenir de la tyrosine."
+    }
+  }
+]

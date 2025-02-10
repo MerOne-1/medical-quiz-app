@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant la maladie de Crohn, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+      "la maladie de Crohn est beaucoup plus fréquente que la rectocolite hémorragique",
+      "Les lésions intestinales sont segmentaires et transmurales",
+      "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn",
+      "la maladie de Crohn est plus fréquente chez les fumeurs"
+    ],
+    "correct_answers": [
+      "les signes cliniques majeurs sont : diarrhées, douleurs abdominales et amaigrissement",
+      "la maladie de Crohn est plus fréquente chez les fumeurs",
+      "Les lésions intestinales sont segmentaires et transmurales",
+      "Les cytokines de type Th1 jouent un rôle important dans la physiopathologie de la maladie de Crohn"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "La voie classique du complément",
+    "options": [
+      "est initiée par des complexes immuns",
+      "renforce la réaction inflammatoire",
+      "facilite l’élimination des complexes immuns",
+      "est initiée par une surface bactérienne",
+      "appartient à l’immunité adaptative"
+    ],
+    "correct_answers": [
+      "renforce la réaction inflammatoire",
+      "est initiée par des complexes immuns",
+      "facilite l’élimination des complexes immuns"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les maladies inflammatoires chroniques de l’intestin (MICI), quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il n’existe pas de traitement curatif des MICI",
+      "Le Vedolizumab (ENTYVIO®) inhibe les chimiokines impliquées dans le recrutement des lymphocytes au cours des MICI",
+      "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques",
+      "Le Rituximab (MABTHERA®) permet d’obtenir la rémission de la maladie de Crohn",
+      "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI"
+    ],
+    "correct_answers": [
+      "Le Vedolizumab (ENTYVIO®) inhibe le recrutement des lymphocytes dans la muqueuse intestinale au cours des MICI",
+      "Le dosage des anticorps ASCA et pANCA peut permettre le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragiques"
+    ]
+  }
+]

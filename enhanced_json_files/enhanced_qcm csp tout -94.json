@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "parmi ces médicaments, quels sont ceux susceptibles d'interagir avec leur(s) récepteur(s) par liaison hydrophobe?",
+    "options": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ],
+    "correct_answers": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule :",
+    "options": [
+      "liraglutide",
+      "orlistat",
+      "dapagliflozine",
+      "pioglitazone",
+      "saxagliptine"
+    ],
+    "correct_answers": [
+      "saxagliptine"
+    ],
+    "justification_fausses_reponses": {
+      "liraglutide": "La réponse est incorrecte car le liraglutide est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question.",
+      "orlistat": "La réponse est incorrecte car l'orlistat est un médicament utilisé pour traiter l'obésité, et non la molécule en question.",
+      "dapagliflozine": "La réponse est incorrecte car la dapagliflozine est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question.",
+      "pioglitazone": "La réponse est incorrecte car la pioglitazone est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "En ce qui concerne la dénomination commune internationale (DCI) des médicaments, quelles propositions sont vraies ?",
+    "options": [
+      "Toute influence commerciale est exclue.",
+      "Les segment-clés sont exclusivement des suffixes.",
+      "Elle est attribuée par l’OMS",
+      "Elle est attribuée par l’IUPAC.",
+      "Les produits appartenant à un même groupe pharmacologique sont regroupés selon des consonances voisines."
+    ],
+    "correct_answers": [
+      "Les produits appartenant à un même groupe pharmacologique sont regroupés selon des consonances voisines.",
+      "Toute influence commerciale est exclue.",
+      "Elle est attribuée par l’OMS"
+    ],
+    "justification_fausses_reponses": {
+      "Les segment-clés sont exclusivement des suffixes.": "Cette affirmation est fausse car les segment-clés dans la dénomination commune internationale (DCI) des médicaments peuvent être des préfixes, des infixes ou des suffixes.",
+      "Elle est attribuée par l’IUPAC.": "Cette affirmation est incorrecte car la dénomination commune internationale (DCI) des médicaments est attribuée par l'Organisation mondiale de la santé (OMS) et non par l'Union internationale de chimie pure et appliquée (IUPAC)."
+    }
+  }
+]

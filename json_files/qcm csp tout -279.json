@@ -1,0 +1,63 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les conditions suivantes, quelle(s) est(sont) celle(s) qui peut(peuvent) être responsable(s) de la transmission de la maladie de Chagas ?",
+    "options": [
+      "Contact direct avec une personne infectée",
+      "Consommation de poisson cru ou peu cuit",
+      "Consommation d'eau contaminée",
+      "Piqûre par une punaise appartenant à la famille des R éduvidés",
+      "Transfusion sanguine"
+    ],
+    "correct_answers": [
+      "Piqûre par une punaise appartenant à la famille des R éduvidés",
+      "Transfusion sanguine"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les propositions exactes concernant les aoûtats ou rougets, Trombicula autumnalis",
+    "options": [
+      "On en trouve dans le nord de la France.",
+      "Seuls les adultes sont hématophages.",
+      "Les aoûtats sont des acariens.",
+      "Les aoûtats peuvent transmettre la maladie de Lyme.",
+      "Les aoûtats se positionnent en haut des brins d'herbes et attendent qu'un hôte à sang chaud passe à proximité pour se laisser tomber dessus."
+    ],
+    "correct_answers": [
+      "Les aoûtats sont des acariens.",
+      "On en trouve dans le nord de la France.",
+      "Les aoûtats se positionnent en haut des brins d'herbes et attendent qu'un hôte à sang chaud passe à proximité pour se laisser tomber dessus."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les médicaments utilisés pour traiter un accès palustre simple ?",
+    "options": [
+      "Quinine",
+      "Artéméther + luméfantrine",
+      "Pipéraquine + arténimol (dihydroartémisinine)",
+      "Atovaquone + proguanil",
+      "Artésunate"
+    ],
+    "correct_answers": [
+      "Artéméther + luméfantrine",
+      "Pipéraquine + arténimol (dihydroartémisinine)",
+      "Atovaquone + proguanil"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les propositions exactes concernant la transmission des poux de tête, Pediculus humanus  var. capitis",
+    "options": [
+      "Un pou peut rester vivant hors d'une tête plus de 7 jours.",
+      "La transmission des poux peut être favorisée par les selfies.",
+      "Les poux sautent d'une tête à l'autre.",
+      "Les poux sont capables de voler sur quelques mètres.",
+      "On peut attraper des poux par contact avec son animal de compagnie."
+    ],
+    "correct_answers": [
+      "La transmission des poux peut être favorisée par les selfies."
+    ]
+  }
+]

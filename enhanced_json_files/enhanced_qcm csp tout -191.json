@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant les antidotes, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Le seul antidote d'une intoxication par l'éthylène glycol est l'éthanol.",
+      "L'anticorps antidigoxine est l'antidote d'une intoxication par les digitaliques.",
+      "Le flumazénil est l'antidote d'une intoxication par un pesticide organophosphoré.",
+      "La N-acétylcystéine est l'antidote d'une intoxication aux salicylés.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés."
+    ],
+    "correct_answers": [
+      "L'anticorps antidigoxine est l'antidote d'une intoxication par les digitaliques.",
+      "La naloxone est l'antidote d'une intoxication aux opiacés."
+    ],
+    "justification_fausses_reponses": {
+      "Le seul antidote d'une intoxication par l'éthylène glycol est l'éthanol.": "C'est incorrect. L'éthanol est un antidote pour l'intoxication par l'éthylène glycol, mais il n'est pas le seul. Le fomépizole est également un antidote efficace.",
+      "Le flumazénil est l'antidote d'une intoxication par un pesticide organophosphoré.": "C'est incorrect. Le flumazénil est un antidote pour les intoxications par les benzodiazépines, pas pour les pesticides organophosphorés. L'atropine et le pralidoxime sont utilisés pour les intoxications par les pesticides organophosphorés.",
+      "La N-acétylcystéine est l'antidote d'une intoxication aux salicylés.": "C'est incorrect. La N-acétylcystéine est un antidote pour les intoxications par le paracétamol, pas pour les salicylés. Pour une intoxication aux salicylés, le traitement peut inclure l'administration de bicarbonate de sodium et la dialyse."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le tabac, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "Le tabagisme est en France la troisième cause de mortalité évitable.",
+      "Le tabagisme est responsable du décès d’environ 1 fumeur sur 2.",
+      "Le test de Fagerström évalue la dépendance physique au tabac.",
+      "Le cancer pulmonaire est le cancer le plus fréquent lié au tabagisme.",
+      "Le sevrage tabagique est une action de prévention primaire."
+    ],
+    "correct_answers": [
+      "Le tabagisme est responsable du décès d’environ 1 fumeur sur 2.",
+      "Le cancer pulmonaire est le cancer le plus fréquent lié au tabagisme.",
+      "Le test de Fagerström évalue la dépendance physique au tabac."
+    ],
+    "justification_fausses_reponses": {
+      "Le tabagisme est en France la troisième cause de mortalité évitable.": "Cette affirmation est incorrecte car le tabagisme est en réalité la première cause de mortalité évitable en France, et non la troisième.",
+      "Le sevrage tabagique est une action de prévention primaire.": "Cette affirmation est incorrecte car le sevrage tabagique est une action de prévention secondaire. La prévention primaire vise à empêcher l'apparition d'une maladie, tandis que le sevrage tabagique intervient après l'installation de la dépendance au tabac."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les facteurs suivants, lesquels aggravent le pronostic d’une intoxication par le paracétamol?",
+    "options": [
+      "La malnutrition.",
+      "Le très jeune âge.",
+      "Le déficit en glutathion.",
+      "La consommation chronique d’éthanol.",
+      "L’ingestion simultanée d'acide acétylsalicylique."
+    ],
+    "correct_answers": [
+      "La consommation chronique d’éthanol.",
+      "La malnutrition.",
+      "Le déficit en glutathion."
+    ],
+    "justification_fausses_reponses": {
+      "Le très jeune âge.": "Bien que le très jeune âge puisse affecter la capacité du corps à métaboliser certains médicaments, il n'est pas un facteur connu pour aggraver spécifiquement le pronostic d'une intoxication par le paracétamol.",
+      "L’ingestion simultanée d'acide acétylsalicylique.": "L'acide acétylsalicylique, ou aspirine, n'interagit pas de manière à aggraver le pronostic d'une intoxication par le paracétamol. Cependant, une surdose de ces deux médicaments peut causer des problèmes de santé séparés."
+    }
+  }
+]

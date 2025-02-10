@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Parmi les propositions suivantes concernant le vaccin contre le virus de l'hépatite B, la/lesquelles est/sont vraie/s",
+    "options": [
+      "vaccin contre-indiqué chez la femme enceinte",
+      "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+      "Une fièvre peut survenir dans les 48h après la vaccination",
+      "vaccin produit génétiquement",
+      "vaccin obligatoire chez les personnels de santé"
+    ],
+    "correct_answers": [
+      "vaccin produit génétiquement",
+      "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+      "Une fièvre peut survenir dans les 48h après la vaccination"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Quels conseils thérapeutiques devez-vous donner à Mme Macha T.",
+    "options": [
+      "Ne jamais interrompre son traitement",
+      "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+      "Prévenir tous les professionnels de santé de son infection",
+      "Prendre son traitement à heure fixe",
+      "Éviter toute auto-médication"
+    ],
+    "correct_answers": [
+      "Ne jamais interrompre son traitement",
+      "Prendre son traitement à heure fixe",
+      "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+      "Éviter toute auto-médication",
+      "Prévenir tous les professionnels de santé de son infection"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Choisir les items qui s'appliquent à ces vaccins.",
+    "options": [
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+      "Les vaccins ont été fabriqués en Californie, en Suisse, à Phuket",
+      "H3N2 caractérise un virus grippal de type B de sous-type H3N2",
+      "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+    ],
+    "correct_answers": [
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+      "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+    ]
+  }
+]

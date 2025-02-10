@@ -1,0 +1,31 @@
+16/05/2020 Quiz - Chimie thérapeutique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573063&cmid=205590 16/27Question 32
+Non répondue
+Noté sur 1,00
+Question 33
+Non répondue
+Noté sur 1,00A propos de ces molécules à activité antivirale, signaler la ou les proposition(s) exacte(s)?
+Veuillez choisir au moins une réponse :
+Ce sont des prodrogues, activée par des kinases cellulaires
+ce sont des analogues de la guanosine
+la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa
+biodisponibilité orale
+le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite
+B
+ce sont des inhibiteurs de tyrosine kinase
+Votre réponse est incorrecte.
+Les réponses correctes sont : la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif
+qui contribue à sa biodisponibilité orale, Ce sont des prodrogues, activée par des kinases cellulaires, ce sont des analogues de
+la guanosine, le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de
+l’hépatite B
+A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s) :
+Veuillez choisir au moins une réponse :
+Cette molécule est un inhibiteur de l'aspartyl protéase du VIH
+Cette molécule est utilisé en association avec le cobicistat
+Cette molécule est facilement dégradée par le cytochrome P450 3A4
+Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro
+Cette molécule n'est pratiquement pas métabolisée par le foie
+Votre réponse est incorrecte.
+Les réponses correctes sont : Cette molécule est un inhibiteur de l'aspartyl protéase du VIH, Cette molécule est facilement
+dégradée par le cytochrome P450 3A4, Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-
+Pro, Cette molécule est utilisé en association avec le cobicistat

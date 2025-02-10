@@ -1,0 +1,38 @@
+16/05/2020 Quiz - Biophysique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573068&cmid=205585 5/9Question 13
+Non répondue
+Noté sur 1,00
+Question 14
+Non répondue
+Noté sur 1,00
+Question 15
+Non répondue
+Noté sur 1,00Quelle sera la multiplicité du signal B sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d  ?
+Veuillez choisir au moins une réponse :
+Doublet
+Quintuplet
+Quadruplet
+Singulet
+Triplet1
+1
+Votre réponse est incorrecte.
+La réponse correcte est : Quadruplet
+Quelle sera la multiplicité du signal A sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d  ?
+Veuillez choisir au moins une réponse :
+Nonuplet
+Octuplet
+Triplet
+Quadruplet
+Singulet11
+Votre réponse est incorrecte.
+La réponse correcte est : Nonuplet
+Combien de signaux seront observés sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d  ?
+Veuillez choisir au moins une réponse :
+1
+8
+6
+11
+51
+1
+Votre réponse est incorrecte.
+La réponse correcte est : 8

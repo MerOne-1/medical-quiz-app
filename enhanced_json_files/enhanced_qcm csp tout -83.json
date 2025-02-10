@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le bézafibrate possède un carbone asymétrique",
+      "Le bézafibrate est protoné à pH physiologique (pH 7,4)",
+      "Le bézafibrate est déprotoné à pH physiologique (pH 7,4)",
+      "Le bézafibrate possède une fonction ester",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "correct_answers": [
+      "Le bézafibrate est déprotoné à pH physiologique (pH 7,4)",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "justification_fausses_reponses": {
+      "Le bézafibrate possède un carbone asymétrique": "C'est incorrect car le bézafibrate est une molécule symétrique et ne possède donc pas de carbone asymétrique.",
+      "Le bézafibrate est protoné à pH physiologique (pH 7,4)": "C'est incorrect car à pH physiologique, le bézafibrate est déprotoné, c'est-à-dire qu'il a perdu un proton.",
+      "Le bézafibrate possède une fonction ester": "C'est incorrect car le bézafibrate est un médicament de la classe des fibrates et ne possède pas de fonction ester."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la synthèse de la procaïne (un anesthésique local) au départ du composé 1. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le composé 1 est un chlorure d'acide",
+      "La 1  étape est une réaction d'estérification",
+      "Le réactif 1 est un nucléophile",
+      "La 2  étape est une réaction d'oxydation",
+      "Le réactif 2 peut-être de l'hydrogèneère"
+    ],
+    "correct_answers": [
+      "Le composé 1 est un chlorure d'acide",
+      "La 1  étape est une réaction d'estérification",
+      "Le réactif 1 est un nucléophile",
+      "Le réactif 2 peut-être de l'hydrogèneère"
+    ],
+    "justification_fausses_reponses": {
+      "La 2  étape est une réaction d'oxydation": "Cette affirmation est incorrecte car la deuxième étape de la synthèse de la procaïne n'est pas une réaction d'oxydation. L'oxydation est une réaction chimique où une molécule, un atome ou un ion perd des électrons. Dans le cas de la procaïne, la deuxième étape est une réaction de substitution nucléophile, pas une réaction d'oxydation."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La lévocétirizine possède un carbone asymétrique",
+      "La conformation la plus stable de l'hétérocycle central est la conformation chaise",
+      "La fonction acide carboxylique de la lévocétirizine est déprotonée à pH physiologique (pH 7,4)",
+      "La lévocétirizine possède une fonction ester",
+      "La lévocétirizine possède 3 cycles aromatiques"
+    ],
+    "correct_answers": [
+      "La lévocétirizine possède un carbone asymétrique",
+      "La conformation la plus stable de l'hétérocycle central est la conformation chaise",
+      "La fonction acide carboxylique de la lévocétirizine est déprotonée à pH physiologique (pH 7,4)"
+    ],
+    "justification_fausses_reponses": {
+      "La lévocétirizine possède une fonction ester": "C'est incorrect car la lévocétirizine ne possède pas de fonction ester. Une fonction ester est un groupe fonctionnel caractérisé par une liaison covalente entre un atome de carbone et un atome d'oxygène, suivie d'une liaison covalente entre cet atome d'oxygène et un autre atome de carbone. La lévocétirizine ne possède pas ce type de structure.",
+      "La lévocétirizine possède 3 cycles aromatiques": "C'est incorrect car la lévocétirizine ne possède pas trois cycles aromatiques. Un cycle aromatique est un cycle plan, cyclique et conjugué contenant un nombre de doublets d'électrons délocalisés qui est un multiple de 4. La lévocétirizine ne possède pas cette caractéristique."
+    }
+  }
+]

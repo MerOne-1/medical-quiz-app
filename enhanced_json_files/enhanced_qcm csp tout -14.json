@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "La loi de Beer-Lambert s’applique à la photométrie de flamme",
+      "La polarimétrie permet de doser toutes les molécules",
+      "La loi de Biot s’applique à la polarimétrie",
+      "La loi de Beer-Lambert s’applique à la spectrométrie UV-Visible",
+      "La réfractométrie ne permet pas de doser une molécule"
+    ],
+    "correct_answers": [
+      "La loi de Biot s’applique à la polarimétrie",
+      "La loi de Beer-Lambert s’applique à la spectrométrie UV-Visible"
+    ],
+    "justification_fausses_reponses": {
+      "La loi de Beer-Lambert s’applique à la photométrie de flamme": "La loi de Beer-Lambert s'applique à la spectrophotométrie, pas à la photométrie de flamme. La photométrie de flamme est basée sur l'émission de lumière par des atomes excités, pas sur l'absorption de lumière.",
+      "La polarimétrie permet de doser toutes les molécules": "La polarimétrie ne permet pas de doser toutes les molécules. Elle ne peut doser que les molécules optiquement actives, c'est-à-dire celles qui ont la capacité de faire tourner le plan de polarisation de la lumière.",
+      "La réfractométrie ne permet pas de doser une molécule": "La réfractométrie peut être utilisée pour doser une molécule. Elle mesure l'indice de réfraction d'une substance, qui peut être utilisé pour déterminer la concentration d'une solution."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant un radioélément, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "Son activité s’exprime en Becquerel, ie en désintégrations.s  dans le S ystème International",
+      "Son activité peut s’exprimer en Curie",
+      "Sa période est le temps au bout duquel 100% de l’activité a disparu",
+      "Sa période est le temps au bout duquel 50% de l’activité a disparu",
+      "Son activité s’exprime en Becquerel, ie en désintégrations.h  dans le S ystème International-1"
+    ],
+    "correct_answers": [
+      "Sa période est le temps au bout duquel 50% de l’activité a disparu",
+      "Son activité s’exprime en Becquerel, ie en désintégrations.s  dans le S ystème International",
+      "Son activité peut s’exprimer en Curie"
+    ],
+    "justification_fausses_reponses": {
+      "Sa période est le temps au bout duquel 100% de l’activité a disparu": "C'est incorrect car la période d'un radioélément est définie comme le temps nécessaire pour que la moitié de l'activité radioactive initiale disparaisse, pas 100%.",
+      "Son activité s’exprime en Becquerel, ie en désintégrations.h  dans le S ystème International-1": "C'est incorrect car l'activité d'un radioélément est exprimée en désintégrations par seconde (Becquerel) et non en désintégrations par heure."
+    }
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes  concernant la R ésonance Magnétique Nucléaire, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "Ses fréquences sont du domaine du MégaHertz",
+      "C’est une spectroscopie ionisante",
+      "C’est une spectroscopie quantitative",
+      "C’est une technique spectroscopique d’absorption",
+      "On peut étudier tous les noyaux par RMN"
+    ],
+    "correct_answers": [
+      "C’est une technique spectroscopique d’absorption",
+      "Ses fréquences sont du domaine du MégaHertz",
+      "C’est une spectroscopie quantitative"
+    ],
+    "justification_fausses_reponses": {
+      "C’est une spectroscopie ionisante": "La Résonance Magnétique Nucléaire (RMN) n'est pas une spectroscopie ionisante. Elle n'implique pas l'ionisation des atomes, mais plutôt l'excitation des noyaux atomiques dans un champ magnétique.",
+      "On peut étudier tous les noyaux par RMN": "Tous les noyaux ne peuvent pas être étudiés par RMN. Seuls les noyaux possédant un spin nucléaire non nul peuvent être étudiés par cette technique."
+    }
+  }
+]

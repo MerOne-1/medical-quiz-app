@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "M. Victor B., 38 ans, commercial, est infecté par un HCV de génotype 1. Il vous présente l'ordonnance suivante Parmi les items suivants, lesquels peuvent être des effets secondaires ressentis par M . Victor B . ?",
+    "options": [
+      "Hémorroïdes",
+      "Nausées",
+      "Asthénie",
+      "Anémie hémolytique",
+      "Céphalées"
+    ],
+    "correct_answers": [
+      "Céphalées",
+      "Nausées",
+      "Asthénie"
+    ],
+    "justification_fausses_reponses": {
+      "Hémorroïdes": "Les hémorroïdes ne sont pas un effet secondaire typique de l'infection par le HCV. Elles sont généralement causées par une pression accrue dans les veines de l'anus, souvent due à la constipation ou à la grossesse.",
+      "Anémie hémolytique": "L'anémie hémolytique n'est pas un effet secondaire courant de l'infection par le HCV. Elle est généralement causée par des maladies auto-immunes, des infections ou certaines médications qui détruisent les globules rouges plus rapidement que la moelle osseuse ne peut en produire."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "La prise en charge d'une gastro-entérite virale repose sur :",
+    "options": [
+      "Un régime alimentaire adapté",
+      "Une consultation médicale spécialisée",
+      "Une vaccination",
+      "Des conseils d'hygiène",
+      "Un traitement par ralentisseurs du transit"
+    ],
+    "correct_answers": [
+      "Un régime alimentaire adapté",
+      "Des conseils d'hygiène"
+    ],
+    "justification_fausses_reponses": {
+      "Une consultation médicale spécialisée": "Bien qu'une consultation médicale puisse être utile pour confirmer le diagnostic et obtenir des conseils, elle n'est pas la base du traitement d'une gastro-entérite virale. Le traitement repose principalement sur le repos, l'hydratation et un régime alimentaire adapté.",
+      "Une vaccination": "Il n'existe pas de vaccin contre la plupart des virus qui causent la gastro-entérite. De plus, la vaccination est une mesure préventive, pas un traitement.",
+      "Un traitement par ralentisseurs du transit": "Les ralentisseurs du transit ne sont pas recommandés dans le traitement de la gastro-entérite virale. Ils peuvent même aggraver la situation en prolongeant la durée de l'infection."
+    }
+  }
+]

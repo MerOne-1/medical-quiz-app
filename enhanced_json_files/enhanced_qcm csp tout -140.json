@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "Le principal effet indésirable du Mycophenolate mofetil est la néphrotoxicité tubulaire",
+      "Everolimus ne nécessite pas de suivi des concentrations sanguines dans le cadre de la prévention du rejet de greffon rénal.",
+      "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique",
+      "Tacrolimus est un immunosuppresseur responsable de fréquentes hypotensions orthostatiques",
+      "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine"
+    ],
+    "correct_answers": [
+      "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine",
+      "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique"
+    ],
+    "justification_fausses_reponses": {
+      "Le principal effet indésirable du Mycophenolate mofetil est la néphrotoxicité tubulaire": "C'est incorrect. Le principal effet indésirable du Mycophenolate mofetil est la myélosuppression, pas la néphrotoxicité tubulaire.",
+      "Everolimus ne nécessite pas de suivi des concentrations sanguines dans le cadre de la prévention du rejet de greffon rénal.": "C'est faux. Everolimus nécessite un suivi des concentrations sanguines pour éviter la toxicité et assurer son efficacité dans la prévention du rejet de greffon rénal.",
+      "Tacrolimus est un immunosuppresseur responsable de fréquentes hypotensions orthostatiques": "C'est incorrect. Tacrolimus peut causer de l'hypertension, pas de l'hypotension orthostatique."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "L'investigateur coordinateur est celui qui prend l'initiative de la recherche biomédicale",
+      "Un promoteur doit toujours faire appel à une société de recherche sous contrat",
+      "Lors d'un audit, toutes les versions du protocole doivent être présentées",
+      "Un promoteur est une personne physique qui dirige et surveille la recherche biomédicale sur un lieu"
+    ],
+    "correct_answers": [
+      "Lors d'un audit, toutes les versions du protocole doivent être présentées"
+    ],
+    "justification_fausses_reponses": {
+      "L'investigateur coordinateur est celui qui prend l'initiative de la recherche biomédicale": "C'est incorrect. L'investigateur coordinateur est celui qui coordonne les différents investigateurs d'une recherche biomédicale, mais ce n'est pas nécessairement lui qui prend l'initiative de la recherche.",
+      "Un promoteur doit toujours faire appel à une société de recherche sous contrat": "C'est faux. Un promoteur peut choisir de faire appel à une société de recherche sous contrat, mais ce n'est pas une obligation. Il peut également choisir de mener la recherche en interne.",
+      "Un promoteur est une personne physique qui dirige et surveille la recherche biomédicale sur un lieu": "C'est incorrect. Un promoteur peut être une personne physique ou morale (par exemple, une entreprise ou une institution) qui prend l'initiative de la recherche biomédicale et en assure la gestion, le financement et la surveillance."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/ sont exactes ?",
+    "options": [
+      "L'halopéridol antagonise l'activité de la L DOP A.",
+      "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+      "La dopathérapie est surtout efficace sur les tremblements mais améliore peu l'akinésie",
+      "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+      "Le Métoclopramide est l'antiémétique de 1ère intention pour traiter les nausées et les vomissements liés à la dopathérapie"
+    ],
+    "correct_answers": [
+      "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+      "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+      "L'halopéridol antagonise l'activité de la L DOP A."
+    ],
+    "justification_fausses_reponses": {
+      "La dopathérapie est surtout efficace sur les tremblements mais améliore peu l'akinésie": "Cette affirmation est incorrecte car la dopathérapie est efficace à la fois sur les tremblements et l'akinésie. L'akinésie, qui est une diminution ou une perte de la mobilité, est un des symptômes principaux de la maladie de Parkinson que la dopathérapie vise à améliorer.",
+      "Le Métoclopramide est l'antiémétique de 1ère intention pour traiter les nausées et les vomissements liés à la dopathérapie": "Cette affirmation est incorrecte car le Métoclopramide n'est pas l'antiémétique de première intention pour traiter les nausées et les vomissements liés à la dopathérapie. En effet, le Métoclopramide peut aggraver les symptômes de la maladie de Parkinson en bloquant les récepteurs de la dopamine dans le cerveau."
+    }
+  }
+]

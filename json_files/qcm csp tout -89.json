@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "les molécules 2 et 4 comportent un lien phosphonate",
+      "les molécules 1 et 4 comportent une ou plusieurs fonctions ester",
+      "la molécule 3 est la ribavirine",
+      "les molécules 4 et 5 sont combinées au sein d’un médicament anti-VIH",
+      "les molécules 1 à 4 sont des analogues de la guanosine"
+    ],
+    "correct_answers": [
+      "les molécules 1 et 4 comportent une ou plusieurs fonctions ester",
+      "les molécules 1 à 4 sont des analogues de la guanosine",
+      "la molécule 3 est la ribavirine",
+      "les molécules 2 et 4 comportent un lien phosphonate",
+      "les molécules 4 et 5 sont combinées au sein d’un médicament anti-VIH"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes relatives au « switch chiral », signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Le « switch chiral » est encouragé par les agences du médicament, qui voient un avantage à l’usage d’énantiomères purs, dont elles attendent des relations effets dose plus simples et une moindre variation interindividuelle",
+      "Le « switch chiral » consiste à identifier puis développer un médicament sous forme d’enantiomère pur après qu’il ait été commercialisé sous forme racémique",
+      "Le « switch chiral » a permis de remettre sur le marché la thalidomide, en sélectionnant l’énantiomère dénué d’effets tératogènes",
+      "le « switch chiral » est un procédé de synthèse qui permet de passer d’un énantiomère à l’autre",
+      "Le « switch chiral » peut conduire à des échecs, avec arrêt de développement liés à la survenue d’effets secondaires graves inattendus"
+    ],
+    "correct_answers": [
+      "Le « switch chiral » consiste à identifier puis développer un médicament sous forme d’enantiomère pur après qu’il ait été commercialisé sous forme racémique",
+      "Le « switch chiral » peut conduire à des échecs, avec arrêt de développement liés à la survenue d’effets secondaires graves inattendus",
+      "Le « switch chiral » est encouragé par les agences du médicament, qui voient un avantage à l’usage d’énantiomères purs, dont elles attendent des relations effets dose plus simples et une moindre variation interindividuelle"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Une anémie macrocytaire arégénérative doit faire rechercher :",
+    "options": [
+      "Une anémie par carence en folates",
+      "Un syndrome myélodysplasique",
+      "Une anémie inflammatoire",
+      "Une carence en vitamine C",
+      "Une maladie de Biermer"
+    ],
+    "correct_answers": [
+      "Un syndrome myélodysplasique",
+      "Une maladie de Biermer",
+      "Une anémie par carence en folates"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Au cours de l’hémophilie A, quelle(s) anomalie(s) biologique(s) peut-on observer ?",
+    "options": [
+      "Allongement du T emps de Céphaline + Activateur (T CA)",
+      "Thrombopénie",
+      "Déficit en facteur Willebrand",
+      "Taux de prothrombine normal (> 70%)",
+      "Déficit en facteur VIII"
+    ],
+    "correct_answers": [
+      "Déficit en facteur VIII",
+      "Allongement du T emps de Céphaline + Activateur (T CA)",
+      "Taux de prothrombine normal (> 70%)"
+    ]
+  }
+]

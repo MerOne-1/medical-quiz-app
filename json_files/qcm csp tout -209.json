@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Pour produire le vaccin Haemophilus influenzae  type b conjugué, il est nécessaire de cultiver la souche d' Haemophilus influenzae  avant d'extraire le polysaccharide vaccinant. P our assurer l'innocuité du vaccin, une stérilisation de la biomasse est donc nécessaire. Le fabricant doit assurer l'efficacité du procédé. Choisira-t-il d'appliquer une procédure avec un risque résiduel de :",
+    "options": [
+      "1/10",
+      "aucune de ces propositions",
+      "1/10",
+      "1/10",
+      "1/106",
+      "23",
+      "9",
+      "17"
+    ],
+    "correct_answers": [
+      "1/1017"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Le diagnostic indirect d'une infection bactérienne peut être établi à l'aide :",
+    "options": [
+      "de tests sérologiques",
+      "de l'observation microscopique de la bactérie issue d'un prélèvement biologique",
+      "d'une mise en évidence de l'ADN bactérien par technique d'amplification génique",
+      "d'une mise en évidence des anticorps produits par le patient infecté en réaction à l'agent bactérien causal",
+      "d'une recherche d'antigènes spécifiques de la bactérie en cause dans l'infection"
+    ],
+    "correct_answers": [
+      "de tests sérologiques",
+      "d'une mise en évidence des anticorps produits par le patient infecté en réaction à l'agent bactérien causal"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos de la fièvre typhoïde :",
+    "options": [
+      "elle peut être due à plusieurs centaines de sérovars de Salmonella enterica subsp enterica",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir de coprocultures",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir d'hémocultures",
+      "Salmonella enterica  est un coque à Gram négatif de la famille des entérobactéries",
+      "classiquement, la phase d'état comporte une fièvre continue et un tuphos"
+    ],
+    "correct_answers": [
+      "classiquement, la phase d'état comporte une fièvre continue et un tuphos",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir d'hémocultures",
+      "le diagnostic biologique peut être réalisé par isolement de la bactérie à partir de coprocultures"
+    ]
+  }
+]

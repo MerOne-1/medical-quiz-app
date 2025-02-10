@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant les homologues du benzène, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "La spectrophotométrie UV est la méthode de référence de dosage de ces composés en milieu atmosphérique",
+      "Ce sont des irritants des muqueuses.",
+      "Ils exercent un effet dépresseur du système nerveux central.",
+      "Ils sont majoritairement éliminés en nature par voie pulmonaire.",
+      "Ce sont tous des toxiques hématologiques."
+    ],
+    "correct_answers": [
+      "Ce sont des irritants des muqueuses.",
+      "Ils exercent un effet dépresseur du système nerveux central."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant l’intoxication par les méthémoglobinisants, laquelle (lesquelles) est (sont) inexacte(s)?",
+    "options": [
+      "Il y a mort du sujet pour une méthémoglobine >10% de l’Hb totale.",
+      "Le principal antidote est le bleu de méthylène.",
+      "L’alcool favorise la métabolisation de la MetHb.",
+      "Elle débute cliniquement par une cyanose.",
+      "La mesure de la MetHb se fait le plus souvent par méthode spectrophotométrique."
+    ],
+    "correct_answers": [
+      "Il y a mort du sujet pour une méthémoglobine >10% de l’Hb totale.",
+      "L’alcool favorise la métabolisation de la MetHb."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant le trichloréthylène, laquelle (lesquelles) est (sont) exacte(s)?",
+    "options": [
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet de doser les principaux métabolites du trichloroéthylène.",
+      "Les métabolites principaux sont le trichloroéthanol et l'acide trichloracétique.",
+      "L'intoxication aiguë entraîne des signes d'hyperexcitabilité cardiaque.",
+      "L'exposition à long terme entraîne une destruction des os des doigts.",
+      "Un contact cutané répété peut être à l'origine de dermatoses."
+    ],
+    "correct_answers": [
+      "Les métabolites principaux sont le trichloroéthanol et l'acide trichloracétique.",
+      "La réaction alcalino-pyridinique à chaud de Fujiwara-Ross permet de doser les principaux métabolites du trichloroéthylène.",
+      "Un contact cutané répété peut être à l'origine de dermatoses.",
+      "L'intoxication aiguë entraîne des signes d'hyperexcitabilité cardiaque."
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "La valeur permettant de séparer un échantillon d'observations d'une variable quantitative X en deux sous-échantillons de même effectif est égale",
+    "options": [
+      "au troisième quartile",
+      "à la moyenne",
+      "à la médiane",
+      "au deuxième quartile",
+      "au mode"
+    ],
+    "correct_answers": [
+      "à la médiane",
+      "au deuxième quartile"
+    ],
+    "justification_fausses_reponses": {
+      "au troisième quartile": "Le troisième quartile est la valeur qui sépare les données en deux parties, où environ 75% des données sont inférieures à cette valeur. Il ne divise pas l'échantillon en deux sous-échantillons de même effectif.",
+      "à la moyenne": "La moyenne est la somme de toutes les valeurs divisée par le nombre total de valeurs. Elle ne garantit pas une division de l'échantillon en deux sous-échantillons de même effectif.",
+      "au mode": "Le mode est la valeur qui apparaît le plus fréquemment dans un ensemble de données. Il ne divise pas nécessairement l'échantillon en deux sous-échantillons de même effectif."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant les paramètres de la statistique descriptive, la(les) réponse(s) exacte(s) est(sont)",
+    "options": [
+      "Les quartiles sont au nombre de quatre",
+      "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne.",
+      "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)",
+      "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+      "Les quartiles sont au nombre de trois"
+    ],
+    "correct_answers": [
+      "Les quartiles sont au nombre de trois",
+      "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+      "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne."
+    ],
+    "justification_fausses_reponses": {
+      "Les quartiles sont au nombre de quatre": "C'est incorrect car les quartiles sont au nombre de trois : le premier quartile (Q1), le deuxième quartile (Q2) qui est également la médiane, et le troisième quartile (Q3).",
+      "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)": "C'est incorrect car un coefficient de corrélation, qui mesure la force et la direction d'une relation linéaire entre deux variables, peut varier de -1 à 1. Un coefficient de 1 indique une relation linéaire positive forte, -1 une relation linéaire négative forte et 0 aucune relation linéaire."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "On aimerait savoir si la moyenne d'âge d'une population est supérieure à 65 ans. Un échantillon de 35 individus, extrait de cette population, présente une moyenne d'âge de 58 ans. Concernant le test paramétrique utilisé pour répondre à la question posée et la valeur du degré de signification p du test, la(les) réponse(s) exacte(s) est (sont)",
+    "options": [
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral",
+      "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral",
+      "p < 5 %",
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral",
+      "p > 5 %"
+    ],
+    "correct_answers": [
+      "p > 5 %",
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral"
+    ],
+    "justification_fausses_reponses": {
+      "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral": "Cette option est incorrecte car le test de comparaison d'une proportion observée à une proportion théorique en unilatéral est utilisé pour comparer des proportions, pas des moyennes.",
+      "p < 5 %": "Cette option est incorrecte car une valeur de p inférieure à 5 % indiquerait que la différence observée est statistiquement significative, ce qui n'est pas le cas ici car la moyenne observée est inférieure à la moyenne théorique.",
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral": "Cette option est incorrecte car le test bilatéral est utilisé lorsque l'on souhaite tester si la moyenne observée est différente de la moyenne théorique, sans préciser si elle est supérieure ou inférieure. Ici, on cherche spécifiquement à savoir si la moyenne est supérieure à une valeur donnée, donc un test unilatéral est approprié."
+    }
+  }
+]

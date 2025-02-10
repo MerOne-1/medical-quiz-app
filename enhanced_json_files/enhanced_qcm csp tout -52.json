@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soit l’équation suivante : Quelles sont les valeurs de x, y et z qui relient les quantités de matière des composés de cette réaction ? n(MnO ) = x.n(Mn ) n(H ) = y.n(H O) n(Br ) = z.n(Br )",
+    "options": [
+      "x = 1, y = 2, z = 1/2",
+      "x = 1, y = 1, z = 1",
+      "x = 1, y = 1/2, z = 2",
+      "x = 2, y = 8, z = 10",
+      "x = 0, y = 1/2, z = 24- 2+"
+    ],
+    "correct_answers": [
+      "x = 1, y = 2, z = 1/2"
+    ],
+    "justification_fausses_reponses": {
+      "x = 1, y = 1, z = 1": "Cette option est incorrecte car elle ne respecte pas la loi de conservation de la matière. Dans une réaction chimique, le nombre total d'atomes de chaque élément doit rester constant avant et après la réaction.",
+      "x = 1, y = 1/2, z = 2": "Cette option est incorrecte car elle ne respecte pas la loi de conservation de la matière. Le nombre d'atomes d'hydrogène (H) ne peut pas être réduit de moitié dans la réaction.",
+      "x = 2, y = 8, z = 10": "Cette option est incorrecte car elle suggère que le nombre de molécules de MnO et de H augmente, ce qui viole la loi de conservation de la matière.",
+      "x = 0, y = 1/2, z = 24- 2+": "Cette option est incorrecte car elle suggère que le nombre de molécules de MnO est nul, ce qui est impossible dans cette réaction chimique."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s).",
+    "options": [
+      "L’électronégativité des éléments augmente quand Z croît dans une colonne de la classification.",
+      "L’électronégativité des éléments augmente de gauche à droite dans une période de la classification.",
+      "L’électronégativité d’un élément engagé dans une liaison covalente évalue sa capacité à attirer le doublet de liaison.",
+      "Une liaison est d’autant plus polarisée que la différence d’électronégativité entre les deux atomes est grande.",
+      "Un potentiel d’ionisation élevé et une affinité électronique forte imposent une électronégativité élevée."
+    ],
+    "correct_answers": [
+      "L’électronégativité d’un élément engagé dans une liaison covalente évalue sa capacité à attirer le doublet de liaison.",
+      "L’électronégativité des éléments augmente de gauche à droite dans une période de la classification.",
+      "Un potentiel d’ionisation élevé et une affinité électronique forte imposent une électronégativité élevée.",
+      "Une liaison est d’autant plus polarisée que la différence d’électronégativité entre les deux atomes est grande."
+    ],
+    "justification_fausses_reponses": {
+      "L’électronégativité des éléments augmente quand Z croît dans une colonne de la classification.": "Cette affirmation est incorrecte. En réalité, l'électronégativité des éléments diminue quand Z (le numéro atomique) croît dans une colonne de la classification périodique. Cela est dû à l'augmentation de la taille de l'atome et à l'éloignement des électrons de valence du noyau, ce qui réduit leur attraction par le noyau."
+    }
+  }
+]

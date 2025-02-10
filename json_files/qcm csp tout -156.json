@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "La ciclosporine est un macrolide.",
+      "La néphrotoxicité est un effet indésirable majeur de la ciclosporine.",
+      "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+      "La ciclosporine inhibe l'activité de la protéine m-T OR qui est une kinase indispensable à la progression du cycle cellulaire.",
+      "La ciclosporine ne doit pas être associée aux corticoïdes."
+    ],
+    "correct_answers": [
+      "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+      "La néphrotoxicité est un effet indésirable majeur de la ciclosporine."
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes : A propos de l'azathioprine (Imurel*) :",
+    "options": [
+      "C'est un immunosuppresseur antiprolifératif",
+      "Nécessite une surveillance de l'hémogramme",
+      "Est déconseillée en association avec l'allopurinol",
+      "Est à prendre en dehors des repas",
+      "C'est une prodrug"
+    ],
+    "correct_answers": [
+      "C'est un immunosuppresseur antiprolifératif",
+      "C'est une prodrug",
+      "Nécessite une surveillance de l'hémogramme"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "Le schéma thérapeutique standard repose sur une trithérapie associant isoniazide, rifampicine et éthambutol.",
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en trois prises par jour.",
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+      "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide.",
+      "L'insuffisance rénale sévère est une contre-indication au traitement par isoniazide."
+    ],
+    "correct_answers": [
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+      "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide."
+    ]
+  }
+]

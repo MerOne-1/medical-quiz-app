@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "L’enthalpie de combustion du méthanol est égale à -711 kJ/mol. Quelle masse de méthanol doit-on brûler dans l’oxygène pour libérer une énergie de 71,1 kJ ?",
+    "options": [
+      "aucune des v aleur s proposées",
+      "71,5 g",
+      "3,2 g",
+      "715 g",
+      "32 g"
+    ],
+    "correct_answers": [
+      "3,2 g"
+    ],
+    "justification_fausses_reponses": {
+      "aucune des v aleur s proposées": "Cette option est incorrecte car il existe une valeur correcte parmi les options proposées, qui est 3,2 g.",
+      "71,5 g": "Cette option est incorrecte car elle est trop élevée. La combustion de 71,5 g de méthanol libérerait une énergie bien supérieure à 71,1 kJ.",
+      "715 g": "Cette option est incorrecte car elle est beaucoup trop élevée. La combustion de 715 g de méthanol libérerait une énergie extrêmement supérieure à 71,1 kJ.",
+      "32 g": "Cette option est incorrecte car elle est trop élevée. La combustion de 32 g de méthanol libérerait une énergie bien supérieure à 71,1 kJ."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Etablir la bonne série de relations de cause à effet concernant le phosphore : Causes Effets 1. Le phosphore est oxophile 2. Les composés du phosphore les plus stables sont ceux où P a le degré d'oxydation le plus faible 3. le phosphore peut établir des doubles liaisons avec le carbonex. Les sels de phosphonium formés par réaction entre la triphénylphosphine et un halogénure d'alkyle primaire sont déprotonables en milieu fortement basique, contrairement aux sels d'ammonium formés par réaction entre la triméthylamine et un halogénure d'alkyle primaire y. La réaction de Wittig est stéréosélective z. Les phosphines sont instables",
+    "options": [
+      "1x, 2y , 3z",
+      "1x, 2z, 3y",
+      "1y, 2z, 3x",
+      "1y, 2x, 3z",
+      "1z, 2x, 3y"
+    ],
+    "correct_answers": [
+      "1y, 2z, 3x"
+    ],
+    "justification_fausses_reponses": {
+      "1x, 2y , 3z": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+      "1x, 2z, 3y": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+      "1y, 2x, 3z": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x).",
+      "1z, 2x, 3y": "Cette option est incorrecte car le phosphore est oxophile (1y), les phosphines sont instables (2z) et le phosphore peut établir des doubles liaisons avec le carbone (3x)."
+    }
+  }
+]

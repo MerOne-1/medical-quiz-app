@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s)? Les solutions de remplissage vasculaire peuvent être:",
+    "options": [
+      "Des solutés de dextran",
+      "Des solutés de gélatine fluide",
+      "Des émulsions lipidiques injectables",
+      "De l'albumine d'origine humaine",
+      "Des solutés de glucose"
+    ],
+    "correct_answers": [
+      "Des solutés de gélatine fluide",
+      "De l'albumine d'origine humaine",
+      "Des solutés de dextran"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les propositions suivantes, choisissez la ou les proposition(s) exacte(s) Dans cette même étude",
+    "options": [
+      "pour apprécier la vitesse de mise à disposition, on compare les pentes de la phase décroissante des cinétiques après la linéarisation.",
+      "D'un point de vue quantitatif, on va apprécier l'aire sous la courbe des concentrations urinaires en X, si on effectue une étude par prélèvements urinaires.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique.",
+      "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps."
+    ],
+    "correct_answers": [
+      "On peut également comparer les coordonnées des pics des courbes d'évolution des concentrations sanguines en fonction du temps.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par un ralentissement de la vidange gastrique.",
+      "Supposant que le principe actif X est très lipophile, sa biodisponibilité peut être affectée par le premier passage hépatique."
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les affirmations suivantes concernant les glycérides hémi-synthétiques solides utilisés comme excipient pour des suppositoires (ex : Witepsol®), quelles ont celles qui sont exactes ?",
+    "options": [
+      "montrent une bonne rétractabilité",
+      "sont uniquement des triglycérides.",
+      "se dissolvent dans le contenu du rectum.",
+      "fondent à température corporelle.",
+      "montrent une zone de fusion très large."
+    ],
+    "correct_answers": [
+      "sont uniquement des triglycérides.",
+      "fondent à température corporelle."
+    ]
+  }
+]

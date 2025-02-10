@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La biosynthèse de la noradrénaline à partir de de la L-DOP A est représentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'étape 1 correspond à une réaction d'estérification",
+      "L'étape 1 correspond à une réaction de décarboxylation",
+      "La noradrénaline est un acide α-aminé",
+      "L'étape 2 correspond à une réaction de réduction",
+      "La dopamine présente un caractère électrophile"
+    ],
+    "correct_answers": [
+      "L'étape 1 correspond à une réaction de décarboxylation"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la péthidine, un antalgique opiacé. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La péthidine est obtenue selon une réaction de saponification",
+      "La péthidine est obtenue selon une réaction d'estérification",
+      "La conformation la plus stable de la péthidine est la conformation bateau",
+      "La péthidine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)",
+      "La péthidine possède une fonction amine tertiaire"
+    ],
+    "correct_answers": [
+      "La péthidine est obtenue selon une réaction d'estérification",
+      "La péthidine possède une fonction amine tertiaire"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le rivaroxaban possède 2 cycles aromatiques",
+      "Le rivaroxaban possède un noyau pyrrole",
+      "Le rivaroxaban est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le rivaroxaban possède une fonction carbamate",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "correct_answers": [
+      "Le rivaroxaban possède 2 cycles aromatiques",
+      "Le rivaroxaban possède une fonction carbamate",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ]
+  }
+]

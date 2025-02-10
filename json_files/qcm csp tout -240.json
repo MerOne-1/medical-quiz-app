@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui peut (peuvent) évaluer l'expression d'un gène spécifique en ARNm",
+    "options": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Dosage colorimétrique des protéines totales",
+      "Northern blot",
+      "Western Blot",
+      "Immunofluorescence"
+    ],
+    "correct_answers": [
+      "PCR quantitative (Polymerase Chain Reaction)",
+      "Northern blot"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le noyau, quelles sont les propositions vraies",
+    "options": [
+      "L’échange nucléo-cytoplasmique est bidirectionnel",
+      "Le nucléole est le lieu de synthèse des ARNs ribosomaux",
+      "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+      "Le nucléole est le lieu de synthèse des protéines",
+      "En microscopie électronique à transmission, le nucléole correspond à une zone claire dans le noyau"
+    ],
+    "correct_answers": [
+      "L’échange nucléo-cytoplasmique est bidirectionnel",
+      "L’échange nucléo-cytoplasmique se fait à travers des complexes de pores nucléaires",
+      "Le nucléole est le lieu de synthèse des ARNs ribosomaux"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les cellules souches, quelles sont les propositions vraies",
+    "options": [
+      "Elles ne se trouvent qu’au stade embryonnaire",
+      "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+      "Elles sont indifférenciées",
+      "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome",
+      "Elles se caractérisent par leur potentiel de différenciation"
+    ],
+    "correct_answers": [
+      "Elles possèdent la propriété d’auto-renouvellement à l’infini",
+      "Elles sont indifférenciées",
+      "Elles se caractérisent par leur potentiel de différenciation",
+      "Si elles sont injectées à une souris immunocompétente, cela conduira à la formation d’un tératome"
+    ]
+  }
+]

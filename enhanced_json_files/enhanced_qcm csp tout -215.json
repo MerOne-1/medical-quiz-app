@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s)",
+    "options": [
+      "la vancomycine est un aminoside",
+      "la ciprofloxacine est une fluoroquinolone",
+      "la lévofloxacine a une activité antipneumococcique",
+      "la gentamicine est un aminoside",
+      "la lévofloxacine est le dérivé lévogyre de l'ofloxacine"
+    ],
+    "correct_answers": [
+      "la gentamicine est un aminoside",
+      "la ciprofloxacine est une fluoroquinolone",
+      "la lévofloxacine est le dérivé lévogyre de l'ofloxacine",
+      "la lévofloxacine a une activité antipneumococcique"
+    ],
+    "justification_fausses_reponses": {
+      "la vancomycine est un aminoside": "C'est incorrect car la vancomycine est en réalité un glycopeptide, et non un aminoside. Les aminosides sont une classe d'antibiotiques qui inclut des médicaments comme la gentamicine, mais pas la vancomycine."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Clostridium perfringens",
+    "options": [
+      "peut donner des diarrhées",
+      "peut donner une gangrène gazeuse",
+      "peut sporuler",
+      "est un bacille à Gram négatif",
+      "est un anaérobie facultatif"
+    ],
+    "correct_answers": [
+      "peut donner des diarrhées",
+      "peut donner une gangrène gazeuse",
+      "peut sporuler"
+    ],
+    "justification_fausses_reponses": {
+      "est un bacille à Gram négatif": "Clostridium perfringens est un bacille à Gram positif, ce qui signifie qu'il retient le colorant violet lors du test de Gram, contrairement aux bactéries à Gram négatif.",
+      "est un anaérobie facultatif": "Clostridium perfringens est un anaérobie strict, ce qui signifie qu'il ne peut pas survivre en présence d'oxygène, contrairement aux anaérobies facultatifs qui peuvent survivre avec ou sans oxygène."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant la brucellose",
+    "options": [
+      "c'est une infection due à des bactéries à Gram négatif, aérobies strictes",
+      "elle peut être diagnostiquée par la technique de séroagglutination de Wright",
+      "c'est une infection asymptomatique dans 90 % des cas",
+      "dans sa phase aiguë septicémique, elle provoque une fièvre ondulante sudoro-algique",
+      "c'est une maladie strictement humaine"
+    ],
+    "correct_answers": [
+      "c'est une maladie strictement humaine"
+    ],
+    "justification_fausses_reponses": {
+      "c'est une infection due à des bactéries à Gram négatif, aérobies strictes": "Cette affirmation est correcte. La brucellose est causée par des bactéries du genre Brucella, qui sont des bactéries à Gram négatif et aérobies strictes.",
+      "elle peut être diagnostiquée par la technique de séroagglutination de Wright": "Cette affirmation est correcte. La technique de séroagglutination de Wright est une méthode couramment utilisée pour le diagnostic de la brucellose.",
+      "c'est une infection asymptomatique dans 90 % des cas": "Cette affirmation est correcte. La brucellose peut être asymptomatique dans de nombreux cas, mais le pourcentage exact peut varier.",
+      "dans sa phase aiguë septicémique, elle provoque une fièvre ondulante sudoro-algique": "Cette affirmation est correcte. La fièvre ondulante est un symptôme caractéristique de la brucellose, surtout dans sa phase aiguë."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Pour la recherche de salmonelles dans des poudres, la Pharmacopée Européenne préconise d'utiliser le milieu d'enrichissement de Rappaport-V assiliadis. Il est nécessaire de vérifier les capacités inhibitrices du milieu. Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les espèces choisies",
+    "options": [
+      "Salmonella enterica subsp.enterica  sérovar Abony",
+      "Clostridium perfringens",
+      "Salmonella enterica subsp.enterica  sérovar T yphimurium",
+      "Staphylococcus aureus",
+      "Escherichia coli"
+    ],
+    "correct_answers": [
+      "Staphylococcus aureus"
+    ],
+    "justification_fausses_reponses": {
+      "Salmonella enterica subsp.enterica  sérovar Abony": "Cette espèce n'est pas utilisée pour vérifier les capacités inhibitrices du milieu de Rappaport-Vassiliadis car elle est une salmonelle et le milieu est spécifiquement conçu pour enrichir les salmonelles.",
+      "Clostridium perfringens": "Clostridium perfringens est une bactérie anaérobie, alors que le milieu de Rappaport-Vassiliadis est conçu pour des bactéries aérobies et facultatives. Par conséquent, cette espèce ne serait pas appropriée pour tester les capacités inhibitrices de ce milieu.",
+      "Salmonella enterica subsp.enterica  sérovar T yphimurium": "Cette espèce n'est pas utilisée pour vérifier les capacités inhibitrices du milieu de Rappaport-Vassiliadis car elle est une salmonelle et le milieu est spécifiquement conçu pour enrichir les salmonelles.",
+      "Escherichia coli": "Bien qu'Escherichia coli soit une bactérie aérobie facultative, elle n'est pas utilisée pour tester les capacités inhibitrices du milieu de Rappaport-Vassiliadis car elle n'est pas spécifiquement inhibée par ce milieu."
+    }
+  }
+]

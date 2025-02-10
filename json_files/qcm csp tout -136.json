@@ -1,0 +1,17 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C’est un acide gras « à longue chaîne »",
+      "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol",
+      "C’est un acide gras « trans »",
+      "C’est un acide gras polyinsaturé",
+      "C’est un acide gras oméga 3"
+    ],
+    "correct_answers": [
+      "C’est un acide gras polyinsaturé",
+      "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol"
+    ]
+  }
+]

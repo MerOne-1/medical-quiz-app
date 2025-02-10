@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La nilvadipine est utilisée pour diminuer l'hypertension artérielle. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La nilvadipine possède deux cycles aromatiques",
+      "La nilvadipine possède deux fonctions ester",
+      "Le groupement NO présente un effet mésomère électrodonneur",
+      "Le groupement CN présente un effet mésomère électroattracteur",
+      "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+    ],
+    "correct_answers": [
+      "La nilvadipine possède deux fonctions ester",
+      "Le groupement CN présente un effet mésomère électroattracteur",
+      "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+    ],
+    "justification_fausses_reponses": {
+      "La nilvadipine possède deux cycles aromatiques": "C'est incorrect. La nilvadipine possède un seul cycle aromatique dans sa structure chimique.",
+      "Le groupement NO présente un effet mésomère électrodonneur": "C'est incorrect. Le groupement NO est un groupe électroattracteur, pas un groupe électrodonneur."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le diltiazem possède un seul carbone asymétrique",
+      "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+      "L'atome de soufre du cycle central est un bon accepteur de liaison hydrogène",
+      "Le diltiazem possède une fonction ester",
+      "Le diltiazem possède une fonction thiol"
+    ],
+    "correct_answers": [
+      "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+      "Le diltiazem possède une fonction ester"
+    ],
+    "justification_fausses_reponses": {
+      "Le diltiazem possède un seul carbone asymétrique": "C'est incorrect car le diltiazem possède plusieurs carbones asymétriques, ce qui lui confère une stéréochimie complexe.",
+      "L'atome de soufre du cycle central est un bon accepteur de liaison hydrogène": "C'est incorrect car l'atome de soufre du cycle central du diltiazem n'est pas un bon accepteur de liaison hydrogène. En général, les bons accepteurs de liaisons hydrogène sont les atomes d'oxygène, d'azote et de fluor.",
+      "Le diltiazem possède une fonction thiol": "C'est incorrect car le diltiazem ne possède pas de fonction thiol. La fonction thiol est caractérisée par un groupe -SH, qui n'est pas présent dans la structure du diltiazem."
+    }
+  }
+]

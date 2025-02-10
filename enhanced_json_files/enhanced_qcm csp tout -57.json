@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Le point triple de l’eau est à T = 273,15K et P = 6.10  atm. Dans quels états 1 et 2 se trouve l’eau à T  = 300K et P  = 10  atm et T  = 200K et P  = 6.10  atm ?",
+    "options": [
+      "gaz, gaz",
+      "gaz, solide",
+      "gaz, liquide",
+      "solide, liquide",
+      "liquide, gaz"
+    ],
+    "correct_answers": [
+      "gaz, solide"
+    ],
+    "justification_fausses_reponses": {
+      "gaz, gaz": "C'est incorrect car à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non gazeux.",
+      "gaz, liquide": "C'est incorrect car à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non liquide.",
+      "solide, liquide": "C'est incorrect car à T = 300K et P = 10 atm, l'eau se trouve à l'état gazeux et non solide.",
+      "liquide, gaz": "C'est incorrect car à T = 300K et P = 10 atm, l'eau se trouve à l'état gazeux et non liquide, et à T = 200K et P = 6.10 atm, l'eau se trouve à l'état solide et non gazeux."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soit les composés azotés N , NH , NO, HNO , NO , HNO . Quel est le bon classement de ces molécules par ordre croissant du nombre d’oxydation de l’azote ?",
+    "options": [
+      "HNO  < N  < NO < NO  < HNO  < NH",
+      "NH < N  < NO < NO  < HNO  < HNO",
+      "NH < N  < NO < HNO  < NO  < HNO",
+      "N < NO < HNO  < NO  < HNO  < NH",
+      "N < NH  < NO < HNO  < NO  < HNO"
+    ],
+    "correct_answers": [
+      "NH < N  < NO < HNO  < NO  < HNO"
+    ],
+    "justification_fausses_reponses": {
+      "HNO  < N  < NO < NO  < HNO  < NH": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans HNO est +5, qui est plus élevé que dans N (0), NO (+2), NO (+4) et NH (-3).",
+      "NH < N  < NO < NO  < HNO  < HNO": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans HNO est +5, qui est plus élevé que dans N (0), NO (+2) et NO (+4). De plus, il y a une répétition de HNO.",
+      "N < NO < HNO  < NO  < HNO  < NH": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans NH est -3, qui est plus bas que dans N (0), NO (+2), NO (+4) et HNO (+5).",
+      "N < NH  < NO < HNO  < NO  < HNO": "Cette option est incorrecte car le nombre d'oxydation de l'azote dans NH est -3, qui est plus bas que dans N (0), NO (+2), NO (+4) et HNO (+5). De plus, il y a une répétition de NO et HNO."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Soient les atomes A-E dans leur état fondamental dans le tableau ci-dessous. Indiquer la ou les proposition(s) exactes.",
+    "options": [
+      "Les atomes A et E ont les mêmes propriétés chimiques.",
+      "Les atomes A et C ont le même nombre d’électrons.",
+      "Les atomes A, B et E sont trois isotopes.",
+      "Les atomes D et E sont deux isotopes.",
+      "Les atomes D et E ont le même nombre de neutrons"
+    ],
+    "correct_answers": [
+      "Les atomes A et E ont les mêmes propriétés chimiques.",
+      "Les atomes A, B et E sont trois isotopes."
+    ],
+    "justification_fausses_reponses": {
+      "Les atomes A et C ont le même nombre d’électrons.": "Cette affirmation est incorrecte car les atomes A et C n'ont pas le même nombre d'électrons. Le nombre d'électrons détermine la charge de l'atome et donc ses propriétés chimiques.",
+      "Les atomes D et E sont deux isotopes.": "Cette affirmation est incorrecte car les isotopes sont des atomes d'un même élément qui ont le même nombre de protons mais un nombre différent de neutrons. Ici, les atomes D et E ne sont pas du même élément.",
+      "Les atomes D et E ont le même nombre de neutrons": "Cette affirmation est incorrecte car le nombre de neutrons ne détermine pas l'identité d'un atome. Deux atomes peuvent avoir le même nombre de neutrons mais être de différents éléments."
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants indiqués dans la prise en charge de la sclérose en plaque lequel ou lesquels est/sont immunomodulateur(s) ?",
+    "options": [
+      "Interferon béta 1a",
+      "Mitoxantrone",
+      "Natalizumab",
+      "Cyclophosphamide",
+      "Acetate de glatiramère"
+    ],
+    "correct_answers": [
+      "Interferon béta 1a",
+      "Acetate de glatiramère"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+    "options": [
+      "Le carbimazole possède une action rapide grâce à sa demi-vie courte",
+      "Le carbimazole est un antithyroidien de synthèse",
+      "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+      "Le carbimazole est contre indiqué avec l'amiodarone",
+      "Le carbimazole peut être associé à la lévothyroxine"
+    ],
+    "correct_answers": [
+      "Le carbimazole est un antithyroidien de synthèse",
+      "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+      "Le carbimazole peut être associé à la lévothyroxine"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+    "options": [
+      "Elle subit principalement un métabolisme hépatique",
+      "C'est un médicament inducteur enzymatique",
+      "Son élimination est rénale et sous forme active",
+      "C'est un médicament inhibiteur enzymatique",
+      "En cas d'insuffisance rénale, il n'y pas d'accumulation possible de ce médicament"
+    ],
+    "correct_answers": [
+      "Son élimination est rénale et sous forme active"
+    ]
+  }
+]

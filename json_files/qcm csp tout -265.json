@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "En cas de suspicion de myélome, devant une hypogammaglobulinémie sans immunoglobuline monoclonale, on doit envisager :",
+    "options": [
+      "Un myélome à IgD",
+      "Un myélome à IgA",
+      "Un myélome non secrétant",
+      "Un myélome à chaînes légères",
+      "Un autre diagnostic qu’un myélome"
+    ],
+    "correct_answers": [
+      "Un myélome à chaînes légères",
+      "Un myélome non secrétant",
+      "Un autre diagnostic qu’un myélome"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant la maladie de Willebrand :",
+    "options": [
+      "Elle est liée à une anomalie qualitative ou quantitative du facteur Willebrand",
+      "Le facteur VIII peut être abaissé dans cette maladie",
+      "C'est la plus fréquente des anomalies constitutionnelles de l'hémostase",
+      "Elle touche uniquement les sujets de sexe masculin",
+      "Ses manifestations cliniques sont principalement des hémorragies cutanéo-muqueuses"
+    ],
+    "correct_answers": [
+      "C'est la plus fréquente des anomalies constitutionnelles de l'hémostase",
+      "Elle est liée à une anomalie qualitative ou quantitative du facteur Willebrand",
+      "Le facteur VIII peut être abaissé dans cette maladie",
+      "Ses manifestations cliniques sont principalement des hémorragies cutanéo-muqueuses"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "L’insuffisance hépatocellulaire sévère s’accompagne habituellement d’un défaut de synthèse d’une ou plusieurs protéines de la coagulation. La(les)quelle(s) ?",
+    "options": [
+      "Le facteur V",
+      "Le facteur Willebrand",
+      "Le facteur VII",
+      "La protéine C",
+      "L’antithrombine"
+    ],
+    "correct_answers": [
+      "Le facteur VII",
+      "Le facteur V",
+      "L’antithrombine",
+      "La protéine C"
+    ]
+  }
+]

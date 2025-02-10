@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "Ce métabolite réagit en formant un lien covalent avec sa cible pharmacologique",
+      "Un métabolite minoritaire est responsable de l’activité biologique souhaitée",
+      "Cette molécule appartient à la famille des benzothiadiazines",
+      "Cette molécule est le ticagrelor",
+      "Elle est active in vitro sur l’agrégation plaquettaire, qu’elle inhibe"
+    ],
+    "correct_answers": [
+      "Un métabolite minoritaire est responsable de l’activité biologique souhaitée",
+      "Ce métabolite réagit en formant un lien covalent avec sa cible pharmacologique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+    "options": [
+      "la liaison 1-2 est une liaison imine",
+      "ce composé est le diazépam",
+      "ce composé est une benzodiazépine 1, 4",
+      "ce composé est plan",
+      "la liaison 4-5 est une liaison amide"
+    ],
+    "correct_answers": [
+      "ce composé est une benzodiazépine 1, 4",
+      "ce composé est le diazépam"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "sélectionnez la ou les proposition(s) correcte(s).",
+    "options": [
+      "Dans les TIH, la baisse de la numération plaquettaire apparaît classiquement entre le 5 et le 21 jour après le début de l’héparinothérapie",
+      "La ½ vie plaquettaire est raccourcie dans les thrombopénies de mécanisme central",
+      "Dans un contexte de thrombopénie, le risque d’hémorragie spontanée apparaît dès que la numération plaquettaire est inférieure à 100 G/L",
+      "Dans les anémies hémolytiques auto-immunes, le test de Coombs direct est positif",
+      "La valeur de la numération plaquettaire définissant une thrombopénie est de 150G/L"
+    ],
+    "correct_answers": [
+      "La valeur de la numération plaquettaire définissant une thrombopénie est de 150G/L",
+      "Dans les TIH, la baisse de la numération plaquettaire apparaît classiquement entre le 5 et le 21 jour après le début de l’héparinothérapie",
+      "Dans les anémies hémolytiques auto-immunes, le test de Coombs direct est positif"
+    ],
+    "justification_fausses_reponses": {
+      "La ½ vie plaquettaire est raccourcie dans les thrombopénies de mécanisme central": "Cette affirmation est incorrecte car la demi-vie plaquettaire n'est pas raccourcie dans les thrombopénies de mécanisme central. En réalité, elle est généralement normale ou prolongée.",
+      "Dans un contexte de thrombopénie, le risque d’hémorragie spontanée apparaît dès que la numération plaquettaire est inférieure à 100 G/L": "Cette affirmation est incorrecte car le risque d'hémorragie spontanée n'apparaît généralement pas tant que la numération plaquettaire n'est pas inférieure à 20 G/L."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les valeurs suivantes, quelles sont celles qui peuvent être retrouvées dans un hémogramme normal ?",
+    "options": [
+      "Volume globulaire moyen de 80 à 120 fl",
+      "Polynucléaires neutrophiles de 4 à 10 G/L",
+      "Hémoglobine de 100 à 160 g/L",
+      "Lymphocytes de 1 à 4 G/L",
+      "Thrombocytes de 150 à 450 G/L"
+    ],
+    "correct_answers": [
+      "Lymphocytes de 1 à 4 G/L",
+      "Thrombocytes de 150 à 450 G/L"
+    ],
+    "justification_fausses_reponses": {
+      "Volume globulaire moyen de 80 à 120 fl": "Cette valeur est incorrecte car le volume globulaire moyen normal se situe entre 80 et 100 fl. Une valeur supérieure à 100 fl indique une macrocytose, qui peut être due à une anémie mégaloblastique ou à une maladie du foie.",
+      "Polynucléaires neutrophiles de 4 à 10 G/L": "Cette valeur est incorrecte car le taux normal de polynucléaires neutrophiles se situe entre 1,5 et 7,5 G/L. Un taux supérieur à 7,5 G/L peut indiquer une infection ou une inflammation.",
+      "Hémoglobine de 100 à 160 g/L": "Cette valeur est incorrecte car le taux normal d'hémoglobine varie en fonction du sexe : il est de 120 à 160 g/L chez l'homme et de 110 à 150 g/L chez la femme. Un taux inférieur à ces valeurs peut indiquer une anémie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quels sont les paramètres permettant de distinguer une anémie par carence martiale d’une anémie inflammatoire ?",
+    "options": [
+      "La concentration de fer sérique",
+      "La ferritinémie",
+      "Le taux d’hémoglobine",
+      "Le taux de fibrinogène",
+      "Le volume globulaire moyen"
+    ],
+    "correct_answers": [
+      "La ferritinémie",
+      "Le taux de fibrinogène"
+    ],
+    "justification_fausses_reponses": {
+      "La concentration de fer sérique": "La concentration de fer sérique peut être basse dans les deux types d'anémie, par carence martiale et inflammatoire, donc elle ne permet pas de les distinguer.",
+      "Le taux d’hémoglobine": "Le taux d'hémoglobine est généralement bas dans tous les types d'anémie, donc il ne permet pas de distinguer une anémie par carence martiale d'une anémie inflammatoire.",
+      "Le volume globulaire moyen": "Le volume globulaire moyen peut varier dans différents types d'anémie, mais il n'est pas spécifique à l'anémie par carence martiale ou à l'anémie inflammatoire, donc il ne permet pas de les distinguer."
+    }
+  }
+]

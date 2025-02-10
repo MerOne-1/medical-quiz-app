@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Le dosage d’une solution d’ibuprofène est réalisé par CLHP. L’expérience est répétée 3 fois. Les résultats obtenus sont les suivants : C  = 1,98 mg/L, C  = 2,00 mg/L et C  = 2,02 mg/L. Comment doivent être présentés les résultats ?",
+    "options": [
+      "C  = 2,00 mg/L ; écart-type = 0,1 ; coefficient de variation = 2 %",
+      "C  = 2,00 mg/L ; écart-type = 0,02 ; coefficient de variation = 1 %",
+      "C  = 2 mg/L ; écart-type = 0,0200 ; coefficient de variation = 1,00 %",
+      "C  = 2,0 mg/L ; écart-type = 0,2 ; coefficient de variation = 10 %",
+      "C  = 2 mg/L ; écart-type = 0,01 ; coefficient de variation = 5 %"
+    ],
+    "correct_answers": [
+      "C  = 2,00 mg/L ; écart-type = 0,02 ; coefficient de variation = 1 %"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En électrophorèse capillaire, le sens de migration de l'analyte dépend:",
+    "options": [
+      "De la nature de l'analyte",
+      "Du flux d'électroendosmose",
+      "De la vitesse électrophorétique de l'analyte chargé",
+      "De la longueur du tube capillaire",
+      "De l'intensité du courant électrique"
+    ],
+    "correct_answers": [
+      "De la nature de l'analyte",
+      "Du flux d'électroendosmose",
+      "De la vitesse électrophorétique de l'analyte chargé"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exactes? Le coefficient d'extinction molaire d' une substance absorbante peut:",
+    "options": [
+      "Varier avec la longueur d'onde",
+      "Etre modifié par la nature du solvant",
+      "Etre identique à 2 longueurs d'onde différentes",
+      "Varier avec  la température",
+      "Varier avec la longueur du trajet optique"
+    ],
+    "correct_answers": [
+      "Varier avec  la température",
+      "Varier avec la longueur d'onde",
+      "Etre modifié par la nature du solvant",
+      "Etre identique à 2 longueurs d'onde différentes"
+    ]
+  }
+]

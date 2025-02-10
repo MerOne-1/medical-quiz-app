@@ -1,0 +1,64 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Les anomalies suivantes peuvent être responsables d’hémorragies",
+    "options": [
+      "Un déficit en protéine C",
+      "Un déficit en FVIII",
+      "Un déficit en FXII",
+      "Un anticoagulant circulant de type lupique",
+      "Un déficit en FXI"
+    ],
+    "correct_answers": [
+      "Un déficit en FVIII",
+      "Un déficit en FXI"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le fibrinogène",
+    "options": [
+      "Il est synthétisé au niveau hépatique",
+      "Sa concentration plasmatique diminue en cas de syndrome inflammatoire",
+      "Il est transformé en fibrine par la thrombine",
+      "Il est inhibé par les traitements A VK",
+      "Il intervient dans l’hémostase primaire"
+    ],
+    "correct_answers": [
+      "Il est synthétisé au niveau hépatique",
+      "Il intervient dans l’hémostase primaire",
+      "Il est transformé en fibrine par la thrombine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi ces éléments, lesquels exposent à un risque accru de thrombose veineuse profonde ?",
+    "options": [
+      "Un alitement prolongé",
+      "Un déficit en antithrombine",
+      "Un déficit en facteur V",
+      "Une grossesse",
+      "Un cancer actif"
+    ],
+    "correct_answers": [
+      "Un cancer actif",
+      "Un alitement prolongé",
+      "Un déficit en antithrombine",
+      "Une grossesse"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Toutes ces indications des anti-vitamines K nécessitent un INR compris entre 2 et 3 sauf une, laquelle ?",
+    "options": [
+      "Prothèse valvulaire mécanique",
+      "Fibrillation auriculaire",
+      "Embolie pulmonaire",
+      "Prothèse valvulaire biologique",
+      "Thrombose veineuse profonde des membres inférieurs"
+    ],
+    "correct_answers": [
+      "Prothèse valvulaire mécanique"
+    ]
+  }
+]

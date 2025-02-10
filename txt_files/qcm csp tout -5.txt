@@ -1,0 +1,40 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 5/13Question 9
+Non répondue
+Noté sur 1,00
+Question 10
+Non répondue
+Noté sur 1,00Relativement aux hypothèses d’un test statistique, quelles sont les propositions correctes ?
+Veuillez choisir au moins une réponse :
+Les deux conclusions possibles d’un test sont, au risque consenti α :
+Non rejet de l'hypothèse H
+Rejet de l'hypothèse H  et acceptation de l'hypothèse H
+Selon l’intitulé de la question à laquelle doit répondre le test, on aura une hypothèse H unilatérale ou bilatérale
+Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H
+Si la variable de décision calculée est à l’intérieur de l’intervalle de confiance à 95% de la variable de décision, alors on
+rejette, au risque 5%, l’hypothèse H  et on accepte l’hypothèse H
+Le test s'effectue toujours au risque α=5%0
+0 1
+0
+0
+0 1
+Votre réponse est incorrecte.
+Les réponses correctes sont : Le risque consenti α correspond à la probabilité de se tromper en rejetant l’hypothèse H , Les
+deux conclusions possibles d’un test sont, au risque consenti α :
+Non rejet de l'hypothèse H
+Rejet de l'hypothèse H  et acceptation de l'hypothèse H0
+0
+0 1
+Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes. On se propose de mener
+un test pour savoir si, en population, on peut dire qu’il y a plus de femmes que d’hommes. P armi les propositions suivantes,
+lesquelles sont correctes ?
+Veuillez choisir au moins une réponse :
+La variable de décision de ce test suit, sous l’hypothèse H , une loi de S tudent avec un nombre de degrés de liberté = 39
+Il faut, au préalable, tester la normalité du paramètre car les effectifs de femmes et hommes sont inférieurs à 30
+Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique
+Il s’agit de la comparaison entre deux pourcentages observés
+La variable de décision de ce test suit, sous l’hypothèse H , une loi normale0
+0
+Votre réponse est incorrecte.
+Les réponses correctes sont : Il s’agit de la comparaison entre un pourcentage observé et un pourcentage théorique, La
+variable de décision de ce test suit, sous l’hypothèse H , une loi normale0

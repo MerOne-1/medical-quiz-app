@@ -1,0 +1,81 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Escherichia coli  est :",
+    "options": [
+      "catalase +",
+      "responsable d'infections urinaires",
+      "un pathogène spécifique",
+      "un pathogène opportuniste",
+      "oxydase+"
+    ],
+    "correct_answers": [
+      "un pathogène spécifique",
+      "un pathogène opportuniste",
+      "responsable d'infections urinaires",
+      "catalase +"
+    ],
+    "justification_fausses_reponses": {
+      "oxydase+": "Escherichia coli est une bactérie oxydase négative. Le test d'oxydase est utilisé pour identifier les bactéries qui produisent l'enzyme cytochrome c oxydase, ce qui n'est pas le cas d'E. coli."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Pour dénombrer les bactéries contaminant des comprimés comprenant des antibiotiques, il est nécessaire de neutraliser l'activité antimicrobienne. Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les méthodes préconisées par la Pharmacopée Européenne :",
+    "options": [
+      "neutralisation de l'activité antimicrobienne par de la soude",
+      "concentration de l'échantillon",
+      "chauffage de l'échantillon à 40°C",
+      "dilution de l'échantillon",
+      "filtration de l'échantillon sur une membrane de seuil de coupure de 0.45µm"
+    ],
+    "correct_answers": [
+      "dilution de l'échantillon"
+    ],
+    "justification_fausses_reponses": {
+      "neutralisation de l'activité antimicrobienne par de la soude": "La soude est un produit chimique qui peut détruire les bactéries, ce qui fausserait le dénombrement. De plus, elle n'est pas recommandée par la Pharmacopée Européenne pour neutraliser l'activité antimicrobienne.",
+      "concentration de l'échantillon": "La concentration de l'échantillon ne neutralise pas l'activité antimicrobienne, elle peut même l'accentuer en augmentant la concentration de l'antibiotique.",
+      "chauffage de l'échantillon à 40°C": "Le chauffage à 40°C n'est pas suffisant pour neutraliser l'activité antimicrobienne. De plus, il peut endommager ou tuer les bactéries, faussant ainsi le dénombrement.",
+      "filtration de l'échantillon sur une membrane de seuil de coupure de 0.45µm": "La filtration ne neutralise pas l'activité antimicrobienne. Elle peut même retenir les bactéries sur la membrane, ce qui fausserait le dénombrement."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les antibiotiques suivants, quels sont ceux possédant une activité anti-staphylococcique d'intérêt ?",
+    "options": [
+      "pristinamycine",
+      "tigécycline",
+      "fosfomycine",
+      "vancomycine",
+      "linézolide"
+    ],
+    "correct_answers": [
+      "vancomycine",
+      "linézolide",
+      "fosfomycine",
+      "pristinamycine",
+      "tigécycline"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Haemophilus influenzae  ?",
+    "options": [
+      "c'est une bactérie tellurique",
+      "il est responsable de méningites chez l'enfant non vacciné",
+      "il ne se développe que sur gélose au sang frais",
+      "c'est une bactérie commensale du rhino-pharynx",
+      "il est toujours sensible à l'ampicilline"
+    ],
+    "correct_answers": [
+      "c'est une bactérie commensale du rhino-pharynx",
+      "il est responsable de méningites chez l'enfant non vacciné"
+    ],
+    "justification_fausses_reponses": {
+      "c'est une bactérie tellurique": "Cette affirmation est incorrecte car Haemophilus influenzae n'est pas une bactérie tellurique. Elle est plutôt commensale du rhino-pharynx chez l'homme.",
+      "il ne se développe que sur gélose au sang frais": "Cette affirmation est fausse car Haemophilus influenzae peut se développer sur d'autres milieux de culture, pas seulement sur la gélose au sang frais.",
+      "il est toujours sensible à l'ampicilline": "Cette affirmation est incorrecte car Haemophilus influenzae n'est pas toujours sensible à l'ampicilline. Certaines souches de cette bactérie peuvent développer une résistance à ce médicament."
+    }
+  }
+]

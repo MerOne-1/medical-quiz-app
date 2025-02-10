@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Une valeur aberrante, observée pour une variable X,",
+    "options": [
+      "peut être détectée par un test de Grubbs",
+      "est une valeur différente de la moyenne",
+      "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+      "peut être détectée par un test de Dixon",
+      "peut être détectée par un test de normalité"
+    ],
+    "correct_answers": [
+      "est une valeur trop grande ou trop petite, par rapport aux autres valeurs de l’échantillon",
+      "peut être détectée par un test de Grubbs",
+      "peut être détectée par un test de Dixon"
+    ],
+    "justification_fausses_reponses": {
+      "est une valeur différente de la moyenne": "Cette affirmation est incorrecte car une valeur aberrante n'est pas simplement une valeur différente de la moyenne. Une valeur aberrante est une valeur qui est significativement différente des autres valeurs de l'échantillon, pas seulement de la moyenne.",
+      "peut être détectée par un test de normalité": "Cette affirmation est incorrecte car un test de normalité est utilisé pour déterminer si un ensemble de données suit une distribution normale, et non pour détecter des valeurs aberrantes."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Un essai comparatif est réalisé entre deux groupes parallèles (1= traitement et 2= placebo) de 20 sujets chacun. Le critère de jugement est une variable quantitative X que le traitement a pour objectif de faire baisser. Sachant que X admet pour moyenne ± écart-type estimé les valeurs 90±10 et 100±15 pour les groupes 1 et 2, respectivement, et que le test statistique réalisé a fourni un niveau de signification (p-value) p = 0.009, quelles sont, parmi les propositions suivantes, celles qui sont exactes :",
+    "options": [
+      "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+      "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+      "L’hypothèse nulle est rejetée au seuil de 1%",
+      "L’hypothèse alternative s’écrit {µ  ≠ µ }",
+      "L’hypothèse nulle s’écrit {µ  = µ }1 2"
+    ],
+    "correct_answers": [
+      "L’hypothèse nulle s’écrit {µ  = µ }1 2",
+      "Il est nécessaire de réaliser, au préalable, une comparaison de variances",
+      "L’utilisation du test de S tudent nécessite ici une condition de normalité de X",
+      "L’hypothèse nulle est rejetée au seuil de 1%"
+    ],
+    "justification_fausses_reponses": {
+      "L’hypothèse alternative s’écrit {µ  ≠ µ }": "Cette option est incorrecte car l'hypothèse alternative devrait indiquer une différence spécifique entre les moyennes des deux groupes, et non simplement une inégalité. Par exemple, elle pourrait s'écrire {µ1 > µ2} si le traitement est censé faire baisser la variable X."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant le test du Chi², quelles sont les propositions correctes ?",
+    "options": [
+      "Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30",
+      "Il concerne des variables qualitatives",
+      "La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5",
+      "C’est toujours un test bilatéral",
+      "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison0"
+    ],
+    "correct_answers": [
+      "Il concerne des variables qualitatives",
+      "S’il est utilisé pour tester l’existence d’une liaison entre deux variables, l’hypothèse H  est qu’il n’y a pas de liaison",
+      "C’est toujours un test bilatéral"
+    ],
+    "justification_fausses_reponses": {
+      "Il faut vérifier la normalité des variables étudiées si la taille de l’échantillon est inférieure à 30": "Cette affirmation est incorrecte car le test du Chi² ne nécessite pas de vérifier la normalité des variables étudiées, peu importe la taille de l'échantillon. Il est utilisé pour tester l'indépendance de deux variables qualitatives.",
+      "La condition  pour pouvoir utiliser la formule classique de ce test est que tous les effectifs observés soient supérieurs ou égaux à 5": "Cette affirmation est fausse. La condition pour utiliser le test du Chi² est que 80% des effectifs théoriques soient supérieurs à 5, et non les effectifs observés."
+    }
+  }
+]

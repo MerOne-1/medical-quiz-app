@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La venlafaxine possède deux carbones asymétriques",
+      "L'hydroxyle de la venlafaxine est protoné à pH physiologique (pH 7,4)",
+      "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+      "La venlafaxine possède une fonction éther",
+      "L'hydroxyle de la venlafaxine est en position axiale"
+    ],
+    "correct_answers": [
+      "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+      "La venlafaxine possède une fonction éther",
+      "L'hydroxyle de la venlafaxine est en position axiale"
+    ],
+    "justification_fausses_reponses": {
+      "La venlafaxine possède deux carbones asymétriques": "C'est incorrect. La venlafaxine possède un seul carbone asymétrique. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents.",
+      "L'hydroxyle de la venlafaxine est protoné à pH physiologique (pH 7,4)": "C'est incorrect. À pH physiologique (pH 7,4), l'hydroxyle de la venlafaxine n'est pas protoné. En effet, le pKa de l'hydroxyle est généralement autour de 15,5, ce qui signifie qu'à un pH inférieur à cette valeur, l'hydroxyle est déprotoné."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le bortézomib présente une fonction acide boronique",
+      "Le bortézomib possède 3 carbones asymétriques",
+      "Le bortézomib présente un hétérocycle aromatique",
+      "Le bortézomib possède un centre électrophile",
+      "Le bortézomib possède dans sa structure un tryptophane"
+    ],
+    "correct_answers": [
+      "Le bortézomib présente une fonction acide boronique",
+      "Le bortézomib présente un hétérocycle aromatique",
+      "Le bortézomib possède un centre électrophile"
+    ],
+    "justification_fausses_reponses": {
+      "Le bortézomib possède 3 carbones asymétriques": "Cette affirmation est incorrecte car la structure du bortézomib ne comporte pas trois carbones asymétriques. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents, ce qui n'est pas le cas dans la structure du bortézomib.",
+      "Le bortézomib possède dans sa structure un tryptophane": "Cette affirmation est incorrecte car le bortézomib ne contient pas de tryptophane dans sa structure. Le tryptophane est un acide aminé qui n'est pas présent dans la structure chimique du bortézomib."
+    }
+  }
+]

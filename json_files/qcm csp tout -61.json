@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Soit les affirmations suivantes concernant, l'origine contrôlée des dons :",
+    "options": [
+      "Une age supérieur à 60 ans constitue une contre indication à tout don",
+      "Un soin dentaire depuis moins d'un mois est une contre-indication",
+      "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois",
+      "Un poids trop faible constitue une contre-indication au don",
+      "Un visite médicale est systématique"
+    ],
+    "correct_answers": [
+      "Un visite médicale est systématique",
+      "Un poids trop faible constitue une contre-indication au don",
+      "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les actions suivantes de sécurisation, quelles sont celles qui appartiennent à la classe des traitements ?",
+    "options": [
+      "Inactivation des pathogènes",
+      "Phénotypage",
+      "ajout d'une solution de conservation ;",
+      "Préparation pédiatrique",
+      "Irradiation"
+    ],
+    "correct_answers": [
+      "ajout d'une solution de conservation ;",
+      "Inactivation des pathogènes"
+    ]
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les étapes suivantes, quelles sont celles qui participent à l'élimination du prion ?",
+    "options": [
+      "filtration profondeur et nanofiltration",
+      "Fractionnement éthanolique",
+      "PH4/pepsine",
+      "Pasteurisation",
+      "Chauffage à sec",
+      "Différents types de Chromatographies"
+    ],
+    "correct_answers": [
+      "Fractionnement éthanolique",
+      "Différents types de Chromatographies",
+      "filtration profondeur et nanofiltration"
+    ]
+  }
+]

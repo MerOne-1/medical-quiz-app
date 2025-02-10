@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Pour aborder de manière rationnelle et méthodique l’observation d’un sporophore de champignon macromycète, en vue de sa détermination, il faut s’attacher à observer correctement :",
+    "options": [
+      "La texture de la chair",
+      "La couleur de la sporée",
+      "La couleur du chapeau",
+      "La nature d’éventuelles ornementations présentes à la surface du chapeau.",
+      "Le diamètre du pied"
+    ],
+    "correct_answers": [
+      "La texture de la chair",
+      "La couleur de la sporée",
+      "La nature d’éventuelles ornementations présentes à la surface du chapeau."
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes tous spécifiques des racines :",
+    "options": [
+      "Péricycle, poils absorbants",
+      "Poils absorbants, stomates",
+      "Stomates, sclérenchyme, xylème",
+      "Cuticule, épiderme, cotylédon",
+      "Cotylédon, péricycle"
+    ],
+    "correct_answers": [
+      "Péricycle, poils absorbants"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous relatives aux plastes, choisissez celle(s) exacte(s)",
+    "options": [
+      "Les leucoplastes sont les plastes de stockage de sucre",
+      "Les plastes sont dans la vacuole",
+      "Les chromoplastes sont responsables de la coloration de différents organes",
+      "Les amyloplastes se rencontrent dans les tissus de réserve",
+      "Les oléoplastes sont les plastes de stockage de lipides"
+    ],
+    "correct_answers": [
+      "Les chromoplastes sont responsables de la coloration de différents organes",
+      "Les amyloplastes se rencontrent dans les tissus de réserve",
+      "Les oléoplastes sont les plastes de stockage de lipides"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite?",
+    "options": [
+      "un morpion",
+      "une larve d'Ixode",
+      "une Argas",
+      "une punaise des lits",
+      "un pou de tête"
+    ],
+    "correct_answers": [
+      "une larve d'Ixode"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les éléments caractéristiques de la lésion dite du \"pied d’athlète\"",
+    "options": [
+      "L'agent responsable est très souvent un dermatophyte.",
+      "L'amphotéricine B est le traitement de première intention.",
+      "L'humidité et la macération sont des facteurs favorisants.",
+      "La lésion est un intertrigo des petits plis.",
+      "Ce sont les 1  et 2  espaces interdigitaux qui sont les plus touchés."
+    ],
+    "correct_answers": [
+      "L'agent responsable est très souvent un dermatophyte.",
+      "L'humidité et la macération sont des facteurs favorisants.",
+      "La lésion est un intertrigo des petits plis."
+    ]
+  }
+]

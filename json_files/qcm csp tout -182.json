@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "L’influx nerveux :",
+    "options": [
+      "les variations de l’intensité d’un influx nerveux correspondent à des modifications de la fréquence de décharge de salves de potentiels d’action.",
+      "correspond à la propagation de potentiels d’action le long de la membrane de l’axone.",
+      "correspond à une propagation électrotonique d’un courant électrique le long de la membrane de l’axone.",
+      "se propage à une vitesse d’environ 100 mètres par seconde dans les plus grosses fibres à gaine de myéline.",
+      "l’amplitude des potentiels d’action est la même depuis le corps du neurone jusqu’à l’extrémité de l’axone."
+    ],
+    "correct_answers": [
+      "correspond à une propagation électrotonique d’un courant électrique le long de la membrane de l’axone."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une hormone stéroïde a un effet sur sa cellule cible par l’intermédiaire de sa fixation sur un récepteur intracellulaire.",
+      "La somatomédine C (IGF1) stimule la sécrétion de l’hormone de croissance.",
+      "L’hormone de croissance est principalement secrétée le matin.",
+      "L’hormone de croissance sensibilise les cellules musculaires à l’insuline.",
+      "L’hormone de croissance augmente la dégradation protéique au niveau des muscles."
+    ],
+    "correct_answers": [
+      "Une hormone stéroïde a un effet sur sa cellule cible par l’intermédiaire de sa fixation sur un récepteur intracellulaire."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e : Les cordons postérieurs sont formés par :",
+    "options": [
+      "Les faisceaux spinothalamiques postérieurs et latéraux.",
+      "Les faisceaux de Goll et de Burdach.",
+      "Le faisceau spinocérébelleux ventral.",
+      "Les faisceaux spinothalamiques postérieurs.",
+      "Le faisceau spinocérébelleux latéral."
+    ],
+    "correct_answers": [
+      "Les faisceaux de Goll et de Burdach."
+    ]
+  }
+]

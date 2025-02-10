@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Concernant cette ordonnance, quels conseils doit-on donner à M. Victor B ?",
+    "options": [
+      "M. Victor B. ne doit jamais interrompre son traitement",
+      "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+      "Il doit éviter l'automédication",
+      "Il doit signaler toute anomalie survenant au cours de son traitement",
+      "Le traitement doit être impérativement pris pendant les repas"
+    ],
+    "correct_answers": [
+      "Le traitement doit être impérativement pris pendant les repas",
+      "M. Victor B. ne doit jamais interrompre son traitement",
+      "En cas d'oubli de prise de moins de 12h, il doit immédiatement prendre son traitement",
+      "Il doit signaler toute anomalie survenant au cours de son traitement",
+      "Il doit éviter l'automédication"
+    ]
+  },
+  {
+    "theme": "Virologie",
+    "question": "Face aux parents d'un nourrisson porteur d'une bronchiolite, quels sont les conseils à leur donner ?",
+    "options": [
+      "Coucher l'enfant en position proclive",
+      "Éviter le jus d'orange avant le coucher",
+      "Faire dormir l'enfant fenêtre ouverte",
+      "Éviter le tabagisme passif",
+      "Aérer la chambre de l'enfant matin et soir"
+    ],
+    "correct_answers": [
+      "Éviter le tabagisme passif",
+      "Coucher l'enfant en position proclive",
+      "Aérer la chambre de l'enfant matin et soir"
+    ]
+  }
+]

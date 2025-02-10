@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les Agences régionales de santé (ARS), laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les ARS se chargent notamment d'autoriser certains médecins exerçant dans des zones reculées, à pratiquer la propharmacie.",
+      "Les ARS se chargent notamment d'autoriser l'ouverture de sites légaux d'e-dispensation de médicaments en \"libre accès\" - chaque site étant adossé à une officine réelle.",
+      "Les ARS ont été créées en application de la loi HPST de 2009.",
+      "Les ARS sont coordonnées au niveau national par le Comité national de pilotage (CNP).",
+      "Les ARS ont été créées en application de l’Ordonnance « Juppé » de 1996."
+    ],
+    "correct_answers": [
+      "Les ARS ont été créées en application de la loi HPST de 2009.",
+      "Les ARS sont coordonnées au niveau national par le Comité national de pilotage (CNP).",
+      "Les ARS se chargent notamment d'autoriser l'ouverture de sites légaux d'e-dispensation de médicaments en \"libre accès\" - chaque site étant adossé à une officine réelle.",
+      "Les ARS se chargent notamment d'autoriser certains médecins exerçant dans des zones reculées, à pratiquer la propharmacie."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Quel type de rupture du contrat de travail peut entraîner une indemnisation du salarié ?",
+    "options": [
+      "Le licenciement pour faute grave",
+      "La rupture conventionnelle",
+      "La prise d'acte",
+      "Le licenciement pour faute lourde",
+      "Le licenciement pour cause réelle et sérieuse"
+    ],
+    "correct_answers": [
+      "Le licenciement pour cause réelle et sérieuse",
+      "La rupture conventionnelle",
+      "La prise d'acte"
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi les établissements suivants, lesquels ne sont pas des établissements pharmaceutiques soumis à autorisation d’ouverture délivrée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé ?",
+    "options": [
+      "Un établissement de fabrication de dispositifs médicaux",
+      "Un établissement de fabrication de médicaments",
+      "Une pharmacie à usage intérieur",
+      "Une officine de pharmacie",
+      "Un dépositaire de médicaments"
+    ],
+    "correct_answers": [
+      "Un établissement de fabrication de dispositifs médicaux",
+      "Une officine de pharmacie",
+      "Une pharmacie à usage intérieur"
+    ]
+  }
+]

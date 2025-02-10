@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Au cours d’un syndrome de coagulation intravasculaire disséminé (CIVD), on observe généralement",
+    "options": [
+      "une anémie hémolytique d’origine mécanique",
+      "une augmentation du taux circulant de fibrinogène",
+      "un TCA supérieur à 1.2 fois le T CA témoin",
+      "une diminution des taux circulants de D-dimères",
+      "une thrombopénie"
+    ],
+    "correct_answers": [
+      "une thrombopénie",
+      "une anémie hémolytique d’origine mécanique",
+      "un TCA supérieur à 1.2 fois le TCA témoin"
+    ],
+    "justification_fausses_reponses": {
+      "une augmentation du taux circulant de fibrinogène": "Dans le syndrome de coagulation intravasculaire disséminé (CIVD), le fibrinogène est consommé pour former des caillots, ce qui entraîne une diminution, et non une augmentation, du taux circulant de fibrinogène.",
+      "une diminution des taux circulants de D-dimères": "Les D-dimères sont des produits de dégradation de la fibrine, qui augmentent lors de la formation de caillots. Dans le CIVD, où la coagulation est activée de manière incontrôlée, on observe généralement une augmentation des taux de D-dimères, et non une diminution."
+    }
+  }
+]

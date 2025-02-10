@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La biosynthèse de la noradrénaline à partir de de la L-DOP A est représentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'étape 1 correspond à une réaction d'estérification",
+      "L'étape 1 correspond à une réaction de décarboxylation",
+      "La noradrénaline est un acide α-aminé",
+      "L'étape 2 correspond à une réaction de réduction",
+      "La dopamine présente un caractère électrophile"
+    ],
+    "correct_answers": [
+      "L'étape 1 correspond à une réaction de décarboxylation"
+    ],
+    "justification_fausses_reponses": {
+      "L'étape 1 correspond à une réaction d'estérification": "C'est incorrect car l'estérification est une réaction chimique qui forme un ester et de l'eau à partir d'un acide et d'un alcool, ce qui n'est pas le cas ici.",
+      "La noradrénaline est un acide α-aminé": "C'est incorrect car la noradrénaline est une catécholamine, un type de neurotransmetteur, et non un acide α-aminé.",
+      "L'étape 2 correspond à une réaction de réduction": "C'est incorrect car la réduction est une réaction chimique qui implique le gain d'électrons ou la diminution de l'oxydation, ce qui n'est pas le cas ici.",
+      "La dopamine présente un caractère électrophile": "C'est incorrect car la dopamine est une molécule nucléophile, elle a tendance à donner des électrons, et non à les accepter comme le ferait une molécule électrophile."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la péthidine, un antalgique opiacé. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La péthidine est obtenue selon une réaction de saponification",
+      "La péthidine est obtenue selon une réaction d'estérification",
+      "La conformation la plus stable de la péthidine est la conformation bateau",
+      "La péthidine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)",
+      "La péthidine possède une fonction amine tertiaire"
+    ],
+    "correct_answers": [
+      "La péthidine est obtenue selon une réaction d'estérification",
+      "La péthidine possède une fonction amine tertiaire"
+    ],
+    "justification_fausses_reponses": {
+      "La péthidine est obtenue selon une réaction de saponification": "La saponification est une réaction chimique qui produit du savon, à partir d'un ester et d'une base. La péthidine n'est pas obtenue par ce processus.",
+      "La conformation la plus stable de la péthidine est la conformation bateau": "La conformation bateau n'est pas la plus stable pour la péthidine. En chimie organique, la conformation la plus stable est généralement la conformation chaise.",
+      "La péthidine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)": "La péthidine, comme la plupart des amines, est basique et peut donc accepter un proton pour former un ion. Ainsi, à pH physiologique, la péthidine n'est pas à l'état d'ionisation 0."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le rivaroxaban possède 2 cycles aromatiques",
+      "Le rivaroxaban possède un noyau pyrrole",
+      "Le rivaroxaban est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "Le rivaroxaban possède une fonction carbamate",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "correct_answers": [
+      "Le rivaroxaban possède 2 cycles aromatiques",
+      "Le rivaroxaban possède une fonction carbamate",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "justification_fausses_reponses": {
+      "Le rivaroxaban possède un noyau pyrrole": "C'est incorrect car le rivaroxaban ne possède pas de noyau pyrrole dans sa structure chimique. Le noyau pyrrole est un cycle à 5 atomes contenant un atome d'azote.",
+      "Le rivaroxaban est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car le rivaroxaban est un anticoagulant oral direct qui inhibe sélectivement le facteur Xa. Il n'est pas ionisé à un pH physiologique de 7,4."
+    }
+  }
+]

@@ -1,0 +1,49 @@
+16/05/2020 Quiz - Biomathématiques
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573069&cmid=205584 6/13Question 11
+Non répondue
+Noté sur 1,00
+Question 12
+Non répondue
+Noté sur 1,00
+Question 13
+Non répondue
+Noté sur 1,00On veut tester avec un Chi², l’hypothèse selon laquelle l’occurrence d’une certaine maladie est liée au sexe. Au cours de la
+réalisation du test, on obtient le tableau de contingence suivant :
+Malade Non malade Total
+Hommes 6 44 50
+Femmes 14 36 50
+Total 20 80 100
+Le calcul du Chi  donne 4. Sachant que dans la table du Chi2 on lit : P(Chi ≥3,841)=0,05, quelles sont les propositions
+correctes?
+Veuillez choisir au moins une réponse :
+Tous les effectifs théoriques sont supérieurs ou égaux à 5
+Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie et le sexe
+Au seuil de 5%, on ne rejette pas l’hypothèse de l’absence de liaison entre l’occurrence de cette maladie et le sexe
+Le nombre de degrés de liberté lié à ce test est égal à 1
+On ne peut pas utiliser un test du Chi² pour tester cette hypothèse2 2
+Votre réponse est incorrecte.
+Les réponses correctes sont : Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie
+et le sexe, Le nombre de degrés de liberté lié à ce test est égal à 1, T ous les effectifs théoriques sont supérieurs ou égaux à 5
+On veut étudier la liaison entre deux variables X et  Y qualitatives.
+Concernant le test à utiliser et les hypothèses, la(les) réponse(s) exacte(s) est(sont) :
+Veuillez choisir au moins une réponse :
+H : X et Y liées
+H : ρ = 0     H  ρ ≠ 0
+H : X et Y indépendantes
+Test du Khi2 d'indépendance
+Test de corrélation0
+0 1 :
+0
+Votre réponse est incorrecte.
+Les réponses correctes sont : T est du Khi2 d'indépendance, H  : X et Y indépendantes 0
+Une étude est menée chez des sujets présentant un syndrome métabolique afin d'évaluer les relations entre l'âge (mesuré en
+années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l).
+Parmi les propositions suivantes, quelles sont celles qui sont correctes ?
+Veuillez choisir au moins une réponse :
+On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée
+On peut utiliser un test de S tudent pour répondre à la problématique posée
+On peut utiliser un test du khi-deux pour répondre à la problématique posée
+On peut effectuer une analyse de variance pour répondre à la problématique posée
+On peut construire une droite de régression linéaire pour répondre à la problématique posée
+Les réponses correctes sont : On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique
+posée, On peut construire une droite de régression linéaire pour répondre à la problématique posée

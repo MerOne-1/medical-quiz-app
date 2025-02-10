@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les situations suivantes, lesquelles peuvent entrainer une hyperéosinophilie sanguine?",
+    "options": [
+      "Traitements médicamenteux",
+      "Dermatose atopique",
+      "Paludisme",
+      "Asthme allergique",
+      "Infection par Anguillulose"
+    ],
+    "correct_answers": [
+      "Dermatose atopique",
+      "Infection par Anguillulose",
+      "Asthme allergique",
+      "Traitements médicamenteux"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle ou lesquelles s’applique(nt) aux leucémies aiguës lymphoïdes (LAL)?",
+    "options": [
+      "L’immunophénotypage n’est pas indispensable au diagnostic",
+      "L’envahissement tumoral est limité à la moelle osseuse et au sang périphérique",
+      "Les blastes sont généralement dépourvus de granulations",
+      "La morphologie des blastes peut faire suspecter une LAL de type Burkitt",
+      "La translocation t(14;18) est caractéristique d’une LAL de type Burkitt"
+    ],
+    "correct_answers": [
+      "Les blastes sont généralement dépourvus de granulations",
+      "La morphologie des blastes peut faire suspecter une LAL de type Burkitt"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Les propositions suivantes sont relatives aux Micro Angiopathies Thrombotiques (MAT)",
+    "options": [
+      "Dans le purpura thrombotique thrombocytopénique (PTT), la présence d’auto-anticorps antiplaquettaire est responsable de la thrombopénie",
+      "Dans le SHU classique, la présence de diarrhées glairo-sanglantes est fréquemment rapportée",
+      "Dans le SHU, contrairement au PTT, la présence de schizocytes est inconstante",
+      "Le traitement d’urgence des PTT repose sur les échanges plasmatiques",
+      "Le SHU classique est le plus souvent associé à la présence d’E.Coli O157 H7 producteur de verotoxine"
+    ],
+    "correct_answers": [
+      "Le traitement d’urgence des PTT repose sur les échanges plasmatiques",
+      "Dans le SHU classique, la présence de diarrhées glairo-sanglantes est fréquemment rapportée",
+      "Le SHU classique est le plus souvent associé à la présence d’E.Coli O157 H7 producteur de verotoxine"
+    ]
+  }
+]

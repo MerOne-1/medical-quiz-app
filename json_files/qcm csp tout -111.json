@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "ce composé est une phénothiazine",
+      "ce composé est une dibenzoazépine",
+      "ce composé est un neuroleptique",
+      "ce composé est un anti H1",
+      "ce composé est un antidépresseur"
+    ],
+    "correct_answers": [
+      "ce composé est une dibenzoazépine",
+      "ce composé est un antidépresseur"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous",
+    "options": [
+      "cette molécule cible une métalloprotéase à Zinc",
+      "cette molécule cible une aspartylprotéase",
+      "il s’agit du bortezomib",
+      "il s’agit d’un inhibiteur covalent",
+      "cette molécule cible une serine/thréonine protéase"
+    ],
+    "correct_answers": [
+      "il s’agit d’un inhibiteur covalent",
+      "cette molécule cible une serine/thréonine protéase",
+      "il s’agit du bortezomib"
+    ]
+  }
+]

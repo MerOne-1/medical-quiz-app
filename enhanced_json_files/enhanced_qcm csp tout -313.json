@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Mme Jeanine V, 27 ans, traductrice, est enceinte de 6 mois. Un bilan biologique a été réalisé qui donne les résultats suivants : Recherche de l'antigène HBs : négative Recherche d'anticorps anti-Rubéole : de type IgG : négative de type IgM : négative Parmi les items suivants, lesquels s'appliquent à ces résultats ?",
+    "options": [
+      "Mme Jeanine V n'est pas infectée par le HBV",
+      "Mme Jeanine V n'est pas immunisée contre la Rubéole",
+      "Mme Jeanine V est infectée par le HBV",
+      "Mme Jeanine V est infectée par le virus de la Rubéole",
+      "Mme Jeanine V est immunisée contre la Rubéole"
+    ],
+    "correct_answers": [
+      "Mme Jeanine V n'est pas infectée par le HBV",
+      "Mme Jeanine V n'est pas immunisée contre la Rubéole"
+    ],
+    "justification_fausses_reponses": {
+      "Mme Jeanine V est infectée par le HBV": "Cette affirmation est incorrecte car la recherche de l'antigène HBs est négative, ce qui signifie que Mme Jeanine V n'est pas infectée par le virus de l'hépatite B (HBV).",
+      "Mme Jeanine V est infectée par le virus de la Rubéole": "Cette affirmation est incorrecte car la recherche d'anticorps anti-Rubéole de type IgM est négative, ce qui signifie que Mme Jeanine V n'est pas actuellement infectée par le virus de la Rubéole.",
+      "Mme Jeanine V est immunisée contre la Rubéole": "Cette affirmation est incorrecte car la recherche d'anticorps anti-Rubéole de type IgG est négative, ce qui signifie que Mme Jeanine V n'a pas été précédemment infectée par le virus de la Rubéole et n'est donc pas immunisée contre ce virus."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "Mme Juliette T., 21 ans, étudiante, se plaint de boutons de fièvres. Concernant cette pathologie, quels sont les réponses vraies ?",
+    "options": [
+      "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+      "C'est une forme clinique potentiellement récidivante",
+      "Un traitement par Ganciclovir peut être proposé",
+      "Un traitement par Aciclovir en topique peut être proposé",
+      "C'est une forme clinique très contagieuse"
+    ],
+    "correct_answers": [
+      "C'est l'expression clinique d'une récurrence d'un Herpes Simplex Virus (HSV)",
+      "C'est une forme clinique très contagieuse",
+      "C'est une forme clinique potentiellement récidivante",
+      "Un traitement par Aciclovir en topique peut être proposé"
+    ],
+    "justification_fausses_reponses": {
+      "Un traitement par Ganciclovir peut être proposé": "Le Ganciclovir est un antiviral utilisé principalement pour le traitement de l'infection à cytomégalovirus, et non pour l'Herpes Simplex Virus (HSV) responsable des boutons de fièvre."
+    }
+  }
+]

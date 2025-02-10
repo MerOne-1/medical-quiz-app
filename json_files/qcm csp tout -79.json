@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "L'estramustine est un agent antinéoplasique, il est utilisé dans la prise en charge de cancers de la prostate. La synthèse de l'estramustine à partir de l'estradiol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le composé 1 est un réactif nucléophile",
+      "Le composé 1 est un réactif électrophile",
+      "L'estradiol possède une fonction phénol",
+      "L'estramustine présente un caractère électrophile",
+      "L'Estradiol présente un caractère électrophile"
+    ],
+    "correct_answers": [
+      "Le composé 1 est un réactif électrophile",
+      "L'estradiol possède une fonction phénol",
+      "L'estramustine présente un caractère électrophile"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+      "Le levosalbutamol possède une fonction phénol",
+      "Le levosalbutamol possède une fonction amide",
+      "Le levosalbutamol possède une fonction amine tertiaire",
+      "Le levosalbutamol possède un carbone asymétrique"
+    ],
+    "correct_answers": [
+      "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+      "Le levosalbutamol possède une fonction phénol",
+      "Le levosalbutamol possède un carbone asymétrique"
+    ]
+  }
+]

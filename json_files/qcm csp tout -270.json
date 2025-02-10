@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les cytokines, indiquez la (ou les) bonne(s) réponse(s)",
+    "options": [
+      "La nature biochimique des cytokines est très variable : les cytokines peuvent être des protéines, des sucres ou des lipides",
+      "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales.",
+      "Les cytokines exercent leurs fonctions par l’intermédiaire de la fixation à un récepteur cytoplasmique",
+      "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+      "Infliximab et Adalimumab sont 2 anticorps monoclonaux thérapeutiques dirigés contre le récepteur au TNF"
+    ],
+    "correct_answers": [
+      "Les cytokines sont les médiateurs de la communication intercellulaire dans le système immunitaire",
+      "Les interférons de type 1 (interférons alpha et béta) possèdent d’importantes propriétés anti-virales."
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Choisir la ou les proposition(s) exacte(s) pour chacune des affirmations suivantes : Chez l'homme, les immunoglobulines G",
+    "options": [
+      "sont capables de traverser la barrière placentaire",
+      "sont reconnus par les macrophages par leur fragment F ab",
+      "présentent deux paratopes distincts",
+      "présentent une affinité faible pour l'antigène lors d'une réponse secondaire",
+      "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal"
+    ],
+    "correct_answers": [
+      "sont les immunoglobulines les plus importantes dans le sérum d'un individu normal",
+      "sont capables de traverser la barrière placentaire"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant le cancer du col de l’utérus, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il peut être prévenu par la détection de lésions précancéreuses",
+      "Il peut être prévenu par la vaccination",
+      "Il est associé à une primo-infection par un papillomavirus",
+      "En France, c’est le 2ème cancer le plus meurtrier chez la femme après le cancer du sein",
+      "Seuls les génotypes HPV 16 et HPV 18 de papillomavirus sont impliqués dans le développement du cancer du col de l’utérus"
+    ],
+    "correct_answers": [
+      "Il est associé à une primo-infection par un papillomavirus",
+      "Il peut être prévenu par la vaccination",
+      "Il peut être prévenu par la détection de lésions précancéreuses"
+    ]
+  }
+]

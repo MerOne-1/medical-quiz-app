@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives à l'absorption hydrique, choisissez celle(s) exacte(s)",
+    "options": [
+      "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif",
+      "L'absorption hydrique est réalisée par toutes les parties de la racine",
+      "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+      "Sans les racines l'eau ne peut circuler dans la plante",
+      "La transpiration est la parte d'eau au niveau des fleurs"
+    ],
+    "correct_answers": [
+      "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+      "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif"
+    ],
+    "justification_fausses_reponses": {
+      "L'absorption hydrique est réalisée par toutes les parties de la racine": "C'est incorrect car l'absorption hydrique est principalement réalisée par les poils absorbants situés sur la zone pilifère de la racine, et non par toutes les parties de la racine.",
+      "Sans les racines l'eau ne peut circuler dans la plante": "C'est incorrect car même si les racines jouent un rôle crucial dans l'absorption de l'eau, l'eau peut également être absorbée par d'autres parties de la plante, comme les feuilles, en cas de besoin.",
+      "La transpiration est la parte d'eau au niveau des fleurs": "C'est incorrect car la transpiration est principalement la perte d'eau par les feuilles et non par les fleurs. De plus, la transpiration joue un rôle important dans le transport de l'eau à travers la plante, mais elle n'est pas la seule voie d'absorption de l'eau."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Les champignons ont été érigés en tant que règne autonome",
+    "options": [
+      "En raison de leur hétérotrophie vis-à-vis du carbone",
+      "Sur la proposition des mycologues souhaitant une reconnaissance de l’objet de leur étude",
+      "Sur la base d’études moléculaires et phylogénétiques",
+      "Après avoir été rattachés pendant longtemps au règne animal",
+      "Sur la base d’une combinaison originale de caractères"
+    ],
+    "correct_answers": [
+      "Sur la base d’études moléculaires et phylogénétiques",
+      "Sur la base d’une combinaison originale de caractères"
+    ],
+    "justification_fausses_reponses": {
+      "En raison de leur hétérotrophie vis-à-vis du carbone": "Bien que les champignons soient hétérotrophes, ce n'est pas la raison principale de leur classification en tant que règne autonome. D'autres organismes sont également hétérotrophes et ne sont pas classés de la même manière.",
+      "Sur la proposition des mycologues souhaitant une reconnaissance de l’objet de leur étude": "La classification des organismes en règnes est basée sur des critères scientifiques et non sur des propositions individuelles ou des désirs de reconnaissance.",
+      "Après avoir été rattachés pendant longtemps au règne animal": "Les champignons ont été classés dans le règne des plantes pendant longtemps, et non dans le règne animal. Leur reclassification en tant que règne autonome est due à des découvertes scientifiques et non à un changement de classification précédente."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+    "options": [
+      "C'est lors que la phase sombre qu'il y a la dissociation de l'eau génératrice d'électrons",
+      "La phase sombre de la photosynthèse s'appelle le cycle de Krebs",
+      "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+      "Le phase sombre de la photosynthèse permet la fabrication du glycogène",
+      "Il y a peu de sucre de réserve stocké dans les feuilles"
+    ],
+    "correct_answers": [
+      "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+      "Il y a peu de sucre de réserve stocké dans les feuilles"
+    ],
+    "justification_fausses_reponses": {
+      "C'est lors que la phase sombre qu'il y a la dissociation de l'eau génératrice d'électrons": "En réalité, la dissociation de l'eau génératrice d'électrons se produit lors de la phase lumineuse de la photosynthèse, et non lors de la phase sombre.",
+      "La phase sombre de la photosynthèse s'appelle le cycle de Krebs": "Le cycle de Krebs est une étape de la respiration cellulaire, et non de la photosynthèse. La phase sombre de la photosynthèse est appelée le cycle de Calvin.",
+      "Le phase sombre de la photosynthèse permet la fabrication du glycogène": "La phase sombre de la photosynthèse permet la fabrication de glucose, et non de glycogène. Le glycogène est un polymère de glucose stocké dans le foie et les muscles des animaux, et non dans les plantes."
+    }
+  }
+]

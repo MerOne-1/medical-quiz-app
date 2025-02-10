@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte. Lors d’une augmentation de la pression moyenne dans l’artère pulmonaire,",
+    "options": [
+      "la fréquence respiratoire diminue.",
+      "les artères bronchiques présentent une vasoconstriction.",
+      "les capillaires pulmonaires se dilatent.",
+      "la résistance vasculaire pulmonaire augmente.",
+      "des shunts se ferment."
+    ],
+    "correct_answers": [
+      "les capillaires pulmonaires se dilatent."
+    ],
+    "justification_fausses_reponses": {
+      "la fréquence respiratoire diminue.": "La pression dans l'artère pulmonaire n'a pas d'effet direct sur la fréquence respiratoire. Celle-ci est principalement contrôlée par les niveaux de dioxyde de carbone et d'oxygène dans le sang.",
+      "les artères bronchiques présentent une vasoconstriction.": "L'augmentation de la pression dans l'artère pulmonaire provoque plutôt une vasodilatation pour faciliter le flux sanguin, pas une vasoconstriction.",
+      "la résistance vasculaire pulmonaire augmente.": "L'augmentation de la pression dans l'artère pulmonaire provoque une dilatation des capillaires pulmonaires, ce qui diminue la résistance vasculaire pulmonaire, pas l'augmente.",
+      "des shunts se ferment.": "Les shunts pulmonaires ne se ferment pas en réponse à une augmentation de la pression dans l'artère pulmonaire. Ils sont généralement le résultat de conditions pathologiques."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule bonne réponse",
+    "options": [
+      "La médullosurrénale libère de l’acétylcholine dans le sang.",
+      "Le premier neurone (pré-ganglionnaire) du système parasympathique libère de l’adrénaline.",
+      "Les récepteurs nicotiniques sont présents sur les corps cellulaire des neurones post-ganglionnaires (seconds neurones) du système végétatif.",
+      "Le premier neurone (pré-ganglionnaire) du système sympathique libère de la noradrénaline.",
+      "La corticosurrénale libère de l’adrénaline dans le sang."
+    ],
+    "correct_answers": [
+      "Les récepteurs nicotiniques sont présents sur les corps cellulaire des neurones post-ganglionnaires (seconds neurones) du système végétatif."
+    ],
+    "justification_fausses_reponses": {
+      "La médullosurrénale libère de l’acétylcholine dans le sang.": "C'est incorrect car la médullosurrénale libère de l'adrénaline et de la noradrénaline, pas de l'acétylcholine.",
+      "Le premier neurone (pré-ganglionnaire) du système parasympathique libère de l’adrénaline.": "C'est incorrect car le premier neurone du système parasympathique libère de l'acétylcholine, pas de l'adrénaline.",
+      "Le premier neurone (pré-ganglionnaire) du système sympathique libère de la noradrénaline.": "C'est incorrect car le premier neurone du système sympathique libère de l'acétylcholine, pas de la noradrénaline.",
+      "La corticosurrénale libère de l’adrénaline dans le sang.": "C'est incorrect car la corticosurrénale libère des corticostéroïdes, pas de l'adrénaline."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "SELECTIONNER L A SEULE BONNE PROPOSITION. Le tronc cérébral :",
+    "options": [
+      "Le réflexe myotatique n’est pas contrôlé par le tronc cérébral.",
+      "La voie vestibulo-spinale augmente le tonus des muscles extenseurs.",
+      "Une section du tronc cérébral en dessous du noyau rouge diminue le tonus musculaire des muscles extenseurs.",
+      "La voie rubro-spinale stimule les moto-neurones des muscles extenseurs.",
+      "La voie vestibulo-spinale augmente l’activité des muscles fléchisseurs et inhibe celle des muscles extenseurs."
+    ],
+    "correct_answers": [
+      "La voie vestibulo-spinale augmente le tonus des muscles extenseurs."
+    ],
+    "justification_fausses_reponses": {
+      "Le réflexe myotatique n’est pas contrôlé par le tronc cérébral.": "En réalité, le réflexe myotatique est un réflexe spinal, qui ne nécessite pas l'intervention du tronc cérébral.",
+      "Une section du tronc cérébral en dessous du noyau rouge diminue le tonus musculaire des muscles extenseurs.": "Cette affirmation est incorrecte car une section du tronc cérébral en dessous du noyau rouge n'affecte pas spécifiquement le tonus musculaire des muscles extenseurs.",
+      "La voie rubro-spinale stimule les moto-neurones des muscles extenseurs.": "La voie rubro-spinale est en réalité inhibitrice pour les muscles extenseurs, et non stimulante.",
+      "La voie vestibulo-spinale augmente l’activité des muscles fléchisseurs et inhibe celle des muscles extenseurs.": "C'est faux, la voie vestibulo-spinale augmente en réalité le tonus des muscles extenseurs et inhibe celui des muscles fléchisseurs."
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C’est un acide gras « à longue chaîne »",
+      "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol",
+      "C’est un acide gras « trans »",
+      "C’est un acide gras polyinsaturé",
+      "C’est un acide gras oméga 3"
+    ],
+    "correct_answers": [
+      "C’est un acide gras polyinsaturé",
+      "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol"
+    ],
+    "justification_fausses_reponses": {
+      "C’est un acide gras « à longue chaîne »": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras à longue chaîne. Les acides gras à longue chaîne ont généralement plus de 12 atomes de carbone.",
+      "C’est un acide gras « trans »": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras trans. Les acides gras trans ont une configuration spécifique où les groupes hydrogène sont sur des côtés opposés de la double liaison.",
+      "C’est un acide gras oméga 3": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras oméga 3. Les acides gras oméga 3 ont une double liaison trois atomes de carbone avant la fin de la chaîne."
+    }
+  }
+]

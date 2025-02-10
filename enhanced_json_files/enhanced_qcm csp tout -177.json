@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D.",
+      "Les triglycérides ne peuvent être absorbés qu’après digestion complète en acides gras et glycérol.",
+      "Les entérocytes sécrètent une lipase dans la lumière intestinale.",
+      "L’anhydrase carbonique est essentielle à la sécrétion de l’acide chlorhydrique par la muqueuse gastrique.",
+      "La gastrine est seule responsable de la sécrétion acide gastrique."
+    ],
+    "correct_answers": [
+      "L’anhydrase carbonique est essentielle à la sécrétion de l’acide chlorhydrique par la muqueuse gastrique."
+    ],
+    "justification_fausses_reponses": {
+      "Le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D.": "C'est incorrect car le facteur intrinsèque est nécessaire pour l'absorption de la vitamine B12, pas de la vitamine D.",
+      "Les triglycérides ne peuvent être absorbés qu’après digestion complète en acides gras et glycérol.": "C'est incorrect car les triglycérides peuvent être absorbés sous forme de monoglycérides et d'acides gras après la digestion par les lipases.",
+      "Les entérocytes sécrètent une lipase dans la lumière intestinale.": "C'est incorrect car les entérocytes absorbent les nutriments, mais ce sont les cellules acineuses du pancréas qui sécrètent la lipase dans la lumière intestinale.",
+      "La gastrine est seule responsable de la sécrétion acide gastrique.": "C'est incorrect car bien que la gastrine stimule la sécrétion d'acide gastrique, elle n'est pas la seule responsable. D'autres facteurs, comme l'histamine et l'acétylcholine, jouent également un rôle."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "TOUTES LES PROPOSITIONS SONT EXACTES, SAUF UNE. SELECTIONNER LA SEULE PROPOSITION INEXACTE Les récepteurs muscariniques :",
+    "options": [
+      "Les récepteurs muscariniques M2 sont des récepteurs métabotropiques.",
+      "Les récepteurs muscariniques M3 n’induisent pas le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.",
+      "Les récepteurs muscariniques M2 sont ceux qui induisent le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.",
+      "La stimulation des récepteurs muscariniques M2 induit une inhibition du courant if dans les cellules du nœud sinusal.",
+      "Les récepteurs muscariniques M2 sont absents du cœur."
+    ],
+    "correct_answers": [
+      "Les récepteurs muscariniques M2 sont absents du cœur."
+    ],
+    "justification_fausses_reponses": {
+      "Les récepteurs muscariniques M2 sont des récepteurs métabotropiques.": "Cette affirmation est correcte. Les récepteurs muscariniques M2 sont bien des récepteurs métabotropiques, c'est-à-dire qu'ils sont couplés à une protéine G et agissent via des mécanismes intracellulaires indirects.",
+      "Les récepteurs muscariniques M3 n’induisent pas le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.": "Cette affirmation est correcte. Ce sont les récepteurs muscariniques M2, et non M3, qui induisent le ralentissement du rythme cardiaque lorsqu'ils sont stimulés par l'acétylcholine.",
+      "Les récepteurs muscariniques M2 sont ceux qui induisent le ralentissement du rythme cardiaque quand ils sont stimulés par l’acétylcholine.": "Cette affirmation est correcte. Les récepteurs muscariniques M2, lorsqu'ils sont stimulés par l'acétylcholine, induisent bien un ralentissement du rythme cardiaque.",
+      "La stimulation des récepteurs muscariniques M2 induit une inhibition du courant if dans les cellules du nœud sinusal.": "Cette affirmation est correcte. La stimulation des récepteurs muscariniques M2 induit bien une inhibition du courant if (courant de type 'funny') dans les cellules du nœud sinusal, ce qui contribue au ralentissement du rythme cardiaque."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "la présence de lipides dans le duodénum augmente les contractions de l’antre gastrique",
+      "l’activité nerveuse parasympathique diminue le tonus du pylore",
+      "le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D",
+      "l’étape essentielle de la sécrétion d’acide chlorhydrique par l’estomac est celle de l’activité de l’anhydrase carbonique intra-cytoplasmique",
+      "la présence de lipides dans le repas accélère le passage du chyme gastrique à travers le pylore"
+    ],
+    "correct_answers": [
+      "l’activité nerveuse parasympathique diminue le tonus du pylore"
+    ],
+    "justification_fausses_reponses": {
+      "la présence de lipides dans le duodénum augmente les contractions de l’antre gastrique": "En réalité, la présence de lipides dans le duodénum provoque une diminution des contractions de l'antre gastrique, permettant une digestion plus lente et efficace des lipides.",
+      "le facteur intrinsèque est indispensable à l’absorption intestinale de la vitamine D": "C'est incorrect. Le facteur intrinsèque est nécessaire pour l'absorption de la vitamine B12, pas de la vitamine D.",
+      "l’étape essentielle de la sécrétion d’acide chlorhydrique par l’estomac est celle de l’activité de l’anhydrase carbonique intra-cytoplasmique": "C'est faux. L'étape essentielle de la sécrétion d'acide chlorhydrique par l'estomac est l'échange d'ions hydrogène contre des ions potassium par la pompe à protons.",
+      "la présence de lipides dans le repas accélère le passage du chyme gastrique à travers le pylore": "C'est incorrect. La présence de lipides dans le repas ralentit le passage du chyme gastrique à travers le pylore pour permettre une digestion plus complète."
+    }
+  }
+]

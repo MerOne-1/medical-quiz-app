@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Le kétoprofène est un anti-inflammatoire non stéroïdien inhibiteur des cyclo-oxygénases. La synthèse du kétoprofène à partir du composé 1 est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le composé 1 existe sous forme de quatre stéréoisomères",
+      "Le réactif 1 est un réducteur",
+      "Le réactif 1 est un oxydant",
+      "Il existe deux stéréoisomères du kétoprofène",
+      "Le kétoprofène présente un caractère électrophile"
+    ],
+    "correct_answers": [
+      "Le composé 1 existe sous forme de quatre stéréoisomères",
+      "Le réactif 1 est un oxydant",
+      "Il existe deux stéréoisomères du kétoprofène",
+      "Le kétoprofène présente un caractère électrophile"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le tripeptide ci-dessus contient les acides aminés lysine et cystéine",
+      "Le tripeptide ci-dessus contient les acides aminés phénylalanine et sérine",
+      "Les fonctions amines sont protonées à pH physiologique (pH 7.4)",
+      "La fonction alcool est ionisée à pH physiologique (pH 7.4)",
+      "La fonction alcool est accepteur de liaison hydrogène"
+    ],
+    "correct_answers": [
+      "Le tripeptide ci-dessus contient les acides aminés phénylalanine et sérine",
+      "Les fonctions amines sont protonées à pH physiologique (pH 7.4)",
+      "La fonction alcool est accepteur de liaison hydrogène"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées en thérapeutique",
+    "options": [
+      "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+      "La molécule 4 est un antidiabétique oral",
+      "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+      "Les molécules 1, 2 et 3 font partie des diurétiques thiazidiques et apparentés",
+      "La molécule 4 est un diurétique majeur"
+    ],
+    "correct_answers": [
+      "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+      "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+      "La molécule 4 est un antidiabétique oral"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quels sont les groupes bioisostères trivalents",
+    "options": [
+      "-OH",
+      "-CH=",
+      "-O-",
+      "-N=",
+      "-SH"
+    ],
+    "correct_answers": [
+      "-N=",
+      "-CH="
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces groupements chimiques, les quels sont des donneurs de liaisons hydrogène?",
+    "options": [
+      "-OH",
+      "=N-",
+      "-NH",
+      "-O-",
+      "-C=O"
+    ],
+    "correct_answers": [
+      "-OH",
+      "-NH"
+    ]
+  }
+]

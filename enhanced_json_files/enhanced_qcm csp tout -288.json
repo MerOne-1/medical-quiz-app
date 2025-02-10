@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quels sont les éléments de réponse qui caractérisent Taenia saginata ?",
+    "options": [
+      "Présence de nombreux embryophores dans les selles du patient",
+      "Prurit anal vespéral",
+      "Sortie active des proglottis (segments, anneaux)",
+      "La forme larvaire peut se développer dans les tissus humains et être responsable d'une cysticercose grave chez l'homme.",
+      "Consommation de viande de bœuf crue ou peu cuite"
+    ],
+    "correct_answers": [
+      "Prurit anal vespéral",
+      "Consommation de viande de bœuf crue ou peu cuite",
+      "Sortie active des proglottis (segments, anneaux)"
+    ],
+    "justification_fausses_reponses": {
+      "Présence de nombreux embryophores dans les selles du patient": "Cette affirmation est incorrecte car Taenia saginata ne produit pas d'embryophores en grand nombre dans les selles du patient. Les embryophores sont caractéristiques de Taenia solium.",
+      "La forme larvaire peut se développer dans les tissus humains et être responsable d'une cysticercose grave chez l'homme.": "Cette affirmation est incorrecte car c'est Taenia solium, et non Taenia saginata, qui peut causer la cysticercose chez l'homme. La cysticercose est une maladie causée par l'ingestion d'œufs de Taenia solium, qui peuvent se développer en larves dans les tissus humains."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Qu'observez-vous sur cette photo ? Cochez la ou les réponses exacte(s)",
+    "options": [
+      "Palpes",
+      "Antennes",
+      "Ecusson dorsal",
+      "Hypostome",
+      "Céphalothorax d'une tique"
+    ],
+    "correct_answers": [
+      "Céphalothorax d'une tique",
+      "Hypostome",
+      "Ecusson dorsal",
+      "Palpes"
+    ],
+    "justification_fausses_reponses": {
+      "Antennes": "L'option 'Antennes' est incorrecte car les tiques, qui sont des acariens, ne possèdent pas d'antennes. Les antennes sont généralement présentes chez les insectes, mais pas chez les acariens."
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Choisir la (ou les) liste(s) de termes apparaissant tous chez les arbres et arbustes et absents des jeunes plantes herbacées à structure primaire",
+    "options": [
+      "Aubier, phloème II°, liège",
+      "Liège, parenchyme palissadique",
+      "Epiderme, phloème II°",
+      "Bois, cambium, suber",
+      "Aubier, cambium, parenchyme palissadique"
+    ],
+    "correct_answers": [
+      "Bois, cambium, suber",
+      "Aubier, phloème II°, liège"
+    ],
+    "justification_fausses_reponses": {
+      "Liège, parenchyme palissadique": "Le liège est une structure spécifique aux arbres et arbustes, mais le parenchyme palissadique est présent dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire.",
+      "Epiderme, phloème II°": "L'épiderme et le phloème secondaire sont présents dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire.",
+      "Aubier, cambium, parenchyme palissadique": "Le parenchyme palissadique est présent dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire. L'aubier et le cambium sont spécifiques aux arbres et arbustes."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives aux Monocotylédones, choisir celle(s) exacte(s)",
+    "options": [
+      "Le cambium est absent",
+      "Les racines présentent au moins 7 pôles de xylème I°",
+      "Le suber est présent",
+      "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme",
+      "Les faisceaux libéro-ligneux sont disposés sur un seul cercle"
+    ],
+    "correct_answers": [
+      "Le cambium est absent",
+      "Les racines présentent au moins 7 pôles de xylème I°",
+      "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme"
+    ],
+    "justification_fausses_reponses": {
+      "Le suber est présent": "Le suber, ou liège, est une couche de cellules mortes qui se trouve généralement dans les plantes dicotylédones, pas dans les monocotylédones.",
+      "Les faisceaux libéro-ligneux sont disposés sur un seul cercle": "Dans les monocotylédones, les faisceaux libéro-ligneux sont généralement dispersés dans le parenchyme de la tige, et non disposés sur un seul cercle comme dans les dicotylédones."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Un champignon possédant comme caractéristiques, des lames décurrentes et une sporée blanche, un voile partiel et poussant sur du bois appartient à un groupe dont les représentants sont extrêmement courants et font l’objet d’une bonne partie des sollicitations de clients à l’officine. Il s’agit",
+    "options": [
+      "Du paxille enroulé",
+      "De l’amanite phalloïde",
+      "Des russules",
+      "Des armillaires",
+      "Des girolles"
+    ],
+    "correct_answers": [
+      "Des armillaires"
+    ],
+    "justification_fausses_reponses": {
+      "Du paxille enroulé": "Le paxille enroulé ne correspond pas à la description car il ne pousse pas sur du bois et sa sporée n'est pas blanche.",
+      "De l’amanite phalloïde": "L'amanite phalloïde ne correspond pas à la description car elle ne pousse pas sur du bois et ses lames ne sont pas décurrentes.",
+      "Des russules": "Les russules ne correspondent pas à la description car elles ne poussent pas sur du bois et leur sporée n'est pas blanche.",
+      "Des girolles": "Les girolles ne correspondent pas à la description car elles ne possèdent pas de voile partiel et leur sporée n'est pas blanche."
+    }
+  }
+]

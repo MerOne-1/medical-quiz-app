@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "Le domaine de l’IR correspond à des énergies supérieures à celles du Visible",
+      "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR",
+      "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+      "Le domaine de l’UV correspond à des énergies inférieures à celles du Visible",
+      "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR"
+    ],
+    "correct_answers": [
+      "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+      "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR",
+      "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’Imagerie par R ésonance Magnétique, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "C’est une technique d’imagerie utilisant la radioactivité",
+      "Par IRM, on observe les protons de l’eau dans le corps humain",
+      "Par IRM, on détecte les noyaux émetteurs beta",
+      "Cette technique nécessite un champ magnétique intense",
+      "Par IRM, on détecte les rayons X+"
+    ],
+    "correct_answers": [
+      "Par IRM, on observe les protons de l’eau dans le corps humain",
+      "Cette technique nécessite un champ magnétique intense"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant l’effet Doppler, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "Il est observé entre une source et un récepteur, tous deux immobiles",
+      "Il peut correspondre à une variation de fréquences d’ondes sonores",
+      "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+      "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+      "Il est observé entre une source et un récepteur, tous deux mobiles"
+    ],
+    "correct_answers": [
+      "Il peut correspondre à une variation de fréquences d’ondes sonores",
+      "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+      "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+      "Il est observé entre une source et un récepteur, tous deux mobiles"
+    ]
+  }
+]

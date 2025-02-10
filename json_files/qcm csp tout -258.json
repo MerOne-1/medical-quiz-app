@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Concernant les anti-vitamine K :",
+    "options": [
+      "Ils ne sont jamais administrés en urgence",
+      "Ils ont un effet anticoagulant qui persiste plusieurs jours à l’arrêt du traitement",
+      "Chez un malade équilibré et stable sous traitement anti-vitamines K depuis plus d'un mois, il faut faire un INR toutes les semaines",
+      "Ils peuvent être administré pendant toute la grossesse",
+      "Ils inhibent la synthèse d’antithrombine"
+    ],
+    "correct_answers": [
+      "Ils ont un effet anticoagulant qui persiste plusieurs jours à l’arrêt du traitement",
+      "Ils ne sont jamais administrés en urgence"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Les propositions suivantes sont relatives aux anémies ferriprives",
+    "options": [
+      "Le coefficient de saturation de la transferrine est diminué",
+      "L’anémie est classiquement microcytaire et hypochrome",
+      "La ferritinémie est diminuée",
+      "La numération des réticulocytes est habituellement ≥ 100 G/L",
+      "Une hyperbilirubinémie libre est observée"
+    ],
+    "correct_answers": [
+      "L’anémie est classiquement microcytaire et hypochrome",
+      "Le coefficient de saturation de la transferrine est diminué",
+      "La ferritinémie est diminuée"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Laquelle/lesquelles de ces complications peut/peuvent survenir dans l’évolution d’une leucémie lymphoïde chronique ?",
+    "options": [
+      "Amylose",
+      "Syndrome de Richter",
+      "Transformation en leucémie aiguë myéloïde",
+      "Thrombopénie auto-immune",
+      "Transformation en leucémie aiguë lymphoïde"
+    ],
+    "correct_answers": [
+      "Thrombopénie auto-immune",
+      "Syndrome de Richter"
+    ]
+  }
+]

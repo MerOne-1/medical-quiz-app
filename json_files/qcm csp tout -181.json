@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une alcalose respiratoire est due à une augmentation de la concentration plasmatique des ions bicarbonates.",
+      "Une section de la moelle épinière à hauteur de la 6  vertèbre cervicale a pour conséquence une paralysie du diaphragme.",
+      "Le monoxyde de carbone diminue la concentration du 2,3 diphosphoglycérate dans les hématies.",
+      "En présence d’un shunt, l’utilisation d’oxygène pur permet de normaliser la pression partielle en oxygène.",
+      "La mesure de la pression partielle en azote dans l’air expiré (méthode de Fowler) permet la mesure du volume résiduel."
+    ],
+    "correct_answers": [
+      "La mesure de la pression partielle en azote dans l’air expiré (méthode de Fowler) permet la mesure du volume résiduel."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "La phase deux des potentiels d’action des cellules cardiaques contractiles :",
+    "options": [
+      "permet l’entrée de calcium dans la cellule qui provoquera une augmentation de la contractilité.",
+      "augmente de durée sous l’action des substances inhibitrices des canaux calciques de type L.",
+      "correspond à une entrée de calcium dans la cellule.",
+      "correspond à un équilibre relatif entre l’entrée du calcium dans les cellules par les canaux calciques de type L et la sortie de potassium de la cellule par des canaux spécifiques.",
+      "correspond à une relative stabilité du potentiel de la membrane."
+    ],
+    "correct_answers": [
+      "augmente de durée sous l’action des substances inhibitrices des canaux calciques de type L."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionnez la seule bonne proposition. Les récepteurs phasiques:",
+    "options": [
+      "S’adaptent lentement à la stimulation.",
+      "Cessent de transmettre des potentiels d’action sur la fibre afférente avant la fin de la stimulation.",
+      "Transmettent des potentiels d’action sur la fibre afférente durant toute la durée de la stimulation.",
+      "Ne s’adaptent jamais à la stimulation.",
+      "Répondent longtemps après le début de la stimulation mécanique."
+    ],
+    "correct_answers": [
+      "Cessent de transmettre des potentiels d’action sur la fibre afférente avant la fin de la stimulation."
+    ]
+  }
+]

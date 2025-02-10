@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "En cas de suspicion de myélome, devant une hypogammaglobulinémie sans immunoglobuline monoclonale, on doit envisager :",
+    "options": [
+      "Un myélome à IgD",
+      "Un myélome à IgA",
+      "Un myélome non secrétant",
+      "Un myélome à chaînes légères",
+      "Un autre diagnostic qu’un myélome"
+    ],
+    "correct_answers": [
+      "Un myélome à chaînes légères",
+      "Un myélome non secrétant",
+      "Un autre diagnostic qu’un myélome"
+    ],
+    "justification_fausses_reponses": {
+      "Un myélome à IgD": "L'hypogammaglobulinémie sans immunoglobuline monoclonale n'indique pas un myélome à IgD. Le myélome à IgD est caractérisé par la présence d'une immunoglobuline monoclonale de type IgD dans le sérum ou les urines.",
+      "Un myélome à IgA": "L'hypogammaglobulinémie sans immunoglobuline monoclonale n'indique pas un myélome à IgA. Le myélome à IgA est caractérisé par la présence d'une immunoglobuline monoclonale de type IgA dans le sérum ou les urines."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant la maladie de Willebrand :",
+    "options": [
+      "Elle est liée à une anomalie qualitative ou quantitative du facteur Willebrand",
+      "Le facteur VIII peut être abaissé dans cette maladie",
+      "C'est la plus fréquente des anomalies constitutionnelles de l'hémostase",
+      "Elle touche uniquement les sujets de sexe masculin",
+      "Ses manifestations cliniques sont principalement des hémorragies cutanéo-muqueuses"
+    ],
+    "correct_answers": [
+      "C'est la plus fréquente des anomalies constitutionnelles de l'hémostase",
+      "Elle est liée à une anomalie qualitative ou quantitative du facteur Willebrand",
+      "Le facteur VIII peut être abaissé dans cette maladie",
+      "Ses manifestations cliniques sont principalement des hémorragies cutanéo-muqueuses"
+    ],
+    "justification_fausses_reponses": {
+      "Elle touche uniquement les sujets de sexe masculin": "C'est incorrect car la maladie de Willebrand est une maladie héréditaire qui affecte les hommes et les femmes de manière égale. Elle est causée par un défaut dans le gène du facteur de Willebrand, qui est présent chez les deux sexes."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "L’insuffisance hépatocellulaire sévère s’accompagne habituellement d’un défaut de synthèse d’une ou plusieurs protéines de la coagulation. La(les)quelle(s) ?",
+    "options": [
+      "Le facteur V",
+      "Le facteur Willebrand",
+      "Le facteur VII",
+      "La protéine C",
+      "L’antithrombine"
+    ],
+    "correct_answers": [
+      "Le facteur VII",
+      "Le facteur V",
+      "L’antithrombine",
+      "La protéine C"
+    ],
+    "justification_fausses_reponses": {
+      "Le facteur Willebrand": "Le facteur Willebrand n'est pas synthétisé par le foie, mais plutôt par les cellules endothéliales et les plaquettes. Par conséquent, une insuffisance hépatocellulaire sévère n'entraînerait pas un défaut de synthèse de ce facteur."
+    }
+  }
+]

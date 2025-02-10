@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Mme Joséphine B, 23 ans, intermittente du spectacle, est enceinte de 3 mois. Son médecin généraliste l'a informé des risques de l'infection à CMV au cours de la grossesse. Concernant les infections à CMV chez la femme enceinte, quelles sont les réponses vraies ?",
+    "options": [
+      "L'infection peut être responsable de surdités uni- ou bilatérales",
+      "L'infection de la femme enceinte peut être traitée par ganciclovir",
+      "L'infection se transmet par voie transplacentaire",
+      "L'infection peut être prévenue par la vaccination",
+      "L'infection peut être responsable de malformations fœtales"
+    ],
+    "correct_answers": [
+      "L'infection se transmet par voie transplacentaire",
+      "L'infection peut être responsable de surdités uni- ou bilatérales",
+      "L'infection peut être responsable de malformations fœtales"
+    ],
+    "justification_fausses_reponses": {
+      "L'infection de la femme enceinte peut être traitée par ganciclovir": "Le ganciclovir est un médicament antiviral utilisé pour traiter certaines infections virales, mais il n'est pas recommandé pendant la grossesse en raison de son potentiel de toxicité pour le fœtus.",
+      "L'infection peut être prévenue par la vaccination": "Il n'existe actuellement aucun vaccin disponible pour prévenir l'infection à CMV. Les mesures préventives recommandées comprennent une bonne hygiène des mains et l'évitement des contacts étroits avec des personnes infectées."
+    }
+  }
+]

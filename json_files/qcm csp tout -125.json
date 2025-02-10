@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules ou familles de molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) issue(s) d’acides aminés ?",
+    "options": [
+      "Vancomycine",
+      "Pénicillines",
+      "Alcaloïdes",
+      "Héparines",
+      "Insulines"
+    ],
+    "correct_answers": [
+      "Insulines",
+      "Pénicillines",
+      "Alcaloïdes",
+      "Vancomycine"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "C’est un acide gras « trans »",
+      "C’est un acide gras « à longue chaîne »",
+      "C’est un acide gras oméga 3",
+      "On peut le rencontrer dans une huile végétale",
+      "C’est un acide gras polyinsaturé"
+    ],
+    "correct_answers": [
+      "C’est un acide gras oméga 3",
+      "C’est un acide gras polyinsaturé",
+      "C’est un acide gras « à longue chaîne »"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les classes d’antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+    "options": [
+      "Glycopeptides",
+      "Céphalosporines",
+      "Aminosides",
+      "Streptogramines",
+      "Macrolides"
+    ],
+    "correct_answers": [
+      "Streptogramines",
+      "Macrolides",
+      "Aminosides"
+    ]
+  }
+]

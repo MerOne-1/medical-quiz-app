@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le cycle de l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet la synthèse de l’arginine",
+      "Il est exclusivement cytoplasmique",
+      "Il permet la synthèse de l’alanine",
+      "Il permet la synthèse du pyruvate",
+      "Il est exclusivement mitochondrial"
+    ],
+    "correct_answers": [
+      "Il permet la synthèse de l’arginine"
+    ],
+    "justification_fausses_reponses": {
+      "Il est exclusivement cytoplasmique": "Le cycle de l'urée se déroule à la fois dans le cytoplasme et la mitochondrie, il n'est donc pas exclusivement cytoplasmique.",
+      "Il permet la synthèse de l’alanine": "Le cycle de l'urée ne permet pas la synthèse de l'alanine. L'alanine est un acide aminé qui est synthétisé par transamination à partir du pyruvate.",
+      "Il permet la synthèse du pyruvate": "Le cycle de l'urée ne permet pas la synthèse du pyruvate. Le pyruvate est un produit de la glycolyse, pas du cycle de l'urée.",
+      "Il est exclusivement mitochondrial": "Le cycle de l'urée se déroule à la fois dans le cytoplasme et la mitochondrie, il n'est donc pas exclusivement mitochondrial."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine",
+      "En électrophorèse, la béta thalassémie se caractérise par une augmentation de l’HbA1",
+      "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+      "Aucune des affirmations n’est exacte",
+      "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique"
+    ],
+    "correct_answers": [
+      "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique",
+      "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+      "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine"
+    ],
+    "justification_fausses_reponses": {
+      "En électrophorèse, la béta thalassémie se caractérise par une augmentation de l’HbA1": "C'est incorrect car la béta thalassémie se caractérise par une diminution de l'HbA1, pas une augmentation. L'HbA1 est une forme d'hémoglobine, et sa diminution est un signe de la béta thalassémie, une maladie génétique qui affecte la production d'hémoglobine.",
+      "Aucune des affirmations n’est exacte": "C'est incorrect car certaines des affirmations sont exactes. Par exemple, l'analyse d'un profil électrophorétique peut permettre l'identification d'une hémoglobine pathologique, et une hémoglobinopathie peut être diagnostiquée à l'aide d'une électrophorèse de zone."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "C’est une molécule hydrophobe",
+      "Elle est éliminée principalement par voie biliaire",
+      "Elle est synthétisée par le rein",
+      "Elle est éliminée principalement par voie rénale",
+      "Elle est éliminée principalement par voie fécale"
+    ],
+    "correct_answers": [
+      "Elle est éliminée principalement par voie rénale"
+    ],
+    "justification_fausses_reponses": {
+      "C’est une molécule hydrophobe": "L'urée est une molécule hydrophile, pas hydrophobe. Elle est soluble dans l'eau, ce qui permet son élimination par l'urine.",
+      "Elle est éliminée principalement par voie biliaire": "L'urée n'est pas principalement éliminée par la voie biliaire. Elle est principalement éliminée par les reins via l'urine.",
+      "Elle est synthétisée par le rein": "L'urée n'est pas synthétisée par le rein, mais par le foie. Le rein est responsable de son élimination.",
+      "Elle est éliminée principalement par voie fécale": "L'urée n'est pas principalement éliminée par la voie fécale. Elle est principalement éliminée par les reins via l'urine."
+    }
+  }
+]

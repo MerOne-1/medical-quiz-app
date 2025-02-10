@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les drogues suivantes, quelles sont celles qui constituent la base du traitement des leucémies aiguës myéloïdes (L AM) ?",
+    "options": [
+      "Anthracyclines",
+      "Aracytine",
+      "Vincristine",
+      "Corticoïdes",
+      "Bortézomib"
+    ],
+    "correct_answers": [
+      "Anthracyclines",
+      "Aracytine"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "sélectionnez la ou les proposition(s) vraie(s).",
+    "options": [
+      "L’association d’une thrombopénie et d’une anémie hémolytique avec présence de schizocytes fait évoquer le diagnostic de microangiopathie thrombotique (MA T)",
+      "L’hyperlymphocytose est définie par un % de lymphocytes supérieur à 60%",
+      "Le tabagisme chronique peut induire une polynucléose neutrophile",
+      "À l'arrêt du médicament responsable d'un épisode d'agranulocytose aiguë médicamenteuse, l’apparition d’une monocytose annonce la normalisation ultérieure du nombre de PNN",
+      "Une étiologie infectieuse doit être recherchée en priorité face à une agranulocytose"
+    ],
+    "correct_answers": [
+      "Le tabagisme chronique peut induire une polynucléose neutrophile",
+      "À l'arrêt du médicament responsable d'un épisode d'agranulocytose aiguë médicamenteuse, l’apparition d’une monocytose annonce la normalisation ultérieure du nombre de PNN",
+      "L’association d’une thrombopénie et d’une anémie hémolytique avec présence de schizocytes fait évoquer le diagnostic de microangiopathie thrombotique (MA T)"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quels sont les arguments clinico-biologiques en faveur d’une polyglobulie primitive de type maladie de V aquez ?",
+    "options": [
+      "Présence de la mutation V617F du gène JAK2",
+      "Thrombocytose",
+      "Adénopathies",
+      "Taux d’érythopoïétine sérique augmenté",
+      "Splénomégalie"
+    ],
+    "correct_answers": [
+      "Splénomégalie",
+      "Thrombocytose",
+      "Présence de la mutation V617F du gène JAK2"
+    ]
+  }
+]

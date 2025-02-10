@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Quelles propositions s’appliquent à un relai héparine-A VK ?",
+    "options": [
+      "Les doses d’héparine sont réduites de moitié lors de l’introduction du traitement A VK",
+      "A son introduction, le traitement A VK est administré en fonction du poids du patient",
+      "Le traitement par A VK débute à l’arrêt de l’héparinothérapie",
+      "Le traitement par A VK débute avant l’arrêt de l’héparinothérapie",
+      "L’arrêt de l’héparine est effectué lorsque 2 INR successifs sont obtenus dans la zone thérapeutique recherchée, à 24h d’intervalle"
+    ],
+    "correct_answers": [
+      "Le traitement par A VK débute avant l’arrêt de l’héparinothérapie",
+      "L’arrêt de l’héparine est effectué lorsque 2 INR successifs sont obtenus dans la zone thérapeutique recherchée, à 24h d’intervalle"
+    ],
+    "justification_fausses_reponses": {
+      "Les doses d’héparine sont réduites de moitié lors de l’introduction du traitement A VK": "C'est incorrect car la dose d'héparine n'est pas réduite de moitié lors de l'introduction du traitement par A VK. L'héparine est maintenue à sa dose thérapeutique jusqu'à ce que l'INR soit dans la zone thérapeutique recherchée.",
+      "A son introduction, le traitement A VK est administré en fonction du poids du patient": "C'est incorrect car le traitement par A VK n'est pas dosé en fonction du poids du patient. Il est plutôt ajusté en fonction de l'INR du patient.",
+      "Le traitement par A VK débute à l’arrêt de l’héparinothérapie": "C'est incorrect car le traitement par A VK est initié avant l'arrêt de l'héparinothérapie, et non après. Cela permet une transition en douceur et évite les risques de thrombose."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Chez une femme de 25 ans présentant une asthénie avec pâleur, l’hémogramme met en évidence une anémie microcytaire hypochrome et arégénérative. Quel(s) est/sont le(s) examen(s) biologique(s) d’intérêt pour le diagnostic ?",
+    "options": [
+      "L’électrophorèse de l’hémoglobine",
+      "Un dosage de la vitamine B12 et des folates sériques",
+      "Le Coombs direct",
+      "Le myélogramme",
+      "Le dosage de la ferritinémie"
+    ],
+    "correct_answers": [
+      "Le dosage de la ferritinémie"
+    ],
+    "justification_fausses_reponses": {
+      "L’électrophorèse de l’hémoglobine": "Cet examen est utilisé pour diagnostiquer des troubles de l'hémoglobine comme la drépanocytose ou la thalassémie, pas une anémie microcytaire hypochrome et arégénérative.",
+      "Un dosage de la vitamine B12 et des folates sériques": "Ces dosages sont utilisés pour diagnostiquer une anémie mégaloblastique, qui est caractérisée par des globules rouges plus grands que la normale, pas une anémie microcytaire hypochrome et arégénérative.",
+      "Le Coombs direct": "Cet examen est utilisé pour diagnostiquer une anémie hémolytique auto-immune, pas une anémie microcytaire hypochrome et arégénérative.",
+      "Le myélogramme": "Cet examen est utilisé pour évaluer la moelle osseuse, il n'est pas spécifique à une anémie microcytaire hypochrome et arégénérative."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le lymphome folliculaire, sélectionnez la ou les proposition(s) exacte(s).",
+    "options": [
+      "Les adénopathies sont rares au moment du diagnostic",
+      "Les cellules lymphomateuses correspondent à des cellules lymphoïdes B CD5+",
+      "Les cellules lymphomateuses ont une morphologie identique à celle des lymphocytes normaux",
+      "Présence quasi constante de la translocation  t(11;14)(q13;q32)",
+      "Il peut se transformer en lymphome diffus à grandes cellules B"
+    ],
+    "correct_answers": [
+      "Il peut se transformer en lymphome diffus à grandes cellules B"
+    ],
+    "justification_fausses_reponses": {
+      "Les adénopathies sont rares au moment du diagnostic": "C'est incorrect car dans le lymphome folliculaire, les adénopathies sont généralement présentes au moment du diagnostic.",
+      "Les cellules lymphomateuses correspondent à des cellules lymphoïdes B CD5+": "C'est incorrect car les cellules lymphomateuses dans le lymphome folliculaire sont généralement CD5-.",
+      "Les cellules lymphomateuses ont une morphologie identique à celle des lymphocytes normaux": "C'est incorrect car les cellules lymphomateuses ont une morphologie différente des lymphocytes normaux, avec des noyaux irréguliers et des cytoplasmes plus abondants.",
+      "Présence quasi constante de la translocation  t(11;14)(q13;q32)": "C'est incorrect car la translocation t(11;14)(q13;q32) est caractéristique du lymphome du manteau, pas du lymphome folliculaire. Le lymphome folliculaire est généralement associé à la translocation t(14;18)(q32;q21)."
+    }
+  }
+]

@@ -1,0 +1,763 @@
+{
+    "theme": "Chimie organique",
+    "questions": [
+        {
+            "question": "La bédaquiline est un antituberculeux utilisé dans le traitement de la tuberculose multi-résistante. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+                "La bédaquiline possède un atome d'halogène",
+                "La bédaquiline est protonée à pH physiologique (pH 7,4)",
+                "La bédaquiline possède un noyau indole",
+                "La bédaquiline possède une amine secondaire"
+            ],
+            "correct_answers": [
+                "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+                "La bédaquiline possède un atome d'halogène",
+                "La bédaquiline est protonée à pH physiologique (pH 7,4)"
+            ],
+            "justification_fausses_reponses": {
+                "La bédaquiline possède un noyau indole": "C'est incorrect. La structure de la bédaquiline ne contient pas de noyau indole, qui est un composé aromatique bicyclique constitué d'un cycle benzénique et d'un cycle pyrrole.",
+                "La bédaquiline possède une amine secondaire": "C'est incorrect. La bédaquiline ne possède pas d'amine secondaire dans sa structure. Une amine secondaire est un composé organique où l'atome d'azote est lié à deux atomes de carbone."
+            }
+        },
+        {
+            "question": "L'eltrombopag est utilisé dans la prise en charge des aplasies médullaires acquises sévères, des purpuras thrombopéniques et des thrombopénies de patients atteints d'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'eltrombopag présente une fonction phénol",
+                "L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène",
+                "L'eltrombopag est un dérivé de l'acide benzoïque",
+                "L'eltrombopag est un analogue de l'aspirine"
+            ],
+            "correct_answers": [
+                "L'eltrombopag est un dérivé de l'acide benzoïque"
+            ],
+            "justification_fausses_reponses": {
+                "L'eltrombopag présente une fonction phénol": "C'est incorrect car l'eltrombopag ne contient pas de groupe hydroxyle (-OH) attaché à un atome de carbone aromatique, qui est la caractéristique d'une fonction phénol.",
+                "L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car l'eltrombopag est un composé neutre à pH physiologique. Il ne gagne ni ne perd de protons et donc ne présente pas d'état d'ionisation.",
+                "L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène": "C'est incorrect car l'eltrombopag contient des atomes d'oxygène et de nitrogène qui peuvent agir comme accepteurs de liaisons hydrogène.",
+                "L'eltrombopag est un analogue de l'aspirine": "C'est incorrect car l'eltrombopag et l'aspirine ont des structures chimiques et des mécanismes d'action différents. L'eltrombopag est un agoniste du récepteur de la thrombopoïétine, tandis que l'aspirine est un inhibiteur de la cyclooxygénase."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La structure du glutathion présente deux atomes de carbone asymétriques",
+                "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+                "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+                "La structure du glutathion présente une cystéine et une glycine",
+                "Le glutathion peut former des ponts disulfures"
+            ],
+            "correct_answers": [
+                "La structure du glutathion présente deux atomes de carbone asymétriques",
+                "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+                "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+                "La structure du glutathion présente une cystéine et une glycine",
+                "Le glutathion peut former des ponts disulfures"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La chloroquine possède un noyau indole",
+                "La chloroquine est administrée sous la forme d'un mélange racémique",
+                "La chloroquine est protonée à pH physiologique (pH 7,4)",
+                "L'atome de chlore présente un effet inductif électroattracteur",
+                "L'atome d'azote de l'hétérocycle est un bon donneur de liaison hydrogène"
+            ],
+            "correct_answers": [
+                "La chloroquine est administrée sous la forme d'un mélange racémique",
+                "La chloroquine est protonée à pH physiologique (pH 7,4)",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "justification_fausses_reponses": {
+                "La chloroquine possède un noyau indole": "C'est incorrect car la chloroquine ne possède pas de noyau indole dans sa structure chimique. Le noyau indole est un composé aromatique bicyclique constitué d'un cycle benzénique et d'un cycle pyrrole fusionnés.",
+                "L'atome d'azote de l'hétérocycle est un bon donneur de liaison hydrogène": "C'est incorrect car l'atome d'azote dans l'hétérocycle de la chloroquine n'est pas un bon donneur de liaison hydrogène. Pour être un bon donneur, l'atome d'azote doit avoir un hydrogène directement attaché, ce qui n'est pas le cas dans la structure de la chloroquine."
+            }
+        },
+        {
+            "question": "On s'intéresse à la tiopronine, un médicament mucolytique, utilisé pour prévenir de la formation des calculs rénaux de L-cystine. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le réactif 1 est achiral",
+                "La tiopronine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)",
+                "Le produit 2 est un amide",
+                "Le produit 2 est un ester",
+                "La tiopronine réagit avec la L-cystéine en formant un pont disulfure"
+            ],
+            "correct_answers": [
+                "Le produit 2 est un amide",
+                "La tiopronine réagit avec la L-cystéine en formant un pont disulfure"
+            ],
+            "justification_fausses_reponses": {
+                "Le réactif 1 est achiral": "Cette affirmation est incorrecte car sans information supplémentaire sur le réactif 1, nous ne pouvons pas déterminer s'il est chiral ou non.",
+                "La tiopronine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)": "Cette affirmation est incorrecte car la tiopronine, qui est un acide aminé, est généralement ionisée à un pH physiologique de 7,4 en raison de la présence de groupes fonctionnels acide et amine.",
+                "Le produit 2 est un ester": "Cette affirmation est incorrecte car le produit 2 est un amide, pas un ester. Les amides ont un groupe fonctionnel -CONH2, tandis que les esters ont un groupe fonctionnel -COO-."
+            }
+        },
+        {
+            "question": "La métabolisation de la cimétidine peut conduire aux deux composés représentés ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La voie 1 correspond à une réaction d'oxydation",
+                "Le métabolite 1 présente une fonction thioester",
+                "La voie 2 correspond à une réaction de réduction",
+                "Le métabolite 2 présente une fonction alcool secondaire",
+                "Le métabolite 2 présente un cycle aromatique imidazole"
+            ],
+            "correct_answers": [
+                "La voie 1 correspond à une réaction d'oxydation",
+                "Le métabolite 2 présente un cycle aromatique imidazole"
+            ],
+            "justification_fausses_reponses": {
+                "Le métabolite 1 présente une fonction thioester": "Cette affirmation est incorrecte car le métabolite 1 ne présente pas de fonction thioester. Une fonction thioester est un groupe fonctionnel qui contient une liaison carbone-soufre.",
+                "La voie 2 correspond à une réaction de réduction": "Cette affirmation est incorrecte car la voie 2 ne correspond pas à une réaction de réduction. Une réaction de réduction est une réaction chimique qui implique un gain d'électrons ou une diminution de l'oxydation d'un atome, d'un ion ou d'une molécule.",
+                "Le métabolite 2 présente une fonction alcool secondaire": "Cette affirmation est incorrecte car le métabolite 2 ne présente pas de fonction alcool secondaire. Une fonction alcool secondaire est un groupe fonctionnel qui contient un atome de carbone lié à deux autres atomes de carbone et à un groupe hydroxyle."
+            }
+        },
+        {
+            "question": "La synthèse du propanolol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le réactif 1 est l'isopropylamine",
+                "Le réactif 1 est la diméthylamine",
+                "Le propanolol possède deux carbones asymétriques",
+                "Le propanolol est protoné à pH physiologique (pH 7,4)",
+                "Le propanolol possède une fonction amine tertiaire"
+            ],
+            "correct_answers": [
+                "Le réactif 1 est l'isopropylamine",
+                "Le propanolol est protoné à pH physiologique (pH 7,4)"
+            ],
+            "justification_fausses_reponses": {
+                "Le réactif 1 est la diméthylamine": "C'est incorrect car le réactif 1 dans la synthèse du propanolol est l'isopropylamine et non la diméthylamine.",
+                "Le propanolol possède deux carbones asymétriques": "C'est incorrect car le propanolol ne possède qu'un seul carbone asymétrique.",
+                "Le propanolol possède une fonction amine tertiaire": "C'est incorrect car le propanolol possède une fonction amine secondaire et non tertiaire."
+            }
+        },
+        {
+            "question": "On s'intéresse la synthèse du Nicéthamide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le réactif 1 est un anhydride d'acide",
+                "Le réactif 2 est la diéthylamine",
+                "Le nicéthamide présente un hétérocycle non aromatique",
+                "Le nicéthamide est protoné à pH 7,4",
+                "Le nicéthamide est achiral"
+            ],
+            "correct_answers": [
+                "Le réactif 2 est la diéthylamine",
+                "Le nicéthamide est achiral"
+            ],
+            "justification_fausses_reponses": {
+                "Le réactif 1 est un anhydride d'acide": "Cette affirmation est incorrecte car dans la synthèse du Nicéthamide, le réactif 1 est généralement un acide carboxylique et non un anhydride d'acide.",
+                "Le nicéthamide présente un hétérocycle non aromatique": "Cette affirmation est incorrecte car le nicéthamide ne présente pas de hétérocycle dans sa structure chimique. Il est composé d'un groupe amide attaché à une chaîne carbonée.",
+                "Le nicéthamide est protoné à pH 7,4": "Cette affirmation est incorrecte car le nicéthamide est une base faible et ne serait pas protoné à un pH de 7,4. Il serait plutôt déprotoné."
+            }
+        },
+        {
+            "question": "L'histamine est un médiateur chimique sécrété par certains globules blancs. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "A pH 11,5, la forme 3 de l'histamine est majoritaire",
+                "A pH 3,5, la forme 1 de l'histamine est majoritaire",
+                "Dans le sang, à pH 7,4, les formes 2 et 3 de l'histamine sont majoritaires",
+                "Dans le sang, à pH 7,4, la forme 2 de l'histamine est majoritaire",
+                "L'histamine contient un hétérocycle de type thiazole"
+            ],
+            "correct_answers": [
+                "A pH 11,5, la forme 3 de l'histamine est majoritaire",
+                "A pH 3,5, la forme 1 de l'histamine est majoritaire",
+                "Dans le sang, à pH 7,4, la forme 2 de l'histamine est majoritaire"
+            ],
+            "justification_fausses_reponses": {
+                "Dans le sang, à pH 7,4, les formes 2 et 3 de l'histamine sont majoritaires": "Cette affirmation est incorrecte car dans le sang, à pH 7,4, c'est la forme 2 de l'histamine qui est majoritaire, et non les formes 2 et 3. Le pH du sang influence la forme de l'histamine présente.",
+                "L'histamine contient un hétérocycle de type thiazole": "Cette affirmation est incorrecte car l'histamine ne contient pas un hétérocycle de type thiazole. L'histamine est un composé organique qui contient un hétérocycle de type imidazole."
+            }
+        },
+        {
+            "question": "L'isotrétinoïne est un stéréo-isomère de l'acide tout-trans rétinoïque (trétinoïne). L'isotrétinoïne est utilisée dans la prise en charge d'acnés. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'isotrétinoïne est un diterpène",
+                "L'isotrétinoïne est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "L'isotrétinoïne possède un carbone asymétrique",
+                "La dernière liaison double C=C, à droite de la molécule, est de configuration cis",
+                "L'isotrétinoïne peut être obtenue par oxydation de son analogue aldéhyde"
+            ],
+            "correct_answers": [
+                "L'isotrétinoïne est un diterpène",
+                "La dernière liaison double C=C, à droite de la molécule, est de configuration cis",
+                "L'isotrétinoïne peut être obtenue par oxydation de son analogue aldéhyde"
+            ],
+            "justification_fausses_reponses": {
+                "L'isotrétinoïne est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "L'isotrétinoïne est une molécule neutre à pH physiologique. Elle ne possède pas de groupes ionisables qui pourraient lui conférer une charge positive à pH 7,4.",
+                "L'isotrétinoïne possède un carbone asymétrique": "L'isotrétinoïne est un stéréo-isomère de l'acide tout-trans rétinoïque, ce qui signifie qu'elle possède une configuration spatiale différente, mais pas de carbone asymétrique. Un carbone asymétrique est un carbone lié à quatre substituants différents, ce qui n'est pas le cas dans l'isotrétinoïne."
+            }
+        },
+        {
+            "question": "On s'intéresse à la structure de l'éthionamide, un antituberculeux utilisé dans le traitement de la tuberculose multi-résistante. Ce composé est métabolisé par la bactérie puis est bioactivé pour devenir bactéricide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La métabolisation de l'éthionamide correspond à une réaction d'oxydation",
+                "La métabolisation de l'éthionamide correspond à une réaction de réduction",
+                "L'éthionamide possède un cycle de type pyridine",
+                "L'éthionamide est protoné à pH physiologique (pH 7,4)",
+                "L'éthionamide possède une fonction thioamide"
+            ],
+            "correct_answers": [
+                "La métabolisation de l'éthionamide correspond à une réaction d'oxydation",
+                "L'éthionamide possède un cycle de type pyridine",
+                "L'éthionamide possède une fonction thioamide"
+            ],
+            "justification_fausses_reponses": {
+                "La métabolisation de l'éthionamide correspond à une réaction de réduction": "La métabolisation de l'éthionamide correspond à une réaction d'oxydation, pas à une réaction de réduction. Dans une réaction d'oxydation, une molécule perd des électrons, tandis que dans une réaction de réduction, une molécule gagne des électrons.",
+                "L'éthionamide est protoné à pH physiologique (pH 7,4)": "L'éthionamide n'est pas protoné à pH physiologique. La protonation est le processus par lequel un proton est ajouté à une molécule, généralement en solution acide. À pH physiologique, qui est neutre, l'éthionamide ne subit pas de protonation."
+            }
+        },
+        {
+            "question": "L'aztréonam est une bêtalactamine monocyclique de la famille des monobactams. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'aztréonam présente dans sa structure deux hétérocycles dont un est aromatique",
+                "L'aztréonam possède deux carbones asymétriques",
+                "Le mode d'action de l'aztréonam s'explique par la présence d'un atome de carbone électrophile dans l'hétérocycle à 4 sommets",
+                "L'aztréonam possède un cycle béta-lactame",
+                "L'aztréonam peut former une liaison covalente avec un nucléophile comme la sérine d'une enzyme par exemple"
+            ],
+            "correct_answers": [
+                "L'aztréonam présente dans sa structure deux hétérocycles dont un est aromatique",
+                "L'aztréonam possède deux carbones asymétriques",
+                "Le mode d'action de l'aztréonam s'explique par la présence d'un atome de carbone électrophile dans l'hétérocycle à 4 sommets",
+                "L'aztréonam possède un cycle béta-lactame",
+                "L'aztréonam peut former une liaison covalente avec un nucléophile comme la sérine d'une enzyme par exemple"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La venlafaxine possède deux carbones asymétriques",
+                "L'hydroxyle de la venlafaxine est protoné à pH physiologique (pH 7,4)",
+                "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+                "La venlafaxine possède une fonction éther",
+                "L'hydroxyle de la venlafaxine est en position axiale"
+            ],
+            "correct_answers": [
+                "L'hydroxyle de la venlafaxine est un bon donneur de liaison hydrogène",
+                "La venlafaxine possède une fonction éther",
+                "L'hydroxyle de la venlafaxine est en position axiale"
+            ],
+            "justification_fausses_reponses": {
+                "La venlafaxine possède deux carbones asymétriques": "C'est incorrect. La venlafaxine possède un seul carbone asymétrique. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents.",
+                "L'hydroxyle de la venlafaxine est protoné à pH physiologique (pH 7,4)": "C'est incorrect. À pH physiologique (pH 7,4), l'hydroxyle de la venlafaxine n'est pas protoné. En effet, le pKa de l'hydroxyle est généralement autour de 15,5, ce qui signifie qu'à un pH inférieur à cette valeur, l'hydroxyle est déprotoné."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le bortézomib présente une fonction acide boronique",
+                "Le bortézomib possède 3 carbones asymétriques",
+                "Le bortézomib présente un hétérocycle aromatique",
+                "Le bortézomib possède un centre électrophile",
+                "Le bortézomib possède dans sa structure un tryptophane"
+            ],
+            "correct_answers": [
+                "Le bortézomib présente une fonction acide boronique",
+                "Le bortézomib présente un hétérocycle aromatique",
+                "Le bortézomib possède un centre électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "Le bortézomib possède 3 carbones asymétriques": "Cette affirmation est incorrecte car la structure du bortézomib ne comporte pas trois carbones asymétriques. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents, ce qui n'est pas le cas dans la structure du bortézomib.",
+                "Le bortézomib possède dans sa structure un tryptophane": "Cette affirmation est incorrecte car le bortézomib ne contient pas de tryptophane dans sa structure. Le tryptophane est un acide aminé qui n'est pas présent dans la structure chimique du bortézomib."
+            }
+        },
+        {
+            "question": "Le kétoprofène est un anti-inflammatoire non stéroïdien inhibiteur des cyclo-oxygénases. La synthèse du kétoprofène à partir du composé 1 est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le composé 1 existe sous forme de quatre stéréoisomères",
+                "Le réactif 1 est un réducteur",
+                "Le réactif 1 est un oxydant",
+                "Il existe deux stéréoisomères du kétoprofène",
+                "Le kétoprofène présente un caractère électrophile"
+            ],
+            "correct_answers": [
+                "Le composé 1 existe sous forme de quatre stéréoisomères",
+                "Le réactif 1 est un oxydant",
+                "Il existe deux stéréoisomères du kétoprofène",
+                "Le kétoprofène présente un caractère électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "Le réactif 1 est un réducteur": "Cette affirmation est incorrecte car le réactif 1 est un oxydant, ce qui signifie qu'il accepte des électrons lors d'une réaction chimique. Un réducteur, en revanche, donne des électrons lors d'une réaction chimique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le tripeptide ci-dessus contient les acides aminés lysine et cystéine",
+                "Le tripeptide ci-dessus contient les acides aminés phénylalanine et sérine",
+                "Les fonctions amines sont protonées à pH physiologique (pH 7.4)",
+                "La fonction alcool est ionisée à pH physiologique (pH 7.4)",
+                "La fonction alcool est accepteur de liaison hydrogène"
+            ],
+            "correct_answers": [
+                "Le tripeptide ci-dessus contient les acides aminés phénylalanine et sérine",
+                "Les fonctions amines sont protonées à pH physiologique (pH 7.4)",
+                "La fonction alcool est accepteur de liaison hydrogène"
+            ],
+            "justification_fausses_reponses": {
+                "Le tripeptide ci-dessus contient les acides aminés lysine et cystéine": "Cette affirmation est incorrecte car le tripeptide en question ne contient pas les acides aminés lysine et cystéine.",
+                "La fonction alcool est ionisée à pH physiologique (pH 7.4)": "Cette affirmation est incorrecte car la fonction alcool n'est pas ionisée à pH physiologique (pH 7.4), elle reste neutre."
+            }
+        },
+        {
+            "question": "Le baclofène est un myorelaxant commercialisé sous forme racémique. L'énantiomère R est 100 fois plus actif que l'énantiomère S. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le baclofène est administré sous forme racémique ce qui signifie que c'est un mélange équimolaire des énantiomères R et S",
+                "L'énantiomère R est le composé A",
+                "L'énantiomère R est le composé B",
+                "Le baclofène est un acide gamma-aminé",
+                "L'état d'ionisation du baclofène est 0 à pH physiologique (pH 7,4)"
+            ],
+            "correct_answers": [
+                "Le baclofène est administré sous forme racémique ce qui signifie que c'est un mélange équimolaire des énantiomères R et S",
+                "L'énantiomère R est le composé A",
+                "Le baclofène est un acide gamma-aminé",
+                "L'état d'ionisation du baclofène est 0 à pH physiologique (pH 7,4)"
+            ],
+            "justification_fausses_reponses": {
+                "L'énantiomère R est le composé B": "Cette affirmation est incorrecte car l'énantiomère R du baclofène est identifié comme le composé A, pas le composé B. Les énantiomères sont des molécules qui sont des images miroir l'une de l'autre et ne peuvent pas être superposées. Dans ce cas, l'énantiomère R est plus actif et est donc le composé A."
+            }
+        },
+        {
+            "question": "La lévofloxacine est un antibiotique de synthèse à large spectre, appartenant au groupe des fluoroquinolones. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La lévofloxacine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "La lévofloxacine possède un atome d'halogène",
+                "La lévofloxacine possède une fonction éther",
+                "La lévofloxacine possède deux atomes de carbone asymétrique",
+                "La lévofloxacine possède un cycle pipéridine"
+            ],
+            "correct_answers": [
+                "La lévofloxacine possède un atome d'halogène",
+                "La lévofloxacine possède une fonction éther"
+            ],
+            "justification_fausses_reponses": {
+                "La lévofloxacine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car la lévofloxacine est un antibiotique zwitterionique, ce qui signifie qu'elle possède à la fois des charges positives et négatives à pH physiologique.",
+                "La lévofloxacine possède deux atomes de carbone asymétrique": "C'est incorrect car la lévofloxacine ne possède qu'un seul atome de carbone asymétrique dans sa structure chimique.",
+                "La lévofloxacine possède un cycle pipéridine": "C'est incorrect car la lévofloxacine ne possède pas de cycle pipéridine dans sa structure chimique. Elle possède plutôt un cycle pyridine."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le milnacipran possède une amine secondaire",
+                "Le milnacipran possède un cycle cyclobutane",
+                "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+                "L'amine primaire est un bon accepteur de liaison hydrogène",
+                "L'amine primaire est un bon donneur de liaison hydrogène"
+            ],
+            "correct_answers": [
+                "Le milnacipran est protoné à pH physiologique (pH 7.4)",
+                "L'amine primaire est un bon accepteur de liaison hydrogène",
+                "L'amine primaire est un bon donneur de liaison hydrogène"
+            ],
+            "justification_fausses_reponses": {
+                "Le milnacipran possède une amine secondaire": "Cette affirmation est incorrecte car le milnacipran possède une amine tertiaire, pas une amine secondaire. Une amine secondaire a deux groupes alkyle attachés à l'atome d'azote, tandis qu'une amine tertiaire en a trois.",
+                "Le milnacipran possède un cycle cyclobutane": "Cette affirmation est incorrecte car le milnacipran ne possède pas de cycle cyclobutane. Le cyclobutane est un cycle à quatre carbones, tandis que le milnacipran possède un cycle à cinq carbones."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La structure de l'énalapril présente deux cycles aromatiques",
+                "La structure de l'énalapril présente une amine secondaire",
+                "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+                "La structure de l'énalapril présente une tyrosine",
+                "La structure de l'énalapril présente une proline"
+            ],
+            "correct_answers": [
+                "La structure de l'énalapril présente une amine secondaire",
+                "L'état d'ionisation de l'énalapril à pH physiologique (pH 7,4) est égal à 0",
+                "La structure de l'énalapril présente une proline"
+            ],
+            "justification_fausses_reponses": {
+                "La structure de l'énalapril présente deux cycles aromatiques": "C'est incorrect car l'énalapril ne contient pas de cycles aromatiques. Un cycle aromatique est un cycle plan et conjugué comportant 4n+2 électrons π, ce qui n'est pas le cas dans la structure de l'énalapril.",
+                "La structure de l'énalapril présente une tyrosine": "C'est incorrect car la tyrosine est un acide aminé qui n'est pas présent dans la structure de l'énalapril. L'énalapril est un médicament et non une protéine qui pourrait contenir de la tyrosine."
+            }
+        },
+        {
+            "question": "L'estramustine est un agent antinéoplasique, il est utilisé dans la prise en charge de cancers de la prostate. La synthèse de l'estramustine à partir de l'estradiol est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le composé 1 est un réactif nucléophile",
+                "Le composé 1 est un réactif électrophile",
+                "L'estradiol possède une fonction phénol",
+                "L'estramustine présente un caractère électrophile",
+                "L'Estradiol présente un caractère électrophile"
+            ],
+            "correct_answers": [
+                "Le composé 1 est un réactif électrophile",
+                "L'estradiol possède une fonction phénol",
+                "L'estramustine présente un caractère électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "Le composé 1 est un réactif nucléophile": "Cette affirmation est incorrecte car le composé 1 est un réactif électrophile, ce qui signifie qu'il a tendance à attirer les électrons et non à les donner, comme le ferait un réactif nucléophile.",
+                "L'Estradiol présente un caractère électrophile": "Cette affirmation est incorrecte car l'estradiol, en tant que stéroïde, possède une fonction phénol et non un caractère électrophile. Un composé électrophile est un accepteur d'électrons, ce qui n'est pas le cas de l'estradiol."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+                "Le levosalbutamol possède une fonction phénol",
+                "Le levosalbutamol possède une fonction amide",
+                "Le levosalbutamol possède une fonction amine tertiaire",
+                "Le levosalbutamol possède un carbone asymétrique"
+            ],
+            "correct_answers": [
+                "Le levosalbutamol est protoné à pH physiologique (pH 7,4)",
+                "Le levosalbutamol possède une fonction phénol",
+                "Le levosalbutamol possède un carbone asymétrique"
+            ],
+            "justification_fausses_reponses": {
+                "Le levosalbutamol possède une fonction amide": "Cette affirmation est incorrecte car le levosalbutamol ne possède pas de fonction amide. Une fonction amide est un groupe fonctionnel qui contient une liaison carbone-nitrogène double et une liaison carbone-nitrogène simple, ce qui n'est pas le cas dans la structure du levosalbutamol.",
+                "Le levosalbutamol possède une fonction amine tertiaire": "Cette affirmation est incorrecte car le levosalbutamol ne possède pas de fonction amine tertiaire. Une fonction amine tertiaire est un groupe fonctionnel qui contient un atome d'azote lié à trois groupes alkyles, ce qui n'est pas le cas dans la structure du levosalbutamol."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le bézafibrate possède un carbone asymétrique",
+                "Le bézafibrate est protoné à pH physiologique (pH 7,4)",
+                "Le bézafibrate est déprotoné à pH physiologique (pH 7,4)",
+                "Le bézafibrate possède une fonction ester",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "correct_answers": [
+                "Le bézafibrate est déprotoné à pH physiologique (pH 7,4)",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "justification_fausses_reponses": {
+                "Le bézafibrate possède un carbone asymétrique": "C'est incorrect car le bézafibrate est une molécule symétrique et ne possède donc pas de carbone asymétrique.",
+                "Le bézafibrate est protoné à pH physiologique (pH 7,4)": "C'est incorrect car à pH physiologique, le bézafibrate est déprotoné, c'est-à-dire qu'il a perdu un proton.",
+                "Le bézafibrate possède une fonction ester": "C'est incorrect car le bézafibrate est un médicament de la classe des fibrates et ne possède pas de fonction ester."
+            }
+        },
+        {
+            "question": "On s'intéresse à la synthèse de la procaïne (un anesthésique local) au départ du composé 1. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le composé 1 est un chlorure d'acide",
+                "La 1  étape est une réaction d'estérification",
+                "Le réactif 1 est un nucléophile",
+                "La 2  étape est une réaction d'oxydation",
+                "Le réactif 2 peut-être de l'hydrogèneère"
+            ],
+            "correct_answers": [
+                "Le composé 1 est un chlorure d'acide",
+                "La 1  étape est une réaction d'estérification",
+                "Le réactif 1 est un nucléophile",
+                "Le réactif 2 peut-être de l'hydrogèneère"
+            ],
+            "justification_fausses_reponses": {
+                "La 2  étape est une réaction d'oxydation": "Cette affirmation est incorrecte car la deuxième étape de la synthèse de la procaïne n'est pas une réaction d'oxydation. L'oxydation est une réaction chimique où une molécule, un atome ou un ion perd des électrons. Dans le cas de la procaïne, la deuxième étape est une réaction de substitution nucléophile, pas une réaction d'oxydation."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La lévocétirizine possède un carbone asymétrique",
+                "La conformation la plus stable de l'hétérocycle central est la conformation chaise",
+                "La fonction acide carboxylique de la lévocétirizine est déprotonée à pH physiologique (pH 7,4)",
+                "La lévocétirizine possède une fonction ester",
+                "La lévocétirizine possède 3 cycles aromatiques"
+            ],
+            "correct_answers": [
+                "La lévocétirizine possède un carbone asymétrique",
+                "La conformation la plus stable de l'hétérocycle central est la conformation chaise",
+                "La fonction acide carboxylique de la lévocétirizine est déprotonée à pH physiologique (pH 7,4)"
+            ],
+            "justification_fausses_reponses": {
+                "La lévocétirizine possède une fonction ester": "C'est incorrect car la lévocétirizine ne possède pas de fonction ester. Une fonction ester est un groupe fonctionnel caractérisé par une liaison covalente entre un atome de carbone et un atome d'oxygène, suivie d'une liaison covalente entre cet atome d'oxygène et un autre atome de carbone. La lévocétirizine ne possède pas ce type de structure.",
+                "La lévocétirizine possède 3 cycles aromatiques": "C'est incorrect car la lévocétirizine ne possède pas trois cycles aromatiques. Un cycle aromatique est un cycle plan, cyclique et conjugué contenant un nombre de doublets d'électrons délocalisés qui est un multiple de 4. La lévocétirizine ne possède pas cette caractéristique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le formotérol possède deux carbones asymétriques",
+                "Le formotérol possède une fonction amine et une fonction éther",
+                "Le formotérol est à l'état d'ionisation +2 à pH physiologique (pH 7,4)",
+                "Le formotérol présente une fonction phénol",
+                "Le formotérol présente un caractère nucléophile"
+            ],
+            "correct_answers": [
+                "Le formotérol possède deux carbones asymétriques",
+                "Le formotérol possède une fonction amine et une fonction éther",
+                "Le formotérol présente une fonction phénol",
+                "Le formotérol présente un caractère nucléophile"
+            ],
+            "justification_fausses_reponses": {
+                "Le formotérol est à l'état d'ionisation +2 à pH physiologique (pH 7,4)": "Cette affirmation est incorrecte car le formotérol, en tant que molécule organique, ne présente pas un état d'ionisation à pH physiologique. L'état d'ionisation est généralement associé aux acides et aux bases, et non aux molécules organiques comme le formotérol."
+            }
+        },
+        {
+            "question": "La synthèse du diclofénac, anti-inflammatoire non stéroïdien (AINS), est présentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le composé 1 possède une fonction nitrile",
+                "La fonction CN est constituée de deux liaisons π et d'une liaison σ",
+                "On peut utiliser de l'acide sulfurique H SO comme réactif 1",
+                "On peut utiliser de l'hydrogène gazeux (H  gaz) en présence de palladium sur charbon comme réactif 1",
+                "Le diclofénac possède un atome de carbone asymétrique2 4"
+            ],
+            "correct_answers": [
+                "Le composé 1 possède une fonction nitrile",
+                "La fonction CN est constituée de deux liaisons π et d'une liaison σ",
+                "On peut utiliser de l'acide sulfurique H SO comme réactif 1"
+            ],
+            "justification_fausses_reponses": {
+                "On peut utiliser de l'hydrogène gazeux (H  gaz) en présence de palladium sur charbon comme réactif 1": "L'hydrogène gazeux en présence de palladium sur charbon est généralement utilisé pour des réactions d'hydrogénation, pas pour la synthèse du diclofénac.",
+                "Le diclofénac possède un atome de carbone asymétrique2 4": "Le diclofénac ne possède pas d'atome de carbone asymétrique. Un atome de carbone asymétrique est un atome de carbone lié à quatre groupes différents, ce qui n'est pas le cas dans la structure du diclofénac."
+            }
+        },
+        {
+            "question": "La nilvadipine est utilisée pour diminuer l'hypertension artérielle. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La nilvadipine possède deux cycles aromatiques",
+                "La nilvadipine possède deux fonctions ester",
+                "Le groupement NO présente un effet mésomère électrodonneur",
+                "Le groupement CN présente un effet mésomère électroattracteur",
+                "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+            ],
+            "correct_answers": [
+                "La nilvadipine possède deux fonctions ester",
+                "Le groupement CN présente un effet mésomère électroattracteur",
+                "L'oxydation de l'hétérocycle central conduit à la formation d'un cycle pyridine"
+            ],
+            "justification_fausses_reponses": {
+                "La nilvadipine possède deux cycles aromatiques": "C'est incorrect. La nilvadipine possède un seul cycle aromatique dans sa structure chimique.",
+                "Le groupement NO présente un effet mésomère électrodonneur": "C'est incorrect. Le groupement NO est un groupe électroattracteur, pas un groupe électrodonneur."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le diltiazem possède un seul carbone asymétrique",
+                "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+                "L'atome de soufre du cycle central est un bon accepteur de liaison hydrogène",
+                "Le diltiazem possède une fonction ester",
+                "Le diltiazem possède une fonction thiol"
+            ],
+            "correct_answers": [
+                "Le diltiazem est protoné à pH physiologique (pH 7,4)",
+                "Le diltiazem possède une fonction ester"
+            ],
+            "justification_fausses_reponses": {
+                "Le diltiazem possède un seul carbone asymétrique": "C'est incorrect car le diltiazem possède plusieurs carbones asymétriques, ce qui lui confère une stéréochimie complexe.",
+                "L'atome de soufre du cycle central est un bon accepteur de liaison hydrogène": "C'est incorrect car l'atome de soufre du cycle central du diltiazem n'est pas un bon accepteur de liaison hydrogène. En général, les bons accepteurs de liaisons hydrogène sont les atomes d'oxygène, d'azote et de fluor.",
+                "Le diltiazem possède une fonction thiol": "C'est incorrect car le diltiazem ne possède pas de fonction thiol. La fonction thiol est caractérisée par un groupe -SH, qui n'est pas présent dans la structure du diltiazem."
+            }
+        },
+        {
+            "question": "On s'intéresse à la structure du prontosil, un antibactérien. Ce composé est inactif in vitro mais révèle son activité in vivo après métabolisation et libération d'un dérivé sulfamide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La métabolisation du prontozil correspond à une réaction d'oxydation",
+                "La métabolisation du prontozil correspond à une réaction de réduction",
+                "Le groupement –NH  dans le produit 2 est en position para du groupement –SO NH",
+                "Le groupement –NH  du produit 2 exerce un effet mésomère donneur sur le noyau benzénique",
+                "Le produit 1 est un bon électrophile"
+            ],
+            "correct_answers": [
+                "La métabolisation du prontozil correspond à une réaction de réduction",
+                "Le groupement –NH  dans le produit 2 est en position para du groupement –SO NH",
+                "Le groupement –NH  du produit 2 exerce un effet mésomère donneur sur le noyau benzénique"
+            ],
+            "justification_fausses_reponses": {
+                "La métabolisation du prontozil correspond à une réaction d'oxydation": "La métabolisation du prontosil est une réaction de réduction, pas d'oxydation. Dans une réaction d'oxydation, un atome, ion ou molécule perd des électrons, ce qui n'est pas le cas ici.",
+                "Le produit 1 est un bon électrophile": "Cette affirmation est incorrecte car le produit 1 n'est pas un bon électrophile. Un bon électrophile est une espèce chimique qui a une forte tendance à accepter des électrons pour compléter sa couche externe. Or, le produit 1 ne présente pas cette caractéristique."
+            }
+        },
+        {
+            "question": "L'afatinib, appartient à la classe thérapeutique des inhibiteurs de tyrosine kinase. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'afatinib possède une fonction amide, une fonction amine tertiaire et une fonction éther",
+                "L'afatinib est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "L'afatinib présente un hétérocycle aromatique",
+                "L'afatinib ne présente pas d'atomes accepteurs de liaisons H",
+                "L'afatinib est un accepteur de Michaël"
+            ],
+            "correct_answers": [
+                "L'afatinib possède une fonction amide, une fonction amine tertiaire et une fonction éther",
+                "L'afatinib est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "L'afatinib présente un hétérocycle aromatique",
+                "L'afatinib est un accepteur de Michaël"
+            ],
+            "justification_fausses_reponses": {
+                "L'afatinib ne présente pas d'atomes accepteurs de liaisons H": "Cette affirmation est incorrecte car l'afatinib possède plusieurs atomes d'oxygène et d'azote qui sont des accepteurs de liaisons hydrogène. Les liaisons hydrogène sont essentielles pour l'interaction de l'afatinib avec les protéines cibles."
+            }
+        },
+        {
+            "question": "On s'intéresse à la synthèse de l'agomélatine, un antidépresseur. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le réactif 1 présente un caractère électrophile",
+                "Le réactif 2 peut être le chlorure d'éthanoyle (CH COCl)",
+                "L'agomélatine est à l'état d'ionisation +1 à pH 7,4",
+                "Le réactif 2 est l'iodure de méthyle (CH I)",
+                "L'agomélatine possède une fonction cétone"
+            ],
+            "correct_answers": [
+                "Le réactif 2 peut être le chlorure d'éthanoyle (CH COCl)"
+            ],
+            "justification_fausses_reponses": {
+                "Le réactif 1 présente un caractère électrophile": "Cette affirmation est incorrecte car le réactif 1 n'est pas nécessairement électrophile. Cela dépend de la nature spécifique du réactif.",
+                "L'agomélatine est à l'état d'ionisation +1 à pH 7,4": "Cette affirmation est incorrecte car l'agomélatine n'est pas ionisée à pH 7,4. Elle est neutre à ce pH.",
+                "Le réactif 2 est l'iodure de méthyle (CH I)": "Cette affirmation est incorrecte car le réactif 2 pour la synthèse de l'agomélatine n'est pas l'iodure de méthyle. Le chlorure d'éthanoyle est un meilleur choix pour cette réaction.",
+                "L'agomélatine possède une fonction cétone": "Cette affirmation est incorrecte car l'agomélatine ne possède pas de fonction cétone. Elle possède une fonction amide."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'AMP cyclique est un dérivé du Ribose",
+                "L'AMP cyclique présente une base de type purine",
+                "L'état d'ionisation de l'AMP cyclique à pH physiologique (pH 7,4) est égal à -1",
+                "L'AMP cyclique possède un atome de phosphore nucléophile",
+                "L'AMP cyclique possède un hétérocycle aromatique"
+            ],
+            "correct_answers": [
+                "L'AMP cyclique est un dérivé du Ribose",
+                "L'AMP cyclique présente une base de type purine",
+                "L'état d'ionisation de l'AMP cyclique à pH physiologique (pH 7,4) est égal à -1",
+                "L'AMP cyclique possède un hétérocycle aromatique"
+            ],
+            "justification_fausses_reponses": {
+                "L'AMP cyclique possède un atome de phosphore nucléophile": "Cette affirmation est incorrecte car l'atome de phosphore dans l'AMP cyclique n'est pas nucléophile. En chimie, un nucléophile est une espèce chimique qui donne un couple d'électrons. Or, dans l'AMP cyclique, l'atome de phosphore est lié à quatre autres atomes et n'a donc pas de couple d'électrons libre pour agir en tant que nucléophile."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La ticlopidine présente un atome de carbone asymétrique",
+                "Le clopidogrel présente un atome de carbone asymétrique",
+                "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+                "Le clopidogrel présente une fonction ester",
+                "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+            ],
+            "correct_answers": [
+                "Le clopidogrel présente un atome de carbone asymétrique",
+                "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+                "Le clopidogrel présente une fonction ester",
+                "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+            ],
+            "justification_fausses_reponses": {
+                "La ticlopidine présente un atome de carbone asymétrique": "Cette affirmation est incorrecte car la ticlopidine ne présente pas d'atome de carbone asymétrique. Un atome de carbone asymétrique est un atome de carbone qui est lié à quatre groupes différents. Dans la structure de la ticlopidine, aucun atome de carbone ne remplit cette condition."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'étape 1 correspond à une réaction de substitution nucléophile",
+                "L'étape 1 correspond à une réaction d'addition nucléophile",
+                "L'étape 2 correspond à une réaction de réduction de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+                "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+                "Le produit 1 est un électrophile"
+            ],
+            "correct_answers": [
+                "L'étape 1 correspond à une réaction d'addition nucléophile",
+                "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+                "Le produit 1 est un électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "L'étape 1 correspond à une réaction de substitution nucléophile": "Cette affirmation est incorrecte car l'étape 1 est une réaction d'addition nucléophile, où un nucléophile est ajouté à une molécule, et non une réaction de substitution où un groupe est remplacé par un autre.",
+                "L'étape 2 correspond à une réaction de réduction de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)": "Cette affirmation est incorrecte car l'étape 2 est une réaction d'oxydation, où un atome perd des électrons, et non une réaction de réduction où un atome gagne des électrons."
+            }
+        },
+        {
+            "question": "Le boceprevir est utilisé dans le traitement de l'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le boceprevir possède exactement trois carbones asymétriques",
+                "Le boceprevir possède une fonction urée",
+                "Le boceprevir possède une fonction cétone électrophile",
+                "Le boceprevir est protoné à pH physiologique (pH 7,4)",
+                "Le boceprevir possède un cycle cyclobutyle"
+            ],
+            "correct_answers": [
+                "Le boceprevir possède une fonction urée",
+                "Le boceprevir possède une fonction cétone électrophile",
+                "Le boceprevir possède un cycle cyclobutyle"
+            ],
+            "justification_fausses_reponses": {
+                "Le boceprevir possède exactement trois carbones asymétriques": "C'est incorrect. Le boceprevir possède plus de trois carbones asymétriques. Un carbone asymétrique est un carbone qui est lié à quatre groupes différents.",
+                "Le boceprevir est protoné à pH physiologique (pH 7,4)": "C'est incorrect. Le boceprevir n'est pas protoné à pH physiologique. La protonation est le processus par lequel un proton est ajouté à une molécule, généralement sous forme d'ion hydrogène (H+). Cela se produit généralement dans un environnement acide, pas à un pH physiologique."
+            }
+        },
+        {
+            "question": "On s'intéresse la synthèse de la rivastigmine, un inhibiteur de l'acétylcholinestérase, utilisé dans la prise en charge de la maladie d'Alzheimer. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La rivastigmine est administrée sous forme racémique",
+                "Le réactif 1 possède une fonction phénol",
+                "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "Le réactif 1 est un nucléophile",
+                "Le réactif 2 est un électrophile"
+            ],
+            "correct_answers": [
+                "Le réactif 1 possède une fonction phénol",
+                "La rivastigmine est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "Le réactif 1 est un nucléophile",
+                "Le réactif 2 est un électrophile"
+            ],
+            "justification_fausses_reponses": {
+                "La rivastigmine est administrée sous forme racémique": "Cette affirmation est incorrecte car la rivastigmine est administrée sous forme d'énantiomère pur et non sous forme racémique. Une forme racémique est un mélange 50/50 de deux énantiomères, ce qui n'est pas le cas pour la rivastigmine."
+            }
+        },
+        {
+            "question": "La biosynthèse de la noradrénaline à partir de de la L-DOP A est représentée ci-dessous. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L'étape 1 correspond à une réaction d'estérification",
+                "L'étape 1 correspond à une réaction de décarboxylation",
+                "La noradrénaline est un acide α-aminé",
+                "L'étape 2 correspond à une réaction de réduction",
+                "La dopamine présente un caractère électrophile"
+            ],
+            "correct_answers": [
+                "L'étape 1 correspond à une réaction de décarboxylation"
+            ],
+            "justification_fausses_reponses": {
+                "L'étape 1 correspond à une réaction d'estérification": "C'est incorrect car l'estérification est une réaction chimique qui forme un ester et de l'eau à partir d'un acide et d'un alcool, ce qui n'est pas le cas ici.",
+                "La noradrénaline est un acide α-aminé": "C'est incorrect car la noradrénaline est une catécholamine, un type de neurotransmetteur, et non un acide α-aminé.",
+                "L'étape 2 correspond à une réaction de réduction": "C'est incorrect car la réduction est une réaction chimique qui implique le gain d'électrons ou la diminution de l'oxydation, ce qui n'est pas le cas ici.",
+                "La dopamine présente un caractère électrophile": "C'est incorrect car la dopamine est une molécule nucléophile, elle a tendance à donner des électrons, et non à les accepter comme le ferait une molécule électrophile."
+            }
+        },
+        {
+            "question": "On s'intéresse à la péthidine, un antalgique opiacé. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La péthidine est obtenue selon une réaction de saponification",
+                "La péthidine est obtenue selon une réaction d'estérification",
+                "La conformation la plus stable de la péthidine est la conformation bateau",
+                "La péthidine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)",
+                "La péthidine possède une fonction amine tertiaire"
+            ],
+            "correct_answers": [
+                "La péthidine est obtenue selon une réaction d'estérification",
+                "La péthidine possède une fonction amine tertiaire"
+            ],
+            "justification_fausses_reponses": {
+                "La péthidine est obtenue selon une réaction de saponification": "La saponification est une réaction chimique qui produit du savon, à partir d'un ester et d'une base. La péthidine n'est pas obtenue par ce processus.",
+                "La conformation la plus stable de la péthidine est la conformation bateau": "La conformation bateau n'est pas la plus stable pour la péthidine. En chimie organique, la conformation la plus stable est généralement la conformation chaise.",
+                "La péthidine est à l'état d'ionisation 0 à pH physiologique (pH 7,4)": "La péthidine, comme la plupart des amines, est basique et peut donc accepter un proton pour former un ion. Ainsi, à pH physiologique, la péthidine n'est pas à l'état d'ionisation 0."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le rivaroxaban possède 2 cycles aromatiques",
+                "Le rivaroxaban possède un noyau pyrrole",
+                "Le rivaroxaban est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+                "Le rivaroxaban possède une fonction carbamate",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "correct_answers": [
+                "Le rivaroxaban possède 2 cycles aromatiques",
+                "Le rivaroxaban possède une fonction carbamate",
+                "L'atome de chlore présente un effet inductif électroattracteur"
+            ],
+            "justification_fausses_reponses": {
+                "Le rivaroxaban possède un noyau pyrrole": "C'est incorrect car le rivaroxaban ne possède pas de noyau pyrrole dans sa structure chimique. Le noyau pyrrole est un cycle à 5 atomes contenant un atome d'azote.",
+                "Le rivaroxaban est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car le rivaroxaban est un anticoagulant oral direct qui inhibe sélectivement le facteur Xa. Il n'est pas ionisé à un pH physiologique de 7,4."
+            }
+        }
+    ]
+}

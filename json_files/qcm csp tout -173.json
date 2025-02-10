@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Composition ionique des liquides biologiques :",
+    "options": [
+      "La concentration de chlorures est plus élevée à l’extérieur de la cellule qu’à l’intérieur.",
+      "La concentration de calcium est homogène à l’intérieur de la cellule.",
+      "La concentration de bicarbonate est plus faible à l’extérieur de la cellule qu’à l’intérieur.",
+      "La concentration de protéines ionisées est plus faible à l’intérieur de la cellule qu’à l’extérieur.",
+      "La concentration de sodium intracellulaire est supérieure à celle du potassium."
+    ],
+    "correct_answers": [
+      "La concentration de chlorures est plus élevée à l’extérieur de la cellule qu’à l’intérieur."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Selon la loi de Frank-S tarling:",
+    "options": [
+      "Le volume d'éjection du ventricule gauche est plus important que celui du ventricule droit.",
+      "Les deux ventricules se contractent simultanément.",
+      "Le volume d'éjection systolique augmente avec la fréquence cardiaque.",
+      "Le volume d'éjection systolique augmente quand le retour veineux augmente.",
+      "Le rythme d'un coeur humain isolé de l'organisme est de 100 battements par minute."
+    ],
+    "correct_answers": [
+      "Le volume d'éjection systolique augmente quand le retour veineux augmente."
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e :",
+    "options": [
+      "L’unité motrice des muscles posturaux innerve un petit nombre de cellules musculaires.",
+      "Le réflexe myotatique joue un rôle négligeable dans le rôle physiologique des muscles posturaux.",
+      "Les muscles posturaux se contactent très rapidement.",
+      "Les muscles extenseurs sont souvent des muscles posturaux.",
+      "Les muscles posturaux sont rarement sollicités."
+    ],
+    "correct_answers": [
+      "Les muscles extenseurs sont souvent des muscles posturaux."
+    ]
+  }
+]

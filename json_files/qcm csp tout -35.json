@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En chromatographie,",
+    "options": [
+      "La phase stationnaire peut être un gaz",
+      "La phase mobile peut être un gaz",
+      "La phase mobile est toujours un liquide",
+      "La phase mobile entraîne la phase stationnaire",
+      "La phase stationnaire est toujours conditionnée dans une colonne"
+    ],
+    "correct_answers": [
+      "La phase mobile peut être un gaz"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) inexacte(s) ? En chromatographie en phase liquide, l’amélioration de la résolution entre 2 composés dépend",
+    "options": [
+      "De la longueur de la colonne",
+      "Du nombre de plateaux théoriques",
+      "De la vitesse de déroulement du papier",
+      "Du facteur de rétention du composé le plus retenu",
+      "Du facteur de sélectivité"
+    ],
+    "correct_answers": [
+      "De la vitesse de déroulement du papier"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ? Vous devez préparer une solution de paracétamol à 0,02 g/L à partir d’une solution mère à 400 mg/L. Vous utilisez :",
+    "options": [
+      "une fiole jaugée de 1 L et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 1 L et une pipette jaugée de 5 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 5 mL",
+      "une éprouvette d’1 L et une pipette jaugée de 50 mL"
+    ],
+    "correct_answers": [
+      "une fiole jaugée de 1 L et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 5 mL"
+    ]
+  }
+]

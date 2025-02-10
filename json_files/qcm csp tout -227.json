@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La bile est libérée en fonction des besoins dans l’intestin",
+      "La bilirubinémie totale est inférieure à 17 µmol/L",
+      "La bile se présente sous la forme d’un liquide incolore",
+      "La bile est stockée dans la vésicule biliaire",
+      "La bile est produite par le foie"
+    ],
+    "correct_answers": [
+      "La bile est produite par le foie",
+      "La bile est libérée en fonction des besoins dans l’intestin",
+      "La bile est stockée dans la vésicule biliaire",
+      "La bilirubinémie totale est inférieure à 17 µmol/L"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Lors d'une déshydratation extracellulaire on observe :",
+    "options": [
+      "Une dépression des fontanelles",
+      "Une hypotension",
+      "Un pli cutané",
+      "Une perte de poids",
+      "Une soif intense"
+    ],
+    "correct_answers": [
+      "Une soif intense"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les signes cliniques suivants, lequel (lesquels) est (sont) potentiellement présent(s) dans un tableau d’hyperthyroïdie ?",
+    "options": [
+      "Bradycardie",
+      "Constipation",
+      "Amaigrissement rapide avec polyphagie",
+      "Thermophobie",
+      "Nervosité"
+    ],
+    "correct_answers": [
+      "Amaigrissement rapide avec polyphagie",
+      "Nervosité",
+      "Thermophobie"
+    ]
+  }
+]

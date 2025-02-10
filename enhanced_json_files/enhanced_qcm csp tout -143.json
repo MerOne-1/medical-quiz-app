@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+    "options": [
+      "Un nouveau médicament peut être prescrit sans risque à une femme enceinte",
+      "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+      "Les AVK sont des médicaments à marge thérapeutique large",
+      "Les psychotropes font partie des médicaments à faible iatrogénie",
+      "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+    ],
+    "correct_answers": [
+      "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+      "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+    ],
+    "justification_fausses_reponses": {
+      "Un nouveau médicament peut être prescrit sans risque à une femme enceinte": "C'est faux car tous les médicaments ne sont pas sans risque pour les femmes enceintes. Certains peuvent avoir des effets néfastes sur le développement du fœtus.",
+      "Les AVK sont des médicaments à marge thérapeutique large": "C'est incorrect car les AVK (Antivitamines K) ont une marge thérapeutique étroite, ce qui signifie que la différence entre une dose thérapeutique et une dose toxique est petite.",
+      "Les psychotropes font partie des médicaments à faible iatrogénie": "C'est faux car les psychotropes ont un risque élevé d'iatrogénie, c'est-à-dire qu'ils peuvent causer des effets indésirables graves, notamment chez les personnes âgées."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+    "options": [
+      "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle augmente la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle augmente la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas",
+      "Son mécanisme d'action passe par une action hypoglycémiante essentiellement",
+      "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+    ],
+    "correct_answers": [
+      "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+      "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+    ],
+    "justification_fausses_reponses": {
+      "Elle augmente la néoglucogénèse hépatique, ce qui diminue la production de glucose": "C'est incorrect car la metformine inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose, elle ne l'augmente pas.",
+      "Elle augmente la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas": "C'est incorrect car la metformine n'augmente pas directement la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas. Elle agit plutôt en améliorant la sensibilité à l'insuline.",
+      "Son mécanisme d'action passe par une action hypoglycémiante essentiellement": "C'est incorrect car le mécanisme d'action de la metformine ne se limite pas à une action hypoglycémiante. Elle a également une action normoglycémiante et potentialise l'action de l'insuline."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+      "Tout événement indésirable grave doit être signalé sans délai",
+      "Les enveloppes de décodage (levée d'insu) doivent obligatoirement êtres disponibles à la pharmacie",
+      "La définition du médicament expérimental inclut le placebo"
+    ],
+    "correct_answers": [
+      "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+      "Tout événement indésirable grave doit être signalé sans délai",
+      "La définition du médicament expérimental inclut le placebo"
+    ],
+    "justification_fausses_reponses": {
+      "Les enveloppes de décodage (levée d'insu) doivent obligatoirement êtres disponibles à la pharmacie": "Cette affirmation est incorrecte car les enveloppes de décodage ne sont pas nécessairement disponibles à la pharmacie. Elles peuvent être conservées dans un lieu sûr et accessible uniquement par des personnes autorisées. Leur emplacement dépend des protocoles de l'essai clinique."
+    }
+  }
+]

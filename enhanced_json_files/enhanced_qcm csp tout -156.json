@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "La ciclosporine est un macrolide.",
+      "La néphrotoxicité est un effet indésirable majeur de la ciclosporine.",
+      "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+      "La ciclosporine inhibe l'activité de la protéine m-T OR qui est une kinase indispensable à la progression du cycle cellulaire.",
+      "La ciclosporine ne doit pas être associée aux corticoïdes."
+    ],
+    "correct_answers": [
+      "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+      "La néphrotoxicité est un effet indésirable majeur de la ciclosporine."
+    ],
+    "justification_fausses_reponses": {
+      "La ciclosporine est un macrolide.": "C'est incorrect. La ciclosporine est un immunosuppresseur, pas un macrolide qui est une classe d'antibiotiques.",
+      "La ciclosporine inhibe l'activité de la protéine m-T OR qui est une kinase indispensable à la progression du cycle cellulaire.": "C'est incorrect. La ciclosporine inhibe la calcineurine, pas la protéine m-TOR.",
+      "La ciclosporine ne doit pas être associée aux corticoïdes.": "C'est incorrect. La ciclosporine peut être associée aux corticoïdes pour augmenter l'effet immunosuppresseur."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes : A propos de l'azathioprine (Imurel*) :",
+    "options": [
+      "C'est un immunosuppresseur antiprolifératif",
+      "Nécessite une surveillance de l'hémogramme",
+      "Est déconseillée en association avec l'allopurinol",
+      "Est à prendre en dehors des repas",
+      "C'est une prodrug"
+    ],
+    "correct_answers": [
+      "C'est un immunosuppresseur antiprolifératif",
+      "C'est une prodrug",
+      "Nécessite une surveillance de l'hémogramme"
+    ],
+    "justification_fausses_reponses": {
+      "Est déconseillée en association avec l'allopurinol": "Cette affirmation est incorrecte car l'azathioprine peut être utilisée en association avec l'allopurinol. L'allopurinol est un médicament qui réduit la production d'acide urique dans le corps, ce qui peut aider à prévenir les crises de goutte. Il n'y a pas de contre-indication connue à l'utilisation de ces deux médicaments ensemble.",
+      "Est à prendre en dehors des repas": "Cette affirmation est incorrecte car l'azathioprine peut être prise avec ou sans nourriture. Il est généralement recommandé de prendre ce médicament avec de la nourriture pour minimiser les effets secondaires gastro-intestinaux."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "Le schéma thérapeutique standard repose sur une trithérapie associant isoniazide, rifampicine et éthambutol.",
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en trois prises par jour.",
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+      "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide.",
+      "L'insuffisance rénale sévère est une contre-indication au traitement par isoniazide."
+    ],
+    "correct_answers": [
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+      "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide."
+    ],
+    "justification_fausses_reponses": {
+      "Le schéma thérapeutique standard repose sur une trithérapie associant isoniazide, rifampicine et éthambutol.": "C'est incorrect. Le schéma thérapeutique standard pour la tuberculose repose sur une quadrithérapie associant isoniazide, rifampicine, pyrazinamide et éthambutol.",
+      "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en trois prises par jour.": "C'est incorrect. Le RIFINAH doit être pris en une seule prise par jour à jeun pour une meilleure absorption.",
+      "L'insuffisance rénale sévère est une contre-indication au traitement par isoniazide.": "C'est incorrect. L'isoniazide est principalement métabolisé par le foie, donc l'insuffisance rénale n'est pas une contre-indication. Cependant, une surveillance est nécessaire en cas d'insuffisance rénale sévère."
+    }
+  }
+]

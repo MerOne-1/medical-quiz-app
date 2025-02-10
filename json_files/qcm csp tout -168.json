@@ -1,0 +1,30 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte: le foie reçoit du sang de...",
+    "options": [
+      "le foie reçoit du sang de l’artère porte et de la veine porte",
+      "le foie reçoit du sang de l’artère hépatique et de la veine porte",
+      "le foie reçoit du sang de la veine porte et de l’artère mésentérique supérieure",
+      "le foie reçoit du sang de l’artère hépatique et de la veine intestinale",
+      "le foie reçoit du sang de l’artère hépatique et de la veine cave inférieure"
+    ],
+    "correct_answers": [
+      "le foie reçoit du sang de l’artère hépatique et de la veine porte"
+    ]
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte: L’automatisme cardiaque...",
+    "options": [
+      "La section de toutes les voies nerveuses afférentes au cœur a pour effet de ralentir le rythme cardiaque.",
+      "La noradrénaline augmente l’intensité du courant if en stimulant la production d’AMP c dans les cellules du nœud sinusal.",
+      "Chez un individu « en bonne santé » l’automatisme cardiaque siège dans le nœud auricule-ventriculaire.",
+      "Une faible dose d’acétylcholine active uniquement le courant IK dépendant de l’activation des récepteurs muscariniques, alors qu’une forte dose active aussi ce courant, mais augmentre le courant if.",
+      "L’automatisme cardiaque est initié par l’activation d’un courant calcique (ICaT), suivit par celle du courant if."
+    ],
+    "correct_answers": [
+      "La noradrénaline augmente l’intensité du courant if en stimulant la production d’AMP c dans les cellules du nœud sinusal."
+    ]
+  }
+]

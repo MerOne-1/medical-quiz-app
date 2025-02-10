@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions relatives à la photosynthèse ci-dessous, choisissez laquelle (lesquelles) est (sont) vraie(s) :",
+    "options": [
+      "La photosynthèse n'a pas lieu dans la zone 2",
+      "Dans la figure ci-dessus, 1 correspond au parenchyme palissadique",
+      "La phase claire de la photosynthèse est la seule à avoir lieu dans les feuilles.",
+      "Dans la figure ci-dessus, 2 correspond au parenchyme lacuneux",
+      "Dans la figure ci-dessus, 3 correspond à la zone médullaire"
+    ],
+    "correct_answers": [
+      "Dans la figure ci-dessus, 1 correspond au parenchyme palissadique",
+      "Dans la figure ci-dessus, 2 correspond au parenchyme lacuneux"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives aux fruits, choisir celle(s) exacte(s)",
+    "options": [
+      "La baie est un fruit charnu",
+      "Une baie peut contenir un noyau",
+      "Une baie s’ouvre à maturité",
+      "La baie de Génévrier est en fait un cône femelle",
+      "La baie peut contenir de nombreux pépins"
+    ],
+    "correct_answers": [
+      "La baie est un fruit charnu",
+      "La baie de Génévrier est en fait un cône femelle",
+      "La baie peut contenir de nombreux pépins"
+    ]
+  }
+]

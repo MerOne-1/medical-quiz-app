@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "La vinorelbine :",
+    "options": [
+      "est réservée à la voie injectable",
+      "est un anticancéreux",
+      "est utilisée uniquement en milieu hospitalier",
+      "nécessite une surveillance hématologique",
+      "requiert un carnet de suivi à remettre au patient"
+    ],
+    "correct_answers": [
+      "est un anticancéreux",
+      "nécessite une surveillance hématologique",
+      "requiert un carnet de suivi à remettre au patient"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’une bactérie ?",
+    "options": [
+      "Exénatide",
+      "Amphotéricine B",
+      "Vancomycine",
+      "Artémisinine",
+      "Pénicilline G"
+    ],
+    "correct_answers": [
+      "Vancomycine",
+      "Amphotéricine B"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les associations ‘médicament – immunophiline – cible’ suivantes, la/lesquelle(s) est (sont) pertinente(s) ?",
+    "options": [
+      "Tacrolimus – FKBP12 – calcineurine",
+      "Sirolimus –FKBP12 – mT OR",
+      "Acide mycophénolique – FKBP12 - mT OR",
+      "Ciclosporine – cyclophiline A – calcineurine",
+      "Rapamycine – cyclophiline A- mT OR"
+    ],
+    "correct_answers": [
+      "Ciclosporine – cyclophiline A – calcineurine",
+      "Tacrolimus – FKBP12 – calcineurine",
+      "Sirolimus –FKBP12 – mT OR"
+    ]
+  }
+]

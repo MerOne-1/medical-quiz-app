@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Concernant Gardasil®, quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "C’est un vaccin vivant atténué",
+      "C’est un vaccin associé à un sur-risque de développement de sclérose en plaque",
+      "C’est un vaccin quadrivalent dirigé contre les souches de papillomavirus HPV 6, 11, 16 et 18",
+      "C’est un vaccin efficace dans la prévention des verrues génitales",
+      "C’est un vaccin recommandé chez toutes les femmes, quel que soit l’âge"
+    ],
+    "correct_answers": [
+      "C’est un vaccin quadrivalent dirigé contre les souches de papillomavirus HPV 6, 11, 16 et 18",
+      "C’est un vaccin efficace dans la prévention des verrues génitales"
+    ],
+    "justification_fausses_reponses": {
+      "C’est un vaccin vivant atténué": "Gardasil® n'est pas un vaccin vivant atténué. Il est fabriqué à partir de particules de type viral, qui sont des protéines qui ressemblent au virus mais qui ne peuvent pas causer de maladie.",
+      "C’est un vaccin associé à un sur-risque de développement de sclérose en plaque": "Il n'y a aucune preuve scientifique montrant que le vaccin Gardasil® est associé à un risque accru de développer une sclérose en plaques.",
+      "C’est un vaccin recommandé chez toutes les femmes, quel que soit l’âge": "Gardasil® est recommandé pour les filles et les femmes âgées de 9 à 26 ans. Il n'est pas recommandé pour toutes les femmes, quel que soit leur âge."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant la rectocolite hémorragique (RCH), quelle(s) proposition(s) est (sont) exacte(s) ?",
+    "options": [
+      "les rectorragies sont le symptôme majeur de la RCH",
+      "la RCH peut toucher tout le tube digestif, de la bouche à l’anus",
+      "le tabac protège du risque de développement de la RCH",
+      "l’augmentation du risque de cancer colorectal est l’une des principales complications de la RCH",
+      "l’étiologie exacte de la RCH n’est pas connue et les anticorps monoclonaux anti-TNF sont inefficaces dans la prise en charge thérapeutique"
+    ],
+    "correct_answers": [
+      "les rectorragies sont le symptôme majeur de la RCH",
+      "l’augmentation du risque de cancer colorectal est l’une des principales complications de la RCH",
+      "le tabac protège du risque de développement de la RCH"
+    ],
+    "justification_fausses_reponses": {
+      "la RCH peut toucher tout le tube digestif, de la bouche à l’anus": "C'est incorrect car la RCH est une maladie inflammatoire qui affecte principalement le côlon et le rectum, et non l'ensemble du tube digestif.",
+      "l’étiologie exacte de la RCH n’est pas connue et les anticorps monoclonaux anti-TNF sont inefficaces dans la prise en charge thérapeutique": "C'est faux car même si l'étiologie exacte de la RCH n'est pas entièrement connue, les anticorps monoclonaux anti-TNF sont efficaces dans le traitement de la RCH en réduisant l'inflammation."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Choisir la ou les proposition(s) exacte(s) pour chacune des affirmations suivantes : Les macrophages",
+    "options": [
+      "ont une durée de vie longue",
+      "sont des cellules de la lignée lymphoïde",
+      "sont des cellules présentatrices d'antigènes",
+      "interviennent dans l'élimination des micro-organismes",
+      "sont majoritairement retrouvés dans le sang"
+    ],
+    "correct_answers": [
+      "interviennent dans l'élimination des micro-organismes",
+      "ont une durée de vie longue",
+      "sont des cellules présentatrices d'antigènes"
+    ],
+    "justification_fausses_reponses": {
+      "sont des cellules de la lignée lymphoïde": "Les macrophages ne sont pas des cellules de la lignée lymphoïde, mais de la lignée myéloïde. Ils sont issus de la différenciation des monocytes, une sous-population de leucocytes.",
+      "sont majoritairement retrouvés dans le sang": "Bien que les macrophages puissent être présents dans le sang, ils sont majoritairement retrouvés dans les tissus où ils jouent un rôle clé dans la réponse immunitaire."
+    }
+  }
+]

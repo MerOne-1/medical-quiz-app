@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Virologie",
+    "question": "Parmi les propositions suivantes concernant le vaccin contre le virus de l'hépatite B, la/lesquelles est/sont vraie/s",
+    "options": [
+      "vaccin contre-indiqué chez la femme enceinte",
+      "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+      "Une fièvre peut survenir dans les 48h après la vaccination",
+      "vaccin produit génétiquement",
+      "vaccin obligatoire chez les personnels de santé"
+    ],
+    "correct_answers": [
+      "vaccin produit génétiquement",
+      "chez le sujet vacciné, les anticorps anti-HBs sont seuls positifs",
+      "Une fièvre peut survenir dans les 48h après la vaccination"
+    ],
+    "justification_fausses_reponses": {
+      "vaccin contre-indiqué chez la femme enceinte": "Cette affirmation est fausse. Le vaccin contre l'hépatite B n'est pas contre-indiqué chez la femme enceinte. Au contraire, il est recommandé pour protéger à la fois la mère et le bébé contre le virus de l'hépatite B.",
+      "vaccin obligatoire chez les personnels de santé": "Cette affirmation est incorrecte. Bien que fortement recommandé, le vaccin contre l'hépatite B n'est pas obligatoire pour les personnels de santé. Cependant, ces professionnels sont plus exposés au virus et devraient donc envisager de se faire vacciner."
+    }
+  },
+  {
+    "theme": "Virologie",
+    "question": "Quels conseils thérapeutiques devez-vous donner à Mme Macha T.",
+    "options": [
+      "Ne jamais interrompre son traitement",
+      "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+      "Prévenir tous les professionnels de santé de son infection",
+      "Prendre son traitement à heure fixe",
+      "Éviter toute auto-médication"
+    ],
+    "correct_answers": [
+      "Ne jamais interrompre son traitement",
+      "Prendre son traitement à heure fixe",
+      "Signaler à son médecin traitant toute anomalie survenant au cours du traitement",
+      "Éviter toute auto-médication",
+      "Prévenir tous les professionnels de santé de son infection"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Virologie",
+    "question": "Choisir les items qui s'appliquent à ces vaccins.",
+    "options": [
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+      "Les vaccins ont été fabriqués en Californie, en Suisse, à Phuket",
+      "H3N2 caractérise un virus grippal de type B de sous-type H3N2",
+      "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+    ],
+    "correct_answers": [
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 3073 du virus grippal de type B isolé à Phuket",
+      "Une souche utilisée pour fabriquer le vaccin est analogue à l'isolat 97 15293 du virus grippal de type A isolé en Suisse",
+      "H1N1 pdm2009 caractérise un virus grippal de type A de sous-type H1N1 responsable de la pandémie 2009"
+    ],
+    "justification_fausses_reponses": {
+      "Les vaccins ont été fabriqués en Californie, en Suisse, à Phuket": "Cette affirmation est incorrecte car le lieu de fabrication d'un vaccin n'a pas d'importance pour sa composition ou son efficacité. Ce qui compte, c'est la souche du virus utilisée pour le fabriquer.",
+      "H3N2 caractérise un virus grippal de type B de sous-type H3N2": "Cette affirmation est incorrecte car le H3N2 est un sous-type du virus grippal de type A, et non de type B."
+    }
+  }
+]

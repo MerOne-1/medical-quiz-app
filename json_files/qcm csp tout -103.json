@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelle est cette molécule?",
+    "options": [
+      "cetirizine",
+      "ipratropium",
+      "loratadine",
+      "théophylline",
+      "ephedrine"
+    ],
+    "correct_answers": [
+      "loratadine"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Les interactions p - p ( stacking  ou empilage) sont des:",
+    "options": [
+      "Interactions dipôle-dipôle",
+      "Interactions hydrophobes",
+      "Interactions charge-dipôle",
+      "Liaisons hydrogène",
+      "Interactions électrostatiques"
+    ],
+    "correct_answers": [
+      "Interactions électrostatiques",
+      "Interactions dipôle-dipôle"
+    ]
+  }
+]

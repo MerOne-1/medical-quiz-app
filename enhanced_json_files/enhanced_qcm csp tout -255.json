@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Citer parmi les propositions suivantes, laquelle (lesquelles) peut (peuvent) être à l'origine d'un syndrome de coagulation intravasculaire disséminée (CIVD) :",
+    "options": [
+      "Grossesse pathologique",
+      "Chirurgie lourde",
+      "Septicémie bactérienne",
+      "Leucémie aiguë promyélocytaire (L AM 3)",
+      "Cancer métastasé"
+    ],
+    "correct_answers": [
+      "Septicémie bactérienne",
+      "Chirurgie lourde",
+      "Grossesse pathologique",
+      "Leucémie aiguë promyélocytaire (L AM 3)",
+      "Cancer métastasé"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les valeurs suivantes concernant l’hémogramme d’une femme enceinte en fin de 3  trimestre de grossesse, indiquez celle(s) qui vous semble(nt) pathologique(s) :",
+    "options": [
+      "Polynucléaires neutrophiles : 7.10 /L",
+      "Hb : 100g/L",
+      "Monocytes : 2.10 /L",
+      "Plaquettes : 110.10 /L",
+      "VGM : 105fl"
+    ],
+    "correct_answers": [
+      "Polynucléaires neutrophiles : 7.10 /L",
+      "Plaquettes : 110.10 /L",
+      "Monocytes : 2.10 /L"
+    ],
+    "justification_fausses_reponses": {
+      "Hb : 100g/L": "Cette valeur n'est pas pathologique. En effet, une femme enceinte en fin de troisième trimestre de grossesse peut avoir une hémoglobine (Hb) autour de 100g/L. C'est une adaptation normale de l'organisme à la grossesse.",
+      "VGM : 105fl": "Cette valeur n'est pas pathologique. Le volume globulaire moyen (VGM) mesure la taille moyenne des globules rouges. Une valeur de 105fl est dans la plage normale pour une femme enceinte."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Sélectionnez la ou les propositions exactes :",
+    "options": [
+      "Dans les PT AI aigus, les Ig polyvalentes purifiées par voie IV (ou IgG anti Rhésus D ) sont utilisées en traitement d’urgence afin de réduire le risque hémorragique",
+      "Les anti-inflammatoires non stéroïdiens sont responsables d’agranulocytose",
+      "Le PT AI de l’enfant se présente généralement sous la forme d’une thrombopénie isolée aigue et sévère dans les suites d’un épisode infectieux viral",
+      "Dans une anémie régénérative, un Coombs indirect positif permet de poser le diagnostic d’anémie hémolytique auto-imune (AHAI)",
+      "Une polyglobulie microcytaire chez un patient d’origine marocaine doit faire évoquer le diagnostic de thalassémie hétérozygote"
+    ],
+    "correct_answers": [
+      "Les anti-inflammatoires non stéroïdiens sont responsables d’agranulocytose",
+      "Dans les PT AI aigus, les Ig polyvalentes purifiées par voie IV (ou IgG anti Rhésus D ) sont utilisées en traitement d’urgence afin de réduire le risque hémorragique",
+      "Le PT AI de l’enfant se présente généralement sous la forme d’une thrombopénie isolée aigue et sévère dans les suites d’un épisode infectieux viral",
+      "Une polyglobulie microcytaire chez un patient d’origine marocaine doit faire évoquer le diagnostic de thalassémie hétérozygote"
+    ],
+    "justification_fausses_reponses": {
+      "Dans une anémie régénérative, un Coombs indirect positif permet de poser le diagnostic d’anémie hémolytique auto-imune (AHAI)": "Cette affirmation est incorrecte car le test de Coombs indirect n'est pas utilisé pour diagnostiquer une anémie hémolytique auto-immune. Le test de Coombs indirect est utilisé pour détecter les anticorps non agglutinants dans le sérum du patient qui pourraient réagir avec des antigènes spécifiques sur les globules rouges. En revanche, le test de Coombs direct est utilisé pour diagnostiquer une anémie hémolytique auto-immune."
+    }
+  }
+]

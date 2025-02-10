@@ -1,0 +1,34 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces groupements chimiques, les quels sont des accepteurs de liaisons hydrogène ?",
+    "options": [
+      "C=0",
+      "-OH",
+      "=N-",
+      "-NH",
+      "-O-"
+    ],
+    "correct_answers": [
+      "C=0",
+      "=N-",
+      "-O-"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes relatives au chlorambucil représenté ci-dessous, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+      "La présence du noyau aromatique induit une réactivité fortement augmentée par rapport à la chlorméthine",
+      "Le chlorambucil ne peut être administré que par voie intraveineuse",
+      "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+      "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+    ],
+    "correct_answers": [
+      "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+      "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+      "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+    ]
+  }
+]

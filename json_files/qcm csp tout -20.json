@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Quelle(s) proposition(s) est (sont) exactes(s) concernant le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Le OH est échangeable en présence d’eau lourde",
+      "On n’observera aucun signal pour le OH",
+      "Le OH est échangeable avec le deutérium du chloroforme-d",
+      "On observera un doublet pour OH",
+      "On observera un singulet pour OH"
+    ],
+    "correct_answers": [
+      "On observera un singulet pour OH",
+      "Le OH est échangeable en présence d’eau lourde"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "10 cm  = 1 mm",
+      "10 cm = 10  l",
+      "10 dm  = 10  mm",
+      "10nm = 10  m",
+      "10μm  = 10  m"
+    ],
+    "correct_answers": [
+      "10 dm  = 10  mm",
+      "10 cm  = 1 mm",
+      "10 nm = 10  m",
+      "10 μm  = 10  m",
+      "10  cm = 10 l"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+    "options": [
+      "Toutes les molécules peuvent êtres dosées par fluorescence",
+      "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+      "La polarimétrie permet de doser des molécules optiquement actives",
+      "Seules les molécules fluorées peuvent êtres dosées par fluorescence",
+      "Un dossier d’AMM requiert le spectre RMN H du principe actif"
+    ],
+    "correct_answers": [
+      "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+      "Un dossier d’AMM requiert le spectre RMN H du principe actif",
+      "La polarimétrie permet de doser des molécules optiquement actives"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "La pr ésence d'anticorps anti-ADNn dans un sér um",
+    "options": [
+      "est associée à la sclérose en plaque",
+      "peut-être détectée à l’aide du test de F arr",
+      "permet d’affirmer le diagnostic de polyarthrite rhumatoïde",
+      "est recherchée par la méthode de western blot",
+      "est associée généralement au lupus érythémateux disséminé"
+    ],
+    "correct_answers": [
+      "est associée généralement au lupus érythémateux disséminé",
+      "peut-être détectée à l’aide du test de F arr"
+    ],
+    "justification_fausses_reponses": {
+      "est associée à la sclérose en plaque": "La sclérose en plaque est une maladie auto-immune qui affecte le système nerveux central, pas spécifiquement associée à la présence d'anticorps anti-ADNn.",
+      "permet d’affirmer le diagnostic de polyarthrite rhumatoïde": "La polyarthrite rhumatoïde est généralement diagnostiquée par la présence d'anticorps anti-CCP et RF, pas d'anticorps anti-ADNn.",
+      "est recherchée par la méthode de western blot": "La méthode de western blot est utilisée pour détecter des protéines spécifiques dans un échantillon, pas des anticorps anti-ADNn."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Indiquez la ou les bonne(s) r éponse(s) : l’ etaner cept (ENBREL ®) est",
+    "options": [
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine F ab d’une IgG1 humaine",
+      "Indiqué dans le traitement de la polyarthrite rhumatoïde",
+      "Administré par voie sous-cutanée",
+      "Une protéine de fusion entre le domaine F ab d’une IgG1 humaine et le domaine intracellulaire du récepteur TNFR2"
+    ],
+    "correct_answers": [
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+      "Administré par voie sous-cutanée",
+      "Indiqué dans le traitement de la polyarthrite rhumatoïde"
+    ],
+    "justification_fausses_reponses": {
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine F ab d’une IgG1 humaine": "Cette affirmation est incorrecte car l'etanercept est une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine, et non le domaine F ab.",
+      "Une protéine de fusion entre le domaine F ab d’une IgG1 humaine et le domaine intracellulaire du récepteur TNFR2": "Cette affirmation est incorrecte car l'etanercept est une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine, et non le domaine F ab et le domaine intracellulaire du récepteur TNFR2."
+    }
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Cocher la ou les bonnes r éponses",
+    "options": [
+      "L’atopie est une prédisposition génétique à produire des IgE",
+      "Les IgG sont les médiateurs de l’hypersensibilité immédiate",
+      "L’atopie est une prédisposition génétique à développer des maladies autoimmunes",
+      "Les prostaglandines sont des médiateurs inflammatoires néoformés",
+      "L’histamine est un médiateur inflammatoire néoformé"
+    ],
+    "correct_answers": [
+      "L’atopie est une prédisposition génétique à produire des IgE",
+      "Les prostaglandines sont des médiateurs inflammatoires néoformés"
+    ],
+    "justification_fausses_reponses": {
+      "Les IgG sont les médiateurs de l’hypersensibilité immédiate": "C'est incorrect car les IgG ne sont pas les médiateurs de l'hypersensibilité immédiate. Ce sont plutôt les IgE qui jouent ce rôle.",
+      "L’atopie est une prédisposition génétique à développer des maladies autoimmunes": "C'est incorrect car l'atopie est une prédisposition génétique à produire des IgE et à développer des réactions allergiques, pas des maladies autoimmunes.",
+      "L’histamine est un médiateur inflammatoire néoformé": "C'est incorrect car l'histamine n'est pas un médiateur inflammatoire néoformé. Elle est stockée dans les granules des mastocytes et libérée lors d'une réaction allergique."
+    }
+  }
+]

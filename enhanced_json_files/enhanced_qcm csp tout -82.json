@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "On s'intéresse à la structure du prontosil, un antibactérien. Ce composé est inactif in vitro mais révèle son activité in vivo après métabolisation et libération d'un dérivé sulfamide. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La métabolisation du prontozil correspond à une réaction d'oxydation",
+      "La métabolisation du prontozil correspond à une réaction de réduction",
+      "Le groupement –NH  dans le produit 2 est en position para du groupement –SO NH",
+      "Le groupement –NH  du produit 2 exerce un effet mésomère donneur sur le noyau benzénique",
+      "Le produit 1 est un bon électrophile"
+    ],
+    "correct_answers": [
+      "La métabolisation du prontozil correspond à une réaction de réduction",
+      "Le groupement –NH  dans le produit 2 est en position para du groupement –SO NH",
+      "Le groupement –NH  du produit 2 exerce un effet mésomère donneur sur le noyau benzénique"
+    ],
+    "justification_fausses_reponses": {
+      "La métabolisation du prontozil correspond à une réaction d'oxydation": "La métabolisation du prontosil est une réaction de réduction, pas d'oxydation. Dans une réaction d'oxydation, un atome, ion ou molécule perd des électrons, ce qui n'est pas le cas ici.",
+      "Le produit 1 est un bon électrophile": "Cette affirmation est incorrecte car le produit 1 n'est pas un bon électrophile. Un bon électrophile est une espèce chimique qui a une forte tendance à accepter des électrons pour compléter sa couche externe. Or, le produit 1 ne présente pas cette caractéristique."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "L'afatinib, appartient à la classe thérapeutique des inhibiteurs de tyrosine kinase. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'afatinib possède une fonction amide, une fonction amine tertiaire et une fonction éther",
+      "L'afatinib est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "L'afatinib présente un hétérocycle aromatique",
+      "L'afatinib ne présente pas d'atomes accepteurs de liaisons H",
+      "L'afatinib est un accepteur de Michaël"
+    ],
+    "correct_answers": [
+      "L'afatinib possède une fonction amide, une fonction amine tertiaire et une fonction éther",
+      "L'afatinib est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "L'afatinib présente un hétérocycle aromatique",
+      "L'afatinib est un accepteur de Michaël"
+    ],
+    "justification_fausses_reponses": {
+      "L'afatinib ne présente pas d'atomes accepteurs de liaisons H": "Cette affirmation est incorrecte car l'afatinib possède plusieurs atomes d'oxygène et d'azote qui sont des accepteurs de liaisons hydrogène. Les liaisons hydrogène sont essentielles pour l'interaction de l'afatinib avec les protéines cibles."
+    }
+  }
+]

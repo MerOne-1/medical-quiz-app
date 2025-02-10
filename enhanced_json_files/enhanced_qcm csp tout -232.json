@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la Taq polymérase, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il s’agit d’une transcriptase inverse",
+      "Il s’agit d’une ADN polymérase",
+      "Il s’agit d’une enzyme de restriction",
+      "Il s’agit d’une ARN polymérase",
+      "Aucune des affirmations n’est exacte"
+    ],
+    "correct_answers": [
+      "Il s’agit d’une ADN polymérase"
+    ],
+    "justification_fausses_reponses": {
+      "Il s’agit d’une transcriptase inverse": "La Taq polymérase n'est pas une transcriptase inverse. La transcriptase inverse est une enzyme qui catalyse la synthèse d'ADN à partir d'un modèle d'ARN, ce qui n'est pas le cas de la Taq polymérase.",
+      "Il s’agit d’une enzyme de restriction": "La Taq polymérase n'est pas une enzyme de restriction. Les enzymes de restriction sont des protéines qui coupent l'ADN à des endroits spécifiques, tandis que la Taq polymérase est une enzyme qui synthétise de nouvelles chaînes d'ADN.",
+      "Il s’agit d’une ARN polymérase": "La Taq polymérase n'est pas une ARN polymérase. Les ARN polymérases sont des enzymes qui synthétisent l'ARN à partir d'un modèle d'ADN, tandis que la Taq polymérase synthétise de l'ADN.",
+      "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car la Taq polymérase est bien une ADN polymérase."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le Km, la constante de Michaelis, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est égale à V / 2",
+      "Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substrat",
+      "Elle est diminuée en présence d’un inhibiteur compétitif",
+      "Cette constante est identique pour toutes les enzymes",
+      "Elle s’exprime en mol/min"
+    ],
+    "correct_answers": [
+      "Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est égale à V / 2",
+      "Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substrat"
+    ],
+    "justification_fausses_reponses": {
+      "Elle est diminuée en présence d’un inhibiteur compétitif": "En réalité, la présence d'un inhibiteur compétitif augmente le Km, car il diminue l'affinité de l'enzyme pour son substrat.",
+      "Cette constante est identique pour toutes les enzymes": "Le Km est spécifique à chaque enzyme et à son substrat, il n'est donc pas identique pour toutes les enzymes.",
+      "Elle s’exprime en mol/min": "Le Km s'exprime en concentration (mol/L), pas en vitesse (mol/min). Il s'agit de la concentration de substrat nécessaire pour atteindre la moitié de la vitesse maximale de la réaction."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le fer excédentaire est physiologiquement éliminé par voie urinaire",
+      "La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves",
+      "Le degré de saturation de la transferrine permet d’apprécier la quantité de fer dans les réserves",
+      "Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves",
+      "L’hémochromatose héréditaire est une cause de surcharge en fer"
+    ],
+    "correct_answers": [
+      "Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves",
+      "La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves",
+      "L’hémochromatose héréditaire est une cause de surcharge en fer"
+    ],
+    "justification_fausses_reponses": {
+      "Le fer excédentaire est physiologiquement éliminé par voie urinaire": "C'est incorrect car le fer excédentaire n'est pas éliminé par voie urinaire. En réalité, le corps humain n'a pas de moyen direct d'éliminer le fer excédentaire. Le fer est plutôt stocké dans le foie, la rate et la moelle osseuse.",
+      "Le degré de saturation de la transferrine permet d’apprécier la quantité de fer dans les réserves": "C'est incorrect car le degré de saturation de la transferrine reflète la quantité de fer disponible pour être utilisée par le corps, et non la quantité de fer stockée dans les réserves. Les réserves de fer sont plutôt évaluées par la ferritine sérique."
+    }
+  }
+]

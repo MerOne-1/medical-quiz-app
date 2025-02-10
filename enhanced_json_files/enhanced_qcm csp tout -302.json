@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle(s) exacte(s)",
+    "options": [
+      "L'acide acétylsalicylique est issu de la digitale.",
+      "Le paclitaxel est issu de l'if.",
+      "La photosynthèse fait partie du métabolisme secondaire.",
+      "Chez les végétaux, le métabolisme secondaire produit les éléments essentiels pour que le métabolisme primaire puisse fonctionner.",
+      "Il n'y a pas de médicament, actuellement utilisé, issu des végétaux. Tous sont maintenant synthétisés."
+    ],
+    "correct_answers": [
+      "Le paclitaxel est issu de l'if."
+    ],
+    "justification_fausses_reponses": {
+      "L'acide acétylsalicylique est issu de la digitale.": "C'est incorrect. L'acide acétylsalicylique, aussi connu sous le nom d'aspirine, est issu de l'écorce de saule, pas de la digitale.",
+      "La photosynthèse fait partie du métabolisme secondaire.": "C'est incorrect. La photosynthèse est une partie essentielle du métabolisme primaire des plantes, pas du métabolisme secondaire.",
+      "Chez les végétaux, le métabolisme secondaire produit les éléments essentiels pour que le métabolisme primaire puisse fonctionner.": "C'est incorrect. Le métabolisme secondaire des plantes produit des composés qui ne sont pas essentiels à la survie immédiate de la plante, mais qui peuvent avoir des rôles importants dans l'interaction de la plante avec son environnement.",
+      "Il n'y a pas de médicament, actuellement utilisé, issu des végétaux. Tous sont maintenant synthétisés.": "C'est incorrect. De nombreux médicaments sont encore aujourd'hui dérivés de plantes, comme la morphine (du pavot) ou la quinine (de l'écorce de quinquina)."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Pour reconnaître le caractère comestible d’un champignon, il faut :",
+    "options": [
+      "L’identifier au rang spécifique sans erreur",
+      "Le frotter avec de l’ail pour constater un changement de coloration",
+      "Se rapprocher des récolteurs croisés en forêt et leur poser la question",
+      "Consulter un ouvrage illustré et comparer les images à la récolte en question.",
+      "Se rapprocher d’un pharmacien ou d’une société mycologique"
+    ],
+    "correct_answers": [
+      "L’identifier au rang spécifique sans erreur",
+      "Se rapprocher d’un pharmacien ou d’une société mycologique"
+    ],
+    "justification_fausses_reponses": {
+      "Le frotter avec de l’ail pour constater un changement de coloration": "Cette méthode est incorrecte car le changement de coloration d'un champignon en contact avec de l'ail n'est pas un indicateur fiable de sa comestibilité. Certains champignons toxiques peuvent ne pas changer de couleur.",
+      "Se rapprocher des récolteurs croisés en forêt et leur poser la question": "Cette méthode est risquée car tous les récolteurs ne sont pas nécessairement experts en mycologie. Ils peuvent faire des erreurs d'identification qui peuvent avoir des conséquences graves pour la santé.",
+      "Consulter un ouvrage illustré et comparer les images à la récolte en question.": "Bien que cela puisse aider, cette méthode n'est pas infaillible. Les illustrations peuvent ne pas capturer toutes les caractéristiques d'un champignon, et certaines espèces comestibles et toxiques peuvent se ressembler beaucoup."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisir celle(s) qui présente(ent) différents termes dans le bon ordre, de l’extérieur vers l’intérieur :",
+    "options": [
+      "Ovaire, ovule, téguments",
+      "Téguments, ovaire, ovule",
+      "Ovaire, téguments",
+      "Ovule ovaire, sac embryonnaire",
+      "Nucelle, sac embryonnaire"
+    ],
+    "correct_answers": [
+      "Ovaire, ovule, téguments",
+      "Nucelle, sac embryonnaire",
+      "Ovaire, téguments"
+    ],
+    "justification_fausses_reponses": {
+      "Téguments, ovaire, ovule": "Cette option est incorrecte car les téguments sont une couche protectrice qui entoure l'ovule, et non l'ovaire. L'ordre correct est donc ovaire, ovule, téguments.",
+      "Ovule ovaire, sac embryonnaire": "Cette option est incorrecte car l'ovaire est la partie externe qui contient l'ovule et le sac embryonnaire. L'ordre correct est donc ovaire, ovule, sac embryonnaire."
+    }
+  }
+]

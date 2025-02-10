@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Les anomalies suivantes peuvent être responsables d’hémorragies",
+    "options": [
+      "Un déficit en protéine C",
+      "Un déficit en FVIII",
+      "Un déficit en FXII",
+      "Un anticoagulant circulant de type lupique",
+      "Un déficit en FXI"
+    ],
+    "correct_answers": [
+      "Un déficit en FVIII",
+      "Un déficit en FXI"
+    ],
+    "justification_fausses_reponses": {
+      "Un déficit en protéine C": "La protéine C est une protéine anticoagulante, donc un déficit en protéine C entraînerait plutôt une tendance à la thrombose, pas à l'hémorragie.",
+      "Un déficit en FXII": "Le facteur XII (FXII) est impliqué dans la voie de contact de la coagulation, qui n'est pas essentielle pour la coagulation in vivo. Par conséquent, un déficit en FXII ne provoque pas d'hémorragie.",
+      "Un anticoagulant circulant de type lupique": "L'anticoagulant lupique est un auto-anticorps qui interfère avec les tests de coagulation in vitro, mais en réalité, il est associé à un risque accru de thrombose, pas d'hémorragie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le fibrinogène",
+    "options": [
+      "Il est synthétisé au niveau hépatique",
+      "Sa concentration plasmatique diminue en cas de syndrome inflammatoire",
+      "Il est transformé en fibrine par la thrombine",
+      "Il est inhibé par les traitements A VK",
+      "Il intervient dans l’hémostase primaire"
+    ],
+    "correct_answers": [
+      "Il est synthétisé au niveau hépatique",
+      "Il intervient dans l’hémostase primaire",
+      "Il est transformé en fibrine par la thrombine"
+    ],
+    "justification_fausses_reponses": {
+      "Sa concentration plasmatique diminue en cas de syndrome inflammatoire": "En réalité, la concentration plasmatique de fibrinogène augmente en cas de syndrome inflammatoire. C'est une protéine de phase aiguë, sa synthèse est donc stimulée par les cytokines inflammatoires.",
+      "Il est inhibé par les traitements A VK": "C'est incorrect, les traitements antivitamine K (AVK) n'inhibent pas le fibrinogène. Ils agissent en inhibant la vitamine K, une coenzyme nécessaire à la synthèse de plusieurs facteurs de la coagulation, mais pas le fibrinogène."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi ces éléments, lesquels exposent à un risque accru de thrombose veineuse profonde ?",
+    "options": [
+      "Un alitement prolongé",
+      "Un déficit en antithrombine",
+      "Un déficit en facteur V",
+      "Une grossesse",
+      "Un cancer actif"
+    ],
+    "correct_answers": [
+      "Un cancer actif",
+      "Un alitement prolongé",
+      "Un déficit en antithrombine",
+      "Une grossesse"
+    ],
+    "justification_fausses_reponses": {
+      "Un déficit en facteur V": "Le facteur V est un facteur de coagulation dans le sang. Un déficit en facteur V ne conduit pas à une thrombose veineuse profonde, mais plutôt à une tendance aux saignements. C'est l'opposé d'une thrombose."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Toutes ces indications des anti-vitamines K nécessitent un INR compris entre 2 et 3 sauf une, laquelle ?",
+    "options": [
+      "Prothèse valvulaire mécanique",
+      "Fibrillation auriculaire",
+      "Embolie pulmonaire",
+      "Prothèse valvulaire biologique",
+      "Thrombose veineuse profonde des membres inférieurs"
+    ],
+    "correct_answers": [
+      "Prothèse valvulaire mécanique"
+    ],
+    "justification_fausses_reponses": {
+      "Fibrillation auriculaire": "La fibrillation auriculaire nécessite un INR entre 2 et 3 car elle peut provoquer la formation de caillots sanguins qui peuvent entraîner un AVC.",
+      "Embolie pulmonaire": "L'embolie pulmonaire nécessite un INR entre 2 et 3 car elle est causée par un caillot sanguin qui bloque une artère dans les poumons. Un INR dans cette plage aide à prévenir la formation de nouveaux caillots.",
+      "Prothèse valvulaire biologique": "Une prothèse valvulaire biologique nécessite un INR entre 2 et 3 car elle peut provoquer la formation de caillots sanguins qui peuvent bloquer le flux sanguin à travers la valve.",
+      "Thrombose veineuse profonde des membres inférieurs": "La thrombose veineuse profonde des membres inférieurs nécessite un INR entre 2 et 3 car elle est causée par un caillot sanguin dans une veine profonde, généralement dans la jambe. Un INR dans cette plage aide à prévenir la formation de nouveaux caillots."
+    }
+  }
+]

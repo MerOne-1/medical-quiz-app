@@ -1,0 +1,49 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "Donner la (les) proposition(s) exacte(s) concernant le mécanisme oxydatif (ou poussée respiratoire)",
+    "options": [
+      "Il est défectueux dans la granulomatose septique chronique",
+      "Il permet la production de peroxyde d’hydrogène",
+      "C’est un mécanisme de destruction de bactéries pathogènes",
+      "Il fait intervenir la NADPH oxydase, la myéloperoxydase et la MO synthétase",
+      "Il a lieu dans les macrophages, les neutrophiles et les mastocytes"
+    ],
+    "correct_answers": [
+      "C’est un mécanisme de destruction de bactéries pathogènes",
+      "Il est défectueux dans la granulomatose septique chronique",
+      "Il permet la production de peroxyde d’hydrogène"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Concernant les immunosuppresseurs, quelle(s) proposition(s) est (sont) exacte(s)",
+    "options": [
+      "La grossesse est une contre-indication à la prescription de méthotrexate",
+      "L’azathioprine est une prodrogue du méthotrexate",
+      "L’azathioprine est un immunosuppresseur antiprolifératif",
+      "Azathioprine et 6-mercaptopurine sont des inhibiteurs de la DHFR",
+      "Ils vont être associés à une augmentation du risque d’infection"
+    ],
+    "correct_answers": [
+      "Ils vont être associés à une augmentation du risque d’infection",
+      "La grossesse est une contre-indication à la prescription de méthotrexate",
+      "L’azathioprine est un immunosuppresseur antiprolifératif"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Quelles sont les cellules conservant une mémoire immunologique",
+    "options": [
+      "Les cellules dendritiques",
+      "Les lymphocytes B",
+      "Les lymphocytes T",
+      "Les polynucléaires",
+      "Les macrophages"
+    ],
+    "correct_answers": [
+      "Les lymphocytes T",
+      "Les lymphocytes B"
+    ]
+  }
+]

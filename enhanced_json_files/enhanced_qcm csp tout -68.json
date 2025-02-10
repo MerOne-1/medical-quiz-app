@@ -1,0 +1,41 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La structure du glutathion présente deux atomes de carbone asymétriques",
+      "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+      "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+      "La structure du glutathion présente une cystéine et une glycine",
+      "Le glutathion peut former des ponts disulfures"
+    ],
+    "correct_answers": [
+      "La structure du glutathion présente deux atomes de carbone asymétriques",
+      "La fonction amine du glutathion est protonée à pH physiologique (pH 7,4)",
+      "La fonction acide du glutathion est déprotonée à pH physiologique (pH 7,4)",
+      "La structure du glutathion présente une cystéine et une glycine",
+      "Le glutathion peut former des ponts disulfures"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La chloroquine possède un noyau indole",
+      "La chloroquine est administrée sous la forme d'un mélange racémique",
+      "La chloroquine est protonée à pH physiologique (pH 7,4)",
+      "L'atome de chlore présente un effet inductif électroattracteur",
+      "L'atome d'azote de l'hétérocycle est un bon donneur de liaison hydrogène"
+    ],
+    "correct_answers": [
+      "La chloroquine est administrée sous la forme d'un mélange racémique",
+      "La chloroquine est protonée à pH physiologique (pH 7,4)",
+      "L'atome de chlore présente un effet inductif électroattracteur"
+    ],
+    "justification_fausses_reponses": {
+      "La chloroquine possède un noyau indole": "C'est incorrect car la chloroquine ne possède pas de noyau indole dans sa structure chimique. Le noyau indole est un composé aromatique bicyclique constitué d'un cycle benzénique et d'un cycle pyrrole fusionnés.",
+      "L'atome d'azote de l'hétérocycle est un bon donneur de liaison hydrogène": "C'est incorrect car l'atome d'azote dans l'hétérocycle de la chloroquine n'est pas un bon donneur de liaison hydrogène. Pour être un bon donneur, l'atome d'azote doit avoir un hydrogène directement attaché, ce qui n'est pas le cas dans la structure de la chloroquine."
+    }
+  }
+]

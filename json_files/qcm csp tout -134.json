@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les molécules ou familles de molécules suivantes, laquelle (lesquelles) est (sont) de nature stéroïdique ?",
+    "options": [
+      "Cholestérol",
+      "Acide fusidique",
+      "Digoxine",
+      "Vitamine D",
+      "Ethinylestradiol"
+    ],
+    "correct_answers": [
+      "Cholestérol",
+      "Acide fusidique",
+      "Vitamine D",
+      "Digoxine",
+      "Ethinylestradiol"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Le Crémophor* :",
+    "options": [
+      "est largement utilisé pour la formulation de produits peu absorbés par voie orale",
+      "est un excipient à effet notoire",
+      "est préoccupant par sa teneur en sodium",
+      "est produit à partir d’huile végétale de ricin",
+      "est allergisant"
+    ],
+    "correct_answers": [
+      "est produit à partir d’huile végétale de ricin",
+      "est un excipient à effet notoire",
+      "est allergisant"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les macrolides immunosuppresseurs sont tous désignés par des DCI se terminant par « -rolimus »",
+      "L’acide mycophénolique agit via une immunophiline",
+      "La ciclosporine et le tacrolimus peuvent être associés en thérapeutique",
+      "La ciclosporine et le sirolimus peuvent être associés en thérapeutique",
+      "Le sirolimus est la rapamycine"
+    ],
+    "correct_answers": [
+      "Les macrolides immunosuppresseurs sont tous désignés par des DCI se terminant par « -rolimus »",
+      "Le sirolimus est la rapamycine",
+      "La ciclosporine et le sirolimus peuvent être associés en thérapeutique"
+    ]
+  }
+]

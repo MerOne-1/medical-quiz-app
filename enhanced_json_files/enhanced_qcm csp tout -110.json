@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la morphine et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "la morphine est un alcaloïde",
+      "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes",
+      "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+      "les deux fonctions OH sont équivalentes",
+      "la morphine est un composé acide"
+    ],
+    "correct_answers": [
+      "la morphine est un alcaloïde",
+      "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+      "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes"
+    ],
+    "justification_fausses_reponses": {
+      "les deux fonctions OH sont équivalentes": "Cette affirmation est incorrecte car les deux fonctions OH de la morphine ne sont pas équivalentes. Elles ont des positions différentes sur la molécule, ce qui influence leurs propriétés chimiques et leur réactivité.",
+      "la morphine est un composé acide": "Cette affirmation est incorrecte car la morphine n'est pas un composé acide. Elle est un alcaloïde, une classe de composés naturels contenant principalement des atomes d'azote basiques."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes se rapportant à la chiralité des médicaments, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "les médicaments racémiques produisent toujours des effets thérapeutiques moins intéressants que les énantiomères purs",
+      "l’identification de l'énantiomère le plus efficace a permis la commercialisation de l’énantiomère pur dans le cas du sotalol et du labétalol",
+      "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+      "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes",
+      "dans un mélange racémique, le métabolisme de premier passage hépatique est plus rapide pour l’énantiomère le plus actif"
+    ],
+    "correct_answers": [
+      "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+      "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes"
+    ],
+    "justification_fausses_reponses": {
+      "les médicaments racémiques produisent toujours des effets thérapeutiques moins intéressants que les énantiomères purs": "Cette affirmation est fausse car l'efficacité thérapeutique d'un médicament ne dépend pas uniquement de sa chiralité. Un mélange racémique peut parfois être plus efficace qu'un énantiomère pur.",
+      "l’identification de l'énantiomère le plus efficace a permis la commercialisation de l’énantiomère pur dans le cas du sotalol et du labétalol": "Cette affirmation est incorrecte car tous les médicaments ne sont pas commercialisés sous la forme de l'énantiomère le plus efficace. Cela dépend de nombreux facteurs, y compris la facilité de production et les coûts.",
+      "dans un mélange racémique, le métabolisme de premier passage hépatique est plus rapide pour l’énantiomère le plus actif": "Cette affirmation est fausse car le métabolisme de premier passage hépatique ne dépend pas de l'activité de l'énantiomère, mais de sa structure chimique et de son interaction avec les enzymes hépatiques."
+    }
+  }
+]

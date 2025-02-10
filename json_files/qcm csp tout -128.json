@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Certains Aspergillus sont des pathogènes opportunistes",
+      "Certains Aspergillus produisent des médicaments",
+      "Les aspergilloses font partie des indications thérapeutiques des échinocandines",
+      "Certains Aspergillus produisent les aflatoxines, dont des représentants cancérigènes doivent être détectés dans certaines plantes médicinales",
+      "Les Aspergillus sont des champignons"
+    ],
+    "correct_answers": [
+      "Certains Aspergillus produisent les aflatoxines, dont des représentants cancérigènes doivent être détectés dans certaines plantes médicinales",
+      "Certains Aspergillus sont des pathogènes opportunistes",
+      "Certains Aspergillus produisent des médicaments",
+      "Les Aspergillus sont des champignons",
+      "Les aspergilloses font partie des indications thérapeutiques des échinocandines"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les héparines sont des composés peptidiques d’origine ribosomique",
+      "Le code génétique s’applique à la biosynthèse des deux types de peptides, ribosomiques et non ribosomiques",
+      "La ciclosporine est un composé peptidique d’origine non ribosomique",
+      "Peptides ribosomiques et non ribosomiques sont constitués exclusivement d’acides aminés de la série L",
+      "L’insuline est un composé peptidique d’origine ribosomique"
+    ],
+    "correct_answers": [
+      "L’insuline est un composé peptidique d’origine ribosomique",
+      "La ciclosporine est un composé peptidique d’origine non ribosomique"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "L’étoposide inhibe l’assemblage des microtubules",
+      "La colchicine est un anticancéreux",
+      "La colchicine inhibe l’assemblage des microtubules",
+      "La colchicine est issue du colchique",
+      "L’étoposide est un anticancéreux"
+    ],
+    "correct_answers": [
+      "La colchicine est issue du colchique",
+      "La colchicine inhibe l’assemblage des microtubules",
+      "L’étoposide est un anticancéreux"
+    ]
+  }
+]

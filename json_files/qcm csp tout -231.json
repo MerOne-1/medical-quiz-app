@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+      "L’hepcidine est une hormone hypersidérémiante",
+      "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+      "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+      "Le fer de l’hème doit être à l’état ferreux"
+    ],
+    "correct_answers": [
+      "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+      "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+      "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+      "Le fer de l’hème doit être à l’état ferreux"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’électrophorèse des molécules d’ADN sur un gel d’agarose, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+      "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques",
+      "La séparation des molécules d’ADN se fait en fonction de leur charge",
+      "Les molécules d’ADN migrent vers le pôle positif",
+      "Les molécules d’ADN migrent vers le pôle négatif"
+    ],
+    "correct_answers": [
+      "Les molécules d’ADN migrent vers le pôle positif",
+      "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+      "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques"
+    ]
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant les enzymes en général, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il s’agit de glucides",
+      "Il s’agit de lipides",
+      "Il s’agit d’acides nucléiques",
+      "Il s’agit de protéines",
+      "Il s’agit de catalyseurs biologiques"
+    ],
+    "correct_answers": [
+      "Il s’agit de protéines",
+      "Il s’agit de catalyseurs biologiques"
+    ]
+  }
+]

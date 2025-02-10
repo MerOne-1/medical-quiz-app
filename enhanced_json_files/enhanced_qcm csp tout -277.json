@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "A quoi cela vous fait-il penser ?",
+    "options": [
+      "une lente de poux",
+      "un œuf d'oxyure",
+      "un insecte",
+      "un acarien",
+      "une larve de pou qui émerge"
+    ],
+    "correct_answers": [
+      "une lente de poux",
+      "une larve de pou qui émerge",
+      "un insecte"
+    ],
+    "justification_fausses_reponses": {
+      "un œuf d'oxyure": "Cette réponse est incorrecte car un œuf d'oxyure est généralement de forme ovale et transparent, ce qui ne correspond pas à la description donnée.",
+      "un acarien": "Cette réponse est incorrecte car un acarien est un petit arachnide, qui ne correspond pas à la description donnée."
+    }
+  }
+]

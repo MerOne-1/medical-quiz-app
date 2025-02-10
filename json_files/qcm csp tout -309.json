@@ -1,0 +1,45 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Les espèces responsables du syndrome muscarinien se rencontrent dans les espèces ou genres suivants",
+    "options": [
+      "Inocybe  et Clitocybe",
+      "Boletus satanas",
+      "Inocybe jurana  et Lepista nebularis  (clitocybe nébuleux)",
+      "Psilocybe  et Panaeolus",
+      "Amanita muscaria  et Amanita pantherina"
+    ],
+    "correct_answers": [
+      "Inocybe  et Clitocybe"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, laquelle est vraie ?",
+    "options": [
+      "Toutes les amanites ont une volve et un voile partiel",
+      "Tous les champignons consommés par au moins un autre mammifère que nous, sont d'emblée considérés comme comestibles",
+      "Toutes les amanites ont un voile général",
+      "Toutes les amanites sont toxiques crues",
+      "Toutes les amanites sont comestibles cuites"
+    ],
+    "correct_answers": [
+      "Toutes les amanites ont un voile général"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes, relatives au temps d'incubation dans les cas de mycétisme, choisir celle(s) exacte(s)",
+    "options": [
+      "Il permet de connaître la durée totale des syndromes",
+      "S'il est court (< 3h), il permet d'envisager un dosage des CPK, des transaminases, de la créatinine sanguine…",
+      "Pour tous les champignons toxiques, il permet de savoir si le pronostic vital est engagé",
+      "Il permet d'appréhender un risque mortel",
+      "Il doit être considéré avec précautions en cas de mélange"
+    ],
+    "correct_answers": [
+      "Il permet d'appréhender un risque mortel",
+      "Il doit être considéré avec précautions en cas de mélange"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La ticlopidine présente un atome de carbone asymétrique",
+      "Le clopidogrel présente un atome de carbone asymétrique",
+      "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+      "Le clopidogrel présente une fonction ester",
+      "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+    ],
+    "correct_answers": [
+      "Le clopidogrel présente un atome de carbone asymétrique",
+      "La ticlopidine et le clopidogrel présentent un hétérocycle aromatique qui est le thiophène",
+      "Le clopidogrel présente une fonction ester",
+      "La ticlopidine et le clopidogrel sont protonés à pH physiologique (pH 7,4)"
+    ]
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'étape 1 correspond à une réaction de substitution nucléophile",
+      "L'étape 1 correspond à une réaction d'addition nucléophile",
+      "L'étape 2 correspond à une réaction de réduction de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "Le produit 1 est un électrophile"
+    ],
+    "correct_answers": [
+      "L'étape 1 correspond à une réaction d'addition nucléophile",
+      "L'étape 2 correspond à une réaction d'oxydation de l'hémithioacétal par le NAD+ (Nicotinamide adénine dinucléotide sous sa forme oxydée)",
+      "Le produit 1 est un électrophile"
+    ]
+  }
+]

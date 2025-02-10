@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="file-upload-section">
+            <h2>Import Quiz</h2>
+            <input type="file" id="quiz-file" accept=".json">
+            <button onclick="importQuiz()">Import</button>
+            <p class="help-text">Please select a JSON file containing your quiz questions</p>
+        </div>
+
+        <div id="quiz-section" style="display: none;">
+            <div class="card">
+                <div class="question-number">Question <span id="current-question">1</span>/<span id="total-questions">0</span></div>
+                <div class="question-text" id="question"></div>
+                <div class="options" id="options"></div>
+                <button id="check-answer" onclick="checkAnswer()">Check Answer</button>
+                <button id="next-question" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            </div>
+
+            <div class="progress">
+                <div class="score">Score: <span id="score">0</span></div>
+                <button onclick="restartQuiz()">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

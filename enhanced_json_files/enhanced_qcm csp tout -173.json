@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Composition ionique des liquides biologiques :",
+    "options": [
+      "La concentration de chlorures est plus élevée à l’extérieur de la cellule qu’à l’intérieur.",
+      "La concentration de calcium est homogène à l’intérieur de la cellule.",
+      "La concentration de bicarbonate est plus faible à l’extérieur de la cellule qu’à l’intérieur.",
+      "La concentration de protéines ionisées est plus faible à l’intérieur de la cellule qu’à l’extérieur.",
+      "La concentration de sodium intracellulaire est supérieure à celle du potassium."
+    ],
+    "correct_answers": [
+      "La concentration de chlorures est plus élevée à l’extérieur de la cellule qu’à l’intérieur."
+    ],
+    "justification_fausses_reponses": {
+      "La concentration de calcium est homogène à l’intérieur de la cellule.": "C'est incorrect car la concentration de calcium n'est pas homogène à l'intérieur de la cellule. Elle est régulée par des mécanismes de transport actif qui maintiennent une concentration intracellulaire de calcium faible.",
+      "La concentration de bicarbonate est plus faible à l’extérieur de la cellule qu’à l’intérieur.": "C'est incorrect car la concentration de bicarbonate est généralement plus élevée à l'extérieur de la cellule qu'à l'intérieur. Le bicarbonate est un tampon important dans le sang pour maintenir l'équilibre acido-basique.",
+      "La concentration de protéines ionisées est plus faible à l’intérieur de la cellule qu’à l’extérieur.": "C'est incorrect car la concentration de protéines ionisées est généralement plus élevée à l'intérieur de la cellule qu'à l'extérieur. Les protéines ionisées jouent un rôle crucial dans le maintien de l'équilibre électrochimique de la cellule.",
+      "La concentration de sodium intracellulaire est supérieure à celle du potassium.": "C'est incorrect car la concentration de sodium est généralement plus faible à l'intérieur de la cellule qu'à l'extérieur, tandis que la concentration de potassium est plus élevée à l'intérieur de la cellule."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Selon la loi de Frank-S tarling:",
+    "options": [
+      "Le volume d'éjection du ventricule gauche est plus important que celui du ventricule droit.",
+      "Les deux ventricules se contractent simultanément.",
+      "Le volume d'éjection systolique augmente avec la fréquence cardiaque.",
+      "Le volume d'éjection systolique augmente quand le retour veineux augmente.",
+      "Le rythme d'un coeur humain isolé de l'organisme est de 100 battements par minute."
+    ],
+    "correct_answers": [
+      "Le volume d'éjection systolique augmente quand le retour veineux augmente."
+    ],
+    "justification_fausses_reponses": {
+      "Le volume d'éjection du ventricule gauche est plus important que celui du ventricule droit.": "C'est incorrect car selon la loi de Frank-Starling, le volume d'éjection des deux ventricules est égal, assurant un équilibre entre les circulations pulmonaire et systémique.",
+      "Les deux ventricules se contractent simultanément.": "C'est incorrect car bien que les deux ventricules se contractent presque simultanément, cela n'a rien à voir avec la loi de Frank-Starling qui concerne la relation entre la précharge cardiaque et le volume d'éjection systolique.",
+      "Le volume d'éjection systolique augmente avec la fréquence cardiaque.": "C'est incorrect car selon la loi de Frank-Starling, le volume d'éjection systolique est indépendant de la fréquence cardiaque. Il est plutôt déterminé par le retour veineux et la précharge cardiaque.",
+      "Le rythme d'un coeur humain isolé de l'organisme est de 100 battements par minute.": "C'est incorrect car cela n'a rien à voir avec la loi de Frank-Starling. De plus, le rythme d'un cœur humain isolé peut varier en fonction de nombreux facteurs."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e :",
+    "options": [
+      "L’unité motrice des muscles posturaux innerve un petit nombre de cellules musculaires.",
+      "Le réflexe myotatique joue un rôle négligeable dans le rôle physiologique des muscles posturaux.",
+      "Les muscles posturaux se contactent très rapidement.",
+      "Les muscles extenseurs sont souvent des muscles posturaux.",
+      "Les muscles posturaux sont rarement sollicités."
+    ],
+    "correct_answers": [
+      "Les muscles extenseurs sont souvent des muscles posturaux."
+    ],
+    "justification_fausses_reponses": {
+      "L’unité motrice des muscles posturaux innerve un petit nombre de cellules musculaires.": "En réalité, l'unité motrice des muscles posturaux innerve un grand nombre de cellules musculaires, ce qui permet une contraction plus fine et plus durable.",
+      "Le réflexe myotatique joue un rôle négligeable dans le rôle physiologique des muscles posturaux.": "C'est incorrect, le réflexe myotatique joue un rôle essentiel dans le maintien de la posture et l'équilibre.",
+      "Les muscles posturaux se contactent très rapidement.": "C'est faux, les muscles posturaux ont une contraction lente et soutenue pour maintenir la posture et l'équilibre.",
+      "Les muscles posturaux sont rarement sollicités.": "C'est incorrect, les muscles posturaux sont constamment sollicités pour maintenir la posture et l'équilibre."
+    }
+  }
+]

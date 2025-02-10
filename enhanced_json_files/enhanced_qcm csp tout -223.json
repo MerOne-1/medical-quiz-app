@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le virus de l’hépatite A, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il peut entraîner une hépatite chronique",
+      "L’infection peut être prévenue par vaccination",
+      "C’est un virus à ADN",
+      "Il peut entraîner une hépatite fulminante",
+      "Il est transmis par voie orofécale"
+    ],
+    "correct_answers": [
+      "Il est transmis par voie orofécale",
+      "Il peut entraîner une hépatite fulminante",
+      "L’infection peut être prévenue par vaccination"
+    ],
+    "justification_fausses_reponses": {
+      "Il peut entraîner une hépatite chronique": "Le virus de l'hépatite A ne provoque pas d'hépatite chronique. Il provoque une infection aiguë qui se résout généralement d'elle-même.",
+      "C’est un virus à ADN": "Le virus de l'hépatite A est un virus à ARN, pas un virus à ADN. Les virus à ARN utilisent l'acide ribonucléique comme matériel génétique, contrairement aux virus à ADN."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant le glutamate, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il permet l’assimilation de l’azote",
+      "Il peut être transformé en glutamine",
+      "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+      "Il peut être synthétisé à partir de l’alpha cétobutyrate",
+      "Son seul devenir est la synthèse protéique"
+    ],
+    "correct_answers": [
+      "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+      "Il permet l’assimilation de l’azote",
+      "Il peut être transformé en glutamine"
+    ],
+    "justification_fausses_reponses": {
+      "Il peut être synthétisé à partir de l’alpha cétobutyrate": "C'est incorrect car le glutamate est synthétisé à partir de l'alpha cétoglutarate, et non de l'alpha cétobutyrate. L'alpha cétobutyrate n'est pas impliqué dans la synthèse du glutamate.",
+      "Son seul devenir est la synthèse protéique": "C'est faux car le glutamate a plusieurs devenirs possibles. Il peut être transformé en glutamine, il peut permettre l'assimilation de l'azote et il peut être synthétisé à partir de l'alpha cétoglutarate. La synthèse protéique n'est donc pas son unique devenir."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi ces substances, quelle est celle qui est prescrite afin de limiter la toxicité du méthotrexate lorsque ce dernier est administré à hautes doses ?",
+    "options": [
+      "Vitamine A",
+      "Vitamine B12",
+      "Acide folinique",
+      "Vitamine C",
+      "Calciferol"
+    ],
+    "correct_answers": [
+      "Acide folinique"
+    ],
+    "justification_fausses_reponses": {
+      "Vitamine A": "La vitamine A n'a pas d'effet sur la toxicité du méthotrexate. Elle est principalement impliquée dans la vision, la croissance cellulaire et le système immunitaire.",
+      "Vitamine B12": "La vitamine B12 n'a pas d'effet sur la toxicité du méthotrexate. Elle est nécessaire pour la formation des globules rouges et le fonctionnement du système nerveux.",
+      "Vitamine C": "La vitamine C n'a pas d'effet sur la toxicité du méthotrexate. Elle est un antioxydant qui protège le corps contre les radicaux libres et aide à la production de collagène.",
+      "Calciferol": "Le calciférol (vitamine D) n'a pas d'effet sur la toxicité du méthotrexate. Il est nécessaire pour l'absorption du calcium et du phosphore dans l'organisme."
+    }
+  }
+]

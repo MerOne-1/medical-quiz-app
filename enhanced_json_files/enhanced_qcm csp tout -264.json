@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le Dabigatran (Pradaxa®) :",
+    "options": [
+      "Il s’agit d’un anticoagulant",
+      "C’est un antiviral anti-VIH",
+      "C’est un inhibiteur indirect de la thrombine, actif par voie orale",
+      "Il nécessite une surveillance de la fonction rénale, au minimum, 1 à 2 fois par an",
+      "Il présente une demi-vie longue (36 à 48h)"
+    ],
+    "correct_answers": [
+      "Il s’agit d’un anticoagulant",
+      "Il nécessite une surveillance de la fonction rénale, au minimum, 1 à 2 fois par an"
+    ],
+    "justification_fausses_reponses": {
+      "C’est un antiviral anti-VIH": "Le Dabigatran est un anticoagulant, pas un antiviral. Il n'a pas d'effet sur le VIH.",
+      "C’est un inhibiteur indirect de la thrombine, actif par voie orale": "Le Dabigatran est un inhibiteur direct de la thrombine, pas indirect. Il se lie directement à la thrombine pour inhiber sa fonction.",
+      "Il présente une demi-vie longue (36 à 48h)": "La demi-vie du Dabigatran est en réalité courte, environ 12 à 17 heures, ce qui signifie qu'il est éliminé du corps relativement rapidement."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les étiologies suivantes, lesquelles sont responsables d’anémie ferriprives ?",
+    "options": [
+      "Maladie de Willebrand chez une femme non ménopausée",
+      "Régimes végétariens",
+      "Cancer du colon",
+      "Fibrome utérin",
+      "Hernie hiatale"
+    ],
+    "correct_answers": [
+      "Régimes végétariens",
+      "Maladie de Willebrand chez une femme non ménopausée",
+      "Cancer du colon",
+      "Fibrome utérin",
+      "Hernie hiatale"
+    ],
+    "justification_fausses_reponses": {}
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Dans quel(les) situation(s) peut-on observer des réticulocytes sanguins supérieurs à 100 G/L ?",
+    "options": [
+      "Une aplasie médullaire",
+      "Une maladie de Minkowski-Chauffard",
+      "Une anémie hémolytique auto-immune (AHAI)",
+      "Une carence martiale en cours de traitement",
+      "Une maladie de Biermer non traitée"
+    ],
+    "correct_answers": [
+      "Une carence martiale en cours de traitement",
+      "Une anémie hémolytique auto-immune (AHAI)",
+      "Une maladie de Minkowski-Chauffard"
+    ],
+    "justification_fausses_reponses": {
+      "Une aplasie médullaire": "Dans une aplasie médullaire, la moelle osseuse ne produit pas suffisamment de nouvelles cellules sanguines, y compris les réticulocytes. Par conséquent, le nombre de réticulocytes serait inférieur, pas supérieur à 100 G/L.",
+      "Une maladie de Biermer non traitée": "La maladie de Biermer est une anémie pernicieuse causée par une carence en vitamine B12. Sans traitement, la production de réticulocytes est réduite, donc le nombre de réticulocytes ne serait pas supérieur à 100 G/L."
+    }
+  }
+]

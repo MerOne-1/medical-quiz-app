@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les anxiolytiques et les hypnotiques, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les anxiolytiques peuvent être prescrits par tout médecin pour une durée d’un an.",
+      "Un hypnotique ne peut être renouvelé qu’à l’intérieur de sa durée maximale de prescription qui est de 4 semaines.",
+      "Les hypnotiques peuvent être prescrits par tout médecin pour une durée d’un an.",
+      "Un anxiolytique ne peut être renouvelé que dans la limite maximale de 12 semaines de traitement.",
+      "Les anxiolytiques et les hypnotiques doivent obligatoirement être prescrits sur une ordonnance sécurisée."
+    ],
+    "correct_answers": [
+      "Un anxiolytique ne peut être renouvelé que dans la limite maximale de 12 semaines de traitement.",
+      "Un hypnotique ne peut être renouvelé qu’à l’intérieur de sa durée maximale de prescription qui est de 4 semaines."
+    ],
+    "justification_fausses_reponses": {
+      "Les anxiolytiques peuvent être prescrits par tout médecin pour une durée d’un an.": "C'est incorrect car la durée maximale de prescription d'un anxiolytique est de 12 semaines, pas d'un an.",
+      "Les hypnotiques peuvent être prescrits par tout médecin pour une durée d’un an.": "C'est incorrect car la durée maximale de prescription d'un hypnotique est de 4 semaines, pas d'un an.",
+      "Les anxiolytiques et les hypnotiques doivent obligatoirement être prescrits sur une ordonnance sécurisée.": "C'est incorrect car bien que l'ordonnance sécurisée soit recommandée pour ces médicaments, elle n'est pas obligatoire."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant les organismes de santé et les Pharmacopées, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "La DEQM (située à Strasbourg) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+      "L'Agence européenne du médicament (EMA) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+      "La HAS est un organisme français d’accréditation et de certification, qui effectue des évaluations scientifiques et médico-économiques de médicaments et d’autres produits de santé et élabore en outre des recommandations de bon usage à l’intention des prescripteurs.",
+      "Les ARS sont notamment chargées de la rédaction de la Pharmacopée française.",
+      "L’ANSM est notamment chargée de la rédaction de la Pharmacopée française."
+    ],
+    "correct_answers": [
+      "L’ANSM est notamment chargée de la rédaction de la Pharmacopée française.",
+      "La DEQM (située à Strasbourg) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+      "La HAS est un organisme français d’accréditation et de certification, qui effectue des évaluations scientifiques et médico-économiques de médicaments et d’autres produits de santé et élabore en outre des recommandations de bon usage à l’intention des prescripteurs."
+    ],
+    "justification_fausses_reponses": {
+      "L'Agence européenne du médicament (EMA) est notamment chargée de la rédaction de la Pharmacopée européenne.": "C'est incorrect. L'EMA est responsable de l'évaluation, de la supervision et du suivi de la sécurité des médicaments dans l'UE, mais ce n'est pas elle qui est chargée de la rédaction de la Pharmacopée européenne. C'est la DEQM qui en a la charge.",
+      "Les ARS sont notamment chargées de la rédaction de la Pharmacopée française.": "C'est incorrect. Les ARS (Agences Régionales de Santé) ont pour mission de mettre en place la politique de santé dans leur région, elles ne sont pas chargées de la rédaction de la Pharmacopée française. C'est l'ANSM qui en a la charge."
+    }
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant la propharmacie, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les médecins propharmaciens peuvent pratiquer le tiers-payant sur la délivrance des médicaments, tout comme le ferait un pharmacien d’officine.",
+      "Les médecins propharmaciens peuvent également délivrer des médicaments hors liste à tout patient qui en fait la demande, et ce en l’absence de consultation médicale.",
+      "La propharmacie est une dérogation légale au monopole pharmaceutique accordée à certains médecins exerçant dans des zones géographiques particulières, loin de toute officine.",
+      "La propharmacie constitue une forme d’exercice illégal de la pharmacie.",
+      "Les médecins propharmaciens (autorisés par l’ARS) peuvent délivrer des médicaments hors liste, listés ou stupéfiants ainsi qu’un nombre restreint de dispositifs médicaux à condition d’avoir vu le patient en consultation."
+    ],
+    "correct_answers": [
+      "La propharmacie est une dérogation légale au monopole pharmaceutique accordée à certains médecins exerçant dans des zones géographiques particulières, loin de toute officine.",
+      "Les médecins propharmaciens (autorisés par l’ARS) peuvent délivrer des médicaments hors liste, listés ou stupéfiants ainsi qu’un nombre restreint de dispositifs médicaux à condition d’avoir vu le patient en consultation.",
+      "Les médecins propharmaciens peuvent pratiquer le tiers-payant sur la délivrance des médicaments, tout comme le ferait un pharmacien d’officine."
+    ],
+    "justification_fausses_reponses": {
+      "Les médecins propharmaciens peuvent également délivrer des médicaments hors liste à tout patient qui en fait la demande, et ce en l’absence de consultation médicale.": "C'est incorrect car les médecins propharmaciens ne peuvent délivrer des médicaments qu'après avoir consulté le patient. Ils ne peuvent pas délivrer des médicaments à la demande sans consultation médicale.",
+      "La propharmacie constitue une forme d’exercice illégal de la pharmacie.": "C'est incorrect car la propharmacie est une dérogation légale au monopole pharmaceutique. Elle n'est donc pas considérée comme un exercice illégal de la pharmacie."
+    }
+  }
+]

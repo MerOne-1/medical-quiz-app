@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ?",
+    "options": [
+      "Les teignes ne nécessitent jamais de traitement par voie orale.",
+      "La présence de levures appartenant au genre Candida  au niveau vaginal est toujours pathologique.",
+      "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+      "Les onychomycoses nécessitent toujours un traitement par voie orale.",
+      "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+    ],
+    "correct_answers": [
+      "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+      "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi les propositions suivantes se rapportant aux ectoparasites, quelles sont celles qui sont exactes ?",
+    "options": [
+      "Tous les ectoparasites sont des insectes.",
+      "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+      "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+      "Seuls les ectoparasites adultes parasitent l'espèce humaine.",
+      "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+    ],
+    "correct_answers": [
+      "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+      "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+      "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Parmi ces arthropodes, cochez les espèces qui sont hématophages à l'état adulte et à l'état larvaire.",
+    "options": [
+      "Ctenocephalus canis",
+      "Pediculus humanus  var. capitis",
+      "Cimex lectularius",
+      "Phtirius pubis",
+      "Sarcoptes scabiei"
+    ],
+    "correct_answers": [
+      "Pediculus humanus  var. capitis",
+      "Cimex lectularius",
+      "Phtirius pubis"
+    ]
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cochez les propositions exactes concernant le pou du pubis ou morpion , Phtirius pubis",
+    "options": [
+      "Les morpions sont spécifiques de leur hôte.",
+      "La transmission des morpions nécessite un contact intime.",
+      "On peut attraper des morpions en s'asseyant dans la pelouse.",
+      "Il est possible de retrouver des lentes de morpions aux niveau des cils.",
+      "Les morpions peuvent souvent se localiser au niveau des poils des mollets."
+    ],
+    "correct_answers": [
+      "Les morpions sont spécifiques de leur hôte.",
+      "La transmission des morpions nécessite un contact intime.",
+      "Il est possible de retrouver des lentes de morpions aux niveau des cils."
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les affirmations suivantes concernant la prise en charge d’un patient ayant ingéré un produit moussant, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il est formellement déconseillé de provoquer des vomissements.",
+      "Il est conseillé de donner à boire du lait à la victime.",
+      "Il est conseillé de donner à boire à la victime.",
+      "Le principal élément de surveillance de la victime est la survenue d’une toux.",
+      "Le principal élément de surveillance de la victime est la survenue de troubles digestifs."
+    ],
+    "correct_answers": [
+      "Le principal élément de surveillance de la victime est la survenue d’une toux.",
+      "Il est formellement déconseillé de provoquer des vomissements."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Concernant le cannabis, quelle est (sont) la (les) proposition(s) inexacte(s) ?",
+    "options": [
+      "Le cannabisme chronique chez les usagers jeunes se manifeste principalement par un syndrome amotivationnel.",
+      "En se fixant aux récepteurs aux cannabinoïdes, le THC entraîne une augmentation de la libération d’un certain nombre de neurotransmetteurs.",
+      "Le dépistage urinaire du cannabis repose sur la mise en évidence d’une concentration de son métabolite principal, le THC-COOH, au-delà d’un certain seuil dit de positivité.",
+      "Les effets psychotropes du THC sont la conséquence de sa fixation sur les récepteurs aux cannabinoïdes de type CB2.",
+      "L’absorption de THC et sa biodisponibilité sont meilleures par voie orale que par voie inhalée."
+    ],
+    "correct_answers": [
+      "L’absorption de THC et sa biodisponibilité sont meilleures par voie orale que par voie inhalée.",
+      "Les effets psychotropes du THC sont la conséquence de sa fixation sur les récepteurs aux cannabinoïdes de type CB2.",
+      "En se fixant aux récepteurs aux cannabinoïdes, le THC entraîne une augmentation de la libération d’un certain nombre de neurotransmetteurs."
+    ]
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les propositions suivantes concernant la détermination de l’alcoolémie, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le recueil de sang pour la détermination légale de l'alcoolémie se fait sur un tube sans anticoagulant/conservateur.",
+      "En France, une alcoolémie égale ou supérieure à 0,25 mg d’éthanol par litre de sang correspond au seuil contraventionnel pour la conduite automobile.",
+      "La méthode analytique par CPG-FID est l’une des deux méthodes officielles au plan légal pour doser l’éthanol dans le sang.",
+      "La méthode de Cordebard repose sur le pouvoir oxydant de l’éthanol.",
+      "La méthode de Cordebard consiste en l’extraction de l'éthanol par distillation en présence d'acide picrique, oxydation à froid par le bichromate de potassium et dosage en retour par iodométrie."
+    ],
+    "correct_answers": [
+      "La méthode analytique par CPG-FID est l’une des deux méthodes officielles au plan légal pour doser l’éthanol dans le sang.",
+      "La méthode de Cordebard consiste en l’extraction de l'éthanol par distillation en présence d'acide picrique, oxydation à froid par le bichromate de potassium et dosage en retour par iodométrie."
+    ]
+  }
+]

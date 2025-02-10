@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Concernant la sensibilité aux antibiotiques de Pseudomonas aeruginosa , quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les propositions suivantes ?",
+    "options": [
+      "il produit naturellement une céphalosporinase",
+      "la résistance à l'imipénème est toujours de type enzymatique",
+      "le cotrimoxazole garde une grande activité sur les souches communautaires",
+      "il est constamment sensible à l'amoxicilline",
+      "il est toujours résistant à l'association amoxicilline-acide clavulanique"
+    ],
+    "correct_answers": [
+      "il produit naturellement une céphalosporinase",
+      "il est toujours résistant à l'association amoxicilline-acide clavulanique"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "L'opisthotonos est un signe clinique qu'il est classique d'observer lors :",
+    "options": [
+      "de la gangrène gazeuse",
+      "de la méningo-encéphalite herpétique",
+      "de la blennorragie",
+      "du choléra",
+      "du tétanos"
+    ],
+    "correct_answers": [
+      "du tétanos"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "La résistance aux antibiotiques chez E. coli  est souvent le résultat de l'acquisition de plasmides mais également d'autres éléments génétiques. Lors d'une épidémie de gastroentérites, il est apparu que la souche d' E.coli  pathogène hébergeait deux plasmides et un prophage codant pour la toxine Shiga. Le fait d'héberger un prophage signifie que :",
+    "options": [
+      "la souche d' E.coli  a subi une transformation",
+      "la souche d' E.coli  a subi une mutation",
+      "un des plasmides est sous forme épisomique",
+      "la souche d' E.coli  a accumulé des transposons",
+      "la souche d' E.coli  a été infectée par un virus"
+    ],
+    "correct_answers": [
+      "la souche d' E.coli  a été infectée par un virus"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes concernant Escherichia coli , laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "c'est une bactérie anaérobie stricte",
+      "elle est fréquemment responsable d'infections urinaires",
+      "elle est toujours sensible aux céphalosporines",
+      "elle cultive sur gélose ordinaire sans facteurs de croissance",
+      "elle ne fermente jamais le lactose"
+    ],
+    "correct_answers": [
+      "elle cultive sur gélose ordinaire sans facteurs de croissance",
+      "elle est fréquemment responsable d'infections urinaires"
+    ]
+  }
+]

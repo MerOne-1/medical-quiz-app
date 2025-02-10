@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant l’Ordre national des pharmaciens, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C.",
+      "Les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s’inscrire en section E.",
+      "Les pharmaciens biologistes (exerçant en laboratoire de biologie médicale public ou privé) exerçant en France métropolitaine doivent s’inscrire en section B.",
+      "Les pharmaciens adjoints d’officine exerçant en France métropolitaine doivent s’inscrire en section A.",
+      "La section D est la seule section à être organisée au niveau régional : elle comporte 22 CROP."
+    ],
+    "correct_answers": [
+      "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi les propositions suivantes concernant la recherche clinique, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "Elles sont placées sous la responsabilité d’un promoteur.",
+      "Dès lors qu’il a donné son consentement à la recherche, le sujet de recherche ne pourra pas demander réparation des préjudices qu’il aura éventuellement subis au cours de la recherche.",
+      "Elles sont généralement réalisées dans des établissements de santé.",
+      "Elle concerne les essais réalisés sur des personnes saines et malades.",
+      "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes."
+    ],
+    "correct_answers": [
+      "Elle concerne les essais réalisés sur des personnes saines et malades.",
+      "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes.",
+      "Elles sont placées sous la responsabilité d’un promoteur.",
+      "Elles sont généralement réalisées dans des établissements de santé."
+    ]
+  },
+  {
+    "theme": "Droit pharmaceutique",
+    "question": "Parmi ces propositions concernant la Pharmacopée européenne, laquelle / lesquelles est / sont exacte(s) ?",
+    "options": [
+      "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+      "La Pharmacopée européenne est accessible gratuitement via le site de la DEQM.",
+      "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique.",
+      "La Pharmacopée européenne est publiée en français, en allemand, en italien et en anglais, aussi bien en version papier qu’en version électronique.",
+      "La Pharmacopée européenne est élaborée par le CHMP et le HMPC de l’Agence européenne des médicaments (basée à Londres)."
+    ],
+    "correct_answers": [
+      "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+      "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique."
+    ]
+  }
+]

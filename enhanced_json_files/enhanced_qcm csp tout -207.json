@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les caractères biochimiques suivants, quels sont ceux que l'on retrouve constamment chez Staphylococcus aureus ?",
+    "options": [
+      "présence d'un lipopolysaccharide épais",
+      "production d'une bêta-lactamase",
+      "production d'une oxydase",
+      "production d'une coagulase",
+      "production d'une catalase"
+    ],
+    "correct_answers": [
+      "production d'une coagulase",
+      "production d'une catalase"
+    ],
+    "justification_fausses_reponses": {
+      "présence d'un lipopolysaccharide épais": "Staphylococcus aureus est une bactérie à Gram positif, elle ne possède donc pas de lipopolysaccharide épais qui est caractéristique des bactéries à Gram négatif.",
+      "production d'une bêta-lactamase": "Bien que certaines souches de Staphylococcus aureus puissent produire une bêta-lactamase, ce n'est pas une caractéristique constante de cette espèce.",
+      "production d'une oxydase": "Staphylococcus aureus est une bactérie oxydase négative, elle ne produit donc pas d'oxydase."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les composés ou structures suivants, quel(s) est(sont) celui(ceux) présent(s) dans la paroi de Streptococcus pyogenes ?",
+    "options": [
+      "des récepteurs pour le fragment Fc des immunoglobulines",
+      "le polysaccharide C",
+      "la protéine C réactive",
+      "la protéine M",
+      "le mucopeptide"
+    ],
+    "correct_answers": [
+      "la protéine M",
+      "le polysaccharide C",
+      "le mucopeptide"
+    ],
+    "justification_fausses_reponses": {
+      "des récepteurs pour le fragment Fc des immunoglobulines": "Les récepteurs pour le fragment Fc des immunoglobulines ne sont pas présents dans la paroi de Streptococcus pyogenes. Ces récepteurs sont généralement présents sur les cellules du système immunitaire, pas sur les bactéries.",
+      "la protéine C réactive": "La protéine C réactive n'est pas un composant de la paroi de Streptococcus pyogenes. Elle est une protéine produite par le foie en réponse à l'inflammation."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exactes : Dans le traitement de première intention d'une tuberculose pulmonaire sans élément de résistance de l'agent causal aux antituberculeux majeurs, les molécules suivantes sont habituellement prescrites :",
+    "options": [
+      "streptomycine",
+      "pyrazinamide",
+      "éthambutol",
+      "isoniazide",
+      "rifampicine"
+    ],
+    "correct_answers": [
+      "pyrazinamide",
+      "isoniazide",
+      "éthambutol",
+      "rifampicine"
+    ],
+    "justification_fausses_reponses": {
+      "streptomycine": "La streptomycine n'est pas généralement utilisée en première intention dans le traitement de la tuberculose pulmonaire sans résistance aux antituberculeux majeurs. Elle est plutôt utilisée dans les cas de tuberculose résistante ou extrapulmonaire."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, quelle(s) est(sont) la(les) proposition(s) fausse(s) concernant Neisseria meningitidis ?",
+    "options": [
+      "elle possède une oxydase",
+      "elle est sensible à la rifampicine qui est utilisée pour la chimioprophylaxie des sujets \"contacts\"",
+      "il existe plusieurs sérogroupes définis par une protéine de membrane",
+      "c'est un pathogène strictement intracellulaire",
+      "c'est une bactérie fragile, ne résistant pas dans le milieu extérieur"
+    ],
+    "correct_answers": [
+      "il existe plusieurs sérogroupes définis par une protéine de membrane",
+      "c'est un pathogène strictement intracellulaire"
+    ],
+    "justification_fausses_reponses": {
+      "elle possède une oxydase": "Cette affirmation est incorrecte car Neisseria meningitidis est une bactérie qui possède une oxydase. C'est une caractéristique importante qui aide à son identification en laboratoire.",
+      "elle est sensible à la rifampicine qui est utilisée pour la chimioprophylaxie des sujets \"contacts\"": "Cette affirmation est incorrecte car Neisseria meningitidis est effectivement sensible à la rifampicine, qui est utilisée pour la chimioprophylaxie des sujets 'contacts'. C'est une mesure préventive importante pour contrôler la propagation de cette bactérie.",
+      "c'est une bactérie fragile, ne résistant pas dans le milieu extérieur": "Cette affirmation est incorrecte car Neisseria meningitidis est effectivement une bactérie fragile qui ne résiste pas dans le milieu extérieur. C'est une des raisons pour lesquelles elle est principalement transmise par contact direct ou par gouttelettes respiratoires."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine",
+      "Les molécules 1 et 2 font partie des « antimétabolites »",
+      "La molécule 1 est biodisponible par voie orale",
+      "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+      "La molécule 2 est administrée sous forme de poudre pour inhalation"
+    ],
+    "correct_answers": [
+      "La molécule 1 est biodisponible par voie orale",
+      "La molécule 2 est administrée sous forme de poudre pour inhalation",
+      "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+      "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine"
+    ],
+    "justification_fausses_reponses": {
+      "Les molécules 1 et 2 font partie des « antimétabolites »": "Cette affirmation est incorrecte car tous les médicaments antiviraux ne sont pas des antimétabolites. Les antimétabolites sont des substances qui perturbent le métabolisme cellulaire, mais ce n'est pas le seul mécanisme d'action des médicaments antiviraux. Certaines molécules peuvent agir en inhibant spécifiquement certaines enzymes virales, sans perturber le métabolisme cellulaire."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "La dénomination commerciale des médicaments suit les règles définies par:",
+    "options": [
+      "l'OMS",
+      "l'IUPAC",
+      "l'IUPHAR",
+      "les firmes pharmaceutiques",
+      "les pharmacopées"
+    ],
+    "correct_answers": [
+      "les firmes pharmaceutiques"
+    ],
+    "justification_fausses_reponses": {
+      "l'OMS": "L'Organisation Mondiale de la Santé (OMS) ne définit pas les règles de dénomination commerciale des médicaments. Elle est plutôt impliquée dans la coordination des efforts internationaux pour contrôler et prévenir les maladies.",
+      "l'IUPAC": "L'Union Internationale de Chimie Pure et Appliquée (IUPAC) est responsable de la nomenclature chimique, mais pas de la dénomination commerciale des médicaments.",
+      "l'IUPHAR": "L'Union Internationale de Pharmacologie (IUPHAR) est impliquée dans la classification des récepteurs et des cibles de médicaments, mais pas dans la dénomination commerciale des médicaments.",
+      "les pharmacopées": "Les pharmacopées sont des ouvrages officiels qui définissent les normes de fabrication et de contrôle des médicaments, mais elles ne définissent pas les règles de dénomination commerciale des médicaments."
+    }
+  }
+]

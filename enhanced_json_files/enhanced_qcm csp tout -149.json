@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Que trouve t-on dans la formule d'un \"SR O\"",
+    "options": [
+      "Principalement des lipides, acides aminés et lactobacillus",
+      "Principalement des glucides, acides aminés, lipides et vitamines",
+      "Principalement des glucides et électrolytes (Na+, K+...)",
+      "Principalement des glucides, lipides et électrolytes (Na+, K+...)",
+      "Principalement des glucides, des acides aminés et lactobacillus"
+    ],
+    "correct_answers": [
+      "Principalement des glucides et électrolytes (Na+, K+...)"
+    ],
+    "justification_fausses_reponses": {
+      "Principalement des lipides, acides aminés et lactobacillus": "Cette réponse est incorrecte car la formule d'un 'SR O' ne contient pas principalement des lipides, acides aminés et lactobacillus. Elle est principalement composée de glucides et d'électrolytes.",
+      "Principalement des glucides, acides aminés, lipides et vitamines": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides, elle ne contient pas principalement des acides aminés, lipides et vitamines. Elle est principalement composée de glucides et d'électrolytes.",
+      "Principalement des glucides, lipides et électrolytes (Na+, K+...)": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides et des électrolytes, elle ne contient pas principalement des lipides. Elle est principalement composée de glucides et d'électrolytes.",
+      "Principalement des glucides, des acides aminés et lactobacillus": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides, elle ne contient pas principalement des acides aminés et lactobacillus. Elle est principalement composée de glucides et d'électrolytes."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+      "Le muromonab est un anticorps monoclonal murin.",
+      "Le muromonab est un anticorps monoclonal chimérique.",
+      "L'infliximab est un anticorps polyclonal murin.",
+      "Le daclizumab est un anticorps polyclonal humanisé."
+    ],
+    "correct_answers": [
+      "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+      "Le muromonab est un anticorps monoclonal murin."
+    ],
+    "justification_fausses_reponses": {
+      "Le muromonab est un anticorps monoclonal chimérique.": "Cette affirmation est incorrecte car le muromonab est un anticorps monoclonal murin, pas chimérique. Un anticorps chimérique est un anticorps qui combine des éléments de deux espèces différentes, ce qui n'est pas le cas du muromonab.",
+      "L'infliximab est un anticorps polyclonal murin.": "Cette affirmation est incorrecte car l'infliximab est un anticorps monoclonal chimérique humain/souris, pas un anticorps polyclonal murin. Un anticorps polyclonal est un mélange d'anticorps qui se lient à différents épitopes d'un antigène, ce qui n'est pas le cas de l'infliximab.",
+      "Le daclizumab est un anticorps polyclonal humanisé.": "Cette affirmation est incorrecte car le daclizumab est un anticorps monoclonal humanisé, pas polyclonal. Un anticorps humanisé est un anticorps murin dont les parties non reconnues par l'organisme humain ont été remplacées par des parties humaines, ce qui est le cas du daclizumab."
+    }
+  }
+]

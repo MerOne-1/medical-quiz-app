@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En chromatographie,",
+    "options": [
+      "La phase stationnaire peut être un gaz",
+      "La phase mobile peut être un gaz",
+      "La phase mobile est toujours un liquide",
+      "La phase mobile entraîne la phase stationnaire",
+      "La phase stationnaire est toujours conditionnée dans une colonne"
+    ],
+    "correct_answers": [
+      "La phase mobile peut être un gaz"
+    ],
+    "justification_fausses_reponses": {
+      "La phase stationnaire peut être un gaz": "En chromatographie, la phase stationnaire est généralement un solide ou un liquide, mais pas un gaz. Elle est la phase qui ne bouge pas pendant le processus.",
+      "La phase mobile est toujours un liquide": "La phase mobile en chromatographie peut être soit un gaz, soit un liquide, selon le type de chromatographie utilisé.",
+      "La phase mobile entraîne la phase stationnaire": "En chromatographie, la phase mobile se déplace à travers la phase stationnaire, mais elle n'entraîne pas la phase stationnaire avec elle.",
+      "La phase stationnaire est toujours conditionnée dans une colonne": "La phase stationnaire en chromatographie peut être conditionnée dans une colonne, mais elle peut aussi être placée sur une plaque plane dans la chromatographie sur couche mince."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) inexacte(s) ? En chromatographie en phase liquide, l’amélioration de la résolution entre 2 composés dépend",
+    "options": [
+      "De la longueur de la colonne",
+      "Du nombre de plateaux théoriques",
+      "De la vitesse de déroulement du papier",
+      "Du facteur de rétention du composé le plus retenu",
+      "Du facteur de sélectivité"
+    ],
+    "correct_answers": [
+      "De la vitesse de déroulement du papier"
+    ],
+    "justification_fausses_reponses": {
+      "De la longueur de la colonne": "Cette affirmation est incorrecte car en chromatographie, la résolution entre deux composés peut être améliorée en augmentant la longueur de la colonne. Cela permet d'augmenter le temps de séparation et donc la résolution.",
+      "Du nombre de plateaux théoriques": "Cette affirmation est incorrecte car en chromatographie, plus le nombre de plateaux théoriques est élevé, meilleure est la résolution. Les plateaux théoriques représentent les zones de séparation dans la colonne.",
+      "Du facteur de rétention du composé le plus retenu": "Cette affirmation est incorrecte car le facteur de rétention, qui est le rapport entre le temps passé par le composé dans la phase stationnaire et le temps passé dans la phase mobile, influence la résolution en chromatographie. Un facteur de rétention élevé signifie que le composé est fortement retenu et donc bien séparé des autres composés.",
+      "Du facteur de sélectivité": "Cette affirmation est incorrecte car le facteur de sélectivité, qui est le rapport entre les facteurs de rétention de deux composés, influence également la résolution en chromatographie. Un facteur de sélectivité élevé signifie que les deux composés sont bien séparés l'un de l'autre."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ? Vous devez préparer une solution de paracétamol à 0,02 g/L à partir d’une solution mère à 400 mg/L. Vous utilisez :",
+    "options": [
+      "une fiole jaugée de 1 L et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 1 L et une pipette jaugée de 5 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 5 mL",
+      "une éprouvette d’1 L et une pipette jaugée de 50 mL"
+    ],
+    "correct_answers": [
+      "une fiole jaugée de 1 L et une pipette jaugée de 50 mL",
+      "une fiole jaugée de 100 mL et une pipette jaugée de 5 mL"
+    ],
+    "justification_fausses_reponses": {
+      "une fiole jaugée de 100 mL et une pipette jaugée de 50 mL": "Cette option est incorrecte car la concentration de la solution mère est trop élevée pour être diluée à 0,02 g/L avec seulement 50 mL de solution mère dans une fiole de 100 mL.",
+      "une fiole jaugée de 1 L et une pipette jaugée de 5 mL": "Cette option est incorrecte car la quantité de solution mère utilisée est trop faible pour obtenir une concentration de 0,02 g/L dans une fiole de 1 L.",
+      "une éprouvette d’1 L et une pipette jaugée de 50 mL": "Cette option est incorrecte car une éprouvette n'est pas un outil de mesure précis pour la préparation de solutions. Une fiole jaugée doit être utilisée pour garantir la précision."
+    }
+  }
+]

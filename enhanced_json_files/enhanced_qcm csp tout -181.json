@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une alcalose respiratoire est due à une augmentation de la concentration plasmatique des ions bicarbonates.",
+      "Une section de la moelle épinière à hauteur de la 6  vertèbre cervicale a pour conséquence une paralysie du diaphragme.",
+      "Le monoxyde de carbone diminue la concentration du 2,3 diphosphoglycérate dans les hématies.",
+      "En présence d’un shunt, l’utilisation d’oxygène pur permet de normaliser la pression partielle en oxygène.",
+      "La mesure de la pression partielle en azote dans l’air expiré (méthode de Fowler) permet la mesure du volume résiduel."
+    ],
+    "correct_answers": [
+      "La mesure de la pression partielle en azote dans l’air expiré (méthode de Fowler) permet la mesure du volume résiduel."
+    ],
+    "justification_fausses_reponses": {
+      "Une alcalose respiratoire est due à une augmentation de la concentration plasmatique des ions bicarbonates.": "C'est incorrect car l'alcalose respiratoire est due à une diminution du dioxyde de carbone dans le sang, et non à une augmentation des ions bicarbonates.",
+      "Une section de la moelle épinière à hauteur de la 6  vertèbre cervicale a pour conséquence une paralysie du diaphragme.": "C'est incorrect car le diaphragme est innervé par les nerfs phréniques, qui émergent des 3ème, 4ème et 5ème vertèbres cervicales, et non de la 6ème.",
+      "Le monoxyde de carbone diminue la concentration du 2,3 diphosphoglycérate dans les hématies.": "C'est incorrect car le monoxyde de carbone n'affecte pas la concentration du 2,3 diphosphoglycérate dans les hématies. Il se lie plutôt à l'hémoglobine, empêchant l'oxygène de le faire.",
+      "En présence d’un shunt, l’utilisation d’oxygène pur permet de normaliser la pression partielle en oxygène.": "C'est incorrect car dans un shunt, le sang contourne les poumons sans être oxygéné. L'administration d'oxygène pur n'augmentera pas la pression partielle en oxygène dans le sang."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "La phase deux des potentiels d’action des cellules cardiaques contractiles :",
+    "options": [
+      "permet l’entrée de calcium dans la cellule qui provoquera une augmentation de la contractilité.",
+      "augmente de durée sous l’action des substances inhibitrices des canaux calciques de type L.",
+      "correspond à une entrée de calcium dans la cellule.",
+      "correspond à un équilibre relatif entre l’entrée du calcium dans les cellules par les canaux calciques de type L et la sortie de potassium de la cellule par des canaux spécifiques.",
+      "correspond à une relative stabilité du potentiel de la membrane."
+    ],
+    "correct_answers": [
+      "augmente de durée sous l’action des substances inhibitrices des canaux calciques de type L."
+    ],
+    "justification_fausses_reponses": {
+      "permet l’entrée de calcium dans la cellule qui provoquera une augmentation de la contractilité.": "Cette affirmation est incorrecte car la phase deux des potentiels d'action ne permet pas l'entrée de calcium dans la cellule, mais est plutôt caractérisée par un équilibre entre l'entrée et la sortie de ions.",
+      "correspond à une entrée de calcium dans la cellule.": "Cette affirmation est incorrecte car la phase deux des potentiels d'action ne correspond pas à une entrée de calcium dans la cellule, mais à un équilibre entre l'entrée et la sortie de ions.",
+      "correspond à un équilibre relatif entre l’entrée du calcium dans les cellules par les canaux calciques de type L et la sortie de potassium de la cellule par des canaux spécifiques.": "Cette affirmation est incorrecte car la phase deux des potentiels d'action ne correspond pas à un équilibre entre l'entrée de calcium et la sortie de potassium, mais est plutôt caractérisée par un équilibre entre l'entrée et la sortie de ions.",
+      "correspond à une relative stabilité du potentiel de la membrane.": "Cette affirmation est incorrecte car la phase deux des potentiels d'action ne correspond pas à une stabilité du potentiel de la membrane, mais est plutôt caractérisée par un équilibre entre l'entrée et la sortie de ions."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionnez la seule bonne proposition. Les récepteurs phasiques:",
+    "options": [
+      "S’adaptent lentement à la stimulation.",
+      "Cessent de transmettre des potentiels d’action sur la fibre afférente avant la fin de la stimulation.",
+      "Transmettent des potentiels d’action sur la fibre afférente durant toute la durée de la stimulation.",
+      "Ne s’adaptent jamais à la stimulation.",
+      "Répondent longtemps après le début de la stimulation mécanique."
+    ],
+    "correct_answers": [
+      "Cessent de transmettre des potentiels d’action sur la fibre afférente avant la fin de la stimulation."
+    ],
+    "justification_fausses_reponses": {
+      "S’adaptent lentement à la stimulation.": "C'est incorrect car les récepteurs phasiques s'adaptent rapidement à la stimulation, pas lentement.",
+      "Transmettent des potentiels d’action sur la fibre afférente durant toute la durée de la stimulation.": "C'est incorrect car les récepteurs phasiques cessent de transmettre des potentiels d'action avant la fin de la stimulation.",
+      "Ne s’adaptent jamais à la stimulation.": "C'est incorrect car les récepteurs phasiques s'adaptent à la stimulation, ils ne restent pas insensibles.",
+      "Répondent longtemps après le début de la stimulation mécanique.": "C'est incorrect car les récepteurs phasiques répondent rapidement à la stimulation, pas longtemps après."
+    }
+  }
+]

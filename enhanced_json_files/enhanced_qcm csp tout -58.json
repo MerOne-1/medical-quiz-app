@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Après action du chlor e sur le benzène on peut isoler 3 isomèr es chlor és : Que per met la mesur e du moment dipolair e de chacune de ces molécules ?",
+    "options": [
+      "distinguer  M de P et O",
+      "distinguer P de O et M",
+      "montr er que la molécule M a un moment dipolair e nul",
+      "distinguer les tr ois isomèr es",
+      "distinguer  O de M et P"
+    ],
+    "correct_answers": [
+      "distinguer les tr ois isomèr es"
+    ],
+    "justification_fausses_reponses": {
+      "distinguer  M de P et O": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement M de P et O. Elle permet de distinguer les trois isomères.",
+      "distinguer P de O et M": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement P de O et M. Elle permet de distinguer les trois isomères.",
+      "montr er que la molécule M a un moment dipolair e nul": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de montrer que la molécule M a un moment dipolaire nul. Elle permet de distinguer les trois isomères.",
+      "distinguer  O de M et P": "Cette option est incorrecte car la mesure du moment dipolaire ne permet pas de distinguer spécifiquement O de M et P. Elle permet de distinguer les trois isomères."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Indiquer la (ou les) proposition(s) exacte(s) concernant le tazarotène ZORA C, représenté ci-dessous et utilisé pour le traitement du psoriasis.",
+    "options": [
+      "Les liaisons π entre l’atome de carbone 1 et l’atome de carbone 2 proviennent du recouvrement d’orbitales hybrides p et p .",
+      "Les liaisons σ formées à partir de l’atome de carbone 3 sont dans le même plan",
+      "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp .",
+      "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp.",
+      "L’atome de carbone 3 est hybridé sp ."
+    ],
+    "correct_answers": [
+      "Les liaisons σ formées à partir de l’atome de carbone 3 sont dans le même plan",
+      "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp ."
+    ],
+    "justification_fausses_reponses": {
+      "Les liaisons π entre l’atome de carbone 1 et l’atome de carbone 2 proviennent du recouvrement d’orbitales hybrides p et p .": "Cette affirmation est incorrecte car les liaisons π sont formées par le recouvrement latéral des orbitales p, et non par le recouvrement des orbitales hybrides.",
+      "La liaison σ entre l’atome de carbone 1 et l’atome de carbone 2 provient du recouvrement d’orbitales hybrides sp.": "Cette affirmation est incorrecte car elle est répétée deux fois dans les options. Il s'agit probablement d'une erreur.",
+      "L’atome de carbone 3 est hybridé sp .": "Cette affirmation est incorrecte car l'hybridation sp nécessite que l'atome de carbone soit lié à deux autres atomes seulement. Dans le tazarotène, l'atome de carbone 3 est lié à plus de deux atomes."
+    }
+  },
+  {
+    "theme": "Chimie générale et bio inorganique",
+    "question": "Parmi les propositions suivantes, indiquer la (ou les) proposition (s) exacte (s). Une réaction est spontanée si",
+    "options": [
+      "ΔG<O",
+      "elle produit de la chaleur",
+      "sa constante d’équilibre est plus grande que 1",
+      "elle est totale",
+      "elle est très rapider0"
+    ],
+    "correct_answers": [
+      "Δ G<O",
+      "sa constante d’équilibre est plus grande que 1",
+      "elle est totaler0"
+    ],
+    "justification_fausses_reponses": {
+      "elle produit de la chaleur": "La production de chaleur n'est pas un indicateur de spontanéité d'une réaction. Une réaction exothermique libère de la chaleur, mais cela ne signifie pas nécessairement qu'elle est spontanée. La spontanéité d'une réaction dépend de la variation de l'énergie libre de Gibbs (ΔG) et de la constante d'équilibre.",
+      "elle est très rapider0": "La vitesse d'une réaction n'est pas un indicateur de sa spontanéité. Une réaction peut être rapide mais non spontanée, ou lente mais spontanée. La spontanéité d'une réaction dépend de la variation de l'énergie libre de Gibbs (ΔG) et de la constante d'équilibre."
+    }
+  }
+]

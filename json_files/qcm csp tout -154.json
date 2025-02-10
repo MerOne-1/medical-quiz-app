@@ -1,0 +1,33 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la distribution tissulaire des médicaments, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle",
+      "Un médicament acide faible fortement liés aux protéines plasmatiques possède un volume de distribution supérieur à 50 litres",
+      "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+      "La fixation des antibiotiques de type cycline est faible au niveau de l'os",
+      "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile"
+    ],
+    "correct_answers": [
+      "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile",
+      "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+      "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 médicaments suivants lesquels ou lequel sont/ est un agoniste dopaminergique ?",
+    "options": [
+      "Bromocriptine",
+      "Pramipexole",
+      "Tropatepine",
+      "Rasagiline",
+      "Trihexyphenidyle"
+    ],
+    "correct_answers": [
+      "Bromocriptine",
+      "Pramipexole"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+16/05/2020 Quiz - Chimie analytique
+https://moodle.univ-lille.fr/mod/quiz/review .php?attempt=573059&cmid=205586 9/22Question 24
+Non répondue
+Noté sur 1,00
+Question 25
+Non répondue
+Noté sur 1,00
+Question 26
+Non répondue
+Noté sur 1,00Parmi les propositions suivantes concernant les méthodes spectrales quelle est (sont) celle(s) qui est (sont) exactes(s) ?
+Veuillez choisir au moins une réponse :
+Toutes les cellules de mesure utilisées en spectrophotométrie d’absorption moléculaire UV-visible sont en verre
+Une lampe au deutérium émet des rayonnements de longueurs d’onde comprises entre 160 et 375 nm
+L’application de la loi de Beer-Lambert nécessite l’utilisation d’un rayonnement incident monochromatique
+Le solvant peut modifier la position et l’intensité des bandes d’absorption
+Un acide faible peut présenter des spectres d’absorption moléculaire UV-visible différents en milieu acide et en milieu
+alcalin
+Votre réponse est incorrecte.
+Les réponses correctes sont : Un acide faible peut présenter des spectres d’absorption moléculaire UV-visible différents en
+milieu acide et en milieu alcalin, Une lampe au deutérium émet des rayonnements de longueurs d’onde comprises entre 160
+et 375 nm, L’application de la loi de Beer-Lambert nécessite l’utilisation d’un rayonnement incident monochromatique, Le
+solvant peut modifier la position et l’intensité des bandes d’absorption
+Sachant que la masse molaire de l’éosine est égale à 694 g.mol , indiquaer si une solution molaire d’éosine est à:
+Veuillez choisir au moins une réponse :
+694 g.L
+0,694 g.L
+0,0014 g.L
+694 mg.L
+1,44 mg.L-1
+-1
+-1
+-1
+-1
+-1
+Votre réponse est incorrecte.
+La réponse correcte est : 694 g.L-1
+Parmi les propositions suivantes concernant la spectrophotométrie d’absorption moléculaire UV-visible, la (les) quelle (s) est
+(sont) exacte (s)?
+Veuillez choisir au moins une réponse :
+C’est la méthode de référence pour l’identification
+La présence d’une impureté modifie la position des longueurs d’onde des maxima d’absorption
+C’est une méthode qui permet l’analyse des mélanges
+On utilise des cuves avec 2 faces polies
+Les formes acide et basique d’une même molécule peuvent avoir des spectres différents
+Votre réponse est incorrecte.
+Les réponses correctes sont : On utilise des cuves avec 2 faces polies, La présence d’une impureté modifie la position des
+longueurs d’onde des maxima d’absorption, C’est une méthode qui permet l’analyse des mélanges, Les formes acide et
+basique d’une même molécule peuvent avoir des spectres différents

@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant l’ictère à bilirubine exclusivement non conjuguée, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il est observé dans l’hépatite virale",
+      "Il est observé dans les cholestases",
+      "Il est observé dans les déficits complets en glucuronyl transférase hépatique",
+      "Il est observé dans les anémies hémolytiques",
+      "Il est observé dans la cirrhose hépatique"
+    ],
+    "correct_answers": [
+      "Il est observé dans les anémies hémolytiques",
+      "Il est observé dans les déficits complets en glucuronyl transférase hépatique"
+    ],
+    "justification_fausses_reponses": {
+      "Il est observé dans l’hépatite virale": "L'hépatite virale provoque une augmentation de la bilirubine conjuguée, pas non conjuguée. La bilirubine non conjuguée est augmentée lorsque le foie ne peut pas la convertir en bilirubine conjuguée, ce qui n'est pas le cas dans l'hépatite virale.",
+      "Il est observé dans les cholestases": "La cholestase est une condition où le flux de bile du foie est bloqué. Cela conduit à une augmentation de la bilirubine conjuguée, pas non conjuguée, dans le sang.",
+      "Il est observé dans la cirrhose hépatique": "La cirrhose hépatique peut entraîner une augmentation de la bilirubine conjuguée et non conjuguée. Cependant, l'ictère à bilirubine exclusivement non conjuguée est généralement dû à une surproduction de bilirubine ou à un déficit en glucuronyl transférase hépatique, pas à la cirrhose."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes concernant la PCR quantitative en temps réel, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Il s’agit d’une mesure en point final",
+      "Aucune des affirmations n’est exacte",
+      "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence",
+      "Elle mesure la quantité d’amorces utilisées",
+      "Le Cycle seuil (Ct) permet la quantification du gène amplifié"
+    ],
+    "correct_answers": [
+      "Le Cycle seuil (Ct) permet la quantification du gène amplifié",
+      "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence"
+    ],
+    "justification_fausses_reponses": {
+      "Il s’agit d’une mesure en point final": "C'est incorrect car la PCR quantitative en temps réel est une mesure en continu et non en point final. Elle permet de suivre la réaction en temps réel et non seulement à la fin de la réaction.",
+      "Aucune des affirmations n’est exacte": "C'est incorrect car certaines des affirmations sont exactes. En particulier, la PCR quantitative en temps réel mesure en continu la synthèse d'ADN par incorporation de fluorescence et le Cycle seuil (Ct) permet la quantification du gène amplifié.",
+      "Elle mesure la quantité d’amorces utilisées": "C'est incorrect car la PCR quantitative en temps réel ne mesure pas la quantité d'amorces utilisées. Elle mesure plutôt la quantité d'ADN synthétisé en temps réel."
+    }
+  },
+  {
+    "theme": "Biochimie",
+    "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes",
+      "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+      "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+      "Les glycogénoses sont des pathologies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme des glycoprotéines",
+      "Les molécules énergétiques utilisées par le cerveau sont le glucose en période post-prandiale et les acides gras en période de jeûne"
+    ],
+    "correct_answers": [
+      "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+      "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+      "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes"
+    ],
+    "justification_fausses_reponses": {
+      "Les glycogénoses sont des pathologies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme des glycoprotéines": "Cette affirmation est incorrecte car les glycogénoses sont des maladies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme du glycogène, et non des glycoprotéines.",
+      "Les molécules énergétiques utilisées par le cerveau sont le glucose en période post-prandiale et les acides gras en période de jeûne": "Cette affirmation est fausse car le cerveau ne peut pas utiliser les acides gras comme source d'énergie en raison de la barrière hémato-encéphalique. Il utilise le glucose en permanence, et en cas de jeûne prolongé, il peut utiliser les corps cétoniques."
+    }
+  }
+]

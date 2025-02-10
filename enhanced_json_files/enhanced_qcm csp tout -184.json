@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L’augmentation de la concentration de l’hémoglobine à l’intérieur des hématies diminue le contenu de l’oxygène fixé sur l’hémoglobine à une pression en oxygène de 40 mmHg.",
+      "Rapporté au poids et au début d’une inspiration normale, le volume d’air présent dans la partie supérieure des poumons est plus important qu’à la base des poumons.",
+      "La résistance des voies aériennes est plus élevée lors de l’inspiration que lors de l’expiration.",
+      "La pression intra-pleurale diminue lors de l’inspiration.",
+      "La pression alvéolaire diminue lors de l’expiration."
+    ],
+    "correct_answers": [
+      "La pression intra-pleurale diminue lors de l’inspiration."
+    ],
+    "justification_fausses_reponses": {
+      "L’augmentation de la concentration de l’hémoglobine à l’intérieur des hématies diminue le contenu de l’oxygène fixé sur l’hémoglobine à une pression en oxygène de 40 mmHg.": "En réalité, l'augmentation de la concentration de l'hémoglobine à l'intérieur des hématies augmente le contenu de l'oxygène fixé sur l'hémoglobine, car l'hémoglobine est la molécule qui transporte l'oxygène dans le sang.",
+      "Rapporté au poids et au début d’une inspiration normale, le volume d’air présent dans la partie supérieure des poumons est plus important qu’à la base des poumons.": "C'est faux, car le volume d'air est en réalité plus important à la base des poumons qu'à la partie supérieure, en raison de la gravité et de la forme conique des poumons.",
+      "La résistance des voies aériennes est plus élevée lors de l’inspiration que lors de l’expiration.": "C'est incorrect, car la résistance des voies aériennes est en réalité plus élevée lors de l'expiration que lors de l'inspiration. Lors de l'expiration, l'air doit être expulsé des poumons, ce qui nécessite une plus grande force et donc une plus grande résistance.",
+      "La pression alvéolaire diminue lors de l’expiration.": "C'est faux, car la pression alvéolaire augmente lors de l'expiration. Lorsque nous expirons, l'air est expulsé des alvéoles, ce qui augmente la pression à l'intérieur de celles-ci."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Le tonus musculaire dépend du réflexe myotatique inverse.",
+      "Le tonus du quadriceps permet la station debout, et est provoqué par le réflexe myotatique.",
+      "Le phénomène de la « roue dentée » s'observe lors d'hypotonie sévère.",
+      "La maladie de Parkinson est rarement associée à une hypertonie musculaire.",
+      "Le réflexe ostéo-tendineux permet d'explorer les réflexes poly-synaptiques de flexion, à point de départ cutané."
+    ],
+    "correct_answers": [
+      "Le tonus du quadriceps permet la station debout, et est provoqué par le réflexe myotatique."
+    ],
+    "justification_fausses_reponses": {
+      "Le tonus musculaire dépend du réflexe myotatique inverse.": "C'est incorrect car le tonus musculaire dépend du réflexe myotatique, pas du réflexe myotatique inverse.",
+      "Le phénomène de la « roue dentée » s'observe lors d'hypotonie sévère.": "C'est incorrect car le phénomène de la « roue dentée » est associé à l'hypertonie, pas à l'hypotonie.",
+      "La maladie de Parkinson est rarement associée à une hypertonie musculaire.": "C'est incorrect car la maladie de Parkinson est souvent associée à une hypertonie musculaire, pas rarement.",
+      "Le réflexe ostéo-tendineux permet d'explorer les réflexes poly-synaptiques de flexion, à point de départ cutané.": "C'est incorrect car le réflexe ostéo-tendineux permet d'explorer les réflexes mono-synaptiques, pas les réflexes poly-synaptiques."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "L'antagoniste du récepteur muscarinique M2 est la muscarine.",
+      "Le récepteur muscarinique M2 est absent du coeur.",
+      "Le GABA est un agoniste du récepteur muscarinique M2.",
+      "Le récepteur muscarinique M2 est un récepteur canal à la différence des autres récepteurs muscariniques.",
+      "Le récepteur muscarinique M2 est associé à une protéine Gi."
+    ],
+    "correct_answers": [
+      "Le récepteur muscarinique M2 est associé à une protéine Gi."
+    ],
+    "justification_fausses_reponses": {
+      "L'antagoniste du récepteur muscarinique M2 est la muscarine.": "C'est incorrect car la muscarine est un agoniste, pas un antagoniste du récepteur muscarinique M2.",
+      "Le récepteur muscarinique M2 est absent du coeur.": "C'est faux car le récepteur muscarinique M2 est présent dans le coeur où il joue un rôle dans la régulation de la fréquence cardiaque.",
+      "Le GABA est un agoniste du récepteur muscarinique M2.": "C'est incorrect car le GABA est un neurotransmetteur inhibiteur du système nerveux central et n'a pas d'interaction directe avec le récepteur muscarinique M2.",
+      "Le récepteur muscarinique M2 est un récepteur canal à la différence des autres récepteurs muscariniques.": "C'est faux car le récepteur muscarinique M2 est un récepteur couplé à une protéine G, pas un récepteur canal."
+    }
+  }
+]

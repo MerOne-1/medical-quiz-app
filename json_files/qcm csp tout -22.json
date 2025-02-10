@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant les ondes électromagnétiques, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "Les ondes gamma sont très énergétiques",
+      "Les rayons X ont des fréquences très basses",
+      "Leur vitesse de propagation dans le vide est de 3 x 10 km.s",
+      "Energie E = h (constante de Planck) x ν (fréquence)",
+      "Energie E = h (constante de Planck) x λ (longueur d’onde) ÷ c (célérité)"
+    ],
+    "correct_answers": [
+      "Energie E = h (constante de Planck) x ν (fréquence)",
+      "Les ondes gamma sont très énergétiques",
+      "Leur vitesse de propagation dans le vide est de 3 x 10 km.s"
+    ]
+  }
+]

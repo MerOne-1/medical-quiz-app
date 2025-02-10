@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "De quoi est responsable cet ectoparasite ?",
+    "options": [
+      "la pédiculose",
+      "de fortes démangeaisons",
+      "ce n'est pas un ectoparasite",
+      "la gale",
+      "la phtiriase"
+    ],
+    "correct_answers": [
+      "la gale",
+      "de fortes démangeaisons"
+    ],
+    "justification_fausses_reponses": {
+      "la pédiculose": "La pédiculose est causée par des poux, pas par l'ectoparasite en question.",
+      "ce n'est pas un ectoparasite": "Cette affirmation est incorrecte car la question précise qu'il s'agit bien d'un ectoparasite.",
+      "la phtiriase": "La phtiriase est causée par le pou de pubis, qui est un autre type d'ectoparasite."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Cocher les bonnes réponses concernant Echinococcus multilocularis.",
+    "options": [
+      "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique.",
+      "Il est éradiqué en France.",
+      "Il existe un traitement très efficace: le praziquantel.",
+      "L'hôte définitif habituel est le chien.",
+      "La contamination de l'homme se fait par l'ingestion d'embryophores."
+    ],
+    "correct_answers": [
+      "La contamination de l'homme se fait par l'ingestion d'embryophores.",
+      "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique."
+    ],
+    "justification_fausses_reponses": {
+      "Il est éradiqué en France.": "C'est incorrect. Echinococcus multilocularis n'est pas éradiqué en France. Il est présent dans certaines régions, notamment l'Est de la France.",
+      "Il existe un traitement très efficace: le praziquantel.": "C'est incorrect. Le praziquantel n'est pas très efficace contre Echinococcus multilocularis. Le traitement de choix est l'albendazole ou le mébendazole.",
+      "L'hôte définitif habituel est le chien.": "C'est incorrect. L'hôte définitif habituel d'Echinococcus multilocularis est le renard, pas le chien."
+    }
+  }
+]

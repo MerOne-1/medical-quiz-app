@@ -1,0 +1,19 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "Soit un échantillon représentatif d’une certaine population constitué de 25 femmes et 15 hommes sur lesquels, entre autres paramètres, l’âge a été relevé. On se propose de mener un test paramétrique pour savoir si l’âge moyen des hommes est différent de celui des femmes. Parmi les propositions suivantes, lesquelles sont correctes ?",
+    "options": [
+      "L’hypothèse H est : µ = µ (1 et 2 étant les indices respectivement du groupe des hommes et des femmes)",
+      "Il faut tester l’égalité des variances avant de choisir la variable de décision",
+      "Il s’agit de la comparaison de moyennes sur deux échantillons indépendants",
+      "Les tailles des échantillons étant inférieures à 30, il faut s’assurer de la normalité de la variable âge dans la population des hommes et des femmes",
+      "Il s’agit de la comparaison de moyennes sur deux échantillons appariés"
+    ],
+    "correct_answers": [
+      "Il s’agit de la comparaison de moyennes sur deux échantillons indépendants",
+      "Les tailles des échantillons étant inférieures à 30, il faut s’assurer de la normalité de la variable âge dans la population des hommes et des femmes",
+      "L’hypothèse H est : µ = µ (1 et 2 étant les indices respectivement du groupe des hommes et des femmes)",
+      "Il faut tester l’égalité des variances avant de choisir la variable de décision"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les caractères biochimiques suivants, quels sont ceux que l'on retrouve constamment chez Staphylococcus aureus ?",
+    "options": [
+      "présence d'un lipopolysaccharide épais",
+      "production d'une bêta-lactamase",
+      "production d'une oxydase",
+      "production d'une coagulase",
+      "production d'une catalase"
+    ],
+    "correct_answers": [
+      "production d'une coagulase",
+      "production d'une catalase"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les composés ou structures suivants, quel(s) est(sont) celui(ceux) présent(s) dans la paroi de Streptococcus pyogenes ?",
+    "options": [
+      "des récepteurs pour le fragment Fc des immunoglobulines",
+      "le polysaccharide C",
+      "la protéine C réactive",
+      "la protéine M",
+      "le mucopeptide"
+    ],
+    "correct_answers": [
+      "la protéine M",
+      "le polysaccharide C",
+      "le mucopeptide"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exactes : Dans le traitement de première intention d'une tuberculose pulmonaire sans élément de résistance de l'agent causal aux antituberculeux majeurs, les molécules suivantes sont habituellement prescrites :",
+    "options": [
+      "streptomycine",
+      "pyrazinamide",
+      "éthambutol",
+      "isoniazide",
+      "rifampicine"
+    ],
+    "correct_answers": [
+      "pyrazinamide",
+      "isoniazide",
+      "éthambutol",
+      "rifampicine"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, quelle(s) est(sont) la(les) proposition(s) fausse(s) concernant Neisseria meningitidis ?",
+    "options": [
+      "elle possède une oxydase",
+      "elle est sensible à la rifampicine qui est utilisée pour la chimioprophylaxie des sujets \"contacts\"",
+      "il existe plusieurs sérogroupes définis par une protéine de membrane",
+      "c'est un pathogène strictement intracellulaire",
+      "c'est une bactérie fragile, ne résistant pas dans le milieu extérieur"
+    ],
+    "correct_answers": [
+      "il existe plusieurs sérogroupes définis par une protéine de membrane",
+      "c'est un pathogène strictement intracellulaire"
+    ]
+  }
+]

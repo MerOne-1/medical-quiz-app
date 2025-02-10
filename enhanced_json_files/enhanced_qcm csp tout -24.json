@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) inexacte(s) ? En chromatographie, dans les relations de Purnell, la résolution entre deux composés est fonction :",
+    "options": [
+      "De la sélectivité",
+      "De l’efficacité",
+      "Des temps de rétention",
+      "Des facteurs de rétention",
+      "Du débit de phase mobile"
+    ],
+    "correct_answers": [
+      "Des temps de rétention",
+      "Du débit de phase mobile"
+    ],
+    "justification_fausses_reponses": {
+      "De la sélectivité": "La sélectivité en chromatographie se réfère à la capacité d'un système à séparer des composés sur la base de leurs interactions chimiques avec la phase stationnaire. Elle n'affecte pas directement la résolution entre deux composés, qui est plutôt une mesure de la séparation entre les pics de ces composés sur un chromatogramme.",
+      "De l’efficacité": "L'efficacité en chromatographie se réfère à la capacité d'un système à produire des pics étroits et bien définis. Bien qu'elle soit importante pour la qualité globale d'une séparation, elle n'est pas directement liée à la résolution entre deux composés spécifiques.",
+      "Des facteurs de rétention": "Les facteurs de rétention en chromatographie se réfèrent à la tendance d'un composé à rester dans la phase stationnaire par rapport à la phase mobile. Bien qu'ils puissent affecter la position des pics sur un chromatogramme, ils n'affectent pas directement la résolution entre deux composés."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, lesquelles sont exactes ? Une solution éthanolique de couleur rouge est dosée par spectrophotométrie,",
+    "options": [
+      "l’eau permet la mesure du blanc",
+      "la longueur d’onde d’analyse se situe entre 400 et 800 nm",
+      "la longueur d’onde d’analyse se situe entre 200 et 400 nm",
+      "il sera nécessaire d’allumer la lampe au deutérium",
+      "les mesures sont effectuées en utilisant des cuves en plastique"
+    ],
+    "correct_answers": [
+      "les mesures sont effectuées en utilisant des cuves en plastique",
+      "la longueur d’onde d’analyse se situe entre 400 et 800 nm"
+    ],
+    "justification_fausses_reponses": {
+      "l’eau permet la mesure du blanc": "Cette affirmation est incorrecte car dans la spectrophotométrie, le blanc est généralement mesuré avec le solvant utilisé pour préparer la solution, dans ce cas, l'éthanol, et non l'eau.",
+      "la longueur d’onde d’analyse se situe entre 200 et 400 nm": "Cette affirmation est incorrecte car la couleur rouge de la solution indique que la longueur d'onde absorbée se situe dans la région du bleu-vert du spectre, soit entre 400 et 500 nm, et non entre 200 et 400 nm.",
+      "il sera nécessaire d’allumer la lampe au deutérium": "Cette affirmation est incorrecte car la lampe au deutérium est généralement utilisée pour l'analyse dans la région UV du spectre, soit en dessous de 400 nm. Pour une analyse dans la région visible du spectre (400-800 nm), une lampe à tungstène serait plus appropriée."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Le rendement de l'extraction par un solvant organique d'un composé neutre en solution dans l'eau augmente lorsque:",
+    "options": [
+      "Le temps de contact entre les deux phases augmente",
+      "Le volume de la phase aqueuse à extraire augmente",
+      "Le nombre d'extractions réalisées augmente",
+      "Le coefficient de partage du composé augmente",
+      "Le volume du solvant organique augmente"
+    ],
+    "correct_answers": [
+      "Le coefficient de partage du composé augmente",
+      "Le nombre d'extractions réalisées augmente",
+      "Le volume du solvant organique augmente"
+    ],
+    "justification_fausses_reponses": {
+      "Le temps de contact entre les deux phases augmente": "Le temps de contact entre les deux phases n'affecte pas directement le rendement de l'extraction. C'est plutôt la répétition de l'extraction (le nombre d'extractions) qui augmente le rendement.",
+      "Le volume de la phase aqueuse à extraire augmente": "Augmenter le volume de la phase aqueuse ne garantit pas une augmentation du rendement de l'extraction. En fait, cela pourrait diluer le composé et rendre l'extraction moins efficace. C'est plutôt l'augmentation du volume du solvant organique qui peut augmenter le rendement."
+    }
+  }
+]

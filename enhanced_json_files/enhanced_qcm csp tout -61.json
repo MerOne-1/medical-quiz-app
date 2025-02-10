@@ -1,0 +1,64 @@
+[
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Soit les affirmations suivantes concernant, l'origine contrôlée des dons :",
+    "options": [
+      "Une age supérieur à 60 ans constitue une contre indication à tout don",
+      "Un soin dentaire depuis moins d'un mois est une contre-indication",
+      "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois",
+      "Un poids trop faible constitue une contre-indication au don",
+      "Un visite médicale est systématique"
+    ],
+    "correct_answers": [
+      "Un visite médicale est systématique",
+      "Un poids trop faible constitue une contre-indication au don",
+      "Toute relation sexuelle avec un nouveau partenaire depuis moins de 6 mois"
+    ],
+    "justification_fausses_reponses": {
+      "Une age supérieur à 60 ans constitue une contre indication à tout don": "Cette affirmation est fausse car l'âge n'est pas une contre-indication absolue au don. Il est possible de donner du sang jusqu'à 70 ans, voire plus, à condition d'être en bonne santé et d'avoir l'accord du médecin de la collecte.",
+      "Un soin dentaire depuis moins d'un mois est une contre-indication": "Cette affirmation est incorrecte. Un soin dentaire n'est pas une contre-indication au don de sang. Cependant, un délai de 7 jours est recommandé après un soin dentaire pour éviter tout risque d'infection."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les actions suivantes de sécurisation, quelles sont celles qui appartiennent à la classe des traitements ?",
+    "options": [
+      "Inactivation des pathogènes",
+      "Phénotypage",
+      "ajout d'une solution de conservation ;",
+      "Préparation pédiatrique",
+      "Irradiation"
+    ],
+    "correct_answers": [
+      "ajout d'une solution de conservation ;",
+      "Inactivation des pathogènes"
+    ],
+    "justification_fausses_reponses": {
+      "Phénotypage": "Le phénotypage est une technique de caractérisation des organismes et non une action de sécurisation ou un traitement.",
+      "Préparation pédiatrique": "La préparation pédiatrique est une méthode de formulation de médicaments pour les enfants, et non une action de sécurisation ou un traitement.",
+      "Irradiation": "L'irradiation est une méthode de stérilisation et non un traitement. Elle est utilisée pour éliminer les micro-organismes, mais ne fait pas partie de la classe des traitements."
+    }
+  },
+  {
+    "theme": "Pharmacie galénique",
+    "question": "Parmi les étapes suivantes, quelles sont celles qui participent à l'élimination du prion ?",
+    "options": [
+      "filtration profondeur et nanofiltration",
+      "Fractionnement éthanolique",
+      "PH4/pepsine",
+      "Pasteurisation",
+      "Chauffage à sec",
+      "Différents types de Chromatographies"
+    ],
+    "correct_answers": [
+      "Fractionnement éthanolique",
+      "Différents types de Chromatographies",
+      "filtration profondeur et nanofiltration"
+    ],
+    "justification_fausses_reponses": {
+      "PH4/pepsine": "Le traitement PH4/pepsine n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à ce type de traitement.",
+      "Pasteurisation": "La pasteurisation n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à des températures élevées.",
+      "Chauffage à sec": "Le chauffage à sec n'est pas efficace pour éliminer les prions. Les prions sont des protéines qui peuvent résister à des températures élevées."
+    }
+  }
+]

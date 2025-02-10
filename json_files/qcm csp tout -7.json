@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "La valeur permettant de séparer un échantillon d'observations d'une variable quantitative X en deux sous-échantillons de même effectif est égale",
+    "options": [
+      "au troisième quartile",
+      "à la moyenne",
+      "à la médiane",
+      "au deuxième quartile",
+      "au mode"
+    ],
+    "correct_answers": [
+      "à la médiane",
+      "au deuxième quartile"
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Concernant les paramètres de la statistique descriptive, la(les) réponse(s) exacte(s) est(sont)",
+    "options": [
+      "Les quartiles sont au nombre de quatre",
+      "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne.",
+      "Un coefficient de corrélation est toujours compris entre 0 et 1 (bornes incluses)",
+      "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+      "Les quartiles sont au nombre de trois"
+    ],
+    "correct_answers": [
+      "Les quartiles sont au nombre de trois",
+      "Un coefficient de corrélation est toujours compris entre -1 et 1 (bornes incluses)",
+      "Un écart-type est toujours positif ou nul. Il est d'autant plus grand que les données sont dispersées relativement à la moyenne."
+    ]
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "On aimerait savoir si la moyenne d'âge d'une population est supérieure à 65 ans. Un échantillon de 35 individus, extrait de cette population, présente une moyenne d'âge de 58 ans. Concernant le test paramétrique utilisé pour répondre à la question posée et la valeur du degré de signification p du test, la(les) réponse(s) exacte(s) est (sont)",
+    "options": [
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral",
+      "Test de comparaison d'une proportion observée à une proportion théorique en unilatéral",
+      "p < 5 %",
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en bilatéral",
+      "p > 5 %"
+    ],
+    "correct_answers": [
+      "p > 5 %",
+      "Test de comparaison d'une moyenne observée à une moyenne théorique en unilatéral"
+    ]
+  }
+]

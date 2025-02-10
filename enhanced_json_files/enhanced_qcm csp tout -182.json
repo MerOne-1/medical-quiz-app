@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Physiologie",
+    "question": "L’influx nerveux :",
+    "options": [
+      "les variations de l’intensité d’un influx nerveux correspondent à des modifications de la fréquence de décharge de salves de potentiels d’action.",
+      "correspond à la propagation de potentiels d’action le long de la membrane de l’axone.",
+      "correspond à une propagation électrotonique d’un courant électrique le long de la membrane de l’axone.",
+      "se propage à une vitesse d’environ 100 mètres par seconde dans les plus grosses fibres à gaine de myéline.",
+      "l’amplitude des potentiels d’action est la même depuis le corps du neurone jusqu’à l’extrémité de l’axone."
+    ],
+    "correct_answers": [
+      "correspond à une propagation électrotonique d’un courant électrique le long de la membrane de l’axone."
+    ],
+    "justification_fausses_reponses": {
+      "les variations de l’intensité d’un influx nerveux correspondent à des modifications de la fréquence de décharge de salves de potentiels d’action.": "C'est incorrect car l'intensité de l'influx nerveux ne varie pas. Ce qui varie, c'est la fréquence des potentiels d'action, pas leur intensité.",
+      "correspond à la propagation de potentiels d’action le long de la membrane de l’axone.": "C'est incorrect car l'influx nerveux n'est pas simplement une propagation de potentiels d'action, mais une propagation électrotonique d'un courant électrique le long de la membrane de l'axone.",
+      "se propage à une vitesse d’environ 100 mètres par seconde dans les plus grosses fibres à gaine de myéline.": "C'est incorrect car la vitesse de propagation de l'influx nerveux dépend de plusieurs facteurs, dont le diamètre de la fibre nerveuse et la présence de myéline. Elle peut varier de 1 à 100 mètres par seconde.",
+      "l’amplitude des potentiels d’action est la même depuis le corps du neurone jusqu’à l’extrémité de l’axone.": "C'est incorrect car l'amplitude des potentiels d'action peut varier en fonction de plusieurs facteurs, dont la distance depuis le corps du neurone."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule proposition exacte:",
+    "options": [
+      "Une hormone stéroïde a un effet sur sa cellule cible par l’intermédiaire de sa fixation sur un récepteur intracellulaire.",
+      "La somatomédine C (IGF1) stimule la sécrétion de l’hormone de croissance.",
+      "L’hormone de croissance est principalement secrétée le matin.",
+      "L’hormone de croissance sensibilise les cellules musculaires à l’insuline.",
+      "L’hormone de croissance augmente la dégradation protéique au niveau des muscles."
+    ],
+    "correct_answers": [
+      "Une hormone stéroïde a un effet sur sa cellule cible par l’intermédiaire de sa fixation sur un récepteur intracellulaire."
+    ],
+    "justification_fausses_reponses": {
+      "La somatomédine C (IGF1) stimule la sécrétion de l’hormone de croissance.": "C'est incorrect. En réalité, la somatomédine C, ou IGF1, est produite en réponse à l'hormone de croissance, et non l'inverse.",
+      "L’hormone de croissance est principalement secrétée le matin.": "C'est faux. L'hormone de croissance est principalement secrétée pendant le sommeil, et non spécifiquement le matin.",
+      "L’hormone de croissance sensibilise les cellules musculaires à l’insuline.": "C'est incorrect. L'hormone de croissance a plutôt un effet anti-insuline, ce qui signifie qu'elle réduit la sensibilité des cellules à l'insuline.",
+      "L’hormone de croissance augmente la dégradation protéique au niveau des muscles.": "C'est faux. L'hormone de croissance favorise plutôt la synthèse protéique dans les muscles, et non leur dégradation."
+    }
+  },
+  {
+    "theme": "Physiologie",
+    "question": "Sélectionner la seule pr oposition exact e : Les cordons postérieurs sont formés par :",
+    "options": [
+      "Les faisceaux spinothalamiques postérieurs et latéraux.",
+      "Les faisceaux de Goll et de Burdach.",
+      "Le faisceau spinocérébelleux ventral.",
+      "Les faisceaux spinothalamiques postérieurs.",
+      "Le faisceau spinocérébelleux latéral."
+    ],
+    "correct_answers": [
+      "Les faisceaux de Goll et de Burdach."
+    ],
+    "justification_fausses_reponses": {
+      "Les faisceaux spinothalamiques postérieurs et latéraux.": "Cette réponse est incorrecte car les faisceaux spinothalamiques sont impliqués dans la transmission de la sensibilité thermo-algique et non dans la formation des cordons postérieurs.",
+      "Le faisceau spinocérébelleux ventral.": "Cette réponse est incorrecte car le faisceau spinocérébelleux ventral est impliqué dans la transmission des informations proprioceptives vers le cervelet et non dans la formation des cordons postérieurs.",
+      "Les faisceaux spinothalamiques postérieurs.": "Cette réponse est incorrecte car les faisceaux spinothalamiques postérieurs sont impliqués dans la transmission de la sensibilité thermo-algique et non dans la formation des cordons postérieurs.",
+      "Le faisceau spinocérébelleux latéral.": "Cette réponse est incorrecte car le faisceau spinocérébelleux latéral est impliqué dans la transmission des informations proprioceptives vers le cervelet et non dans la formation des cordons postérieurs."
+    }
+  }
+]

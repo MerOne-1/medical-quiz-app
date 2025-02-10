@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Un adolescent originaire d’Afrique Noire est admis aux urgences pour une crise douloureuse abdominale fébrile. L’examen clinique révèle une splénomégalie et un ictère conjonctival L’hémogramme montre les résultats suivants : Hb : 80g/L. V GM : 85 fl. TCMH : 28,8pg. Leucocytes : 11G/L. Plaquettes : 300G/L. R éticulocytes : 320G/L. Veuillez choisir au moins une réponse :",
+    "options": [
+      "L’anomalie à rechercher sur le frottis est la présence d’hématies falciformes ou drépanocytes",
+      "Le traitement de l’anémie hémolytique de la drépanocytose homozygote repose sur la splénectomie",
+      "Le diagnostic le plus probable évoqué est celui d’une drépanocytose hétérozygote",
+      "Dans la drépanocytose majeure, l’électrophorèse de l’hémoglobine montre la présence d’hémoglobine S à un taux supérieur à 70% ainsi qu’une augmentation de l’HbF ; l’hémoglobine A1 est proche de 15%",
+      "Le diagnostic hématologique est une anémie sévère normocytaire, normochrome et régénérative à caractère probablement hémolytique"
+    ],
+    "correct_answers": [
+      "Le diagnostic hématologique est une anémie sévère normocytaire, normochrome et régénérative à caractère probablement hémolytique",
+      "L’anomalie à rechercher sur le frottis est la présence d’hématies falciformes ou drépanocytes"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant la maladie hémolytique du nouveau-né dans le système Rhésus ?",
+    "options": [
+      "Elle survient chez la mère Rhésus positif portant un enfant Rhésus négatif",
+      "Elle est liée au fait que l’antigène D est peu immunogène",
+      "Elle survient toujours lors d'une première grossesse",
+      "Elle peut être prévenue par l'injection d'immunoglobulines anti-D",
+      "Elle est liée au passage transplacentaire d'immunoglobulines de type IgM"
+    ],
+    "correct_answers": [
+      "Elle peut être prévenue par l'injection d'immunoglobulines anti-D"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant la leucémie myéloïde chronique, quelles sont les propositions fausses ?",
+    "options": [
+      "Le myélogramme permet de déterminer la phase de la maladie (chronique, accélérée, ou blastique)",
+      "Une hyperéosinophilie peut être observée au diagnostic",
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "Il n’existe pas d’anomalie cytogénétique récurrente dans cette maladie",
+      "Le traitement repose principalement sur des inhibiteurs de tyrosine kinase"
+    ],
+    "correct_answers": [
+      "Les cellules leucémiques présentent un blocage de maturation",
+      "Il n’existe pas d’anomalie cytogénétique récurrente dans cette maladie"
+    ]
+  }
+]

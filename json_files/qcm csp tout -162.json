@@ -1,0 +1,31 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Problèmes rencontrés au cours de la technique dite « de SCA TCHARD ». Choisir la proposition fausse ?",
+    "options": [
+      "Le choix du ligand froid pour effectuer le déplacement de la radioactivité spécifique est important lorsqu'on veut déterminer les interférences.",
+      "Les ligands radioactifs s'adsorbent sur le filtre au moment de la filtration, donc il crée des interférences au moment du comptage de la radioactivité.",
+      "Le compteur de radioactivité (compteur à scintillation liquide) ne peut pas dénombrer toute la radioactivité émise. Chaque compteur a donc une efficacité de comptage ou rendement.",
+      "Les concentrations en récepteurs et en ligands sont trop importantes, on a donc un problème de saturation de la technique.",
+      "Les concentrations en récepteurs et en ligands sont trop faibles, donc on a un problème de sensibilité de la technique."
+    ],
+    "correct_answers": [
+      "Les concentrations en récepteurs et en ligands sont trop importantes, on a donc un problème de saturation de la technique."
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant le passage foeto-placentaire des médicaments dans l'espèce humaine, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Le diabète gestationnel peut être traité par les sulfamides hypoglycémiants, ceux-ci ne passant pas au niveau fœtal",
+      "Un médicament lipophile passera moins dans le comportement fœtal qu'un médicament hydrophile",
+      "La surface du trophoblaste augmente, alors que son épaisseur diminue avec l'âge de gestation, ce qui facilite le passage des médicaments au niveau fœtal en fin de grossesse",
+      "Le trophoblaste constitue la barrière entre le compartiment maternel et le compartiment fœtal",
+      "Un médicament fortement liés aux protéines plasmatiques passera davantage au niveau fœtal qu'un médicament peu lié"
+    ],
+    "correct_answers": [
+      "Le trophoblaste constitue la barrière entre le compartiment maternel et le compartiment fœtal",
+      "La surface du trophoblaste augmente, alors que son épaisseur diminue avec l'âge de gestation, ce qui facilite le passage des médicaments au niveau fœtal en fin de grossesse"
+    ]
+  }
+]

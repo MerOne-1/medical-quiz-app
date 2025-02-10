@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les macrolides agissent sur la paroi bactérienne",
+      "Les glycopeptides agissent sur la paroi bactérienne",
+      "Les échinocandines agissent sur la paroi fongique",
+      "Les céphalosporines agissent sur la paroi bactérienne",
+      "Les pénicillines agissent sur la paroi bactérienne"
+    ],
+    "correct_answers": [
+      "Les pénicillines agissent sur la paroi bactérienne",
+      "Les céphalosporines agissent sur la paroi bactérienne",
+      "Les glycopeptides agissent sur la paroi bactérienne",
+      "Les échinocandines agissent sur la paroi fongique"
+    ],
+    "justification_fausses_reponses": {
+      "Les macrolides agissent sur la paroi bactérienne": "C'est incorrect. Les macrolides sont des antibiotiques qui agissent en inhibant la synthèse des protéines bactériennes, et non en agissant sur la paroi bactérienne."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Le docétaxel agit sur les microtubules",
+      "La doxorubicine agit sur les microtubules",
+      "La vinorelbine agit sur les microtubules",
+      "La bléomycine agit sur les microtubules",
+      "Le paclitaxel agit sur les microtubules"
+    ],
+    "correct_answers": [
+      "Le paclitaxel agit sur les microtubules",
+      "La vinorelbine agit sur les microtubules",
+      "Le docétaxel agit sur les microtubules"
+    ],
+    "justification_fausses_reponses": {
+      "La doxorubicine agit sur les microtubules": "La doxorubicine est un agent intercalant de l'ADN, elle n'agit pas sur les microtubules. Son mécanisme d'action principal est d'interférer avec la réplication de l'ADN en s'insérant entre les bases de l'ADN.",
+      "La bléomycine agit sur les microtubules": "La bléomycine est un agent qui provoque des cassures de l'ADN, elle n'agit pas sur les microtubules. Son mécanisme d'action principal est de provoquer des cassures dans les deux brins de l'ADN, ce qui entraîne la mort cellulaire."
+    }
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+    "options": [
+      "Pristinamycine",
+      "Gentamicine",
+      "Minocycline",
+      "Fosfomycine",
+      "Spiramycine"
+    ],
+    "correct_answers": [
+      "Gentamicine",
+      "Pristinamycine",
+      "Minocycline",
+      "Spiramycine"
+    ],
+    "justification_fausses_reponses": {
+      "Fosfomycine": "La fosfomycine est un antibiotique qui agit en inhibant la première étape de la synthèse de la paroi cellulaire bactérienne et non sur le fonctionnement des ribosomes."
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les unités suivantes, quelle est celle qui est équivalente à 1 Joule ?",
+    "options": [
+      "1 kg.s.m",
+      "1 kg.m.s",
+      "1 kg.m .s",
+      "1 kg.m.s",
+      "1 kg.s .m-1"
+    ],
+    "correct_answers": [
+      "1 kg.m .s2-2"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes concernant  la radioactivité, la(les)quelle(s) est (sont) exacte(s) ?",
+    "options": [
+      "La radioactivité beta- conduit à l’émission d’un électron",
+      "La radioactivité alpha conduit à l’émission d’un noyau d’hélium",
+      "La radioactivité delta conduit à l’émission d’un deutérium",
+      "La radioactivité gamma conduit à l’émission d’un neutron",
+      "La radioactivité beta+ conduit à l’émission d’un proton"
+    ],
+    "correct_answers": [
+      "La radioactivité alpha conduit à l’émission d’un noyau d’hélium",
+      "La radioactivité beta- conduit à l’émission d’un électron"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Parmi les propositions suivantes, la(les)quelle(s) est (sont) exacte(s)",
+    "options": [
+      "La spectrophotométrie UV-Visible permet de mesurer un pouvoir rotatoire",
+      "La photométrie de flamme est basée sur l’émission de lumière par des atomes excités retournant à l’état fondamental",
+      "La polarimétrie permet de mesurer une absorbance",
+      "Le domaine de lumière Visible correspond à la lumière blanche",
+      "La réfractométrie permet de mesurer un indice de réfraction absolu"
+    ],
+    "correct_answers": [
+      "La réfractométrie permet de mesurer un indice de réfraction absolu",
+      "La photométrie de flamme est basée sur l’émission de lumière par des atomes excités retournant à l’état fondamental",
+      "Le domaine de lumière Visible correspond à la lumière blanche"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie organique",
+    "question": "La bédaquiline est un antituberculeux utilisé dans le traitement de la tuberculose multi-résistante. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+      "La bédaquiline possède un atome d'halogène",
+      "La bédaquiline est protonée à pH physiologique (pH 7,4)",
+      "La bédaquiline possède un noyau indole",
+      "La bédaquiline possède une amine secondaire"
+    ],
+    "correct_answers": [
+      "La bédaquiline possède 3 stéréoisomères (1 énantiomère et 2 diastéréosisomères)",
+      "La bédaquiline possède un atome d'halogène",
+      "La bédaquiline est protonée à pH physiologique (pH 7,4)"
+    ],
+    "justification_fausses_reponses": {
+      "La bédaquiline possède un noyau indole": "C'est incorrect. La structure de la bédaquiline ne contient pas de noyau indole, qui est un composé aromatique bicyclique constitué d'un cycle benzénique et d'un cycle pyrrole.",
+      "La bédaquiline possède une amine secondaire": "C'est incorrect. La bédaquiline ne possède pas d'amine secondaire dans sa structure. Une amine secondaire est un composé organique où l'atome d'azote est lié à deux atomes de carbone."
+    }
+  },
+  {
+    "theme": "Chimie organique",
+    "question": "L'eltrombopag est utilisé dans la prise en charge des aplasies médullaires acquises sévères, des purpuras thrombopéniques et des thrombopénies de patients atteints d'hépatite C. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "L'eltrombopag présente une fonction phénol",
+      "L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7,4)",
+      "L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène",
+      "L'eltrombopag est un dérivé de l'acide benzoïque",
+      "L'eltrombopag est un analogue de l'aspirine"
+    ],
+    "correct_answers": [
+      "L'eltrombopag est un dérivé de l'acide benzoïque"
+    ],
+    "justification_fausses_reponses": {
+      "L'eltrombopag présente une fonction phénol": "C'est incorrect car l'eltrombopag ne contient pas de groupe hydroxyle (-OH) attaché à un atome de carbone aromatique, qui est la caractéristique d'une fonction phénol.",
+      "L'eltrombopag est à l'état d'ionisation +1 à pH physiologique (pH 7,4)": "C'est incorrect car l'eltrombopag est un composé neutre à pH physiologique. Il ne gagne ni ne perd de protons et donc ne présente pas d'état d'ionisation.",
+      "L'eltrombopag ne présente pas d'atomes accepteurs de liaisons hydrogène": "C'est incorrect car l'eltrombopag contient des atomes d'oxygène et de nitrogène qui peuvent agir comme accepteurs de liaisons hydrogène.",
+      "L'eltrombopag est un analogue de l'aspirine": "C'est incorrect car l'eltrombopag et l'aspirine ont des structures chimiques et des mécanismes d'action différents. L'eltrombopag est un agoniste du récepteur de la thrombopoïétine, tandis que l'aspirine est un inhibiteur de la cyclooxygénase."
+    }
+  }
+]

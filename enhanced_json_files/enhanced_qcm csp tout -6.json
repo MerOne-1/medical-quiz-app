@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Biomathématiques",
+    "question": "On veut tester avec un Chi², l’hypothèse selon laquelle l’occurrence d’une certaine maladie est liée au sexe. Au cours de la réalisation du test, on obtient le tableau de contingence suivant : Malade Non malade Total Hommes 6 44 50 Femmes 14 36 50 Total 20 80 100 Le calcul du Chi donne 4. Sachant que dans la table du Chi2 on lit : P(Chi ≥3,841)=0,05, quelles sont les propositions correctes?",
+    "options": [
+      "Tous les effectifs théoriques sont supérieurs ou égaux à 5",
+      "Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie et le sexe",
+      "Au seuil de 5%, on ne rejette pas l’hypothèse de l’absence de liaison entre l’occurrence de cette maladie et le sexe",
+      "Le nombre de degrés de liberté lié à ce test est égal à 1",
+      "On ne peut pas utiliser un test du Chi² pour tester cette hypothèse"
+    ],
+    "correct_answers": [
+      "Au seuil de 5%, on rejette l’hypothèse de l'absence de liaison entre l’occurrence de cette maladie et le sexe",
+      "Le nombre de degrés de liberté lié à ce test est égal à 1",
+      "Tous les effectifs théoriques sont supérieurs ou égaux à 5"
+    ],
+    "justification_fausses_reponses": {
+      "Au seuil de 5%, on ne rejette pas l’hypothèse de l’absence de liaison entre l’occurrence de cette maladie et le sexe": "Cette proposition est incorrecte car la valeur du Chi² obtenue (4) est supérieure à la valeur critique (3,841) pour un seuil de 5%. Cela signifie qu'il y a moins de 5% de chances que les différences observées soient dues au hasard, donc on rejette l'hypothèse de l'absence de liaison.",
+      "On ne peut pas utiliser un test du Chi² pour tester cette hypothèse": "Cette proposition est incorrecte car le test du Chi² est précisément conçu pour tester l'indépendance de deux variables catégorielles, comme c'est le cas ici avec le sexe et l'occurrence de la maladie."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "On veut étudier la liaison entre deux variables X et Y qualitatives. Concernant le test à utiliser et les hypothèses, la(les) réponse(s) exacte(s) est(sont) :",
+    "options": [
+      "H : X et Y liées",
+      "H : ρ = 0 H ρ ≠ 0",
+      "H : X et Y indépendantes",
+      "Test du Khi2 d'indépendance",
+      "Test de corrélation"
+    ],
+    "correct_answers": [
+      "Test du Khi2 d'indépendance",
+      "H : X et Y indépendantes"
+    ],
+    "justification_fausses_reponses": {
+      "H : X et Y liées": "Cette hypothèse est incorrecte car elle suppose une liaison entre X et Y, alors que la question demande d'étudier l'indépendance entre ces deux variables.",
+      "H : ρ = 0 H ρ ≠ 0": "Cette hypothèse est incorrecte car elle concerne la corrélation, qui est une mesure de la relation linéaire entre deux variables quantitatives, pas qualitatives.",
+      "Test de corrélation": "Ce test est incorrect car il est utilisé pour mesurer la force et la direction de la relation entre deux variables quantitatives. Ici, on étudie deux variables qualitatives."
+    }
+  },
+  {
+    "theme": "Biomathématiques",
+    "question": "Une étude est menée chez des sujets présentant un syndrome métabolique afin d'évaluer les relations entre l'âge (mesuré en années) et des marqueurs d'inflammation, en particulier la CRP (mesurée en mg/l). Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+    "options": [
+      "On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée",
+      "On peut utiliser un test de Student pour répondre à la problématique posée",
+      "On peut utiliser un test du khi-deux pour répondre à la problématique posée",
+      "On peut effectuer une analyse de variance pour répondre à la problématique posée",
+      "On peut construire une droite de régression linéaire pour répondre à la problématique posée"
+    ],
+    "correct_answers": [
+      "On peut utiliser un test du coefficient de corrélation linéaire pour répondre à la problématique posée",
+      "On peut construire une droite de régression linéaire pour répondre à la problématique posée"
+    ],
+    "justification_fausses_reponses": {
+      "On peut utiliser un test de Student pour répondre à la problématique posée": "Le test de Student est utilisé pour comparer les moyennes de deux groupes indépendants. Il n'est pas approprié pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP.",
+      "On peut utiliser un test du khi-deux pour répondre à la problématique posée": "Le test du khi-deux est utilisé pour tester l'indépendance entre deux variables catégorielles. Il n'est pas approprié pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP.",
+      "On peut effectuer une analyse de variance pour répondre à la problématique posée": "L'analyse de variance est utilisée pour comparer les moyennes de plus de deux groupes. Elle n'est pas appropriée pour évaluer la corrélation entre deux variables continues comme l'âge et la CRP."
+    }
+  }
+]

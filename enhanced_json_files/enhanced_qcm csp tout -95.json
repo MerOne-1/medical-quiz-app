@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos de la molécule ci-dessous :",
+    "options": [
+      "le motif piperazine assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le Fluor en position 7 de l’aromatique est un élément de pharmacophore",
+      "il s’agit de l’ofloxacine",
+      "il s’agit de la ciprofloxacine"
+    ],
+    "correct_answers": [
+      "il s’agit de la ciprofloxacine",
+      "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+      "le Fluor en position 7 de l’aromatique est un élément de pharmacophore"
+    ],
+    "justification_fausses_reponses": {
+      "le motif piperazine assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne": "C'est incorrect car le motif piperazine n'assure pas la liaison au Mg contenu dans l'ADN gyrase bactérienne. C'est le motif β-ceto-acide qui assure cette liaison.",
+      "il s’agit de l’ofloxacine": "C'est incorrect car la molécule en question est la ciprofloxacine, pas l'ofloxacine. Ces deux molécules sont différentes bien qu'elles appartiennent à la même classe d'antibiotiques, les fluoroquinolones."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces médicaments, quels sont ceux susceptibles d’interagir avec leur(s) récepteur(s) par liaison ionique ?",
+    "options": [
+      "molécule C",
+      "molécule B",
+      "molécule E",
+      "molécule A",
+      "molécule D"
+    ],
+    "correct_answers": [
+      "molécule A",
+      "molécule C",
+      "molécule D",
+      "molécule E"
+    ],
+    "justification_fausses_reponses": {
+      "molécule B": "La molécule B n'est pas susceptible d'interagir avec son récepteur par liaison ionique. La liaison ionique implique un transfert d'électrons entre deux atomes, ce qui n'est pas le cas pour cette molécule."
+    }
+  }
+]

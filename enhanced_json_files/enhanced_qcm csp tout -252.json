@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Concernant les leucémies aiguës myéloïdes (L AM), quelles sont les propositions exactes ?",
+    "options": [
+      "Le caryotype est essentiel à l’évaluation du pronostic de la maladie",
+      "Un syndrome de leucostase peut survenir en cas de L AM hyperleucocytaire",
+      "La classification OMS des L AM repose uniquement sur les critères cytologiques",
+      "Le risque de CIVD est important en cas de leucémie aiguë promyélocytaire (L AM3)",
+      "Les L AM4 à éosinophiles sont associées à une inv(16) ou t(16;16)"
+    ],
+    "correct_answers": [
+      "Un syndrome de leucostase peut survenir en cas de L AM hyperleucocytaire",
+      "Le risque de CIVD est important en cas de leucémie aiguë promyélocytaire (L AM3)",
+      "Les L AM4 à éosinophiles sont associées à une inv(16) ou t(16;16)",
+      "Le caryotype est essentiel à l’évaluation du pronostic de la maladie"
+    ],
+    "justification_fausses_reponses": {
+      "La classification OMS des L AM repose uniquement sur les critères cytologiques": "Cette affirmation est incorrecte car la classification de l'OMS des LAM ne repose pas uniquement sur les critères cytologiques. Elle prend également en compte les caractéristiques génétiques et moléculaires de la maladie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Concernant les Héparines de Bas P oids Moléculaire (HBPM) administrées à doses curatives :",
+    "options": [
+      "Elles allongent le T CA",
+      "Leur surveillance peut s'effectuer par l'évaluation de l'activité anti-Xa",
+      "Elles sont capables de diffuser à travers la barrière foeto-placentaire et sont donc contre-indiquées chez la femme enceinte",
+      "Elles n’entrainent pas de thrombopénies induites par l’héparine",
+      "Elles sont contre-indiquées dans les insuffisances rénales sévères"
+    ],
+    "correct_answers": [
+      "Leur surveillance peut s'effectuer par l'évaluation de l'activité anti-Xa",
+      "Elles sont contre-indiquées dans les insuffisances rénales sévères"
+    ],
+    "justification_fausses_reponses": {
+      "Elles allongent le T CA": "Les HBPM n'allongent pas le TCA (Temps de Céphaline Activée) car elles ont une action plus spécifique sur le facteur Xa et moins sur la thrombine, contrairement à l'héparine non fractionnée.",
+      "Elles sont capables de diffuser à travers la barrière foeto-placentaire et sont donc contre-indiquées chez la femme enceinte": "Les HBPM ne traversent pas la barrière foeto-placentaire, elles sont donc sûres pour une utilisation pendant la grossesse.",
+      "Elles n’entrainent pas de thrombopénies induites par l’héparine": "Les HBPM peuvent causer une thrombopénie induite par l'héparine (TIH), bien que le risque soit plus faible qu'avec l'héparine non fractionnée."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle (ou lesquelles) peut (peuvent) être à l’origine d’une anémie d’origine centrale ?",
+    "options": [
+      "Une carence en vitamines B12 ou en folates",
+      "L’envahissement métastatique de la moelle osseuse",
+      "Une myélofibrose",
+      "Une aplasie médullaire médicamenteuse",
+      "Une hémorragie digestive"
+    ],
+    "correct_answers": [
+      "Une aplasie médullaire médicamenteuse",
+      "L’envahissement métastatique de la moelle osseuse",
+      "Une myélofibrose",
+      "Une carence en vitamines B12 ou en folates"
+    ],
+    "justification_fausses_reponses": {
+      "Une hémorragie digestive": "Une hémorragie digestive n'est pas une cause d'anémie d'origine centrale. Elle peut causer une anémie par perte de sang, mais elle n'affecte pas directement la production de globules rouges par la moelle osseuse, qui est le mécanisme en jeu dans l'anémie d'origine centrale."
+    }
+  }
+]

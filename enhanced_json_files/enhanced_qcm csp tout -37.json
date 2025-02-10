@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, concernant la pesée, laquelle est exacte ? Vous devez préparer 50 mL d’une solution d’aspirine à 0,1 g/L en utilisant une balance dont la précision est de 10  g. Quelle valeur doit s’afficher sur la balance ?",
+    "options": [
+      "0,0500 g",
+      "0,005 g",
+      "0,0050 g",
+      "0,5000 g",
+      "0,050 g-4"
+    ],
+    "correct_answers": [
+      "0,0050 g"
+    ],
+    "justification_fausses_reponses": {
+      "0,0500 g": "Cette réponse est incorrecte car elle représente une concentration de 1 g/L pour une solution de 50 mL, ce qui est dix fois plus que la concentration requise de 0,1 g/L.",
+      "0,005 g": "Cette réponse est incorrecte car elle ne respecte pas la précision de la balance qui est de 4 chiffres après la virgule.",
+      "0,5000 g": "Cette réponse est incorrecte car elle représente une concentration de 10 g/L pour une solution de 50 mL, ce qui est cent fois plus que la concentration requise de 0,1 g/L.",
+      "0,050 g-4": "Cette réponse est incorrecte car elle ne respecte pas le format standard pour représenter une masse en grammes."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ? En chromatographie liquide, la hauteur équivalente à un plateau théorique :",
+    "options": [
+      "Augmente avec la longueur de la colonne",
+      "Augmente avec le nombre de plateaux de la colonne",
+      "Est inversement proportionnel au temps d’analyse",
+      "Est une grandeur qui caractérise l’efficacité de la colonne",
+      "Est fonction de la vitesse linéaire de la phase mobile"
+    ],
+    "correct_answers": [
+      "Est fonction de la vitesse linéaire de la phase mobile",
+      "Est une grandeur qui caractérise l’efficacité de la colonne"
+    ],
+    "justification_fausses_reponses": {
+      "Augmente avec la longueur de la colonne": "Faux. La hauteur équivalente à un plateau théorique est une mesure de l'efficacité de la colonne, pas de sa longueur. Une colonne plus longue peut avoir plus de plateaux, mais cela ne signifie pas nécessairement qu'elle est plus efficace.",
+      "Augmente avec le nombre de plateaux de la colonne": "Faux. La hauteur équivalente à un plateau théorique est une mesure de l'efficacité de la colonne, pas du nombre de plateaux. Une colonne avec plus de plateaux peut avoir une plus grande capacité de séparation, mais cela ne signifie pas nécessairement qu'elle est plus efficace.",
+      "Est inversement proportionnel au temps d’analyse": "Faux. La hauteur équivalente à un plateau théorique n'est pas liée au temps d'analyse. Elle est une mesure de l'efficacité de la colonne et est déterminée par des facteurs tels que la vitesse de la phase mobile et la nature de la phase stationnaire."
+    }
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle ou (lesquelles) est (sont) exacte(s) ? En chromatographie liquide, la résolution entre deux composés :",
+    "options": [
+      "Ne dépend pas de la longueur de la colonne",
+      "Dépend de leurs facteurs de rétention",
+      "Est fonction de la composition de la phase mobile",
+      "Dépend du nombre de plateaux théoriques de la colonne",
+      "Doit être supérieure à 5 pour être totale"
+    ],
+    "correct_answers": [
+      "Dépend de leurs facteurs de rétention",
+      "Dépend du nombre de plateaux théoriques de la colonne",
+      "Est fonction de la composition de la phase mobile"
+    ],
+    "justification_fausses_reponses": {
+      "Ne dépend pas de la longueur de la colonne": "C'est incorrect. En chromatographie, la résolution entre deux composés dépend effectivement de la longueur de la colonne. Plus la colonne est longue, plus la séparation entre les composés est grande.",
+      "Doit être supérieure à 5 pour être totale": "C'est faux. La résolution n'a pas besoin d'être supérieure à 5 pour être totale. Une résolution de 1,5 est généralement suffisante pour une séparation complète des composés."
+    }
+  }
+]

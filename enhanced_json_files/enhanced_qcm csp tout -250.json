@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les signes suivants, quels sont ceux que l’on ne rencontre pas dans le cadre du diagnostic d’une gammapathie monoclonale de signification indéterminée (MGUS) ?",
+    "options": [
+      "Lésions ostéolytiques",
+      "Pic monoclonal sérique à IgG kappa",
+      "Hypercalcémie",
+      "Plasmocytose médullaire à 20%",
+      "Insuffisance rénale"
+    ],
+    "correct_answers": [
+      "Plasmocytose médullaire à 20%",
+      "Hypercalcémie",
+      "Lésions ostéolytiques",
+      "Insuffisance rénale"
+    ],
+    "justification_fausses_reponses": {
+      "Pic monoclonal sérique à IgG kappa": "Le pic monoclonal sérique à IgG kappa est un signe de la gammapathie monoclonale de signification indéterminée (MGUS). Il s'agit d'une augmentation anormale de la production d'une seule classe d'immunoglobuline (IgG kappa dans ce cas). C'est un critère de diagnostic de la MGUS, donc il n'est pas correct de dire qu'on ne le rencontre pas dans le cadre du diagnostic de cette maladie."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Le diagnostic de certitude d’une anémie ferriprive repose sur le myélogramme",
+      "Dans la maladie de Biermer, l’hémogramme permet d’affirmer la mégaloblastose",
+      "En pratique, la cytochimie de la myéloperoxydase est indispensable dans le diagnostic d’une leucémie aigue",
+      "Une hyperéosinophilie sanguine est définie par des polynucléaires éosinophiles sanguins supérieurs à 20% des leucocytes totaux",
+      "Une numération plaquettaire normale sur tube citraté permet d’éliminer une fausse thrombopénie à l’ED TA"
+    ],
+    "correct_answers": [
+      "Dans la maladie de Biermer, l’hémogramme permet d’affirmer la mégaloblastose",
+      "En pratique, la cytochimie de la myéloperoxydase est indispensable dans le diagnostic d’une leucémie aigue",
+      "Une hyperéosinophilie sanguine est définie par des polynucléaires éosinophiles sanguins supérieurs à 20% des leucocytes totaux"
+    ],
+    "justification_fausses_reponses": {
+      "Le diagnostic de certitude d’une anémie ferriprive repose sur le myélogramme": "C'est incorrect car le diagnostic de certitude d'une anémie ferriprive repose sur la mesure du fer sérique, de la ferritine sérique et de la capacité totale de fixation du fer. Le myélogramme n'est pas nécessaire pour ce diagnostic.",
+      "Une numération plaquettaire normale sur tube citraté permet d’éliminer une fausse thrombopénie à l’ED TA": "C'est incorrect car une numération plaquettaire normale sur tube citraté ne permet pas d'éliminer une fausse thrombopénie. La thrombopénie doit être confirmée par un examen direct du frottis sanguin."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes, laquelle ou lesquelles ne s’applique(nt) pas aux syndromes myélodysplasiques ?",
+    "options": [
+      "Leur fréquence augmente avec l’âge",
+      "L’anémie est le plus souvent microcytaire",
+      "Ils peuvent être secondaires à une chimiothérapie cytotoxique",
+      "Le caryotype est un facteur pronostique majeur",
+      "Ils sont caractérisés par une dysmyélopoïèse"
+    ],
+    "correct_answers": [
+      "L’anémie est le plus souvent microcytaire"
+    ],
+    "justification_fausses_reponses": {
+      "Leur fréquence augmente avec l’âge": "Cette affirmation est incorrecte car les syndromes myélodysplasiques sont plus fréquents chez les personnes âgées, en raison de l'accumulation de mutations génétiques au fil du temps.",
+      "Ils peuvent être secondaires à une chimiothérapie cytotoxique": "Cette affirmation est incorrecte car les syndromes myélodysplasiques peuvent effectivement être secondaires à une chimiothérapie cytotoxique. La chimiothérapie peut endommager la moelle osseuse et provoquer ces syndromes.",
+      "Le caryotype est un facteur pronostique majeur": "Cette affirmation est incorrecte car le caryotype, qui est l'ensemble des chromosomes d'une cellule, est un facteur pronostique majeur dans les syndromes myélodysplasiques. Certaines anomalies chromosomiques sont associées à un pronostic plus défavorable.",
+      "Ils sont caractérisés par une dysmyélopoïèse": "Cette affirmation est incorrecte car les syndromes myélodysplasiques sont effectivement caractérisés par une dysmyélopoïèse, qui est une production anormale de cellules sanguines par la moelle osseuse."
+    }
+  }
+]

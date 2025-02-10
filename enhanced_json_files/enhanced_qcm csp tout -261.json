@@ -1,0 +1,59 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les examens suivants, lesquels peuvent contribuer à établir le diagnostic de syndrome myélodysplasique ?",
+    "options": [
+      "Caryotype",
+      "Coloration de Perls",
+      "Hémogramme",
+      "Myélogramme",
+      "Dosage de la ferritinémie"
+    ],
+    "correct_answers": [
+      "Hémogramme",
+      "Myélogramme",
+      "Coloration de P erls",
+      "Caryotype"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes concernant les groupes sanguins, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Les sujets de groupe sanguin AB peuvent recevoir des hématies des groupes A, B, AB et O et sont considérés comme « receveur universel »",
+      "La réalisation d'un groupage ABO nécessite 2 épreuves : une épreuve globulaire (méthode de Beth-Vincent) et une épreuve plasmatique (méthode de Simonin)",
+      "Dans le système ABO, il ne faut jamais transfuser à un malade un antigène contre lequel il possède l'anticorps dans son plasma",
+      "Les sujets de groupe sanguin O sont considérées comme « donneur universel »",
+      "Les sujets de groupe A peuvent recevoir des hématies des groupes O, B et AB"
+    ],
+    "correct_answers": [
+      "Les sujets de groupe sanguin O sont considérées comme « donneur universel »",
+      "Les sujets de groupe sanguin AB peuvent recevoir des hématies des groupes A, B, AB et O et sont considérés comme « receveur universel »",
+      "Dans le système ABO, il ne faut jamais transfuser à un malade un antigène contre lequel il possède l'anticorps dans son plasma",
+      "La réalisation d'un groupage ABO nécessite 2 épreuves : une épreuve globulaire (méthode de Beth-Vincent) et une épreuve plasmatique (méthode de Simonin)"
+    ],
+    "justification_fausses_reponses": {
+      "Les sujets de groupe A peuvent recevoir des hématies des groupes O, B et AB": "C'est incorrect car les sujets de groupe A ne peuvent recevoir que des hématies des groupes A et O. Ils ne peuvent pas recevoir de sang des groupes B et AB car ils possèdent des anticorps anti-B qui réagiraient avec les antigènes B présents dans ces groupes sanguins."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les hémopathies suivantes, quelles sont celles qui peuvent s’accompagner d’une pancytopénie ?",
+    "options": [
+      "Syndromes myélodysplasiques",
+      "Leucémie aiguë lymphoïde",
+      "Polyglobulie de V aquez",
+      "Leucémie aiguë promyélocytaire",
+      "Leucémie myéloïde chronique en phase chronique"
+    ],
+    "correct_answers": [
+      "Leucémie aiguë promyélocytaire",
+      "Leucémie aiguë lymphoïde",
+      "Syndromes myélodysplasiques"
+    ],
+    "justification_fausses_reponses": {
+      "Polyglobulie de V aquez": "La Polyglobulie de Vaquez est une maladie caractérisée par une production excessive de globules rouges. Elle ne s'accompagne donc pas d'une pancytopénie, qui est une diminution du nombre de toutes les cellules sanguines.",
+      "Leucémie myéloïde chronique en phase chronique": "La Leucémie myéloïde chronique en phase chronique est une maladie caractérisée par une production excessive de globules blancs. Elle ne s'accompagne donc pas d'une pancytopénie, qui est une diminution du nombre de toutes les cellules sanguines."
+    }
+  }
+]

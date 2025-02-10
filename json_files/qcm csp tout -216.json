@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos d' Helicobacter pylori",
+    "options": [
+      "la majorité des sujets présentant un ulcère gastrique ou duodénal sont porteurs de cette bactérie",
+      "il s'agit d'une bactérie qui ne supporte pas les milieux à pH acide",
+      "il s'agit d'une bactérie de forme hélicoïdale qui sécrète une uréase",
+      "le test respiratoire à l'urée marquée au 13C permet un diagnostic indirect de portage de cette bactérie",
+      "le traitement des ulcères gastriques repose sur l'utilisation exclusive des inhibiteurs de pompe à proton"
+    ],
+    "correct_answers": [
+      "la majorité des sujets présentant un ulcère gastrique ou duodénal sont porteurs de cette bactérie",
+      "il s'agit d'une bactérie de forme hélicoïdale qui sécrète une uréase",
+      "le test respiratoire à l'urée marquée au 13C permet un diagnostic indirect de portage de cette bactérie"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les macrolides",
+    "options": [
+      "ce sont des antibiotiques indiqués dans le traitement d'infections graves à bactéries multi-résistantes",
+      "ce sont des antibiotiques présentant une bonne activité sur les bactéries intracellulaires",
+      "les interactions médicamenteuses avec les macrolides sont nombreuses",
+      "ce sont des antibiotiques bactériostatiques",
+      "ce sont des antibiotiques non absorbés par voie orale"
+    ],
+    "correct_answers": [
+      "ce sont des antibiotiques bactériostatiques",
+      "ce sont des antibiotiques présentant une bonne activité sur les bactéries intracellulaires",
+      "les interactions médicamenteuses avec les macrolides sont nombreuses"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les streptocoques",
+    "options": [
+      "sont des cocci à Gram négatif",
+      "sont aéro-anaérobies facultatifs",
+      "sont parfois pathogènes",
+      "ont une catalase",
+      "sont souvent disposés en chaînettes à l'observation microscopique"
+    ],
+    "correct_answers": [
+      "sont souvent disposés en chaînettes à l'observation microscopique",
+      "sont aéro-anaérobies facultatifs",
+      "sont parfois pathogènes"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les toxi-infections alimentaires collectives",
+    "options": [
+      "touchent au moins deux personnes ayant partagé le même repas",
+      "impliquent un défaut majeur d'hygiène",
+      "sont à déclaration obligatoire",
+      "impliquent uniquement des bactéries",
+      "nécessitent un développement bactérien dans le tube digestif"
+    ],
+    "correct_answers": [
+      "sont à déclaration obligatoire",
+      "touchent au moins deux personnes ayant partagé le même repas"
+    ]
+  }
+]

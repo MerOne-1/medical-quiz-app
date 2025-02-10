@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, relatives aux cellules végétales, choisissez celle(s) exacte(s) :",
+    "options": [
+      "La paroi cellulaire est une matrice extracellulaire",
+      "Les plasmodesmes ne laissent pas passer les grosses molécules.",
+      "La paroi cellulaire est phospholipidique",
+      "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+      "La paroi cellulaire est complètement imperméable"
+    ],
+    "correct_answers": [
+      "La paroi cellulaire est une matrice extracellulaire",
+      "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+      "Les plasmodesmes ne laissent pas passer les grosses molécules."
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les Basidiomycètes dont les sporophores présentent pied et chapeau, très diversifiés en forêt, on peut consommer sans risque ni désagrément les espèces :",
+    "options": [
+      "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle",
+      "Dont l’hyménophore est lamellé, la chair cassante et sans lait, la sporée blanche.",
+      "Dont l’hyménophore est lamellé, à pied sans anneau ni volve",
+      "Dont l’hyménophore est poré et dont la sporée est rose",
+      "Dont l’hyménophore est lamellé, la sporée brune et présentant une cortine"
+    ],
+    "correct_answers": [
+      "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle"
+    ]
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous concernant l'akène, choisissez celle(s) exacte(s)",
+    "options": [
+      "L’akène est un fruit contenant plusieurs graines",
+      "L’akène peut être une semence",
+      "L’akène est un fruit sec",
+      "L’akène s’ouvre à maturité",
+      "L’akène possède un noyau dur"
+    ],
+    "correct_answers": [
+      "L’akène est un fruit sec",
+      "L’akène peut être une semence"
+    ]
+  }
+]

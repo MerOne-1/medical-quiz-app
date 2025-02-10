@@ -1,0 +1,16 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle qui correspond au nom scientifique correcte de l'espèce désignée",
+    "options": [
+      "Lycopodium clavatum, Lycopodiacaea",
+      "Lycopodium clavatum, Lycopodiaceae",
+      "Des oreilles",
+      "Lycopodium clavatum, lycopodiacaea",
+      "Lycopodium clavatum, Lycopodiaceae"
+    ],
+    "correct_answers": [
+      "Lycopodium clavatum, Lycopodiaceae"
+    ]
+  }
+]

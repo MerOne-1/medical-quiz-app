@@ -1,0 +1,50 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Pour étudier la sensibilité des bactéries aux antibiotiques :",
+    "options": [
+      "l'antibiogramme est un test permettant d'étudier l'action de plusieurs antibiotiques sur une même souche bactérienne",
+      "une mesure de CMI est toujours effectuée",
+      "l'antibiogramme est le test le plus couramment effectué en milieu hospitalier",
+      "la CMI d'un antibiotique est le test dont l'abréviation signifie « Concentration Maximale d'Intérêt » et ce, vis-à-vis d'une souche bactérienne donnée",
+      "la CMB d'un antibiotique signifie « Concentration Minimale Bactéricide » et ce, vis-à-vis d'une souche bactérienne donnée"
+    ],
+    "correct_answers": [
+      "l'antibiogramme est le test le plus couramment effectué en milieu hospitalier",
+      "l'antibiogramme est un test permettant d'étudier l'action de plusieurs antibiotiques sur une même souche bactérienne",
+      "la CMB d'un antibiotique signifie « Concentration Minimale Bactéricide » et ce, vis-à-vis d'une souche bactérienne donnée"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les dénombrements bactériens d'un échantillon à tester peuvent faire appel à :",
+    "options": [
+      "sa mise en culture en surface de gélose",
+      "la spectrophotométrie",
+      "sa mise en culture en milieu liquide",
+      "des méthodes mesurant une différence de potentiel",
+      "des méthodes d'observation microscopique"
+    ],
+    "correct_answers": [
+      "sa mise en culture en milieu liquide",
+      "sa mise en culture en surface de gélose",
+      "des méthodes d'observation microscopique",
+      "des méthodes mesurant une différence de potentiel",
+      "la spectrophotométrie"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces affirmations, laquelle (lesquelles) est (sont) fausse(s) concernant la maladie de Lyme :",
+    "options": [
+      "l'érythème migrant en est le signe pathognomonique",
+      "c'est une zoonose",
+      "elle est due à une bactérie du genre Bordetella",
+      "c'est une borréliose",
+      "elle peut être à l'origine de signes cliniques divers : cutanés, articulaires, nerveux, cardiaques"
+    ],
+    "correct_answers": [
+      "elle est due à une bactérie du genre Bordetella"
+    ]
+  }
+]

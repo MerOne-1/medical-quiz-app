@@ -1,0 +1,81 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi ces maladies, laquelle (lesquelles) est (sont) à transmission interhumaine exclusive ?",
+    "options": [
+      "la maladie de Lyme",
+      "la tularémie",
+      "la leptospirose",
+      "la syphilis",
+      "la maladie des griffes du chat"
+    ],
+    "correct_answers": [
+      "la syphilis"
+    ],
+    "justification_fausses_reponses": {
+      "la maladie de Lyme": "La maladie de Lyme est transmise par la morsure de tiques infectées par la bactérie Borrelia burgdorferi, et non par une transmission interhumaine.",
+      "la tularémie": "La tularémie est une maladie infectieuse grave causée par la bactérie Francisella tularensis, qui peut être transmise par contact avec des animaux infectés, en particulier les lapins et les rongeurs, et non par une transmission interhumaine.",
+      "la leptospirose": "La leptospirose est une maladie infectieuse causée par une bactérie du genre Leptospira, qui est transmise par l'urine d'animaux infectés, et non par une transmission interhumaine.",
+      "la maladie des griffes du chat": "La maladie des griffes du chat est causée par la bactérie Bartonella henselae, qui est transmise par les griffures ou les morsures de chats infectés, et non par une transmission interhumaine."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les bactéries transmises à l'homme par les animaux sont :",
+    "options": [
+      "Legionella pneumophila",
+      "Brucella melitensis",
+      "Chlamydia psittaci",
+      "Listeria monocytogenes",
+      "Treponema pallidum"
+    ],
+    "correct_answers": [
+      "Chlamydia psittaci",
+      "Listeria monocytogenes",
+      "Brucella melitensis"
+    ],
+    "justification_fausses_reponses": {
+      "Legionella pneumophila": "Legionella pneumophila est une bactérie qui est généralement transmise par l'eau ou l'air, et non par les animaux. Elle est responsable de la légionellose, une forme de pneumonie.",
+      "Treponema pallidum": "Treponema pallidum est la bactérie responsable de la syphilis, une maladie sexuellement transmissible. Elle n'est pas transmise par les animaux."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Un flacon aérobie d'hémoculture revient positif à Staphylococcus epidermidis chez un patient apyrétique ; tous les autres flacons des 3 séries prélevées demeurent stériles. Quelle(s) conclusion(s) peut-on en tirer ? :",
+    "options": [
+      "il s'agit probablement d'une contamination par la flore cutanée du patient",
+      "il s'agit probablement d'une contamination par la flore oro-pharyngée du préleveur",
+      "il s'agit d'une infection certaine",
+      "une antibiothérapie IV est recommandée",
+      "même en cas de contamination, une antibioprophylaxie per os est indiquée"
+    ],
+    "correct_answers": [
+      "il s'agit probablement d'une contamination par la flore cutanée du patient"
+    ],
+    "justification_fausses_reponses": {
+      "il s'agit probablement d'une contamination par la flore oro-pharyngée du préleveur": "Staphylococcus epidermidis est une bactérie qui fait partie de la flore cutanée normale et non de la flore oro-pharyngée. De plus, le préleveur ne devrait pas être en contact direct avec l'échantillon.",
+      "il s'agit d'une infection certaine": "Une seule hémoculture positive à Staphylococcus epidermidis chez un patient apyrétique n'est pas suffisante pour conclure à une infection certaine. Il pourrait s'agir d'une contamination.",
+      "une antibiothérapie IV est recommandée": "Une antibiothérapie IV n'est pas recommandée dans ce cas, car il n'y a pas de preuve d'une infection systémique.",
+      "même en cas de contamination, une antibioprophylaxie per os est indiquée": "Une antibioprophylaxie n'est pas indiquée en cas de contamination, car il n'y a pas de risque d'infection."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Dans un biofilm bactérien :",
+    "options": [
+      "les bactéries sont recouvertes d'une couche polysaccharidique",
+      "la multiplication des bactéries est très ralentie",
+      "les bactéries mobiles possèdent leurs flagelles",
+      "les antibiotiques pénètrent difficilement",
+      "les bactéries sont à l'abri de la phagocytose"
+    ],
+    "correct_answers": [
+      "la multiplication des bactéries est très ralentie",
+      "les bactéries sont recouvertes d'une couche polysaccharidique",
+      "les bactéries mobiles possèdent leurs flagelles",
+      "les antibiotiques pénètrent difficilement",
+      "les bactéries sont à l'abri de la phagocytose"
+    ],
+    "justification_fausses_reponses": {}
+  }
+]

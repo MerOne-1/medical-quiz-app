@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la maladie d'Alzheimer laquelle ou lesquelles est/sont exactes ?",
+    "options": [
+      "Galantamine expose à un risque dose dépendant de tachycardie",
+      "Rivastigmine expose à un risque dose dépendant de constipation opiniâtre",
+      "Mémantine et Donépézil agissent par le même mécanisme d'action",
+      "L'atropine diminue l'efficacité du Donépézil",
+      "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique"
+    ],
+    "correct_answers": [
+      "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique",
+      "L'atropine diminue l'efficacité du Donépézil"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la maladie d'Alzheimer, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "La maladie d'Alzheimer est liée à une perte progressive des neurones dopaminergiques de la substance noire.",
+      "La mémantine (EBIXA) est un anticholinestérasique.",
+      "L'aphasie correspond à la difficulté de reconnaître des objets en dépit des fonctions sensorielles intactes.",
+      "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires",
+      "La mémantine (EBIXA) est antagoniste non-compétitif des récepteurs GABA A."
+    ],
+    "correct_answers": [
+      "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels de la metformine :",
+    "options": [
+      "Une hypoglycémie profonde quand elle est utilisée en monothérapie",
+      "Une pancréatite",
+      "Une acidose lactique",
+      "Des troubles digestifs surtout en début de traitement",
+      "Une anémie hémolytique"
+    ],
+    "correct_answers": [
+      "Des troubles digestifs surtout en début de traitement",
+      "Une acidose lactique"
+    ]
+  }
+]

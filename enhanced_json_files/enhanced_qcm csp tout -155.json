@@ -1,0 +1,60 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Voici une liste de deux exemples de \"SR O\" ? Choisir la bonne proposition ?",
+    "options": [
+      "Adiaril® et Diaril®",
+      "Picot® et Picolite®",
+      "Adiaril® et Picolite®",
+      "Picot® et Diaril®",
+      "Adiaril® et Picot®"
+    ],
+    "correct_answers": [
+      "Adiaril® et Picolite®"
+    ],
+    "justification_fausses_reponses": {
+      "Adiaril® et Diaril®": "Diaril® n'est pas un exemple de \"SR O\". Il est utilisé pour le traitement de la diarrhée, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+      "Picot® et Picolite®": "Picot® n'est pas un exemple de \"SR O\". Il s'agit d'une marque de lait pour bébé, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+      "Picot® et Diaril®": "Ni Picot® ni Diaril® ne sont des exemples de \"SR O\". Picot® est une marque de lait pour bébé et Diaril® est utilisé pour le traitement de la diarrhée, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+      "Adiaril® et Picot®": "Picot® n'est pas un exemple de \"SR O\". Il s'agit d'une marque de lait pour bébé, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quel(s) est (sont) les médicaments suivants qui peuvent provoquer une hypokalièmie ?",
+    "options": [
+      "La spironolactone",
+      "Le furosemide",
+      "Le bisacodyl",
+      "La prednisone",
+      "L'amphotericine B par voie orale"
+    ],
+    "correct_answers": [
+      "Le furosemide",
+      "Le bisacodyl",
+      "La prednisone"
+    ],
+    "justification_fausses_reponses": {
+      "La spironolactone": "La spironolactone est un diurétique épargneur de potassium, elle ne provoque donc pas d'hypokaliémie mais peut au contraire provoquer une hyperkaliémie.",
+      "L'amphotericine B par voie orale": "L'amphotericine B par voie orale n'est pas absorbée dans le système gastro-intestinal, elle n'a donc pas d'effet sur les niveaux de potassium dans le sang."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+      "L'adhésion au traitement est constituée de l'acceptation et de l'observance",
+      "La présentation unitaire des médicaments doit être privilégiée",
+      "L'iatrogénèse évitable dépend de trois facteurs"
+    ],
+    "correct_answers": [
+      "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+      "La présentation unitaire des médicaments doit être privilégiée"
+    ],
+    "justification_fausses_reponses": {
+      "L'adhésion au traitement est constituée de l'acceptation et de l'observance": "Cette affirmation est incorrecte car l'adhésion au traitement ne se limite pas seulement à l'acceptation et à l'observance. Elle comprend également la compréhension du patient sur son traitement, sa capacité à suivre le traitement et son accord avec le plan de traitement.",
+      "L'iatrogénèse évitable dépend de trois facteurs": "Cette affirmation est incorrecte car l'iatrogénèse évitable ne dépend pas uniquement de trois facteurs. Elle peut être influencée par de nombreux facteurs, y compris la complexité du régime thérapeutique, la communication entre le patient et le professionnel de santé, et le niveau de compréhension du patient."
+    }
+  }
+]

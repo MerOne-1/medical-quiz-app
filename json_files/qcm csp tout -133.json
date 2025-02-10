@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Pharmacognosie",
+    "question": "L’amphotéricine B :",
+    "options": [
+      "peut être administrée par voie orale",
+      "a pour cible la paroi fongique",
+      "est un antifongique",
+      "appartient à la classe des polyènes, comme la nystatine",
+      "est produite par un champignon"
+    ],
+    "correct_answers": [
+      "est un antifongique",
+      "peut être administrée par voie orale",
+      "appartient à la classe des polyènes, comme la nystatine"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Le colza fournit une huile végétale riche en acides gras de type oméga 3",
+      "Les huiles végétales sont essentiellement obtenues par hydrodistillation",
+      "L’insaponifiable représente généralement la partie la plus importante quantitativement dans une huile végétale",
+      "Les huiles végétales sont constituées principalement de glycérides",
+      "Les huiles végétales sont des composés chimiquement purs"
+    ],
+    "correct_answers": [
+      "Les huiles végétales sont constituées principalement de glycérides",
+      "Le colza fournit une huile végétale riche en acides gras de type oméga 3"
+    ]
+  },
+  {
+    "theme": "Pharmacognosie",
+    "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+    "options": [
+      "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+      "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines",
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont issues de champignons",
+      "Les molécules dont la DCI se termine par ‘-cycline’ sont des anthracyclines",
+      "Les molécules dont la DCI se termine par ‘-mycine’ sont des macrolides"
+    ],
+    "correct_answers": [
+      "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+      "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines"
+    ]
+  }
+]

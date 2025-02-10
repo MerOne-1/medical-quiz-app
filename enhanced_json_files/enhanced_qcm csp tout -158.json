@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les propositions exactes : A propos des antiépileptiques",
+    "options": [
+      "Ils agissent sur la transmission gabaergique et/ou glutamaergique",
+      "Certains sont indiqués dans les douleurs neuropathiques",
+      "L'association acide valproïque-lamotrigine est contre-indiquée",
+      "Ils sont utilisés d'emblée à la posologie efficace",
+      "La carbamazépine est le traitement de première intention de l'absence petit mal"
+    ],
+    "correct_answers": [
+      "Certains sont indiqués dans les douleurs neuropathiques",
+      "Ils agissent sur la transmission gabaergique et/ou glutamaergique"
+    ],
+    "justification_fausses_reponses": {
+      "L'association acide valproïque-lamotrigine est contre-indiquée": "Cette affirmation est fausse car l'association acide valproïque-lamotrigine est parfois utilisée dans le traitement de certaines formes d'épilepsie, bien que cela nécessite une surveillance étroite en raison du risque d'effets secondaires.",
+      "Ils sont utilisés d'emblée à la posologie efficace": "Cette affirmation est incorrecte car la posologie des antiépileptiques est généralement augmentée progressivement pour minimiser les effets secondaires.",
+      "La carbamazépine est le traitement de première intention de l'absence petit mal": "C'est incorrect car l'absence petit mal est généralement traitée en première intention par l'éthosuximide ou le valproate, et non par la carbamazépine."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Concernant la fixation des A VK sur l'albumine plasmatique, quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "Elle conditionne l'activité anticoagulante",
+      "Elle est indépendante de l'albuminémie",
+      "Elle augmente en cas d'insuffisance rénale sévère",
+      "Elle peut être modifiée par l'aspirine",
+      "Elle diminue en cas insuffisance hépatique sévère"
+    ],
+    "correct_answers": [
+      "Elle conditionne l'activité anticoagulante",
+      "Elle peut être modifiée par l'aspirine",
+      "Elle diminue en cas insuffisance hépatique sévère"
+    ],
+    "justification_fausses_reponses": {
+      "Elle est indépendante de l'albuminémie": "C'est incorrect car la fixation des A VK sur l'albumine plasmatique est dépendante de l'albuminémie. Une diminution de l'albuminémie peut entraîner une augmentation de la fraction libre de l'anticoagulant, augmentant ainsi son activité anticoagulante.",
+      "Elle augmente en cas d'insuffisance rénale sévère": "C'est incorrect car l'insuffisance rénale sévère n'augmente pas la fixation des A VK sur l'albumine plasmatique. En réalité, l'insuffisance rénale peut entraîner une diminution de l'albuminémie, ce qui peut réduire la fixation des A VK et augmenter leur fraction libre."
+    }
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+    "options": [
+      "L'étanercept est un inhibiteur non compétitif de la liaison du TNF à ses récepteurs.",
+      "L'étanercept est un inhibiteur compétitif de la liaison du TNF à ses récepteurs.",
+      "L'association entre étanercept et méthotrexate est contre-indiquée dans le traitement de la polyarthrite rhumatoïde.",
+      "L'étanercept est un antagoniste du récepteur de type I de l'interleukine 1",
+      "Un traitement par étanercept expose à une diminution de la résistance aux infections pulmonaires."
+    ],
+    "correct_answers": [
+      "L'étanercept est un inhibiteur compétitif de la liaison du TNF à ses récepteurs.",
+      "Un traitement par étanercept expose à une diminution de la résistance aux infections pulmonaires."
+    ],
+    "justification_fausses_reponses": {
+      "L'étanercept est un inhibiteur non compétitif de la liaison du TNF à ses récepteurs.": "C'est incorrect car l'étanercept est un inhibiteur compétitif, pas non compétitif. Il se lie au TNF et empêche sa liaison à ses récepteurs.",
+      "L'association entre étanercept et méthotrexate est contre-indiquée dans le traitement de la polyarthrite rhumatoïde.": "C'est incorrect car l'association entre étanercept et méthotrexate est souvent utilisée dans le traitement de la polyarthrite rhumatoïde. Elle n'est pas contre-indiquée.",
+      "L'étanercept est un antagoniste du récepteur de type I de l'interleukine 1": "C'est incorrect car l'étanercept est un antagoniste du TNF, pas de l'interleukine 1."
+    }
+  }
+]

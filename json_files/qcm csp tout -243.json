@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant les points de contrôle du cycle cellulaire, quelles sont les propositions vraies",
+    "options": [
+      "Dans certains cancers de la rétine, le gène qui code pour la protéine pRb est muté",
+      "Une mutation de pRb peut entrainer une perte du point de restriction",
+      "Le point de restriction est situé en phase G1",
+      "Il existe 3 points de contrôle du cycle cellulaire",
+      "Une carence en facteurs mitogènes permet le passage du point de restriction"
+    ],
+    "correct_answers": [
+      "Il existe 3 points de contrôle du cycle cellulaire",
+      "Le point de restriction est situé en phase G1",
+      "Dans certains cancers de la rétine, le gène qui code pour la protéine pRb est muté",
+      "Une mutation de pRb peut entrainer une perte du point de restriction"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant le noyau, quelles sont les propositions vraies",
+    "options": [
+      "La transcription de l’ADN n’a lieu que pendant la mitose",
+      "La réplication de l’ADN a lieu majoritairement dans le noyau",
+      "Le génome ne contient que des gènes",
+      "Chez les cellules eucaryotes, la réplication de l’ADN n’a lieu que pendant la phase S du cycle cellulaire",
+      "ADN signifie Acide Ribonucléique"
+    ],
+    "correct_answers": [
+      "La réplication de l’ADN a lieu majoritairement dans le noyau",
+      "Chez les cellules eucaryotes, la réplication de l’ADN n’a lieu que pendant la phase S du cycle cellulaire"
+    ]
+  },
+  {
+    "theme": "Biologie cellulaire et moléculaire",
+    "question": "Concernant la compaction de l’ADN, quelles sont les propositions vraies",
+    "options": [
+      "Les histones permettent de compacter l’ADN au sein de la chromatine",
+      "On observe les chromosomes fortement condensés au cours de la mitose",
+      "La réplication et la transcription de l’ADN n’ont lieu qu’au niveau des fibres nucléosomiques",
+      "Un nucléosome est composé d’un octamère d’histones associé à une double hélice d’ADN",
+      "La chromatine est constituée d’ADN associé à des protéines"
+    ],
+    "correct_answers": [
+      "La chromatine est constituée d’ADN associé à des protéines",
+      "Les histones permettent de compacter l’ADN au sein de la chromatine",
+      "On observe les chromosomes fortement condensés au cours de la mitose",
+      "La réplication et la transcription de l’ADN n’ont lieu qu’au niveau des fibres nucléosomiques",
+      "Un nucléosome est composé d’un octamère d’histones associé à une double hélice d’ADN"
+    ]
+  }
+]

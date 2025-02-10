@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) à propos d' Helicobacter pylori",
+    "options": [
+      "la majorité des sujets présentant un ulcère gastrique ou duodénal sont porteurs de cette bactérie",
+      "il s'agit d'une bactérie qui ne supporte pas les milieux à pH acide",
+      "il s'agit d'une bactérie de forme hélicoïdale qui sécrète une uréase",
+      "le test respiratoire à l'urée marquée au 13C permet un diagnostic indirect de portage de cette bactérie",
+      "le traitement des ulcères gastriques repose sur l'utilisation exclusive des inhibiteurs de pompe à proton"
+    ],
+    "correct_answers": [
+      "la majorité des sujets présentant un ulcère gastrique ou duodénal sont porteurs de cette bactérie",
+      "il s'agit d'une bactérie de forme hélicoïdale qui sécrète une uréase",
+      "le test respiratoire à l'urée marquée au 13C permet un diagnostic indirect de portage de cette bactérie"
+    ],
+    "justification_fausses_reponses": {
+      "il s'agit d'une bactérie qui ne supporte pas les milieux à pH acide": "C'est incorrect car Helicobacter pylori est justement connue pour sa capacité à survivre dans l'environnement acide de l'estomac. Elle y parvient en sécrétant une enzyme, l'uréase, qui neutralise l'acide gastrique en le transformant en ammoniac et en dioxyde de carbone.",
+      "le traitement des ulcères gastriques repose sur l'utilisation exclusive des inhibiteurs de pompe à proton": "C'est incorrect car le traitement des ulcères gastriques causés par Helicobacter pylori ne repose pas uniquement sur l'utilisation des inhibiteurs de pompe à proton. Il comprend également des antibiotiques pour éliminer la bactérie."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les macrolides",
+    "options": [
+      "ce sont des antibiotiques indiqués dans le traitement d'infections graves à bactéries multi-résistantes",
+      "ce sont des antibiotiques présentant une bonne activité sur les bactéries intracellulaires",
+      "les interactions médicamenteuses avec les macrolides sont nombreuses",
+      "ce sont des antibiotiques bactériostatiques",
+      "ce sont des antibiotiques non absorbés par voie orale"
+    ],
+    "correct_answers": [
+      "ce sont des antibiotiques bactériostatiques",
+      "ce sont des antibiotiques présentant une bonne activité sur les bactéries intracellulaires",
+      "les interactions médicamenteuses avec les macrolides sont nombreuses"
+    ],
+    "justification_fausses_reponses": {
+      "ce sont des antibiotiques indiqués dans le traitement d'infections graves à bactéries multi-résistantes": "Cette affirmation est incorrecte car les macrolides sont généralement utilisés pour traiter des infections légères à modérées, et non des infections graves à bactéries multi-résistantes.",
+      "ce sont des antibiotiques non absorbés par voie orale": "Cette affirmation est incorrecte car les macrolides sont généralement bien absorbés par voie orale."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les streptocoques",
+    "options": [
+      "sont des cocci à Gram négatif",
+      "sont aéro-anaérobies facultatifs",
+      "sont parfois pathogènes",
+      "ont une catalase",
+      "sont souvent disposés en chaînettes à l'observation microscopique"
+    ],
+    "correct_answers": [
+      "sont souvent disposés en chaînettes à l'observation microscopique",
+      "sont aéro-anaérobies facultatifs",
+      "sont parfois pathogènes"
+    ],
+    "justification_fausses_reponses": {
+      "sont des cocci à Gram négatif": "Cette affirmation est incorrecte car les streptocoques sont des bactéries à Gram positif. La coloration de Gram est une technique de laboratoire qui permet de distinguer les bactéries Gram positif et Gram négatif en fonction de la structure de leur paroi cellulaire.",
+      "ont une catalase": "Cette affirmation est incorrecte car les streptocoques ne produisent pas de catalase. La catalase est une enzyme qui décompose le peroxyde d'hydrogène en eau et en oxygène, ce qui permet aux bactéries de se protéger contre les dommages oxydatifs. Les streptocoques, cependant, n'ont pas cette capacité."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Les toxi-infections alimentaires collectives",
+    "options": [
+      "touchent au moins deux personnes ayant partagé le même repas",
+      "impliquent un défaut majeur d'hygiène",
+      "sont à déclaration obligatoire",
+      "impliquent uniquement des bactéries",
+      "nécessitent un développement bactérien dans le tube digestif"
+    ],
+    "correct_answers": [
+      "sont à déclaration obligatoire",
+      "touchent au moins deux personnes ayant partagé le même repas"
+    ],
+    "justification_fausses_reponses": {
+      "impliquent un défaut majeur d'hygiène": "Bien que l'hygiène soit un facteur important dans la prévention des toxi-infections alimentaires, toutes ne sont pas nécessairement dues à un défaut majeur d'hygiène. Certaines peuvent être causées par des aliments contaminés à la source.",
+      "impliquent uniquement des bactéries": "Les toxi-infections alimentaires peuvent être causées par divers agents pathogènes, y compris des virus et des parasites, et pas seulement des bactéries.",
+      "nécessitent un développement bactérien dans le tube digestif": "Certaines toxi-infections alimentaires sont causées par des toxines produites par des bactéries dans l'aliment contaminé avant sa consommation, et non par le développement de bactéries dans le tube digestif."
+    }
+  }
+]

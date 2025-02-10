@@ -1,0 +1,61 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Quelle(s) maladie(s) se complique(nt) souvent d’une anémie hémolytique auto-immune ?",
+    "options": [
+      "Leucémie aiguë myéloïde",
+      "Lupus érythémateux disséminé",
+      "Leucémie myéloïde chronique",
+      "Leucémie aiguë lymphoïde",
+      "Leucémie lymphoïde chronique"
+    ],
+    "correct_answers": [
+      "Leucémie lymphoïde chronique",
+      "Lupus érythémateux disséminé"
+    ],
+    "justification_fausses_reponses": {
+      "Leucémie aiguë myéloïde": "L'anémie hémolytique auto-immune n'est pas une complication fréquente de la leucémie aiguë myéloïde. Cette dernière est caractérisée par une production excessive de globules blancs immatures qui ne se transforment pas en globules rouges.",
+      "Leucémie myéloïde chronique": "La leucémie myéloïde chronique n'entraîne pas souvent une anémie hémolytique auto-immune. Elle est plutôt associée à une augmentation du nombre de globules blancs dans le sang.",
+      "Leucémie aiguë lymphoïde": "La leucémie aiguë lymphoïde n'est pas généralement associée à une anémie hémolytique auto-immune. Elle est caractérisée par une production excessive de lymphocytes immatures."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "L’hémophilie A :",
+    "options": [
+      "est de transmission autosomique dominante",
+      "est plus fréquente que l’hémophilie B",
+      "présente les mêmes manifestations cliniques que l’hémophilie B",
+      "entraine plutôt des hémorragies cutanéo-muqueuses",
+      "est qualifiée de sévère pour des taux de F acteur VIII entre 1 et 5%"
+    ],
+    "correct_answers": [
+      "présente les mêmes manifestations cliniques que l’hémophilie B",
+      "est plus fréquente que l’hémophilie B"
+    ],
+    "justification_fausses_reponses": {
+      "est de transmission autosomique dominante": "L'hémophilie A est une maladie héréditaire liée au chromosome X, et non une maladie autosomique dominante. Cela signifie qu'elle est transmise par les femmes porteuses à leurs fils.",
+      "entraine plutôt des hémorragies cutanéo-muqueuses": "L'hémophilie A entraîne des hémorragies internes et articulaires, et non principalement des hémorragies cutanéo-muqueuses.",
+      "est qualifiée de sévère pour des taux de F acteur VIII entre 1 et 5%": "L'hémophilie A est qualifiée de sévère lorsque le taux de facteur VIII est inférieur à 1%, et non entre 1 et 5%."
+    }
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les propositions suivantes relatives aux cellules souches hématopoïétiques, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Elles ont une capacité de “homing” pour la moelle osseuse, ce qui signifie qu’elles retournent dans la moelle osseuse après injection I.V.",
+      "Elles expriment l’antigène CD34",
+      "Elles peuvent être conservées dans l’azote liquide pour une utilisation ultérieure",
+      "Elles présentent des capacités d’autorenouvellement et de différenciation",
+      "Le G-CSF est utilisé pour les mobiliser dans la circulation sanguine"
+    ],
+    "correct_answers": [
+      "Elles peuvent être conservées dans l’azote liquide pour une utilisation ultérieure",
+      "Elles présentent des capacités d’autorenouvellement et de différenciation",
+      "Elles expriment l’antigène CD34",
+      "Elles ont une capacité de “homing” pour la moelle osseuse, ce qui signifie qu’elles retournent dans la moelle osseuse après injection I.V.",
+      "Le G-CSF est utilisé pour les mobiliser dans la circulation sanguine"
+    ],
+    "justification_fausses_reponses": {}
+  }
+]

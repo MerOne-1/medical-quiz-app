@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Immunologie",
+    "question": "La pr ésence d'anticorps anti-ADNn dans un sér um",
+    "options": [
+      "est associée à la sclérose en plaque",
+      "peut-être détectée à l’aide du test de F arr",
+      "permet d’affirmer le diagnostic de polyarthrite rhumatoïde",
+      "est recherchée par la méthode de western blot",
+      "est associée généralement au lupus érythémateux disséminé"
+    ],
+    "correct_answers": [
+      "est associée généralement au lupus érythémateux disséminé",
+      "peut-être détectée à l’aide du test de F arr"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Indiquez la ou les bonne(s) r éponse(s) : l’ etaner cept (ENBREL ®) est",
+    "options": [
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine F ab d’une IgG1 humaine",
+      "Indiqué dans le traitement de la polyarthrite rhumatoïde",
+      "Administré par voie sous-cutanée",
+      "Une protéine de fusion entre le domaine F ab d’une IgG1 humaine et le domaine intracellulaire du récepteur TNFR2"
+    ],
+    "correct_answers": [
+      "Une protéine de fusion entre le domaine extracellulaire du récepteur TNFR2 et le domaine Fc d’une IgG1 humaine",
+      "Administré par voie sous-cutanée",
+      "Indiqué dans le traitement de la polyarthrite rhumatoïde"
+    ]
+  },
+  {
+    "theme": "Immunologie",
+    "question": "Cocher la ou les bonnes r éponses",
+    "options": [
+      "L’atopie est une prédisposition génétique à produire des IgE",
+      "Les IgG sont les médiateurs de l’hypersensibilité immédiate",
+      "L’atopie est une prédisposition génétique à développer des maladies autoimmunes",
+      "Les prostaglandines sont des médiateurs inflammatoires néoformés",
+      "L’histamine est un médiateur inflammatoire néoformé"
+    ],
+    "correct_answers": [
+      "L’atopie est une prédisposition génétique à produire des IgE",
+      "Les prostaglandines sont des médiateurs inflammatoires néoformés"
+    ]
+  }
+]

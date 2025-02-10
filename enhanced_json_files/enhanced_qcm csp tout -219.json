@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes concernant le syndrome de réponse inflammatoire systémique (SRIS) laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "il est constamment présent lors d'un choc septique",
+      "il est toujours accompagné d'une infection",
+      "il peut être révélé, en partie, par une température corporelle > 38°C ou < 36°C",
+      "aucune proposition n'est exacte",
+      "il peut être révélé, en partie, par une fréquence cardiaque < 60 battements/min"
+    ],
+    "correct_answers": [
+      "il est constamment présent lors d'un choc septique",
+      "il peut être révélé, en partie, par une température corporelle > 38°C ou < 36°C"
+    ],
+    "justification_fausses_reponses": {
+      "il est toujours accompagné d'une infection": "Le SRIS n'est pas toujours accompagné d'une infection. Il peut être déclenché par des conditions non infectieuses comme les brûlures, les traumatismes ou la pancréatite.",
+      "aucune proposition n'est exacte": "Cette affirmation est incorrecte car certaines propositions sont exactes.",
+      "il peut être révélé, en partie, par une fréquence cardiaque < 60 battements/min": "Cette affirmation est incorrecte. Le SRIS est généralement associé à une fréquence cardiaque élevée (>90 battements/min), et non à une fréquence cardiaque basse."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Concernant l'hémoculture, quelle(s) est(sont) la(les) proposition(s) exactes(s) ?",
+    "options": [
+      "dans tous les cas, il faut prélever au moins 10 ml de sang au patient",
+      "elle doit permettre l'identification de la (des) bactérie(s) responsable(s) de l'infection",
+      "il faut la réaliser à distance des pics fébriles",
+      "elle ne permet pas la détection de Clostridium perfringens",
+      "il faut la réaliser après la mise en route des antibiotiques"
+    ],
+    "correct_answers": [
+      "elle doit permettre l'identification de la (des) bactérie(s) responsable(s) de l'infection"
+    ],
+    "justification_fausses_reponses": {
+      "dans tous les cas, il faut prélever au moins 10 ml de sang au patient": "La quantité de sang à prélever pour une hémoculture dépend de plusieurs facteurs, dont l'âge et la taille du patient, et n'est pas toujours de 10 ml.",
+      "il faut la réaliser à distance des pics fébriles": "L'hémoculture doit être réalisée au moment des pics fébriles pour augmenter les chances de détecter les bactéries dans le sang.",
+      "elle ne permet pas la détection de Clostridium perfringens": "L'hémoculture peut permettre la détection de nombreuses bactéries, y compris Clostridium perfringens.",
+      "il faut la réaliser après la mise en route des antibiotiques": "L'hémoculture doit être réalisée avant la mise en route des antibiotiques pour éviter que ces derniers n'empêchent la croissance des bactéries dans la culture."
+    }
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Le facteur F isolé chez Escherichia coli  est le prototype du plasmide conjugatif, ce qui signifie que :",
+    "options": [
+      "il peut être sous forme épisomique",
+      "après attachement de la cellule donneuse à la cellule receveuse, les deux cellules (donneuse et receveuse) répliquent un monobrin d'ADN",
+      "il possède les gènes codant pour les pili",
+      "la réplication de l'ADN plasmidique est de type bi- dimensionnel",
+      "il dispose de sa propre origine de réplication"
+    ],
+    "correct_answers": [
+      "il dispose de sa propre origine de réplication",
+      "il possède les gènes codant pour les pili",
+      "après attachement de la cellule donneuse à la cellule receveuse, les deux cellules (donneuse et receveuse) répliquent un monobrin d'ADN",
+      "il peut être sous forme épisomique"
+    ],
+    "justification_fausses_reponses": {
+      "la réplication de l'ADN plasmidique est de type bi- dimensionnel": "Cette affirmation est incorrecte car la réplication de l'ADN plasmidique est de type unidimensionnel. Dans la réplication bidimensionnelle, deux brins d'ADN sont répliqués simultanément, ce qui n'est pas le cas pour l'ADN plasmidique."
+    }
+  }
+]

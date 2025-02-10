@@ -1,0 +1,48 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "A propos du cobicistat représenté ci-dessous",
+    "options": [
+      "c'est un \"booster\" pharmacocinétique",
+      "C'est un analogue structural du ritonavir",
+      "c'est un analogue structural de l'entecavir",
+      "C'est un inhibiteur de CYP3A4",
+      "cette molécule possède une activité anti-rétrovirale intrinsèque"
+    ],
+    "correct_answers": [
+      "C'est un analogue structural du ritonavir",
+      "C'est un inhibiteur de CYP3A4",
+      "c'est un \"booster\" pharmacocinétique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "quelle est cette molécule",
+    "options": [
+      "acide alendronique",
+      "fosfomycine",
+      "fosinopril",
+      "foscarnet",
+      "fosamprenavir"
+    ],
+    "correct_answers": [
+      "acide alendronique"
+    ]
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Quelles sont les différentes dénominations des médicaments?",
+    "options": [
+      "Le segment-clé",
+      "La dénomination chimique",
+      "La dénomination commune nationale",
+      "La dénomination commune internationale",
+      "La dénomination vernaculaire"
+    ],
+    "correct_answers": [
+      "La dénomination chimique",
+      "La dénomination commune nationale",
+      "La dénomination commune internationale"
+    ]
+  }
+]

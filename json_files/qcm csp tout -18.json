@@ -1,0 +1,44 @@
+[
+  {
+    "theme": "Biophysique",
+    "question": "Quelle sera la multiplicité du signal B sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Doublet",
+      "Quintuplet",
+      "Quadruplet",
+      "Singulet",
+      "Triplet"
+    ],
+    "correct_answers": [
+      "Quadruplet"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Quelle sera la multiplicité du signal A sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "Nonuplet",
+      "Octuplet",
+      "Triplet",
+      "Quadruplet",
+      "Singulet"
+    ],
+    "correct_answers": [
+      "Nonuplet"
+    ]
+  },
+  {
+    "theme": "Biophysique",
+    "question": "Combien de signaux seront observés sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+    "options": [
+      "1",
+      "8",
+      "6",
+      "11",
+      "5"
+    ],
+    "correct_answers": [
+      "8"
+    ]
+  }
+]

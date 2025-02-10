@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi ces groupements chimiques, les quels sont des accepteurs de liaisons hydrogène ?",
+    "options": [
+      "C=0",
+      "-OH",
+      "=N-",
+      "-NH",
+      "-O-"
+    ],
+    "correct_answers": [
+      "C=0",
+      "=N-",
+      "-O-"
+    ],
+    "justification_fausses_reponses": {
+      "-OH": "Le groupement -OH n'est pas un accepteur de liaison hydrogène mais plutôt un donneur. En effet, l'atome d'hydrogène lié à l'oxygène est capable de former une liaison hydrogène avec un autre atome électronégatif.",
+      "-NH": "Le groupement -NH n'est pas un accepteur de liaison hydrogène mais plutôt un donneur. En effet, l'atome d'hydrogène lié à l'azote est capable de former une liaison hydrogène avec un autre atome électronégatif."
+    }
+  },
+  {
+    "theme": "Chimie thérapeutique",
+    "question": "Parmi les propositions suivantes relatives au chlorambucil représenté ci-dessous, signaler la ou les proposition(s) exacte(s)",
+    "options": [
+      "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+      "La présence du noyau aromatique induit une réactivité fortement augmentée par rapport à la chlorméthine",
+      "Le chlorambucil ne peut être administré que par voie intraveineuse",
+      "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+      "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+    ],
+    "correct_answers": [
+      "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+      "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+      "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+    ],
+    "justification_fausses_reponses": {
+      "La présence du noyau aromatique induit une réactivité fortement augmentée par rapport à la chlorméthine": "Cette affirmation est incorrecte car la présence d'un noyau aromatique n'augmente pas nécessairement la réactivité d'une molécule. La réactivité dépend de nombreux facteurs, dont la nature des groupes fonctionnels présents et leur disposition spatiale.",
+      "Le chlorambucil ne peut être administré que par voie intraveineuse": "Cette affirmation est incorrecte car le chlorambucil peut être administré par voie orale. En fait, il est généralement préféré par voie orale en raison de sa bonne absorption et de sa commodité pour le patient."
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes concernant la spectrophotométrie UV-Visible, la (les) quelle (s) est (sont) exacte (s)?",
+    "options": [
+      "Les groupements fonctionnels porteurs d'hétéroatomes sont auxochromes",
+      "Une substance incolore absorbe dans la zone de longueur d'onde comprise entre 400 nm et 700 nm",
+      "Les carbures saturés n'absorbent pas dans l'ultra-violet proche",
+      "Le solvant n'influence pas l'absorption des substances dissoutes",
+      "La conjugaison des liaisons multiples déplace le maximum d'absorption de la molécule vers les grandes longueurs d'onde"
+    ],
+    "correct_answers": [
+      "Les carbures saturés n'absorbent pas dans l'ultra-violet proche",
+      "La conjugaison des liaisons multiples déplace le maximum d'absorption de la molécule vers les grandes longueurs d'onde",
+      "Les groupements fonctionnels porteurs d'hétéroatomes sont auxochromes"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes quel matériel utiliseriez-vous pour prélever dans un flacon, un volume précis?",
+    "options": [
+      "Une burette graduée",
+      "Une éprouvette graduée",
+      "Une fiole jaugée",
+      "Un bécher",
+      "Une pipette jaugée"
+    ],
+    "correct_answers": [
+      "Une pipette jaugée"
+    ]
+  },
+  {
+    "theme": "Chimie analytique",
+    "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) inexacte(s)? Le rendement de l'extraction par un solvant organique d'un composé neutre en solution dans l'eau augmente lorsque:",
+    "options": [
+      "Le nombre d'extractions réalisées augmente",
+      "Le volume du solvant organique augmente",
+      "Le volume de la phase aqueuse à extraire augmente",
+      "Le coefficient de partage du composé augmente",
+      "La concentration initiale du composé dans l’eau augmente"
+    ],
+    "correct_answers": [
+      "Le volume de la phase aqueuse à extraire augmente",
+      "La concentration initiale du composé dans l’eau augmente"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Voici une liste de deux exemples de \"SR O\" ? Choisir la bonne proposition ?",
+    "options": [
+      "Adiaril® et Diaril®",
+      "Picot® et Picolite®",
+      "Adiaril® et Picolite®",
+      "Picot® et Diaril®",
+      "Adiaril® et Picot®"
+    ],
+    "correct_answers": [
+      "Adiaril® et Picolite®"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quel(s) est (sont) les médicaments suivants qui peuvent provoquer une hypokalièmie ?",
+    "options": [
+      "La spironolactone",
+      "Le furosemide",
+      "Le bisacodyl",
+      "La prednisone",
+      "L'amphotericine B par voie orale"
+    ],
+    "correct_answers": [
+      "Le furosemide",
+      "Le bisacodyl",
+      "La prednisone"
+    ]
+  },
+  {
+    "theme": "Pharmacologie et pharmacie clinique",
+    "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+    "options": [
+      "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+      "L'adhésion au traitement est constituée de l'acceptation et de l'observance",
+      "La présentation unitaire des médicaments doit être privilégiée",
+      "L'iatrogénèse évitable dépend de trois facteurs"
+    ],
+    "correct_answers": [
+      "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+      "La présentation unitaire des médicaments doit être privilégiée"
+    ]
+  }
+]

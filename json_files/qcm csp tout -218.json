@@ -1,0 +1,66 @@
+[
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) : Escherichia coli  est :",
+    "options": [
+      "catalase +",
+      "responsable d'infections urinaires",
+      "un pathogène spécifique",
+      "un pathogène opportuniste",
+      "oxydase+"
+    ],
+    "correct_answers": [
+      "un pathogène spécifique",
+      "un pathogène opportuniste",
+      "responsable d'infections urinaires",
+      "catalase +"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Pour dénombrer les bactéries contaminant des comprimés comprenant des antibiotiques, il est nécessaire de neutraliser l'activité antimicrobienne. Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant les méthodes préconisées par la Pharmacopée Européenne :",
+    "options": [
+      "neutralisation de l'activité antimicrobienne par de la soude",
+      "concentration de l'échantillon",
+      "chauffage de l'échantillon à 40°C",
+      "dilution de l'échantillon",
+      "filtration de l'échantillon sur une membrane de seuil de coupure de 0.45µm"
+    ],
+    "correct_answers": [
+      "dilution de l'échantillon"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les antibiotiques suivants, quels sont ceux possédant une activité anti-staphylococcique d'intérêt ?",
+    "options": [
+      "pristinamycine",
+      "tigécycline",
+      "fosfomycine",
+      "vancomycine",
+      "linézolide"
+    ],
+    "correct_answers": [
+      "vancomycine",
+      "linézolide",
+      "fosfomycine",
+      "pristinamycine",
+      "tigécycline"
+    ]
+  },
+  {
+    "theme": "Bactériologie",
+    "question": "Parmi les propositions suivantes, indiquez la(les) proposition(s) exacte(s) concernant Haemophilus influenzae  ?",
+    "options": [
+      "c'est une bactérie tellurique",
+      "il est responsable de méningites chez l'enfant non vacciné",
+      "il ne se développe que sur gélose au sang frais",
+      "c'est une bactérie commensale du rhino-pharynx",
+      "il est toujours sensible à l'ampicilline"
+    ],
+    "correct_answers": [
+      "c'est une bactérie commensale du rhino-pharynx",
+      "il est responsable de méningites chez l'enfant non vacciné"
+    ]
+  }
+]

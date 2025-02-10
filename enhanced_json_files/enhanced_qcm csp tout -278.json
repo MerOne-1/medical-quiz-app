@@ -1,0 +1,42 @@
+[
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Les résultats du diagnostic sérologique de la toxoplasmose conduisent aux conclusions suivantes ; laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+      "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+      "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale.",
+      "Une sérologie positive chez le nouveau-né signe obligatoirement une toxoplasmose évolutive.",
+      "Une sérologie négative oblige à l'administration du vaccin anti-toxoplasme."
+    ],
+    "correct_answers": [
+      "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+      "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+      "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale."
+    ],
+    "justification_fausses_reponses": {
+      "Une sérologie positive chez le nouveau-né signe obligatoirement une toxoplasmose évolutive.": "C'est incorrect car une sérologie positive chez le nouveau-né peut être le résultat des anticorps maternels transmis au fœtus et non nécessairement une indication d'une infection active par la toxoplasmose.",
+      "Une sérologie négative oblige à l'administration du vaccin anti-toxoplasme.": "C'est incorrect car il n'existe actuellement aucun vaccin contre la toxoplasmose pour les humains."
+    }
+  },
+  {
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "question": "Quel est ce parasite ?",
+    "options": [
+      "Pediculus humanus var. capitis",
+      "un sarcopte",
+      "un insecte",
+      "un morpion",
+      "un pou de tête"
+    ],
+    "correct_answers": [
+      "un pou de tête",
+      "Pediculus humanus var. capitis",
+      "un insecte"
+    ],
+    "justification_fausses_reponses": {
+      "un sarcopte": "Cette réponse est incorrecte car le sarcopte est un acarien qui provoque la gale, et non un pou. Les poux sont des insectes, pas des acariens.",
+      "un morpion": "Cette réponse est incorrecte car le morpion est un type de pou qui vit dans les poils pubiens, et non sur la tête. Le pou de tête est une espèce différente."
+    }
+  }
+]

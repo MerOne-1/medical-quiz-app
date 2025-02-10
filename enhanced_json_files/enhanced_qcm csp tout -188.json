@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi les maladies infectieuses suivantes, laquelle n'est pas à déclaration obligatoire?",
+    "options": [
+      "Méningite cérébro-spinale",
+      "Grippe",
+      "Fièvre typhoïde",
+      "Rougeole",
+      "Légionellose"
+    ],
+    "correct_answers": [
+      "Grippe"
+    ],
+    "justification_fausses_reponses": {
+      "Méningite cérébro-spinale": "La méningite cérébro-spinale est une maladie à déclaration obligatoire car elle est très contagieuse et peut causer des complications graves, voire mortelles.",
+      "Fièvre typhoïde": "La fièvre typhoïde est une maladie à déclaration obligatoire car elle est causée par une bactérie très contagieuse qui peut se propager rapidement dans une population si elle n'est pas contrôlée.",
+      "Rougeole": "La rougeole est une maladie à déclaration obligatoire car elle est extrêmement contagieuse et peut causer des complications graves, en particulier chez les enfants et les personnes immunodéprimées.",
+      "Légionellose": "La légionellose est une maladie à déclaration obligatoire car elle est causée par une bactérie qui peut se propager par l'eau et l'air, et peut causer des complications graves, notamment une pneumonie sévère."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "D’après la classification de Zimmerman, les réactions hépatotoxiques à caractère prévisible se caractérisent par :",
+    "options": [
+      "Un risque augmenté par induction enzymatique.",
+      "Une récidive en cas de ré-administration de la substance toxique.",
+      "Des signes d’hypersensibilité.",
+      "Une relation dose-dépendante.",
+      "Une reproductibilité chez l’animal."
+    ],
+    "correct_answers": [
+      "Une relation dose-dépendante.",
+      "Une récidive en cas de ré-administration de la substance toxique.",
+      "Une reproductibilité chez l’animal.",
+      "Un risque augmenté par induction enzymatique."
+    ],
+    "justification_fausses_reponses": {
+      "Des signes d’hypersensibilité.": "Les signes d'hypersensibilité ne sont pas caractéristiques des réactions hépatotoxiques prévisibles selon la classification de Zimmerman. Ils sont plutôt associés à des réactions allergiques ou immunitaires, qui sont imprévisibles et ne dépendent pas de la dose de la substance toxique."
+    }
+  },
+  {
+    "theme": "Toxicologie et santé publique",
+    "question": "Parmi ces affirmations concernant le syndrome de fièvres isolées transitoires consécutives à l’inhalation de certaines substances toxiques, laquelle (lesquelles) est (sont) exacte(s) ?",
+    "options": [
+      "Cette affection maligne très spécifique débute par une irritation des voies aériennes supérieures, une oppression thoracique et une hyperthermie.",
+      "Ce syndrome peut être lié à l’inhalation d’oxydes métalliques.",
+      "Ce syndrome évolue très fréquemment en œdème aigu du poumon.",
+      "Le développement de ce syndrome implique l’activation des macrophages alvéolaires et le développement d’une réponse inflammatoire.",
+      "Ce syndrome fébrile est irréversible."
+    ],
+    "correct_answers": [
+      "Ce syndrome peut être lié à l’inhalation d’oxydes métalliques.",
+      "Le développement de ce syndrome implique l’activation des macrophages alvéolaires et le développement d’une réponse inflammatoire."
+    ],
+    "justification_fausses_reponses": {
+      "Cette affection maligne très spécifique débute par une irritation des voies aériennes supérieures, une oppression thoracique et une hyperthermie.": "Cette affirmation est incorrecte car le syndrome de fièvres isolées transitoires ne débute pas nécessairement par ces symptômes. Il peut commencer par une variété de symptômes non spécifiques.",
+      "Ce syndrome évolue très fréquemment en œdème aigu du poumon.": "Cette affirmation est incorrecte car bien que l'œdème pulmonaire puisse survenir dans les cas graves, il n'est pas une évolution fréquente de ce syndrome.",
+      "Ce syndrome fébrile est irréversible.": "Cette affirmation est incorrecte car le syndrome de fièvres isolées transitoires est généralement réversible avec un traitement approprié et l'élimination de l'exposition à la substance toxique."
+    }
+  }
+]

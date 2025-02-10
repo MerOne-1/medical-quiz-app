@@ -1,0 +1,62 @@
+[
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives au clitocybe de l'olivier ( Omphalotus olearius)  choisir celle(s) exacte(s)",
+    "options": [
+      "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+      "Il est confondu le plus souvent avec la chanterelle comestible",
+      "Il provoque des sudations nocturnes sans précédent",
+      "C’est une espèce courante dans le Nord – P as-de-Calais",
+      "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+    ],
+    "correct_answers": [
+      "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+      "Il est confondu le plus souvent avec la chanterelle comestible",
+      "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+    ],
+    "justification_fausses_reponses": {
+      "Il provoque des sudations nocturnes sans précédent": "Cette affirmation est incorrecte car le clitocybe de l'olivier ne provoque pas de sudations nocturnes. Ses principaux symptômes sont des troubles gastro-intestinaux sévères.",
+      "C’est une espèce courante dans le Nord – P as-de-Calais": "Cette affirmation est incorrecte car le clitocybe de l'olivier est principalement présent dans les régions méditerranéennes et non dans le Nord-Pas-de-Calais."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions ci-dessous, choisissez celle(s) qui est (sont) vraie(s)",
+    "options": [
+      "L’albumen est haploïde",
+      "L’embryon est diploïde",
+      "Le nucelle est haploïde",
+      "Les 2 noyaux polaires sont haploïdes",
+      "Le sac embryonnaire est diploïde"
+    ],
+    "correct_answers": [
+      "Les 2 noyaux polaires sont haploïdes",
+      "L’embryon est diploïde"
+    ],
+    "justification_fausses_reponses": {
+      "L’albumen est haploïde": "C'est incorrect. L'albumen est triploïde, résultant de la fusion d'un noyau haploïde du grain de pollen avec les deux noyaux polaires du sac embryonnaire.",
+      "Le nucelle est haploïde": "C'est incorrect. Le nucelle est diploïde, car il provient du tissu sporophyte de la plante, qui est diploïde.",
+      "Le sac embryonnaire est diploïde": "C'est incorrect. Le sac embryonnaire est haploïde, car il est formé à partir de la méiose d'une cellule mère de mégaspore, qui est diploïde."
+    }
+  },
+  {
+    "theme": "Sciences végétales et fongiques",
+    "question": "Parmi les propositions suivantes relatives à L'amanite phalloïde ( Amanita phalloides ) choisir celle(s) exacte(s)",
+    "options": [
+      "Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel",
+      "Son ingestion provoque des hallucinations",
+      "Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches",
+      "Elle ne possède pas de voile général apparent sur le chapeau, ni d'anneau",
+      "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+    ],
+    "correct_answers": [
+      "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+    ],
+    "justification_fausses_reponses": {
+      "Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel": "C'est faux, d'autres espèces de champignons peuvent également provoquer le syndrome phalloïdien, bien que l'Amanita phalloides soit l'une des plus toxiques.",
+      "Son ingestion provoque des hallucinations": "C'est incorrect. L'amanite phalloïde est très toxique et peut provoquer des symptômes graves, y compris la mort, mais elle n'est pas connue pour provoquer des hallucinations.",
+      "Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches": "C'est une confusion avec l'amanite tue-mouches (Amanita muscaria) qui a un chapeau rouge avec des verrues blanches et qui a été utilisée pour tuer les mouches.",
+      "Elle ne possède pas de voile général apparent sur le chapeau, ni d'anneau": "C'est incorrect. L'amanite phalloïde possède un voile général, un voile partiel, des lames libres et une sporée blanche."
+    }
+  }
+]

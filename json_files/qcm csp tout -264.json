@@ -1,0 +1,51 @@
+[
+  {
+    "theme": "Hématologie",
+    "question": "Concernant le Dabigatran (Pradaxa®) :",
+    "options": [
+      "Il s’agit d’un anticoagulant",
+      "C’est un antiviral anti-VIH",
+      "C’est un inhibiteur indirect de la thrombine, actif par voie orale",
+      "Il nécessite une surveillance de la fonction rénale, au minimum, 1 à 2 fois par an",
+      "Il présente une demi-vie longue (36 à 48h)"
+    ],
+    "correct_answers": [
+      "Il s’agit d’un anticoagulant",
+      "Il nécessite une surveillance de la fonction rénale, au minimum, 1 à 2 fois par an"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Parmi les étiologies suivantes, lesquelles sont responsables d’anémie ferriprives ?",
+    "options": [
+      "Maladie de Willebrand chez une femme non ménopausée",
+      "Régimes végétariens",
+      "Cancer du colon",
+      "Fibrome utérin",
+      "Hernie hiatale"
+    ],
+    "correct_answers": [
+      "Régimes végétariens",
+      "Maladie de Willebrand chez une femme non ménopausée",
+      "Cancer du colon",
+      "Fibrome utérin",
+      "Hernie hiatale"
+    ]
+  },
+  {
+    "theme": "Hématologie",
+    "question": "Dans quel(les) situation(s) peut-on observer des réticulocytes sanguins supérieurs à 100 G/L ?",
+    "options": [
+      "Une aplasie médullaire",
+      "Une maladie de Minkowski-Chauffard",
+      "Une anémie hémolytique auto-immune (AHAI)",
+      "Une carence martiale en cours de traitement",
+      "Une maladie de Biermer non traitée"
+    ],
+    "correct_answers": [
+      "Une carence martiale en cours de traitement",
+      "Une anémie hémolytique auto-immune (AHAI)",
+      "Une maladie de Minkowski-Chauffard"
+    ]
+  }
+]
