@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { saveQuizProgress, loadQuizProgress } from '../firebase';
 import {
   Container,
   Typography,
@@ -19,6 +21,7 @@ import { ArrowBack, ArrowForward, Home, School } from '@mui/icons-material';
 function QuizPage() {
   const { theme } = useParams();
   const navigate = useNavigate();
+  const { user } = useAuth();
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
@@ -27,10 +30,46 @@ function QuizPage() {
   const [stats, setStats] = useState({ correct: 0, total: 0 });
   const [answeredQuestions, setAnsweredQuestions] = useState({});
   const [skippedQuestions, setSkippedQuestions] = useState([]);
+  const [hasProgress, setHasProgress] = useState(false);
 
   const [themeInfo, setThemeInfo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // Load saved progress when component mounts
+  useEffect(() => {
+    const loadSavedProgress = async () => {
+      if (user && theme) {
+        const progress = await loadQuizProgress(user.uid, theme);
+        if (progress) {
+          setHasProgress(true);
+          setQuestions(progress.questions || []);
+          setCurrentQuestionIndex(progress.currentQuestionIndex || 0);
+          setStats(progress.stats || { correct: 0, total: 0 });
+          setAnsweredQuestions(progress.answeredQuestions || {});
+          setSkippedQuestions(progress.skippedQuestions || []);
+        }
+      }
+    };
+    loadSavedProgress();
+  }, [user, theme]);
+
+  // Save progress whenever relevant state changes
+  useEffect(() => {
+    const saveProgress = async () => {
+      if (user && theme && questions.length > 0) {
+        await saveQuizProgress(user.uid, theme, {
+          questions,
+          currentQuestionIndex,
+          stats,
+          answeredQuestions,
+          skippedQuestions,
+          lastUpdated: new Date(),
+        });
+      }
+    };
+    saveProgress();
+  }, [user, theme, questions, currentQuestionIndex, stats, answeredQuestions, skippedQuestions]);
 
   useEffect(() => {
     console.log('QuizPage mounted, theme:', theme);
@@ -72,8 +111,8 @@ function QuizPage() {
         }
 
         // Shuffle all questions for better learning experience
-        const shuffledQuestions = data.questions
-          .sort(() => Math.random() - 0.5);
+        // Only shuffle questions if there's no saved progress
+        const shuffledQuestions = hasProgress ? data.questions : data.questions.sort(() => Math.random() - 0.5);
 
         setQuestions(shuffledQuestions);
         console.log('Set questions, count:', shuffledQuestions.length);

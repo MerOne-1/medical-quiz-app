@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { getFirestore, collection, getDocs, query, where, addDoc, serverTimestamp } from 'firebase/firestore';
+import { getFirestore, collection, getDocs, query, where, addDoc, serverTimestamp, doc, setDoc, getDoc } from 'firebase/firestore';
 
 // Function to check if email is allowed
 export async function isEmailAllowed(email) {
@@ -41,6 +41,36 @@ export async function submitRegistrationRequest(email) {
   } catch (error) {
     console.error('Error submitting request:', error);
     return false;
+  }
+}
+
+// Save quiz progress
+export async function saveQuizProgress(userId, themeId, progress) {
+  try {
+    const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
+    await setDoc(progressRef, {
+      ...progress,
+      lastUpdated: serverTimestamp(),
+    }, { merge: true });
+    return true;
+  } catch (error) {
+    console.error('Error saving progress:', error);
+    return false;
+  }
+}
+
+// Load quiz progress
+export async function loadQuizProgress(userId, themeId) {
+  try {
+    const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
+    const docSnap = await getDoc(progressRef);
+    if (docSnap.exists()) {
+      return docSnap.data();
+    }
+    return null;
+  } catch (error) {
+    console.error('Error loading progress:', error);
+    return null;
   }
 }
 
