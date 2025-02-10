@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
+import { getFirestore, collection, getDocs, query, where, addDoc, serverTimestamp } from 'firebase/firestore';
 
 // Function to check if email is allowed
 export async function isEmailAllowed(email) {
@@ -11,6 +11,35 @@ export async function isEmailAllowed(email) {
     return !querySnapshot.empty;
   } catch (error) {
     console.error('Error checking email:', error);
+    return false;
+  }
+}
+
+// Function to check if a registration request already exists
+export async function checkExistingRequest(email) {
+  try {
+    const requestsRef = collection(db, 'registrationRequests');
+    const q = query(requestsRef, where('email', '==', email));
+    const querySnapshot = await getDocs(q);
+    return !querySnapshot.empty;
+  } catch (error) {
+    console.error('Error checking existing request:', error);
+    return false;
+  }
+}
+
+// Function to submit a registration request
+export async function submitRegistrationRequest(email) {
+  try {
+    const requestsRef = collection(db, 'registrationRequests');
+    await addDoc(requestsRef, {
+      email,
+      status: 'pending',
+      createdAt: serverTimestamp(),
+    });
+    return true;
+  } catch (error) {
+    console.error('Error submitting request:', error);
     return false;
   }
 }

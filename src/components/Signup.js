@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { isEmailAllowed } from '../firebase';
+import { isEmailAllowed, checkExistingRequest, submitRegistrationRequest } from '../firebase';
 import {
   Container,
   Paper,
@@ -23,6 +23,8 @@ export default function Signup() {
   const { signup } = useAuth();
   const navigate = useNavigate();
 
+  const [requestSubmitted, setRequestSubmitted] = useState(false);
+
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -36,14 +38,26 @@ export default function Signup() {
       
       // Check if email is allowed
       const allowed = await isEmailAllowed(email);
-      if (!allowed) {
-        setError('Cette adresse email n\'est pas autorisée à créer un compte.');
-        setLoading(false);
-        return;
+      
+      if (allowed) {
+        await signup(email, password);
+        navigate('/');
+      } else {
+        // Check if a request already exists
+        const existingRequest = await checkExistingRequest(email);
+        
+        if (existingRequest) {
+          setError('Une demande d\'accès est déjà en cours pour cette adresse email. Veuillez patienter.');
+        } else {
+          // Submit new registration request
+          const submitted = await submitRegistrationRequest(email);
+          if (submitted) {
+            setRequestSubmitted(true);
+          } else {
+            setError('Erreur lors de la soumission de la demande. Veuillez réessayer.');
+          }
+        }
       }
-
-      await signup(email, password);
-      navigate('/');
     } catch (error) {
       setError('Failed to create an account. ' + error.message);
     }
@@ -53,6 +67,24 @@ export default function Signup() {
   return (
     <Container maxWidth="sm" sx={{ mt: 8 }}>
       <Paper elevation={3} sx={{ p: 4, borderRadius: 2 }}>
+        {requestSubmitted ? (
+          <Box sx={{ textAlign: 'center' }}>
+            <Typography variant="h5" gutterBottom color="primary">
+              Demande envoyée !
+            </Typography>
+            <Typography variant="body1" paragraph>
+              Votre demande d'accès a été enregistrée. Un administrateur l'examinera prochainement.
+              Vous recevrez une notification lorsque votre accès sera autorisé.
+            </Typography>
+            <Button
+              variant="contained"
+              onClick={() => navigate('/login')}
+              sx={{ mt: 2 }}
+            >
+              Retour à la connexion
+            </Button>
+          </Box>
+        ) : (
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mb: 3 }}>
           <School sx={{ fontSize: 40, color: 'primary.main', mb: 2 }} />
           <Typography variant="h4" component="h1" gutterBottom>
@@ -111,6 +143,7 @@ export default function Signup() {
             Déjà un compte ? Se connecter
           </Link>
         </Box>
+        )}
       </Paper>
     </Container>
   );
