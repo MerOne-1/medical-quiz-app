@@ -7,8 +7,10 @@ import { LocalHospital, School } from '@mui/icons-material';
 
 function HomePage() {
   const navigate = useNavigate();
+  const { user } = useAuth();
   const [availableThemes, setAvailableThemes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [quizProgress, setQuizProgress] = useState({});
 
   useEffect(() => {
     const loadProgress = async () => {

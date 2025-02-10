@@ -15,6 +15,11 @@ import {
   IconButton,
   LinearProgress,
   CircularProgress,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
 } from '@mui/material';
 import { ArrowBack, ArrowForward, Home, School } from '@mui/icons-material';
 
@@ -35,7 +40,6 @@ function QuizPage() {
   const [themeInfo, setThemeInfo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [resetDialogOpen, setResetDialogOpen] = useState(false);
   const [resetDialogOpen, setResetDialogOpen] = useState(false);
 
   // Load saved progress when component mounts
@@ -271,8 +275,51 @@ function QuizPage() {
     );
   }
 
+  const handleResetProgress = async () => {
+    if (user && theme) {
+      await resetQuizProgress(user.uid, theme);
+      // Reset local state
+      setCurrentQuestionIndex(0);
+      setSelectedAnswers([]);
+      setShowFeedback(false);
+      setIsCorrect(false);
+      setStats({ correct: 0, total: 0 });
+      setAnsweredQuestions({});
+      setSkippedQuestions([]);
+      setHasProgress(false);
+      // Reload questions in random order
+      setQuestions(prev => [...prev].sort(() => Math.random() - 0.5));
+    }
+    setResetDialogOpen(false);
+  };
+
   return (
     <Box sx={{ bgcolor: 'background.default', minHeight: '100vh', py: 4 }}>
+      {/* Progress bar */}
+      {!loading && !error && questions.length > 0 && (
+        <Container maxWidth="md">
+          <Box sx={{ mb: 2 }}>
+            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
+              <Typography variant="body2" color="text.secondary">
+                Progression: {Math.round((Object.keys(answeredQuestions).length / questions.length) * 100)}%
+              </Typography>
+              <Button
+                variant="outlined"
+                color="secondary"
+                size="small"
+                onClick={() => setResetDialogOpen(true)}
+              >
+                Réinitialiser le progrès
+              </Button>
+            </Box>
+            <LinearProgress 
+              variant="determinate" 
+              value={(Object.keys(answeredQuestions).length / questions.length) * 100} 
+              sx={{ height: 8, borderRadius: 4 }}
+            />
+          </Box>
+        </Container>
+      )}
       <Container maxWidth="md">
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 4, gap: 2 }}>
           <IconButton onClick={() => navigate('/')} color="primary" sx={{ p: 1 }}>
@@ -487,6 +534,29 @@ function QuizPage() {
         </Button>
       </DialogActions>
     </Dialog>
+    </Box>
+  );
+}
+
+      {/* Reset Progress Dialog */}
+      <Dialog
+        open={resetDialogOpen}
+        onClose={() => setResetDialogOpen(false)}
+      >
+        <DialogTitle>Réinitialiser le progrès</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Êtes-vous sûr de vouloir réinitialiser votre progression pour ce thème ?
+            Cette action ne peut pas être annulée.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setResetDialogOpen(false)}>Annuler</Button>
+          <Button onClick={handleResetProgress} color="error" autoFocus>
+            Réinitialiser
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Box>
   );
 }
