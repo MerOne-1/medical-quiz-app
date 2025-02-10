@@ -71,10 +71,9 @@ function QuizPage() {
           throw new Error('No questions found in the file');
         }
 
-        // Shuffle questions for better learning experience
+        // Shuffle all questions for better learning experience
         const shuffledQuestions = data.questions
-          .sort(() => Math.random() - 0.5)
-          .slice(0, 20); // Limit to 20 questions per session
+          .sort(() => Math.random() - 0.5);
 
         setQuestions(shuffledQuestions);
         console.log('Set questions, count:', shuffledQuestions.length);
