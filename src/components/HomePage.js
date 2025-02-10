@@ -1,12 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Typography, Box, Grid, Card, CardContent, CardActionArea, CircularProgress } from '@mui/material';
+import { useAuth } from '../contexts/AuthContext';
+import { getAllQuizProgress } from '../firebase';
+import { Container, Typography, Box, Grid, Card, CardContent, CardActionArea, CircularProgress, LinearProgress } from '@mui/material';
 import { LocalHospital, School } from '@mui/icons-material';
 
 function HomePage() {
   const navigate = useNavigate();
   const [availableThemes, setAvailableThemes] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadProgress = async () => {
+      if (user) {
+        const progress = await getAllQuizProgress(user.uid);
+        setQuizProgress(progress);
+      }
+    };
+    loadProgress();
+  }, [user]);
 
   useEffect(() => {
     const loadThemes = async () => {

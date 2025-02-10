@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { saveQuizProgress, loadQuizProgress } from '../firebase';
+import { saveQuizProgress, loadQuizProgress, resetQuizProgress } from '../firebase';
 import {
   Container,
   Typography,
@@ -35,6 +35,8 @@ function QuizPage() {
   const [themeInfo, setThemeInfo] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [resetDialogOpen, setResetDialogOpen] = useState(false);
+  const [resetDialogOpen, setResetDialogOpen] = useState(false);
 
   // Load saved progress when component mounts
   useEffect(() => {
@@ -465,6 +467,26 @@ function QuizPage() {
           </>
         )}
       </Container>
+
+    {/* Reset Progress Dialog */}
+    <Dialog
+      open={resetDialogOpen}
+      onClose={() => setResetDialogOpen(false)}
+    >
+      <DialogTitle>Réinitialiser le progrès</DialogTitle>
+      <DialogContent>
+        <DialogContentText>
+          Êtes-vous sûr de vouloir réinitialiser votre progression pour ce thème ?
+          Cette action ne peut pas être annulée.
+        </DialogContentText>
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={() => setResetDialogOpen(false)}>Annuler</Button>
+        <Button onClick={handleResetProgress} color="error" autoFocus>
+          Réinitialiser
+        </Button>
+      </DialogActions>
+    </Dialog>
     </Box>
   );
 }

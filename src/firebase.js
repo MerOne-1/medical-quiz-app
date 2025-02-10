@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { getFirestore, collection, getDocs, query, where, addDoc, serverTimestamp, doc, setDoc, getDoc } from 'firebase/firestore';
+import { getFirestore, collection, getDocs, query, where, addDoc, serverTimestamp, doc, setDoc, getDoc, deleteDoc } from 'firebase/firestore';
 
 // Function to check if email is allowed
 export async function isEmailAllowed(email) {
@@ -71,6 +71,37 @@ export async function loadQuizProgress(userId, themeId) {
   } catch (error) {
     console.error('Error loading progress:', error);
     return null;
+  }
+}
+
+// Reset progress for a specific theme
+export async function resetQuizProgress(userId, themeId) {
+  try {
+    const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
+    await deleteDoc(progressRef);
+    return true;
+  } catch (error) {
+    console.error('Error resetting progress:', error);
+    return false;
+  }
+}
+
+// Get all quiz progress for a user
+export async function getAllQuizProgress(userId) {
+  try {
+    const progressRef = collection(db, 'userProgress', userId, 'quizzes');
+    const querySnapshot = await getDocs(progressRef);
+    const progress = {};
+    querySnapshot.forEach((doc) => {
+      progress[doc.id] = {
+        ...doc.data(),
+        themeId: doc.id
+      };
+    });
+    return progress;
+  } catch (error) {
+    console.error('Error loading all progress:', error);
+    return {};
   }
 }
 
