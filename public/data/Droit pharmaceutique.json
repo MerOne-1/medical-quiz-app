@@ -1,0 +1,575 @@
+{
+    "theme": "Droit pharmaceutique",
+    "questions": [
+        {
+            "question": "Parmi ces propositions concernant l’Agence européenne du médicament (EMA), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "L’EMA est située à Strasbourg.",
+                "Les différentes commissions de l’EMA rédigent des notes explicatives ou « guidelines » destinées à aider les industriels dans l’élaboration de leurs dossiers d’AMM.",
+                "L’EMA était située à Londres mais elle a déménagé à Amsterdam en 2019 suite au vote britannique en faveur du Brexit.",
+                "L’EMA comporte différents comités spécialisés dans un domaine particulier, comme par exemple les médicaments orphelins, les médicaments à base de plantes ou les médicaments pédiatriques.",
+                "L’EMA s’occupe notamment de l’évaluation des dossiers d’AMM européens."
+            ],
+            "correct_answers": [
+                "L’EMA s’occupe notamment de l’évaluation des dossiers d’AMM européens.",
+                "L’EMA était située à Londres mais elle a déménagé à Amsterdam en 2019 suite au vote britannique en faveur du Brexit.",
+                "L’EMA comporte différents comités spécialisés dans un domaine particulier, comme par exemple les médicaments orphelins, les médicaments à base de plantes ou les médicaments pédiatriques.",
+                "Les différentes commissions de l’EMA rédigent des notes explicatives ou « guidelines » destinées à aider les industriels dans l’élaboration de leurs dossiers d’AMM."
+            ],
+            "justification_fausses_reponses": {
+                "L’EMA est située à Strasbourg.": "Cette affirmation est incorrecte car l'Agence européenne du médicament (EMA) est située à Amsterdam, aux Pays-Bas. Elle a déménagé de Londres à Amsterdam en 2019 suite au vote britannique en faveur du Brexit."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant le monopole pharmaceutique, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Le monopole pharmaceutique peut être partagé avec d’autres professionnels comme les vétérinaires ou les opticiens-lunetiers.",
+                "Le monopole pharmaceutique concerne la fabrication, la préparation et la dispensation des médicaments et de certains autres produits de santé.",
+                "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à tout médecin qui en effectue la demande, et ce quel que soit son lieu d’exercice.",
+                "Le monopole pharmaceutique ne comprend que les médicaments.",
+                "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à quelques rares médecins qui exercent dans des zones reculées et dépourvues de pharmacie."
+            ],
+            "correct_answers": [
+                "Le monopole pharmaceutique concerne la fabrication, la préparation et la dispensation des médicaments et de certains autres produits de santé.",
+                "Le monopole pharmaceutique peut être partagé avec d’autres professionnels comme les vétérinaires ou les opticiens-lunetiers.",
+                "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à quelques rares médecins qui exercent dans des zones reculées et dépourvues de pharmacie."
+            ],
+            "justification_fausses_reponses": {
+                "La propharmacie est une dérogation au monopole pharmaceutique accordée par l’ARS à tout médecin qui en effectue la demande, et ce quel que soit son lieu d’exercice.": "Cette affirmation est incorrecte car la propharmacie n'est pas une dérogation accordée à tout médecin qui en fait la demande. Elle est réservée à certains médecins qui exercent dans des zones reculées et dépourvues de pharmacie.",
+                "Le monopole pharmaceutique ne comprend que les médicaments.": "Cette affirmation est incorrecte car le monopole pharmaceutique ne se limite pas aux médicaments. Il concerne également la fabrication, la préparation et la dispensation de certains autres produits de santé."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les Agences régionales de santé (ARS), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les ARS se chargent notamment d'autoriser certains médecins exerçant dans des zones reculées, à pratiquer la propharmacie.",
+                "Les ARS se chargent notamment d'autoriser l'ouverture de sites légaux d'e-dispensation de médicaments en \"libre accès\" - chaque site étant adossé à une officine réelle.",
+                "Les ARS ont été créées en application de la loi HPST de 2009.",
+                "Les ARS sont coordonnées au niveau national par le Comité national de pilotage (CNP).",
+                "Les ARS ont été créées en application de l’Ordonnance « Juppé » de 1996."
+            ],
+            "correct_answers": [
+                "Les ARS ont été créées en application de la loi HPST de 2009.",
+                "Les ARS sont coordonnées au niveau national par le Comité national de pilotage (CNP).",
+                "Les ARS se chargent notamment d'autoriser l'ouverture de sites légaux d'e-dispensation de médicaments en \"libre accès\" - chaque site étant adossé à une officine réelle.",
+                "Les ARS se chargent notamment d'autoriser certains médecins exerçant dans des zones reculées, à pratiquer la propharmacie."
+            ],
+            "justification_fausses_reponses": {
+                "Les ARS ont été créées en application de l’Ordonnance « Juppé » de 1996.": "Cette affirmation est incorrecte car les ARS ont été créées en application de la loi HPST (Hôpital, Patients, Santé et Territoires) de 2009 et non de l’Ordonnance « Juppé » de 1996."
+            }
+        },
+        {
+            "question": "Quel type de rupture du contrat de travail peut entraîner une indemnisation du salarié ?",
+            "options": [
+                "Le licenciement pour faute grave",
+                "La rupture conventionnelle",
+                "La prise d'acte",
+                "Le licenciement pour faute lourde",
+                "Le licenciement pour cause réelle et sérieuse"
+            ],
+            "correct_answers": [
+                "Le licenciement pour cause réelle et sérieuse",
+                "La rupture conventionnelle",
+                "La prise d'acte"
+            ],
+            "justification_fausses_reponses": {
+                "Le licenciement pour faute grave": "Le licenciement pour faute grave ne donne pas droit à une indemnisation du salarié car la faute grave est une faute qui rend impossible le maintien du salarié dans l'entreprise, même pendant la durée du préavis.",
+                "Le licenciement pour faute lourde": "Le licenciement pour faute lourde ne donne pas droit à une indemnisation du salarié car la faute lourde est une faute d'une extrême gravité commise par le salarié avec l'intention de nuire à l'employeur ou à l'entreprise."
+            }
+        },
+        {
+            "question": "Parmi les établissements suivants, lesquels ne sont pas des établissements pharmaceutiques soumis à autorisation d’ouverture délivrée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé ?",
+            "options": [
+                "Un établissement de fabrication de dispositifs médicaux",
+                "Un établissement de fabrication de médicaments",
+                "Une pharmacie à usage intérieur",
+                "Une officine de pharmacie",
+                "Un dépositaire de médicaments"
+            ],
+            "correct_answers": [
+                "Un établissement de fabrication de dispositifs médicaux",
+                "Une officine de pharmacie",
+                "Une pharmacie à usage intérieur"
+            ],
+            "justification_fausses_reponses": {
+                "Un établissement de fabrication de médicaments": "Un établissement de fabrication de médicaments est soumis à autorisation d'ouverture par l'Agence Nationale de Sécurité des Médicaments et des produits de santé car il est impliqué dans la production de médicaments, qui sont des produits réglementés.",
+                "Un dépositaire de médicaments": "Un dépositaire de médicaments est également soumis à autorisation d'ouverture par l'Agence Nationale de Sécurité des Médicaments et des produits de santé car il est responsable de la distribution de médicaments, qui sont des produits réglementés."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la Direction européenne de la qualité du médicament & des soins de santé (DEQM), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "La DEQM est notamment chargée de l’évaluation des dossiers d’AMM européens.",
+                "La DEQM dépend de l’Union européenne.",
+                "La DEQM est située à Strasbourg.",
+                "La DEQM est située à Londres.",
+                "La DEQM dépend du Conseil de l’Europe."
+            ],
+            "correct_answers": [
+                "La DEQM dépend du Conseil de l’Europe.",
+                "La DEQM est située à Strasbourg."
+            ],
+            "justification_fausses_reponses": {
+                "La DEQM est notamment chargée de l’évaluation des dossiers d’AMM européens.": "C'est incorrect car la DEQM n'est pas chargée de l'évaluation des dossiers d'AMM européens. Cette tâche est plutôt attribuée à l'Agence européenne des médicaments (EMA).",
+                "La DEQM dépend de l’Union européenne.": "C'est incorrect car la DEQM ne dépend pas de l'Union européenne mais du Conseil de l'Europe, une organisation internationale distincte de l'UE.",
+                "La DEQM est située à Londres.": "C'est incorrect car la DEQM est située à Strasbourg, en France, et non à Londres."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les assimilés stupéfiants, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance sécurisée.",
+                "Les médicaments « assimilés stupéfiants » sont des médicaments qui appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants.",
+                "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance d’exception bleue à 4 volets.",
+                "Les médicaments « assimilés stupéfiants » sont tous, sans exception, des médicaments utilisés comme traitements de substitution aux opiacés.",
+                "Les médicaments « assimilés stupéfiants » sont des médicaments psychotropes classés parmi les stupéfiants."
+            ],
+            "correct_answers": [
+                "Les médicaments « assimilés stupéfiants » sont des médicaments qui appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants.",
+                "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance sécurisée."
+            ],
+            "justification_fausses_reponses": {
+                "Les médicaments « assimilés stupéfiants » doivent être prescrits sur une ordonnance d’exception bleue à 4 volets.": "Cette affirmation est incorrecte car les médicaments « assimilés stupéfiants » ne nécessitent pas une ordonnance d’exception bleue à 4 volets. Ils sont prescrits sur une ordonnance sécurisée.",
+                "Les médicaments « assimilés stupéfiants » sont tous, sans exception, des médicaments utilisés comme traitements de substitution aux opiacés.": "Cette affirmation est incorrecte car tous les médicaments « assimilés stupéfiants » ne sont pas utilisés comme traitements de substitution aux opiacés. Certains peuvent être utilisés pour d'autres indications thérapeutiques.",
+                "Les médicaments « assimilés stupéfiants » sont des médicaments psychotropes classés parmi les stupéfiants.": "Cette affirmation est incorrecte car tous les médicaments « assimilés stupéfiants » ne sont pas des médicaments psychotropes classés parmi les stupéfiants. Ils appartiennent à la liste I des substances vénéneuses mais sont soumis partiellement à la règlementation des stupéfiants."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant l’ Agence nationale de sécurité sanitaire des médicaments et produits de santé (ANSM), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "L’ANSM comporte 5 divisions « métiers ».",
+                "L’ANSM est chargée de la rédaction de la Pharmacopée européenne dans ses différentes éditions successives.",
+                "L’ANSM comporte 8 divisions « produits ».",
+                "L’ANSM comporte 14 divisions « ressources ».",
+                "L’ANSM est chargée de la rédaction de la Pharmacopée française dans ses différentes éditions successives."
+            ],
+            "correct_answers": [
+                "L’ANSM comporte 8 divisions « produits ».",
+                "L’ANSM comporte 5 divisions « métiers ».",
+                "L’ANSM est chargée de la rédaction de la Pharmacopée française dans ses différentes éditions successives."
+            ],
+            "justification_fausses_reponses": {
+                "L’ANSM est chargée de la rédaction de la Pharmacopée européenne dans ses différentes éditions successives.": "C'est incorrect car la rédaction de la Pharmacopée européenne est la responsabilité du Conseil de l'Europe, pas de l'ANSM.",
+                "L’ANSM comporte 14 divisions « ressources ».": "C'est incorrect car l'ANSM ne comporte pas 14 divisions « ressources ». Le nombre de divisions peut varier, mais il est généralement inférieur à 14."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant le Code de déontologie pharmaceutique (2e version), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Ce Code de déontologie comporte des dispositions générales ainsi que des dispositions spécifiques aux différents modes d’exercice de la pharmacie.",
+                "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSS dont il constitue les articles R. 4235-1 à R. 4235-77.",
+                "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSP dont il constitue les articles R. 4235-1 à R. 4235-77.",
+                "Le respect de ce Code par les pharmaciens est facultatif.",
+                "La première version du Code de déontologie pharmaceutique date de 1953 ; la seconde version (encore en vigueur actuellement) remonte à 1995."
+            ],
+            "correct_answers": [
+                "La première version du Code de déontologie pharmaceutique date de 1953 ; la seconde version (encore en vigueur actuellement) remonte à 1995.",
+                "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSP dont il constitue les articles R. 4235-1 à R. 4235-77.",
+                "Ce Code de déontologie comporte des dispositions générales ainsi que des dispositions spécifiques aux différents modes d’exercice de la pharmacie."
+            ],
+            "justification_fausses_reponses": {
+                "Ce Code de déontologie présente un caractère obligatoire et opposable du fait de son inclusion au sein du CSS dont il constitue les articles R. 4235-1 à R. 4235-77.": "Cette affirmation est incorrecte car le Code de déontologie pharmaceutique est inclus dans le Code de la santé publique (CSP), et non dans le Code de la sécurité sociale (CSS).",
+                "Le respect de ce Code par les pharmaciens est facultatif.": "Cette affirmation est incorrecte car le Code de déontologie pharmaceutique a un caractère obligatoire et opposable pour tous les pharmaciens, quel que soit leur mode d'exercice."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les médicaments à prescription restreinte, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les médicaments à prescription hospitalière peuvent être délivrés à l’officine dès lors qu’ils y sont disponibles et que le patient présente une ordonnance hospitalière.",
+                "Les médicaments à prescription initiale hospitalière peuvent être délivrés la 1ère fois et les fois suivantes à l’officine dès lors qu’ils y sont disponibles et que le patient présente une primo-prescription hospitalière.",
+                "Les médicaments à prescription initiale hospitalière ne peuvent être délivrés la 1ère fois qu’en PUI hospitalières ; lors des renouvellements, ils peuvent cependant être délivrés en officine.",
+                "Un médicament réservé à l’usage hospitalier peut être rétrocédé à un patient ambulatoire s’il est prescrit par un médecin hospitalier.",
+                "Les médicaments à prescription hospitalière ne peuvent être délivrés qu’en PUI hospitalières."
+            ],
+            "correct_answers": [
+                "Les médicaments à prescription hospitalière peuvent être délivrés à l’officine dès lors qu’ils y sont disponibles et que le patient présente une ordonnance hospitalière.",
+                "Les médicaments à prescription initiale hospitalière peuvent être délivrés la 1ère fois et les fois suivantes à l’officine dès lors qu’ils y sont disponibles et que le patient présente une primo-prescription hospitalière."
+            ],
+            "justification_fausses_reponses": {
+                "Les médicaments à prescription initiale hospitalière ne peuvent être délivrés la 1ère fois qu’en PUI hospitalières ; lors des renouvellements, ils peuvent cependant être délivrés en officine.": "Cette affirmation est incorrecte car les médicaments à prescription initiale hospitalière peuvent être délivrés dès la première fois en officine, à condition que le patient présente une primo-prescription hospitalière.",
+                "Un médicament réservé à l’usage hospitalier peut être rétrocédé à un patient ambulatoire s’il est prescrit par un médecin hospitalier.": "Cette affirmation est fausse car un médicament réservé à l'usage hospitalier ne peut pas être délivré à un patient ambulatoire, même si la prescription provient d'un médecin hospitalier.",
+                "Les médicaments à prescription hospitalière ne peuvent être délivrés qu’en PUI hospitalières.": "Cette affirmation est incorrecte car les médicaments à prescription hospitalière peuvent être délivrés en officine si le patient présente une ordonnance hospitalière."
+            }
+        },
+        {
+            "question": "Quels sont les trois les éléments pris en compte par la jurisprudence pour qualifier une relation de travail salarié ?",
+            "options": [
+                "Des horaires précis",
+                "Une rémunération",
+                "Une fiche de paie",
+                "Une prestation de travail",
+                "Un lien de subordination"
+            ],
+            "correct_answers": [
+                "Une rémunération",
+                "Un lien de subordination",
+                "Une prestation de travail"
+            ],
+            "justification_fausses_reponses": {
+                "Des horaires précis": "Bien que les horaires précis puissent être un indicateur d'une relation de travail salarié, ils ne sont pas un critère déterminant en soi. Une personne peut avoir des horaires précis sans être salariée.",
+                "Une fiche de paie": "La fiche de paie est un document qui atteste de la rémunération d'un salarié, mais elle n'est pas un élément pris en compte pour qualifier une relation de travail salarié. Elle est plutôt une conséquence de cette qualification."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant l’Ordre national des pharmaciens, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C.",
+                "Les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s’inscrire en section E.",
+                "Les pharmaciens biologistes (exerçant en laboratoire de biologie médicale public ou privé) exerçant en France métropolitaine doivent s’inscrire en section B.",
+                "Les pharmaciens adjoints d’officine exerçant en France métropolitaine doivent s’inscrire en section A.",
+                "La section D est la seule section à être organisée au niveau régional : elle comporte 22 CROP."
+            ],
+            "correct_answers": [
+                "Les pharmaciens grossistes-répartiteurs exerçant en France métropolitaine doivent s’inscrire en section C."
+            ],
+            "justification_fausses_reponses": {
+                "Les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s’inscrire en section E.": "C'est incorrect car les pharmaciens exerçant en Nouvelle-Calédonie ou en Polynésie française doivent s'inscrire en section D, qui est dédiée aux pharmaciens exerçant outre-mer.",
+                "Les pharmaciens biologistes (exerçant en laboratoire de biologie médicale public ou privé) exerçant en France métropolitaine doivent s’inscrire en section B.": "C'est incorrect car les pharmaciens biologistes exerçant en France métropolitaine doivent s'inscrire en section G, qui est dédiée aux pharmaciens biologistes.",
+                "Les pharmaciens adjoints d’officine exerçant en France métropolitaine doivent s’inscrire en section A.": "C'est incorrect car les pharmaciens adjoints d'officine exerçant en France métropolitaine doivent s'inscrire en section D, qui est dédiée aux pharmaciens adjoints d'officine.",
+                "La section D est la seule section à être organisée au niveau régional : elle comporte 22 CROP.": "C'est incorrect car toutes les sections de l'Ordre national des pharmaciens sont organisées au niveau régional, pas seulement la section D."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant la recherche clinique, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Elles sont placées sous la responsabilité d’un promoteur.",
+                "Dès lors qu’il a donné son consentement à la recherche, le sujet de recherche ne pourra pas demander réparation des préjudices qu’il aura éventuellement subis au cours de la recherche.",
+                "Elles sont généralement réalisées dans des établissements de santé.",
+                "Elle concerne les essais réalisés sur des personnes saines et malades.",
+                "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes."
+            ],
+            "correct_answers": [
+                "Elle concerne les essais réalisés sur des personnes saines et malades.",
+                "Elle doit faire l’objet d’une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé et d’un avis favorable préalable d’un comité de protection des personnes.",
+                "Elles sont placées sous la responsabilité d’un promoteur.",
+                "Elles sont généralement réalisées dans des établissements de santé."
+            ],
+            "justification_fausses_reponses": {
+                "Dès lors qu’il a donné son consentement à la recherche, le sujet de recherche ne pourra pas demander réparation des préjudices qu’il aura éventuellement subis au cours de la recherche.": "Cette affirmation est incorrecte. Même si le sujet a donné son consentement à la recherche, il conserve le droit de demander réparation pour tout préjudice subi au cours de la recherche. Le consentement à participer à une recherche ne signifie pas renoncer à ses droits."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la Pharmacopée européenne, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+                "La Pharmacopée européenne est accessible gratuitement via le site de la DEQM.",
+                "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique.",
+                "La Pharmacopée européenne est publiée en français, en allemand, en italien et en anglais, aussi bien en version papier qu’en version électronique.",
+                "La Pharmacopée européenne est élaborée par le CHMP et le HMPC de l’Agence européenne des médicaments (basée à Londres)."
+            ],
+            "correct_answers": [
+                "La Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg).",
+                "La Pharmacopée européenne est publiée en français et en anglais, aussi bien en version papier qu’en version électronique."
+            ],
+            "justification_fausses_reponses": {
+                "La Pharmacopée européenne est accessible gratuitement via le site de la DEQM.": "C'est incorrect car l'accès à la Pharmacopée européenne est payant et nécessite un abonnement.",
+                "La Pharmacopée européenne est publiée en français, en allemand, en italien et en anglais, aussi bien en version papier qu’en version électronique.": "C'est incorrect car la Pharmacopée européenne est uniquement publiée en français et en anglais.",
+                "La Pharmacopée européenne est élaborée par le CHMP et le HMPC de l’Agence européenne des médicaments (basée à Londres).": "C'est incorrect car la Pharmacopée européenne est élaborée et diffusée par la DEQM (basée à Strasbourg), et non par le CHMP et le HMPC de l’Agence européenne des médicaments."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les anxiolytiques et les hypnotiques, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les anxiolytiques peuvent être prescrits par tout médecin pour une durée d’un an.",
+                "Un hypnotique ne peut être renouvelé qu’à l’intérieur de sa durée maximale de prescription qui est de 4 semaines.",
+                "Les hypnotiques peuvent être prescrits par tout médecin pour une durée d’un an.",
+                "Un anxiolytique ne peut être renouvelé que dans la limite maximale de 12 semaines de traitement.",
+                "Les anxiolytiques et les hypnotiques doivent obligatoirement être prescrits sur une ordonnance sécurisée."
+            ],
+            "correct_answers": [
+                "Un anxiolytique ne peut être renouvelé que dans la limite maximale de 12 semaines de traitement.",
+                "Un hypnotique ne peut être renouvelé qu’à l’intérieur de sa durée maximale de prescription qui est de 4 semaines."
+            ],
+            "justification_fausses_reponses": {
+                "Les anxiolytiques peuvent être prescrits par tout médecin pour une durée d’un an.": "C'est incorrect car la durée maximale de prescription d'un anxiolytique est de 12 semaines, pas d'un an.",
+                "Les hypnotiques peuvent être prescrits par tout médecin pour une durée d’un an.": "C'est incorrect car la durée maximale de prescription d'un hypnotique est de 4 semaines, pas d'un an.",
+                "Les anxiolytiques et les hypnotiques doivent obligatoirement être prescrits sur une ordonnance sécurisée.": "C'est incorrect car bien que l'ordonnance sécurisée soit recommandée pour ces médicaments, elle n'est pas obligatoire."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les organismes de santé et les Pharmacopées, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "La DEQM (située à Strasbourg) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+                "L'Agence européenne du médicament (EMA) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+                "La HAS est un organisme français d’accréditation et de certification, qui effectue des évaluations scientifiques et médico-économiques de médicaments et d’autres produits de santé et élabore en outre des recommandations de bon usage à l’intention des prescripteurs.",
+                "Les ARS sont notamment chargées de la rédaction de la Pharmacopée française.",
+                "L’ANSM est notamment chargée de la rédaction de la Pharmacopée française."
+            ],
+            "correct_answers": [
+                "L’ANSM est notamment chargée de la rédaction de la Pharmacopée française.",
+                "La DEQM (située à Strasbourg) est notamment chargée de la rédaction de la Pharmacopée européenne.",
+                "La HAS est un organisme français d’accréditation et de certification, qui effectue des évaluations scientifiques et médico-économiques de médicaments et d’autres produits de santé et élabore en outre des recommandations de bon usage à l’intention des prescripteurs."
+            ],
+            "justification_fausses_reponses": {
+                "L'Agence européenne du médicament (EMA) est notamment chargée de la rédaction de la Pharmacopée européenne.": "C'est incorrect. L'EMA est responsable de l'évaluation, de la supervision et du suivi de la sécurité des médicaments dans l'UE, mais ce n'est pas elle qui est chargée de la rédaction de la Pharmacopée européenne. C'est la DEQM qui en a la charge.",
+                "Les ARS sont notamment chargées de la rédaction de la Pharmacopée française.": "C'est incorrect. Les ARS (Agences Régionales de Santé) ont pour mission de mettre en place la politique de santé dans leur région, elles ne sont pas chargées de la rédaction de la Pharmacopée française. C'est l'ANSM qui en a la charge."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la propharmacie, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les médecins propharmaciens peuvent pratiquer le tiers-payant sur la délivrance des médicaments, tout comme le ferait un pharmacien d’officine.",
+                "Les médecins propharmaciens peuvent également délivrer des médicaments hors liste à tout patient qui en fait la demande, et ce en l’absence de consultation médicale.",
+                "La propharmacie est une dérogation légale au monopole pharmaceutique accordée à certains médecins exerçant dans des zones géographiques particulières, loin de toute officine.",
+                "La propharmacie constitue une forme d’exercice illégal de la pharmacie.",
+                "Les médecins propharmaciens (autorisés par l’ARS) peuvent délivrer des médicaments hors liste, listés ou stupéfiants ainsi qu’un nombre restreint de dispositifs médicaux à condition d’avoir vu le patient en consultation."
+            ],
+            "correct_answers": [
+                "La propharmacie est une dérogation légale au monopole pharmaceutique accordée à certains médecins exerçant dans des zones géographiques particulières, loin de toute officine.",
+                "Les médecins propharmaciens (autorisés par l’ARS) peuvent délivrer des médicaments hors liste, listés ou stupéfiants ainsi qu’un nombre restreint de dispositifs médicaux à condition d’avoir vu le patient en consultation.",
+                "Les médecins propharmaciens peuvent pratiquer le tiers-payant sur la délivrance des médicaments, tout comme le ferait un pharmacien d’officine."
+            ],
+            "justification_fausses_reponses": {
+                "Les médecins propharmaciens peuvent également délivrer des médicaments hors liste à tout patient qui en fait la demande, et ce en l’absence de consultation médicale.": "C'est incorrect car les médecins propharmaciens ne peuvent délivrer des médicaments qu'après avoir consulté le patient. Ils ne peuvent pas délivrer des médicaments à la demande sans consultation médicale.",
+                "La propharmacie constitue une forme d’exercice illégal de la pharmacie.": "C'est incorrect car la propharmacie est une dérogation légale au monopole pharmaceutique. Elle n'est donc pas considérée comme un exercice illégal de la pharmacie."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les médicaments d’exception, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les médicaments d’exception sont des médicaments qui ne sont remboursés que s’ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d’information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS).",
+                "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+                "Les médicaments d’exception sont toujours des médicaments particulièrement toxiques.",
+                "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+                "Avant la suppression des vignettes au 1er juillet 2014, les boîtes de médicaments d’exception étaient reconnaissables à leur vignette blanche entourée d’un liseré vert."
+            ],
+            "correct_answers": [
+                "Les médicaments d’exception sont des médicaments qui ne sont remboursés que s’ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d’information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS).",
+                "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+                "Avant la suppression des vignettes au 1er juillet 2014, les boîtes de médicaments d’exception étaient reconnaissables à leur vignette blanche entourée d’un liseré vert."
+            ],
+            "justification_fausses_reponses": {
+                "Pour être pris en charge par l’assurance-maladie, les médicaments d’exception doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.": "Cette affirmation est incorrecte car l'ordonnance sécurisée n'est pas une exigence pour la prise en charge des médicaments d'exception par l'assurance-maladie. Ces médicaments doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+                "Les médicaments d’exception sont toujours des médicaments particulièrement toxiques.": "Cette affirmation est incorrecte car tous les médicaments d'exception ne sont pas nécessairement toxiques. Les médicaments d'exception sont des médicaments qui ne sont remboursés que s'ils sont prescrits dans le cadre strict des indications thérapeutiques mentionnées sur la fiche d'information thérapeutique établie par la Commission de la transparence de la Haute Autorité de Santé (HAS)."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la Commission de transparence de la Haute autorité de santé (HAS), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Elle évalue les demandes d’AMM déposées en France au niveau national.",
+                "Elle évalue le service médical rendu et l’amélioration du service médical rendu de médicaments.",
+                "Elle rédige des fiches d’indications thérapeutiques concernant les médicaments stupéfiants.",
+                "Elle rédige des fiches de bon usage sur des médicaments, destinées à aider les prescripteurs dans leurs prises de décisions thérapeutiques.",
+                "Elle rédige des fiches d’indications thérapeutiques concernant les médicaments d’exception."
+            ],
+            "correct_answers": [
+                "Elle rédige des fiches d’indications thérapeutiques concernant les médicaments d’exception.",
+                "Elle rédige des fiches de bon usage sur des médicaments, destinées à aider les prescripteurs dans leurs prises de décisions thérapeutiques.",
+                "Elle évalue le service médical rendu et l’amélioration du service médical rendu de médicaments."
+            ],
+            "justification_fausses_reponses": {
+                "Elle évalue les demandes d’AMM déposées en France au niveau national.": "C'est incorrect car l'évaluation des demandes d'AMM (Autorisation de Mise sur le Marché) est du ressort de l'Agence nationale de sécurité du médicament et des produits de santé (ANSM), et non de la Commission de transparence de la HAS.",
+                "Elle rédige des fiches d’indications thérapeutiques concernant les médicaments stupéfiants.": "C'est incorrect car la rédaction des fiches d'indications thérapeutiques pour les médicaments stupéfiants est du ressort de l'Agence nationale de sécurité du médicament et des produits de santé (ANSM), et non de la Commission de transparence de la HAS."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant le projet de 3e version du Code de déontologie pharmaceutique, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Tant que la 3 version du Code de déontologie n’est pas définitivement adoptée, c’est la 2 version (de 1995) qui est toujours applicable.",
+                "Actuellement, le projet de 3 version du Code de déontologie de 2018 comprend toujours une disposition introduisant, sous certaines conditions, une clause de conscience pour les pharmaciens.",
+                "Le projet de 3 version correspond à la version actuellement en vigueur sur l’ensemble du territoire national.",
+                "Le projet de 3 version du Code de déontologie pharmaceutique de 2016 ne comporte plus que 47 articles, contre 77 articles pour la 2 version ; le nouveau projet de 2018 en comporte 61.",
+                "Un projet d’article visant à introduire une clause de conscience pour les pharmaciens a été soumis à la consultation électronique de l’ensemble des pharmaciens, mais cette consultation a été suspendue et le texte de cet article retiré du projet de 3 version du Code de déontologie."
+            ],
+            "correct_answers": [
+                "Le projet de 3 version du Code de déontologie pharmaceutique de 2016 ne comporte plus que 47 articles, contre 77 articles pour la 2 version ; le nouveau projet de 2018 en comporte 61.",
+                "Tant que la 3 version du Code de déontologie n’est pas définitivement adoptée, c’est la 2 version (de 1995) qui est toujours applicable.",
+                "Un projet d’article visant à introduire une clause de conscience pour les pharmaciens a été soumis à la consultation électronique de l’ensemble des pharmaciens, mais cette consultation a été suspendue et le texte de cet article retiré du projet de 3 version du Code de déontologie."
+            ],
+            "justification_fausses_reponses": {
+                "Actuellement, le projet de 3 version du Code de déontologie de 2018 comprend toujours une disposition introduisant, sous certaines conditions, une clause de conscience pour les pharmaciens.": "Cette affirmation est incorrecte car le projet d'article introduisant une clause de conscience pour les pharmaciens a été retiré du projet de 3e version du Code de déontologie.",
+                "Le projet de 3 version correspond à la version actuellement en vigueur sur l’ensemble du territoire national.": "Cette affirmation est incorrecte car tant que la 3e version du Code de déontologie n'est pas définitivement adoptée, c'est la 2e version qui reste en vigueur."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la Pharmacopée française, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "La Pharmacopée française – dont la 1ère édition date de 1818 – est actuellement rédigée et mise à jour par la Commission de Pharmacopée de l’ANSM.",
+                "Le Formulaire national – inclus dans la Pharmacopée française – comprend des monographies relatives à des préparations officinales et hospitalières.",
+                "Le Formulaire national – inclus dans la Pharmacopée française – comprend des monographies relatives à des préparations magistrales.",
+                "La Pharmacopée française est rédigée par la HAS et le CEPS.",
+                "La Pharmacopée française reprend pour l’essentiel les monographies de la Pharmacopée européenne."
+            ],
+            "correct_answers": [
+                "Le Formulaire national – inclus dans la Pharmacopée française – comprend des monographies relatives à des préparations officinales et hospitalières.",
+                "La Pharmacopée française – dont la 1ère édition date de 1818 – est actuellement rédigée et mise à jour par la Commission de Pharmacopée de l’ANSM."
+            ],
+            "justification_fausses_reponses": {
+                "Le Formulaire national – inclus dans la Pharmacopée française – comprend des monographies relatives à des préparations magistrales.": "Cette affirmation est incorrecte car le Formulaire national, bien qu'inclus dans la Pharmacopée française, ne comprend pas de monographies relatives à des préparations magistrales.",
+                "La Pharmacopée française est rédigée par la HAS et le CEPS.": "Cette affirmation est incorrecte car la Pharmacopée française est rédigée et mise à jour par la Commission de Pharmacopée de l’ANSM, et non par la HAS et le CEPS.",
+                "La Pharmacopée française reprend pour l’essentiel les monographies de la Pharmacopée européenne.": "Cette affirmation est incorrecte car bien que la Pharmacopée française puisse reprendre certaines monographies de la Pharmacopée européenne, elle ne se limite pas à cela et comprend également ses propres monographies."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les stupéfiants, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Les stupéfiants doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.",
+                "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités).",
+                "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+                "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+                "Les stupéfiants peuvent être prescrits sur la même ordonnance pour une durée de 3 mois."
+            ],
+            "correct_answers": [
+                "Les stupéfiants doivent être stockés à l’officine dans un coffre ou une armoire fermé(e) à clef ou muni(e) d’un système de sécurité renforcé.",
+                "Les stupéfiants doivent être prescrits sur une ordonnance sécurisée avec indication du nombre de spécialités prescrites dans le carré situé en bas à droite.",
+                "Les stupéfiants ne peuvent être prescrits pour une durée supérieure à 28 jours (voire 14 ou 7 jours pour certaines spécialités)."
+            ],
+            "justification_fausses_reponses": {
+                "Les stupéfiants doivent être prescrits sur une ordonnance bleue à 4 volets conforme au modèle Cerfa 12708*02.": "Cette affirmation est incorrecte car les stupéfiants doivent être prescrits sur une ordonnance sécurisée et non sur une ordonnance bleue à 4 volets.",
+                "Les stupéfiants peuvent être prescrits sur la même ordonnance pour une durée de 3 mois.": "Cette affirmation est incorrecte car la durée de prescription des stupéfiants est limitée à 28 jours maximum, et non 3 mois."
+            }
+        },
+        {
+            "question": "Quelle source de droit du travail a le plus de force ?",
+            "options": [
+                "Le contrat de travail",
+                "L'accord d'entreprise",
+                "Le règlement intérieur",
+                "L'usage",
+                "La Convention collective"
+            ],
+            "correct_answers": [
+                "La Convention collective"
+            ],
+            "justification_fausses_reponses": {
+                "Le contrat de travail": "Bien que le contrat de travail soit une source de droit du travail, il n'a pas la plus grande force. Il est subordonné à la Convention collective et ne peut pas contenir des clauses moins favorables pour le salarié.",
+                "L'accord d'entreprise": "L'accord d'entreprise est une source de droit du travail, mais il est subordonné à la Convention collective. Il ne peut pas contenir des dispositions moins favorables pour le salarié que celles de la Convention collective.",
+                "Le règlement intérieur": "Le règlement intérieur est une source de droit du travail qui régit les règles de vie dans l'entreprise. Cependant, il est subordonné à la Convention collective et ne peut pas contenir des dispositions moins favorables pour le salarié.",
+                "L'usage": "L'usage est une source de droit du travail qui découle de pratiques répétées dans l'entreprise. Cependant, il est subordonné à la Convention collective et ne peut pas contenir des dispositions moins favorables pour le salarié."
+            }
+        },
+        {
+            "question": "Parmi ces formes d'entreprises, lesquelles permettent de limiter la responsabilité des associés ?",
+            "options": [
+                "A. La société anonyme",
+                "B. La société à responsabilité limitée",
+                "C. La société en nom collectif",
+                "D. La société par action simplifiée",
+                "E. L'entreprise individuelle"
+            ],
+            "correct_answers": [
+                "La société anonyme",
+                "La société à responsabilité limitée",
+                "La société par action simplifiée"
+            ],
+            "justification_fausses_reponses": {
+                "C. La société en nom collectif": "Dans une société en nom collectif, les associés sont tous commerçants et répondent indéfiniment et solidairement des dettes sociales. Donc, cette forme d'entreprise ne permet pas de limiter la responsabilité des associés.",
+                "E. L'entreprise individuelle": "Dans une entreprise individuelle, l'entrepreneur est responsable sur l'ensemble de son patrimoine personnel des dettes contractées pour son activité professionnelle. Donc, cette forme d'entreprise ne permet pas de limiter la responsabilité de l'entrepreneur."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant le Comité économique des produits de santé (CEPS), laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Le CEPS assure un suivi périodique des dépenses de santé.",
+                "Le CEPS négocie avec les industriels le prix des médicaments et autres produits non remboursés par l’assurance-maladie obligatoire.",
+                "Le CEPS négocie avec les industriels le prix des médicaments et autres produits remboursés par l’assurance-maladie obligatoire.",
+                "Le CEPS est constitué de représentants de différents ministères ainsi que de représentants des organismes nationaux d’assurance-maladie.",
+                "Le CEPS est chargé de statuer sur les demandes d’AMM déposées au niveau national."
+            ],
+            "correct_answers": [
+                "Le CEPS est constitué de représentants de différents ministères ainsi que de représentants des organismes nationaux d’assurance-maladie.",
+                "Le CEPS négocie avec les industriels le prix des médicaments et autres produits remboursés par l’assurance-maladie obligatoire.",
+                "Le CEPS assure un suivi périodique des dépenses de santé."
+            ],
+            "justification_fausses_reponses": {
+                "Le CEPS négocie avec les industriels le prix des médicaments et autres produits non remboursés par l’assurance-maladie obligatoire.": "Cette affirmation est incorrecte car le CEPS négocie uniquement le prix des médicaments et autres produits remboursés par l’assurance-maladie obligatoire, pas ceux qui ne sont pas remboursés.",
+                "Le CEPS est chargé de statuer sur les demandes d’AMM déposées au niveau national.": "Cette affirmation est incorrecte car le CEPS n'est pas chargé de statuer sur les demandes d’Autorisation de Mise sur le Marché (AMM). C'est l'Agence nationale de sécurité du médicament et des produits de santé (ANSM) qui est en charge de cette mission."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant les médicaments nécessitant une surveillance particulière pendant le traitement, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Le Roaccutane® (isotrétinoïne) doit être prescrit la première fois par un dermatologue.",
+                "Une ordonnance comportant de l’isotrétinoïne destinée à une jeune femme peut être honorée si le dernier test de grossesse effectué par cette dernière date de 3 mois.",
+                "La délivrance de l’isotrétinoïne est conditionnée par les résultats d’examens périodiques : programme de prévention de grossesse chez les femmes en âge de procréer et dosages réguliers des transaminases hépatiques chez les hommes et les femmes.",
+                "Un traitement par l’isotrétinoïne ne nécessite aucune surveillance particulière s’il est prescrit à un jeune homme.",
+                "Le Roaccutane® (isotrétinoïne) ne peut en aucun cas être prescrit par un généraliste."
+            ],
+            "correct_answers": [
+                "Le Roaccutane® (isotrétinoïne) doit être prescrit la première fois par un dermatologue.",
+                "La délivrance de l’isotrétinoïne est conditionnée par les résultats d’examens périodiques : programme de prévention de grossesse chez les femmes en âge de procréer et dosages réguliers des transaminases hépatiques chez les hommes et les femmes."
+            ],
+            "justification_fausses_reponses": {
+                "Une ordonnance comportant de l’isotrétinoïne destinée à une jeune femme peut être honorée si le dernier test de grossesse effectué par cette dernière date de 3 mois.": "C'est incorrect car l'isotrétinoïne est un médicament tératogène. Il est donc nécessaire de réaliser un test de grossesse chaque mois pour s'assurer que la patiente n'est pas enceinte avant de délivrer le médicament.",
+                "Un traitement par l’isotrétinoïne ne nécessite aucune surveillance particulière s’il est prescrit à un jeune homme.": "C'est faux car l'isotrétinoïne peut avoir des effets secondaires graves, y compris chez les hommes. Une surveillance régulière, notamment des transaminases hépatiques, est donc nécessaire.",
+                "Le Roaccutane® (isotrétinoïne) ne peut en aucun cas être prescrit par un généraliste.": "C'est incorrect. Bien que la première prescription doive être faite par un dermatologue, les prescriptions suivantes peuvent être faites par un médecin généraliste."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant les médicaments génériques, laquelle / lesquelles est / sont exacte(s) ?",
+            "options": [
+                "Ce sont des spécialités pharmaceutiques.",
+                "Ils seront moins chers que le médicament innovant de référence mais ne seront pas remboursés par l’assurance maladie.",
+                "Ils devront démontrer leur bioéquivalence par rapport au médicament innovant de référence.",
+                "Ils doivent avoir les mêmes excipients que le médicament innovant de référence.",
+                "Ils doivent présenter la même forme pharmaceutique que le médicament innovant de référence."
+            ],
+            "correct_answers": [
+                "Ce sont des spécialités pharmaceutiques.",
+                "Ils devront démontrer leur bioéquivalence par rapport au médicament innovant de référence.",
+                "Ils doivent présenter la même forme pharmaceutique que le médicament innovant de référence."
+            ],
+            "justification_fausses_reponses": {
+                "Ils seront moins chers que le médicament innovant de référence mais ne seront pas remboursés par l’assurance maladie.": "Cette affirmation est incorrecte car les médicaments génériques sont généralement moins chers que le médicament innovant de référence et sont également remboursés par l'assurance maladie.",
+                "Ils doivent avoir les mêmes excipients que le médicament innovant de référence.": "Cette affirmation est incorrecte car les médicaments génériques n'ont pas besoin d'avoir les mêmes excipients que le médicament innovant de référence. Les excipients peuvent varier tant que la bioéquivalence est démontrée."
+            }
+        },
+        {
+            "question": "Une sociét é d'ex ercice libéral (SEL)...",
+            "options": [
+                "ne peut être détenue que par un seul pharmacien.",
+                "doit s'ajouter à une autre forme de société.",
+                "permet à elle seule d'exploiter un fonds de commerce d'une officine.",
+                "peut détenir des participations dans d'autres SEL.",
+                "doit s'ajouter à une autre forme juridique d'entreprise, société ou non."
+            ],
+            "correct_answers": [
+                "doit s'ajouter à une autre forme de société.",
+                "peut détenir des participations dans d'autres SEL."
+            ],
+            "justification_fausses_reponses": {
+                "ne peut être détenue que par un seul pharmacien.": "C'est incorrect car une SEL peut être détenue par plusieurs pharmaciens. La loi n'impose pas de limite au nombre de pharmaciens pouvant détenir une SEL.",
+                "permet à elle seule d'exploiter un fonds de commerce d'une officine.": "C'est incorrect car une SEL ne peut pas exploiter un fonds de commerce d'une officine par elle-même. Elle doit être associée à une autre forme de société pour cela.",
+                "doit s'ajouter à une autre forme juridique d'entreprise, société ou non.": "C'est incorrect car une SEL peut fonctionner indépendamment et n'a pas besoin de s'ajouter à une autre forme juridique d'entreprise. Elle peut toutefois détenir des participations dans d'autres SEL."
+            }
+        },
+        {
+            "question": "Parmi les pr opositions suiv antes concer nant la publicit é pour les médicaments, laquelle / lesquelles est / sont exact e(s) ?",
+            "options": [
+                "Elle doit être réalisée sous la responsabilité du pharmacien responsable.",
+                "Elle est possible pour les médicaments qui ont obtenu une AMM ou une autorisation temporaire d’utilisation.",
+                "Une publicité pour les médicaments ne peut être faite qu’à destination des professionnels de santé.",
+                "Elle doit être conforme à l’AMM et aux recommandations de la HAS.",
+                "Elle doit être préalablement autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé."
+            ],
+            "correct_answers": [
+                "Elle doit être préalablement autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé.",
+                "Elle doit être conforme à l’AMM et aux recommandations de la HAS.",
+                "Elle doit être réalisée sous la responsabilité du pharmacien responsable."
+            ],
+            "justification_fausses_reponses": {
+                "Elle est possible pour les médicaments qui ont obtenu une AMM ou une autorisation temporaire d’utilisation.": "Cette affirmation est incorrecte car même si un médicament a obtenu une AMM ou une autorisation temporaire d'utilisation, cela ne signifie pas automatiquement qu'il peut être publicisé. La publicité pour les médicaments est soumise à des règles strictes et doit être autorisée par l’Agence Nationale de Sécurité des Médicaments et des produits de santé.",
+                "Une publicité pour les médicaments ne peut être faite qu’à destination des professionnels de santé.": "Cette affirmation est incorrecte car la publicité pour les médicaments peut également être destinée au grand public, à condition qu'elle respecte certaines conditions, notamment l'obtention d'une autorisation préalable de l’Agence Nationale de Sécurité des Médicaments et des produits de santé."
+            }
+        },
+        {
+            "question": "Parmi ces pr opositions concer nant le Minist ère de la Sant é, laquelle / lesquelles est / sont exact e(s) ?",
+            "options": [
+                "Son nom complet est actuellement « Ministère de la Santé et de la Sécurité sociale ».",
+                "L’actuelle ministre est Mme Isabelle ADENO T.",
+                "Son nom complet est actuellement « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+                "L’actuelle ministre est Mme Marisol T OURAINE.",
+                "Ce ministère comprend la Direction générale de la Santé (DGS), la Direction générale de l’offre de soins (DGOS) et la Direction générale de la Sécurité sociale (DSS)."
+            ],
+            "correct_answers": [
+                "Son nom complet est actuellement « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+                "L’actuelle ministre est Mme Marisol T OURAINE.",
+                "Ce ministère comprend la Direction générale de la Santé (DGS), la Direction générale de l’offre de soins (DGOS) et la Direction générale de la Sécurité sociale (DSS)."
+            ],
+            "justification_fausses_reponses": {
+                "Son nom complet est actuellement « Ministère de la Santé et de la Sécurité sociale ».": "Cette affirmation est incorrecte car le nom actuel du ministère est « Ministère des Affaires sociales, de la Santé et des Droits des femmes ».",
+                "L’actuelle ministre est Mme Isabelle ADENO T.": "Cette affirmation est incorrecte car l'actuelle ministre est Mme Marisol T OURAINE."
+            }
+        }
+    ]
+}

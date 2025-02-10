@@ -1,0 +1,664 @@
+{
+    "theme": "Parasitologie, mycologie médicale et biologie animale",
+    "questions": [
+        {
+            "question": "Identifiez ce que vous voyez sur cette photo",
+            "options": [
+                "une puce",
+                "un pou",
+                "un acarien",
+                "un insecte",
+                "une larve"
+            ],
+            "correct_answers": [
+                "une puce",
+                "un insecte"
+            ],
+            "justification_fausses_reponses": {
+                "un pou": "La réponse est incorrecte car un pou est généralement plus grand et a une forme différente de celle d'une puce ou d'un insecte.",
+                "un acarien": "La réponse est incorrecte car un acarien est généralement plus petit et a une forme différente de celle d'une puce ou d'un insecte.",
+                "une larve": "La réponse est incorrecte car une larve est généralement plus petite et n'a pas la forme d'un insecte adulte comme une puce."
+            }
+        },
+        {
+            "question": "Chez une femme enceinte, une toxoplasmose congénitale est prouvée si :",
+            "options": [
+                "Des lésions sont observées chez le fœtus par échographie.",
+                "Il y a présence d'IgM spécifiques dans le liquide amniotique.",
+                "La mère présente de la fièvre.",
+                "La mère présente des IgM spécifiques dans son sérum.",
+                "Une amniocentèse est réalisée."
+            ],
+            "correct_answers": [
+                "Des lésions sont observées chez le fœtus par échographie.",
+                "Il y a présence d'IgM spécifiques dans le liquide amniotique."
+            ],
+            "justification_fausses_reponses": {
+                "La mère présente de la fièvre.": "La fièvre chez la mère n'est pas un indicateur spécifique de la toxoplasmose congénitale. Elle peut être causée par de nombreuses autres conditions.",
+                "La mère présente des IgM spécifiques dans son sérum.": "La présence d'IgM spécifiques dans le sérum de la mère indique une infection récente par la toxoplasmose, mais ne prouve pas que le fœtus est également infecté.",
+                "Une amniocentèse est réalisée.": "L'amniocentèse est une procédure qui peut être utilisée pour diagnostiquer la toxoplasmose congénitale, mais sa réalisation seule ne prouve pas la présence de la maladie."
+            }
+        },
+        {
+            "question": "Parmi les éléments de réponses ci-dessous, lesquels sont considérés comme signes de gravité au cours d'un accès palustre à Plasmodium falciparum ?",
+            "options": [
+                "Parasitémie supérieure à 4%",
+                "Ictère",
+                "Troubles neurologiques",
+                "Thrombopénie",
+                "Fièvre à 40°C"
+            ],
+            "correct_answers": [
+                "Parasitémie supérieure à 4%",
+                "Ictère",
+                "Thrombopénie",
+                "Troubles neurologiques"
+            ],
+            "justification_fausses_reponses": {
+                "Fièvre à 40°C": "Bien que la fièvre soit un symptôme courant du paludisme, une température de 40°C n'est pas spécifiquement considérée comme un signe de gravité au cours d'un accès palustre à Plasmodium falciparum. Les signes de gravité sont généralement liés à des complications organiques spécifiques, comme une parasitémie élevée, un ictère, une thrombopénie ou des troubles neurologiques."
+            }
+        },
+        {
+            "question": "Cochez les légendes exactes",
+            "options": [
+                "A : céphalo-thorax",
+                "C : col de Médicis",
+                "D : patte (3 paires de pattes)",
+                "E : abdomen",
+                "B : rostre replié dans un sillon ventral"
+            ],
+            "correct_answers": [
+                "B : rostre replié dans un sillon ventral",
+                "C : col de Médicis",
+                "D : patte (3 paires de pattes)",
+                "E : abdomen"
+            ],
+            "justification_fausses_reponses": {
+                "A : céphalo-thorax": "Cette option est incorrecte car le céphalo-thorax est une caractéristique des arachnides et non des insectes. Les insectes ont un corps divisé en trois parties : la tête, le thorax et l'abdomen."
+            }
+        },
+        {
+            "question": "Quels sont les éléments de réponse qui caractérisent Taenia saginata ?",
+            "options": [
+                "Présence de nombreux embryophores dans les selles du patient",
+                "Prurit anal vespéral",
+                "Sortie active des proglottis (segments, anneaux)",
+                "La forme larvaire peut se développer dans les tissus humains et être responsable d'une cysticercose grave chez l'homme.",
+                "Consommation de viande de bœuf crue ou peu cuite"
+            ],
+            "correct_answers": [
+                "Prurit anal vespéral",
+                "Consommation de viande de bœuf crue ou peu cuite",
+                "Sortie active des proglottis (segments, anneaux)"
+            ],
+            "justification_fausses_reponses": {
+                "Présence de nombreux embryophores dans les selles du patient": "Cette affirmation est incorrecte car Taenia saginata ne produit pas d'embryophores en grand nombre dans les selles du patient. Les embryophores sont caractéristiques de Taenia solium.",
+                "La forme larvaire peut se développer dans les tissus humains et être responsable d'une cysticercose grave chez l'homme.": "Cette affirmation est incorrecte car c'est Taenia solium, et non Taenia saginata, qui peut causer la cysticercose chez l'homme. La cysticercose est une maladie causée par l'ingestion d'œufs de Taenia solium, qui peuvent se développer en larves dans les tissus humains."
+            }
+        },
+        {
+            "question": "Qu'observez-vous sur cette photo ? Cochez la ou les réponses exacte(s)",
+            "options": [
+                "Palpes",
+                "Antennes",
+                "Ecusson dorsal",
+                "Hypostome",
+                "Céphalothorax d'une tique"
+            ],
+            "correct_answers": [
+                "Céphalothorax d'une tique",
+                "Hypostome",
+                "Ecusson dorsal",
+                "Palpes"
+            ],
+            "justification_fausses_reponses": {
+                "Antennes": "L'option 'Antennes' est incorrecte car les tiques, qui sont des acariens, ne possèdent pas d'antennes. Les antennes sont généralement présentes chez les insectes, mais pas chez les acariens."
+            }
+        },
+        {
+            "question": "Quel est ce parasite ?",
+            "options": [
+                "une tique",
+                "un acarien",
+                "un morpion",
+                "un pou",
+                "un sarcopte"
+            ],
+            "correct_answers": [
+                "un morpion",
+                "un pou"
+            ],
+            "justification_fausses_reponses": {
+                "une tique": "La tique n'est pas la bonne réponse car elle est plus grande et a une forme différente des morpions et des poux.",
+                "un acarien": "L'acarien n'est pas la bonne réponse car il est généralement beaucoup plus petit et a une forme différente des morpions et des poux.",
+                "un sarcopte": "Le sarcopte n'est pas la bonne réponse car il est responsable de la gale, une maladie qui se manifeste par des démangeaisons intenses, et non par des symptômes similaires à ceux causés par les morpions et les poux."
+            }
+        },
+        {
+            "question": "Quels sont les éléments de réponse qui caractérisent l'oxyurose ?",
+            "options": [
+                "Après traitement du ou des patients, il faut laver la literie et les vêtements de l'enfant à 60°C et passer l'aspirateur dans toute la maison.",
+                "Le signe clinique majeur est le prurit anal.",
+                "Les œufs contiennent une larve infectante dans les heures qui suivent la ponte.",
+                "La transmission de la maladie se fait via les selles d'origine animale.",
+                "Les semences de courges fraîches sont très efficaces comme traitement alternatif."
+            ],
+            "correct_answers": [
+                "Le signe clinique majeur est le prurit anal.",
+                "Les œufs contiennent une larve infectante dans les heures qui suivent la ponte.",
+                "Après traitement du ou des patients, il faut laver la literie et les vêtements de l'enfant à 60°C et passer l'aspirateur dans toute la maison."
+            ],
+            "justification_fausses_reponses": {
+                "La transmission de la maladie se fait via les selles d'origine animale.": "C'est incorrect car l'oxyurose est une maladie qui se transmet d'humain à humain, généralement par ingestion d'œufs d'oxyures qui ont été déposés sur des surfaces par une personne infectée.",
+                "Les semences de courges fraîches sont très efficaces comme traitement alternatif.": "C'est incorrect car bien que certaines personnes puissent utiliser des remèdes naturels comme les graines de courge pour traiter l'oxyurose, il n'y a pas de preuves scientifiques solides pour soutenir leur efficacité. Le traitement standard de l'oxyurose est médicamenteux."
+            }
+        },
+        {
+            "question": "La cuisson suffisante de la viande est une des mesures préventives vis-à-vis des parasitoses suivantes :",
+            "options": [
+                "L'oxyurose à Enterobius vermicularis",
+                "Le téniasis à Tænia saginata",
+                "La fasciolose à  Fasciola hepatica",
+                "La giardiose à Giardia intestinalis",
+                "Le paludisme à Plasmodium falciparum"
+            ],
+            "correct_answers": [
+                "Le téniasis à Tænia saginata"
+            ],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "Parmi les médicaments suivants, lequel ou lesquels est(sont) indiqué(s) dans la prise en charge thérapeutique d'une séroconversion toxoplasmique chez une femme enceinte au cours du premier trimestre de grossesse ?",
+            "options": [
+                "Atovaquone (W ellvone®)",
+                "Spiramycine (R ovamycine®)",
+                "Fluconazole (T riflucan®)",
+                "Pyriméthamine (Malocide®)",
+                "Métronidazole (Flagyl®)"
+            ],
+            "correct_answers": [
+                "Spiramycine (R ovamycine®)"
+            ],
+            "justification_fausses_reponses": {
+                "Atovaquone (W ellvone®)": "L'Atovaquone n'est pas indiquée dans le traitement de la toxoplasmose, elle est plutôt utilisée dans le traitement du paludisme et de la pneumonie à Pneumocystis jirovecii.",
+                "Fluconazole (T riflucan®)": "Le Fluconazole est un antifongique, il n'est pas efficace contre les parasites comme le Toxoplasma gondii, l'agent de la toxoplasmose.",
+                "Pyriméthamine (Malocide®)": "La Pyriméthamine est contre-indiquée pendant le premier trimestre de la grossesse car elle peut causer des malformations congénitales.",
+                "Métronidazole (Flagyl®)": "Le Métronidazole est un antibiotique qui n'est pas efficace contre le Toxoplasma gondii, il est plutôt utilisé pour traiter certaines infections bactériennes et parasitaires, mais pas la toxoplasmose."
+            }
+        },
+        {
+            "question": "Une cliente vous montre qu'elle a été piquée par une tique, Ixodes ricinus  il y a deux jours. Elle vous montre l'acarien toujours en place et vous demande que faire. Cocher les actions que vous pouvez mettre en œuvre.",
+            "options": [
+                "Utiliser un tire-tique et extraire la tique en la dévissant.",
+                "Imbiber un coton d'éther et endormir la tique.",
+                "La rassurer et la laisser rentrer chez elle.",
+                "Extraire la tique avec un pince à épiler en tirant doucement et en vérifiant ensuite que l'acarien ait été complétement ôté.",
+                "Couper la tique au ras de la peau avec une paire de ciseaux ou un scalpel et bien désinfecter à l'alcool."
+            ],
+            "correct_answers": [
+                "Utiliser un tire-tique et extraire la tique en la dévissant.",
+                "Extraire la tique avec un pince à épiler en tirant doucement et en vérifiant ensuite que l'acarien ait été complétement ôté."
+            ],
+            "justification_fausses_reponses": {
+                "Imbiber un coton d'éther et endormir la tique.": "Cette méthode est déconseillée car elle peut provoquer un stress chez la tique qui pourrait alors régurgiter des agents pathogènes dans la peau de la personne.",
+                "La rassurer et la laisser rentrer chez elle.": "Il est important de retirer la tique le plus rapidement possible pour réduire le risque de transmission de maladies. La laisser rentrer chez elle sans retirer la tique n'est donc pas une bonne option.",
+                "Couper la tique au ras de la peau avec une paire de ciseaux ou un scalpel et bien désinfecter à l'alcool.": "Cette méthode est dangereuse car elle peut laisser des parties de la tique dans la peau, ce qui peut provoquer une infection."
+            }
+        },
+        {
+            "question": "Cochez les caractéristiques morphologiques présentes chez les acariens.",
+            "options": [
+                "Une paire d'antennes",
+                "Tête-thorax-abdomen",
+                "Quatre paires de pattes à l'état adulte",
+                "Corps de forme ovoïde",
+                "Mandibules"
+            ],
+            "correct_answers": [
+                "Corps de forme ovoïde",
+                "Quatre paires de pattes à l'état adulte"
+            ],
+            "justification_fausses_reponses": {
+                "Une paire d'antennes": "Les acariens, appartenant à la classe des arachnides, ne possèdent pas d'antennes contrairement aux insectes.",
+                "Tête-thorax-abdomen": "Chez les acariens, le corps n'est pas divisé en tête, thorax et abdomen. Ils ont un corps non segmenté appelé idiosome.",
+                "Mandibules": "Les acariens ne possèdent pas de mandibules. Ils ont une structure de bouche appelée le capitulum qui est utilisée pour se nourrir."
+            }
+        },
+        {
+            "question": "A quoi cela vous fait-il penser ?",
+            "options": [
+                "une lente de poux",
+                "un œuf d'oxyure",
+                "un insecte",
+                "un acarien",
+                "une larve de pou qui émerge"
+            ],
+            "correct_answers": [
+                "une lente de poux",
+                "une larve de pou qui émerge",
+                "un insecte"
+            ],
+            "justification_fausses_reponses": {
+                "un œuf d'oxyure": "Cette réponse est incorrecte car un œuf d'oxyure est généralement de forme ovale et transparent, ce qui ne correspond pas à la description donnée.",
+                "un acarien": "Cette réponse est incorrecte car un acarien est un petit arachnide, qui ne correspond pas à la description donnée."
+            }
+        },
+        {
+            "question": "De quoi est responsable cet ectoparasite ?",
+            "options": [
+                "la pédiculose",
+                "de fortes démangeaisons",
+                "ce n'est pas un ectoparasite",
+                "la gale",
+                "la phtiriase"
+            ],
+            "correct_answers": [
+                "la gale",
+                "de fortes démangeaisons"
+            ],
+            "justification_fausses_reponses": {
+                "la pédiculose": "La pédiculose est causée par des poux, pas par l'ectoparasite en question.",
+                "ce n'est pas un ectoparasite": "Cette affirmation est incorrecte car la question précise qu'il s'agit bien d'un ectoparasite.",
+                "la phtiriase": "La phtiriase est causée par le pou de pubis, qui est un autre type d'ectoparasite."
+            }
+        },
+        {
+            "question": "Cocher les bonnes réponses concernant Echinococcus multilocularis.",
+            "options": [
+                "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique.",
+                "Il est éradiqué en France.",
+                "Il existe un traitement très efficace: le praziquantel.",
+                "L'hôte définitif habituel est le chien.",
+                "La contamination de l'homme se fait par l'ingestion d'embryophores."
+            ],
+            "correct_answers": [
+                "La contamination de l'homme se fait par l'ingestion d'embryophores.",
+                "Le développement de la larve chez l'homme est de type racémeux et détruit progressivement le parenchyme hépatique."
+            ],
+            "justification_fausses_reponses": {
+                "Il est éradiqué en France.": "C'est incorrect. Echinococcus multilocularis n'est pas éradiqué en France. Il est présent dans certaines régions, notamment l'Est de la France.",
+                "Il existe un traitement très efficace: le praziquantel.": "C'est incorrect. Le praziquantel n'est pas très efficace contre Echinococcus multilocularis. Le traitement de choix est l'albendazole ou le mébendazole.",
+                "L'hôte définitif habituel est le chien.": "C'est incorrect. L'hôte définitif habituel d'Echinococcus multilocularis est le renard, pas le chien."
+            }
+        },
+        {
+            "question": "Les résultats du diagnostic sérologique de la toxoplasmose conduisent aux conclusions suivantes ; laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+                "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+                "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale.",
+                "Une sérologie positive chez le nouveau-né signe obligatoirement une toxoplasmose évolutive.",
+                "Une sérologie négative oblige à l'administration du vaccin anti-toxoplasme."
+            ],
+            "correct_answers": [
+                "Une sérologie négative oblige à une surveillance sérologique régulière tout au long de la grossesse.",
+                "Une sérologie négative chez la femme enceinte oblige à donner des conseils prophylactiques stricts.",
+                "Une séro-conversion au cours de la grossesse n'entraîne pas obligatoirement une toxoplasmose congénitale."
+            ],
+            "justification_fausses_reponses": {
+                "Une sérologie positive chez le nouveau-né signe obligatoirement une toxoplasmose évolutive.": "C'est incorrect car une sérologie positive chez le nouveau-né peut être le résultat des anticorps maternels transmis au fœtus et non nécessairement une indication d'une infection active par la toxoplasmose.",
+                "Une sérologie négative oblige à l'administration du vaccin anti-toxoplasme.": "C'est incorrect car il n'existe actuellement aucun vaccin contre la toxoplasmose pour les humains."
+            }
+        },
+        {
+            "question": "Quel est ce parasite ?",
+            "options": [
+                "Pediculus humanus var. capitis",
+                "un sarcopte",
+                "un insecte",
+                "un morpion",
+                "un pou de tête"
+            ],
+            "correct_answers": [
+                "un pou de tête",
+                "Pediculus humanus var. capitis",
+                "un insecte"
+            ],
+            "justification_fausses_reponses": {
+                "un sarcopte": "Cette réponse est incorrecte car le sarcopte est un acarien qui provoque la gale, et non un pou. Les poux sont des insectes, pas des acariens.",
+                "un morpion": "Cette réponse est incorrecte car le morpion est un type de pou qui vit dans les poils pubiens, et non sur la tête. Le pou de tête est une espèce différente."
+            }
+        },
+        {
+            "question": "Parmi les conditions suivantes, quelle(s) est(sont) celle(s) qui peut(peuvent) être responsable(s) de la transmission de la maladie de Chagas ?",
+            "options": [
+                "Contact direct avec une personne infectée",
+                "Consommation de poisson cru ou peu cuit",
+                "Consommation d'eau contaminée",
+                "Piqûre par une punaise appartenant à la famille des R éduvidés",
+                "Transfusion sanguine"
+            ],
+            "correct_answers": [
+                "Piqûre par une punaise appartenant à la famille des R éduvidés",
+                "Transfusion sanguine"
+            ],
+            "justification_fausses_reponses": {
+                "Contact direct avec une personne infectée": "La maladie de Chagas n'est pas transmise par contact direct avec une personne infectée. Elle est causée par le parasite Trypanosoma cruzi, qui est transmis aux humains par les punaises de la famille des Reduviidae.",
+                "Consommation de poisson cru ou peu cuit": "La consommation de poisson cru ou peu cuit n'est pas une voie de transmission pour la maladie de Chagas. Ce parasite est principalement transmis par les punaises de la famille des Reduviidae et peut également être transmis par transfusion sanguine.",
+                "Consommation d'eau contaminée": "La consommation d'eau contaminée n'est pas une voie de transmission courante pour la maladie de Chagas. Le parasite Trypanosoma cruzi est principalement transmis par les punaises de la famille des Reduviidae et peut également être transmis par transfusion sanguine."
+            }
+        },
+        {
+            "question": "Cochez les propositions exactes concernant les aoûtats ou rougets, Trombicula autumnalis",
+            "options": [
+                "On en trouve dans le nord de la France.",
+                "Seuls les adultes sont hématophages.",
+                "Les aoûtats sont des acariens.",
+                "Les aoûtats peuvent transmettre la maladie de Lyme.",
+                "Les aoûtats se positionnent en haut des brins d'herbes et attendent qu'un hôte à sang chaud passe à proximité pour se laisser tomber dessus."
+            ],
+            "correct_answers": [
+                "Les aoûtats sont des acariens.",
+                "On en trouve dans le nord de la France.",
+                "Les aoûtats se positionnent en haut des brins d'herbes et attendent qu'un hôte à sang chaud passe à proximité pour se laisser tomber dessus."
+            ],
+            "justification_fausses_reponses": {
+                "Seuls les adultes sont hématophages.": "Cette affirmation est incorrecte car ce sont les larves d'aoûtats qui sont hématophages, et non les adultes. Les adultes se nourrissent de débris végétaux.",
+                "Les aoûtats peuvent transmettre la maladie de Lyme.": "C'est faux, la maladie de Lyme est transmise par les tiques, pas par les aoûtats."
+            }
+        },
+        {
+            "question": "Quels sont les médicaments utilisés pour traiter un accès palustre simple ?",
+            "options": [
+                "Quinine",
+                "Artéméther + luméfantrine",
+                "Pipéraquine + arténimol (dihydroartémisinine)",
+                "Atovaquone + proguanil",
+                "Artésunate"
+            ],
+            "correct_answers": [
+                "Artéméther + luméfantrine",
+                "Pipéraquine + arténimol (dihydroartémisinine)",
+                "Atovaquone + proguanil"
+            ],
+            "justification_fausses_reponses": {
+                "Quinine": "La quinine n'est plus le traitement de première ligne pour l'accès palustre simple en raison de sa toxicité et de la résistance croissante du parasite.",
+                "Artésunate": "L'artésunate est utilisé pour le traitement de l'accès palustre grave et non pour l'accès palustre simple."
+            }
+        },
+        {
+            "question": "Cochez les propositions exactes concernant la transmission des poux de tête, Pediculus humanus  var. capitis",
+            "options": [
+                "Un pou peut rester vivant hors d'une tête plus de 7 jours.",
+                "La transmission des poux peut être favorisée par les selfies.",
+                "Les poux sautent d'une tête à l'autre.",
+                "Les poux sont capables de voler sur quelques mètres.",
+                "On peut attraper des poux par contact avec son animal de compagnie."
+            ],
+            "correct_answers": [
+                "La transmission des poux peut être favorisée par les selfies."
+            ],
+            "justification_fausses_reponses": {
+                "Un pou peut rester vivant hors d'une tête plus de 7 jours.": "C'est incorrect. Les poux ne peuvent pas survivre plus de 24 à 48 heures sans se nourrir de sang humain.",
+                "Les poux sautent d'une tête à l'autre.": "C'est faux. Les poux ne peuvent ni sauter ni voler. Ils se déplacent en rampant.",
+                "Les poux sont capables de voler sur quelques mètres.": "C'est incorrect. Les poux ne peuvent pas voler. Ils se déplacent en rampant de cheveu en cheveu.",
+                "On peut attraper des poux par contact avec son animal de compagnie.": "C'est faux. Les poux de tête sont spécifiques à l'homme et ne peuvent pas infester les animaux."
+            }
+        },
+        {
+            "question": "Quel est ce parasite?",
+            "options": [
+                "Ixodes ricinus",
+                "Sarcoptes scabiei",
+                "Argas reflexus",
+                "Cimex lectularius",
+                "Dermacentor reticulatus"
+            ],
+            "correct_answers": [
+                "Ixodes ricinus"
+            ],
+            "justification_fausses_reponses": {
+                "Sarcoptes scabiei": "Cette réponse est incorrecte car Sarcoptes scabiei est un acarien qui cause la gale, et non le parasite en question.",
+                "Argas reflexus": "Cette réponse est incorrecte car Argas reflexus est un acarien qui parasite les oiseaux, et non le parasite en question.",
+                "Cimex lectularius": "Cette réponse est incorrecte car Cimex lectularius est une punaise de lit, et non le parasite en question.",
+                "Dermacentor reticulatus": "Cette réponse est incorrecte car Dermacentor reticulatus est une tique qui transmet la fièvre boutonneuse, et non le parasite en question."
+            }
+        },
+        {
+            "question": "Un homme de 30 ans, européen, souhaite voyager sac-au-dos pendant 2 mois l'été en Asie du sud-est (zone 3 de chimiorésistance). Quelles chimioprophylaxies contre le paludisme vous semblent possibles ?",
+            "options": [
+                "chloroquine (Nivaquine®)",
+                "méfloquine (Lariam®)",
+                "doxycycline (Doxypalu®)",
+                "atovaquone + proguanil (Malarone®)",
+                "chloroquine + proguanil (Savarine®)"
+            ],
+            "correct_answers": [
+                "méfloquine (Lariam®)",
+                "atovaquone + proguanil (Malarone®)",
+                "doxycycline (Doxypalu®)"
+            ],
+            "justification_fausses_reponses": {
+                "chloroquine (Nivaquine®)": "La chloroquine seule n'est pas recommandée pour la prévention du paludisme dans les zones de chimiorésistance de niveau 3, comme l'Asie du Sud-Est, car les parasites du paludisme dans ces régions sont souvent résistants à ce médicament.",
+                "chloroquine + proguanil (Savarine®)": "La combinaison de chloroquine et de proguanil n'est pas recommandée pour la prévention du paludisme dans les zones de chimiorésistance de niveau 3, car les parasites du paludisme dans ces régions peuvent être résistants à ces médicaments."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, lesquelles sont exactes ?",
+            "options": [
+                "Les teignes ne nécessitent jamais de traitement par voie orale.",
+                "La présence de levures appartenant au genre Candida  au niveau vaginal est toujours pathologique.",
+                "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+                "Les onychomycoses nécessitent toujours un traitement par voie orale.",
+                "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+            ],
+            "correct_answers": [
+                "Le traitement des mycoses vaginales peut faire appel à des conazoles.",
+                "Candida albicans  est l'espèce la plus fréquemment responsable de mycoses vaginales."
+            ],
+            "justification_fausses_reponses": {
+                "Les teignes ne nécessitent jamais de traitement par voie orale.": "C'est incorrect. Les teignes, qui sont des infections fongiques du cuir chevelu ou de la peau, peuvent nécessiter un traitement par voie orale, surtout si l'infection est sévère ou ne répond pas aux traitements topiques.",
+                "La présence de levures appartenant au genre Candida  au niveau vaginal est toujours pathologique.": "C'est incorrect. Les levures du genre Candida peuvent être présentes dans le vagin sans causer de symptômes ou de maladie. C'est seulement lorsque ces levures se multiplient de manière incontrôlée qu'elles peuvent causer une infection, appelée candidose vaginale.",
+                "Les onychomycoses nécessitent toujours un traitement par voie orale.": "C'est incorrect. Les onychomycoses, ou infections fongiques des ongles, peuvent souvent être traitées avec des médicaments topiques. Cependant, dans les cas graves ou récalcitrants, un traitement par voie orale peut être nécessaire."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes se rapportant aux ectoparasites, quelles sont celles qui sont exactes ?",
+            "options": [
+                "Tous les ectoparasites sont des insectes.",
+                "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+                "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+                "Seuls les ectoparasites adultes parasitent l'espèce humaine.",
+                "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+            ],
+            "correct_answers": [
+                "Les ectoparasites se localisent en général à la surface de l'organisme humain.",
+                "Certains ectoparasites portés par les animaux de compagnie peuvent être transmis à l'Homme.",
+                "La transmission à l'Homme de la gale ou des poux s'effectue le plus souvent lors d'un contact direct et étroit avec une personne contaminée."
+            ],
+            "justification_fausses_reponses": {
+                "Tous les ectoparasites sont des insectes.": "Cette affirmation est fausse car tous les ectoparasites ne sont pas des insectes. Les ectoparasites peuvent être des insectes, mais aussi des arachnides comme les tiques ou les acariens.",
+                "Seuls les ectoparasites adultes parasitent l'espèce humaine.": "Cette affirmation est incorrecte car toutes les étapes de développement d'un ectoparasite (œufs, larves, nymphes, adultes) peuvent parasiter l'espèce humaine, pas seulement les adultes."
+            }
+        },
+        {
+            "question": "Parmi ces arthropodes, cochez les espèces qui sont hématophages à l'état adulte et à l'état larvaire.",
+            "options": [
+                "Ctenocephalus canis",
+                "Pediculus humanus  var. capitis",
+                "Cimex lectularius",
+                "Phtirius pubis",
+                "Sarcoptes scabiei"
+            ],
+            "correct_answers": [
+                "Pediculus humanus  var. capitis",
+                "Cimex lectularius",
+                "Phtirius pubis"
+            ],
+            "justification_fausses_reponses": {
+                "Ctenocephalus canis": "Ctenocephalus canis, également connu sous le nom de puce du chien, n'est pas hématophage à l'état larvaire. Les larves se nourrissent de matières organiques et non de sang.",
+                "Sarcoptes scabiei": "Sarcoptes scabiei, l'agent de la gale, n'est pas hématophage. Il se nourrit de cellules de l'épiderme et non de sang."
+            }
+        },
+        {
+            "question": "Cochez les propositions exactes concernant le pou du pubis ou morpion , Phtirius pubis",
+            "options": [
+                "Les morpions sont spécifiques de leur hôte.",
+                "La transmission des morpions nécessite un contact intime.",
+                "On peut attraper des morpions en s'asseyant dans la pelouse.",
+                "Il est possible de retrouver des lentes de morpions aux niveau des cils.",
+                "Les morpions peuvent souvent se localiser au niveau des poils des mollets."
+            ],
+            "correct_answers": [
+                "Les morpions sont spécifiques de leur hôte.",
+                "La transmission des morpions nécessite un contact intime.",
+                "Il est possible de retrouver des lentes de morpions aux niveau des cils."
+            ],
+            "justification_fausses_reponses": {
+                "On peut attraper des morpions en s'asseyant dans la pelouse.": "Cette affirmation est incorrecte car les morpions ne peuvent pas survivre longtemps loin de l'hôte humain. Ils ne peuvent pas être attrapés en s'asseyant dans la pelouse, ils nécessitent un contact direct avec une personne infectée.",
+                "Les morpions peuvent souvent se localiser au niveau des poils des mollets.": "Cette affirmation est fausse car les morpions préfèrent les zones du corps où les poils sont plus épais et plus rapprochés, comme les poils pubiens. Ils sont rarement trouvés sur les poils des mollets."
+            }
+        },
+        {
+            "question": "Parmi les conseils suivants, quels sont ceux qui doivent être prodigués à une femme enceinte séronégative vis-à-vis du toxoplasme ?",
+            "options": [
+                "Ne plus manger de poisson cru.",
+                "Bien cuire la viande avant de la consommer.",
+                "Vermifuger son chien.",
+                "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+                "Éviter de changer la litière de son chat surtout s'il est chasseur."
+            ],
+            "correct_answers": [
+                "Bien cuire la viande avant de la consommer.",
+                "Bien laver les fruits et les légumes s'ils sont consommés crus.",
+                "Éviter de changer la litière de son chat surtout s'il est chasseur."
+            ],
+            "justification_fausses_reponses": {
+                "Ne plus manger de poisson cru.": "Le toxoplasme ne se trouve pas dans le poisson cru. Il est principalement présent dans la viande crue ou mal cuite, les fruits et légumes mal lavés et les excréments de chat.",
+                "Vermifuger son chien.": "Le toxoplasme n'est pas transmis par les chiens. Il est principalement transmis par les chats, en particulier ceux qui chassent et mangent des rongeurs infectés."
+            }
+        },
+        {
+            "question": "Parmi les caractères attribués aux puces, lequel (lesquels) est (sont) exact(s) ?",
+            "options": [
+                "Seuls les adultes sont hématophages.",
+                "La population adulte représente environ 90-95% de la population totale (œufs, nymphes, larves).",
+                "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois.",
+                "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+                "Ce sont des acariens aptères, aplatis dorso-ventralement."
+            ],
+            "correct_answers": [
+                "Seuls les adultes sont hématophages.",
+                "Elles peuvent transmettre la peste ( Yersinia pestis ).",
+                "Les nymphes peuvent se mettre en diapause et arrêter leur développement pendant plusieurs mois."
+            ],
+            "justification_fausses_reponses": {
+                "La population adulte représente environ 90-95% de la population totale (œufs, nymphes, larves).": "C'est incorrect car dans une population de puces, les adultes ne représentent qu'une petite fraction. La majorité de la population est constituée d'œufs, de larves et de nymphes.",
+                "Ce sont des acariens aptères, aplatis dorso-ventralement.": "C'est incorrect car les puces ne sont pas des acariens. Elles appartiennent à l'ordre des Siphonaptera, tandis que les acariens appartiennent à l'ordre des Acari. De plus, les puces ne sont pas aplatis dorso-ventralement."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant le pou de tête, Pediculus humanus  var. capitis , lesquelles sont fausses :",
+            "options": [
+                "Pediculus humanus  var. capitis  est un acarien.",
+                "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+                "La pédiculose du cuir chevelu peut être traitée par des pyréthrinoïdes et/ou le malathion.",
+                "Le pou de tête est parasite du cuir chevelu.",
+                "Le pou de tête peut transmettre des maladies infectieuses."
+            ],
+            "correct_answers": [
+                "Pediculus humanus  var. capitis  est un acarien.",
+                "Le traitement préventif de la pédiculose du cuir chevelu est efficace et nécessaire.",
+                "Le pou de tête peut transmettre des maladies infectieuses."
+            ],
+            "justification_fausses_reponses": {
+                "La pédiculose du cuir chevelu peut être traitée par des pyréthrinoïdes et/ou le malathion.": "Cette affirmation est incorrecte car le traitement de la pédiculose du cuir chevelu par des pyréthrinoïdes et/ou le malathion n'est pas toujours efficace. En effet, certains poux peuvent développer une résistance à ces traitements.",
+                "Le pou de tête est parasite du cuir chevelu.": "Cette affirmation est incorrecte car le pou de tête n'est pas un parasite du cuir chevelu. Il est un ectoparasite, ce qui signifie qu'il vit à la surface de l'hôte et non à l'intérieur."
+            }
+        },
+        {
+            "question": "Parmi ces propositions concernant la gale, Sarcoptes scabiei , lesquelles sont vraies :",
+            "options": [
+                "Elle se transmet uniquement par contact sexuel.",
+                "L'agent de la gale est un protiste à tropisme cutané.",
+                "La symptomatologie est caractérisée par un prurit intense à recrudescence nocturne.",
+                "L'ivermectine (S tromectol®) est un traitement efficace dans le cas d'une gale commune.",
+                "Le traitement de l'entourage du cas index est indispensable."
+            ],
+            "correct_answers": [
+                "L'ivermectine (S tromectol®) est un traitement efficace dans le cas d'une gale commune.",
+                "La symptomatologie est caractérisée par un prurit intense à recrudescence nocturne.",
+                "Le traitement de l'entourage du cas index est indispensable."
+            ],
+            "justification_fausses_reponses": {
+                "Elle se transmet uniquement par contact sexuel.": "La gale n'est pas uniquement transmise par contact sexuel. Elle peut également être transmise par contact direct avec la peau d'une personne infectée ou par le partage de vêtements ou de literie.",
+                "L'agent de la gale est un protiste à tropisme cutané.": "L'agent de la gale n'est pas un protiste, mais un acarien, Sarcoptes scabiei. Il s'agit d'un parasite qui creuse des tunnels dans la couche supérieure de la peau où il pond ses œufs."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant l'oxyurose, lesquelles sont vraies ?",
+            "options": [
+                "Lorsqu'un enfant est parasité, les parents, les frères et sœurs vivant sous le même toit doivent être traités.",
+                "Il faut renouveler le traitement après 2 à 3 semaines.",
+                "L'agent responsable de l'oxyurose est un nématode du nom d' Enterobius vermicularis .",
+                "Le traitement par Flubendazole (FL UVERMAL®) est efficace.",
+                "L'auto-infestation de l'enfant est possible."
+            ],
+            "correct_answers": [
+                "L'agent responsable de l'oxyurose est un nématode du nom d' Enterobius vermicularis .",
+                "L'auto-infestation de l'enfant est possible.",
+                "Lorsqu'un enfant est parasité, les parents, les frères et sœurs vivant sous le même toit doivent être traités.",
+                "Le traitement par Flubendazole (FL UVERMAL®) est efficace.",
+                "Il faut renouveler le traitement après 2 à 3 semaines."
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les arthropodes suivants, lesquels font partie du groupe des insectes ou hexapodes ?",
+            "options": [
+                "la punaise des lits ( Cimex lectularius )",
+                "les tiques ( Ixodes ricinus , Argas reflexus )",
+                "les agents de myiases",
+                "le sarcopte de la gale ( Sarcoptes scabiei )",
+                "le pou de tête ( Pediculus humanus  var. capitis)"
+            ],
+            "correct_answers": [
+                "la punaise des lits ( Cimex lectularius )",
+                "les agents de myiases",
+                "le pou de tête ( Pediculus humanus  var. capitis)"
+            ],
+            "justification_fausses_reponses": {
+                "les tiques ( Ixodes ricinus , Argas reflexus )": "Les tiques ne font pas partie du groupe des insectes ou hexapodes. Elles appartiennent à la classe des arachnides, qui comprend également les araignées et les scorpions. Les arachnides se distinguent des insectes par le nombre de leurs pattes : ils en ont huit, tandis que les insectes en ont six.",
+                "le sarcopte de la gale ( Sarcoptes scabiei )": "Le sarcopte de la gale n'est pas un insecte mais un acarien. Les acariens, comme les tiques, appartiennent à la classe des arachnides. Ils se distinguent des insectes par plusieurs caractéristiques, dont le nombre de pattes : les acariens et les autres arachnides en ont huit, tandis que les insectes en ont six."
+            }
+        },
+        {
+            "question": "Quel est ce parasite?",
+            "options": [
+                "un morpion",
+                "une larve d'Ixode",
+                "une Argas",
+                "une punaise des lits",
+                "un pou de tête"
+            ],
+            "correct_answers": [
+                "une larve d'Ixode"
+            ],
+            "justification_fausses_reponses": {
+                "un morpion": "Cette réponse est incorrecte car le morpion est un insecte parasite de l'homme qui se fixe sur les poils et non un parasite ressemblant à une larve d'Ixode.",
+                "une Argas": "Cette réponse est incorrecte car l'Argas est un genre de tiques molles, et non une larve d'Ixode qui est une tique dure.",
+                "une punaise des lits": "Cette réponse est incorrecte car la punaise des lits est un insecte hématophage qui vit dans les lits et non un parasite ressemblant à une larve d'Ixode.",
+                "un pou de tête": "Cette réponse est incorrecte car le pou de tête est un insecte parasite de l'homme qui vit dans les cheveux et non un parasite ressemblant à une larve d'Ixode."
+            }
+        },
+        {
+            "question": "Quels sont les éléments caractéristiques de la lésion dite du \"pied d’athlète\"",
+            "options": [
+                "L'agent responsable est très souvent un dermatophyte.",
+                "L'amphotéricine B est le traitement de première intention.",
+                "L'humidité et la macération sont des facteurs favorisants.",
+                "La lésion est un intertrigo des petits plis.",
+                "Ce sont les 1  et 2  espaces interdigitaux qui sont les plus touchés."
+            ],
+            "correct_answers": [
+                "L'agent responsable est très souvent un dermatophyte.",
+                "L'humidité et la macération sont des facteurs favorisants.",
+                "La lésion est un intertrigo des petits plis."
+            ],
+            "justification_fausses_reponses": {
+                "L'amphotéricine B est le traitement de première intention.": "L'amphotéricine B n'est pas le traitement de première intention pour le pied d'athlète. Les antifongiques topiques sont généralement utilisés en première ligne.",
+                "Ce sont les 1  et 2  espaces interdigitaux qui sont les plus touchés.": "Ce n'est pas correct, ce sont généralement les 3ème et 4ème espaces interdigitaux qui sont les plus touchés dans le pied d'athlète."
+            }
+        }
+    ]
+}

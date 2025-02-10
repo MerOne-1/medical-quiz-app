@@ -1,0 +1,1048 @@
+{
+    "theme": "Sciences végétales et fongiques",
+    "questions": [
+        {
+            "question": "Parmi les propositions relatives à la photosynthèse ci-dessous, choisissez laquelle (lesquelles) est (sont) vraie(s) :",
+            "options": [
+                "La photosynthèse n'a pas lieu dans la zone 2",
+                "Dans la figure ci-dessus, 1 correspond au parenchyme palissadique",
+                "La phase claire de la photosynthèse est la seule à avoir lieu dans les feuilles.",
+                "Dans la figure ci-dessus, 2 correspond au parenchyme lacuneux",
+                "Dans la figure ci-dessus, 3 correspond à la zone médullaire"
+            ],
+            "correct_answers": [
+                "Dans la figure ci-dessus, 1 correspond au parenchyme palissadique",
+                "Dans la figure ci-dessus, 2 correspond au parenchyme lacuneux"
+            ],
+            "justification_fausses_reponses": {
+                "La photosynthèse n'a pas lieu dans la zone 2": "Cette affirmation est incorrecte car la photosynthèse a lieu dans toutes les zones de la feuille, y compris la zone 2 qui correspond au parenchyme lacuneux.",
+                "La phase claire de la photosynthèse est la seule à avoir lieu dans les feuilles.": "Cette affirmation est incorrecte car les deux phases de la photosynthèse, la phase claire et la phase sombre, ont lieu dans les feuilles. La phase claire se produit dans les thylakoïdes des chloroplastes, tandis que la phase sombre se produit dans le stroma des chloroplastes.",
+                "Dans la figure ci-dessus, 3 correspond à la zone médullaire": "Cette affirmation est incorrecte car dans le contexte de la structure d'une feuille, le terme 'zone médullaire' n'est pas approprié. La structure d'une feuille comprend le parenchyme palissadique et lacuneux, l'épiderme, la cuticule, les stomates et les vaisseaux conducteurs, mais pas de 'zone médullaire'."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives aux fruits, choisir celle(s) exacte(s)",
+            "options": [
+                "La baie est un fruit charnu",
+                "Une baie peut contenir un noyau",
+                "Une baie s’ouvre à maturité",
+                "La baie de Génévrier est en fait un cône femelle",
+                "La baie peut contenir de nombreux pépins"
+            ],
+            "correct_answers": [
+                "La baie est un fruit charnu",
+                "La baie de Génévrier est en fait un cône femelle",
+                "La baie peut contenir de nombreux pépins"
+            ],
+            "justification_fausses_reponses": {
+                "Une baie peut contenir un noyau": "C'est incorrect car une baie est un fruit charnu qui contient généralement plusieurs graines, mais pas un noyau. Un fruit contenant un noyau est appelé un drupe.",
+                "Une baie s’ouvre à maturité": "C'est incorrect car une baie ne s'ouvre pas à maturité. Les fruits qui s'ouvrent à maturité sont appelés des fruits déhiscents."
+            }
+        },
+        {
+            "question": "Cocher la (ou les) bonnes propositions de placements selon l’ordre évolutif",
+            "options": [
+                "Gymnospermes, Plantes terrestres, ptéridophytes, Angiospermes, bryophytes, Embryophytes",
+                "Algues vertes, bryophytes, ptéridophytes, G ymnospermes, Angiospermes",
+                "Bryophytes, Embryophytes, G ymnospermes, Plantes terrestres, Angiospermes, ptéridophytes",
+                "Algues vertes, Plantes terrestres, ptéridophytes, G ymnospermes, Angiospermes",
+                "Algues vertes, ptéridophytes, G ymnospermes, Angiospermes, Embryophytes, bryophytes"
+            ],
+            "correct_answers": [
+                "Algues vertes, bryophytes, ptéridophytes, G ymnospermes, Angiospermes",
+                "Algues vertes, Plantes terrestres, ptéridophytes, G ymnospermes, Angiospermes"
+            ],
+            "justification_fausses_reponses": {
+                "Gymnospermes, Plantes terrestres, ptéridophytes, Angiospermes, bryophytes, Embryophytes": "Cet ordre est incorrect car les gymnospermes sont apparues après les bryophytes et les ptéridophytes. De plus, les embryophytes englobent toutes les plantes terrestres, elles devraient donc être placées en premier.",
+                "Bryophytes, Embryophytes, G ymnospermes, Plantes terrestres, Angiospermes, ptéridophytes": "Cet ordre est incorrect car les embryophytes englobent toutes les plantes terrestres, elles devraient donc être placées en premier. De plus, les ptéridophytes sont apparues avant les gymnospermes et les angiospermes.",
+                "Algues vertes, ptéridophytes, G ymnospermes, Angiospermes, Embryophytes, bryophytes": "Cet ordre est incorrect car les bryophytes sont apparues après les algues vertes mais avant les ptéridophytes, les gymnospermes et les angiospermes. De plus, les embryophytes englobent toutes les plantes terrestres, elles devraient donc être placées en premier."
+            }
+        },
+        {
+            "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à un état diploïde",
+            "options": [
+                "Opercule, protonéma, spore",
+                "Protonéma, spore, sporogone",
+                "Archégone, sporogone",
+                "Sporogone, sporophyte",
+                "Opercule, zygote"
+            ],
+            "correct_answers": [
+                "Sporogone, sporophyte",
+                "Opercule, zygote"
+            ],
+            "justification_fausses_reponses": {
+                "Opercule, protonéma, spore": "L'opercule et la spore peuvent être diploïdes, mais le protonéma est un stade haploïde du cycle de vie des mousses.",
+                "Protonéma, spore, sporogone": "Le protonéma est un stade haploïde, tandis que la spore peut être soit haploïde soit diploïde selon le stade du cycle de vie, et le sporogone est diploïde.",
+                "Archégone, sporogone": "L'archégone est une structure haploïde qui produit les gamètes femelles chez les plantes non vasculaires, tandis que le sporogone est diploïde."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+            "options": [
+                "La phase claire de la photosynthèse permet la transformation de l'énergie lumineuse en énergie utilisable par la cellule (A TP)",
+                "La photosynthèse consomme du C O2 et émet de l'O2 alors que les échanges gazeux lors de la respiration sont l'inverse",
+                "Les éléments produits lors de la phase claire sont utilisés ors de la phase sombre",
+                "Les premières molécules produites par la photosynthèse sont des acides aminés",
+                "L'équation générale de la photosynthèse est : 6CO2 + 12H2O + lumière → C6H12O6 + 6O2 + 6H2O."
+            ],
+            "correct_answers": [
+                "La photosynthèse consomme du C O2 et émet de l'O2 alors que les échanges gazeux lors de la respiration sont l'inverse",
+                "La phase claire de la photosynthèse permet la transformation de l'énergie lumineuse en énergie utilisable par la cellule (A TP)",
+                "L'équation générale de la photosynthèse est : 6CO2 + 12H2O + lumière → C6H12O6 + 6O2 + 6H2O.",
+                "Les éléments produits lors de la phase claire sont utilisés ors de la phase sombre"
+            ],
+            "justification_fausses_reponses": {
+                "Les premières molécules produites par la photosynthèse sont des acides aminés": "C'est incorrect. Les premières molécules produites par la photosynthèse sont en réalité des glucides, plus précisément du glucose. Les acides aminés sont produits par d'autres voies métaboliques dans la cellule."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisissez celle(s) exacte(s)",
+            "options": [
+                "L'acide acétylsalicylique est issu de la digitale.",
+                "Le paclitaxel est issu de l'if.",
+                "La photosynthèse fait partie du métabolisme secondaire.",
+                "Chez les végétaux, le métabolisme secondaire produit les éléments essentiels pour que le métabolisme primaire puisse fonctionner.",
+                "Il n'y a pas de médicament, actuellement utilisé, issu des végétaux. Tous sont maintenant synthétisés."
+            ],
+            "correct_answers": [
+                "Le paclitaxel est issu de l'if."
+            ],
+            "justification_fausses_reponses": {
+                "L'acide acétylsalicylique est issu de la digitale.": "C'est incorrect. L'acide acétylsalicylique, aussi connu sous le nom d'aspirine, est issu de l'écorce de saule, pas de la digitale.",
+                "La photosynthèse fait partie du métabolisme secondaire.": "C'est incorrect. La photosynthèse est une partie essentielle du métabolisme primaire des plantes, pas du métabolisme secondaire.",
+                "Chez les végétaux, le métabolisme secondaire produit les éléments essentiels pour que le métabolisme primaire puisse fonctionner.": "C'est incorrect. Le métabolisme secondaire des plantes produit des composés qui ne sont pas essentiels à la survie immédiate de la plante, mais qui peuvent avoir des rôles importants dans l'interaction de la plante avec son environnement.",
+                "Il n'y a pas de médicament, actuellement utilisé, issu des végétaux. Tous sont maintenant synthétisés.": "C'est incorrect. De nombreux médicaments sont encore aujourd'hui dérivés de plantes, comme la morphine (du pavot) ou la quinine (de l'écorce de quinquina)."
+            }
+        },
+        {
+            "question": "Pour reconnaître le caractère comestible d’un champignon, il faut :",
+            "options": [
+                "L’identifier au rang spécifique sans erreur",
+                "Le frotter avec de l’ail pour constater un changement de coloration",
+                "Se rapprocher des récolteurs croisés en forêt et leur poser la question",
+                "Consulter un ouvrage illustré et comparer les images à la récolte en question.",
+                "Se rapprocher d’un pharmacien ou d’une société mycologique"
+            ],
+            "correct_answers": [
+                "L’identifier au rang spécifique sans erreur",
+                "Se rapprocher d’un pharmacien ou d’une société mycologique"
+            ],
+            "justification_fausses_reponses": {
+                "Le frotter avec de l’ail pour constater un changement de coloration": "Cette méthode est incorrecte car le changement de coloration d'un champignon en contact avec de l'ail n'est pas un indicateur fiable de sa comestibilité. Certains champignons toxiques peuvent ne pas changer de couleur.",
+                "Se rapprocher des récolteurs croisés en forêt et leur poser la question": "Cette méthode est risquée car tous les récolteurs ne sont pas nécessairement experts en mycologie. Ils peuvent faire des erreurs d'identification qui peuvent avoir des conséquences graves pour la santé.",
+                "Consulter un ouvrage illustré et comparer les images à la récolte en question.": "Bien que cela puisse aider, cette méthode n'est pas infaillible. Les illustrations peuvent ne pas capturer toutes les caractéristiques d'un champignon, et certaines espèces comestibles et toxiques peuvent se ressembler beaucoup."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisir celle(s) qui présente(ent) différents termes dans le bon ordre, de l’extérieur vers l’intérieur :",
+            "options": [
+                "Ovaire, ovule, téguments",
+                "Téguments, ovaire, ovule",
+                "Ovaire, téguments",
+                "Ovule ovaire, sac embryonnaire",
+                "Nucelle, sac embryonnaire"
+            ],
+            "correct_answers": [
+                "Ovaire, ovule, téguments",
+                "Nucelle, sac embryonnaire",
+                "Ovaire, téguments"
+            ],
+            "justification_fausses_reponses": {
+                "Téguments, ovaire, ovule": "Cette option est incorrecte car les téguments sont une couche protectrice qui entoure l'ovule, et non l'ovaire. L'ordre correct est donc ovaire, ovule, téguments.",
+                "Ovule ovaire, sac embryonnaire": "Cette option est incorrecte car l'ovaire est la partie externe qui contient l'ovule et le sac embryonnaire. L'ordre correct est donc ovaire, ovule, sac embryonnaire."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisissez celle qui correspond au nom scientifique correcte de l'espèce désignée",
+            "options": [
+                "Lycopodium clavatum, Lycopodiacaea",
+                "Lycopodium clavatum, Lycopodiaceae",
+                "Des oreilles",
+                "Lycopodium clavatum, lycopodiacaea",
+                "Lycopodium clavatum, Lycopodiaceae"
+            ],
+            "correct_answers": [
+                "Lycopodium clavatum, Lycopodiaceae"
+            ],
+            "justification_fausses_reponses": {
+                "Lycopodium clavatum, Lycopodiacaea": "Cette réponse est incorrecte car le nom de la famille est mal orthographié. Le nom correct est Lycopodiaceae.",
+                "Des oreilles": "Cette réponse est incorrecte car elle ne correspond pas à un nom scientifique d'espèce.",
+                "Lycopodium clavatum, lycopodiacaea": "Cette réponse est incorrecte car le nom de la famille doit être écrit avec une majuscule initiale, selon la nomenclature binomiale."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, relatives à l'absorption hydrique, choisissez celle(s) exacte(s)",
+            "options": [
+                "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif",
+                "L'absorption hydrique est réalisée par toutes les parties de la racine",
+                "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+                "Sans les racines l'eau ne peut circuler dans la plante",
+                "La transpiration est la parte d'eau au niveau des fleurs"
+            ],
+            "correct_answers": [
+                "Les poils absorbants permettent d'augmenter la surface racinaire et donc la surface d'absorption",
+                "Une partie de la circulation de l'eau et des sels minéraux dans la racine est spontanée alors qu'une autre demande un transport actif"
+            ],
+            "justification_fausses_reponses": {
+                "L'absorption hydrique est réalisée par toutes les parties de la racine": "C'est incorrect car l'absorption hydrique est principalement réalisée par les poils absorbants situés sur la zone pilifère de la racine, et non par toutes les parties de la racine.",
+                "Sans les racines l'eau ne peut circuler dans la plante": "C'est incorrect car même si les racines jouent un rôle crucial dans l'absorption de l'eau, l'eau peut également être absorbée par d'autres parties de la plante, comme les feuilles, en cas de besoin.",
+                "La transpiration est la parte d'eau au niveau des fleurs": "C'est incorrect car la transpiration est principalement la perte d'eau par les feuilles et non par les fleurs. De plus, la transpiration joue un rôle important dans le transport de l'eau à travers la plante, mais elle n'est pas la seule voie d'absorption de l'eau."
+            }
+        },
+        {
+            "question": "Les champignons ont été érigés en tant que règne autonome",
+            "options": [
+                "En raison de leur hétérotrophie vis-à-vis du carbone",
+                "Sur la proposition des mycologues souhaitant une reconnaissance de l’objet de leur étude",
+                "Sur la base d’études moléculaires et phylogénétiques",
+                "Après avoir été rattachés pendant longtemps au règne animal",
+                "Sur la base d’une combinaison originale de caractères"
+            ],
+            "correct_answers": [
+                "Sur la base d’études moléculaires et phylogénétiques",
+                "Sur la base d’une combinaison originale de caractères"
+            ],
+            "justification_fausses_reponses": {
+                "En raison de leur hétérotrophie vis-à-vis du carbone": "Bien que les champignons soient hétérotrophes, ce n'est pas la raison principale de leur classification en tant que règne autonome. D'autres organismes sont également hétérotrophes et ne sont pas classés de la même manière.",
+                "Sur la proposition des mycologues souhaitant une reconnaissance de l’objet de leur étude": "La classification des organismes en règnes est basée sur des critères scientifiques et non sur des propositions individuelles ou des désirs de reconnaissance.",
+                "Après avoir été rattachés pendant longtemps au règne animal": "Les champignons ont été classés dans le règne des plantes pendant longtemps, et non dans le règne animal. Leur reclassification en tant que règne autonome est due à des découvertes scientifiques et non à un changement de classification précédente."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+            "options": [
+                "C'est lors que la phase sombre qu'il y a la dissociation de l'eau génératrice d'électrons",
+                "La phase sombre de la photosynthèse s'appelle le cycle de Krebs",
+                "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+                "Le phase sombre de la photosynthèse permet la fabrication du glycogène",
+                "Il y a peu de sucre de réserve stocké dans les feuilles"
+            ],
+            "correct_answers": [
+                "Le saccharose est le sucre de transport le plus fréquemment produit lors de la photosynthèse",
+                "Il y a peu de sucre de réserve stocké dans les feuilles"
+            ],
+            "justification_fausses_reponses": {
+                "C'est lors que la phase sombre qu'il y a la dissociation de l'eau génératrice d'électrons": "En réalité, la dissociation de l'eau génératrice d'électrons se produit lors de la phase lumineuse de la photosynthèse, et non lors de la phase sombre.",
+                "La phase sombre de la photosynthèse s'appelle le cycle de Krebs": "Le cycle de Krebs est une étape de la respiration cellulaire, et non de la photosynthèse. La phase sombre de la photosynthèse est appelée le cycle de Calvin.",
+                "Le phase sombre de la photosynthèse permet la fabrication du glycogène": "La phase sombre de la photosynthèse permet la fabrication de glucose, et non de glycogène. Le glycogène est un polymère de glucose stocké dans le foie et les muscles des animaux, et non dans les plantes."
+            }
+        },
+        {
+            "question": "Les espèces responsables du syndrome muscarinien se rencontrent dans les espèces ou genres suivants",
+            "options": [
+                "Inocybe  et Clitocybe",
+                "Boletus satanas",
+                "Inocybe jurana  et Lepista nebularis  (clitocybe nébuleux)",
+                "Psilocybe  et Panaeolus",
+                "Amanita muscaria  et Amanita pantherina"
+            ],
+            "correct_answers": [
+                "Inocybe  et Clitocybe"
+            ],
+            "justification_fausses_reponses": {
+                "Boletus satanas": "Boletus satanas n'est pas responsable du syndrome muscarinien. Il est associé au syndrome satanique, qui est différent.",
+                "Inocybe jurana  et Lepista nebularis  (clitocybe nébuleux)": "Bien que ces espèces soient toxiques, elles ne sont pas associées au syndrome muscarinien. Leur toxicité est due à d'autres composés.",
+                "Psilocybe  et Panaeolus": "Ces genres de champignons sont principalement associés au syndrome hallucinogène, pas au syndrome muscarinien.",
+                "Amanita muscaria  et Amanita pantherina": "Ces espèces sont associées au syndrome panthérinien, qui est différent du syndrome muscarinien."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, laquelle est vraie ?",
+            "options": [
+                "Toutes les amanites ont une volve et un voile partiel",
+                "Tous les champignons consommés par au moins un autre mammifère que nous, sont d'emblée considérés comme comestibles",
+                "Toutes les amanites ont un voile général",
+                "Toutes les amanites sont toxiques crues",
+                "Toutes les amanites sont comestibles cuites"
+            ],
+            "correct_answers": [
+                "Toutes les amanites ont un voile général"
+            ],
+            "justification_fausses_reponses": {
+                "Toutes les amanites ont une volve et un voile partiel": "Bien que la plupart des amanites aient une volve et un voile partiel, ce n'est pas une caractéristique universelle de toutes les amanites.",
+                "Tous les champignons consommés par au moins un autre mammifère que nous, sont d'emblée considérés comme comestibles": "C'est une idée fausse. Certains mammifères peuvent consommer des champignons qui sont toxiques pour les humains.",
+                "Toutes les amanites sont toxiques crues": "Toutes les amanites ne sont pas toxiques crues. Certaines espèces d'amanites sont comestibles après une cuisson appropriée.",
+                "Toutes les amanites sont comestibles cuites": "C'est faux. Certaines espèces d'amanites restent toxiques même après la cuisson."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, relatives au temps d'incubation dans les cas de mycétisme, choisir celle(s) exacte(s)",
+            "options": [
+                "Il permet de connaître la durée totale des syndromes",
+                "S'il est court (< 3h), il permet d'envisager un dosage des CPK, des transaminases, de la créatinine sanguine…",
+                "Pour tous les champignons toxiques, il permet de savoir si le pronostic vital est engagé",
+                "Il permet d'appréhender un risque mortel",
+                "Il doit être considéré avec précautions en cas de mélange"
+            ],
+            "correct_answers": [
+                "Il permet d'appréhender un risque mortel",
+                "Il doit être considéré avec précautions en cas de mélange"
+            ],
+            "justification_fausses_reponses": {
+                "Il permet de connaître la durée totale des syndromes": "C'est incorrect car le temps d'incubation ne permet pas de connaître la durée totale des syndromes. Il s'agit du temps entre l'ingestion du champignon et l'apparition des premiers symptômes, mais cela ne donne pas d'information sur la durée totale des symptômes.",
+                "S'il est court (< 3h), il permet d'envisager un dosage des CPK, des transaminases, de la créatinine sanguine…": "C'est incorrect car le temps d'incubation ne détermine pas directement la nécessité d'un dosage de ces biomarqueurs. Ces dosages sont généralement effectués en fonction des symptômes présentés par le patient, et non du temps d'incubation.",
+                "Pour tous les champignons toxiques, il permet de savoir si le pronostic vital est engagé": "C'est incorrect car le temps d'incubation ne permet pas de déterminer si le pronostic vital est engagé pour tous les champignons toxiques. Le pronostic dépend de nombreux facteurs, dont la quantité de champignons ingérée, le type de champignon, l'état de santé général du patient, etc."
+            }
+        },
+        {
+            "question": "Quel est le nombre de noyaux dans le sac embryonnaire des Angiospermes",
+            "options": [
+                "Un",
+                "Nombreux",
+                "Huit",
+                "Deux",
+                "Quatre"
+            ],
+            "correct_answers": [
+                "Huit"
+            ],
+            "justification_fausses_reponses": {
+                "Un": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus d'un noyau. Il en contient précisément huit.",
+                "Nombreux": "C'est incorrect car bien que 'nombreux' puisse suggérer un grand nombre, le sac embryonnaire des Angiospermes contient un nombre spécifique de noyaux, qui est de huit.",
+                "Deux": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus de deux noyaux. Il en contient précisément huit.",
+                "Quatre": "C'est incorrect car le sac embryonnaire des Angiospermes contient plus de quatre noyaux. Il en contient précisément huit."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, choisir le (ou les) organisme(s) pouvant présenter de la dichotomie dans leur appareil végétatif",
+            "options": [
+                "Pin",
+                "Fougère",
+                "Ginkgo",
+                "Fucus",
+                "Hépatique"
+            ],
+            "correct_answers": [
+                "Fucus",
+                "Fougère",
+                "Ginkgo",
+                "Hépatique"
+            ],
+            "justification_fausses_reponses": {
+                "Pin": "Le Pin ne présente pas de dichotomie dans son appareil végétatif. La dichotomie est un mode de croissance où une extrémité se divise en deux parties égales, ce qui n'est pas le cas chez le Pin dont la croissance est monopodiale, c'est-à-dire qu'elle se fait par l'allongement d'un axe principal."
+            }
+        },
+        {
+            "question": "Parmi les listes, indiquer celle(s) avec des termes synonymes :",
+            "options": [
+                "Plantes à ovaires, Plantes à graines",
+                "Rhizophytes, Plantes vasculaires",
+                "Angiospermes, Rhizophytes",
+                "Spermatophytes, G ymnospermes",
+                "Embryophytes, Archégoniates"
+            ],
+            "correct_answers": [
+                "Rhizophytes, Plantes vasculaires",
+                "Embryophytes, Archégoniates"
+            ],
+            "justification_fausses_reponses": {
+                "Plantes à ovaires, Plantes à graines": "Ces termes ne sont pas synonymes. Les plantes à ovaires sont spécifiques aux angiospermes, tandis que les plantes à graines incluent à la fois les angiospermes et les gymnospermes.",
+                "Angiospermes, Rhizophytes": "Ces termes ne sont pas synonymes. Les angiospermes sont un groupe spécifique de plantes à graines, tandis que les rhizophytes sont un terme général pour les plantes possédant des racines.",
+                "Spermatophytes, G ymnospermes": "Ces termes ne sont pas synonymes. Les spermatophytes sont un groupe de plantes qui produisent des graines, tandis que les gymnospermes sont un sous-groupe spécifique de spermatophytes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, laquelle est fausse ?",
+            "options": [
+                "Les russules n'ont ni voile général ni voile partiel",
+                "Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex",
+                "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous",
+                "Russula vesca  et Russula virescens  sont d'excellents comestibles",
+                "Toutes les russules âcres ne doivent pas être consommées."
+            ],
+            "correct_answers": [
+                "Toutes les Russules douces peuvent être consommées par n'importe lequel d'entre nous"
+            ],
+            "justification_fausses_reponses": {
+                "Les russules n'ont ni voile général ni voile partiel": "Cette affirmation est vraie. Les russules sont des champignons qui ne possèdent ni voile général ni voile partiel, ce qui les distingue de certains autres types de champignons.",
+                "Les Lactaires sont reconnaissables par leur structure cassante et leur production de latex": "Cette affirmation est également vraie. Les lactaires sont des champignons qui se caractérisent par leur structure cassante et leur production de latex lorsqu'ils sont coupés ou blessés.",
+                "Russula vesca  et Russula virescens  sont d'excellents comestibles": "Cette affirmation est vraie. Russula vesca et Russula virescens sont deux espèces de russules qui sont considérées comme d'excellents comestibles.",
+                "Toutes les russules âcres ne doivent pas être consommées.": "Cette affirmation est vraie. Les russules âcres ont un goût fort et désagréable et ne doivent pas être consommées."
+            }
+        },
+        {
+            "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à un état haploïde",
+            "options": [
+                "Albumen, endosperme, fleur",
+                "Endosperme, pollen",
+                "Albumen, sac embryonnaire",
+                "Endosperme, fleur, nucelle",
+                "Nucelle, ovaire, pollen"
+            ],
+            "correct_answers": [
+                "Endosperme, pollen"
+            ],
+            "justification_fausses_reponses": {
+                "Albumen, endosperme, fleur": "L'albumen et l'endosperme sont haploïdes, mais la fleur est un organe de la plante et n'est pas en état haploïde.",
+                "Albumen, sac embryonnaire": "L'albumen n'est pas haploïde, il est triploïde. Le sac embryonnaire est haploïde.",
+                "Endosperme, fleur, nucelle": "L'endosperme est haploïde, mais la fleur est un organe de la plante et n'est pas en état haploïde. La nucelle est une partie de l'ovule et n'est pas non plus haploïde.",
+                "Nucelle, ovaire, pollen": "Le pollen est haploïde, mais la nucelle et l'ovaire sont des parties de l'ovule et ne sont pas en état haploïde."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous concernant la graine exalbuminée, choisissez celle(s) exacte(s)",
+            "options": [
+                "La graine exalbuminée est plus primitive que la graine albuminée",
+                "La graine exalbuminée présente un albumen périphérique",
+                "La graine exalbuminée présente un embryon réduit",
+                "La graine exalbuminée présente des cotylédons volumineux",
+                "Une graine exalbuminée n’a plus d’albumen"
+            ],
+            "correct_answers": [
+                "Une graine exalbuminée n’a plus d’albumen",
+                "La graine exalbuminée présente des cotylédons volumineux"
+            ],
+            "justification_fausses_reponses": {
+                "La graine exalbuminée est plus primitive que la graine albuminée": "Cette affirmation est incorrecte car la graine exalbuminée n'est pas nécessairement plus primitive que la graine albuminée. Ces termes se réfèrent à la présence ou l'absence d'albumen, et non à l'évolution de la graine.",
+                "La graine exalbuminée présente un albumen périphérique": "Cette affirmation est incorrecte car par définition, une graine exalbuminée n'a pas d'albumen. L'albumen est une substance nutritive stockée dans la graine, et une graine exalbuminée a transféré ces nutriments aux cotylédons.",
+                "La graine exalbuminée présente un embryon réduit": "Cette affirmation est incorrecte car la taille de l'embryon n'est pas liée à la présence ou l'absence d'albumen. Une graine exalbuminée peut avoir un embryon de taille normale."
+            }
+        },
+        {
+            "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes correspondant tous à la présence de rhizoïdes",
+            "options": [
+                "Algue verte, Mousse, prothalle de fougère",
+                "Pin, prothalle de fougère, sac embryonnaire",
+                "Algue verte, sac embryonnaire",
+                "Prothalle de fougère, sac embryonnaire",
+                "Mousse, Pin, prothalle de fougère"
+            ],
+            "correct_answers": [
+                "Algue verte, Mousse, prothalle de fougère"
+            ],
+            "justification_fausses_reponses": {
+                "Pin, prothalle de fougère, sac embryonnaire": "Le pin est un conifère et ne possède pas de rhizoïdes. Le sac embryonnaire est une structure de la reproduction sexuée chez les plantes à fleurs, il ne possède pas non plus de rhizoïdes.",
+                "Algue verte, sac embryonnaire": "Le sac embryonnaire est une structure de la reproduction sexuée chez les plantes à fleurs, il ne possède pas de rhizoïdes.",
+                "Prothalle de fougère, sac embryonnaire": "Le sac embryonnaire est une structure de la reproduction sexuée chez les plantes à fleurs, il ne possède pas de rhizoïdes.",
+                "Mousse, Pin, prothalle de fougère": "Le pin est un conifère et ne possède pas de rhizoïdes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives aux  Cycas et les Ginkgos, choisir celle(s) exacte(s)",
+            "options": [
+                "La fécondation n’est pas aquatique",
+                "La graine est une pseudo-graine",
+                "Les anthérozoïdes sont ciliés",
+                "Les réserves se forment avant la fécondation",
+                "Le gamétophyte est chlorophyllien"
+            ],
+            "correct_answers": [
+                "La graine est une pseudo-graine",
+                "Les réserves se forment avant la fécondation",
+                "Les anthérozoïdes sont ciliés",
+                "Le gamétophyte est chlorophyllien"
+            ],
+            "justification_fausses_reponses": {
+                "La fécondation n’est pas aquatique": "Cette affirmation est incorrecte car la fécondation chez les Cycas et les Ginkgos est bien aquatique. En effet, les anthérozoïdes (cellules reproductrices mâles) de ces plantes ont besoin d'eau pour se déplacer vers l'ovule."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisir celle(s) qui est exacte. le bois homoxylé est :",
+            "options": [
+                "Souvent résineux",
+                "Composé de trachéides",
+                "Un xylème II°",
+                "Caractéristique des Angiospermes",
+                "Formé de faisceaux de même taille"
+            ],
+            "correct_answers": [
+                "Un xylème II°",
+                "Composé de trachéides",
+                "Souvent résineux"
+            ],
+            "justification_fausses_reponses": {
+                "Caractéristique des Angiospermes": "Le bois homoxylé n'est pas spécifique aux Angiospermes. Il est présent chez de nombreuses espèces de plantes, y compris les Gymnospermes.",
+                "Formé de faisceaux de même taille": "Le bois homoxylé n'est pas nécessairement formé de faisceaux de même taille. Sa structure peut varier en fonction de l'espèce de la plante."
+            }
+        },
+        {
+            "question": "Choisir la (ou les) proposition(s) vraie(s) concernant la sporée des champignons à hyménophore lamellé et à texture fibreuse :",
+            "options": [
+                "Elle suffit pour reconnaître les espèces comestibles des espèces toxiques",
+                "On peut l’observer objectivement grâce à un test de sporulation provoquée",
+                "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+                "Elle peut varier, au sein d’une espèce donnée, selon les conditions climatiques",
+                "Elle est bien visible sur les lames des exemplaires murs"
+            ],
+            "correct_answers": [
+                "Sa couleur peut être attribuée à 4 nuances principales : blanc, rose, brun et noir",
+                "On peut l’observer objectivement grâce à un test de sporulation provoquée"
+            ],
+            "justification_fausses_reponses": {
+                "Elle suffit pour reconnaître les espèces comestibles des espèces toxiques": "La couleur de la sporée n'est pas un critère suffisant pour distinguer les espèces comestibles des espèces toxiques. D'autres caractéristiques, comme la forme, la taille, l'odeur, le lieu et la saison de croissance, doivent également être prises en compte.",
+                "Elle peut varier, au sein d’une espèce donnée, selon les conditions climatiques": "La couleur de la sporée est généralement constante pour une espèce donnée et ne varie pas en fonction des conditions climatiques. C'est une caractéristique génétique de l'espèce.",
+                "Elle est bien visible sur les lames des exemplaires murs": "La sporée n'est pas visible à l'œil nu sur les lames des champignons. Elle est généralement observée en réalisant une empreinte de spores sur une surface de couleur contrastée."
+            }
+        },
+        {
+            "question": "Parmi les listes proposées, choisir la (ou les) liste(s) de termes tous homologues",
+            "options": [
+                "Sporange de fougère, sporogone",
+                "Sac embryonnaire, ovule, pollen",
+                "Macrosporange, sac embryonnaire, archégone",
+                "Microsporange, archégone, ovaire",
+                "Microsporange, sac pollinique, sporogone"
+            ],
+            "correct_answers": [
+                "Microsporange, sac pollinique, sporogone",
+                "Sporange de fougère, sporogone"
+            ],
+            "justification_fausses_reponses": {
+                "Sac embryonnaire, ovule, pollen": "Cette liste n'est pas homologue car le sac embryonnaire et l'ovule sont des structures de reproduction femelle, tandis que le pollen est une structure de reproduction mâle.",
+                "Macrosporange, sac embryonnaire, archégone": "Cette liste n'est pas homologue car le macrosporange est une structure de reproduction mâle, tandis que le sac embryonnaire et l'archégone sont des structures de reproduction femelle.",
+                "Microsporange, archégone, ovaire": "Cette liste n'est pas homologue car le microsporange est une structure de reproduction mâle, tandis que l'archégone et l'ovaire sont des structures de reproduction femelle."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisissez celle(s) définissant l'entomogamie",
+            "options": [
+                "Le transport des semences par le vent",
+                "Le transport des semences par les insectes",
+                "Le transport des graines par les oiseaux",
+                "Le transport du pollen par les insectes",
+                "La fécondation des fleurs par le vent"
+            ],
+            "correct_answers": [
+                "Le transport du pollen par les insectes"
+            ],
+            "justification_fausses_reponses": {
+                "Le transport des semences par le vent": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des semences par le vent. Le transport des semences par le vent est appelé anémochorie.",
+                "Le transport des semences par les insectes": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des semences par les insectes. Le transport des semences par les insectes est appelé zoochorie.",
+                "Le transport des graines par les oiseaux": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas le transport des graines par les oiseaux. Le transport des graines par les oiseaux est également appelé zoochorie.",
+                "La fécondation des fleurs par le vent": "Ceci est incorrect car l'entomogamie concerne le transport du pollen par les insectes, pas la fécondation des fleurs par le vent. La fécondation des fleurs par le vent est appelée anémogamie."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives à la vacuole, indiquez celle(s) exacte(s)",
+            "options": [
+                "La vacuole occupe la plus grande partie du cytoplasme",
+                "La vacuole ne sert qu'au stockage des déchets de la cellule",
+                "La vacuole est l'organite où se déroule la photosynthèse",
+                "La vacuole contient le noyau de la cellule",
+                "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste"
+            ],
+            "correct_answers": [
+                "La vacuole a une membrane qui la délimite et qui s'appelle le tonoplaste",
+                "La vacuole occupe la plus grande partie du cytoplasme"
+            ],
+            "justification_fausses_reponses": {
+                "La vacuole ne sert qu'au stockage des déchets de la cellule": "C'est incorrect car la vacuole a plusieurs fonctions, dont le stockage de nutriments, de déchets et de pigments, ainsi que le maintien de la pression osmotique.",
+                "La vacuole est l'organite où se déroule la photosynthèse": "C'est incorrect car la photosynthèse se déroule dans les chloroplastes, pas dans la vacuole.",
+                "La vacuole contient le noyau de la cellule": "C'est incorrect car le noyau est une structure distincte de la vacuole. Le noyau contient l'ADN de la cellule et contrôle ses activités."
+            }
+        },
+        {
+            "question": "Choisir la (ou les) liste(s) de termes apparaissant tous chez les arbres et arbustes et absents des jeunes plantes herbacées à structure primaire",
+            "options": [
+                "Aubier, phloème II°, liège",
+                "Liège, parenchyme palissadique",
+                "Epiderme, phloème II°",
+                "Bois, cambium, suber",
+                "Aubier, cambium, parenchyme palissadique"
+            ],
+            "correct_answers": [
+                "Bois, cambium, suber",
+                "Aubier, phloème II°, liège"
+            ],
+            "justification_fausses_reponses": {
+                "Liège, parenchyme palissadique": "Le liège est une structure spécifique aux arbres et arbustes, mais le parenchyme palissadique est présent dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire.",
+                "Epiderme, phloème II°": "L'épiderme et le phloème secondaire sont présents dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire.",
+                "Aubier, cambium, parenchyme palissadique": "Le parenchyme palissadique est présent dans toutes les plantes, y compris les jeunes plantes herbacées à structure primaire. L'aubier et le cambium sont spécifiques aux arbres et arbustes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, relatives aux Monocotylédones, choisir celle(s) exacte(s)",
+            "options": [
+                "Le cambium est absent",
+                "Les racines présentent au moins 7 pôles de xylème I°",
+                "Le suber est présent",
+                "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme",
+                "Les faisceaux libéro-ligneux sont disposés sur un seul cercle"
+            ],
+            "correct_answers": [
+                "Le cambium est absent",
+                "Les racines présentent au moins 7 pôles de xylème I°",
+                "Les Bambous et les palmiers sont des formes ligneuses riches en sclérenchyme"
+            ],
+            "justification_fausses_reponses": {
+                "Le suber est présent": "Le suber, ou liège, est une couche de cellules mortes qui se trouve généralement dans les plantes dicotylédones, pas dans les monocotylédones.",
+                "Les faisceaux libéro-ligneux sont disposés sur un seul cercle": "Dans les monocotylédones, les faisceaux libéro-ligneux sont généralement dispersés dans le parenchyme de la tige, et non disposés sur un seul cercle comme dans les dicotylédones."
+            }
+        },
+        {
+            "question": "Un champignon possédant comme caractéristiques, des lames décurrentes et une sporée blanche, un voile partiel et poussant sur du bois appartient à un groupe dont les représentants sont extrêmement courants et font l’objet d’une bonne partie des sollicitations de clients à l’officine. Il s’agit",
+            "options": [
+                "Du paxille enroulé",
+                "De l’amanite phalloïde",
+                "Des russules",
+                "Des armillaires",
+                "Des girolles"
+            ],
+            "correct_answers": [
+                "Des armillaires"
+            ],
+            "justification_fausses_reponses": {
+                "Du paxille enroulé": "Le paxille enroulé ne correspond pas à la description car il ne pousse pas sur du bois et sa sporée n'est pas blanche.",
+                "De l’amanite phalloïde": "L'amanite phalloïde ne correspond pas à la description car elle ne pousse pas sur du bois et ses lames ne sont pas décurrentes.",
+                "Des russules": "Les russules ne correspondent pas à la description car elles ne poussent pas sur du bois et leur sporée n'est pas blanche.",
+                "Des girolles": "Les girolles ne correspondent pas à la description car elles ne possèdent pas de voile partiel et leur sporée n'est pas blanche."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous concernant les Angiospermes primitives jusqu’aux Monocotylédones incluses, choisir celle(s) exacte(s) :",
+            "options": [
+                "Les feuilles sont simples",
+                "La disposition des fleurs est spiralée",
+                "Le pollen est à une ouverture",
+                "Ce sont toutes des plantes ligneuses",
+                "Les fleurs sont gamopétales"
+            ],
+            "correct_answers": [
+                "Le pollen est à une ouverture",
+                "Les feuilles sont simples"
+            ],
+            "justification_fausses_reponses": {
+                "La disposition des fleurs est spiralée": "La disposition des fleurs n'est pas toujours spiralée chez les Angiospermes primitives jusqu’aux Monocotylédones incluses. Cela dépend de l'espèce spécifique.",
+                "Ce sont toutes des plantes ligneuses": "Toutes les Angiospermes primitives jusqu’aux Monocotylédones incluses ne sont pas des plantes ligneuses. Certaines peuvent être herbacées.",
+                "Les fleurs sont gamopétales": "Les fleurs ne sont pas toujours gamopétales chez les Angiospermes primitives jusqu’aux Monocotylédones incluses. Les fleurs gamopétales ont des pétales fusionnés, ce qui n'est pas une caractéristique universelle de ces plantes."
+            }
+        },
+        {
+            "question": "Parmi les propositions concernant l'endoprothallie, choisir la (ou les) exacte(s) :",
+            "options": [
+                "L’endoprothallie correspond à la germination de la spore dans le sol",
+                "L’endoprothallie correspond à la germination de la spore en protonéma",
+                "L’endoprothallie permet l’apparition de la graine",
+                "L’endoprothallie produit directement  l’albumen",
+                "L’endoprothallie produit directement l’endosperme"
+            ],
+            "correct_answers": [
+                "L’endoprothallie produit directement l’endosperme",
+                "L’endoprothallie permet l’apparition de la graine"
+            ],
+            "justification_fausses_reponses": {
+                "L’endoprothallie correspond à la germination de la spore dans le sol": "C'est incorrect car l'endoprothallie est une phase du cycle de vie des fougères et non un processus de germination de la spore dans le sol.",
+                "L’endoprothallie correspond à la germination de la spore en protonéma": "C'est incorrect car l'endoprothallie est une phase du cycle de vie des fougères et non un processus de germination de la spore en protonéma.",
+                "L’endoprothallie produit directement  l’albumen": "C'est incorrect car l'endoprothallie ne produit pas directement l'albumen. L'albumen est produit par l'ovule après la fécondation."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives à la dichotomie, choisir celle(s) exacte(s) :",
+            "options": [
+                "la dichotomie correspond au sporophyte et non au gamétophyte",
+                "la dichotomie existe chez les Fougères et le  Ginkgo",
+                "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+                "la dichotomie correspond à l’état diploïde des cellules",
+                "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+            ],
+            "correct_answers": [
+                "La dichotomie existe chez les algues, les bryophytes et les Fougères",
+                "la dichotomie existe chez les Fougères et le  Ginkgo",
+                "la dichotomie est une division régulière en deux parties des tiges, racines ou nervures"
+            ],
+            "justification_fausses_reponses": {
+                "la dichotomie correspond au sporophyte et non au gamétophyte": "Cette affirmation est incorrecte car la dichotomie n'est pas liée à la phase de vie de la plante (sporophyte ou gamétophyte), mais à la manière dont la plante se développe et se divise.",
+                "la dichotomie correspond à l’état diploïde des cellules": "Cette affirmation est incorrecte car la dichotomie n'a rien à voir avec le nombre de chromosomes dans une cellule. Elle concerne la manière dont une plante se développe et se divise."
+            }
+        },
+        {
+            "question": "L’amanite phalloïde ( Amanita phalloides ) est un champignon mortel très courant. Pour la reconnaître, on peut rechercher les caractères suivants, qui la caractérisent, au moins en partie :",
+            "options": [
+                "Sporée blanche, lames décurrentes, voile partiel présent.",
+                "Anneau et volve en sac.",
+                "Sporée blanche, lames adnées, voile partiel et voile général présents.",
+                "Sporée blanche et lames libres",
+                "Chapeau rouge portant des flocons blancs"
+            ],
+            "correct_answers": [
+                "Anneau et volve en sac.",
+                "Sporée blanche et lames libres"
+            ],
+            "justification_fausses_reponses": {
+                "Sporée blanche, lames décurrentes, voile partiel présent.": "Cette description ne correspond pas à l'amanite phalloïde. Les lames de l'amanite phalloïde ne sont pas décurrentes (c'est-à-dire qu'elles ne descendent pas le long du pied du champignon), et le voile partiel n'est pas un caractère distinctif de cette espèce.",
+                "Sporée blanche, lames adnées, voile partiel et voile général présents.": "Bien que l'amanite phalloïde ait une sporée blanche et des lames adnées, la présence d'un voile partiel et d'un voile général n'est pas un caractère distinctif de cette espèce.",
+                "Chapeau rouge portant des flocons blancs": "Cette description correspond à l'amanite muscaria, une autre espèce de champignon, et non à l'amanite phalloïde. L'amanite phalloïde a généralement un chapeau de couleur olive à brun, et non rouge."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisir celle(s) contenant que des taxons appartenant à la lignée brune",
+            "options": [
+                "Spiruline, Fucus, Mildiou, Pomme de terre",
+                "Pomme de terre, Spirogyre, Sphaigne",
+                "Diatomée, Fucus, Mildiou de la vigne",
+                "Diatomée, Spirogyre, Sphaigne",
+                "Champignon, Fucus, Sphaigne"
+            ],
+            "correct_answers": [
+                "Diatomée, Fucus, Mildiou de la vigne"
+            ],
+            "justification_fausses_reponses": {
+                "Spiruline, Fucus, Mildiou, Pomme de terre": "La Spiruline est une cyanobactérie, et la Pomme de terre est une plante, elles n'appartiennent donc pas à la lignée brune.",
+                "Pomme de terre, Spirogyre, Sphaigne": "La Pomme de terre est une plante, et la Spirogyre est une algue verte, elles n'appartiennent donc pas à la lignée brune.",
+                "Diatomée, Spirogyre, Sphaigne": "La Spirogyre est une algue verte, et la Sphaigne est une mousse, elles n'appartiennent donc pas à la lignée brune.",
+                "Champignon, Fucus, Sphaigne": "Le Champignon appartient au règne des Fungi, et la Sphaigne est une mousse, ils n'appartiennent donc pas à la lignée brune."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous choisissez celle(s) définissant une espèce dioïque :",
+            "options": [
+                "Une espèce dioïque est une espèce présentant un seul sexe par fleur",
+                "Une espèce dioïque est une espèce présentant un seul sexe par prothalle",
+                "Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle",
+                "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents",
+                "Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur"
+            ],
+            "correct_answers": [
+                "Une espèce dioïque est une espèce présentant les deux sexes sur des sporophytes différents"
+            ],
+            "justification_fausses_reponses": {
+                "Une espèce dioïque est une espèce présentant un seul sexe par fleur": "C'est incorrect car une espèce dioïque présente les deux sexes, mais sur des individus différents, pas sur une seule fleur.",
+                "Une espèce dioïque est une espèce présentant un seul sexe par prothalle": "C'est incorrect car le terme 'dioïque' ne s'applique pas aux prothalles, mais aux plantes qui ont des fleurs mâles et femelles sur des individus différents.",
+                "Une espèce dioïque est une espèce présentant les deux sexes sur le même prothalle": "C'est incorrect car le terme 'dioïque' ne s'applique pas aux prothalles, mais aux plantes qui ont des fleurs mâles et femelles sur des individus différents.",
+                "Une espèce dioïque est une espèce présentant les deux sexes dans la même fleur": "C'est incorrect car une espèce dioïque présente les deux sexes, mais sur des individus différents, pas dans la même fleur."
+            }
+        },
+        {
+            "question": "Appariez les numéros et les propositions afin d'avoir les annotations de la figure ci-dessous",
+            "options": [
+                "4",
+                "2",
+                "1",
+                "3",
+                "5"
+            ],
+            "correct_answers": [
+                "4 → Endoderme",
+                "2 → Cortex (ou parenchyme cortical)",
+                "1 → Assise pilifère",
+                "3 → Cylindre central",
+                "5 → Péricycle"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les propositions, ci-dessous, choisir celle(s) exacte(s)",
+            "options": [
+                "A. Le cône femelle du Pin est l’équivalent d’une fleur femelle",
+                "B. Le cône mâle du Pin est l’équivalent d’une inflorescence mâle",
+                "C. Le cône femelle du Pin est une fleur femelle",
+                "D. Le cône femelle du Pin est l’équivalent d’une inflorescence femelle",
+                "E. Le cône mâle du Pin est l’équivalent d’une fleur mâle"
+            ],
+            "correct_answers": [
+                "D. Le cône femelle du Pin est l’équivalent d’une inflorescence femelle",
+                "E. Le cône mâle du Pin est l’équivalent d’une fleur mâle"
+            ],
+            "justification_fausses_reponses": {
+                "A. Le cône femelle du Pin est l’équivalent d’une fleur femelle": "C'est incorrect car le cône femelle du Pin n'est pas une fleur, mais une inflorescence, qui est un ensemble de fleurs.",
+                "B. Le cône mâle du Pin est l’équivalent d’une inflorescence mâle": "C'est incorrect car le cône mâle du Pin est une fleur mâle, et non une inflorescence. Une inflorescence est un ensemble de fleurs, pas une fleur individuelle.",
+                "C. Le cône femelle du Pin est une fleur femelle": "C'est incorrect car le cône femelle du Pin n'est pas une fleur, mais une inflorescence, qui est un ensemble de fleurs."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives aux cellules végétales, choisissez celle(s) exacte(s) :",
+            "options": [
+                "La paroi cellulaire est une matrice extracellulaire",
+                "Les plasmodesmes ne laissent pas passer les grosses molécules.",
+                "La paroi cellulaire est phospholipidique",
+                "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+                "La paroi cellulaire est complètement imperméable"
+            ],
+            "correct_answers": [
+                "La paroi cellulaire est une matrice extracellulaire",
+                "La composition de la paroi cellulaire évolue en fonction de l'âge de la plante",
+                "Les plasmodesmes ne laissent pas passer les grosses molécules."
+            ],
+            "justification_fausses_reponses": {
+                "La paroi cellulaire est phospholipidique": "C'est incorrect car la paroi cellulaire des plantes est principalement composée de cellulose, hémicellulose et de pectine, et non de phospholipides qui sont les composants majeurs des membranes cellulaires.",
+                "La paroi cellulaire est complètement imperméable": "C'est faux car la paroi cellulaire n'est pas complètement imperméable. Elle permet le passage de l'eau et de certaines molécules, notamment à travers les plasmodesmes."
+            }
+        },
+        {
+            "question": "Parmi les Basidiomycètes dont les sporophores présentent pied et chapeau, très diversifiés en forêt, on peut consommer sans risque ni désagrément les espèces :",
+            "options": [
+                "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle",
+                "Dont l’hyménophore est lamellé, la chair cassante et sans lait, la sporée blanche.",
+                "Dont l’hyménophore est lamellé, à pied sans anneau ni volve",
+                "Dont l’hyménophore est poré et dont la sporée est rose",
+                "Dont l’hyménophore est lamellé, la sporée brune et présentant une cortine"
+            ],
+            "correct_answers": [
+                "Dont l’hyménophore est formé de petits aiguillons de couleur blanche ou pâle"
+            ],
+            "justification_fausses_reponses": {
+                "Dont l’hyménophore est lamellé, la chair cassante et sans lait, la sporée blanche.": "Cette description correspond à des espèces de champignons qui peuvent être toxiques. La sporée blanche est souvent un signe de toxicité.",
+                "Dont l’hyménophore est lamellé, à pied sans anneau ni volve": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. L'absence d'anneau et de volve n'est pas un indicateur fiable de comestibilité.",
+                "Dont l’hyménophore est poré et dont la sporée est rose": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. La sporée rose n'est pas un indicateur fiable de comestibilité.",
+                "Dont l’hyménophore est lamellé, la sporée brune et présentant une cortine": "Cette description peut correspondre à des espèces de champignons potentiellement toxiques. La présence d'une cortine n'est pas un indicateur fiable de comestibilité."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous concernant l'akène, choisissez celle(s) exacte(s)",
+            "options": [
+                "L’akène est un fruit contenant plusieurs graines",
+                "L’akène peut être une semence",
+                "L’akène est un fruit sec",
+                "L’akène s’ouvre à maturité",
+                "L’akène possède un noyau dur"
+            ],
+            "correct_answers": [
+                "L’akène est un fruit sec",
+                "L’akène peut être une semence"
+            ],
+            "justification_fausses_reponses": {
+                "L’akène est un fruit contenant plusieurs graines": "C'est incorrect car l'akène est un fruit sec qui ne contient qu'une seule graine.",
+                "L’akène s’ouvre à maturité": "C'est incorrect car l'akène est un fruit sec indehiscent, c'est-à-dire qu'il ne s'ouvre pas à maturité pour libérer sa graine.",
+                "L’akène possède un noyau dur": "C'est incorrect car l'akène ne possède pas de noyau dur. Il contient une graine qui est entourée par le péricarpe, une paroi de fruit, qui est généralement mince et dure."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives au clitocybe de l'olivier ( Omphalotus olearius)  choisir celle(s) exacte(s)",
+            "options": [
+                "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+                "Il est confondu le plus souvent avec la chanterelle comestible",
+                "Il provoque des sudations nocturnes sans précédent",
+                "C’est une espèce courante dans le Nord – P as-de-Calais",
+                "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+            ],
+            "correct_answers": [
+                "Il provoque un syndrome résinoïdien sévère potentiellement mortel pour les jeunes enfants et les personnes âgées",
+                "Il est confondu le plus souvent avec la chanterelle comestible",
+                "Son principe toxique a été utilisé pour la recherche de nouveaux composés anticancéreux"
+            ],
+            "justification_fausses_reponses": {
+                "Il provoque des sudations nocturnes sans précédent": "Cette affirmation est incorrecte car le clitocybe de l'olivier ne provoque pas de sudations nocturnes. Ses principaux symptômes sont des troubles gastro-intestinaux sévères.",
+                "C’est une espèce courante dans le Nord – P as-de-Calais": "Cette affirmation est incorrecte car le clitocybe de l'olivier est principalement présent dans les régions méditerranéennes et non dans le Nord-Pas-de-Calais."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, choisissez celle(s) qui est (sont) vraie(s)",
+            "options": [
+                "L’albumen est haploïde",
+                "L’embryon est diploïde",
+                "Le nucelle est haploïde",
+                "Les 2 noyaux polaires sont haploïdes",
+                "Le sac embryonnaire est diploïde"
+            ],
+            "correct_answers": [
+                "Les 2 noyaux polaires sont haploïdes",
+                "L’embryon est diploïde"
+            ],
+            "justification_fausses_reponses": {
+                "L’albumen est haploïde": "C'est incorrect. L'albumen est triploïde, résultant de la fusion d'un noyau haploïde du grain de pollen avec les deux noyaux polaires du sac embryonnaire.",
+                "Le nucelle est haploïde": "C'est incorrect. Le nucelle est diploïde, car il provient du tissu sporophyte de la plante, qui est diploïde.",
+                "Le sac embryonnaire est diploïde": "C'est incorrect. Le sac embryonnaire est haploïde, car il est formé à partir de la méiose d'une cellule mère de mégaspore, qui est diploïde."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives à L'amanite phalloïde ( Amanita phalloides ) choisir celle(s) exacte(s)",
+            "options": [
+                "Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel",
+                "Son ingestion provoque des hallucinations",
+                "Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches",
+                "Elle ne possède pas de voile général apparent sur le chapeau, ni d'anneau",
+                "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+            ],
+            "correct_answers": [
+                "Elle possède un voile général, un voile partiel, des lames libres et une sporée blanche"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est la seule espèce responsable du syndrome phalloïdien qui est mortel": "C'est faux, d'autres espèces de champignons peuvent également provoquer le syndrome phalloïdien, bien que l'Amanita phalloides soit l'une des plus toxiques.",
+                "Son ingestion provoque des hallucinations": "C'est incorrect. L'amanite phalloïde est très toxique et peut provoquer des symptômes graves, y compris la mort, mais elle n'est pas connue pour provoquer des hallucinations.",
+                "Son chapeau rouge avec des verrues blanches macérés dans du lait tue les mouches": "C'est une confusion avec l'amanite tue-mouches (Amanita muscaria) qui a un chapeau rouge avec des verrues blanches et qui a été utilisée pour tuer les mouches.",
+                "Elle ne possède pas de voile général apparent sur le chapeau, ni d'anneau": "C'est incorrect. L'amanite phalloïde possède un voile général, un voile partiel, des lames libres et une sporée blanche."
+            }
+        },
+        {
+            "question": "Pour aborder de manière rationnelle et méthodique l’observation d’un sporophore de champignon macromycète, en vue de sa détermination, il faut s’attacher à observer correctement :",
+            "options": [
+                "La texture de la chair",
+                "La couleur de la sporée",
+                "La couleur du chapeau",
+                "La nature d’éventuelles ornementations présentes à la surface du chapeau.",
+                "Le diamètre du pied"
+            ],
+            "correct_answers": [
+                "La texture de la chair",
+                "La couleur de la sporée",
+                "La nature d’éventuelles ornementations présentes à la surface du chapeau."
+            ],
+            "justification_fausses_reponses": {
+                "La couleur du chapeau": "La couleur du chapeau n'est pas un critère fiable pour l'identification des champignons macromycètes car elle peut varier en fonction de l'âge du champignon ou des conditions environnementales.",
+                "Le diamètre du pied": "Le diamètre du pied n'est pas un critère déterminant pour l'identification des champignons macromycètes car il peut varier en fonction de l'âge du champignon et n'est pas spécifique à une espèce."
+            }
+        },
+        {
+            "question": "Parmi les propositions, choisir la (ou les) liste(s) de termes tous spécifiques des racines :",
+            "options": [
+                "Péricycle, poils absorbants",
+                "Poils absorbants, stomates",
+                "Stomates, sclérenchyme, xylème",
+                "Cuticule, épiderme, cotylédon",
+                "Cotylédon, péricycle"
+            ],
+            "correct_answers": [
+                "Péricycle, poils absorbants"
+            ],
+            "justification_fausses_reponses": {
+                "Poils absorbants, stomates": "Les stomates ne sont pas spécifiques aux racines, ils sont présents sur les feuilles et permettent les échanges gazeux.",
+                "Stomates, sclérenchyme, xylème": "Les stomates ne sont pas spécifiques aux racines, ils sont présents sur les feuilles. Le sclérenchyme et le xylème ne sont pas non plus spécifiques aux racines, ils sont présents dans toutes les parties de la plante.",
+                "Cuticule, épiderme, cotylédon": "La cuticule et l'épiderme ne sont pas spécifiques aux racines, ils sont présents sur toutes les parties aériennes de la plante. Le cotylédon est une partie de la graine, pas de la racine.",
+                "Cotylédon, péricycle": "Le cotylédon n'est pas spécifique aux racines, il fait partie de la graine."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous relatives aux plastes, choisissez celle(s) exacte(s)",
+            "options": [
+                "Les leucoplastes sont les plastes de stockage de sucre",
+                "Les plastes sont dans la vacuole",
+                "Les chromoplastes sont responsables de la coloration de différents organes",
+                "Les amyloplastes se rencontrent dans les tissus de réserve",
+                "Les oléoplastes sont les plastes de stockage de lipides"
+            ],
+            "correct_answers": [
+                "Les chromoplastes sont responsables de la coloration de différents organes",
+                "Les amyloplastes se rencontrent dans les tissus de réserve",
+                "Les oléoplastes sont les plastes de stockage de lipides"
+            ],
+            "justification_fausses_reponses": {
+                "Les leucoplastes sont les plastes de stockage de sucre": "C'est incorrect. Les leucoplastes sont des plastes incolores qui sont impliqués dans la synthèse et le stockage de molécules organiques, mais pas spécifiquement de sucre. Les amyloplastes, un type de leucoplaste, sont responsables du stockage de l'amidon, un type de sucre.",
+                "Les plastes sont dans la vacuole": "C'est incorrect. Les plastes sont des organites présents dans les cellules végétales, mais ils ne sont pas situés à l'intérieur de la vacuole. La vacuole est un autre organite qui sert à stocker l'eau et d'autres substances."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, choisir le (ou les) organisme(s) pouvant présenter des feuilles de type microphylle",
+            "options": [
+                "Fucus",
+                "Prêle",
+                "Fougère",
+                "Sélaginelle",
+                "Hépatique à thalle"
+            ],
+            "correct_answers": [
+                "Sélaginelle",
+                "Prêle"
+            ],
+            "justification_fausses_reponses": {
+                "Fucus": "Le Fucus est une algue marine qui ne possède pas de feuilles de type microphylle. Il a des structures appelées frondes qui ressemblent à des feuilles, mais elles ne sont pas classées comme telles dans la biologie végétale.",
+                "Fougère": "Les fougères ont des feuilles de type mégaphylle, qui sont plus grandes et plus complexes que les microphylles. Les mégaphylles ont un réseau de veines et sont généralement larges et plates.",
+                "Hépatique à thalle": "Les hépatiques à thalle sont des plantes non vasculaires qui n'ont pas de feuilles de type microphylle. Au lieu de cela, elles ont un thalle, qui est une structure plate et non différenciée."
+            }
+        },
+        {
+            "question": "Parmi les listes ci-dessous, choisir celle(s) qui présente(ent) les différents éléments dans le bon ordre, du bas vers le haut",
+            "options": [
+                "Sépales, étamines, style",
+                "Pétales, ovaire",
+                "Sépales, androcée, stigmate",
+                "Calice, étamines",
+                "Style, sépales, androcée"
+            ],
+            "correct_answers": [
+                "Sépales, androcée, stigmate",
+                "Pétales, ovaire",
+                "Calice, étamines",
+                "Sépales, étamines, style"
+            ],
+            "justification_fausses_reponses": {
+                "Style, sépales, androcée": "Cette option est incorrecte car le style est une partie de la fleur qui se trouve au-dessus des sépales et de l'androcee. L'ordre correct, du bas vers le haut, serait plutôt : sépales, androcée, style."
+            }
+        },
+        {
+            "question": "Pour un pharmacien, donner un renseignement au client sur la comestibilité d’un champignon est",
+            "options": [
+                "Une obligation réglementaire",
+                "L’occasion de valoriser une formation universitaire pluri-disciplinaire",
+                "Un service rémunéré à l’acte",
+                "Une prise de risque inconsidérée",
+                "La mise à profit d’une compétence exclusive"
+            ],
+            "correct_answers": [
+                "La mise à profit d’une compétence exclusive",
+                "L’occasion de valoriser une formation universitaire pluri-disciplinaire"
+            ],
+            "justification_fausses_reponses": {
+                "Une obligation réglementaire": "Il n'existe pas de réglementation spécifique obligeant un pharmacien à informer un client sur la comestibilité d'un champignon. C'est une compétence qui peut être mise à profit, mais ce n'est pas une obligation légale.",
+                "Un service rémunéré à l’acte": "Le conseil sur la comestibilité d'un champignon n'est pas un service spécifiquement rémunéré. Il s'agit d'un conseil qui peut être donné dans le cadre des services généraux d'un pharmacien.",
+                "Une prise de risque inconsidérée": "Bien que la détermination de la comestibilité d'un champignon puisse comporter des risques si elle est mal faite, elle n'est pas considérée comme une prise de risque inconsidérée si le pharmacien a les connaissances nécessaires."
+            }
+        },
+        {
+            "question": "Choisir la (ou les) bonne liste de taxons appartenant tous aux Algues bleues ou Cyanobactéries",
+            "options": [
+                "Spiruline, Spirogyre, Ulve",
+                "Lycopode, Nostoc",
+                "Nostoc, Spiruline",
+                "Fucus, L ycopode, Spirogyre",
+                "Fucus, L ycopode, Nostoc"
+            ],
+            "correct_answers": [
+                "Nostoc, Spiruline"
+            ],
+            "justification_fausses_reponses": {
+                "Spiruline, Spirogyre, Ulve": "Spirogyre et Ulve ne sont pas des Cyanobactéries mais des algues vertes.",
+                "Lycopode, Nostoc": "Le Lycopode est une plante terrestre et non une Cyanobactérie.",
+                "Fucus, L ycopode, Spirogyre": "Le Fucus est une algue brune, le Lycopode est une plante terrestre et le Spirogyre est une algue verte. Aucun de ces taxons n'appartient aux Cyanobactéries.",
+                "Fucus, L ycopode, Nostoc": "Le Fucus est une algue brune et le Lycopode est une plante terrestre. Ces deux taxons n'appartiennent pas aux Cyanobactéries."
+            }
+        },
+        {
+            "question": "Parmi les propositions ci-dessous, relatives à la photosynthèse, choisissez celle(s) exacte(s)",
+            "options": [
+                "Les organismes qui réalisent la photosynthèse sont autotrophes pour l'azote",
+                "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone",
+                "Il n'y a que les végétaux qui font la photosynthèse",
+                "Chez les végétaux supérieurs, la forme des chloroplastes est très variables",
+                "Tous les végétaux supérieurs font la photosynthèse"
+            ],
+            "correct_answers": [
+                "Les organismes qui réalisent la photosynthèse sont autotrophes pour le carbone"
+            ],
+            "justification_fausses_reponses": {
+                "Les organismes qui réalisent la photosynthèse sont autotrophes pour l'azote": "C'est incorrect car l'autotrophie pour l'azote signifie que l'organisme peut utiliser l'azote atmosphérique pour produire ses propres composés azotés, ce qui n'est pas le cas pour les organismes photosynthétiques.",
+                "Il n'y a que les végétaux qui font la photosynthèse": "C'est incorrect car d'autres organismes, comme certaines bactéries et algues, peuvent également réaliser la photosynthèse.",
+                "Chez les végétaux supérieurs, la forme des chloroplastes est très variables": "C'est incorrect car chez les végétaux supérieurs, la forme des chloroplastes est généralement assez uniforme, ressemblant à un disque ou une lentille.",
+                "Tous les végétaux supérieurs font la photosynthèse": "C'est incorrect car bien que la majorité des végétaux supérieurs réalisent la photosynthèse, il existe des exceptions, comme certaines plantes parasites qui ne possèdent pas de chlorophylle et ne peuvent donc pas réaliser la photosynthèse."
+            }
+        },
+        {
+            "question": "Parmi les combinaisons de caractères suivantes, quelles sont celles qui caractérisent le règne fongique",
+            "options": [
+                "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie",
+                "La capacité de procurer de nouvelles molécules thérapeutiques, la présence de spores biflagellées, l’impact comme agents de biodégradation de denrées alimentaires",
+                "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+                "Des racines chevelues, un mode de vie hétérotrophe, une grande richesse enzymatique",
+                "Une tige, un chapeau, un mode de vie parasitaire"
+            ],
+            "correct_answers": [
+                "Un appareil végétatif filamenteux, la possibilité d’une reproduction asexuée",
+                "Une implication fonctionnelle majeure dans les écosystèmes, la reproduction par des spores, une absorbotrophie"
+            ],
+            "justification_fausses_reponses": {
+                "La capacité de procurer de nouvelles molécules thérapeutiques, la présence de spores biflagellées, l’impact comme agents de biodégradation de denrées alimentaires": "Bien que certains champignons puissent produire des molécules thérapeutiques et agir comme agents de biodégradation, la présence de spores biflagellées n'est pas caractéristique du règne fongique.",
+                "Des racines chevelues, un mode de vie hétérotrophe, une grande richesse enzymatique": "Les champignons n'ont pas de racines chevelues, ce sont les plantes qui en ont. Les champignons ont un mode de vie hétérotrophe, mais ce n'est pas une caractéristique unique à eux.",
+                "Une tige, un chapeau, un mode de vie parasitaire": "Tous les champignons n'ont pas une tige et un chapeau, ces caractéristiques sont spécifiques aux champignons basidiomycètes. De plus, tous les champignons ne sont pas parasites, certains sont saprophytes ou mutualistes."
+            }
+        },
+        {
+            "question": "Parmi les listes ci-dessous, choisir celle(s) qui présente(nt) différents termes dans le l’ordre évolutif, du plus primitif au plus évolué",
+            "options": [
+                "Gynécée isomère, gynécée oligomère",
+                "Dalycarpie, syncarpie",
+                "Ovule orthotrope, ovule anatrope",
+                "Ovaire infère, supère",
+                "Gamopétale, dialypétale"
+            ],
+            "correct_answers": [
+                "Dalycarpie, syncarpie",
+                "Gynécée isomère, gynécée oligomère",
+                "Ovule orthotrope, ovule anatrope"
+            ],
+            "justification_fausses_reponses": {
+                "Ovaire infère, supère": "Cette option est incorrecte car l'ordre évolutif n'est pas respecté. En botanique, un ovaire supère est considéré comme plus primitif qu'un ovaire infère.",
+                "Gamopétale, dialypétale": "Cette option est incorrecte car l'ordre évolutif n'est pas respecté. Les fleurs dialypétales, avec des pétales séparés, sont considérées comme plus primitives que les fleurs gamopétales, avec des pétales fusionnés."
+            }
+        }
+    ]
+}

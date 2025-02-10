@@ -1,0 +1,897 @@
+{
+    "theme": "Biochimie",
+    "questions": [
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La bile est libérée en fonction des besoins dans l’intestin",
+                "La bilirubinémie totale est inférieure à 17 µmol/L",
+                "La bile se présente sous la forme d’un liquide incolore",
+                "La bile est stockée dans la vésicule biliaire",
+                "La bile est produite par le foie"
+            ],
+            "correct_answers": [
+                "La bile est produite par le foie",
+                "La bile est libérée en fonction des besoins dans l’intestin",
+                "La bile est stockée dans la vésicule biliaire",
+                "La bilirubinémie totale est inférieure à 17 µmol/L"
+            ],
+            "justification_fausses_reponses": {
+                "La bile se présente sous la forme d’un liquide incolore": "Cette affirmation est incorrecte car la bile n'est pas incolore. Elle est généralement de couleur jaune à vert foncé en raison de la présence de bilirubine et de biliverdine, des pigments biliaires."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Lors d'une déshydratation extracellulaire on observe :",
+            "options": [
+                "Une dépression des fontanelles",
+                "Une hypotension",
+                "Un pli cutané",
+                "Une perte de poids",
+                "Une soif intense"
+            ],
+            "correct_answers": [
+                "Une soif intense"
+            ],
+            "justification_fausses_reponses": {
+                "Une dépression des fontanelles": "La dépression des fontanelles est un signe de déshydratation intracellulaire, pas extracellulaire. Elle est due à une diminution du volume du liquide céphalorachidien.",
+                "Une hypotension": "L'hypotension peut être un signe de déshydratation sévère, mais elle n'est pas spécifique à la déshydratation extracellulaire. Elle peut également être causée par d'autres facteurs, tels que des problèmes cardiaques ou endocriniens.",
+                "Un pli cutané": "Un pli cutané persistant est un signe de déshydratation, mais il n'est pas spécifique à la déshydratation extracellulaire. Il peut également être observé dans la déshydratation intracellulaire.",
+                "Une perte de poids": "La perte de poids peut être un signe de déshydratation, mais elle n'est pas spécifique à la déshydratation extracellulaire. Elle peut également être causée par d'autres facteurs, tels que la malnutrition ou la maladie."
+            }
+        },
+        {
+            "question": "Parmi les signes cliniques suivants, lequel (lesquels) est (sont) potentiellement présent(s) dans un tableau d’hyperthyroïdie ?",
+            "options": [
+                "Bradycardie",
+                "Constipation",
+                "Amaigrissement rapide avec polyphagie",
+                "Thermophobie",
+                "Nervosité"
+            ],
+            "correct_answers": [
+                "Amaigrissement rapide avec polyphagie",
+                "Nervosité",
+                "Thermophobie"
+            ],
+            "justification_fausses_reponses": {
+                "Bradycardie": "La bradycardie, qui est un ralentissement du rythme cardiaque, est généralement associée à l'hypothyroïdie et non à l'hyperthyroïdie. Dans l'hyperthyroïdie, on observe plutôt une tachycardie, c'est-à-dire une accélération du rythme cardiaque.",
+                "Constipation": "La constipation est généralement un symptôme de l'hypothyroïdie, pas de l'hyperthyroïdie. Dans l'hyperthyroïdie, le métabolisme est accéléré, ce qui peut entraîner une augmentation de la fréquence des selles, et non une constipation."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+                "L’hepcidine est une hormone hypersidérémiante",
+                "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+                "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+                "Le fer de l’hème doit être à l’état ferreux"
+            ],
+            "correct_answers": [
+                "La ferritinémie permet d’apprécier le niveau des stocks en fer de l’organisme",
+                "La transferrine est normalement saturée de 30 à 50% de sa capacité totale",
+                "Le fer sérique et la capacité totale de fixation diminuent en cas de maladies infectieuses et inflammatoires",
+                "Le fer de l’hème doit être à l’état ferreux"
+            ],
+            "justification_fausses_reponses": {
+                "L’hepcidine est une hormone hypersidérémiante": "C'est incorrect. L'hepcidine est une hormone qui régule le métabolisme du fer en inhibant l'exportation du fer par les cellules. Elle est donc hypoferrémiante et non hypersidérémiante."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’électrophorèse des molécules d’ADN sur un gel d’agarose, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+                "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques",
+                "La séparation des molécules d’ADN se fait en fonction de leur charge",
+                "Les molécules d’ADN migrent vers le pôle positif",
+                "Les molécules d’ADN migrent vers le pôle négatif"
+            ],
+            "correct_answers": [
+                "Les molécules d’ADN migrent vers le pôle positif",
+                "La vitesse de migration des molécules d’ADN est inversement proportionnelle à leur taille",
+                "Le Bromure éthidium (BET) permet de visualiser les acides nucléiques"
+            ],
+            "justification_fausses_reponses": {
+                "La séparation des molécules d’ADN se fait en fonction de leur charge": "Cette affirmation est incorrecte car la séparation des molécules d'ADN lors de l'électrophorèse se fait principalement en fonction de leur taille et non de leur charge. Toutes les molécules d'ADN ont une charge négative due à leurs groupes phosphate, donc leur charge est uniforme.",
+                "Les molécules d’ADN migrent vers le pôle négatif": "Cette affirmation est incorrecte car les molécules d'ADN, ayant une charge négative, migrent vers le pôle positif lors de l'électrophorèse."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les enzymes en général, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il s’agit de glucides",
+                "Il s’agit de lipides",
+                "Il s’agit d’acides nucléiques",
+                "Il s’agit de protéines",
+                "Il s’agit de catalyseurs biologiques"
+            ],
+            "correct_answers": [
+                "Il s’agit de protéines",
+                "Il s’agit de catalyseurs biologiques"
+            ],
+            "justification_fausses_reponses": {
+                "Il s’agit de glucides": "Les enzymes ne sont pas des glucides. Les glucides sont des molécules organiques composées de carbone, d'hydrogène et d'oxygène, qui sont principalement utilisées par les organismes pour stocker et libérer de l'énergie.",
+                "Il s’agit de lipides": "Les enzymes ne sont pas des lipides. Les lipides sont des molécules organiques insolubles dans l'eau, qui jouent un rôle important dans le stockage de l'énergie à long terme, l'isolation thermique et la protection des organes vitaux.",
+                "Il s’agit d’acides nucléiques": "Les enzymes ne sont pas des acides nucléiques. Les acides nucléiques, comme l'ADN et l'ARN, sont des molécules qui stockent et transmettent l'information génétique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le métal trouvé dans la molécule de vitamine B12, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Cuivre",
+                "Fer",
+                "Sodium",
+                "Cobalt",
+                "Calcium"
+            ],
+            "correct_answers": [
+                "Cobalt"
+            ],
+            "justification_fausses_reponses": {
+                "Cuivre": "Le cuivre n'est pas le métal trouvé dans la molécule de vitamine B12. C'est le cobalt qui est le métal central de cette vitamine.",
+                "Fer": "Le fer n'est pas le métal trouvé dans la molécule de vitamine B12. Le fer est le métal central de l'hémoglobine, pas de la vitamine B12.",
+                "Sodium": "Le sodium n'est pas le métal trouvé dans la molécule de vitamine B12. Le sodium est un métal alcalin, il ne fait pas partie de la structure de la vitamine B12.",
+                "Calcium": "Le calcium n'est pas le métal trouvé dans la molécule de vitamine B12. Le calcium est un minéral essentiel pour la santé des os et des dents, mais il n'est pas présent dans la structure de la vitamine B12."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Pour initier la transcription d'un gène il est nécessaire d'avoir:",
+            "options": [
+                "Des désoxyribonucléotides triphosphate",
+                "Une ARN polymérase",
+                "Une ADN polymérase",
+                "Un promoteur en amont du gène à transcrire",
+                "Des amorces d'ARN"
+            ],
+            "correct_answers": [
+                "Un promoteur en amont du gène à transcrire",
+                "Une ARN polymérase"
+            ],
+            "justification_fausses_reponses": {
+                "Des désoxyribonucléotides triphosphate": "Les désoxyribonucléotides triphosphate sont nécessaires pour la réplication de l'ADN, pas pour la transcription d'un gène.",
+                "Une ADN polymérase": "L'ADN polymérase est impliquée dans la réplication de l'ADN, pas dans la transcription. C'est l'ARN polymérase qui est nécessaire pour la transcription.",
+                "Des amorces d'ARN": "Les amorces d'ARN sont nécessaires pour initier la réplication de l'ADN, pas la transcription. Dans la transcription, l'ARN polymérase peut commencer la synthèse de l'ARN à partir d'une matrice d'ADN sans amorce."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le processus de rétro-transcription, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Aucune des affirmations n’est exacte",
+                "Il nécessite des amorces spécifiques",
+                "Il est utilisé dans le cadre d’une RT-PCR pour quantifier l’ARN d’un gène",
+                "Il s’agit de la synthèse d’un brin d’ARN à partir d’une matrice d’ADN",
+                "Il s’agit d’une réaction enzymatique nécessitant l’utilisation d’une ADN polymérase RNA dépendante"
+            ],
+            "correct_answers": [
+                "Il s’agit d’une réaction enzymatique nécessitant l’utilisation d’une ADN polymérase RNA dépendante",
+                "Il est utilisé dans le cadre d’une RT-PCR pour quantifier l’ARN d’un gène"
+            ],
+            "justification_fausses_reponses": {
+                "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car il y a des affirmations correctes dans les options.",
+                "Il nécessite des amorces spécifiques": "Cette affirmation est incorrecte car la rétro-transcription ne nécessite pas d'amorces spécifiques. Elle utilise plutôt des amorces aléatoires ou des amorces spécifiques à l'ARN.",
+                "Il s’agit de la synthèse d’un brin d’ARN à partir d’une matrice d’ADN": "Cette affirmation est incorrecte car la rétro-transcription est le processus de synthèse d'un brin d'ADN à partir d'une matrice d'ARN, et non l'inverse."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’ictère à bilirubine exclusivement non conjuguée, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il est observé dans l’hépatite virale",
+                "Il est observé dans les cholestases",
+                "Il est observé dans les déficits complets en glucuronyl transférase hépatique",
+                "Il est observé dans les anémies hémolytiques",
+                "Il est observé dans la cirrhose hépatique"
+            ],
+            "correct_answers": [
+                "Il est observé dans les anémies hémolytiques",
+                "Il est observé dans les déficits complets en glucuronyl transférase hépatique"
+            ],
+            "justification_fausses_reponses": {
+                "Il est observé dans l’hépatite virale": "L'hépatite virale provoque une augmentation de la bilirubine conjuguée, pas non conjuguée. La bilirubine non conjuguée est augmentée lorsque le foie ne peut pas la convertir en bilirubine conjuguée, ce qui n'est pas le cas dans l'hépatite virale.",
+                "Il est observé dans les cholestases": "La cholestase est une condition où le flux de bile du foie est bloqué. Cela conduit à une augmentation de la bilirubine conjuguée, pas non conjuguée, dans le sang.",
+                "Il est observé dans la cirrhose hépatique": "La cirrhose hépatique peut entraîner une augmentation de la bilirubine conjuguée et non conjuguée. Cependant, l'ictère à bilirubine exclusivement non conjuguée est généralement dû à une surproduction de bilirubine ou à un déficit en glucuronyl transférase hépatique, pas à la cirrhose."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la PCR quantitative en temps réel, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il s’agit d’une mesure en point final",
+                "Aucune des affirmations n’est exacte",
+                "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence",
+                "Elle mesure la quantité d’amorces utilisées",
+                "Le Cycle seuil (Ct) permet la quantification du gène amplifié"
+            ],
+            "correct_answers": [
+                "Le Cycle seuil (Ct) permet la quantification du gène amplifié",
+                "Elle mesure en continu la synthèse d’ADN par incorporation de fluorescence"
+            ],
+            "justification_fausses_reponses": {
+                "Il s’agit d’une mesure en point final": "C'est incorrect car la PCR quantitative en temps réel est une mesure en continu et non en point final. Elle permet de suivre la réaction en temps réel et non seulement à la fin de la réaction.",
+                "Aucune des affirmations n’est exacte": "C'est incorrect car certaines des affirmations sont exactes. En particulier, la PCR quantitative en temps réel mesure en continu la synthèse d'ADN par incorporation de fluorescence et le Cycle seuil (Ct) permet la quantification du gène amplifié.",
+                "Elle mesure la quantité d’amorces utilisées": "C'est incorrect car la PCR quantitative en temps réel ne mesure pas la quantité d'amorces utilisées. Elle mesure plutôt la quantité d'ADN synthétisé en temps réel."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes",
+                "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+                "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+                "Les glycogénoses sont des pathologies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme des glycoprotéines",
+                "Les molécules énergétiques utilisées par le cerveau sont le glucose en période post-prandiale et les acides gras en période de jeûne"
+            ],
+            "correct_answers": [
+                "Le muscle au repos utilise principalement les acides gras comme molécules énergétiques",
+                "Le muscle squelettique et le tissu adipeux sont des tissus insulino-dépendants, ce qui signifie que l’utilisation du glucose y est dépendante de la présence d’insuline",
+                "Les GLUT sont des transporteurs membranaires de glucose dont l’expression tissulaire et l’affinité pour le glucose varient selon les organes"
+            ],
+            "justification_fausses_reponses": {
+                "Les glycogénoses sont des pathologies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme des glycoprotéines": "Cette affirmation est incorrecte car les glycogénoses sont des maladies héréditaires causées par des mutations de gènes codant des enzymes du métabolisme du glycogène, et non des glycoprotéines.",
+                "Les molécules énergétiques utilisées par le cerveau sont le glucose en période post-prandiale et les acides gras en période de jeûne": "Cette affirmation est fausse car le cerveau ne peut pas utiliser les acides gras comme source d'énergie en raison de la barrière hémato-encéphalique. Il utilise le glucose en permanence, et en cas de jeûne prolongé, il peut utiliser les corps cétoniques."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Le fer alimentaire est absorbé sous forme ferreuse ou sous forme d'hème",
+                "Le fer alimentaire est absorbé par simple diffusion",
+                "Une fois dans l’entérocyte, il peut être éliminé sous forme de ferritine par desquamation de la muqueuse intestinale",
+                "Le fer alimentaire est absorbé en fonction des besoins",
+                "Dans le sang, il est transporté lié à la transferrine"
+            ],
+            "correct_answers": [
+                "Le fer alimentaire est absorbé sous forme ferreuse ou sous forme d'hème",
+                "Le fer alimentaire est absorbé en fonction des besoins",
+                "Une fois dans l’entérocyte, il peut être éliminé sous forme de ferritine par desquamation de la muqueuse intestinale",
+                "Dans le sang, il est transporté lié à la transferrine"
+            ],
+            "justification_fausses_reponses": {
+                "Le fer alimentaire est absorbé par simple diffusion": "Cette affirmation est incorrecte car l'absorption du fer alimentaire n'est pas un processus passif de simple diffusion. Elle nécessite l'intervention de transporteurs spécifiques, comme la DMT1 (Divalent Metal Transporter 1) pour le fer ferreux et le récepteur de l'hème pour le fer héminique."
+            }
+        },
+        {
+            "question": "Il existe des liens entre le métabolisme des acides aminés et le métabolisme énergétique. Parmi les liens proposés, lequel (lesquels) est (sont) exacte(s) ?",
+            "options": [
+                "Pyruvate",
+                "Alpha cétoglutarate",
+                "Oxaloacétate",
+                "Alanine",
+                "Citrate"
+            ],
+            "correct_answers": [
+                "Pyruvate",
+                "Oxaloacétate",
+                "Alpha cétoglutarate",
+                "Alanine"
+            ],
+            "justification_fausses_reponses": {
+                "Citrate": "Le citrate n'est pas directement impliqué dans le métabolisme des acides aminés. Il est un intermédiaire du cycle de Krebs, mais ne fait pas le lien direct avec le métabolisme des acides aminés."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les acides aminés, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Certains sont indispensables au métabolisme des nucléotides",
+                "Aucune réponse n’est exacte",
+                "Chez l’Homme, chaque acide aminé est synthétisé de novo",
+                "Ils peuvent être classés en cinq familles biosynthétiques",
+                "Ils peuvent être classés en acides aminés essentiels et non essentiels"
+            ],
+            "correct_answers": [
+                "Ils peuvent être classés en acides aminés essentiels et non essentiels",
+                "Certains sont indispensables au métabolisme des nucléotides"
+            ],
+            "justification_fausses_reponses": {
+                "Aucune réponse n’est exacte": "Cette affirmation est incorrecte car il y a des réponses correctes dans les options proposées.",
+                "Chez l’Homme, chaque acide aminé est synthétisé de novo": "Cette affirmation est incorrecte car chez l'homme, tous les acides aminés ne sont pas synthétisés de novo. Certains acides aminés, appelés acides aminés essentiels, ne peuvent pas être synthétisés par l'organisme et doivent donc être apportés par l'alimentation.",
+                "Ils peuvent être classés en cinq familles biosynthétiques": "Cette affirmation est incorrecte car les acides aminés ne sont pas classés en cinq familles biosynthétiques. Ils sont généralement classés en fonction de leurs propriétés chimiques ou de leur rôle dans le métabolisme."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’électrophorèse des variants de l’hémoglobine, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le point isoelectrique de l’HbS est plus élevé que celui de l’HbA1",
+                "C’est une aide au diagnostic des hémoglobinopathies",
+                "C’est une aide au diagnostic des porphyries",
+                "Cette électrophorèse est réalisable sur gel d’agarose ou par électrophorèse capillaire",
+                "Toutes les affirmations sont exactes"
+            ],
+            "correct_answers": [
+                "Cette électrophorèse est réalisable sur gel d’agarose ou par électrophorèse capillaire",
+                "C’est une aide au diagnostic des hémoglobinopathies",
+                "Le point isoelectrique de l’HbS est plus élevé que celui de l’HbA1"
+            ],
+            "justification_fausses_reponses": {
+                "C’est une aide au diagnostic des porphyries": "L'électrophorèse des variants de l'hémoglobine n'est pas utilisée pour le diagnostic des porphyries. Les porphyries sont des maladies métaboliques rares liées à un défaut de synthèse de l'hème, et leur diagnostic repose sur d'autres méthodes, comme la mesure des porphyrines dans le sang, les urines ou les selles.",
+                "Toutes les affirmations sont exactes": "Cette affirmation est incorrecte car l'électrophorèse des variants de l'hémoglobine n'est pas une aide au diagnostic des porphyries, comme expliqué précédemment."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la vitamine D, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "C'est une vitamine liposoluble, faisant partie des stérols",
+                "Elle agit sur l'intestin, l'os et le rein",
+                "L'ergocalciférol est utilisé dans les compléments alimentaires",
+                "Sa surcharge entraîne une ostéolyse accrue",
+                "Le cholécalciférol correspond à la vitamine D2"
+            ],
+            "correct_answers": [
+                "C'est une vitamine liposoluble, faisant partie des stérols",
+                "L'ergocalciférol est utilisé dans les compléments alimentaires",
+                "Elle agit sur l'intestin, l'os et le rein",
+                "Sa surcharge entraîne une ostéolyse accrue"
+            ],
+            "justification_fausses_reponses": {
+                "Le cholécalciférol correspond à la vitamine D2": "Cette affirmation est incorrecte car le cholécalciférol correspond à la vitamine D3 et non à la vitamine D2. La vitamine D2, ou ergocalciférol, est une forme de vitamine D que l'on trouve principalement dans les plantes et les compléments alimentaires."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le métabolisme des nucléotides, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Les pyrimidines sont d’abord synthétisées puis fixées sur le phosphoribose",
+                "Les pyrimidines sont synthétisées directement sur le phosphoribose",
+                "Les purines sont d’abord synthétisées puis fixées sur le phosphoribose",
+                "Les purines sont synthétisées directement sur le phosphoribose",
+                "Les nucléotides peuvent être synthétisés par des voies dites de récupération"
+            ],
+            "correct_answers": [
+                "Les pyrimidines sont d’abord synthétisées puis fixées sur le phosphoribose",
+                "Les purines sont synthétisées directement sur le phosphoribose",
+                "Les nucléotides peuvent être synthétisés par des voies dites de récupération"
+            ],
+            "justification_fausses_reponses": {
+                "Les pyrimidines sont synthétisées directement sur le phosphoribose": "Cette affirmation est incorrecte car les pyrimidines sont d'abord synthétisées puis fixées sur le phosphoribose. Le processus de synthèse des pyrimidines est différent de celui des purines.",
+                "Les purines sont d’abord synthétisées puis fixées sur le phosphoribose": "Cette affirmation est incorrecte car les purines sont synthétisées directement sur le phosphoribose. C'est une caractéristique unique du métabolisme des purines."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ? Concernant la créatinine plasmatique :",
+            "options": [
+                "Elle est réabsorbée après filtration glomérulaire",
+                "Elle provient du catabolisme de la créatine musculaire",
+                "Elle est physiologiquement plus élevée chez l'homme que chez la femme",
+                "Elle est augmentée au cours de l'insuffisance rénale chronique",
+                "Elle circule liée aux protéines plasmatiques"
+            ],
+            "correct_answers": [
+                "Elle provient du catabolisme de la créatine musculaire",
+                "Elle est augmentée au cours de l'insuffisance rénale chronique",
+                "Elle est physiologiquement plus élevée chez l'homme que chez la femme"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est réabsorbée après filtration glomérulaire": "La créatinine n'est pas réabsorbée après filtration glomérulaire. Elle est filtrée par les glomérules rénaux et excrétée dans l'urine sans être réabsorbée par les tubules rénaux.",
+                "Elle circule liée aux protéines plasmatiques": "La créatinine ne circule pas liée aux protéines plasmatiques. Elle est une petite molécule qui est librement filtrée par les glomérules rénaux et n'est pas liée aux protéines."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’électrophorèse des variants de l’hémoglobine, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Toutes les affirmations sont exactes",
+                "L’électrophorèse s’effectue avec un tampon de migration de pH alcalin",
+                "Les variants de l’hémoglobine migrent de l’anode vers la cathode si le tampon de migration est de pH alcalin",
+                "Cette technique permet de déterminer l’état homozygote ou hétérozygote d’un patient pour une mutation donnée",
+                "L’électrophorèse sépare les variants d’hémoglobine en fonction de leur charge"
+            ],
+            "correct_answers": [
+                "L’électrophorèse s’effectue avec un tampon de migration de pH alcalin",
+                "L’électrophorèse sépare les variants d’hémoglobine en fonction de leur charge",
+                "Cette technique permet de déterminer l’état homozygote ou hétérozygote d’un patient pour une mutation donnée"
+            ],
+            "justification_fausses_reponses": {
+                "Toutes les affirmations sont exactes": "Cette affirmation est incorrecte car toutes les affirmations ne sont pas exactes. Par exemple, l'affirmation 'Les variants de l’hémoglobine migrent de l’anode vers la cathode si le tampon de migration est de pH alcalin' est fausse.",
+                "Les variants de l’hémoglobine migrent de l’anode vers la cathode si le tampon de migration est de pH alcalin": "Cette affirmation est incorrecte. En réalité, dans un tampon de pH alcalin, les variants de l'hémoglobine migrent de la cathode vers l'anode en raison de leur charge négative."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le virus de l’hépatite A, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il peut entraîner une hépatite chronique",
+                "L’infection peut être prévenue par vaccination",
+                "C’est un virus à ADN",
+                "Il peut entraîner une hépatite fulminante",
+                "Il est transmis par voie orofécale"
+            ],
+            "correct_answers": [
+                "Il est transmis par voie orofécale",
+                "Il peut entraîner une hépatite fulminante",
+                "L’infection peut être prévenue par vaccination"
+            ],
+            "justification_fausses_reponses": {
+                "Il peut entraîner une hépatite chronique": "Le virus de l'hépatite A ne provoque pas d'hépatite chronique. Il provoque une infection aiguë qui se résout généralement d'elle-même.",
+                "C’est un virus à ADN": "Le virus de l'hépatite A est un virus à ARN, pas un virus à ADN. Les virus à ARN utilisent l'acide ribonucléique comme matériel génétique, contrairement aux virus à ADN."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le glutamate, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il permet l’assimilation de l’azote",
+                "Il peut être transformé en glutamine",
+                "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+                "Il peut être synthétisé à partir de l’alpha cétobutyrate",
+                "Son seul devenir est la synthèse protéique"
+            ],
+            "correct_answers": [
+                "Il peut être synthétisé à partir de l’alpha cétoglutarate",
+                "Il permet l’assimilation de l’azote",
+                "Il peut être transformé en glutamine"
+            ],
+            "justification_fausses_reponses": {
+                "Il peut être synthétisé à partir de l’alpha cétobutyrate": "C'est incorrect car le glutamate est synthétisé à partir de l'alpha cétoglutarate, et non de l'alpha cétobutyrate. L'alpha cétobutyrate n'est pas impliqué dans la synthèse du glutamate.",
+                "Son seul devenir est la synthèse protéique": "C'est faux car le glutamate a plusieurs devenirs possibles. Il peut être transformé en glutamine, il peut permettre l'assimilation de l'azote et il peut être synthétisé à partir de l'alpha cétoglutarate. La synthèse protéique n'est donc pas son unique devenir."
+            }
+        },
+        {
+            "question": "Parmi ces substances, quelle est celle qui est prescrite afin de limiter la toxicité du méthotrexate lorsque ce dernier est administré à hautes doses ?",
+            "options": [
+                "Vitamine A",
+                "Vitamine B12",
+                "Acide folinique",
+                "Vitamine C",
+                "Calciferol"
+            ],
+            "correct_answers": [
+                "Acide folinique"
+            ],
+            "justification_fausses_reponses": {
+                "Vitamine A": "La vitamine A n'a pas d'effet sur la toxicité du méthotrexate. Elle est principalement impliquée dans la vision, la croissance cellulaire et le système immunitaire.",
+                "Vitamine B12": "La vitamine B12 n'a pas d'effet sur la toxicité du méthotrexate. Elle est nécessaire pour la formation des globules rouges et le fonctionnement du système nerveux.",
+                "Vitamine C": "La vitamine C n'a pas d'effet sur la toxicité du méthotrexate. Elle est un antioxydant qui protège le corps contre les radicaux libres et aide à la production de collagène.",
+                "Calciferol": "Le calciférol (vitamine D) n'a pas d'effet sur la toxicité du méthotrexate. Il est nécessaire pour l'absorption du calcium et du phosphore dans l'organisme."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les signes fréquemment rencontrés lors d’une cirrhose décompensée, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Une augmentation de l’albumine sérique",
+                "Une formation d’un liquide d’ascite",
+                "Une augmentation de la zone alpha 2 du protéinogramme",
+                "Une augmentation de la bilirubine totale plasmatique",
+                "Une hyperammoniémie"
+            ],
+            "correct_answers": [
+                "Une formation d’un liquide d’ascite",
+                "Une hyperammoniémie",
+                "Une augmentation de la bilirubine totale plasmatique"
+            ],
+            "justification_fausses_reponses": {
+                "Une augmentation de l’albumine sérique": "Dans le cas d'une cirrhose décompensée, l'albumine sérique diminue généralement en raison d'une diminution de la production hépatique. Donc, une augmentation de l'albumine sérique n'est pas un signe typique de cette maladie.",
+                "Une augmentation de la zone alpha 2 du protéinogramme": "L'augmentation de la zone alpha 2 du protéinogramme n'est pas un signe spécifique de la cirrhose décompensée. Elle peut être observée dans diverses conditions pathologiques, notamment les inflammations aiguës et chroniques, les néoplasies et les maladies du foie."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+                "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+                "La néoglucogenèse est la voie métabolique de synthèse du glycogène à partir d’éléments non glucidiques",
+                "Le glycogène hépatique et le glycogène musculaire permettent le maintien d’une glycémie constante",
+                "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+            ],
+            "correct_answers": [
+                "L’oxydation complète d’une molécule de glucose par la voie de la glycolyse, du cycle de Krebs et de la chaîne respiratoire conduit à la formation d’environ 30 molécules d’ATP",
+                "Le muscle peut utiliser le glucose, les acides gras et les corps cétoniques comme molécules énergétiques",
+                "Le cycle de Cori permet au muscle en contraction intense d’utiliser le glucose produit par la néoglucogenèse hépatique"
+            ],
+            "justification_fausses_reponses": {
+                "La néoglucogenèse est la voie métabolique de synthèse du glycogène à partir d’éléments non glucidiques": "La néoglucogenèse est en réalité la voie métabolique qui permet la synthèse de glucose à partir de précurseurs non glucidiques, et non la synthèse du glycogène.",
+                "Le glycogène hépatique et le glycogène musculaire permettent le maintien d’une glycémie constante": "Seul le glycogène hépatique contribue au maintien de la glycémie. Le glycogène musculaire est utilisé localement par le muscle et ne contribue pas à la glycémie."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’électrophorèse sur gel d’agarose des protéines sériques, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Aucune des affirmations n’est exacte",
+                "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+                "Cette technique d’analyse permet une séparation fine des protéines sériques",
+                "L’électrophorèse est associée à un dosage protéique",
+                "L’électrophorèse des protéines sériques est une analyse de routine"
+            ],
+            "correct_answers": [
+                "L’analyse du profil électrophorétique est une aide au diagnostic médical",
+                "L’électrophorèse des protéines sériques est une analyse de routine",
+                "L’électrophorèse est associée à un dosage protéique"
+            ],
+            "justification_fausses_reponses": {
+                "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car l'électrophorèse sur gel d'agarose des protéines sériques est une technique d'analyse qui aide au diagnostic médical, est associée à un dosage protéique et est une analyse de routine.",
+                "Cette technique d’analyse permet une séparation fine des protéines sériques": "Cette affirmation est incorrecte car bien que l'électrophorèse sur gel d'agarose permette une séparation des protéines sériques, elle ne permet pas une séparation 'fine' ou très détaillée des protéines. Pour une séparation plus détaillée, d'autres techniques comme l'électrophorèse sur gel de polyacrylamide sont utilisées."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte (s) ? Dans l'insuffisance rénale chronique non traitée on observe :",
+            "options": [
+                "Une hypokaliémie",
+                "Une diminution de la clairance de la créatinine",
+                "Une anémie",
+                "Une hypocalcémie",
+                "Une destruction progressive de néphrons"
+            ],
+            "correct_answers": [
+                "Une destruction progressive de néphrons",
+                "Une hypocalcémie",
+                "Une anémie",
+                "Une diminution de la clairance de la créatinine"
+            ],
+            "justification_fausses_reponses": {
+                "Une hypokaliémie": "Dans l'insuffisance rénale chronique, on observe généralement une hyperkaliémie, et non une hypokaliémie. Cela est dû à une diminution de l'excrétion rénale du potassium."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le syndrome de cholestase, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il se caractérise par des selles décolorées",
+                "Il se caractérise par une diminution de facteur V plasmatique",
+                "Il se caractérise par une augmentation de l'activité sérique de l'aspartate aminotransférase",
+                "Il se caractérise par une augmentation de l'activité sérique de la phosphatase alcaline",
+                "Il se caractérise par une augmentation de la concentration sérique de bilirubine conjuguée"
+            ],
+            "correct_answers": [
+                "Il se caractérise par une augmentation de la concentration sérique de bilirubine conjuguée",
+                "Il se caractérise par une augmentation de l'activité sérique de la phosphatase alcaline",
+                "Il se caractérise par des selles décolorées"
+            ],
+            "justification_fausses_reponses": {
+                "Il se caractérise par une diminution de facteur V plasmatique": "Le facteur V plasmatique n'est pas directement lié à la cholestase. Il est plutôt associé à la coagulation sanguine.",
+                "Il se caractérise par une augmentation de l'activité sérique de l'aspartate aminotransférase": "L'augmentation de l'activité sérique de l'aspartate aminotransférase n'est pas spécifique à la cholestase. Elle peut être observée dans diverses conditions pathologiques, notamment les maladies hépatiques."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes relatives aux vitamines, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L’anémie pernicieuse ou maladie de Biermer résulte d’une carence en vitamine B2 induite par un déficit de son absorption intestinale",
+                "La vitamine C est un cofacteur essentiel dans la biosynthèse du collagène",
+                "La dihydrofolate réductase est la cible thérapeutique du méthotrexate",
+                "La vitamine B9 correspond à la folacine, vitamine hydrosoluble nécessaire à la synthèse du F AD et du FMN",
+                "L’absorption intestinale des vitamines hydrosolubles est diminuée par la Colestyramine (Questran)"
+            ],
+            "correct_answers": [
+                "La vitamine C est un cofacteur essentiel dans la biosynthèse du collagène",
+                "La dihydrofolate réductase est la cible thérapeutique du méthotrexate"
+            ],
+            "justification_fausses_reponses": {
+                "L’anémie pernicieuse ou maladie de Biermer résulte d’une carence en vitamine B2 induite par un déficit de son absorption intestinale": "Cette affirmation est incorrecte car l'anémie pernicieuse est due à une carence en vitamine B12, pas en vitamine B2.",
+                "La vitamine B9 correspond à la folacine, vitamine hydrosoluble nécessaire à la synthèse du F AD et du FMN": "Cette affirmation est incorrecte car la vitamine B9, aussi appelée folacine ou acide folique, est nécessaire à la synthèse des acides nucléiques (ADN et ARN), pas du F AD et du FMN.",
+                "L’absorption intestinale des vitamines hydrosolubles est diminuée par la Colestyramine (Questran)": "Cette affirmation est incorrecte car la Colestyramine (Questran) est un médicament qui diminue l'absorption des graisses et des vitamines liposolubles, pas des vitamines hydrosolubles."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la PCR laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+                "Elle nécessite l’utilisation d’amorces d’ARN",
+                "Il s’agit d’une technique d’amplification d’ADN",
+                "Il s’agit d’une technique de clonage cellulaire",
+                "Elle nécessite l’utilisation d’amorces aléatoires"
+            ],
+            "correct_answers": [
+                "Elle nécessite la répétition de cycles alternant dénaturation, hybridation et élongation",
+                "Il s’agit d’une technique d’amplification d’ADN"
+            ],
+            "justification_fausses_reponses": {
+                "Elle nécessite l’utilisation d’amorces d’ARN": "La PCR utilise des amorces d'ADN, pas d'ARN. Les amorces sont des courts fragments d'ADN qui servent de point de départ à la synthèse d'ADN.",
+                "Il s’agit d’une technique de clonage cellulaire": "La PCR est une technique d'amplification d'ADN, pas de clonage cellulaire. Elle permet de produire de grandes quantités d'une séquence d'ADN spécifique à partir d'une petite quantité initiale.",
+                "Elle nécessite l’utilisation d’amorces aléatoires": "La PCR nécessite l'utilisation d'amorces spécifiques, pas aléatoires. Ces amorces sont conçues pour se lier à des séquences spécifiques de l'ADN cible."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le bromure d’éthidium, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il permet de visualiser les acides nucléiques",
+                "Il permet d’extraire les ARN des cellules",
+                "Aucune des affirmations n’est exacte",
+                "Il dénature l’ADN",
+                "Il dégrade spécifiquement l’ADN"
+            ],
+            "correct_answers": [
+                "Il permet de visualiser les acides nucléiques"
+            ],
+            "justification_fausses_reponses": {
+                "Il permet d’extraire les ARN des cellules": "Le bromure d'éthidium n'est pas utilisé pour extraire les ARN des cellules. Il est principalement utilisé pour visualiser les acides nucléiques.",
+                "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car le bromure d'éthidium permet effectivement de visualiser les acides nucléiques.",
+                "Il dénature l’ADN": "Le bromure d'éthidium ne dénature pas l'ADN, il s'intercale entre les bases de l'ADN, permettant sa visualisation sous UV.",
+                "Il dégrade spécifiquement l’ADN": "Le bromure d'éthidium ne dégrade pas l'ADN, il se lie à l'ADN et permet sa visualisation sous UV."
+            }
+        },
+        {
+            "question": "Le métabolisme des acides aminés est lié à d’autres voies métaboliques. Laquelle (lesquelles) ?",
+            "options": [
+                "Glycolyse",
+                "Néoglucogenèse",
+                "Voie des pentoses phosphate",
+                "Cycle de Krebs",
+                "Biosynthèse des nucléotides"
+            ],
+            "correct_answers": [
+                "Cycle de Krebs",
+                "Voie des pentoses phosphate",
+                "Biosynthèse des nucléotides",
+                "Glycolyse",
+                "Néoglucogenèse"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le cycle de l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il permet la synthèse de l’arginine",
+                "Il est exclusivement cytoplasmique",
+                "Il permet la synthèse de l’alanine",
+                "Il permet la synthèse du pyruvate",
+                "Il est exclusivement mitochondrial"
+            ],
+            "correct_answers": [
+                "Il permet la synthèse de l’arginine"
+            ],
+            "justification_fausses_reponses": {
+                "Il est exclusivement cytoplasmique": "Le cycle de l'urée se déroule à la fois dans le cytoplasme et la mitochondrie, il n'est donc pas exclusivement cytoplasmique.",
+                "Il permet la synthèse de l’alanine": "Le cycle de l'urée ne permet pas la synthèse de l'alanine. L'alanine est un acide aminé qui est synthétisé par transamination à partir du pyruvate.",
+                "Il permet la synthèse du pyruvate": "Le cycle de l'urée ne permet pas la synthèse du pyruvate. Le pyruvate est un produit de la glycolyse, pas du cycle de l'urée.",
+                "Il est exclusivement mitochondrial": "Le cycle de l'urée se déroule à la fois dans le cytoplasme et la mitochondrie, il n'est donc pas exclusivement mitochondrial."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine",
+                "En électrophorèse, la béta thalassémie se caractérise par une augmentation de l’HbA1",
+                "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+                "Aucune des affirmations n’est exacte",
+                "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique"
+            ],
+            "correct_answers": [
+                "L’analyse d’un profil électrophorétique permet l’identification d’une hémoglobine pathologique",
+                "Une hémoglobinopathie est diagnostiquable à l’aide d’une électrophorèse de zone",
+                "La présence d’une bande électrophorétique d'Hb A2 intense correspond à une autre hémoglobine"
+            ],
+            "justification_fausses_reponses": {
+                "En électrophorèse, la béta thalassémie se caractérise par une augmentation de l’HbA1": "C'est incorrect car la béta thalassémie se caractérise par une diminution de l'HbA1, pas une augmentation. L'HbA1 est une forme d'hémoglobine, et sa diminution est un signe de la béta thalassémie, une maladie génétique qui affecte la production d'hémoglobine.",
+                "Aucune des affirmations n’est exacte": "C'est incorrect car certaines des affirmations sont exactes. Par exemple, l'analyse d'un profil électrophorétique peut permettre l'identification d'une hémoglobine pathologique, et une hémoglobinopathie peut être diagnostiquée à l'aide d'une électrophorèse de zone."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant l’urée, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "C’est une molécule hydrophobe",
+                "Elle est éliminée principalement par voie biliaire",
+                "Elle est synthétisée par le rein",
+                "Elle est éliminée principalement par voie rénale",
+                "Elle est éliminée principalement par voie fécale"
+            ],
+            "correct_answers": [
+                "Elle est éliminée principalement par voie rénale"
+            ],
+            "justification_fausses_reponses": {
+                "C’est une molécule hydrophobe": "L'urée est une molécule hydrophile, pas hydrophobe. Elle est soluble dans l'eau, ce qui permet son élimination par l'urine.",
+                "Elle est éliminée principalement par voie biliaire": "L'urée n'est pas principalement éliminée par la voie biliaire. Elle est principalement éliminée par les reins via l'urine.",
+                "Elle est synthétisée par le rein": "L'urée n'est pas synthétisée par le rein, mais par le foie. Le rein est responsable de son élimination.",
+                "Elle est éliminée principalement par voie fécale": "L'urée n'est pas principalement éliminée par la voie fécale. Elle est principalement éliminée par les reins via l'urine."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La totalité de la T3 est synthétisée dans la thyroïde",
+                "La T3 est la forme active des hormones thyroïdiennes",
+                "La T4 est une pro-hormone inactive",
+                "Les hormones thyroïdiennes sont des hormones stéroïdes",
+                "La TSH est une hormone thyroïdienne"
+            ],
+            "correct_answers": [
+                "La T4 est une pro-hormone inactive",
+                "La T3 est la forme active des hormones thyroïdiennes"
+            ],
+            "justification_fausses_reponses": {
+                "La totalité de la T3 est synthétisée dans la thyroïde": "C'est incorrect car une partie de la T3 est synthétisée dans la thyroïde, mais une autre partie est produite à partir de la T4 dans les tissus périphériques.",
+                "Les hormones thyroïdiennes sont des hormones stéroïdes": "C'est incorrect car les hormones thyroïdiennes, comme la T3 et la T4, sont des hormones iodées, et non des hormones stéroïdes.",
+                "La TSH est une hormone thyroïdienne": "C'est incorrect car la TSH (Thyroid Stimulating Hormone) est une hormone hypophysaire qui stimule la thyroïde, mais n'est pas elle-même une hormone thyroïdienne."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le foie produit environ 500 ml de bile par jour",
+                "La bilirubine est le produit du catabolisme de l'hème",
+                "La bilirubine conjuguée est toxique",
+                "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène",
+                "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble"
+            ],
+            "correct_answers": [
+                "Le foie produit environ 500 ml de bile par jour",
+                "La bilirubine est le produit du catabolisme de l'hème",
+                "La conjugaison a pour but de transformer la bilirubine libre insoluble en une forme soluble",
+                "La bilirubine est réduite dans l’intestin par des bactéries anaérobies en urobilinogène"
+            ],
+            "justification_fausses_reponses": {
+                "La bilirubine conjuguée est toxique": "Cette affirmation est incorrecte. En réalité, c'est la bilirubine non conjuguée qui est toxique car elle est liposoluble et peut traverser la barrière hémato-encéphalique, ce qui peut entraîner une neurotoxicité. La bilirubine conjuguée, en revanche, est soluble dans l'eau et est donc moins toxique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s) ? Un syndrome néphrotique entraîne généralement :",
+            "options": [
+                "Une augmentation des gamma-globulines sériques",
+                "Des œdèmes",
+                "Un risque de thrombose",
+                "Une hypercholestérolémie",
+                "Une hypoalbuminémie à moins de 30 g/L"
+            ],
+            "correct_answers": [
+                "Une augmentation des gamma-globulines sériques"
+            ],
+            "justification_fausses_reponses": {
+                "Des œdèmes": "Cette affirmation est incorrecte car le syndrome néphrotique entraîne généralement des œdèmes. Cela est dû à une perte excessive de protéines dans l'urine, ce qui diminue la pression osmotique du sang et favorise l'accumulation de liquide dans les tissus.",
+                "Un risque de thrombose": "Cette affirmation est incorrecte car le syndrome néphrotique augmente le risque de thrombose. La perte de protéines anticoagulantes dans l'urine peut entraîner un état d'hypercoagulabilité.",
+                "Une hypercholestérolémie": "Cette affirmation est incorrecte car le syndrome néphrotique peut entraîner une hypercholestérolémie. La perte de protéines dans l'urine stimule le foie à produire plus de protéines, y compris des lipoprotéines qui transportent le cholestérol, ce qui peut augmenter le taux de cholestérol dans le sang.",
+                "Une hypoalbuminémie à moins de 30 g/L": "Cette affirmation est incorrecte car le syndrome néphrotique entraîne généralement une hypoalbuminémie à moins de 30 g/L. La perte excessive de protéines dans l'urine entraîne une diminution du taux d'albumine dans le sang."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant les glycosaminoglycanes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "L’arthrose résulte d’un appauvrissement en chondroïtine sulfate des cartilages",
+                "Des glycosaminoglycanes s’accumulent chez les patients atteints de maladie de Gaucher",
+                "L’acide hyaluronique est un glycosaminoglycane",
+                "C’est un composant protéique majeur des matrices extracellulaires du tissu conjonctif",
+                "Les mucopolysaccharidoses sont des maladies causées par un déficit enzymatique du catabolisme des glycosaminoglycanes"
+            ],
+            "correct_answers": [
+                "L’arthrose résulte d’un appauvrissement en chondroïtine sulfate des cartilages",
+                "L’acide hyaluronique est un glycosaminoglycane",
+                "Les mucopolysaccharidoses sont des maladies causées par un déficit enzymatique du catabolisme des glycosaminoglycanes"
+            ],
+            "justification_fausses_reponses": {
+                "Des glycosaminoglycanes s’accumulent chez les patients atteints de maladie de Gaucher": "C'est incorrect car dans la maladie de Gaucher, ce sont les glucocérébrosides, et non les glycosaminoglycanes, qui s'accumulent en raison d'un déficit enzymatique.",
+                "C’est un composant protéique majeur des matrices extracellulaires du tissu conjonctif": "C'est incorrect car les glycosaminoglycanes sont des polysaccharides, et non des protéines. Ils sont cependant un composant majeur des matrices extracellulaires du tissu conjonctif."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La thyroïdite de De Quervain survient généralement après une affection ORL",
+                "La thyroïdite du post-partum survient majoritairement chez les femmes diabétiques",
+                "Un bilan thyroïdien de base comprend a minima  le dosage de la T SH et le dosage de l’iode circulant",
+                "La maladie de Basedow est systématiquement associée à des signes oculaires tels que rétraction de la paupière et protrusion du globe oculaire",
+                "Le traitement de première intention de la maladie de Basedow est l’exérèse totale de la thyroïde"
+            ],
+            "correct_answers": [
+                "La thyroïdite de De Quervain survient généralement après une affection ORL"
+            ],
+            "justification_fausses_reponses": {
+                "La thyroïdite du post-partum survient majoritairement chez les femmes diabétiques": "La thyroïdite du post-partum n'est pas spécifiquement liée au diabète. Elle peut survenir chez n'importe quelle femme après l'accouchement, indépendamment de son état de santé.",
+                "Un bilan thyroïdien de base comprend a minima  le dosage de la T SH et le dosage de l’iode circulant": "Un bilan thyroïdien de base comprend généralement le dosage de la TSH (hormone stimulant la thyroïde) et de la T4 libre, mais pas nécessairement le dosage de l'iode circulant.",
+                "La maladie de Basedow est systématiquement associée à des signes oculaires tels que rétraction de la paupière et protrusion du globe oculaire": "Bien que les signes oculaires soient courants dans la maladie de Basedow, ils ne sont pas systématiquement présents. De plus, ils peuvent varier en gravité d'une personne à l'autre.",
+                "Le traitement de première intention de la maladie de Basedow est l’exérèse totale de la thyroïde": "L'exérèse totale de la thyroïde n'est généralement pas le premier choix de traitement pour la maladie de Basedow. Le traitement initial comprend généralement des médicaments antithyroïdiens."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) inexacte(s)? Le téríparatide (Forstéo*)",
+            "options": [
+                "Est utilisé dans le traitement de l'ostéoporose post-ménopausique",
+                "Est de la parathormone",
+                "S'administre par voie intramusculaire",
+                "Est un peptide",
+                "Est une hormone antéhypophysaire"
+            ],
+            "correct_answers": [
+                "Est une hormone antéhypophysaire",
+                "S'administre par voie intramusculaire"
+            ],
+            "justification_fausses_reponses": {
+                "Est utilisé dans le traitement de l'ostéoporose post-ménopausique": "Cette affirmation est correcte. Le téríparatide est bien utilisé dans le traitement de l'ostéoporose post-ménopausique.",
+                "Est de la parathormone": "Cette affirmation est correcte. Le téríparatide est une forme synthétique de la parathormone, une hormone qui régule le calcium dans le corps.",
+                "Est un peptide": "Cette affirmation est correcte. Le téríparatide est un peptide, c'est-à-dire une petite protéine."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la Taq polymérase, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Il s’agit d’une transcriptase inverse",
+                "Il s’agit d’une ADN polymérase",
+                "Il s’agit d’une enzyme de restriction",
+                "Il s’agit d’une ARN polymérase",
+                "Aucune des affirmations n’est exacte"
+            ],
+            "correct_answers": [
+                "Il s’agit d’une ADN polymérase"
+            ],
+            "justification_fausses_reponses": {
+                "Il s’agit d’une transcriptase inverse": "La Taq polymérase n'est pas une transcriptase inverse. La transcriptase inverse est une enzyme qui catalyse la synthèse d'ADN à partir d'un modèle d'ARN, ce qui n'est pas le cas de la Taq polymérase.",
+                "Il s’agit d’une enzyme de restriction": "La Taq polymérase n'est pas une enzyme de restriction. Les enzymes de restriction sont des protéines qui coupent l'ADN à des endroits spécifiques, tandis que la Taq polymérase est une enzyme qui synthétise de nouvelles chaînes d'ADN.",
+                "Il s’agit d’une ARN polymérase": "La Taq polymérase n'est pas une ARN polymérase. Les ARN polymérases sont des enzymes qui synthétisent l'ARN à partir d'un modèle d'ADN, tandis que la Taq polymérase synthétise de l'ADN.",
+                "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car la Taq polymérase est bien une ADN polymérase."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le Km, la constante de Michaelis, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est égale à V / 2",
+                "Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substrat",
+                "Elle est diminuée en présence d’un inhibiteur compétitif",
+                "Cette constante est identique pour toutes les enzymes",
+                "Elle s’exprime en mol/min"
+            ],
+            "correct_answers": [
+                "Elle correspond à la concentration en substrat pour laquelle la vitesse initiale de la réaction est égale à V / 2",
+                "Elle est inversement proportionnelle à l’affinité de l’enzyme pour son substrat"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est diminuée en présence d’un inhibiteur compétitif": "En réalité, la présence d'un inhibiteur compétitif augmente le Km, car il diminue l'affinité de l'enzyme pour son substrat.",
+                "Cette constante est identique pour toutes les enzymes": "Le Km est spécifique à chaque enzyme et à son substrat, il n'est donc pas identique pour toutes les enzymes.",
+                "Elle s’exprime en mol/min": "Le Km s'exprime en concentration (mol/L), pas en vitesse (mol/min). Il s'agit de la concentration de substrat nécessaire pour atteindre la moitié de la vitesse maximale de la réaction."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le métabolisme du fer, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Le fer excédentaire est physiologiquement éliminé par voie urinaire",
+                "La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves",
+                "Le degré de saturation de la transferrine permet d’apprécier la quantité de fer dans les réserves",
+                "Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves",
+                "L’hémochromatose héréditaire est une cause de surcharge en fer"
+            ],
+            "correct_answers": [
+                "Le degré de saturation de la transferrine diminue en cas de carence en fer avec épuisement des réserves",
+                "La capacité totale de fixation du fer augmente en cas de carence en fer avec épuisement des réserves",
+                "L’hémochromatose héréditaire est une cause de surcharge en fer"
+            ],
+            "justification_fausses_reponses": {
+                "Le fer excédentaire est physiologiquement éliminé par voie urinaire": "C'est incorrect car le fer excédentaire n'est pas éliminé par voie urinaire. En réalité, le corps humain n'a pas de moyen direct d'éliminer le fer excédentaire. Le fer est plutôt stocké dans le foie, la rate et la moelle osseuse.",
+                "Le degré de saturation de la transferrine permet d’apprécier la quantité de fer dans les réserves": "C'est incorrect car le degré de saturation de la transferrine reflète la quantité de fer disponible pour être utilisée par le corps, et non la quantité de fer stockée dans les réserves. Les réserves de fer sont plutôt évaluées par la ferritine sérique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+                "Le NADH et le F ADH2 transfèrent leurs protons à l’A TP synthase ce qui conduit à la synthèse d’A TP",
+                "La néoglucogenèse se déroule dans le muscle en activité intense pour fournir le glucose dont l’oxydation fournira l’A TP nécessaire à la contraction",
+                "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie",
+                "Le cycle de Krebs se déroule dans le cytosol de la cellule"
+            ],
+            "correct_answers": [
+                "La glycolyse est une voie métabolique d’oxydation du glucose en pyruvate",
+                "La chaîne respiratoire est un complexe physique et fonctionnel de transporteurs d’électrons localisés dans la membrane interne de la mitochondrie"
+            ],
+            "justification_fausses_reponses": {
+                "Le NADH et le F ADH2 transfèrent leurs protons à l’A TP synthase ce qui conduit à la synthèse d’A TP": "C'est incorrect car le NADH et le FADH2 transfèrent leurs électrons, et non leurs protons, à la chaîne de transport d'électrons, qui conduit à la synthèse d'ATP.",
+                "La néoglucogenèse se déroule dans le muscle en activité intense pour fournir le glucose dont l’oxydation fournira l’A TP nécessaire à la contraction": "C'est incorrect car la néoglucogenèse se déroule principalement dans le foie et les reins, et non dans le muscle. Le muscle utilise le glucose pour produire de l'ATP, mais ne le produit pas lui-même.",
+                "Le cycle de Krebs se déroule dans le cytosol de la cellule": "C'est incorrect car le cycle de Krebs se déroule dans la matrice mitochondriale, et non dans le cytosol de la cellule."
+            }
+        },
+        {
+            "question": "L’analyse d’un profil électrophorétique des protéines sériques est en faveur du diagnostic. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+                "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées",
+                "Aucune des affirmations n’est exacte",
+                "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+                "D’une cirrhose si un bloc béta-gamma est détecté"
+            ],
+            "correct_answers": [
+                "D’une cirrhose si un bloc béta-gamma est détecté",
+                "D’une gammaglobulinémie monoclonale si une bande électrophorétique fine est détectée",
+                "D’un syndrome inflammatoire si une augmentation de la bande électrophorétique des alpha1 et alpha 2 globulines est détectée",
+                "D’un syndrome néphrotique si une augmentation de la bande électrophorétique des alpha 2 globulines et une hyposérumalbuminémie sont détectées"
+            ],
+            "justification_fausses_reponses": {
+                "Aucune des affirmations n’est exacte": "Cette affirmation est incorrecte car toutes les autres options sont correctes. Chaque option décrit correctement une condition médicale qui peut être diagnostiquée par l'analyse d'un profil électrophorétique des protéines sériques."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant le rôle d’une enzyme au cours d’une réaction biochimique, laquelle (lesquelles) est (sont) exacte(s) ?",
+            "options": [
+                "Elle permet d’augmenter la variation d’énergie libre de la réaction",
+                "Elle permet d’augmenter la température à laquelle s’effectue la réaction",
+                "Elle permet de ralentir la vitesse de réaction",
+                "Elle permet de diminuer l’énergie d’activation",
+                "Elle permet d’éviter le passage à un état de transition"
+            ],
+            "correct_answers": [
+                "Elle permet de diminuer l’énergie d’activation"
+            ],
+            "justification_fausses_reponses": {
+                "Elle permet d’augmenter la variation d’énergie libre de la réaction": "Faux, une enzyme ne modifie pas la variation d'énergie libre de la réaction, elle facilite seulement le processus en diminuant l'énergie d'activation nécessaire.",
+                "Elle permet d’augmenter la température à laquelle s’effectue la réaction": "Faux, une enzyme n'affecte pas la température de la réaction. Elle fonctionne plutôt en optimisant les conditions pour que la réaction se produise à la température existante.",
+                "Elle permet de ralentir la vitesse de réaction": "Faux, une enzyme accélère la vitesse de réaction en diminuant l'énergie d'activation nécessaire pour la réaction.",
+                "Elle permet d’éviter le passage à un état de transition": "Faux, une enzyme ne permet pas d'éviter le passage à un état de transition, mais elle facilite ce passage en diminuant l'énergie d'activation nécessaire."
+            }
+        }
+    ]
+}

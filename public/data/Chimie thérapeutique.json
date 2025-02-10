@@ -1,0 +1,1065 @@
+{
+    "theme": "Chimie thérapeutique",
+    "questions": [
+        {
+            "question": "A propos de ces molécules à activité antivirale, signaler la ou les proposition(s) exacte(s)?",
+            "options": [
+                "Ce sont des prodrogues, activée par des kinases cellulaires",
+                "ce sont des analogues de la guanosine",
+                "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+                "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B",
+                "ce sont des inhibiteurs de tyrosine kinase"
+            ],
+            "correct_answers": [
+                "la molécule 1 est substrat d’un transporteur de dipeptide et bénéficie donc d’un transport actif qui contribue à sa biodisponibilité orale",
+                "Ce sont des prodrogues, activée par des kinases cellulaires",
+                "ce sont des analogues de la guanosine",
+                "le métabolite actif de la molécule 3 est substrat de l’ADN polymérase virale- transcriptase inverse du virus de l’hépatite B"
+            ],
+            "justification_fausses_reponses": {
+                "ce sont des inhibiteurs de tyrosine kinase": "Cette affirmation est incorrecte car les inhibiteurs de tyrosine kinase sont une classe de médicaments utilisés principalement dans le traitement du cancer et non des virus. Ils agissent en bloquant l'activité des kinases, des enzymes qui jouent un rôle clé dans la signalisation cellulaire, ce qui peut conduire à la prolifération incontrôlée des cellules cancéreuses."
+            }
+        },
+        {
+            "question": "A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s)?",
+            "options": [
+                "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+                "Cette molécule est utilisé en association avec le cobicistat",
+                "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+                "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+                "Cette molécule n'est pratiquement pas métabolisée par le foie"
+            ],
+            "correct_answers": [
+                "Cette molécule est un inhibiteur de l'aspartyl protéase du VIH",
+                "Cette molécule est facilement dégradée par le cytochrome P450 3A4",
+                "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+                "Cette molécule est utilisé en association avec le cobicistat"
+            ],
+            "justification_fausses_reponses": {
+                "Cette molécule n'est pratiquement pas métabolisée par le foie": "Cette affirmation est incorrecte car le darunavir est principalement métabolisé par le foie, plus précisément par l'enzyme cytochrome P450 3A4. Une absence de métabolisation par le foie pourrait entraîner une accumulation de la molécule dans l'organisme, ce qui pourrait être toxique."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique:",
+            "options": [
+                "Ce composé est un anti-viral",
+                "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+                "Ce composé comporte un cycle triazolopyrimidine",
+                "Ce composé est une pro-drogue",
+                "Ce composé est un analogue de nucléoside"
+            ],
+            "correct_answers": [
+                "Ce composé est un analogue de nucléoside",
+                "Ce composé a été conçu par référence à un stimulant naturel de l’agrégation plaquettaire",
+                "Ce composé comporte un cycle triazolopyrimidine"
+            ],
+            "justification_fausses_reponses": {
+                "Ce composé est un anti-viral": "Cette affirmation est incorrecte car la molécule en question n'a pas été conçue pour agir contre les virus. Son mécanisme d'action ne correspond pas à celui des antiviraux.",
+                "Ce composé est une pro-drogue": "Cette affirmation est incorrecte car la molécule en question n'est pas une pro-drogue. Une pro-drogue est une substance qui est métabolisée dans l'organisme pour devenir un médicament actif, ce qui n'est pas le cas ici."
+            }
+        },
+        {
+            "question": "La dénomination chimique des médicaments suit les règles définies par:",
+            "options": [
+                "les firmes pharmaceutiques",
+                "l'IUPHAR",
+                "les pharmacopées",
+                "l'IUPAC",
+                "l'OMS"
+            ],
+            "correct_answers": [
+                "l'IUPAC"
+            ],
+            "justification_fausses_reponses": {
+                "les firmes pharmaceutiques": "Les firmes pharmaceutiques ne définissent pas les règles de dénomination chimique des médicaments. Elles suivent les règles établies par des organismes internationaux.",
+                "l'IUPHAR": "L'IUPHAR (Union Internationale de Pharmacologie) ne définit pas les règles de dénomination chimique des médicaments. Elle se concentre sur la classification et la nomenclature des récepteurs pharmacologiques.",
+                "les pharmacopées": "Les pharmacopées sont des recueils officiels de médicaments et de leurs spécifications. Elles ne définissent pas les règles de dénomination chimique des médicaments.",
+                "l'OMS": "L'OMS (Organisation Mondiale de la Santé) ne définit pas les règles de dénomination chimique des médicaments. Elle se concentre sur les questions de santé publique à l'échelle mondiale."
+            }
+        },
+        {
+            "question": "A propos de la famille des «glucocorticoides », illustrée par la structure ci-dessous, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "pour les composés naturels, la jonction des cycles B/C et C/D est toujours trans",
+                "ils peuvent provoquer un syndrome de Cushing",
+                "ils sont aussi appelés AIS",
+                "ils ont un effet hypoglycémiant",
+                "ce sont des dérivés à structure de prégnane"
+            ],
+            "correct_answers": [
+                "ce sont des dérivés à structure de prégnane",
+                "ils sont aussi appelés AIS",
+                "pour les composés naturels, la jonction des cycles B/C et C/D est toujours trans",
+                "ils peuvent provoquer un syndrome de Cushing"
+            ],
+            "justification_fausses_reponses": {
+                "ils ont un effet hypoglycémiant": "C'est incorrect. Les glucocorticoïdes ont en réalité un effet hyperglycémiant, c'est-à-dire qu'ils augmentent le taux de glucose dans le sang, et non l'inverse."
+            }
+        },
+        {
+            "question": "Parmi ces groupements chimiques, les quels sont des accepteurs de liaisons hydrogène ?",
+            "options": [
+                "C=0",
+                "-OH",
+                "=N-",
+                "-NH",
+                "-O-"
+            ],
+            "correct_answers": [
+                "C=0",
+                "=N-",
+                "-O-"
+            ],
+            "justification_fausses_reponses": {
+                "-OH": "Le groupement -OH n'est pas un accepteur de liaison hydrogène mais plutôt un donneur. En effet, l'atome d'hydrogène lié à l'oxygène est capable de former une liaison hydrogène avec un autre atome électronégatif.",
+                "-NH": "Le groupement -NH n'est pas un accepteur de liaison hydrogène mais plutôt un donneur. En effet, l'atome d'hydrogène lié à l'azote est capable de former une liaison hydrogène avec un autre atome électronégatif."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives au chlorambucil représenté ci-dessous, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+                "La présence du noyau aromatique induit une réactivité fortement augmentée par rapport à la chlorméthine",
+                "Le chlorambucil ne peut être administré que par voie intraveineuse",
+                "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+                "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+            ],
+            "correct_answers": [
+                "Le noyau aromatique présent dans cette structure interdit la formation d’un intermédiaire aziridinium",
+                "La réactivité du chlorambucil se trouve limitée aux sites les plus nucléophiles de l’ADN",
+                "L’azote en position 7 de la guanine, accessible via le grand sillon de l’ADN, représente un site de réaction privilégié de cette molécule"
+            ],
+            "justification_fausses_reponses": {
+                "La présence du noyau aromatique induit une réactivité fortement augmentée par rapport à la chlorméthine": "Cette affirmation est incorrecte car la présence d'un noyau aromatique n'augmente pas nécessairement la réactivité d'une molécule. La réactivité dépend de nombreux facteurs, dont la nature des groupes fonctionnels présents et leur disposition spatiale.",
+                "Le chlorambucil ne peut être administré que par voie intraveineuse": "Cette affirmation est incorrecte car le chlorambucil peut être administré par voie orale. En fait, il est généralement préféré par voie orale en raison de sa bonne absorption et de sa commodité pour le patient."
+            }
+        },
+        {
+            "question": "Quelle est cette molécule?",
+            "options": [
+                "cetirizine",
+                "ipratropium",
+                "loratadine",
+                "théophylline",
+                "ephedrine"
+            ],
+            "correct_answers": [
+                "loratadine"
+            ],
+            "justification_fausses_reponses": {
+                "cetirizine": "La cetirizine est incorrecte car sa structure chimique est différente de celle de la loratadine. La cetirizine est un antihistaminique utilisé pour traiter les allergies, tandis que la loratadine est également un antihistaminique mais avec une structure et des propriétés différentes.",
+                "ipratropium": "L'ipratropium est incorrect car sa structure chimique est différente de celle de la loratadine. L'ipratropium est un médicament utilisé pour traiter les maladies pulmonaires obstructives chroniques, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies.",
+                "théophylline": "La théophylline est incorrecte car sa structure chimique est différente de celle de la loratadine. La théophylline est un bronchodilatateur utilisé pour traiter l'asthme et d'autres maladies pulmonaires, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies.",
+                "ephedrine": "L'éphédrine est incorrecte car sa structure chimique est différente de celle de la loratadine. L'éphédrine est un stimulant, un suppresseur de l'appétit et un décongestionnant, tandis que la loratadine est un antihistaminique utilisé pour traiter les allergies."
+            }
+        },
+        {
+            "question": "Les interactions p - p ( stacking  ou empilage) sont des:",
+            "options": [
+                "Interactions dipôle-dipôle",
+                "Interactions hydrophobes",
+                "Interactions charge-dipôle",
+                "Liaisons hydrogène",
+                "Interactions électrostatiques"
+            ],
+            "correct_answers": [
+                "Interactions électrostatiques",
+                "Interactions dipôle-dipôle"
+            ],
+            "justification_fausses_reponses": {
+                "Interactions hydrophobes": "Les interactions hydrophobes sont des interactions non polaires qui se produisent entre des molécules non polaires dans un environnement aqueux. Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle.",
+                "Interactions charge-dipôle": "Les interactions charge-dipôle se produisent entre une molécule polaire et une molécule chargée. Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle.",
+                "Liaisons hydrogène": "Les liaisons hydrogène sont des interactions spécifiques qui se produisent entre un atome d'hydrogène et un atome électronégatif (comme l'oxygène, l'azote ou le fluor). Elles ne sont pas impliquées dans les interactions p-p qui sont des interactions électrostatiques et dipôle-dipôle."
+            }
+        },
+        {
+            "question": "A propos de la vitamine D et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "ces composés sont dénués de toute toxicité",
+                "ces composés sont très hydrophiles",
+                "ces composés sont de nature stérolique",
+                "ces composés sont très polaires",
+                "leur production naturelle nécessite l’action des UV"
+            ],
+            "correct_answers": [
+                "ces composés sont de nature stérolique",
+                "leur production naturelle nécessite l’action des UV"
+            ],
+            "justification_fausses_reponses": {
+                "ces composés sont dénués de toute toxicité": "C'est incorrect car une surdose de vitamine D peut entraîner une toxicité, connue sous le nom d'hypervitaminose D, qui peut causer des nausées, des vomissements, une perte d'appétit, une constipation, une faiblesse et une perte de poids.",
+                "ces composés sont très hydrophiles": "C'est incorrect car la vitamine D est liposoluble, ce qui signifie qu'elle est soluble dans les graisses et les huiles, et non dans l'eau.",
+                "ces composés sont très polaires": "C'est incorrect car la vitamine D est une molécule non polaire en raison de sa structure chimique, qui est principalement composée de chaînes d'hydrocarbures."
+            }
+        },
+        {
+            "question": "Quelle est cette molécule",
+            "options": [
+                "finasteride",
+                "mirabegron",
+                "sildenafil",
+                "alfuzosine",
+                "yohimbine"
+            ],
+            "correct_answers": [
+                "sildenafil"
+            ],
+            "justification_fausses_reponses": {
+                "finasteride": "Le finastéride est incorrect car c'est un inhibiteur de la 5-alpha réductase utilisé pour traiter l'hypertrophie bénigne de la prostate et la calvitie, et non la molécule en question.",
+                "mirabegron": "Le mirabegron est incorrect car c'est un agoniste des récepteurs β3-adrénergiques utilisé pour traiter l'hyperactivité vésicale, et non la molécule en question.",
+                "alfuzosine": "L'alfuzosine est incorrecte car c'est un antagoniste des récepteurs α1-adrénergiques utilisé pour traiter l'hypertrophie bénigne de la prostate, et non la molécule en question.",
+                "yohimbine": "La yohimbine est incorrecte car c'est un antagoniste des récepteurs α2-adrénergiques utilisé comme aphrodisiaque, et non la molécule en question."
+            }
+        },
+        {
+            "question": "A propos du darunavir, représenté ci-dessous, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "Cette molécule comporte un enchaînement hydroxyéthylamine",
+                "Cette molécule est de nature pseudopeptidique",
+                "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+                "Cette molécule est un inhibiteur de l’enzyme de conversion de l’angiotensine",
+                "Cette molécule est un mime d’état de transition survenant lors de l’activité d’une protéase"
+            ],
+            "correct_answers": [
+                "Cette molécule comporte un enchaînement hydroxyéthylamine",
+                "Cette molécule est un mime d’état de transition survenant lors de l’activité d’une protéase",
+                "Cette molécule comporte un élément de structure bioisostère de l’enchaînement Phe-Pro",
+                "Cette molécule est de nature pseudopeptidique"
+            ],
+            "justification_fausses_reponses": {
+                "Cette molécule est un inhibiteur de l’enzyme de conversion de l’angiotensine": "C'est incorrect car le darunavir est un inhibiteur de la protéase du VIH et non un inhibiteur de l’enzyme de conversion de l’angiotensine. Ces deux enzymes ont des fonctions différentes dans l'organisme."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "ce composé est un antibiotique",
+                "ce composé est une céphalosporine",
+                "ce composé est un monobactame",
+                "ce composé inhibe la HMGCoA-réductase",
+                "ce composé est un bêtalactame"
+            ],
+            "correct_answers": [
+                "ce composé est un antibiotique",
+                "ce composé est un bêtalactame",
+                "ce composé est une céphalosporine"
+            ],
+            "justification_fausses_reponses": {
+                "ce composé est un monobactame": "Cette affirmation est incorrecte car le monobactame est une classe d'antibiotiques qui diffère de la céphalosporine et du bêtalactame. Il est caractérisé par un anneau bêta-lactame isolé, contrairement aux autres qui ont des anneaux supplémentaires.",
+                "ce composé inhibe la HMGCoA-réductase": "Cette affirmation est incorrecte car l'inhibition de la HMGCoA-réductase est une caractéristique des statines, une classe de médicaments utilisés pour abaisser le cholestérol. Ce n'est pas une caractéristique des antibiotiques, des céphalosporines ou des bêtalactames."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées en thérapeutique:",
+            "options": [
+                "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels",
+                "La molécule 1 est un inhibiteur de l’aromatase",
+                "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+                "Ces molécules possèdent toutes des indications dans le traitement du cancer du sein",
+                "Ces molécules sont toutes des antagonistes des récepteurs des estrogènes"
+            ],
+            "correct_answers": [
+                "La molécule 1 est un inhibiteur de l’aromatase",
+                "La molécule 2 est utilisée dans le traitement du cancer de la prostate",
+                "Les molécules 2 et 3 ont été conçues par référence à l’estradiol, en s’appuyant sur la théorie des cycles potentiels"
+            ],
+            "justification_fausses_reponses": {
+                "Ces molécules possèdent toutes des indications dans le traitement du cancer du sein": "Cette affirmation est incorrecte car toutes les molécules mentionnées ne sont pas nécessairement indiquées pour le traitement du cancer du sein. Chaque molécule a des indications spécifiques en fonction de sa structure chimique et de son mécanisme d'action.",
+                "Ces molécules sont toutes des antagonistes des récepteurs des estrogènes": "Cette affirmation est fausse car toutes les molécules mentionnées ne sont pas des antagonistes des récepteurs des estrogènes. Certaines peuvent être des agonistes ou avoir d'autres mécanismes d'action."
+            }
+        },
+        {
+            "question": "A propos de la molécule ci-dessous :",
+            "options": [
+                "il s’agit de l’ofloxacine",
+                "il s’agit de la nifedipine",
+                "il s’agit d’une quinolone",
+                "il s’agit d’une dihydropyridine",
+                "il s’agit d’un bloqueur de canal"
+            ],
+            "correct_answers": [
+                "il s’agit de la nifedipine",
+                "il s’agit d’une dihydropyridine",
+                "il s’agit d’un bloqueur de canal"
+            ],
+            "justification_fausses_reponses": {
+                "il s’agit de l’ofloxacine": "Cette affirmation est incorrecte car l'ofloxacine est un antibiotique de la famille des fluoroquinolones, ce qui n'est pas le cas de la molécule en question.",
+                "il s’agit d’une quinolone": "Cette affirmation est incorrecte car la molécule en question est une dihydropyridine, une classe de médicaments utilisés pour traiter l'hypertension, et non une quinolone, une classe d'antibiotiques."
+            }
+        },
+        {
+            "question": "A propos du cobicistat représenté ci-dessous",
+            "options": [
+                "c'est un \"booster\" pharmacocinétique",
+                "C'est un analogue structural du ritonavir",
+                "c'est un analogue structural de l'entecavir",
+                "C'est un inhibiteur de CYP3A4",
+                "cette molécule possède une activité anti-rétrovirale intrinsèque"
+            ],
+            "correct_answers": [
+                "C'est un analogue structural du ritonavir",
+                "C'est un inhibiteur de CYP3A4",
+                "c'est un \"booster\" pharmacocinétique"
+            ],
+            "justification_fausses_reponses": {
+                "c'est un analogue structural de l'entecavir": "C'est incorrect car le cobicistat n'est pas un analogue structural de l'entecavir. L'entecavir est un analogue de la guanosine utilisé comme antiviral, tandis que le cobicistat est un inhibiteur de l'enzyme CYP3A utilisé pour augmenter l'efficacité d'autres médicaments antirétroviraux.",
+                "cette molécule possède une activité anti-rétrovirale intrinsèque": "C'est incorrect car le cobicistat n'a pas d'activité antirétrovirale intrinsèque. Il est utilisé comme un \"booster\" pour augmenter l'efficacité d'autres médicaments antirétroviraux, mais il n'a pas lui-même d'effet sur le virus du VIH."
+            }
+        },
+        {
+            "question": "quelle est cette molécule",
+            "options": [
+                "acide alendronique",
+                "fosfomycine",
+                "fosinopril",
+                "foscarnet",
+                "fosamprenavir"
+            ],
+            "correct_answers": [
+                "acide alendronique"
+            ],
+            "justification_fausses_reponses": {
+                "fosfomycine": "La fosfomycine est une molécule différente, c'est un antibiotique utilisé pour traiter les infections urinaires.",
+                "fosinopril": "Le fosinopril est une autre molécule, c'est un médicament utilisé pour traiter l'hypertension artérielle et l'insuffisance cardiaque.",
+                "foscarnet": "Le foscarnet est une autre molécule, c'est un antiviral utilisé pour traiter les infections à cytomégalovirus et à herpès.",
+                "fosamprenavir": "Le fosamprenavir est une autre molécule, c'est un médicament antirétroviral utilisé pour traiter le VIH."
+            }
+        },
+        {
+            "question": "Quelles sont les différentes dénominations des médicaments?",
+            "options": [
+                "Le segment-clé",
+                "La dénomination chimique",
+                "La dénomination commune nationale",
+                "La dénomination commune internationale",
+                "La dénomination vernaculaire"
+            ],
+            "correct_answers": [
+                "La dénomination chimique",
+                "La dénomination commune nationale",
+                "La dénomination commune internationale"
+            ],
+            "justification_fausses_reponses": {
+                "Le segment-clé": "Le segment-clé n'est pas une dénomination de médicament. Il s'agit d'un terme utilisé en marketing pour désigner un groupe spécifique de clients cibles.",
+                "La dénomination vernaculaire": "La dénomination vernaculaire n'est pas une dénomination officielle de médicament. Elle désigne plutôt le nom commun d'une espèce dans une langue particulière, souvent utilisée pour les plantes et les animaux."
+            }
+        },
+        {
+            "question": "Quelle est cette molécule?",
+            "options": [
+                "warfarine",
+                "Ticagrelor",
+                "clopidogrel",
+                "prasugrel",
+                "rivaroxaban"
+            ],
+            "correct_answers": [
+                "clopidogrel"
+            ],
+            "justification_fausses_reponses": {
+                "warfarine": "La warfarine est incorrecte car sa structure chimique est différente de celle de la molécule en question. La warfarine est un anticoagulant qui inhibe la vitamine K.",
+                "Ticagrelor": "Le Ticagrelor est incorrect car sa structure chimique ne correspond pas à celle de la molécule en question. Le Ticagrelor est un inhibiteur de l'agrégation plaquettaire.",
+                "prasugrel": "Le prasugrel est incorrect car sa structure chimique est différente de celle de la molécule en question. Le prasugrel est un inhibiteur de l'agrégation plaquettaire.",
+                "rivaroxaban": "Le rivaroxaban est incorrect car sa structure chimique ne correspond pas à celle de la molécule en question. Le rivaroxaban est un anticoagulant oral direct."
+            }
+        },
+        {
+            "question": "A propos de la famille des « triptans », signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "ils sont affins pour les récepteurs alpha adrenergiques",
+                "ils sont affins pour les récepteurs à l’histamine",
+                "ce sont des agonistes 5HT  et 5HT",
+                "Ils sont construits sur une structure de sérotonine",
+                "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+            ],
+            "correct_answers": [
+                "Ils sont construits sur une structure de sérotonine",
+                "ce sont des agonistes 5HT  et 5HT",
+                "ils sont utilisés dans le traitement de la crise de migraine1B 1D"
+            ],
+            "justification_fausses_reponses": {
+                "ils sont affins pour les récepteurs alpha adrenergiques": "C'est incorrect car les triptans sont des agonistes sélectifs des récepteurs à la sérotonine, et non des récepteurs alpha adrénergiques.",
+                "ils sont affins pour les récepteurs à l’histamine": "C'est incorrect car les triptans sont des agonistes sélectifs des récepteurs à la sérotonine, et non des récepteurs à l'histamine."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+            "options": [
+                "Ce métabolite réagit en formant un lien covalent avec sa cible pharmacologique",
+                "Un métabolite minoritaire est responsable de l’activité biologique souhaitée",
+                "Cette molécule appartient à la famille des benzothiadiazines",
+                "Cette molécule est le ticagrelor",
+                "Elle est active in vitro sur l’agrégation plaquettaire, qu’elle inhibe"
+            ],
+            "correct_answers": [
+                "Un métabolite minoritaire est responsable de l’activité biologique souhaitée",
+                "Ce métabolite réagit en formant un lien covalent avec sa cible pharmacologique"
+            ],
+            "justification_fausses_reponses": {
+                "Cette molécule appartient à la famille des benzothiadiazines": "Cette affirmation est incorrecte car la molécule en question n'appartient pas à la famille des benzothiadiazines. Les benzothiadiazines sont une classe de médicaments diurétiques et ne sont pas liées à l'activité biologique décrite ici.",
+                "Cette molécule est le ticagrelor": "Cette affirmation est incorrecte car le ticagrelor est un médicament antiplaquettaire, et non un métabolite formant un lien covalent avec sa cible pharmacologique.",
+                "Elle est active in vitro sur l’agrégation plaquettaire, qu’elle inhibe": "Cette affirmation est incorrecte car l'activité biologique souhaitée de cette molécule n'est pas l'inhibition de l'agrégation plaquettaire. L'agrégation plaquettaire est un processus complexe qui peut être affecté par de nombreux facteurs, et cette molécule n'a pas été conçue pour cibler spécifiquement ce processus."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+            "options": [
+                "la liaison 1-2 est une liaison imine",
+                "ce composé est le diazépam",
+                "ce composé est une benzodiazépine 1, 4",
+                "ce composé est plan",
+                "la liaison 4-5 est une liaison amide"
+            ],
+            "correct_answers": [
+                "ce composé est une benzodiazépine 1, 4",
+                "ce composé est le diazépam"
+            ],
+            "justification_fausses_reponses": {
+                "la liaison 1-2 est une liaison imine": "C'est incorrect car une liaison imine est une double liaison entre un atome de carbone et un atome d'azote, ce qui n'est pas le cas ici.",
+                "ce composé est plan": "C'est incorrect car la structure de la benzodiazépine n'est pas plane en raison de la présence de cycles fusionnés.",
+                "la liaison 4-5 est une liaison amide": "C'est incorrect car une liaison amide est une liaison covalente entre un atome de carbone d'un groupe carbonyle et un atome d'azote, ce qui n'est pas le cas ici."
+            }
+        },
+        {
+            "question": "Parmi ces médicaments, quels sont ceux susceptibles d’interagir avec leur(s) récepteur(s) par liaison ionique?",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct_answers": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les molécules suivantes appartenant à diverses familles d’hormones stéroïdiennes, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "les molécules 2 et 3 ont des propriétés progestatives",
+                "la molécule 2 possède des propriétés androgéniques",
+                "les molécules 1, 3 et 5 ont des propriétés progestatives",
+                "la molécule 6 est un corticoïde",
+                "la molécule 3 dérive de la 19-nor testostérone"
+            ],
+            "correct_answers": [
+                "les molécules 1, 3 et 5 ont des propriétés progestatives",
+                "la molécule 3 dérive de la 19-nor testostérone",
+                "la molécule 6 est un corticoïde"
+            ],
+            "justification_fausses_reponses": {
+                "les molécules 2 et 3 ont des propriétés progestatives": "Cette affirmation est incorrecte car seule la molécule 3 a des propriétés progestatives. La molécule 2 n'a pas ces propriétés.",
+                "la molécule 2 possède des propriétés androgéniques": "Cette affirmation est incorrecte car la molécule 2 n'a pas de propriétés androgéniques. Les propriétés androgéniques sont généralement associées à la testostérone, qui n'est pas présente dans la molécule 2."
+            }
+        },
+        {
+            "question": "Les activités ont été mesurées pour une série de β-antagonistes et de β - agonistes. Parmi les propositions suivantes, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "3 n’est pas affin pour β2",
+                "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique",
+                "2 est le salbutamol",
+                "1 est l’antagoniste le plus puissant sur β1",
+                "2 est le ligand le plus affin sur β2"
+            ],
+            "correct_answers": [
+                "2 est le ligand le plus affin sur β2",
+                "4 est cardiosélectif grâce au p-substituant sur le groupement aromatique"
+            ],
+            "justification_fausses_reponses": {
+                "3 n’est pas affin pour β2": "Cette affirmation est incorrecte car l'affinité d'une molécule pour un récepteur dépend de sa structure chimique et non de son numéro dans une série.",
+                "2 est le salbutamol": "Cette affirmation est incorrecte car le salbutamol est un β2-agoniste, pas un β-antagoniste. Il est utilisé pour détendre les muscles des voies respiratoires et augmenter le flux d'air vers les poumons.",
+                "1 est l’antagoniste le plus puissant sur β1": "Cette affirmation est incorrecte car la puissance d'un antagoniste dépend de sa capacité à se lier à un récepteur et à bloquer son activité. Sans informations supplémentaires sur la molécule 1, nous ne pouvons pas affirmer qu'elle est l'antagoniste le plus puissant sur β1."
+            }
+        },
+        {
+            "question": "Quels sont les paramètres à considérer pour qu’une molécule puisse interagir avec sa cible?",
+            "options": [
+                "paramètres lipophiles",
+                "paramètres allostériques",
+                "paramètres stériques",
+                "paramètres électrostatiques",
+                "paramètres hydrophiles"
+            ],
+            "correct_answers": [
+                "paramètres stériques",
+                "paramètres électrostatiques",
+                "paramètres lipophiles"
+            ],
+            "justification_fausses_reponses": {
+                "paramètres allostériques": "Les paramètres allostériques ne sont pas directement liés à l'interaction d'une molécule avec sa cible. Ils se réfèrent plutôt à la régulation de l'activité d'une protéine par la liaison d'un effecteur à un site autre que le site actif.",
+                "paramètres hydrophiles": "Les paramètres hydrophiles ne sont pas un facteur déterminant pour l'interaction d'une molécule avec sa cible. Bien que l'hydrophilie puisse influencer la solubilité d'une molécule dans l'eau, elle n'affecte pas directement sa capacité à interagir avec une cible spécifique."
+            }
+        },
+        {
+            "question": "A propos de la molécule ci-dessous :",
+            "options": [
+                "le motif piperazine assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+                "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+                "le Fluor en position 7 de l’aromatique est un élément de pharmacophore",
+                "il s’agit de l’ofloxacine",
+                "il s’agit de la ciprofloxacine"
+            ],
+            "correct_answers": [
+                "il s’agit de la ciprofloxacine",
+                "le motif β-ceto-acide assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne",
+                "le Fluor en position 7 de l’aromatique est un élément de pharmacophore"
+            ],
+            "justification_fausses_reponses": {
+                "le motif piperazine assure la liaison au Mg  contenu dans l’ADN gyrase bactérienne": "C'est incorrect car le motif piperazine n'assure pas la liaison au Mg contenu dans l'ADN gyrase bactérienne. C'est le motif β-ceto-acide qui assure cette liaison.",
+                "il s’agit de l’ofloxacine": "C'est incorrect car la molécule en question est la ciprofloxacine, pas l'ofloxacine. Ces deux molécules sont différentes bien qu'elles appartiennent à la même classe d'antibiotiques, les fluoroquinolones."
+            }
+        },
+        {
+            "question": "Parmi ces médicaments, quels sont ceux susceptibles d’interagir avec leur(s) récepteur(s) par liaison ionique ?",
+            "options": [
+                "molécule C",
+                "molécule B",
+                "molécule E",
+                "molécule A",
+                "molécule D"
+            ],
+            "correct_answers": [
+                "molécule A",
+                "molécule C",
+                "molécule D",
+                "molécule E"
+            ],
+            "justification_fausses_reponses": {
+                "molécule B": "La molécule B n'est pas susceptible d'interagir avec son récepteur par liaison ionique. La liaison ionique implique un transfert d'électrons entre deux atomes, ce qui n'est pas le cas pour cette molécule."
+            }
+        },
+        {
+            "question": "A propos de la morphine et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "la morphine est un alcaloïde",
+                "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes",
+                "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+                "les deux fonctions OH sont équivalentes",
+                "la morphine est un composé acide"
+            ],
+            "correct_answers": [
+                "la morphine est un alcaloïde",
+                "l’alkylation en 3 fait évoluer les propriétés pharmacologiques vers des antitussifs",
+                "l’acylation en 3 et 6 génère un composé à propriétés stupéfiantes"
+            ],
+            "justification_fausses_reponses": {
+                "les deux fonctions OH sont équivalentes": "Cette affirmation est incorrecte car les deux fonctions OH de la morphine ne sont pas équivalentes. Elles ont des positions différentes sur la molécule, ce qui influence leurs propriétés chimiques et leur réactivité.",
+                "la morphine est un composé acide": "Cette affirmation est incorrecte car la morphine n'est pas un composé acide. Elle est un alcaloïde, une classe de composés naturels contenant principalement des atomes d'azote basiques."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes se rapportant à la chiralité des médicaments, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "les médicaments racémiques produisent toujours des effets thérapeutiques moins intéressants que les énantiomères purs",
+                "l’identification de l'énantiomère le plus efficace a permis la commercialisation de l’énantiomère pur dans le cas du sotalol et du labétalol",
+                "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+                "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes",
+                "dans un mélange racémique, le métabolisme de premier passage hépatique est plus rapide pour l’énantiomère le plus actif"
+            ],
+            "correct_answers": [
+                "Les bétabloquants sont tous utilisés en thérapeutique sous forme racémique",
+                "Deux énantiomères peuvent avoir des activités et des utilisations thérapeutiques très différentes"
+            ],
+            "justification_fausses_reponses": {
+                "les médicaments racémiques produisent toujours des effets thérapeutiques moins intéressants que les énantiomères purs": "Cette affirmation est fausse car l'efficacité thérapeutique d'un médicament ne dépend pas uniquement de sa chiralité. Un mélange racémique peut parfois être plus efficace qu'un énantiomère pur.",
+                "l’identification de l'énantiomère le plus efficace a permis la commercialisation de l’énantiomère pur dans le cas du sotalol et du labétalol": "Cette affirmation est incorrecte car tous les médicaments ne sont pas commercialisés sous la forme de l'énantiomère le plus efficace. Cela dépend de nombreux facteurs, y compris la facilité de production et les coûts.",
+                "dans un mélange racémique, le métabolisme de premier passage hépatique est plus rapide pour l’énantiomère le plus actif": "Cette affirmation est fausse car le métabolisme de premier passage hépatique ne dépend pas de l'activité de l'énantiomère, mais de sa structure chimique et de son interaction avec les enzymes hépatiques."
+            }
+        },
+        {
+            "question": "A propos de cette molécule active, signaler la ou les proposition(s) exacte(s) :",
+            "options": [
+                "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique",
+                "Sa cible thérapeutique est une aspartyl-protéase",
+                "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+                "Cette molécule est biodisponible par voie orale",
+                "Cette molécule est le captopril"
+            ],
+            "correct_answers": [
+                "L’une des deux fonctions carboxyliques se comporte comme un ligand du Zinc",
+                "L’une des deux fonctions carboxyliques est estérifiée dans la molécule utilisée en thérapeutique"
+            ],
+            "justification_fausses_reponses": {
+                "Sa cible thérapeutique est une aspartyl-protéase": "Cette affirmation est incorrecte car la molécule en question n'agit pas sur une aspartyl-protéase, mais plutôt sur une autre cible moléculaire.",
+                "Cette molécule est biodisponible par voie orale": "Cette affirmation est incorrecte car la biodisponibilité orale de cette molécule n'est pas garantie. La biodisponibilité dépend de nombreux facteurs, y compris la solubilité de la molécule, sa stabilité dans l'environnement acide de l'estomac, et sa capacité à traverser la barrière intestinale.",
+                "Cette molécule est le captopril": "Cette affirmation est incorrecte car la molécule en question n'est pas le captopril. Le captopril est un médicament spécifique utilisé pour traiter l'hypertension et l'insuffisance cardiaque, et il a une structure chimique distincte."
+            }
+        },
+        {
+            "question": "A propos de la famille des «sétrons », signaler la ou les proposition(s) exacte(s) :",
+            "options": [
+                "ils sont métabolisés au niveau hépatique",
+                "ils sont des antagonistes 5HT",
+                "ils sont aussi alpha-bloquants",
+                "ils diminuent la vidange gastrique",
+                "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+            ],
+            "correct_answers": [
+                "ils sont des antagonistes 5HT",
+                "ils sont métabolisés au niveau hépatique",
+                "ils sont construits sur une structure d’indole ou bioisostère de l’indole3"
+            ],
+            "justification_fausses_reponses": {
+                "ils sont aussi alpha-bloquants": "Cette affirmation est incorrecte car les sétrons ne sont pas des alpha-bloquants. Ils sont spécifiquement des antagonistes du récepteur 5-HT3, utilisés principalement pour traiter les nausées et les vomissements induits par la chimiothérapie.",
+                "ils diminuent la vidange gastrique": "Cette affirmation est incorrecte car les sétrons n'ont pas d'effet sur la vidange gastrique. Leur mécanisme d'action principal est l'antagonisme du récepteur 5-HT3, qui aide à contrôler les nausées et les vomissements, mais n'affecte pas la vitesse de vidange gastrique."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine",
+                "Les molécules 1 et 2 font partie des « antimétabolites »",
+                "La molécule 1 est biodisponible par voie orale",
+                "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+                "La molécule 2 est administrée sous forme de poudre pour inhalation"
+            ],
+            "correct_answers": [
+                "La molécule 1 est biodisponible par voie orale",
+                "La molécule 2 est administrée sous forme de poudre pour inhalation",
+                "La molécule 1 est obtenue à partir d’acide shikimique, dont la badiane de Chine a longtemps été la seule source",
+                "Les molécules 1 et 2 présentent une analogie structurale avec l’état de transition reconnu par la sialidase humaine"
+            ],
+            "justification_fausses_reponses": {
+                "Les molécules 1 et 2 font partie des « antimétabolites »": "Cette affirmation est incorrecte car tous les médicaments antiviraux ne sont pas des antimétabolites. Les antimétabolites sont des substances qui perturbent le métabolisme cellulaire, mais ce n'est pas le seul mécanisme d'action des médicaments antiviraux. Certaines molécules peuvent agir en inhibant spécifiquement certaines enzymes virales, sans perturber le métabolisme cellulaire."
+            }
+        },
+        {
+            "question": "La dénomination commerciale des médicaments suit les règles définies par:",
+            "options": [
+                "l'OMS",
+                "l'IUPAC",
+                "l'IUPHAR",
+                "les firmes pharmaceutiques",
+                "les pharmacopées"
+            ],
+            "correct_answers": [
+                "les firmes pharmaceutiques"
+            ],
+            "justification_fausses_reponses": {
+                "l'OMS": "L'Organisation Mondiale de la Santé (OMS) ne définit pas les règles de dénomination commerciale des médicaments. Elle est plutôt impliquée dans la coordination des efforts internationaux pour contrôler et prévenir les maladies.",
+                "l'IUPAC": "L'Union Internationale de Chimie Pure et Appliquée (IUPAC) est responsable de la nomenclature chimique, mais pas de la dénomination commerciale des médicaments.",
+                "l'IUPHAR": "L'Union Internationale de Pharmacologie (IUPHAR) est impliquée dans la classification des récepteurs et des cibles de médicaments, mais pas dans la dénomination commerciale des médicaments.",
+                "les pharmacopées": "Les pharmacopées sont des ouvrages officiels qui définissent les normes de fabrication et de contrôle des médicaments, mais elles ne définissent pas les règles de dénomination commerciale des médicaments."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique:",
+            "options": [
+                "Cette molécule comporte une N-méthyl-pipérazine qui contribue à sa solubilité",
+                "Elle bloque l’enzyme cible sous forme inactive",
+                "Sa sélectivité repose sur une interaction hydrophobe allostérique due à la partie benzamide",
+                "Cette molécule comporte un enchaînement phénylaminopyrimidine",
+                "Elle correspond au premier inhibiteur de tyrosine kinase utilisé en thérapeutique"
+            ],
+            "correct_answers": [
+                "Cette molécule comporte un enchaînement phénylaminopyrimidine",
+                "Elle correspond au premier inhibiteur de tyrosine kinase utilisé en thérapeutique",
+                "Elle bloque l’enzyme cible sous forme inactive",
+                "Sa sélectivité repose sur une interaction hydrophobe allostérique due à la partie benzamide",
+                "Cette molécule comporte une N-méthyl-pipérazine qui contribue à sa solubilité"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Quels sont les groupes bioisostères mono-OH-valents?",
+            "options": [
+                "-CH -",
+                "-O-",
+                "=N-",
+                "-OH",
+                "-SH2"
+            ],
+            "correct_answers": [
+                "-OH",
+                "-SH"
+            ],
+            "justification_fausses_reponses": {
+                "-CH -": "Le groupe -CH- n'est pas un bioisostère mono-OH-valent car il ne contient pas d'atome d'oxygène ni d'hydrogène.",
+                "-O-": "Le groupe -O- n'est pas un bioisostère mono-OH-valent car il ne contient pas d'atome d'hydrogène.",
+                "=N-": "Le groupe =N- n'est pas un bioisostère mono-OH-valent car il contient un atome d'azote et non d'oxygène ou d'hydrogène."
+            }
+        },
+        {
+            "question": "A propos de l’éplérénone, représentée ci-dessous :",
+            "options": [
+                "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+                "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller",
+                "c’est un glucocorticoïde",
+                "Cette molécule est un antagoniste puissant du récepteur des androgènes",
+                "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque"
+            ],
+            "correct_answers": [
+                "C’est un antagoniste sélectif du récepteur aux minéralocorticoïdes",
+                "Elle est indiquée pour réduire le risque de morbi-mortalité cardiovasculaire en cas d’insuffisance cardiaque",
+                "L’association avec un inhibiteur de l’enzyme de conversion ou un sartan fait courir une risque d’hyperkaliémie à surveiller"
+            ],
+            "justification_fausses_reponses": {
+                "c’est un glucocorticoïde": "L'éplérénone n'est pas un glucocorticoïde. Les glucocorticoïdes sont une classe de corticostéroïdes, qui sont une classe de stéroïdes. L'éplérénone est un antagoniste sélectif du récepteur aux minéralocorticoïdes, ce qui signifie qu'elle bloque l'action des minéralocorticoïdes, une autre classe de corticostéroïdes.",
+                "Cette molécule est un antagoniste puissant du récepteur des androgènes": "L'éplérénone n'est pas un antagoniste du récepteur des androgènes. Les antagonistes des récepteurs aux androgènes sont utilisés pour traiter les maladies qui sont exacerbées par les androgènes, comme le cancer de la prostate. L'éplérénone est un antagoniste sélectif du récepteur aux minéralocorticoïdes, ce qui signifie qu'elle bloque l'action des minéralocorticoïdes."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s):",
+            "options": [
+                "Ces molécules sont toutes utilisées dans le traitement des infections par VIH-1",
+                "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+                "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+                "La molécule 1 est un inhibiteur de protéase virale",
+                "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+            ],
+            "correct_answers": [
+                "L’activité antivirale des molécules 1à 5 résulte essentiellement d’une activité d’inhibition d’activité ADN polymérase-transcriptases inverses virales",
+                "La molécule 3 est utilisée dans le traitement de l'hépatite B",
+                "La molécule 6 est utilisée dans le traitement de certaines infections par virus herpétique"
+            ],
+            "justification_fausses_reponses": {
+                "Ces molécules sont toutes utilisées dans le traitement des infections par VIH-1": "Cette affirmation est incorrecte car toutes les molécules ne sont pas utilisées pour le traitement du VIH-1. Certaines sont utilisées pour d'autres types de virus, comme l'hépatite B ou le virus herpétique.",
+                "La molécule 1 est un inhibiteur de protéase virale": "Cette affirmation est incorrecte car la molécule 1 n'est pas un inhibiteur de protéase virale. Elle agit plutôt en inhibant l'activité de l'ADN polymérase-transcriptase inverse virale."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "ce composé est une phénothiazine",
+                "ce composé est une dibenzoazépine",
+                "ce composé est un neuroleptique",
+                "ce composé est un anti H1",
+                "ce composé est un antidépresseur"
+            ],
+            "correct_answers": [
+                "ce composé est une dibenzoazépine",
+                "ce composé est un antidépresseur"
+            ],
+            "justification_fausses_reponses": {
+                "ce composé est une phénothiazine": "Cette affirmation est incorrecte car la phénothiazine est une structure chimique différente de la dibenzoazépine. La phénothiazine est un composé tricyclique avec deux cycles benzéniques et un cycle diazine, tandis que la dibenzoazépine est un composé bicyclique avec deux cycles benzéniques et un cycle azépine.",
+                "ce composé est un neuroleptique": "Cette affirmation est incorrecte car les neuroleptiques sont une classe de médicaments utilisés pour traiter les troubles psychotiques, et non une structure chimique. De plus, ce composé est un antidépresseur, qui est une classe de médicaments différente.",
+                "ce composé est un anti H1": "Cette affirmation est incorrecte car les anti H1 sont des médicaments qui bloquent les récepteurs de l'histamine H1, utilisés pour traiter les allergies. Ce composé est un antidépresseur, qui agit en modifiant l'équilibre des neurotransmetteurs dans le cerveau."
+            }
+        },
+        {
+            "question": "A propos de la molécule ci-dessous",
+            "options": [
+                "cette molécule cible une métalloprotéase à Zinc",
+                "cette molécule cible une aspartylprotéase",
+                "il s’agit du bortezomib",
+                "il s’agit d’un inhibiteur covalent",
+                "cette molécule cible une serine/thréonine protéase"
+            ],
+            "correct_answers": [
+                "il s’agit d’un inhibiteur covalent",
+                "cette molécule cible une serine/thréonine protéase",
+                "il s’agit du bortezomib"
+            ],
+            "justification_fausses_reponses": {
+                "cette molécule cible une métalloprotéase à Zinc": "Cette affirmation est incorrecte car la molécule en question n'a pas la capacité de cibler une métalloprotéase à Zinc. Les métalloprotéases à Zinc sont des enzymes qui nécessitent un ion de zinc pour leur activité catalytique, et cette molécule n'a pas la structure chimique nécessaire pour interagir avec ces enzymes.",
+                "cette molécule cible une aspartylprotéase": "Cette affirmation est incorrecte car la molécule en question n'est pas conçue pour cibler une aspartylprotéase. Les aspartylprotéases sont des enzymes qui utilisent une paire de résidus d'acides aspartiques dans leur site actif, et cette molécule n'a pas la structure chimique nécessaire pour interagir avec ces résidus."
+            }
+        },
+        {
+            "question": "parmi ces médicaments, quels sont ceux susceptibles d'interagir avec leur(s) récepteur(s) par liaison hydrophobe?",
+            "options": [
+                "B",
+                "E",
+                "A",
+                "D",
+                "C"
+            ],
+            "correct_answers": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Quelle est cette molécule :",
+            "options": [
+                "liraglutide",
+                "orlistat",
+                "dapagliflozine",
+                "pioglitazone",
+                "saxagliptine"
+            ],
+            "correct_answers": [
+                "saxagliptine"
+            ],
+            "justification_fausses_reponses": {
+                "liraglutide": "La réponse est incorrecte car le liraglutide est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question.",
+                "orlistat": "La réponse est incorrecte car l'orlistat est un médicament utilisé pour traiter l'obésité, et non la molécule en question.",
+                "dapagliflozine": "La réponse est incorrecte car la dapagliflozine est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question.",
+                "pioglitazone": "La réponse est incorrecte car la pioglitazone est un médicament utilisé pour traiter le diabète de type 2, et non la molécule en question."
+            }
+        },
+        {
+            "question": "En ce qui concerne la dénomination commune internationale (DCI) des médicaments, quelles propositions sont vraies ?",
+            "options": [
+                "Toute influence commerciale est exclue.",
+                "Les segment-clés sont exclusivement des suffixes.",
+                "Elle est attribuée par l’OMS",
+                "Elle est attribuée par l’IUPAC.",
+                "Les produits appartenant à un même groupe pharmacologique sont regroupés selon des consonances voisines."
+            ],
+            "correct_answers": [
+                "Les produits appartenant à un même groupe pharmacologique sont regroupés selon des consonances voisines.",
+                "Toute influence commerciale est exclue.",
+                "Elle est attribuée par l’OMS"
+            ],
+            "justification_fausses_reponses": {
+                "Les segment-clés sont exclusivement des suffixes.": "Cette affirmation est fausse car les segment-clés dans la dénomination commune internationale (DCI) des médicaments peuvent être des préfixes, des infixes ou des suffixes.",
+                "Elle est attribuée par l’IUPAC.": "Cette affirmation est incorrecte car la dénomination commune internationale (DCI) des médicaments est attribuée par l'Organisation mondiale de la santé (OMS) et non par l'Union internationale de chimie pure et appliquée (IUPAC)."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "les molécules 2 et 4 comportent un lien phosphonate",
+                "les molécules 1 et 4 comportent une ou plusieurs fonctions ester",
+                "la molécule 3 est la ribavirine",
+                "les molécules 4 et 5 sont combinées au sein d’un médicament anti-VIH",
+                "les molécules 1 à 4 sont des analogues de la guanosine"
+            ],
+            "correct_answers": [
+                "les molécules 1 et 4 comportent une ou plusieurs fonctions ester",
+                "les molécules 1 à 4 sont des analogues de la guanosine",
+                "la molécule 3 est la ribavirine",
+                "les molécules 2 et 4 comportent un lien phosphonate",
+                "les molécules 4 et 5 sont combinées au sein d’un médicament anti-VIH"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives au « switch chiral », signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "Le « switch chiral » est encouragé par les agences du médicament, qui voient un avantage à l’usage d’énantiomères purs, dont elles attendent des relations effets dose plus simples et une moindre variation interindividuelle",
+                "Le « switch chiral » consiste à identifier puis développer un médicament sous forme d’enantiomère pur après qu’il ait été commercialisé sous forme racémique",
+                "Le « switch chiral » a permis de remettre sur le marché la thalidomide, en sélectionnant l’énantiomère dénué d’effets tératogènes",
+                "le « switch chiral » est un procédé de synthèse qui permet de passer d’un énantiomère à l’autre",
+                "Le « switch chiral » peut conduire à des échecs, avec arrêt de développement liés à la survenue d’effets secondaires graves inattendus"
+            ],
+            "correct_answers": [
+                "Le « switch chiral » consiste à identifier puis développer un médicament sous forme d’enantiomère pur après qu’il ait été commercialisé sous forme racémique",
+                "Le « switch chiral » peut conduire à des échecs, avec arrêt de développement liés à la survenue d’effets secondaires graves inattendus",
+                "Le « switch chiral » est encouragé par les agences du médicament, qui voient un avantage à l’usage d’énantiomères purs, dont elles attendent des relations effets dose plus simples et une moindre variation interindividuelle"
+            ],
+            "justification_fausses_reponses": {
+                "Le « switch chiral » a permis de remettre sur le marché la thalidomide, en sélectionnant l’énantiomère dénué d’effets tératogènes": "Cette affirmation est incorrecte car le switch chiral n'a pas permis de remettre sur le marché la thalidomide. En réalité, les deux énantiomères de la thalidomide peuvent se convertir l'un en l'autre dans le corps humain, donc la sélection d'un énantiomère dénué d'effets tératogènes n'est pas possible dans ce cas.",
+                "le « switch chiral » est un procédé de synthèse qui permet de passer d’un énantiomère à l’autre": "Cette affirmation est fausse car le switch chiral n'est pas un procédé de synthèse qui permet de passer d'un énantiomère à l'autre. Il s'agit plutôt d'un processus de développement de médicaments qui consiste à identifier et développer un médicament sous forme d'énantiomère pur après qu'il ait été commercialisé sous forme racémique."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées en thérapeutique",
+            "options": [
+                "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+                "La molécule 4 est un antidiabétique oral",
+                "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+                "Les molécules 1, 2 et 3 font partie des diurétiques thiazidiques et apparentés",
+                "La molécule 4 est un diurétique majeur"
+            ],
+            "correct_answers": [
+                "La cible pharmacologique de la molécule 3 se trouve dans l’anse de Henlé",
+                "Le groupe -SO NH et le groupe C OOH sont bioisostères",
+                "La molécule 4 est un antidiabétique oral"
+            ],
+            "justification_fausses_reponses": {
+                "Les molécules 1, 2 et 3 font partie des diurétiques thiazidiques et apparentés": "Cette affirmation est incorrecte car toutes les molécules ne font pas nécessairement partie des diurétiques thiazidiques et apparentés. Cela dépend de leur structure chimique et de leur mécanisme d'action.",
+                "La molécule 4 est un diurétique majeur": "Cette affirmation est incorrecte car la molécule 4 est identifiée comme un antidiabétique oral dans les réponses correctes, et non comme un diurétique."
+            }
+        },
+        {
+            "question": "Quels sont les groupes bioisostères trivalents",
+            "options": [
+                "-OH",
+                "-CH=",
+                "-O-",
+                "-N=",
+                "-SH"
+            ],
+            "correct_answers": [
+                "-N=",
+                "-CH="
+            ],
+            "justification_fausses_reponses": {
+                "-OH": "Le groupe -OH n'est pas un bioisostère trivalent car il ne possède que deux liaisons, une liaison simple et une liaison dative.",
+                "-O-": "Le groupe -O- n'est pas un bioisostère trivalent car il ne possède que deux liaisons, toutes deux sont des liaisons simples.",
+                "-SH": "Le groupe -SH n'est pas un bioisostère trivalent car il ne possède que deux liaisons, une liaison simple et une liaison dative."
+            }
+        },
+        {
+            "question": "Parmi ces groupements chimiques, les quels sont des donneurs de liaisons hydrogène?",
+            "options": [
+                "-OH",
+                "=N-",
+                "-NH",
+                "-O-",
+                "-C=O"
+            ],
+            "correct_answers": [
+                "-OH",
+                "-NH"
+            ],
+            "justification_fausses_reponses": {
+                "=N-": "Le groupement =N- n'est pas un donneur de liaison hydrogène car il ne possède pas d'atome d'hydrogène lié à un atome électronégatif (oxygène, azote ou fluor).",
+                "-O-": "Le groupement -O- n'est pas un donneur de liaison hydrogène car il ne possède pas d'atome d'hydrogène lié à un atome électronégatif (oxygène, azote ou fluor).",
+                "-C=O": "Le groupement -C=O n'est pas un donneur de liaison hydrogène car bien qu'il contienne un atome d'oxygène, celui-ci n'est pas lié à un atome d'hydrogène."
+            }
+        },
+        {
+            "question": "A propos de la vitamine A et de ses dérivés, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "ce sont des composés hautement hydrophiles",
+                "les membres de cette famille de 3 génération sont environ mille fois plus actifs",
+                "la vitamine A naturelle et dérivés sont formées de 4 unités isopréniques et 1 groupe fonctionnel",
+                "ces composés sont hautement tératogènes",
+                "dans leur DCI on trouve le segment clef « rétin… »"
+            ],
+            "correct_answers": [
+                "la vitamine A naturelle et dérivés sont formées de 4 unités isopréniques et 1 groupe fonctionnel",
+                "dans leur DCI on trouve le segment clef « rétin… »",
+                "les membres de cette famille de 3 génération sont environ mille fois plus actifs",
+                "ces composés sont hautement tératogènes"
+            ],
+            "justification_fausses_reponses": {
+                "ce sont des composés hautement hydrophiles": "C'est incorrect car la vitamine A et ses dérivés sont des composés lipophiles, c'est-à-dire qu'ils sont solubles dans les lipides et les solvants organiques, mais pas dans l'eau. Leur structure chimique, qui comprend une longue chaîne hydrocarbonée, les rend non polaires et donc insolubles dans les milieux polaires comme l'eau."
+            }
+        },
+        {
+            "question": "Le losartan présente un groupement tétrazole. Par quel groupement bioisostère peut-on l’échanger",
+            "options": [
+                "-OH",
+                "-NH",
+                "-CF",
+                "-COOH",
+                "-CH3",
+                "-OH2"
+            ],
+            "correct_answers": [
+                "-COOH"
+            ],
+            "justification_fausses_reponses": {
+                "-OH": "Le groupement -OH n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+                "-NH": "Le groupement -NH n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+                "-CF": "Le groupement -CF n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+                "-CH3": "Le groupement -CH3 n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques.",
+                "-OH2": "Le groupement -OH2 n'est pas un bioisostère du tétrazole car il ne possède pas les mêmes propriétés électroniques et stériques."
+            }
+        },
+        {
+            "question": "A propos de ces molécules utilisées dans des médicaments antiviraux, signaler la ou les proposition(s) exacte(s)",
+            "options": [
+                "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+                "Elles possèdent toutes au moins 1 centre de chiralité",
+                "seules les molécules 1,2 et 5 possèdent un centre de chiralité",
+                "les molécules 1 et 3 ne sont commercialisées que sous forme racémique",
+                "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur"
+            ],
+            "correct_answers": [
+                "Elles possèdent toutes au moins 1 centre de chiralité",
+                "la molécule 5 n'a jamais été commercialisée sous forme racémique",
+                "les molécules 2,4 et 5 sont commercialisées sous forme d'énantiomère pur",
+                "les molécules 1 et 3 ne sont commercialisées que sous forme racémique"
+            ],
+            "justification_fausses_reponses": {
+                "seules les molécules 1,2 et 5 possèdent un centre de chiralité": "Cette affirmation est incorrecte car toutes les molécules mentionnées possèdent au moins un centre de chiralité. Un centre de chiralité est un atome qui est attaché à quatre substituants différents, ce qui est le cas pour toutes ces molécules."
+            }
+        },
+        {
+            "question": "quelle est cette molécule",
+            "options": [
+                "salmeterol",
+                "atenolol",
+                "propranolol",
+                "vilanterol",
+                "salbutamol"
+            ],
+            "correct_answers": [
+                "salbutamol"
+            ],
+            "justification_fausses_reponses": {
+                "salmeterol": "Le salmétérol est incorrect car c'est un agoniste de longue durée d'action des récepteurs β2-adrénergiques, utilisé dans le traitement de l'asthme et de la BPCO, tandis que le salbutamol est un agoniste de courte durée d'action.",
+                "atenolol": "L'aténolol est incorrect car c'est un bêta-bloquant utilisé pour traiter l'angine de poitrine et l'hypertension, tandis que le salbutamol est un agoniste des récepteurs β2-adrénergiques utilisé pour soulager l'asthme.",
+                "propranolol": "Le propranolol est incorrect car c'est un bêta-bloquant non sélectif, utilisé pour traiter l'hypertension, l'angine de poitrine et les troubles du rythme cardiaque, tandis que le salbutamol est un agoniste des récepteurs β2-adrénergiques utilisé pour soulager l'asthme.",
+                "vilanterol": "Le vilanterol est incorrect car c'est un agoniste de longue durée d'action des récepteurs β2-adrénergiques, utilisé dans le traitement de l'asthme et de la BPCO, tandis que le salbutamol est un agoniste de courte durée d'action."
+            }
+        },
+        {
+            "question": "Quels sont les groupes bioisostères divalents :",
+            "options": [
+                "=N-",
+                "-CH -",
+                "-S-",
+                "-OH",
+                "-O-2"
+            ],
+            "correct_answers": [
+                "-O-",
+                "-S-",
+                "-CH -2"
+            ],
+            "justification_fausses_reponses": {
+                "=N-": "Le groupe =N- n'est pas un bioisostère divalent. Les bioisostères divalents ont deux atomes de liaison, ce qui n'est pas le cas pour =N- qui a trois atomes de liaison.",
+                "-OH": "Le groupe -OH n'est pas un bioisostère divalent. Les bioisostères divalents ont deux atomes de liaison, ce qui n'est pas le cas pour -OH qui a un atome d'oxygène lié à un atome d'hydrogène, formant ainsi une seule liaison."
+            }
+        },
+        {
+            "question": "A propos de cette molécule utilisée en thérapeutique, signaler la ou les proposition(s) exacte(s) :",
+            "options": [
+                "ce composé est un IMA O",
+                "présente une forte toxicité hépatique",
+                "ce composé est un antiparasitaire",
+                "ce composé est un tuberculostatique",
+                "ce composé est un hydrazide"
+            ],
+            "correct_answers": [
+                "ce composé est un hydrazide",
+                "ce composé est un tuberculostatique",
+                "présente une forte toxicité hépatique"
+            ],
+            "justification_fausses_reponses": {
+                "ce composé est un IMA O": "Cette affirmation est incorrecte car la molécule en question n'est pas un inhibiteur de la monoamine oxydase (IMA O). Les IMA O sont des médicaments utilisés pour traiter la dépression et d'autres troubles psychiatriques, ce qui n'est pas le cas de la molécule en question.",
+                "ce composé est un antiparasitaire": "Cette affirmation est incorrecte car la molécule en question n'est pas un antiparasitaire. Les antiparasitaires sont des médicaments utilisés pour traiter les infections parasitaires, ce qui n'est pas le cas de la molécule en question."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes relatives au cyclophosphamide représenté ci-dessous, quelle est (sont) celle(s) qui est (sont) exactes",
+            "options": [
+                "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+                "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+                "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+                "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase",
+                "La présence d’une forte activité aldéhyde déshydrogénases (ALDH) est indispensable à la production de métabolites toxiques"
+            ],
+            "correct_answers": [
+                "Le cyclophosphamide est une prodrogue qui produit des métabolites cytotoxiques préférentiellement dans les cellules tumorales",
+                "Le principal produit cytotoxique issu de l’activation métabolique du cyclophosphamide est une moutarde à l’azote",
+                "De l’acroléine est produite également pendant la métabolisation du cyclophosphamide",
+                "L’activation métabolique du cyclophosphamide dépend d’une activité phosphoramidase"
+            ],
+            "justification_fausses_reponses": {
+                "La présence d’une forte activité aldéhyde déshydrogénases (ALDH) est indispensable à la production de métabolites toxiques": "Cette affirmation est incorrecte car l'aldéhyde déshydrogénase (ALDH) n'est pas indispensable à la production de métabolites toxiques du cyclophosphamide. En réalité, l'ALDH joue un rôle protecteur en détoxifiant l'acroléine, un métabolite toxique du cyclophosphamide."
+            }
+        },
+        {
+            "question": "quelle est cette molécule",
+            "options": [
+                "omeprazole",
+                "aprepitant",
+                "cimetidine",
+                "odansetron",
+                "metoclopramide"
+            ],
+            "correct_answers": [
+                "omeprazole"
+            ],
+            "justification_fausses_reponses": {
+                "aprepitant": "L'aprepitant est incorrect car c'est un antiémétique utilisé pour prévenir les nausées et vomissements associés à la chimiothérapie, et non la molécule en question.",
+                "cimetidine": "La cimetidine est incorrecte car c'est un antagoniste des récepteurs H2 de l'histamine utilisé pour traiter les ulcères d'estomac, et non la molécule en question.",
+                "odansetron": "L'odansetron est incorrect car c'est un antiémétique utilisé pour prévenir les nausées et vomissements postopératoires et ceux induits par la chimiothérapie, et non la molécule en question.",
+                "metoclopramide": "Le métoclopramide est incorrect car c'est un médicament antiémétique et gastroprokinétique, et non la molécule en question."
+            }
+        }
+    ]
+}

@@ -1,0 +1,485 @@
+{
+    "theme": "Biophysique",
+    "questions": [
+        {
+            "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+            "options": [
+                "Le domaine de l’IR correspond à des énergies supérieures à celles du Visible",
+                "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR",
+                "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+                "Le domaine de l’UV correspond à des énergies inférieures à celles du Visible",
+                "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR"
+            ],
+            "correct_answers": [
+                "Le domaine du Visible correspond à des fréquences inférieures à celles de l’UV",
+                "Le domaine de l’UV correspond à des longueurs d’ondes inférieures à celles de l’IR",
+                "Le domaine du Visible correspond à des énergies supérieures à celles de l’IR"
+            ],
+            "justification_fausses_reponses": {
+                "Le domaine de l’IR correspond à des énergies supérieures à celles du Visible": "C'est incorrect car l'énergie des ondes infrarouges (IR) est inférieure à celle des ondes visibles. En effet, l'énergie d'une onde est inversement proportionnelle à sa longueur d'onde, et les ondes IR ont des longueurs d'onde plus grandes que les ondes visibles.",
+                "Le domaine de l’UV correspond à des énergies inférieures à celles du Visible": "C'est incorrect car l'énergie des ondes ultraviolettes (UV) est supérieure à celle des ondes visibles. En effet, l'énergie d'une onde est inversement proportionnelle à sa longueur d'onde, et les ondes UV ont des longueurs d'onde plus petites que les ondes visibles."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant l’Imagerie par R ésonance Magnétique, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "C’est une technique d’imagerie utilisant la radioactivité",
+                "Par IRM, on observe les protons de l’eau dans le corps humain",
+                "Par IRM, on détecte les noyaux émetteurs beta",
+                "Cette technique nécessite un champ magnétique intense",
+                "Par IRM, on détecte les rayons X+"
+            ],
+            "correct_answers": [
+                "Par IRM, on observe les protons de l’eau dans le corps humain",
+                "Cette technique nécessite un champ magnétique intense"
+            ],
+            "justification_fausses_reponses": {
+                "C’est une technique d’imagerie utilisant la radioactivité": "C'est incorrect car l'IRM n'utilise pas la radioactivité. Elle utilise un champ magnétique et des ondes radio pour créer des images détaillées des organes et des tissus du corps.",
+                "Par IRM, on détecte les noyaux émetteurs beta": "C'est incorrect car l'IRM ne détecte pas les noyaux émetteurs beta. Elle détecte les protons, en particulier ceux de l'eau, dans le corps humain.",
+                "Par IRM, on détecte les rayons X+": "C'est incorrect car l'IRM ne détecte pas les rayons X. Les rayons X sont utilisés en radiographie, pas en IRM."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant l’effet Doppler, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "Il est observé entre une source et un récepteur, tous deux immobiles",
+                "Il peut correspondre à une variation de fréquences d’ondes sonores",
+                "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+                "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+                "Il est observé entre une source et un récepteur, tous deux mobiles"
+            ],
+            "correct_answers": [
+                "Il peut correspondre à une variation de fréquences d’ondes sonores",
+                "Il peut correspondre à une variation de fréquences d’ondes ultrasonores",
+                "Il peut correspondre à une variation de fréquences d’ondes lumineuses",
+                "Il est observé entre une source et un récepteur, tous deux mobiles"
+            ],
+            "justification_fausses_reponses": {
+                "Il est observé entre une source et un récepteur, tous deux immobiles": "L'effet Doppler est un phénomène physique qui se produit lorsque la source d'une onde (sonore, lumineuse, etc.) et son observateur se déplacent l'un par rapport à l'autre. Si la source et l'observateur sont immobiles, il n'y a pas d'effet Doppler."
+            }
+        },
+        {
+            "question": "Parmi les unités suivantes, quelle est celle qui est équivalente à 1 Joule ?",
+            "options": [
+                "1 kg.s.m",
+                "1 kg.m.s",
+                "1 kg.m .s",
+                "1 kg.m.s",
+                "1 kg.s .m-1"
+            ],
+            "correct_answers": [
+                "1 kg.m .s2-2"
+            ],
+            "justification_fausses_reponses": {
+                "1 kg.s.m": "Cette unité est incorrecte car elle ne correspond pas à l'unité de l'énergie qui est le Joule. Le Joule est défini comme le travail effectué par une force de 1 Newton sur une distance de 1 mètre, soit 1 kg.m2.s-2.",
+                "1 kg.m.s": "Cette unité est incorrecte car elle ne correspond pas à l'unité de l'énergie qui est le Joule. Le Joule est défini comme le travail effectué par une force de 1 Newton sur une distance de 1 mètre, soit 1 kg.m2.s-2.",
+                "1 kg.m .s": "Cette unité est incorrecte car elle ne correspond pas à l'unité de l'énergie qui est le Joule. Le Joule est défini comme le travail effectué par une force de 1 Newton sur une distance de 1 mètre, soit 1 kg.m2.s-2.",
+                "1 kg.s .m-1": "Cette unité est incorrecte car elle ne correspond pas à l'unité de l'énergie qui est le Joule. Le Joule est défini comme le travail effectué par une force de 1 Newton sur une distance de 1 mètre, soit 1 kg.m2.s-2."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant  la radioactivité, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "La radioactivité beta- conduit à l’émission d’un électron",
+                "La radioactivité alpha conduit à l’émission d’un noyau d’hélium",
+                "La radioactivité delta conduit à l’émission d’un deutérium",
+                "La radioactivité gamma conduit à l’émission d’un neutron",
+                "La radioactivité beta+ conduit à l’émission d’un proton"
+            ],
+            "correct_answers": [
+                "La radioactivité alpha conduit à l’émission d’un noyau d’hélium",
+                "La radioactivité beta- conduit à l’émission d’un électron"
+            ],
+            "justification_fausses_reponses": {
+                "La radioactivité delta conduit à l’émission d’un deutérium": "La radioactivité delta n'existe pas dans le spectre de la radioactivité. Il s'agit donc d'une proposition incorrecte.",
+                "La radioactivité gamma conduit à l’émission d’un neutron": "La radioactivité gamma n'entraîne pas l'émission d'un neutron, mais l'émission d'un rayonnement électromagnétique de haute énergie. C'est donc une proposition incorrecte.",
+                "La radioactivité beta+ conduit à l’émission d’un proton": "La radioactivité beta+ conduit à l'émission d'un positron (l'antiparticule de l'électron), et non d'un proton. C'est donc une proposition incorrecte."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, la(les)quelle(s) est (sont) exacte(s)",
+            "options": [
+                "La spectrophotométrie UV-Visible permet de mesurer un pouvoir rotatoire",
+                "La photométrie de flamme est basée sur l’émission de lumière par des atomes excités retournant à l’état fondamental",
+                "La polarimétrie permet de mesurer une absorbance",
+                "Le domaine de lumière Visible correspond à la lumière blanche",
+                "La réfractométrie permet de mesurer un indice de réfraction absolu"
+            ],
+            "correct_answers": [
+                "La réfractométrie permet de mesurer un indice de réfraction absolu",
+                "La photométrie de flamme est basée sur l’émission de lumière par des atomes excités retournant à l’état fondamental",
+                "Le domaine de lumière Visible correspond à la lumière blanche"
+            ],
+            "justification_fausses_reponses": {
+                "La spectrophotométrie UV-Visible permet de mesurer un pouvoir rotatoire": "C'est incorrect car la spectrophotométrie UV-Visible est une technique qui permet de mesurer l'absorbance ou la transmittance d'une substance. Le pouvoir rotatoire, qui est la capacité d'une substance à dévier la lumière polarisée, est mesuré par la polarimétrie.",
+                "La polarimétrie permet de mesurer une absorbance": "C'est incorrect car la polarimétrie est une technique qui permet de mesurer le pouvoir rotatoire d'une substance, c'est-à-dire sa capacité à dévier la lumière polarisée. L'absorbance, qui est la capacité d'une substance à absorber la lumière à une certaine longueur d'onde, est mesurée par la spectrophotométrie."
+            }
+        },
+        {
+            "question": "Quelle sera la multiplicité du signal B sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+            "options": [
+                "Doublet",
+                "Quintuplet",
+                "Quadruplet",
+                "Singulet",
+                "Triplet"
+            ],
+            "correct_answers": [
+                "Quadruplet"
+            ],
+            "justification_fausses_reponses": {
+                "Doublet": "Un doublet indique que le proton est couplé à un autre proton. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+                "Quintuplet": "Un quintuplet indique que le proton est couplé à quatre autres protons. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+                "Singulet": "Un singulet indique que le proton n'est couplé à aucun autre proton. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte.",
+                "Triplet": "Un triplet indique que le proton est couplé à deux autres protons. Dans le cas de l'Ibuprofen, le signal B est couplé à trois protons, donc cette réponse est incorrecte."
+            }
+        },
+        {
+            "question": "Quelle sera la multiplicité du signal A sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+            "options": [
+                "Nonuplet",
+                "Octuplet",
+                "Triplet",
+                "Quadruplet",
+                "Singulet"
+            ],
+            "correct_answers": [
+                "Nonuplet"
+            ],
+            "justification_fausses_reponses": {
+                "Octuplet": "La multiplicité du signal A n'est pas un octuplet. En RMN, l'octuplet se produit lorsque le proton est couplé à sept autres protons, ce qui n'est pas le cas ici.",
+                "Triplet": "La multiplicité du signal A n'est pas un triplet. En RMN, le triplet se produit lorsque le proton est couplé à deux autres protons, ce qui n'est pas le cas ici.",
+                "Quadruplet": "La multiplicité du signal A n'est pas un quadruplet. En RMN, le quadruplet se produit lorsque le proton est couplé à trois autres protons, ce qui n'est pas le cas ici.",
+                "Singulet": "La multiplicité du signal A n'est pas un singulet. En RMN, le singulet se produit lorsque le proton n'est couplé à aucun autre proton, ce qui n'est pas le cas ici."
+            }
+        },
+        {
+            "question": "Combien de signaux seront observés sur le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+            "options": [
+                "1",
+                "8",
+                "6",
+                "11",
+                "5"
+            ],
+            "correct_answers": [
+                "8"
+            ],
+            "justification_fausses_reponses": {
+                "1": "C'est incorrect car l'Ibuprofen a plus d'un type d'atome d'hydrogène dans des environnements chimiques différents, donc plus d'un signal serait observé.",
+                "6": "C'est incorrect car l'Ibuprofen a plus de six types d'atomes d'hydrogène dans des environnements chimiques différents, donc plus de six signaux seraient observés.",
+                "11": "C'est incorrect car l'Ibuprofen a moins de onze types d'atomes d'hydrogène dans des environnements chimiques différents, donc moins de onze signaux seraient observés.",
+                "5": "C'est incorrect car l'Ibuprofen a plus de cinq types d'atomes d'hydrogène dans des environnements chimiques différents, donc plus de cinq signaux seraient observés."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant les ondes électromagnétiques, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "Les ondes gamma sont très énergétiques",
+                "Les rayons X ont des fréquences très basses",
+                "Leur vitesse de propagation dans le vide est de 3 x 10 km.s",
+                "Energie E = h (constante de Planck) x ν (fréquence)",
+                "Energie E = h (constante de Planck) x λ (longueur d’onde) ÷ c (célérité)"
+            ],
+            "correct_answers": [
+                "Energie E = h (constante de Planck) x ν (fréquence)",
+                "Les ondes gamma sont très énergétiques",
+                "Leur vitesse de propagation dans le vide est de 3 x 10 km.s"
+            ],
+            "justification_fausses_reponses": {
+                "Les rayons X ont des fréquences très basses": "C'est incorrect. Les rayons X ont en réalité des fréquences très élevées, ce qui leur permet de pénétrer la matière et de produire des images de l'intérieur du corps humain en médecine.",
+                "Energie E = h (constante de Planck) x λ (longueur d’onde) ÷ c (célérité)": "C'est incorrect. L'équation correcte pour l'énergie d'une onde électromagnétique est E = h (constante de Planck) x ν (fréquence), pas la longueur d'onde λ. La longueur d'onde et la fréquence sont inversément proportionnelles, mais ce n'est pas la longueur d'onde qui est directement proportionnelle à l'énergie."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+            "options": [
+                "La loi de Beer-Lambert s’applique à la photométrie de flamme",
+                "La polarimétrie permet de doser toutes les molécules",
+                "La loi de Biot s’applique à la polarimétrie",
+                "La loi de Beer-Lambert s’applique à la spectrométrie UV-Visible",
+                "La réfractométrie ne permet pas de doser une molécule"
+            ],
+            "correct_answers": [
+                "La loi de Biot s’applique à la polarimétrie",
+                "La loi de Beer-Lambert s’applique à la spectrométrie UV-Visible"
+            ],
+            "justification_fausses_reponses": {
+                "La loi de Beer-Lambert s’applique à la photométrie de flamme": "La loi de Beer-Lambert s'applique à la spectrophotométrie, pas à la photométrie de flamme. La photométrie de flamme est basée sur l'émission de lumière par des atomes excités, pas sur l'absorption de lumière.",
+                "La polarimétrie permet de doser toutes les molécules": "La polarimétrie ne permet pas de doser toutes les molécules. Elle ne peut doser que les molécules optiquement actives, c'est-à-dire celles qui ont la capacité de faire tourner le plan de polarisation de la lumière.",
+                "La réfractométrie ne permet pas de doser une molécule": "La réfractométrie peut être utilisée pour doser une molécule. Elle mesure l'indice de réfraction d'une substance, qui peut être utilisé pour déterminer la concentration d'une solution."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant un radioélément, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "Son activité s’exprime en Becquerel, ie en désintégrations.s  dans le S ystème International",
+                "Son activité peut s’exprimer en Curie",
+                "Sa période est le temps au bout duquel 100% de l’activité a disparu",
+                "Sa période est le temps au bout duquel 50% de l’activité a disparu",
+                "Son activité s’exprime en Becquerel, ie en désintégrations.h  dans le S ystème International-1"
+            ],
+            "correct_answers": [
+                "Sa période est le temps au bout duquel 50% de l’activité a disparu",
+                "Son activité s’exprime en Becquerel, ie en désintégrations.s  dans le S ystème International",
+                "Son activité peut s’exprimer en Curie"
+            ],
+            "justification_fausses_reponses": {
+                "Sa période est le temps au bout duquel 100% de l’activité a disparu": "C'est incorrect car la période d'un radioélément est définie comme le temps nécessaire pour que la moitié de l'activité radioactive initiale disparaisse, pas 100%.",
+                "Son activité s’exprime en Becquerel, ie en désintégrations.h  dans le S ystème International-1": "C'est incorrect car l'activité d'un radioélément est exprimée en désintégrations par seconde (Becquerel) et non en désintégrations par heure."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes  concernant la R ésonance Magnétique Nucléaire, la(les)quelle(s) est (sont) exacte(s) ?",
+            "options": [
+                "Ses fréquences sont du domaine du MégaHertz",
+                "C’est une spectroscopie ionisante",
+                "C’est une spectroscopie quantitative",
+                "C’est une technique spectroscopique d’absorption",
+                "On peut étudier tous les noyaux par RMN"
+            ],
+            "correct_answers": [
+                "C’est une technique spectroscopique d’absorption",
+                "Ses fréquences sont du domaine du MégaHertz",
+                "C’est une spectroscopie quantitative"
+            ],
+            "justification_fausses_reponses": {
+                "C’est une spectroscopie ionisante": "La Résonance Magnétique Nucléaire (RMN) n'est pas une spectroscopie ionisante. Elle n'implique pas l'ionisation des atomes, mais plutôt l'excitation des noyaux atomiques dans un champ magnétique.",
+                "On peut étudier tous les noyaux par RMN": "Tous les noyaux ne peuvent pas être étudiés par RMN. Seuls les noyaux possédant un spin nucléaire non nul peuvent être étudiés par cette technique."
+            }
+        },
+        {
+            "question": "Parmi ces concentrations, quelle(s) est (sont) celle(s) qui correspond(ent) à une solution à 100 g/l :",
+            "options": [
+                "0,1 g.ml",
+                "10 g.dm",
+                "10 g.cm",
+                "0,1 g.cm",
+                "10 g.ml-1"
+            ],
+            "correct_answers": [
+                "10 g.dm",
+                "0,1 g.cm",
+                "0,1 g.ml"
+            ],
+            "justification_fausses_reponses": {
+                "10 g.cm": "Cette option est incorrecte car une concentration de 10 g/cm correspond à une solution beaucoup plus concentrée que 100 g/l. En effet, 1 cm3 est équivalent à 1 ml, donc 10 g/cm3 équivaut à 10 g/ml, soit 10000 g/l, ce qui est bien supérieur à 100 g/l.",
+                "10 g.ml-1": "Cette option est incorrecte car une concentration de 10 g/ml correspond à une solution beaucoup plus concentrée que 100 g/l. En effet, 1 ml est équivalent à 1 cm3, donc 10 g/ml équivaut à 10 g/cm3, soit 10000 g/l, ce qui est bien supérieur à 100 g/l."
+            }
+        },
+        {
+            "question": "Parmi ces différentes masses volumiques, quelle(s) est (sont) celle(s) qui est (sont) équivalente(s) à 1 g.cm :",
+            "options": [
+                "1 kg.dm",
+                "1 mg.ml",
+                "1 g.ml",
+                "1000 kg.l",
+                "10 g.dm-3"
+            ],
+            "correct_answers": [
+                "1 kg.dm",
+                "1 g.ml"
+            ],
+            "justification_fausses_reponses": {
+                "1 mg.ml": "Cette option est incorrecte car 1 mg/ml est équivalent à 0.001 g/cm³, ce qui est 1000 fois moins que 1 g/cm³.",
+                "1000 kg.l": "Cette option est incorrecte car 1000 kg/l est équivalent à 1 g/cm³, ce qui est 1000 fois plus que 1 g/cm³.",
+                "10 g.dm-3": "Cette option est incorrecte car 10 g/dm³ est équivalent à 0.01 g/cm³, ce qui est 100 fois moins que 1 g/cm³."
+            }
+        },
+        {
+            "question": "Quelle(s) proposition(s) est (sont) exactes(s) concernant la partie aromatique du spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+            "options": [
+                "On observera 4 singulets d’intensité 2 chacun",
+                "On observera 4 singulets d’intensité 1 chacun",
+                "Il n’y a pas de protons aromatiques",
+                "On observera 1 singulet d’intensité 4",
+                "On observera 2 doublets d’intensité 2 chacun"
+            ],
+            "correct_answers": [
+                "On observera 2 doublets d’intensité 2 chacun"
+            ],
+            "justification_fausses_reponses": {
+                "On observera 4 singulets d’intensité 2 chacun": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas quatre singulets.",
+                "On observera 4 singulets d’intensité 1 chacun": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas quatre singulets d'intensité 1.",
+                "Il n’y a pas de protons aromatiques": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques, chacun contenant des protons aromatiques.",
+                "On observera 1 singulet d’intensité 4": "C'est incorrect car l'Ibuprofen® possède deux groupes aromatiques qui donnent chacun un doublet d'intensité 2, pas un singulet d'intensité 4."
+            }
+        },
+        {
+            "question": "On dissout une masse m = 6,00 g de paracétamol  (M=151,15 g.mol ) dans un volume V = 150,0 ml de solution, quelle est la concentration molaire de cette solution (en mol.l ) en respectant les chiffres significatifs ?",
+            "options": [
+                "0,2646 mol.l-1",
+                "0,3 mol.l-1",
+                "0,265 mol.l-1",
+                "0,26 mol.l-1",
+                "0,26464 mol.l-1"
+            ],
+            "correct_answers": [
+                "0,265 mol.l-1"
+            ],
+            "justification_fausses_reponses": {
+                "0,2646 mol.l-1": "Cette réponse est incorrecte car elle ne respecte pas les chiffres significatifs. La concentration molaire est calculée en divisant la masse du soluté par le produit de sa masse molaire et le volume de la solution, le tout converti en litres. Ici, le calcul donne une valeur plus proche de 0,265 mol.l-1.",
+                "0,3 mol.l-1": "Cette réponse est incorrecte car elle est arrondie de manière excessive. En respectant les chiffres significatifs, la concentration molaire est plus proche de 0,265 mol.l-1.",
+                "0,26 mol.l-1": "Cette réponse est incorrecte car elle est arrondie de manière excessive. En respectant les chiffres significatifs, la concentration molaire est plus proche de 0,265 mol.l-1.",
+                "0,26464 mol.l-1": "Cette réponse est incorrecte car elle ne respecte pas les chiffres significatifs. La concentration molaire est calculée en divisant la masse du soluté par le produit de sa masse molaire et le volume de la solution, le tout converti en litres. Ici, le calcul donne une valeur plus proche de 0,265 mol.l-1."
+            }
+        },
+        {
+            "question": "Parmi les techniques d’imagerie médicale suivantes, la(les)quelle(s) utilise(nt) des rayonnements ionisants ?",
+            "options": [
+                "L’échographie",
+                "La tomographie à émission de positons",
+                "La radiologie conventionnelle avec ou sans produit de contraste",
+                "L’imagerie par résonance magnétique",
+                "Le scanner X"
+            ],
+            "correct_answers": [
+                "La radiologie conventionnelle avec ou sans produit de contraste",
+                "La tomographie à émission de positons",
+                "Le scanner X"
+            ],
+            "justification_fausses_reponses": {
+                "L’échographie": "L'échographie utilise des ondes sonores de haute fréquence pour créer des images du corps, et non des rayonnements ionisants.",
+                "L’imagerie par résonance magnétique": "L'IRM utilise un champ magnétique puissant et des ondes radio pour créer des images détaillées du corps. Elle n'utilise pas de rayonnements ionisants."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle est celle qui correspond à la masse molaire de l’Ibuprofen® C HOen respectant les chiffres significatifs? (M(C) = 12,01 g.mol ; M(O) = 16,0 g.mol ; M(H) = 1,008 g.mol )",
+            "options": [
+                "206,27 g.mol-1",
+                "206,274 g.mol-1",
+                "206,3 g.mol-1",
+                "206 g.mol-1",
+                "206,300 g.mol-1"
+            ],
+            "correct_answers": [
+                "206,3 g.mol-1"
+            ],
+            "justification_fausses_reponses": {
+                "206,27 g.mol-1": "Cette réponse est incorrecte car elle ne respecte pas les chiffres significatifs. La masse molaire de l'Ibuprofen est plus proche de 206,3 g.mol-1.",
+                "206,274 g.mol-1": "Cette réponse est incorrecte car elle est trop précise. Les chiffres significatifs indiqués dans la question sont respectés avec une réponse de 206,3 g.mol-1.",
+                "206 g.mol-1": "Cette réponse est incorrecte car elle n'est pas assez précise. La masse molaire de l'Ibuprofen est plus proche de 206,3 g.mol-1.",
+                "206,300 g.mol-1": "Cette réponse est incorrecte car elle est trop précise. Les chiffres significatifs indiqués dans la question sont respectés avec une réponse de 206,3 g.mol-1."
+            }
+        },
+        {
+            "question": "Quelle(s) proposition(s) est (sont) exactes(s) concernant le spectre RMN H de l’Ibuprofen® en solution dans du Chloroforme-d ?",
+            "options": [
+                "Le OH est échangeable en présence d’eau lourde",
+                "On n’observera aucun signal pour le OH",
+                "Le OH est échangeable avec le deutérium du chloroforme-d",
+                "On observera un doublet pour OH",
+                "On observera un singulet pour OH"
+            ],
+            "correct_answers": [
+                "On observera un singulet pour OH",
+                "Le OH est échangeable en présence d’eau lourde"
+            ],
+            "justification_fausses_reponses": {
+                "On n’observera aucun signal pour le OH": "C'est incorrect car le groupe OH de l'Ibuprofen® est détectable par RMN. Il apparaît généralement comme un singulet dans le spectre RMN.",
+                "Le OH est échangeable avec le deutérium du chloroforme-d": "C'est incorrect car le deutérium du chloroforme-d n'est pas échangeable avec le groupe OH. Le chloroforme-d est utilisé comme solvant en RMN car il ne donne pas de signal dans la région où la plupart des composés organiques sont détectés.",
+                "On observera un doublet pour OH": "C'est incorrect car le groupe OH de l'Ibuprofen® apparaît comme un singulet dans le spectre RMN, et non comme un doublet. Un doublet indiquerait une interaction spin-spin avec un proton voisin, ce qui n'est pas le cas ici."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+            "options": [
+                "10 cm  = 1 mm",
+                "10 cm = 10  l",
+                "10 dm  = 10  mm",
+                "10nm = 10  m",
+                "10μm  = 10  m"
+            ],
+            "correct_answers": [
+                "10 dm  = 10  mm",
+                "10 cm  = 1 mm",
+                "10 nm = 10  m",
+                "10 μm  = 10  m",
+                "10  cm = 10 l"
+            ],
+            "justification_fausses_reponses": {
+                "10 cm  = 1 mm": "C'est incorrect car 10 cm équivaut à 100 mm. Le centimètre (cm) est une unité de longueur du système international d'unités (SI) équivalente à 10 millimètres (mm).",
+                "10 cm = 10  l": "C'est incorrect car le centimètre (cm) est une unité de longueur et le litre (l) est une unité de volume. Ils ne peuvent donc pas être équivalents.",
+                "10 dm  = 10  mm": "C'est incorrect car 10 dm équivaut à 1000 mm. Le décimètre (dm) est une unité de longueur du système international d'unités (SI) équivalente à 100 millimètres (mm).",
+                "10nm = 10  m": "C'est incorrect car 10 nm équivaut à 1e-8 m. Le nanomètre (nm) est une unité de longueur du système international d'unités (SI) équivalente à 1e-9 mètres (m).",
+                "10μm  = 10  m": "C'est incorrect car 10 μm équivaut à 1e-5 m. Le micromètre (μm) est une unité de longueur du système international d'unités (SI) équivalente à 1e-6 mètres (m)."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont) exacte(s) ?",
+            "options": [
+                "Toutes les molécules peuvent êtres dosées par fluorescence",
+                "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+                "La polarimétrie permet de doser des molécules optiquement actives",
+                "Seules les molécules fluorées peuvent êtres dosées par fluorescence",
+                "Un dossier d’AMM requiert le spectre RMN H du principe actif"
+            ],
+            "correct_answers": [
+                "La loi de Beer-Lambert s'applique à la spectrométrie UV-Visible",
+                "Un dossier d’AMM requiert le spectre RMN H du principe actif",
+                "La polarimétrie permet de doser des molécules optiquement actives"
+            ],
+            "justification_fausses_reponses": {
+                "Toutes les molécules peuvent êtres dosées par fluorescence": "C'est incorrect car toutes les molécules ne sont pas fluorescentes. Seules les molécules qui peuvent absorber la lumière à une certaine longueur d'onde et la réémettre à une longueur d'onde plus longue sont fluorescentes.",
+                "Seules les molécules fluorées peuvent êtres dosées par fluorescence": "C'est incorrect car bien que les molécules fluorées soient généralement dosées par fluorescence, d'autres molécules peuvent également l'être si elles sont fluorescentes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant une concentration déterminée à 0,2500 mol.l  avec une précision de 5%, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+            "options": [
+                "Son incertitude relative est de 0,05 mol.l",
+                "Son incertitude absolue est de 0,0125 mol.l",
+                "Son incertitude relative est de 0,0125 mol.l",
+                "Son incertitude absolue est de 1,25 %",
+                "Son incertitude absolue est de 0,05 mol.l-1"
+            ],
+            "correct_answers": [
+                "Son incertitude absolue est de 0,0125 mol.l"
+            ],
+            "justification_fausses_reponses": {
+                "Son incertitude relative est de 0,05 mol.l": "C'est incorrect car l'incertitude relative est une mesure de l'incertitude en pourcentage de la valeur mesurée, pas en mol.l.",
+                "Son incertitude relative est de 0,0125 mol.l": "C'est incorrect car l'incertitude relative est une mesure de l'incertitude en pourcentage de la valeur mesurée, pas en mol.l.",
+                "Son incertitude absolue est de 1,25 %": "C'est incorrect car l'incertitude absolue est une mesure de l'incertitude en unités de la mesure, pas en pourcentage.",
+                "Son incertitude absolue est de 0,05 mol.l-1": "C'est incorrect car l'incertitude absolue pour une concentration de 0,2500 mol.l avec une précision de 5% serait de 0,0125 mol.l, pas de 0,05 mol.l-1."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle(s) est (sont) celle(s) qui est (sont)  exacte(s) ?",
+            "options": [
+                "La spectrométrie IR est basée sur l’émission stimulée de lumière",
+                "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+                "La spectrométrie UV-visible est basée sur l’absorption de lumière",
+                "Le principe du L ASER est basé sur l’émission spontanée de lumière",
+                "La polarimétrie est basée sur l’émission spontanée de lumière"
+            ],
+            "correct_answers": [
+                "La fluorescence est basée sur l’émission spontanée de lumière après absorption de lumière",
+                "La spectrométrie UV-visible est basée sur l’absorption de lumière"
+            ],
+            "justification_fausses_reponses": {
+                "La spectrométrie IR est basée sur l’émission stimulée de lumière": "C'est incorrect car la spectrométrie IR est basée sur l'absorption de lumière par les molécules, pas sur l'émission stimulée de lumière.",
+                "Le principe du L ASER est basé sur l’émission spontanée de lumière": "C'est incorrect car le principe du LASER est basé sur l'émission stimulée de lumière, pas sur l'émission spontanée.",
+                "La polarimétrie est basée sur l’émission spontanée de lumière": "C'est incorrect car la polarimétrie est basée sur la rotation de la lumière polarisée par les molécules, pas sur l'émission spontanée de lumière."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes concernant l’atome C, la(les)quelle(s) est (sont) exacte(s) :",
+            "options": [
+                "Il est isotope du carbone-12",
+                "Il contient 6 neutrons et 7 protons",
+                "Son numéro atomique est égal à 13",
+                "Il contient 6 protons et 7 neutrons",
+                "Il est constitué d’un noyau de carbone et de 6 électrons"
+            ],
+            "correct_answers": [
+                "Il est constitué d’un noyau de carbone et de 6 électrons",
+                "Il contient 6 protons et 7 neutrons",
+                "Il est isotope du carbone-12"
+            ],
+            "justification_fausses_reponses": {
+                "Il contient 6 neutrons et 7 protons": "Cette affirmation est incorrecte car l'atome de carbone a 6 protons et 6 neutrons dans son noyau, pas 7 protons. Le nombre de protons détermine l'élément chimique, donc si un atome a 7 protons, il s'agit d'un atome de lithium, pas de carbone.",
+                "Son numéro atomique est égal à 13": "Cette affirmation est incorrecte car le numéro atomique du carbone est 6, pas 13. Le numéro atomique est égal au nombre de protons dans le noyau d'un atome. Un atome avec un numéro atomique de 13 est un atome d'aluminium, pas de carbone."
+            }
+        }
+    ]
+}

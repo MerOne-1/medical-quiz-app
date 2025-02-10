@@ -1,0 +1,535 @@
+{
+    "theme": "Pharmacognosie",
+    "questions": [
+        {
+            "question": "Parmi les molécules ou familles de molécules suivantes, laquelle (lesquelles) est (sont) de nature stéroïdique ?",
+            "options": [
+                "Cholestérol",
+                "Acide fusidique",
+                "Digoxine",
+                "Vitamine D",
+                "Ethinylestradiol"
+            ],
+            "correct_answers": [
+                "Cholestérol",
+                "Acide fusidique",
+                "Vitamine D",
+                "Digoxine",
+                "Ethinylestradiol"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Le Crémophor* :",
+            "options": [
+                "est largement utilisé pour la formulation de produits peu absorbés par voie orale",
+                "est un excipient à effet notoire",
+                "est préoccupant par sa teneur en sodium",
+                "est produit à partir d’huile végétale de ricin",
+                "est allergisant"
+            ],
+            "correct_answers": [
+                "est produit à partir d’huile végétale de ricin",
+                "est un excipient à effet notoire",
+                "est allergisant"
+            ],
+            "justification_fausses_reponses": {
+                "est largement utilisé pour la formulation de produits peu absorbés par voie orale": "Cette affirmation est incorrecte car le Crémophor est principalement utilisé comme solubilisant et non pour améliorer l'absorption de produits par voie orale.",
+                "est préoccupant par sa teneur en sodium": "Cette affirmation est incorrecte car le Crémophor ne contient pas de sodium. Il est produit à partir d'huile de ricin et ne contient donc pas de minéraux."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les macrolides immunosuppresseurs sont tous désignés par des DCI se terminant par « -rolimus »",
+                "L’acide mycophénolique agit via une immunophiline",
+                "La ciclosporine et le tacrolimus peuvent être associés en thérapeutique",
+                "La ciclosporine et le sirolimus peuvent être associés en thérapeutique",
+                "Le sirolimus est la rapamycine"
+            ],
+            "correct_answers": [
+                "Les macrolides immunosuppresseurs sont tous désignés par des DCI se terminant par « -rolimus »",
+                "Le sirolimus est la rapamycine",
+                "La ciclosporine et le sirolimus peuvent être associés en thérapeutique"
+            ],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "L'amphotéricine B :",
+            "options": [
+                "est produite par une bactérie",
+                "peut être administrée par voie orale pour une action systémique",
+                "est un antifongique polyénique",
+                "a un mécanisme d’action qui repose sur son caractère amphotère",
+                "est structuralement apparentée à la nystatine"
+            ],
+            "correct_answers": [
+                "est un antifongique polyénique",
+                "a un mécanisme d’action qui repose sur son caractère amphotère",
+                "est structuralement apparentée à la nystatine",
+                "est produite par une bactérie"
+            ],
+            "justification_fausses_reponses": {
+                "peut être administrée par voie orale pour une action systémique": "L'amphotéricine B n'est pas administrée par voie orale pour une action systémique car elle a une mauvaise absorption gastro-intestinale. Elle est généralement administrée par voie intraveineuse pour une action systémique."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "est un alcaloïde",
+                "est un polyphénol",
+                "est un alcaloïde",
+                "est un acide gras",
+                "est un polyphénol"
+            ],
+            "correct_answers": [
+                "est un acide gras",
+                "est un alcaloïde",
+                "est un polyphénol"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les molécules ci-dessous, lesquelles sont structuralement des macrolides ?",
+            "options": [],
+            "correct_answers": [],
+            "justification_fausses_reponses": null
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Certains Aspergillus sont des pathogènes opportunistes",
+                "Certains Aspergillus produisent des médicaments",
+                "Les aspergilloses font partie des indications thérapeutiques des échinocandines",
+                "Certains Aspergillus produisent les aflatoxines, dont des représentants cancérigènes doivent être détectés dans certaines plantes médicinales",
+                "Les Aspergillus sont des champignons"
+            ],
+            "correct_answers": [
+                "Certains Aspergillus produisent les aflatoxines, dont des représentants cancérigènes doivent être détectés dans certaines plantes médicinales",
+                "Certains Aspergillus sont des pathogènes opportunistes",
+                "Certains Aspergillus produisent des médicaments",
+                "Les Aspergillus sont des champignons",
+                "Les aspergilloses font partie des indications thérapeutiques des échinocandines"
+            ],
+            "justification_fausses_reponses": {}
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les héparines sont des composés peptidiques d’origine ribosomique",
+                "Le code génétique s’applique à la biosynthèse des deux types de peptides, ribosomiques et non ribosomiques",
+                "La ciclosporine est un composé peptidique d’origine non ribosomique",
+                "Peptides ribosomiques et non ribosomiques sont constitués exclusivement d’acides aminés de la série L",
+                "L’insuline est un composé peptidique d’origine ribosomique"
+            ],
+            "correct_answers": [
+                "L’insuline est un composé peptidique d’origine ribosomique",
+                "La ciclosporine est un composé peptidique d’origine non ribosomique"
+            ],
+            "justification_fausses_reponses": {
+                "Les héparines sont des composés peptidiques d’origine ribosomique": "Les héparines sont en réalité des glycosaminoglycanes, et non des peptides. Elles sont produites par les mastocytes et non par les ribosomes.",
+                "Le code génétique s’applique à la biosynthèse des deux types de peptides, ribosomiques et non ribosomiques": "Le code génétique ne s'applique qu'à la biosynthèse des peptides ribosomiques. Les peptides non ribosomiques sont synthétisés par des enzymes spécifiques et non par le mécanisme de traduction de l'ARN.",
+                "Peptides ribosomiques et non ribosomiques sont constitués exclusivement d’acides aminés de la série L": "Bien que la majorité des acides aminés dans les peptides soient de la série L, certains peptides non ribosomiques peuvent contenir des acides aminés de la série D."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "L’étoposide inhibe l’assemblage des microtubules",
+                "La colchicine est un anticancéreux",
+                "La colchicine inhibe l’assemblage des microtubules",
+                "La colchicine est issue du colchique",
+                "L’étoposide est un anticancéreux"
+            ],
+            "correct_answers": [
+                "La colchicine est issue du colchique",
+                "La colchicine inhibe l’assemblage des microtubules",
+                "L’étoposide est un anticancéreux"
+            ],
+            "justification_fausses_reponses": {
+                "L’étoposide inhibe l’assemblage des microtubules": "C'est incorrect. L'étoposide est un agent anticancéreux qui inhibe l'enzyme topoisomérase II, ce qui entraîne des dommages à l'ADN et la mort cellulaire, mais il n'inhibe pas l'assemblage des microtubules.",
+                "La colchicine est un anticancéreux": "C'est incorrect. Bien que la colchicine inhibe l'assemblage des microtubules, ce qui peut avoir des effets anticancéreux, elle n'est pas principalement utilisée comme agent anticancéreux en raison de sa toxicité élevée."
+            }
+        },
+        {
+            "question": "La vinorelbine :",
+            "options": [
+                "est réservée à la voie injectable",
+                "est un anticancéreux",
+                "est utilisée uniquement en milieu hospitalier",
+                "nécessite une surveillance hématologique",
+                "requiert un carnet de suivi à remettre au patient"
+            ],
+            "correct_answers": [
+                "est un anticancéreux",
+                "nécessite une surveillance hématologique",
+                "requiert un carnet de suivi à remettre au patient"
+            ],
+            "justification_fausses_reponses": {
+                "est réservée à la voie injectable": "La vinorelbine peut être administrée par voie orale ou injectable. Elle n'est donc pas réservée uniquement à la voie injectable.",
+                "est utilisée uniquement en milieu hospitalier": "La vinorelbine peut être utilisée en milieu hospitalier mais aussi en ambulatoire, sous la surveillance d'un professionnel de santé. Elle n'est donc pas utilisée uniquement en milieu hospitalier."
+            }
+        },
+        {
+            "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’une bactérie ?",
+            "options": [
+                "Exénatide",
+                "Amphotéricine B",
+                "Vancomycine",
+                "Artémisinine",
+                "Pénicilline G"
+            ],
+            "correct_answers": [
+                "Vancomycine",
+                "Amphotéricine B"
+            ],
+            "justification_fausses_reponses": {
+                "Exénatide": "L'Exénatide est un peptide synthétisé à partir de la salive du monstre de Gila, un lézard venimeux, et non d'une bactérie.",
+                "Artémisinine": "L'Artémisinine est une molécule issue de la plante Artemisia annua, utilisée en médecine traditionnelle chinoise, et non d'une bactérie.",
+                "Pénicilline G": "La Pénicilline G est produite par un champignon, le Penicillium chrysogenum, et non par une bactérie."
+            }
+        },
+        {
+            "question": "Parmi les associations ‘médicament – immunophiline – cible’ suivantes, la/lesquelle(s) est (sont) pertinente(s) ?",
+            "options": [
+                "Tacrolimus – FKBP12 – calcineurine",
+                "Sirolimus –FKBP12 – mT OR",
+                "Acide mycophénolique – FKBP12 - mT OR",
+                "Ciclosporine – cyclophiline A – calcineurine",
+                "Rapamycine – cyclophiline A- mT OR"
+            ],
+            "correct_answers": [
+                "Ciclosporine – cyclophiline A – calcineurine",
+                "Tacrolimus – FKBP12 – calcineurine",
+                "Sirolimus –FKBP12 – mT OR"
+            ],
+            "justification_fausses_reponses": {
+                "Acide mycophénolique – FKBP12 - mT OR": "L'acide mycophénolique n'interagit pas avec FKBP12, mais inhibe plutôt l'enzyme inosine monophosphate déshydrogénase, ce qui a un effet immunosuppresseur.",
+                "Rapamycine – cyclophiline A- mT OR": "La rapamycine, également connue sous le nom de sirolimus, interagit avec FKBP12 et non avec la cyclophiline A. De plus, sa cible est mTOR et non mTOR."
+            }
+        },
+        {
+            "question": "Parmi les molécules ou familles de molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) issue(s) d’acides aminés ?",
+            "options": [
+                "Vancomycine",
+                "Pénicillines",
+                "Alcaloïdes",
+                "Héparines",
+                "Insulines"
+            ],
+            "correct_answers": [
+                "Insulines",
+                "Pénicillines",
+                "Alcaloïdes",
+                "Vancomycine"
+            ],
+            "justification_fausses_reponses": {
+                "Héparines": "Les héparines sont des glycosaminoglycanes, une famille de polysaccharides. Elles ne sont donc pas issues d'acides aminés, mais de sucres."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "C’est un acide gras « trans »",
+                "C’est un acide gras « à longue chaîne »",
+                "C’est un acide gras oméga 3",
+                "On peut le rencontrer dans une huile végétale",
+                "C’est un acide gras polyinsaturé"
+            ],
+            "correct_answers": [
+                "C’est un acide gras oméga 3",
+                "C’est un acide gras polyinsaturé",
+                "C’est un acide gras « à longue chaîne »"
+            ],
+            "justification_fausses_reponses": {
+                "C’est un acide gras « trans »": "Cette affirmation est incorrecte car les acides gras trans sont une forme d'acide gras insaturé qui a une configuration spatiale différente de celle des acides gras oméga 3. Ils sont généralement produits industriellement et sont moins sains.",
+                "On peut le rencontrer dans une huile végétale": "Cette affirmation est incorrecte car tous les acides gras ne se trouvent pas nécessairement dans les huiles végétales. Certaines huiles végétales peuvent contenir des acides gras oméga 3, mais cela dépend de la plante spécifique."
+            }
+        },
+        {
+            "question": "Parmi les classes d’antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+            "options": [
+                "Glycopeptides",
+                "Céphalosporines",
+                "Aminosides",
+                "Streptogramines",
+                "Macrolides"
+            ],
+            "correct_answers": [
+                "Streptogramines",
+                "Macrolides",
+                "Aminosides"
+            ],
+            "justification_fausses_reponses": {
+                "Glycopeptides": "Les glycopeptides agissent en inhibant la synthèse de la paroi cellulaire des bactéries, et non sur le fonctionnement des ribosomes.",
+                "Céphalosporines": "Les céphalosporines sont des antibiotiques qui agissent également en inhibant la synthèse de la paroi cellulaire des bactéries, et non sur le fonctionnement des ribosomes."
+            }
+        },
+        {
+            "question": "L’amphotéricine B :",
+            "options": [
+                "peut être administrée par voie orale",
+                "a pour cible la paroi fongique",
+                "est un antifongique",
+                "appartient à la classe des polyènes, comme la nystatine",
+                "est produite par un champignon"
+            ],
+            "correct_answers": [
+                "est un antifongique",
+                "peut être administrée par voie orale",
+                "appartient à la classe des polyènes, comme la nystatine"
+            ],
+            "justification_fausses_reponses": {
+                "a pour cible la paroi fongique": "L'amphotéricine B cible plutôt la membrane cellulaire des champignons, en se liant spécifiquement à l'ergostérol, un composant majeur de cette membrane.",
+                "est produite par un champignon": "L'amphotéricine B est en réalité produite par une bactérie, Streptomyces nodosus, et non par un champignon."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Le colza fournit une huile végétale riche en acides gras de type oméga 3",
+                "Les huiles végétales sont essentiellement obtenues par hydrodistillation",
+                "L’insaponifiable représente généralement la partie la plus importante quantitativement dans une huile végétale",
+                "Les huiles végétales sont constituées principalement de glycérides",
+                "Les huiles végétales sont des composés chimiquement purs"
+            ],
+            "correct_answers": [
+                "Les huiles végétales sont constituées principalement de glycérides",
+                "Le colza fournit une huile végétale riche en acides gras de type oméga 3"
+            ],
+            "justification_fausses_reponses": {
+                "Les huiles végétales sont essentiellement obtenues par hydrodistillation": "C'est incorrect car les huiles végétales sont généralement obtenues par pression à froid ou extraction à chaud, et non par hydrodistillation qui est une méthode utilisée pour obtenir des huiles essentielles.",
+                "L’insaponifiable représente généralement la partie la plus importante quantitativement dans une huile végétale": "C'est faux car l’insaponifiable ne représente qu'une petite partie d'une huile végétale, généralement moins de 2%. La majorité est constituée de triglycérides.",
+                "Les huiles végétales sont des composés chimiquement purs": "C'est incorrect car les huiles végétales sont des mélanges complexes de différents composés, principalement des triglycérides, et non des composés chimiquement purs."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+                "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines",
+                "Les molécules dont la DCI se termine par ‘-mycine’ sont issues de champignons",
+                "Les molécules dont la DCI se termine par ‘-cycline’ sont des anthracyclines",
+                "Les molécules dont la DCI se termine par ‘-mycine’ sont des macrolides"
+            ],
+            "correct_answers": [
+                "Les molécules dont la DCI se termine par ‘-rolimus’ sont des macrolides immunosuppresseurs",
+                "Les molécules dont la DCI se termine par ‘-rubicine’ sont des anthracyclines"
+            ],
+            "justification_fausses_reponses": {
+                "Les molécules dont la DCI se termine par ‘-mycine’ sont issues de champignons": "C'est incorrect car les molécules dont la DCI se termine par ‘-mycine’ sont généralement des antibiotiques produits par des bactéries, et non des champignons.",
+                "Les molécules dont la DCI se termine par ‘-cycline’ sont des anthracyclines": "C'est incorrect car les molécules dont la DCI se termine par ‘-cycline’ sont des antibiotiques de la famille des tétracyclines, et non des anthracyclines.",
+                "Les molécules dont la DCI se termine par ‘-mycine’ sont des macrolides": "C'est incorrect car bien que certaines molécules dont la DCI se termine par ‘-mycine’ soient des macrolides, toutes ne le sont pas. Par exemple, les aminoglycosides se terminent également par ‘-mycine’."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "L’acide clavulanique est un composé synthétique",
+                "Les pénicillines sont d’origine fongique",
+                "La plupart des antibiotiques sont d’origine fongique",
+                "Les pénicillines sont formées à partir d’acides aminés",
+                "Les aminosides sont d’origine bactérienne"
+            ],
+            "correct_answers": [
+                "Les pénicillines sont d’origine fongique",
+                "Les pénicillines sont formées à partir d’acides aminés",
+                "Les aminosides sont d’origine bactérienne"
+            ],
+            "justification_fausses_reponses": {
+                "L’acide clavulanique est un composé synthétique": "L'acide clavulanique est en réalité un composé semi-synthétique. Il est produit par fermentation par le Streptomyces clavuligerus, puis modifié chimiquement.",
+                "La plupart des antibiotiques sont d’origine fongique": "Bien que de nombreux antibiotiques soient d'origine fongique, comme les pénicillines, il est incorrect de dire que la plupart le sont. De nombreux antibiotiques importants sont également produits par des bactéries, comme les aminosides."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "L’ivermectine est structuralement un macrolide",
+                "La quinine est une molécule naturelle",
+                "L’artémisinine est une plante chinoise",
+                "La quinine est un alcaloïde",
+                "L’ivermectine est un antiparasitaire"
+            ],
+            "correct_answers": [
+                "La quinine est une molécule naturelle",
+                "La quinine est un alcaloïde",
+                "L’ivermectine est un antiparasitaire",
+                "L’ivermectine est structuralement un macrolide"
+            ],
+            "justification_fausses_reponses": {
+                "L’artémisinine est une plante chinoise": "C'est incorrect car l'artémisinine n'est pas une plante, mais une molécule extraite de la plante Artemisia annua, utilisée en médecine traditionnelle chinoise."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "C est une liaison ester",
+                "A est un acide gras",
+                "B est une osamine",
+                "D est une osamine",
+                "E est un éthylamide"
+            ],
+            "correct_answers": [
+                "A est un acide gras",
+                "B est une osamine"
+            ],
+            "justification_fausses_reponses": {
+                "C est une liaison ester": "C'est incorrect car la liaison ester est une liaison covalente qui se forme par réaction entre un acide carboxylique et un alcool. Dans ce cas, C n'est pas une liaison ester.",
+                "D est une osamine": "C'est incorrect car l'osamine est un type de sucre aminé. Dans ce cas, D n'est pas une osamine.",
+                "E est un éthylamide": "C'est incorrect car l'éthylamide est un composé organique dérivé de l'amide. Dans ce cas, E n'est pas un éthylamide."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les macrolides agissent sur la paroi bactérienne",
+                "Les glycopeptides agissent sur la paroi bactérienne",
+                "Les échinocandines agissent sur la paroi fongique",
+                "Les céphalosporines agissent sur la paroi bactérienne",
+                "Les pénicillines agissent sur la paroi bactérienne"
+            ],
+            "correct_answers": [
+                "Les pénicillines agissent sur la paroi bactérienne",
+                "Les céphalosporines agissent sur la paroi bactérienne",
+                "Les glycopeptides agissent sur la paroi bactérienne",
+                "Les échinocandines agissent sur la paroi fongique"
+            ],
+            "justification_fausses_reponses": {
+                "Les macrolides agissent sur la paroi bactérienne": "C'est incorrect. Les macrolides sont des antibiotiques qui agissent en inhibant la synthèse des protéines bactériennes, et non en agissant sur la paroi bactérienne."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Le docétaxel agit sur les microtubules",
+                "La doxorubicine agit sur les microtubules",
+                "La vinorelbine agit sur les microtubules",
+                "La bléomycine agit sur les microtubules",
+                "Le paclitaxel agit sur les microtubules"
+            ],
+            "correct_answers": [
+                "Le paclitaxel agit sur les microtubules",
+                "La vinorelbine agit sur les microtubules",
+                "Le docétaxel agit sur les microtubules"
+            ],
+            "justification_fausses_reponses": {
+                "La doxorubicine agit sur les microtubules": "La doxorubicine est un agent intercalant de l'ADN, elle n'agit pas sur les microtubules. Son mécanisme d'action principal est d'interférer avec la réplication de l'ADN en s'insérant entre les bases de l'ADN.",
+                "La bléomycine agit sur les microtubules": "La bléomycine est un agent qui provoque des cassures de l'ADN, elle n'agit pas sur les microtubules. Son mécanisme d'action principal est de provoquer des cassures dans les deux brins de l'ADN, ce qui entraîne la mort cellulaire."
+            }
+        },
+        {
+            "question": "Parmi les antibiotiques ci-dessous, le(s)quel(s) agi(ssen)t sur le fonctionnement des ribosomes ?",
+            "options": [
+                "Pristinamycine",
+                "Gentamicine",
+                "Minocycline",
+                "Fosfomycine",
+                "Spiramycine"
+            ],
+            "correct_answers": [
+                "Gentamicine",
+                "Pristinamycine",
+                "Minocycline",
+                "Spiramycine"
+            ],
+            "justification_fausses_reponses": {
+                "Fosfomycine": "La fosfomycine est un antibiotique qui agit en inhibant la première étape de la synthèse de la paroi cellulaire bactérienne et non sur le fonctionnement des ribosomes."
+            }
+        },
+        {
+            "question": "Parmi les molécules suivantes, quel(les) est (sont) celle(s) qui est (sont) originellement issue(s) d’un/de champignon(s) ?",
+            "options": [
+                "Rapamycine",
+                "Ciclosporine",
+                "Erythromycine",
+                "Aminosides",
+                "Pénicillines"
+            ],
+            "correct_answers": [
+                "Ciclosporine",
+                "Pénicillines"
+            ],
+            "justification_fausses_reponses": {
+                "Rapamycine": "La Rapamycine est une molécule produite par la bactérie Streptomyces hygroscopicus, et non par un champignon.",
+                "Erythromycine": "L'Erythromycine est un antibiotique produit par la bactérie Saccharopolyspora erythraea, et non par un champignon.",
+                "Aminosides": "Les Aminosides sont une classe d'antibiotiques produits par diverses bactéries, comme Streptomyces et Micromonospora, et non par des champignons."
+            }
+        },
+        {
+            "question": "La vinorelbine :",
+            "options": [
+                "a une neurotoxicité plus importante que la vincristine",
+                "requiert un carnet de suivi à remettre au patient",
+                "peut être délivrée à l’officine",
+                "est administrable par voie orale",
+                "est un anticancéreux"
+            ],
+            "correct_answers": [
+                "est un anticancéreux",
+                "peut être délivrée à l’officine",
+                "est administrable par voie orale",
+                "requiert un carnet de suivi à remettre au patient"
+            ],
+            "justification_fausses_reponses": {
+                "a une neurotoxicité plus importante que la vincristine": "C'est incorrect. La vinorelbine a une neurotoxicité moins importante que la vincristine. La neurotoxicité est un effet secondaire courant des médicaments anticancéreux, mais la vinorelbine est généralement mieux tolérée que la vincristine à cet égard."
+            }
+        },
+        {
+            "question": "Parmi les couples photo-nom commercial de médicament ci-dessous, lesquels sont correctement appariés ?",
+            "options": [
+                "Taxol*",
+                "Hélicidine*",
+                "Skénan*",
+                "Daflon*",
+                "Byetta*"
+            ],
+            "correct_answers": [
+                "Byetta*",
+                "Hélicidine*",
+                "Skénan*",
+                "Daflon*"
+            ],
+            "justification_fausses_reponses": {
+                "Taxol*": "L'option est incorrecte car le Taxol est un médicament anticancéreux dérivé de l'écorce de l'if de l'Ouest, et non du produit présenté dans l'image."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "Les acides gras sont des dérivés issus de la voie des polyacétates",
+                "Le cholestérol est un dérivé terpénique",
+                "Les statines sont des dérivés issus de la voie des polyacétates",
+                "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes",
+                "Les acides gras sont des dérivés terpéniques"
+            ],
+            "correct_answers": [
+                "Les acides gras sont des dérivés issus de la voie des polyacétates",
+                "Le cholestérol est un dérivé terpénique",
+                "Les statines sont des dérivés issus de la voie des polyacétates",
+                "Les statines inhibent une enzyme impliquée dans la biosynthèse des terpènes"
+            ],
+            "justification_fausses_reponses": {
+                "Les acides gras sont des dérivés terpéniques": "Cette affirmation est incorrecte car les acides gras ne sont pas des dérivés terpéniques. Les acides gras sont synthétisés par la voie des polyacétates, et non par la voie des terpènes. Les terpènes sont une classe de composés organiques qui sont principalement dérivés des carbures d'isoprène, tandis que les acides gras sont principalement composés de longues chaînes d'hydrocarbures."
+            }
+        },
+        {
+            "question": "Parmi les affirmations suivantes concernant la structure ci-dessous, quel(les) est (sont) la (les) réponse(s) exacte(s) ?",
+            "options": [
+                "C’est un acide gras « à longue chaîne »",
+                "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol",
+                "C’est un acide gras « trans »",
+                "C’est un acide gras polyinsaturé",
+                "C’est un acide gras oméga 3"
+            ],
+            "correct_answers": [
+                "C’est un acide gras polyinsaturé",
+                "Dans une huile végétale, il sera rencontré surtout conjugué au glycérol"
+            ],
+            "justification_fausses_reponses": {
+                "C’est un acide gras « à longue chaîne »": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras à longue chaîne. Les acides gras à longue chaîne ont généralement plus de 12 atomes de carbone.",
+                "C’est un acide gras « trans »": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras trans. Les acides gras trans ont une configuration spécifique où les groupes hydrogène sont sur des côtés opposés de la double liaison.",
+                "C’est un acide gras oméga 3": "Cette affirmation est incorrecte car la structure ne montre pas un acide gras oméga 3. Les acides gras oméga 3 ont une double liaison trois atomes de carbone avant la fin de la chaîne."
+            }
+        }
+    ]
+}

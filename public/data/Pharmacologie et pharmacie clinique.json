@@ -1,0 +1,1334 @@
+{
+    "theme": "Pharmacologie et pharmacie clinique",
+    "questions": [
+        {
+            "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Voici une liste de deux exemples de \"SR O\" ? Choisir la bonne proposition ?",
+            "options": [
+                "Adiaril® et Diaril®",
+                "Picot® et Picolite®",
+                "Adiaril® et Picolite®",
+                "Picot® et Diaril®",
+                "Adiaril® et Picot®"
+            ],
+            "correct_answers": [
+                "Adiaril® et Picolite®"
+            ],
+            "justification_fausses_reponses": {
+                "Adiaril® et Diaril®": "Diaril® n'est pas un exemple de \"SR O\". Il est utilisé pour le traitement de la diarrhée, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+                "Picot® et Picolite®": "Picot® n'est pas un exemple de \"SR O\". Il s'agit d'une marque de lait pour bébé, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+                "Picot® et Diaril®": "Ni Picot® ni Diaril® ne sont des exemples de \"SR O\". Picot® est une marque de lait pour bébé et Diaril® est utilisé pour le traitement de la diarrhée, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®.",
+                "Adiaril® et Picot®": "Picot® n'est pas un exemple de \"SR O\". Il s'agit d'une marque de lait pour bébé, tandis que \"SR O\" fait référence à des solutions de réhydratation orale comme Adiaril® et Picolite®."
+            }
+        },
+        {
+            "question": "Quel(s) est (sont) les médicaments suivants qui peuvent provoquer une hypokalièmie ?",
+            "options": [
+                "La spironolactone",
+                "Le furosemide",
+                "Le bisacodyl",
+                "La prednisone",
+                "L'amphotericine B par voie orale"
+            ],
+            "correct_answers": [
+                "Le furosemide",
+                "Le bisacodyl",
+                "La prednisone"
+            ],
+            "justification_fausses_reponses": {
+                "La spironolactone": "La spironolactone est un diurétique épargneur de potassium, elle ne provoque donc pas d'hypokaliémie mais peut au contraire provoquer une hyperkaliémie.",
+                "L'amphotericine B par voie orale": "L'amphotericine B par voie orale n'est pas absorbée dans le système gastro-intestinal, elle n'a donc pas d'effet sur les niveaux de potassium dans le sang."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+                "L'adhésion au traitement est constituée de l'acceptation et de l'observance",
+                "La présentation unitaire des médicaments doit être privilégiée",
+                "L'iatrogénèse évitable dépend de trois facteurs"
+            ],
+            "correct_answers": [
+                "La méthode AMDEC est utilisée pour prévenir l'iatrogénèse médicamenteuse",
+                "La présentation unitaire des médicaments doit être privilégiée"
+            ],
+            "justification_fausses_reponses": {
+                "L'adhésion au traitement est constituée de l'acceptation et de l'observance": "Cette affirmation est incorrecte car l'adhésion au traitement ne se limite pas seulement à l'acceptation et à l'observance. Elle comprend également la compréhension du patient sur son traitement, sa capacité à suivre le traitement et son accord avec le plan de traitement.",
+                "L'iatrogénèse évitable dépend de trois facteurs": "Cette affirmation est incorrecte car l'iatrogénèse évitable ne dépend pas uniquement de trois facteurs. Elle peut être influencée par de nombreux facteurs, y compris la complexité du régime thérapeutique, la communication entre le patient et le professionnel de santé, et le niveau de compréhension du patient."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+            "options": [
+                "Un nouveau médicament peut être prescrit sans risque à une femme enceinte",
+                "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+                "Les AVK sont des médicaments à marge thérapeutique large",
+                "Les psychotropes font partie des médicaments à faible iatrogénie",
+                "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+            ],
+            "correct_answers": [
+                "Les antihypertenseurs font partie des médicaments à risque de chute chez la personne âgée",
+                "Une hyponatrémie peut être à l'origine d'une confusion mentale chez la personne âgée"
+            ],
+            "justification_fausses_reponses": {
+                "Un nouveau médicament peut être prescrit sans risque à une femme enceinte": "C'est faux car tous les médicaments ne sont pas sans risque pour les femmes enceintes. Certains peuvent avoir des effets néfastes sur le développement du fœtus.",
+                "Les AVK sont des médicaments à marge thérapeutique large": "C'est incorrect car les AVK (Antivitamines K) ont une marge thérapeutique étroite, ce qui signifie que la différence entre une dose thérapeutique et une dose toxique est petite.",
+                "Les psychotropes font partie des médicaments à faible iatrogénie": "C'est faux car les psychotropes ont un risque élevé d'iatrogénie, c'est-à-dire qu'ils peuvent causer des effets indésirables graves, notamment chez les personnes âgées."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+            "options": [
+                "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+                "Elle augmente la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+                "Elle augmente la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas",
+                "Son mécanisme d'action passe par une action hypoglycémiante essentiellement",
+                "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+            ],
+            "correct_answers": [
+                "Elle inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose",
+                "Elle a une action normoglycémiante et potentialise l'action de l'insuline."
+            ],
+            "justification_fausses_reponses": {
+                "Elle augmente la néoglucogénèse hépatique, ce qui diminue la production de glucose": "C'est incorrect car la metformine inhibe la néoglucogénèse hépatique, ce qui diminue la production de glucose, elle ne l'augmente pas.",
+                "Elle augmente la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas": "C'est incorrect car la metformine n'augmente pas directement la sécrétion d'insuline par les cellules Béta des ilôts de Langherans du pancréas. Elle agit plutôt en améliorant la sensibilité à l'insuline.",
+                "Son mécanisme d'action passe par une action hypoglycémiante essentiellement": "C'est incorrect car le mécanisme d'action de la metformine ne se limite pas à une action hypoglycémiante. Elle a également une action normoglycémiante et potentialise l'action de l'insuline."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+                "Tout événement indésirable grave doit être signalé sans délai",
+                "Les enveloppes de décodage (levée d'insu) doivent obligatoirement êtres disponibles à la pharmacie",
+                "La définition du médicament expérimental inclut le placebo"
+            ],
+            "correct_answers": [
+                "Le consentement d'une personne incluse dans un essai clinique doit être consultable",
+                "Tout événement indésirable grave doit être signalé sans délai",
+                "La définition du médicament expérimental inclut le placebo"
+            ],
+            "justification_fausses_reponses": {
+                "Les enveloppes de décodage (levée d'insu) doivent obligatoirement êtres disponibles à la pharmacie": "Cette affirmation est incorrecte car les enveloppes de décodage ne sont pas nécessairement disponibles à la pharmacie. Elles peuvent être conservées dans un lieu sûr et accessible uniquement par des personnes autorisées. Leur emplacement dépend des protocoles de l'essai clinique."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les sulfamides hypoglycémiants",
+            "options": [
+                "Ce sont des médicaments qui augmentent la synthèse d'insuline par les cellules béta des ilots de Langherhans",
+                "Ce sont des médicaments qui augmentent l'exocytose de l'insuline par les cellules béta des ilots de Langherhans",
+                "L'efficacité hypoglycémiante de ces médicaments est indépendante de la capacité résiduelle du pancréas à secréter de l'insuline",
+                "Ils agissent sur des sous unités de régulation SUR 1 de canal K+ A TP dépendants au niveau des cellules béta des ilots de Langerhans",
+                "L'effet insulino sécréteur de ces médicaments dépend du taux de glucose présent dans le sang"
+            ],
+            "correct_answers": [
+                "Ce sont des médicaments qui augmentent l'exocytose de l'insuline par les cellules béta des ilots de Langherhans",
+                "Ils agissent sur des sous unités de régulation SUR 1 de canal K+ A TP dépendants au niveau des cellules béta des ilots de Langerhans"
+            ],
+            "justification_fausses_reponses": {
+                "Ce sont des médicaments qui augmentent la synthèse d'insuline par les cellules béta des ilots de Langherhans": "C'est incorrect car les sulfamides hypoglycémiants n'augmentent pas la synthèse d'insuline, mais plutôt sa libération par les cellules béta des ilots de Langerhans.",
+                "L'efficacité hypoglycémiante de ces médicaments est indépendante de la capacité résiduelle du pancréas à secréter de l'insuline": "C'est incorrect car l'efficacité des sulfamides hypoglycémiants dépend de la capacité résiduelle du pancréas à secréter de l'insuline. Si le pancréas ne peut plus produire d'insuline, ces médicaments ne seront pas efficaces.",
+                "L'effet insulino sécréteur de ces médicaments dépend du taux de glucose présent dans le sang": "C'est incorrect car l'effet insulino sécréteur des sulfamides hypoglycémiants est indépendant du taux de glucose dans le sang. Ces médicaments stimulent la libération d'insuline indépendamment du taux de glucose."
+            }
+        },
+        {
+            "question": "Parmi les antipsychotiques suivants, lequel nécessite une surveillance hebdomadaire de la numération formule sanguine pendant 18 semaines en raison du risque d'agranulocytose qu'il induit ?",
+            "options": [
+                "Clozapine",
+                "Olanzapine",
+                "Aripiprazole",
+                "Chlorpromazine",
+                "Risperidone"
+            ],
+            "correct_answers": [
+                "Clozapine"
+            ],
+            "justification_fausses_reponses": {
+                "Olanzapine": "L'Olanzapine ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose.",
+                "Aripiprazole": "L'Aripiprazole ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car il n'induit pas de risque d'agranulocytose.",
+                "Chlorpromazine": "La Chlorpromazine ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose.",
+                "Risperidone": "La Risperidone ne nécessite pas de surveillance hebdomadaire de la numération formule sanguine car elle n'induit pas de risque d'agranulocytose."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+            "options": [
+                "Elle est prescrite à ½ dose si la clairance à la créatinine est comprise entre 30 et 60 ml/mn",
+                "Elle n'est pas contre indiquée en cas d'insuffisance rénale car elle n'est pas éliminée par voie rénale sous forme active",
+                "Elle peut être prescrite en cas d'administration de produits de contraste iodé",
+                "Elle est contre indiquée en cas d'insuffisance respiratoire ou d'insuffisance circulatoire",
+                "Elle est contre indiquée en cas de clairance à la créatinine < 30 ml/mn"
+            ],
+            "correct_answers": [
+                "Elle est contre indiquée en cas de clairance à la créatinine < 30 ml/mn",
+                "Elle est contre indiquée en cas d'insuffisance respiratoire ou d'insuffisance circulatoire"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est prescrite à ½ dose si la clairance à la créatinine est comprise entre 30 et 60 ml/mn": "C'est incorrect car la metformine doit être évitée si la clairance de la créatinine est inférieure à 60 ml/min, et non prescrite à demi-dose.",
+                "Elle n'est pas contre indiquée en cas d'insuffisance rénale car elle n'est pas éliminée par voie rénale sous forme active": "C'est faux car la metformine est contre-indiquée en cas d'insuffisance rénale, car elle est éliminée par les reins et peut s'accumuler en cas d'insuffisance rénale, augmentant le risque d'acidose lactique.",
+                "Elle peut être prescrite en cas d'administration de produits de contraste iodé": "C'est incorrect car l'administration de produits de contraste iodés peut provoquer une insuffisance rénale aiguë, ce qui peut augmenter le risque d'acidose lactique chez les patients prenant de la metformine."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Une recherche Biomédicale multicentrique ne comporte pas obligatoirement plusieurs bras de traitement",
+                "CPP signifie Consignes pour le Promoteur et le Pharmacien",
+                "Tout investigateur d'un essai clinique est nécessairement un promoteur",
+                "EudraCT est la base de données qui recense tous les essais ouverts en France"
+            ],
+            "correct_answers": [
+                "Une recherche Biomédicale multicentrique ne comporte pas obligatoirement plusieurs bras de traitement"
+            ],
+            "justification_fausses_reponses": {
+                "CPP signifie Consignes pour le Promoteur et le Pharmacien": "CPP signifie en réalité Comité de Protection des Personnes. Il s'agit d'un organisme qui veille à la protection des droits, de la sécurité et du bien-être des sujets participant à une recherche biomédicale.",
+                "Tout investigateur d'un essai clinique est nécessairement un promoteur": "C'est incorrect. L'investigateur est la personne responsable de la conduite de l'essai clinique dans un centre d'essai, tandis que le promoteur est la personne qui initie et gère l'essai clinique.",
+                "EudraCT est la base de données qui recense tous les essais ouverts en France": "EudraCT est une base de données européenne et non spécifique à la France. Elle recense tous les essais cliniques de médicaments à usage humain effectués dans l'Union européenne et dans l'Espace économique européen."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmations exacte(s) :",
+            "options": [
+                "La digoxine augmente la fréquence cardiaque (effet chronotrope positif).",
+                "La digoxine bloque les canaux calciques voltage-dépendants de type L (lent).",
+                "La digoxine inhibe la pompe sodium-potassium A TPase dépendante.",
+                "La digoxine augmente la contractilité myocardique (effet inotrope positif).",
+                "La digoxine ralentit la conduction dans le nœud auriculoventriculaire (effet dromotrope négatif)."
+            ],
+            "correct_answers": [
+                "La digoxine inhibe la pompe sodium-potassium A TPase dépendante.",
+                "La digoxine augmente la contractilité myocardique (effet inotrope positif).",
+                "La digoxine ralentit la conduction dans le nœud auriculoventriculaire (effet dromotrope négatif)."
+            ],
+            "justification_fausses_reponses": {
+                "La digoxine augmente la fréquence cardiaque (effet chronotrope positif).": "C'est incorrect. La digoxine a un effet chronotrope négatif, ce qui signifie qu'elle diminue la fréquence cardiaque, et non l'augmente.",
+                "La digoxine bloque les canaux calciques voltage-dépendants de type L (lent).": "C'est incorrect. La digoxine n'a pas d'effet direct sur les canaux calciques. Son mécanisme d'action principal est l'inhibition de la pompe sodium-potassium ATPase, ce qui augmente la concentration intracellulaire de calcium et améliore la contractilité myocardique."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+            "options": [
+                "Le temps de demi-vie d'élimination influence le délai d'obtention de l'état d'équilibre",
+                "Le débit sanguin tissulaire influence la pharmacocinétique des médicaments",
+                "La phénytoïne possède une cinétique non linéaire",
+                "L'élimination des médicaments n'est pas modifiée chez les enfants",
+                "Le métabolisme des médicaments est augmenté chez la personne âgée"
+            ],
+            "correct_answers": [
+                "Le temps de demi-vie d'élimination influence le délai d'obtention de l'état d'équilibre",
+                "La phénytoïne possède une cinétique non linéaire",
+                "Le débit sanguin tissulaire influence la pharmacocinétique des médicaments"
+            ],
+            "justification_fausses_reponses": {
+                "L'élimination des médicaments n'est pas modifiée chez les enfants": "Cette affirmation est incorrecte. L'élimination des médicaments est souvent plus rapide chez les enfants en raison de leur métabolisme plus élevé et de leur fonction rénale plus efficace.",
+                "Le métabolisme des médicaments est augmenté chez la personne âgée": "Cette affirmation est fausse. En réalité, le métabolisme des médicaments tend à diminuer avec l'âge en raison de la diminution de la fonction hépatique et rénale."
+            }
+        },
+        {
+            "question": "Parmi les solutions aux problèmes rencontrés au cours de la technique dite de « SCA TCHARD », laquelle est exacte ?",
+            "options": [
+                "Il faut faire un « SCA TCHARD » in vivo",
+                "Pour éviter les interférences, il faut faire une filtration très lente.",
+                "Pour éviter les interférences, il faut utiliser des récepteurs fluorescents",
+                "Pour éviter les interférences, il faut utiliser des ligands fluorescents",
+                "On utilise les propriétés de la radioactivité en utilisant des ligands radioactifs."
+            ],
+            "correct_answers": [
+                "On utilise les propriétés de la radioactivité en utilisant des ligands radioactifs."
+            ],
+            "justification_fausses_reponses": {
+                "Il faut faire un « SCA TCHARD » in vivo": "La technique SCA TCHARD est une technique in vitro, elle ne peut donc pas être réalisée in vivo.",
+                "Pour éviter les interférences, il faut faire une filtration très lente.": "La vitesse de filtration n'a pas d'impact sur les interférences dans la technique SCA TCHARD.",
+                "Pour éviter les interférences, il faut utiliser des récepteurs fluorescents": "L'utilisation de récepteurs fluorescents n'élimine pas les interférences dans la technique SCA TCHARD.",
+                "Pour éviter les interférences, il faut utiliser des ligands fluorescents": "L'utilisation de ligands fluorescents n'élimine pas les interférences dans la technique SCA TCHARD."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+            "options": [
+                "La lévothyroxine est à prendre pendant le repas du soir",
+                "La lévothyroxine est la forme biologiquement active",
+                "La lévothyroxine nécessite plusieurs prises par jour",
+                "La lévothyroxine possède un temps de demi-vie d'élimination court",
+                "La lévothyroxine potentialise l'action anticoagulante des A VK"
+            ],
+            "correct_answers": [
+                "La lévothyroxine potentialise l'action anticoagulante des A VK"
+            ],
+            "justification_fausses_reponses": {
+                "La lévothyroxine est à prendre pendant le repas du soir": "C'est incorrect car la lévothyroxine est généralement recommandée à jeun, une demi-heure à une heure avant le petit déjeuner pour une absorption optimale.",
+                "La lévothyroxine est la forme biologiquement active": "C'est incorrect car la lévothyroxine (T4) n'est pas la forme biologiquement active. Elle doit être convertie en triiodothyronine (T3), qui est la forme active.",
+                "La lévothyroxine nécessite plusieurs prises par jour": "C'est incorrect car la lévothyroxine est généralement prise une fois par jour, le matin à jeun.",
+                "La lévothyroxine possède un temps de demi-vie d'élimination court": "C'est incorrect car la lévothyroxine a un temps de demi-vie d'élimination long, généralement d'environ une semaine."
+            }
+        },
+        {
+            "question": "Problèmes rencontrés au cours de la technique dite « de SCA TCHARD ». Choisir la proposition fausse ?",
+            "options": [
+                "Le choix du ligand froid pour effectuer le déplacement de la radioactivité spécifique est important lorsqu'on veut déterminer les interférences.",
+                "Les ligands radioactifs s'adsorbent sur le filtre au moment de la filtration, donc il crée des interférences au moment du comptage de la radioactivité.",
+                "Le compteur de radioactivité (compteur à scintillation liquide) ne peut pas dénombrer toute la radioactivité émise. Chaque compteur a donc une efficacité de comptage ou rendement.",
+                "Les concentrations en récepteurs et en ligands sont trop importantes, on a donc un problème de saturation de la technique.",
+                "Les concentrations en récepteurs et en ligands sont trop faibles, donc on a un problème de sensibilité de la technique."
+            ],
+            "correct_answers": [
+                "Les concentrations en récepteurs et en ligands sont trop importantes, on a donc un problème de saturation de la technique."
+            ],
+            "justification_fausses_reponses": {
+                "Le choix du ligand froid pour effectuer le déplacement de la radioactivité spécifique est important lorsqu'on veut déterminer les interférences.": "Cette affirmation est vraie. Le choix du ligand froid est crucial pour déplacer la radioactivité spécifique et déterminer les interférences dans la technique de SCA TCHARD.",
+                "Les ligands radioactifs s'adsorbent sur le filtre au moment de la filtration, donc il crée des interférences au moment du comptage de la radioactivité.": "Cette affirmation est vraie. L'adsorption des ligands radioactifs sur le filtre peut créer des interférences lors du comptage de la radioactivité.",
+                "Le compteur de radioactivité (compteur à scintillation liquide) ne peut pas dénombrer toute la radioactivité émise. Chaque compteur a donc une efficacité de comptage ou rendement.": "Cette affirmation est vraie. Chaque compteur de radioactivité a une efficacité de comptage limitée et ne peut pas dénombrer toute la radioactivité émise.",
+                "Les concentrations en récepteurs et en ligands sont trop faibles, donc on a un problème de sensibilité de la technique.": "Cette affirmation est vraie. Si les concentrations en récepteurs et en ligands sont trop faibles, cela peut entraîner un problème de sensibilité de la technique de SCA TCHARD."
+            }
+        },
+        {
+            "question": "Concernant le passage foeto-placentaire des médicaments dans l'espèce humaine, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Le diabète gestationnel peut être traité par les sulfamides hypoglycémiants, ceux-ci ne passant pas au niveau fœtal",
+                "Un médicament lipophile passera moins dans le comportement fœtal qu'un médicament hydrophile",
+                "La surface du trophoblaste augmente, alors que son épaisseur diminue avec l'âge de gestation, ce qui facilite le passage des médicaments au niveau fœtal en fin de grossesse",
+                "Le trophoblaste constitue la barrière entre le compartiment maternel et le compartiment fœtal",
+                "Un médicament fortement liés aux protéines plasmatiques passera davantage au niveau fœtal qu'un médicament peu lié"
+            ],
+            "correct_answers": [
+                "Le trophoblaste constitue la barrière entre le compartiment maternel et le compartiment fœtal",
+                "La surface du trophoblaste augmente, alors que son épaisseur diminue avec l'âge de gestation, ce qui facilite le passage des médicaments au niveau fœtal en fin de grossesse"
+            ],
+            "justification_fausses_reponses": {
+                "Le diabète gestationnel peut être traité par les sulfamides hypoglycémiants, ceux-ci ne passant pas au niveau fœtal": "C'est incorrect car les sulfamides hypoglycémiants peuvent traverser la barrière placentaire et affecter le fœtus.",
+                "Un médicament lipophile passera moins dans le comportement fœtal qu'un médicament hydrophile": "C'est faux car les médicaments lipophiles traversent plus facilement la barrière placentaire que les médicaments hydrophiles.",
+                "Un médicament fortement liés aux protéines plasmatiques passera davantage au niveau fœtal qu'un médicament peu lié": "C'est incorrect car les médicaments fortement liés aux protéines plasmatiques sont moins susceptibles de traverser la barrière placentaire."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes : A propos des antiépileptiques",
+            "options": [
+                "Ils agissent sur la transmission gabaergique et/ou glutamaergique",
+                "Certains sont indiqués dans les douleurs neuropathiques",
+                "L'association acide valproïque-lamotrigine est contre-indiquée",
+                "Ils sont utilisés d'emblée à la posologie efficace",
+                "La carbamazépine est le traitement de première intention de l'absence petit mal"
+            ],
+            "correct_answers": [
+                "Certains sont indiqués dans les douleurs neuropathiques",
+                "Ils agissent sur la transmission gabaergique et/ou glutamaergique"
+            ],
+            "justification_fausses_reponses": {
+                "L'association acide valproïque-lamotrigine est contre-indiquée": "Cette affirmation est fausse car l'association acide valproïque-lamotrigine est parfois utilisée dans le traitement de certaines formes d'épilepsie, bien que cela nécessite une surveillance étroite en raison du risque d'effets secondaires.",
+                "Ils sont utilisés d'emblée à la posologie efficace": "Cette affirmation est incorrecte car la posologie des antiépileptiques est généralement augmentée progressivement pour minimiser les effets secondaires.",
+                "La carbamazépine est le traitement de première intention de l'absence petit mal": "C'est incorrect car l'absence petit mal est généralement traitée en première intention par l'éthosuximide ou le valproate, et non par la carbamazépine."
+            }
+        },
+        {
+            "question": "Concernant la fixation des A VK sur l'albumine plasmatique, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Elle conditionne l'activité anticoagulante",
+                "Elle est indépendante de l'albuminémie",
+                "Elle augmente en cas d'insuffisance rénale sévère",
+                "Elle peut être modifiée par l'aspirine",
+                "Elle diminue en cas insuffisance hépatique sévère"
+            ],
+            "correct_answers": [
+                "Elle conditionne l'activité anticoagulante",
+                "Elle peut être modifiée par l'aspirine",
+                "Elle diminue en cas insuffisance hépatique sévère"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est indépendante de l'albuminémie": "C'est incorrect car la fixation des A VK sur l'albumine plasmatique est dépendante de l'albuminémie. Une diminution de l'albuminémie peut entraîner une augmentation de la fraction libre de l'anticoagulant, augmentant ainsi son activité anticoagulante.",
+                "Elle augmente en cas d'insuffisance rénale sévère": "C'est incorrect car l'insuffisance rénale sévère n'augmente pas la fixation des A VK sur l'albumine plasmatique. En réalité, l'insuffisance rénale peut entraîner une diminution de l'albuminémie, ce qui peut réduire la fixation des A VK et augmenter leur fraction libre."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "L'étanercept est un inhibiteur non compétitif de la liaison du TNF à ses récepteurs.",
+                "L'étanercept est un inhibiteur compétitif de la liaison du TNF à ses récepteurs.",
+                "L'association entre étanercept et méthotrexate est contre-indiquée dans le traitement de la polyarthrite rhumatoïde.",
+                "L'étanercept est un antagoniste du récepteur de type I de l'interleukine 1",
+                "Un traitement par étanercept expose à une diminution de la résistance aux infections pulmonaires."
+            ],
+            "correct_answers": [
+                "L'étanercept est un inhibiteur compétitif de la liaison du TNF à ses récepteurs.",
+                "Un traitement par étanercept expose à une diminution de la résistance aux infections pulmonaires."
+            ],
+            "justification_fausses_reponses": {
+                "L'étanercept est un inhibiteur non compétitif de la liaison du TNF à ses récepteurs.": "C'est incorrect car l'étanercept est un inhibiteur compétitif, pas non compétitif. Il se lie au TNF et empêche sa liaison à ses récepteurs.",
+                "L'association entre étanercept et méthotrexate est contre-indiquée dans le traitement de la polyarthrite rhumatoïde.": "C'est incorrect car l'association entre étanercept et méthotrexate est souvent utilisée dans le traitement de la polyarthrite rhumatoïde. Elle n'est pas contre-indiquée.",
+                "L'étanercept est un antagoniste du récepteur de type I de l'interleukine 1": "C'est incorrect car l'étanercept est un antagoniste du TNF, pas de l'interleukine 1."
+            }
+        },
+        {
+            "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la maladie d'Alzheimer laquelle ou lesquelles est/sont exactes ?",
+            "options": [
+                "Galantamine expose à un risque dose dépendant de tachycardie",
+                "Rivastigmine expose à un risque dose dépendant de constipation opiniâtre",
+                "Mémantine et Donépézil agissent par le même mécanisme d'action",
+                "L'atropine diminue l'efficacité du Donépézil",
+                "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique"
+            ],
+            "correct_answers": [
+                "Rivastigmine est le seul médicament de sa classe thérapeutique à exister sous forme de système transdermique",
+                "L'atropine diminue l'efficacité du Donépézil"
+            ],
+            "justification_fausses_reponses": {
+                "Galantamine expose à un risque dose dépendant de tachycardie": "La galantamine peut causer des effets secondaires cardiovasculaires, mais la tachycardie n'est pas directement liée à la dose.",
+                "Rivastigmine expose à un risque dose dépendant de constipation opiniâtre": "La rivastigmine peut causer de la constipation, mais ce n'est pas un effet dose-dépendant.",
+                "Mémantine et Donépézil agissent par le même mécanisme d'action": "La mémantine et le donépézil ont des mécanismes d'action différents. La mémantine est un antagoniste du NMDA, tandis que le donépézil est un inhibiteur de l'acétylcholinestérase."
+            }
+        },
+        {
+            "question": "Concernant la maladie d'Alzheimer, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "La maladie d'Alzheimer est liée à une perte progressive des neurones dopaminergiques de la substance noire.",
+                "La mémantine (EBIXA) est un anticholinestérasique.",
+                "L'aphasie correspond à la difficulté de reconnaître des objets en dépit des fonctions sensorielles intactes.",
+                "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires",
+                "La mémantine (EBIXA) est antagoniste non-compétitif des récepteurs GABA A."
+            ],
+            "correct_answers": [
+                "L'étude du cerveau de patients atteints par la maladie d'Alzheimer montre l'accumulation pathologique de deux lésions : les plaques séniles et les dégénérescences neurofibrillaires"
+            ],
+            "justification_fausses_reponses": {
+                "La maladie d'Alzheimer est liée à une perte progressive des neurones dopaminergiques de la substance noire.": "C'est incorrect car la maladie d'Alzheimer est principalement liée à une perte de neurones cholinergiques, pas dopaminergiques.",
+                "La mémantine (EBIXA) est un anticholinestérasique.": "C'est faux car la mémantine est un antagoniste non-compétitif des récepteurs NMDA, pas un anticholinestérasique.",
+                "L'aphasie correspond à la difficulté de reconnaître des objets en dépit des fonctions sensorielles intactes.": "C'est incorrect car l'aphasie est un trouble du langage, pas de la reconnaissance des objets. La difficulté à reconnaître des objets malgré des fonctions sensorielles intactes est appelée agnosie.",
+                "La mémantine (EBIXA) est antagoniste non-compétitif des récepteurs GABA A.": "C'est faux car la mémantine est un antagoniste non-compétitif des récepteurs NMDA, pas des récepteurs GABA A."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels de la metformine :",
+            "options": [
+                "Une hypoglycémie profonde quand elle est utilisée en monothérapie",
+                "Une pancréatite",
+                "Une acidose lactique",
+                "Des troubles digestifs surtout en début de traitement",
+                "Une anémie hémolytique"
+            ],
+            "correct_answers": [
+                "Des troubles digestifs surtout en début de traitement",
+                "Une acidose lactique"
+            ],
+            "justification_fausses_reponses": {
+                "Une hypoglycémie profonde quand elle est utilisée en monothérapie": "La metformine est un antidiabétique oral qui ne provoque pas d'hypoglycémie en monothérapie car elle ne stimule pas la sécrétion d'insuline.",
+                "Une pancréatite": "La metformine n'est pas associée à un risque accru de pancréatite. C'est un effet indésirable rare et non spécifique à la metformine.",
+                "Une anémie hémolytique": "L'anémie hémolytique n'est pas un effet indésirable connu de la metformine. Elle peut causer une diminution du niveau de vitamine B12, mais cela ne conduit pas à une anémie hémolytique."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les gliflozines, nouveaux anti diabétiques",
+            "options": [
+                "Leur action dépend du taux d'insulinémie des patients",
+                "Ces médicaments agissent en provoquant une glycosurie par inhibition de la réabsorption tubulaire du glucose",
+                "Ils agissent par inhibition sélective du cotransporteur sodium-glucose SGL T2 au niveau rénal",
+                "Ils peuvent induire un coma par acidose lactique en diminuant la néoglucogénèse hépatique",
+                "Ces médicaments peuvent entraîner une hypovolémie par excrétion accrue du Na+"
+            ],
+            "correct_answers": [
+                "Ces médicaments agissent en provoquant une glycosurie par inhibition de la réabsorption tubulaire du glucose",
+                "Ces médicaments peuvent entraîner une hypovolémie par excrétion accrue du Na+",
+                "Ils agissent par inhibition sélective du cotransporteur sodium-glucose SGL T2 au niveau rénal"
+            ],
+            "justification_fausses_reponses": {
+                "Leur action dépend du taux d'insulinémie des patients": "C'est incorrect car les gliflozines agissent indépendamment du taux d'insuline. Elles inhibent le cotransporteur sodium-glucose SGL T2, réduisant ainsi la réabsorption du glucose et augmentant son excrétion urinaire.",
+                "Ils peuvent induire un coma par acidose lactique en diminuant la néoglucogénèse hépatique": "C'est incorrect car les gliflozines n'induisent pas d'acidose lactique. Ce sont les biguanides, une autre classe d'antidiabétiques, qui peuvent provoquer une acidose lactique en inhibant la néoglucogénèse hépatique."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes",
+            "options": [
+                "La varénicline (Champix) est utilisée en première intention dans le sevrage tabagique",
+                "Le bupropion (Z yban) est un dérivé amphétaminique",
+                "Les patchs nicotiniques sont contre-indiqués chez la femme enceinte",
+                "Les gommes à mâcher nicotiniques sont à utiliser comme des chewing-gum",
+                "Les gommes à mâcher et les patchs nicotiniques peuvent être associés dans le sevrage tabagique"
+            ],
+            "correct_answers": [
+                "Le bupropion (Z yban) est un dérivé amphétaminique",
+                "Les gommes à mâcher et les patchs nicotiniques peuvent être associés dans le sevrage tabagique"
+            ],
+            "justification_fausses_reponses": {
+                "La varénicline (Champix) est utilisée en première intention dans le sevrage tabagique": "La varénicline n'est pas toujours utilisée en première intention dans le sevrage tabagique. Le choix du traitement dépend de plusieurs facteurs, dont les préférences du patient, les antécédents médicaux et la sévérité de la dépendance.",
+                "Les patchs nicotiniques sont contre-indiqués chez la femme enceinte": "Les patchs nicotiniques ne sont pas systématiquement contre-indiqués chez la femme enceinte. Leur utilisation doit être évaluée au cas par cas, en tenant compte des risques et des bénéfices.",
+                "Les gommes à mâcher nicotiniques sont à utiliser comme des chewing-gum": "Les gommes à mâcher nicotiniques ne doivent pas être utilisées comme des chewing-gums ordinaires. Elles doivent être mâchées lentement et par intermittence pour permettre l'absorption de la nicotine à travers la muqueuse buccale."
+            }
+        },
+        {
+            "question": "Concernant la distribution tissulaire des médicaments, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle",
+                "Un médicament acide faible fortement liés aux protéines plasmatiques possède un volume de distribution supérieur à 50 litres",
+                "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+                "La fixation des antibiotiques de type cycline est faible au niveau de l'os",
+                "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile"
+            ],
+            "correct_answers": [
+                "Un médicament lipophile diffuse mieux dans les tissus qu'un médicament hydrophile",
+                "La vitesse de distribution tissulaire au niveau d'un organe est dépendante du débit sanguin de l'organe",
+                "Si le coefficient d'extraction (E) au niveau d'un organe est égal à 0, ceci signifie que la concentration veineuse du médicament est égale à la concentration artérielle"
+            ],
+            "justification_fausses_reponses": {
+                "Un médicament acide faible fortement liés aux protéines plasmatiques possède un volume de distribution supérieur à 50 litres": "C'est incorrect car un médicament acide faible fortement lié aux protéines plasmatiques aura un volume de distribution plus faible. En effet, plus un médicament est lié aux protéines plasmatiques, moins il est libre de se distribuer dans les tissus.",
+                "La fixation des antibiotiques de type cycline est faible au niveau de l'os": "C'est faux car les antibiotiques de type cycline ont une forte affinité pour le calcium, ce qui les conduit à se fixer fortement dans les tissus osseux."
+            }
+        },
+        {
+            "question": "Parmi les 5 médicaments suivants lesquels ou lequel sont/ est un agoniste dopaminergique ?",
+            "options": [
+                "Bromocriptine",
+                "Pramipexole",
+                "Tropatepine",
+                "Rasagiline",
+                "Trihexyphenidyle"
+            ],
+            "correct_answers": [
+                "Bromocriptine",
+                "Pramipexole"
+            ],
+            "justification_fausses_reponses": {
+                "Tropatepine": "La Tropatépine n'est pas un agoniste dopaminergique. C'est un anticholinergique, utilisé pour traiter les symptômes de la maladie de Parkinson.",
+                "Rasagiline": "La Rasagiline n'est pas un agoniste dopaminergique. C'est un inhibiteur de la monoamine oxydase B (IMAO-B), utilisé pour traiter les symptômes de la maladie de Parkinson.",
+                "Trihexyphenidyle": "Le Trihexyphénidyle n'est pas un agoniste dopaminergique. C'est un anticholinergique, utilisé pour traiter les symptômes de la maladie de Parkinson."
+            }
+        },
+        {
+            "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Que trouve t-on dans la formule d'un \"SR O\"",
+            "options": [
+                "Principalement des lipides, acides aminés et lactobacillus",
+                "Principalement des glucides, acides aminés, lipides et vitamines",
+                "Principalement des glucides et électrolytes (Na+, K+...)",
+                "Principalement des glucides, lipides et électrolytes (Na+, K+...)",
+                "Principalement des glucides, des acides aminés et lactobacillus"
+            ],
+            "correct_answers": [
+                "Principalement des glucides et électrolytes (Na+, K+...)"
+            ],
+            "justification_fausses_reponses": {
+                "Principalement des lipides, acides aminés et lactobacillus": "Cette réponse est incorrecte car la formule d'un 'SR O' ne contient pas principalement des lipides, acides aminés et lactobacillus. Elle est principalement composée de glucides et d'électrolytes.",
+                "Principalement des glucides, acides aminés, lipides et vitamines": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides, elle ne contient pas principalement des acides aminés, lipides et vitamines. Elle est principalement composée de glucides et d'électrolytes.",
+                "Principalement des glucides, lipides et électrolytes (Na+, K+...)": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides et des électrolytes, elle ne contient pas principalement des lipides. Elle est principalement composée de glucides et d'électrolytes.",
+                "Principalement des glucides, des acides aminés et lactobacillus": "Cette réponse est incorrecte car bien que la formule d'un 'SR O' contienne des glucides, elle ne contient pas principalement des acides aminés et lactobacillus. Elle est principalement composée de glucides et d'électrolytes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+                "Le muromonab est un anticorps monoclonal murin.",
+                "Le muromonab est un anticorps monoclonal chimérique.",
+                "L'infliximab est un anticorps polyclonal murin.",
+                "Le daclizumab est un anticorps polyclonal humanisé."
+            ],
+            "correct_answers": [
+                "L'infliximab est un anticorps monoclonal chimérique humain/souris.",
+                "Le muromonab est un anticorps monoclonal murin."
+            ],
+            "justification_fausses_reponses": {
+                "Le muromonab est un anticorps monoclonal chimérique.": "Cette affirmation est incorrecte car le muromonab est un anticorps monoclonal murin, pas chimérique. Un anticorps chimérique est un anticorps qui combine des éléments de deux espèces différentes, ce qui n'est pas le cas du muromonab.",
+                "L'infliximab est un anticorps polyclonal murin.": "Cette affirmation est incorrecte car l'infliximab est un anticorps monoclonal chimérique humain/souris, pas un anticorps polyclonal murin. Un anticorps polyclonal est un mélange d'anticorps qui se lient à différents épitopes d'un antigène, ce qui n'est pas le cas de l'infliximab.",
+                "Le daclizumab est un anticorps polyclonal humanisé.": "Cette affirmation est incorrecte car le daclizumab est un anticorps monoclonal humanisé, pas polyclonal. Un anticorps humanisé est un anticorps murin dont les parties non reconnues par l'organisme humain ont été remplacées par des parties humaines, ce qui est le cas du daclizumab."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+            "options": [
+                "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+                "Les A VK sont utilisés chez la femme enceinte en première intention en cas de T VP",
+                "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+                "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+                "Le tramadol est contre indiqué chez l'épileptique"
+            ],
+            "correct_answers": [
+                "Le bismuth est utilisable dans l'éradication d'Hélicobacter pylori",
+                "Les IPP sont utilisés à double dose dans les ulcères gastro-duodénaux HP positif",
+                "La nicardipine est un traitement de l'hypertension artérielle gravidique",
+                "Le tramadol est contre indiqué chez l'épileptique"
+            ],
+            "justification_fausses_reponses": {
+                "Les A VK sont utilisés chez la femme enceinte en première intention en cas de T VP": "Les antivitamines K (AVK) ne sont pas utilisées en première intention chez la femme enceinte en cas de thrombose veineuse profonde (TVP) car elles peuvent traverser le placenta et provoquer des malformations fœtales. Les héparines de bas poids moléculaire sont généralement préférées car elles ne traversent pas le placenta."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique",
+                "Effet indésirable et erreur médicamenteuse ont des origines identiques",
+                "La retranscription d'une ordonnance doit être bannie",
+                "Environ 70 % des erreurs médicamenteuses sont évitables"
+            ],
+            "correct_answers": [
+                "La retranscription d'une ordonnance doit être bannie"
+            ],
+            "justification_fausses_reponses": {
+                "La gravité des conséquences d'une erreur médicamenteuse est gradée en quatre niveaux par la Société Française de Pharmacie Clinique": "C'est incorrect. La gravité des conséquences d'une erreur médicamenteuse n'est pas gradée en quatre niveaux par la Société Française de Pharmacie Clinique. Il existe différents systèmes de gradation, mais ils ne sont pas standardisés et varient selon les institutions.",
+                "Effet indésirable et erreur médicamenteuse ont des origines identiques": "C'est faux. Un effet indésirable est une réaction nocive et non intentionnelle à un médicament qui a été utilisé aux doses normalement utilisées chez l'homme pour la prophylaxie, le diagnostic ou le traitement d'une maladie, ou pour la modification d'une fonction physiologique. Une erreur médicamenteuse est une erreur de prescription, de dispensation ou d'administration d'un médicament, indépendamment de ses conséquences.",
+                "Environ 70 % des erreurs médicamenteuses sont évitables": "C'est inexact. Bien que de nombreuses erreurs médicamenteuses soient évitables, le pourcentage exact varie en fonction de nombreux facteurs, y compris les systèmes de soins de santé spécifiques et les pratiques de gestion des médicaments."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Trente neuf pour cent des erreurs médicamenteuses sont mises en évidence durant la phase d'administration",
+                "Conseils au patient et Éducation Thérapeutique du patient sont des expressions équivalentes",
+                "Meddispar° est une base de données qui recense tous les médicaments",
+                "Le Dossier de pharmaceutique (DP) recense tous les médicaments dispensés pour une personne sur une durée d'un an"
+            ],
+            "correct_answers": [
+                "Trente neuf pour cent des erreurs médicamenteuses sont mises en évidence durant la phase d'administration"
+            ],
+            "justification_fausses_reponses": {
+                "Conseils au patient et Éducation Thérapeutique du patient sont des expressions équivalentes": "Ces deux expressions ne sont pas équivalentes. L'éducation thérapeutique du patient est un processus plus global qui comprend des conseils au patient mais aussi l'apprentissage de la gestion de sa maladie.",
+                "Meddispar° est une base de données qui recense tous les médicaments": "Meddispar° est une base de données qui recense les médicaments à usage hospitalier uniquement, et non tous les médicaments.",
+                "Le Dossier de pharmaceutique (DP) recense tous les médicaments dispensés pour une personne sur une durée d'un an": "Le Dossier Pharmaceutique (DP) recense les médicaments délivrés en pharmacie de ville sur les 4 derniers mois, et non sur une durée d'un an."
+            }
+        },
+        {
+            "question": "Concernant la pharmacocinétique des médicaments chez la femme enceinte, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "La progestérone entraîne un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+                "L'absorption intestinale les médicaments est diminuée",
+                "Les estrogènes entraînent un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+                "L'élimination rénale est augmentée",
+                "Le volume de distribution des médicament est augmenté"
+            ],
+            "correct_answers": [
+                "Le volume de distribution des médicament est augmenté",
+                "Les estrogènes entraînent un effet inhibiteur enzymatique sur la métabolisation de certains médicaments",
+                "L'élimination rénale est augmentée"
+            ],
+            "justification_fausses_reponses": {
+                "La progestérone entraîne un effet inhibiteur enzymatique sur la métabolisation de certains médicaments": "C'est incorrect. La progestérone n'a pas d'effet inhibiteur sur la métabolisation des médicaments. Au contraire, elle peut augmenter le métabolisme de certains médicaments en induisant les enzymes du foie.",
+                "L'absorption intestinale les médicaments est diminuée": "C'est incorrect. L'absorption intestinale des médicaments n'est pas nécessairement diminuée pendant la grossesse. En fait, les changements physiologiques pendant la grossesse peuvent augmenter l'absorption de certains médicaments."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "RCP signifie R éunion de Concertation Pluridisciplinaire",
+                "Deux cent cinquante mille décès sont imputables au cancer annuellement",
+                "La mortalité par cancer dépend exclusivement de la létalité",
+                "Dépistage et prévention primaire sont synonymes"
+            ],
+            "correct_answers": [
+                "RCP signifie R éunion de Concertation Pluridisciplinaire"
+            ],
+            "justification_fausses_reponses": {
+                "Deux cent cinquante mille décès sont imputables au cancer annuellement": "Cette affirmation est incorrecte car le nombre de décès dus au cancer varie chaque année et dépend de nombreux facteurs, y compris les progrès de la recherche médicale et les politiques de santé publique.",
+                "La mortalité par cancer dépend exclusivement de la létalité": "Cette affirmation est incorrecte car la mortalité par cancer dépend de nombreux facteurs, y compris la létalité, mais aussi le taux d'incidence, l'âge au moment du diagnostic, la qualité des soins médicaux et les facteurs de risque individuels.",
+                "Dépistage et prévention primaire sont synonymes": "Cette affirmation est incorrecte car le dépistage et la prévention primaire sont deux concepts différents en santé publique. La prévention primaire vise à prévenir l'apparition d'une maladie, tandis que le dépistage vise à identifier une maladie à un stade précoce, lorsque le traitement est généralement plus efficace."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+            "options": [
+                "Le furosémide est hypernatrémiant et hyperkalièmiant",
+                "Les béta-bloquants sont tous contre indiqués dans l'insuffisance cardiaque chronique",
+                "La spironolactone est un antialdostérone hyperkalièmiant",
+                "Le ramipril est un antagoniste des récepteurs à l'angiotensine 2",
+                "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+            ],
+            "correct_answers": [
+                "La spironolactone est un antialdostérone hyperkalièmiant",
+                "La digoxine est indiquée dans l'insuffisance cardiaque chronique"
+            ],
+            "justification_fausses_reponses": {
+                "Le furosémide est hypernatrémiant et hyperkalièmiant": "C'est incorrect. Le furosémide est un diurétique de l'anse qui peut provoquer une hyponatrémie et une hypokaliémie, pas l'inverse.",
+                "Les béta-bloquants sont tous contre indiqués dans l'insuffisance cardiaque chronique": "C'est faux. Certains béta-bloquants, comme le carvédilol et le bisoprolol, sont en fait indiqués dans le traitement de l'insuffisance cardiaque chronique.",
+                "Le ramipril est un antagoniste des récepteurs à l'angiotensine 2": "C'est incorrect. Le ramipril est un inhibiteur de l'enzyme de conversion de l'angiotensine (IEC), pas un antagoniste des récepteurs à l'angiotensine 2."
+            }
+        },
+        {
+            "question": "Parmi les effets indésirables majeurs \"l'isotrétinoïne\", choisissez la ou les proposition(s) fausse(s) :",
+            "options": [
+                "Sécheresse de la peau et des muqueuses",
+                "Dépression",
+                "Tératogène",
+                "Photosensibilisation",
+                "Toux sèche"
+            ],
+            "correct_answers": [
+                "Toux sèche"
+            ],
+            "justification_fausses_reponses": {
+                "Sécheresse de la peau et des muqueuses": "C'est un effet indésirable courant de l'isotrétinoïne. Ce médicament réduit la production de sébum, ce qui peut entraîner une sécheresse de la peau et des muqueuses.",
+                "Dépression": "L'isotrétinoïne a été associée à des troubles de l'humeur, y compris la dépression. Bien que le lien ne soit pas entièrement compris, il est recommandé de surveiller les patients sous isotrétinoïne pour les signes de dépression.",
+                "Tératogène": "L'isotrétinoïne est fortement tératogène. Elle peut causer de graves malformations congénitales si elle est prise pendant la grossesse.",
+                "Photosensibilisation": "L'isotrétinoïne peut rendre la peau plus sensible au soleil, ce qui peut entraîner des brûlures ou des éruptions cutanées. Il est recommandé d'éviter l'exposition au soleil pendant le traitement."
+            }
+        },
+        {
+            "question": "Concernant le passage des médicaments dans le lait maternel, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Les contraceptifs oestro-progestatifs sont utilisables en cas d'allaitement",
+                "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+                "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement",
+                "Il est maximal au moment de la phase d'allaitement",
+                "La forme libre du médicament passe difficilement dans le lait maternel"
+            ],
+            "correct_answers": [
+                "Il est maximal au moment de la phase d'allaitement",
+                "Une base faible peu ionisée dans le plasma passe mieux qu'un acide faible",
+                "Les contraceptifs progestatifs micro dosés sont utilisables en cas d'allaitement"
+            ],
+            "justification_fausses_reponses": {
+                "Les contraceptifs oestro-progestatifs sont utilisables en cas d'allaitement": "Les contraceptifs oestro-progestatifs ne sont pas recommandés pendant l'allaitement car ils peuvent réduire la production de lait et passer dans le lait maternel, ce qui peut affecter le nourrisson.",
+                "La forme libre du médicament passe difficilement dans le lait maternel": "Cette affirmation est incorrecte car la forme libre du médicament, qui n'est pas liée aux protéines plasmatiques, est celle qui peut passer dans le lait maternel."
+            }
+        },
+        {
+            "question": "Parmi les 5 affirmations suivantes concernant les antipsychotiques laquelle ou lesquelles est/sont exactes ?",
+            "options": [
+                "Risperidone n'expose pas à un risque d'intolérance au glucose (effet diabétogène)",
+                "Domperidone est un neuroleptique uniquement utilisé comme antiémétique",
+                "Les antipsychotiques atypiques sont dénués d'effets anticholinergiques",
+                "Olanzapine est un des seuls antipsychotiques à ne pas engendrer de prise de poids",
+                "Haloperidol est dénué d'effets extrapyramidaux"
+            ],
+            "correct_answers": [
+                "Domperidone est un neuroleptique uniquement utilisé comme antiémétique"
+            ],
+            "justification_fausses_reponses": {
+                "Risperidone n'expose pas à un risque d'intolérance au glucose (effet diabétogène)": "C'est incorrect. La Risperidone, comme d'autres antipsychotiques, peut effectivement augmenter le risque d'intolérance au glucose, conduisant à un effet diabétogène.",
+                "Les antipsychotiques atypiques sont dénués d'effets anticholinergiques": "C'est faux. Les antipsychotiques atypiques peuvent avoir des effets anticholinergiques, bien que généralement moins prononcés que les antipsychotiques typiques.",
+                "Olanzapine est un des seuls antipsychotiques à ne pas engendrer de prise de poids": "C'est incorrect. L'Olanzapine est connue pour causer une prise de poids significative chez certains patients.",
+                "Haloperidol est dénué d'effets extrapyramidaux": "C'est faux. L'Haloperidol, un antipsychotique typique, est associé à un risque élevé d'effets extrapyramidaux, qui sont des effets secondaires moteurs."
+            }
+        },
+        {
+            "question": "Parmi les conseils à associer à la dispensation de \"l'isotrétinoïne\" à l'officine à une femme en âge de procréer, la ou lesquelles est (sont) fausse(s) ?",
+            "options": [
+                "Ne pas donner son médicament à une copine",
+                "Ne pas s'épiler à la cire chaude",
+                "Rapporter les médicaments non utilisés à la pharmacie",
+                "Ne pas donner son sang",
+                "L'exposition au soleil est sans danger"
+            ],
+            "correct_answers": [
+                "L'exposition au soleil est sans danger"
+            ],
+            "justification_fausses_reponses": {
+                "Ne pas donner son médicament à une copine": "Cette affirmation est correcte. L'isotrétinoïne est un médicament puissant qui peut avoir des effets secondaires graves, notamment des malformations congénitales. Il ne doit jamais être partagé.",
+                "Ne pas s'épiler à la cire chaude": "Cette affirmation est correcte. L'isotrétinoïne peut rendre la peau plus sensible et susceptible d'être blessée par l'épilation à la cire chaude.",
+                "Rapporter les médicaments non utilisés à la pharmacie": "Cette affirmation est correcte. Il est important de se débarrasser de manière sûre et appropriée des médicaments non utilisés, notamment l'isotrétinoïne, qui peut être dangereuse si elle est prise par une personne pour laquelle elle n'a pas été prescrite.",
+                "Ne pas donner son sang": "Cette affirmation est correcte. L'isotrétinoïne peut rester dans le sang pendant une période de temps après l'arrêt du traitement, et donner du sang pendant cette période pourrait exposer le receveur à des risques."
+            }
+        },
+        {
+            "question": "Parmi les règles de dispensation de \"l'isotrétinoïne\" à une femme en âge de procréer, la ou lesquelles est (sont) fausse(s) ?",
+            "options": [
+                "Réalisation obligatoire de tests de grossesse (béta-hC G plasmatiques) dans les 7 jours précédant toute prescription.",
+                "Délivrance après vérification que toutes les mentions obligatoires figurent sur le carnet-patiente : formulaire d'accord de soins et de contraception complété et signé par la patiente, date et résultat du test de grossesse sérologique négatif",
+                "Délivrance au plus tard dans les 7 jours suivant la prescription",
+                "Ordonnance limitée à 1 mois de traitement",
+                "Mention de la date de délivrance sur le carnet-patiente"
+            ],
+            "correct_answers": [
+                "Réalisation obligatoire de tests de grossesse (béta-hC G plasmatiques) dans les 7 jours précédant toute prescription."
+            ],
+            "justification_fausses_reponses": {
+                "Délivrance après vérification que toutes les mentions obligatoires figurent sur le carnet-patiente : formulaire d'accord de soins et de contraception complété et signé par la patiente, date et résultat du test de grossesse sérologique négatif": "Cette affirmation est incorrecte car la délivrance de l'isotrétinoïne ne nécessite pas de vérification des mentions sur le carnet-patiente. Le formulaire d'accord de soins et de contraception n'est pas une condition obligatoire pour la délivrance de ce médicament.",
+                "Délivrance au plus tard dans les 7 jours suivant la prescription": "Cette affirmation est incorrecte car il n'y a pas de délai spécifique pour la délivrance de l'isotrétinoïne après la prescription. Le délai de délivrance dépend de la disponibilité du médicament et de la situation de la patiente.",
+                "Ordonnance limitée à 1 mois de traitement": "Cette affirmation est incorrecte car l'ordonnance pour l'isotrétinoïne n'est pas limitée à 1 mois de traitement. La durée du traitement est déterminée par le médecin en fonction de l'état de santé de la patiente.",
+                "Mention de la date de délivrance sur le carnet-patiente": "Cette affirmation est incorrecte car la date de délivrance n'est pas une mention obligatoire sur le carnet-patiente lors de la délivrance de l'isotrétinoïne."
+            }
+        },
+        {
+            "question": "Parmi les médicaments suivants utilisés dans le traitement des troubles du rythme cardiaque, lequel (lesquels) exerce(nt) une action résultant essentiellement d'un ralentissement du courant potassique ?",
+            "options": [
+                "propranolol (A VLOCARDYL)",
+                "atenolol (TENORMINE)",
+                "verapamil (ISOPTINE)",
+                "hydroxyquinidine (SEREC OR)",
+                "amiodarone (C ORDARONE)"
+            ],
+            "correct_answers": [
+                "amiodarone (C ORDARONE)"
+            ],
+            "justification_fausses_reponses": {
+                "propranolol (A VLOCARDYL)": "Le propranolol est un bêta-bloquant qui agit en bloquant les récepteurs bêta-adrénergiques, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+                "atenolol (TENORMINE)": "L'atenolol est également un bêta-bloquant. Il agit en bloquant les récepteurs bêta-adrénergiques, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+                "verapamil (ISOPTINE)": "Le vérapamil est un bloqueur des canaux calciques. Il agit en bloquant les canaux calciques du cœur, ce qui ralentit le rythme cardiaque. Il n'a pas d'effet direct sur le courant potassique.",
+                "hydroxyquinidine (SEREC OR)": "L'hydroxyquinidine est un antiarythmique de classe Ia. Il agit en bloquant les canaux sodiques, ce qui ralentit la conduction cardiaque. Il n'a pas d'effet direct sur le courant potassique."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) sur les effets indésirables potentiels des sulfamides hypoglycémiants :",
+            "options": [
+                "Ils provoquent une prise de poids par effet insulinosécréteur",
+                "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience.",
+                "Les hypoglycémies dues aux sulfamides hypoglycémiants sont prises en charge habituellement par injection de Glucagon",
+                "Les hypoglycémies provoquées par ces médicaments sont mineures et sans séquelles neurologiques possibles",
+                "Ils induisent une perte de poids par action au niveau du SNC"
+            ],
+            "correct_answers": [
+                "Ils provoquent une prise de poids par effet insulinosécréteur",
+                "Ils peuvent entraîner des hypoglycémies graves et prolongées prises en charge par injection de sérum glucosé hypertonique en cas de troubles de la conscience."
+            ],
+            "justification_fausses_reponses": {
+                "Les hypoglycémies dues aux sulfamides hypoglycémiants sont prises en charge habituellement par injection de Glucagon": "C'est incorrect car les hypoglycémies dues aux sulfamides hypoglycémiants sont généralement traitées par l'administration de glucose, et non de glucagon.",
+                "Les hypoglycémies provoquées par ces médicaments sont mineures et sans séquelles neurologiques possibles": "C'est faux car les hypoglycémies provoquées par ces médicaments peuvent être graves et entraîner des séquelles neurologiques.",
+                "Ils induisent une perte de poids par action au niveau du SNC": "C'est incorrect car les sulfamides hypoglycémiants provoquent généralement une prise de poids, et non une perte de poids."
+            }
+        },
+        {
+            "question": "Concernant la fixation des médicaments sur les protéines plasmatiques, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Les anticoagulants anti-vitamine K sont fortement liés aux protéines plasmatiques",
+                "Plus la constante de dissociation K d est forte, plus l'affinité du médicament pour la protéine plasmatique est forte",
+                "Le Kd est exprimé en concentration molaire",
+                "L'hypo-albuminémie diminue la forme libre active du médicament",
+                "Lorsque la moitié des sites de fixation du médicament à la protéine plasmatique sont occupés, la concentration en médicament libre est égale à la constante d'affinité (Ka)"
+            ],
+            "correct_answers": [
+                "Le K d est exprimé en concentration molaire",
+                "Les anticoagulants anti-vitamine K sont fortement liés aux protéines plasmatiques"
+            ],
+            "justification_fausses_reponses": {
+                "Plus la constante de dissociation K d est forte, plus l'affinité du médicament pour la protéine plasmatique est forte": "C'est l'inverse qui est vrai. Plus la constante de dissociation (Kd) est faible, plus l'affinité du médicament pour la protéine plasmatique est forte.",
+                "L'hypo-albuminémie diminue la forme libre active du médicament": "En réalité, l'hypo-albuminémie augmente la forme libre active du médicament car il y a moins de protéines disponibles pour se lier au médicament.",
+                "Lorsque la moitié des sites de fixation du médicament à la protéine plasmatique sont occupés, la concentration en médicament libre est égale à la constante d'affinité (Ka)": "C'est incorrect. Lorsque la moitié des sites de fixation sont occupés, la concentration en médicament libre est égale à la constante de dissociation (Kd), pas à la constante d'affinité (Ka)."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les analogues du GLP 1 :",
+            "options": [
+                "Ils stimulent l'appétit par une action sur le SNC",
+                "Ils ont une action indépendante de la glycémie du patient, c'est pourquoi leurs effets indésirables hypoglycémiants sont fréquents et de longue durée.",
+                "Ils stimulent la sécrétion d'insuline",
+                "Ils ralentissent la vidange gastrique",
+                "Ils stimulent la sécrétion de glucagon"
+            ],
+            "correct_answers": [
+                "Ils stimulent la sécrétion d'insuline",
+                "Ils ralentissent la vidange gastrique"
+            ],
+            "justification_fausses_reponses": {
+                "Ils stimulent l'appétit par une action sur le SNC": "C'est incorrect car les analogues du GLP-1 suppriment l'appétit et non le stimulent. Ils agissent sur le système nerveux central pour induire une sensation de satiété.",
+                "Ils ont une action indépendante de la glycémie du patient, c'est pourquoi leurs effets indésirables hypoglycémiants sont fréquents et de longue durée.": "C'est faux car les analogues du GLP-1 ont une action dépendante de la glycémie. Ils stimulent la sécrétion d'insuline en réponse à une élévation de la glycémie, ce qui limite le risque d'hypoglycémie.",
+                "Ils stimulent la sécrétion de glucagon": "C'est incorrect car les analogues du GLP-1 inhibent plutôt la sécrétion de glucagon, une hormone qui augmente la glycémie."
+            }
+        },
+        {
+            "question": "Parmi les 5 médicaments suivants indiqués dans la prise en charge de la sclérose en plaque lequel ou lesquels est/sont immunomodulateur(s) ?",
+            "options": [
+                "Interferon béta 1a",
+                "Mitoxantrone",
+                "Natalizumab",
+                "Cyclophosphamide",
+                "Acetate de glatiramère"
+            ],
+            "correct_answers": [
+                "Interferon béta 1a",
+                "Acetate de glatiramère"
+            ],
+            "justification_fausses_reponses": {
+                "Mitoxantrone": "La mitoxantrone est un agent antinéoplasique et immunosuppresseur, mais pas un immunomodulateur. Elle agit en inhibant la synthèse de l'ADN et de l'ARN, ce qui n'est pas une action immunomodulatrice.",
+                "Natalizumab": "Le natalizumab est un anticorps monoclonal utilisé dans le traitement de la sclérose en plaques, mais il n'est pas considéré comme un immunomodulateur. Il agit en empêchant les cellules immunitaires d'entrer dans le cerveau et la moelle épinière, ce qui est différent de la modulation du système immunitaire.",
+                "Cyclophosphamide": "Le cyclophosphamide est un agent alkylant cytotoxique utilisé en chimiothérapie. Il n'est pas un immunomodulateur car il agit en endommageant l'ADN des cellules, ce qui entraîne leur mort."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes ?",
+            "options": [
+                "Le carbimazole possède une action rapide grâce à sa demi-vie courte",
+                "Le carbimazole est un antithyroidien de synthèse",
+                "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+                "Le carbimazole est contre indiqué avec l'amiodarone",
+                "Le carbimazole peut être associé à la lévothyroxine"
+            ],
+            "correct_answers": [
+                "Le carbimazole est un antithyroidien de synthèse",
+                "Le carbimazole peut être à l'origine d'une toxicité hématologique grave",
+                "Le carbimazole peut être associé à la lévothyroxine"
+            ],
+            "justification_fausses_reponses": {
+                "Le carbimazole possède une action rapide grâce à sa demi-vie courte": "C'est incorrect. Le carbimazole a une demi-vie longue, ce qui signifie qu'il reste dans le corps pendant une longue période, ce qui ralentit son action.",
+                "Le carbimazole est contre indiqué avec l'amiodarone": "C'est incorrect. Il n'y a pas de contre-indication spécifique entre le carbimazole et l'amiodarone. Cependant, comme tous les médicaments, ils doivent être utilisés avec prudence et sous surveillance médicale."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par la metformine :",
+            "options": [
+                "Elle subit principalement un métabolisme hépatique",
+                "C'est un médicament inducteur enzymatique",
+                "Son élimination est rénale et sous forme active",
+                "C'est un médicament inhibiteur enzymatique",
+                "En cas d'insuffisance rénale, il n'y pas d'accumulation possible de ce médicament"
+            ],
+            "correct_answers": [
+                "Son élimination est rénale et sous forme active"
+            ],
+            "justification_fausses_reponses": {
+                "Elle subit principalement un métabolisme hépatique": "La metformine n'est pas métabolisée par le foie, elle est éliminée sous forme inchangée par les reins.",
+                "C'est un médicament inducteur enzymatique": "La metformine n'est pas un inducteur enzymatique. Elle n'augmente pas la production d'enzymes qui décomposent les médicaments.",
+                "C'est un médicament inhibiteur enzymatique": "La metformine n'est pas un inhibiteur enzymatique. Elle n'empêche pas l'action des enzymes qui décomposent les médicaments.",
+                "En cas d'insuffisance rénale, il n'y pas d'accumulation possible de ce médicament": "En cas d'insuffisance rénale, l'élimination de la metformine est réduite, ce qui peut entraîner une accumulation du médicament dans l'organisme."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "La ciclosporine inhibe la synthèse de cytokines anti-inflammatoires, notamment de l'interleukine 4.",
+                "La ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, notamment de l'interleukine 2.",
+                "La ciclosporine est extraite d'un champignon.",
+                "La ciclosporine est éliminée par voie urinaire sous forme inchangée.",
+                "La ciclosporine est un substrat de l'isoenzyme CYP3A4 et a une métabolisation hépatique importante."
+            ],
+            "correct_answers": [
+                "La ciclosporine est extraite d'un champignon.",
+                "La ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, notamment de l'interleukine 2.",
+                "La ciclosporine est un substrat de l'isoenzyme CYP3A4 et a une métabolisation hépatique importante."
+            ],
+            "justification_fausses_reponses": {
+                "La ciclosporine inhibe la synthèse de cytokines anti-inflammatoires, notamment de l'interleukine 4.": "C'est incorrect car la ciclosporine inhibe la synthèse de cytokines pro-inflammatoires, pas anti-inflammatoires. Elle agit en inhibant l'activité de la calcineurine, ce qui empêche la transcription de l'interleukine-2, une cytokine pro-inflammatoire.",
+                "La ciclosporine est éliminée par voie urinaire sous forme inchangée.": "C'est incorrect car la ciclosporine est principalement métabolisée par le foie et est éliminée dans la bile. Seulement une petite quantité est éliminée par voie urinaire, et ce n'est pas sous forme inchangée."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "La dose d'un anticancéreux est toujours exprimée en mg/m²",
+                "Une chimiothérapie néo-adjuvante est une chimiothérapie première",
+                "Les évaluations de l’efficacité et de la tolérance d'un anticancéreux se réalisent après chaque cure",
+                "Les soins Oncologiques de Support (SOS) comprennent les anticancéreux"
+            ],
+            "correct_answers": [
+                "Une chimiothérapie néo-adjuvante est une chimiothérapie première"
+            ],
+            "justification_fausses_reponses": {
+                "La dose d'un anticancéreux est toujours exprimée en mg/m²": "C'est incorrect car la dose d'un anticancéreux peut être exprimée de différentes manières, pas seulement en mg/m². Cela dépend du type de médicament et de la méthode de dosage.",
+                "Les évaluations de l’efficacité et de la tolérance d'un anticancéreux se réalisent après chaque cure": "C'est faux car les évaluations de l'efficacité et de la tolérance d'un anticancéreux ne se font pas nécessairement après chaque cure. Elles peuvent être effectuées à des intervalles spécifiques ou en fonction de l'état du patient.",
+                "Les soins Oncologiques de Support (SOS) comprennent les anticancéreux": "C'est incorrect car les soins oncologiques de support (SOS) ne comprennent pas les anticancéreux. Les SOS sont des soins qui visent à améliorer la qualité de vie des patients atteints de cancer, mais ne comprennent pas les traitements anticancéreux eux-mêmes."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+            "options": [
+                "La toxicité chronique d'un médicament est déterminée par le calcul de la DL50",
+                "Les essais pré-cliniques utilisent des modèles in vitro et in vivo",
+                "Un Ki élevé permet de déduire une affinité élevée d'une substance pour un récepteur",
+                "Le binding pharmacologique permet de déterminer des CI50 pour des substances actives",
+                "Les méthodes alternatives permettent de réduire le nombre d'animaux utilisés dans les essais pré-cliniques"
+            ],
+            "correct_answers": [
+                "Les méthodes alternatives permettent de réduire le nombre d'animaux utilisés dans les essais pré-cliniques",
+                "Le binding pharmacologique permet de déterminer des CI50 pour des substances actives",
+                "Les essais pré-cliniques utilisent des modèles in vitro et in vivo"
+            ],
+            "justification_fausses_reponses": {
+                "La toxicité chronique d'un médicament est déterminée par le calcul de la DL50": "La DL50 est une mesure de la toxicité aiguë, pas chronique. Elle représente la dose qui causerait la mort de 50% d'une population testée, mais ne reflète pas les effets à long terme d'une exposition continue à un médicament.",
+                "Un Ki élevé permet de déduire une affinité élevée d'une substance pour un récepteur": "C'est l'inverse qui est vrai. Un Ki faible indique une forte affinité d'une substance pour un récepteur. Le Ki est une mesure de l'inhibition, donc plus le Ki est élevé, moins la substance a d'affinité pour le récepteur."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmations exacte(s)",
+            "options": [
+                "La digoxine subit une élimination par voie urinaire surtout (environ 90%).",
+                "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance hépatique, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+                "Un surdosage à la digoxine (digoxinémie ≥ 2 ng/ml) est annoncée par des troubles digestifs, neurosensoriels, neuropsychiques et des troubles de la conduction et de l'excitabilité cardiaque.",
+                "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance rénale, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+                "La digoxine est principalement éliminée par biotransformation hépatique."
+            ],
+            "correct_answers": [
+                "La digoxine subit une élimination par voie urinaire surtout (environ 90%).",
+                "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance rénale, chez le sujet âgé ou en cas de cardiopathie évoluée.",
+                "Un surdosage à la digoxine (digoxinémie ≥ 2 ng/ml) est annoncée par des troubles digestifs, neurosensoriels, neuropsychiques et des troubles de la conduction et de l'excitabilité cardiaque."
+            ],
+            "justification_fausses_reponses": {
+                "La posologie moyenne de la digoxine est à adapter à chaque cas individuel, et notamment en cas d'insuffisance hépatique, chez le sujet âgé ou en cas de cardiopathie évoluée.": "Cette affirmation est incorrecte car la digoxine est principalement éliminée par les reins, et non par le foie. Par conséquent, une insuffisance hépatique n'aurait pas d'impact significatif sur l'élimination de la digoxine.",
+                "La digoxine est principalement éliminée par biotransformation hépatique.": "Cette affirmation est incorrecte car la digoxine est principalement éliminée par voie urinaire, et non par biotransformation hépatique. Environ 60 à 80% de la digoxine est excrétée inchangée par les reins."
+            }
+        },
+        {
+            "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Dans quelles circonstances donne t-on un \"SR O\" ?",
+            "options": [
+                "Réhydratation orale des nourrissons et enfants en bas âge au quotidien",
+                "Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements",
+                "Réhydratation orale des nourrissons et enfants en bas âge en cas de soif",
+                "Pour traiter un enfant souffrant de détresse respiratoire",
+                "Pour traiter la dénutrition chez l'enfant"
+            ],
+            "correct_answers": [
+                "Réhydratation orale des nourrissons et enfants en bas âge en cas de diarrhées et de vomissements"
+            ],
+            "justification_fausses_reponses": {
+                "Réhydratation orale des nourrissons et enfants en bas âge au quotidien": "La réhydratation orale n'est pas nécessaire au quotidien, elle est utilisée en cas de perte excessive de liquides, comme lors de diarrhées ou de vomissements.",
+                "Réhydratation orale des nourrissons et enfants en bas âge en cas de soif": "La soif est généralement traitée par l'apport d'eau et non par une solution de réhydratation orale, qui est utilisée en cas de perte excessive de liquides.",
+                "Pour traiter un enfant souffrant de détresse respiratoire": "La détresse respiratoire est une urgence médicale qui nécessite une intervention médicale immédiate, pas une réhydratation orale.",
+                "Pour traiter la dénutrition chez l'enfant": "La dénutrition est un état de malnutrition grave qui nécessite un traitement nutritionnel spécifique, pas une réhydratation orale."
+            }
+        },
+        {
+            "question": "Pour un médicament administré par voie intra-veineuse rapide avec un temps de demi vie plasmatique de 4 H, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Une forme à libération prolongée va entraîner plus de variations des concentrations plasmatiques en cas d'administrations réitérées",
+                "Il reste 12 h après l'administration 25 % de la concentration plasmatique maximale",
+                "Pour obtenir d'emblée l'état d'équilibre dès la première injection, il faut faire une dose de charge",
+                "Il faudra 3,3 t1/2 pour obtenir 90 % de l'état d'équilibre (steady state) après administrations réitérées",
+                "Une augmentation de ce temps de demi-vie plasmatique va entraîner une augmentation de la constante de vitesse d'élimination plasmatique"
+            ],
+            "correct_answers": [
+                "Il faudra 3,3 t1/2 pour obtenir 90 % de l'état d'équilibre (steady state) après administrations réitérées",
+                "Pour obtenir d'emblée l'état d'équilibre dès la première injection, il faut faire une dose de charge"
+            ],
+            "justification_fausses_reponses": {
+                "Une forme à libération prolongée va entraîner plus de variations des concentrations plasmatiques en cas d'administrations réitérées": "C'est incorrect car une forme à libération prolongée est conçue pour maintenir une concentration plasmatique stable et minimiser les variations.",
+                "Il reste 12 h après l'administration 25 % de la concentration plasmatique maximale": "C'est incorrect car après 12 heures (soit 3 demi-vies), il resterait environ 12,5% de la concentration plasmatique maximale, pas 25%.",
+                "Une augmentation de ce temps de demi-vie plasmatique va entraîner une augmentation de la constante de vitesse d'élimination plasmatique": "C'est incorrect car une augmentation du temps de demi-vie plasmatique signifie que le médicament est éliminé plus lentement, donc la constante de vitesse d'élimination plasmatique diminuerait, pas augmenterait."
+            }
+        },
+        {
+            "question": "Concernant les torsades de pointes, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Elles sont favorisées par un allongement de l'intervalle Q T pré-existant",
+                "Elles sont favorisées par l'hyperkalièmie",
+                "Elles peuvent être provoquées par le Sotalol",
+                "Elles font parties des troubles du rythme ventriculaire",
+                "Elles sont favorisées par la tachycardie"
+            ],
+            "correct_answers": [
+                "Elles peuvent être provoquées par le Sotalol",
+                "Elles font parties des troubles du rythme ventriculaire",
+                "Elles sont favorisées par un allongement de l'intervalle Q T pré-existant"
+            ],
+            "justification_fausses_reponses": {
+                "Elles sont favorisées par l'hyperkalièmie": "C'est incorrect car les torsades de pointes sont généralement associées à une hypokaliémie, et non à une hyperkaliémie. L'hyperkaliémie peut provoquer d'autres troubles du rythme cardiaque, mais pas spécifiquement les torsades de pointes.",
+                "Elles sont favorisées par la tachycardie": "C'est incorrect car les torsades de pointes sont généralement favorisées par la bradycardie, et non par la tachycardie. La tachycardie peut provoquer d'autres troubles du rythme cardiaque, mais pas spécifiquement les torsades de pointes."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+                "Les traitements par anticancéreux par voie orale au long cours se multiplient",
+                "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+                "L'incidence d'un syndrome pharmacogénétique est fréquente"
+            ],
+            "correct_answers": [
+                "L'adhésion à un traitement par un anticancéreux oral fait intervenir l'acceptation, l'observance et la persistance",
+                "Il existe une relation inverse entre activité DPD (Dihydropyrimidine Déshydrogénase) et taux plasmatique de 5 FU",
+                "Les traitements par anticancéreux par voie orale au long cours se multiplient"
+            ],
+            "justification_fausses_reponses": {
+                "L'incidence d'un syndrome pharmacogénétique est fréquente": "Cette affirmation est incorrecte car l'incidence d'un syndrome pharmacogénétique n'est pas fréquente. Les syndromes pharmacogénétiques sont des réactions anormales à des médicaments causées par des variations génétiques, et ils ne sont pas courants dans la population générale."
+            }
+        },
+        {
+            "question": "Parmi les antipsychotiques suivants ; lequel ou lesquels appartienne(nt) à la famille des antipsychotiques atypiques ?",
+            "options": [
+                "Risperidone",
+                "Chlorpromazine",
+                "Aripiprazole",
+                "Clozapine",
+                "Olanzapine"
+            ],
+            "correct_answers": [
+                "Risperidone",
+                "Clozapine",
+                "Olanzapine",
+                "Aripiprazole"
+            ],
+            "justification_fausses_reponses": {
+                "Chlorpromazine": "La Chlorpromazine n'appartient pas à la famille des antipsychotiques atypiques mais à celle des antipsychotiques typiques. Les antipsychotiques typiques sont la première génération d'antipsychotiques et ont un effet principalement sur les symptômes positifs de la schizophrénie, tandis que les antipsychotiques atypiques, qui sont la deuxième génération, ont un effet sur les symptômes positifs et négatifs."
+            }
+        },
+        {
+            "question": "Concernant l'élimination du lithium, quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Elle est favorisée par la réabsorption au niveau du tube proximal",
+                "Elle peut être augmentée par la dialyse",
+                "Elle est favorisée par l'hyponatrémie",
+                "Elle peut être augmentée par la diurétiques thiazidiques",
+                "Elle est diminuée par la diurétiques anti-aldostérone"
+            ],
+            "correct_answers": [
+                "Elle peut être augmentée par la dialyse",
+                "Elle est diminuée par la diurétiques anti-aldostérone"
+            ],
+            "justification_fausses_reponses": {
+                "Elle est favorisée par la réabsorption au niveau du tube proximal": "C'est incorrect car le lithium n'est pas réabsorbé au niveau du tube proximal. Il est principalement éliminé par filtration glomérulaire.",
+                "Elle est favorisée par l'hyponatrémie": "C'est incorrect car l'hyponatrémie ne favorise pas l'élimination du lithium. Au contraire, elle peut augmenter la réabsorption rénale du lithium et donc augmenter sa toxicité.",
+                "Elle peut être augmentée par la diurétiques thiazidiques": "C'est incorrect car les diurétiques thiazidiques peuvent en réalité diminuer l'élimination du lithium en augmentant sa réabsorption rénale."
+            }
+        },
+        {
+            "question": "Parmi les 5 affirmations suivantes concernant la prise en charge de la sclérose en plaque, laquelle ou lesquelles est/sont exactes ?",
+            "options": [
+                "L'acetate de glatiramere est un interferon Beta 1a",
+                "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque",
+                "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+                "Toutes les spécialités de type interferon Béta utilisées dans la sclérose en plaque sont systématiquement injectés par voie sous cutanée",
+                "Diméthyl fumarate doit systématiquement être prescrit avec une dose de charge (posologie 2 fois supérieure à la posologie d'entretien) pendant 7 jours pour être efficace"
+            ],
+            "correct_answers": [
+                "Natalizumab expose à un risque accru de leucoencéphalopathie multifocale progressive",
+                "L'Interferon Beta 1a n'est pas indiqué dans les formes progressives de la sclérose en plaque"
+            ],
+            "justification_fausses_reponses": {
+                "L'acetate de glatiramere est un interferon Beta 1a": "L'acétate de glatiramère n'est pas un interféron bêta-1a, mais un médicament immunomodulateur utilisé dans le traitement de la sclérose en plaques.",
+                "Toutes les spécialités de type interferon Béta utilisées dans la sclérose en plaque sont systématiquement injectés par voie sous cutanée": "Toutes les spécialités d'interféron bêta ne sont pas systématiquement injectées par voie sous-cutanée. Certaines peuvent être administrées par voie intramusculaire.",
+                "Diméthyl fumarate doit systématiquement être prescrit avec une dose de charge (posologie 2 fois supérieure à la posologie d'entretien) pendant 7 jours pour être efficace": "Le diméthyl fumarate n'a pas besoin d'être prescrit avec une dose de charge pour être efficace. La posologie est généralement augmentée progressivement pour minimiser les effets secondaires."
+            }
+        },
+        {
+            "question": "Parmi les 5 médicaments suivants lesquels ou lequel appartiennent à la famille des Benzodiazépines ?",
+            "options": [
+                "Propofol",
+                "Etifoxine",
+                "Hydroxyzine",
+                "Alprazolam",
+                "Buspirone"
+            ],
+            "correct_answers": [
+                "Alprazolam"
+            ],
+            "justification_fausses_reponses": {
+                "Propofol": "Le Propofol est un anesthésique général, il n'appartient pas à la famille des Benzodiazépines.",
+                "Etifoxine": "L'Etifoxine est un anxiolytique non-benzodiazépine, il n'appartient donc pas à la famille des Benzodiazépines.",
+                "Hydroxyzine": "L'Hydroxyzine est un antihistaminique de première génération, il n'appartient pas à la famille des Benzodiazépines.",
+                "Buspirone": "La Buspirone est un anxiolytique non-benzodiazépine, elle n'appartient donc pas à la famille des Benzodiazépines."
+            }
+        },
+        {
+            "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu\"SR O\" 2 à 3 fois / jour que signifie \"SR O\" ?",
+            "options": [
+                "Soluté de réhydratation orale",
+                "Soluté pour les problèmes respiratoires obstructifs",
+                "Autre définition",
+                "Soluté de remplissage orale",
+                "Soluté de remplissage œsophagien"
+            ],
+            "correct_answers": [
+                "Soluté de réhydratation orale"
+            ],
+            "justification_fausses_reponses": {
+                "Soluté pour les problèmes respiratoires obstructifs": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale', qui est utilisé pour traiter la déshydratation, et non les problèmes respiratoires.",
+                "Autre définition": "Cette option est incorrecte car 'SR O' a une signification spécifique en pharmacologie, qui est 'Soluté de réhydratation orale'. Il n'y a pas d'autre définition valide dans ce contexte.",
+                "Soluté de remplissage orale": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale'. Le terme 'soluté de remplissage' n'est pas utilisé en pharmacologie.",
+                "Soluté de remplissage œsophagien": "Cette option est incorrecte car 'SR O' signifie 'Soluté de réhydratation orale'. Le terme 'soluté de remplissage œsophagien' n'est pas utilisé en pharmacologie."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, quelle est (quelles sont) celle(s) qui est (sont) exactes ?",
+            "options": [
+                "La digoxine doit être utilisée dès le stade I de l'insuffisance cardiaque chronique",
+                "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+                "L'ivabradine est contre-indiquée chez le patient insuffisant cardiaque",
+                "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+                "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+            ],
+            "correct_answers": [
+                "Le traitement de l'insuffisance cardiaque chronique a pour objectif d'augmenter la tolérance à l'effort",
+                "Les IEC permettent de réduire la morbi-mortalité de l'insuffisance cardiaque chronique",
+                "Les béta-bloquants diminuent la tachycardie observée dans l'insuffisance cardiaque chronique"
+            ],
+            "justification_fausses_reponses": {
+                "La digoxine doit être utilisée dès le stade I de l'insuffisance cardiaque chronique": "La digoxine n'est pas recommandée en première ligne pour le traitement de l'insuffisance cardiaque chronique. Elle est généralement utilisée lorsque d'autres traitements ne sont pas suffisants ou ne sont pas tolérés.",
+                "L'ivabradine est contre-indiquée chez le patient insuffisant cardiaque": "L'ivabradine n'est pas contre-indiquée chez les patients souffrant d'insuffisance cardiaque. Au contraire, elle est souvent utilisée pour réduire la fréquence cardiaque chez les patients qui ne peuvent pas prendre de béta-bloquants ou chez ceux dont la fréquence cardiaque reste élevée malgré le traitement par béta-bloquants."
+            }
+        },
+        {
+            "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "L'atteinte neurologique est un effet indésirable majeur de la rifampicine.",
+                "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples.",
+                "La rifampicine est un inhibiteur enzymatique puissant.",
+                "La rifampicine est un inducteur enzymatique puissant.",
+                "La rifampicine agit principalement sur les bacilles intracellulaires car le milieu acide est nécessaire à son activité."
+            ],
+            "correct_answers": [
+                "La rifampicine est un inducteur enzymatique puissant.",
+                "La rifampicine provoque une coloration rouge ou orangée des urines, des selles, des larmes et des lentilles cornéennes souples."
+            ],
+            "justification_fausses_reponses": {
+                "L'atteinte neurologique est un effet indésirable majeur de la rifampicine.": "Bien que la rifampicine puisse causer des effets indésirables, l'atteinte neurologique n'est pas considérée comme un effet majeur. Les effets indésirables les plus courants sont les réactions allergiques et les troubles gastro-intestinaux.",
+                "La rifampicine est un inhibiteur enzymatique puissant.": "C'est incorrect, la rifampicine est en réalité un inducteur enzymatique puissant. Cela signifie qu'elle augmente la production d'enzymes, ce qui peut accélérer le métabolisme de certains médicaments.",
+                "La rifampicine agit principalement sur les bacilles intracellulaires car le milieu acide est nécessaire à son activité.": "C'est incorrect, la rifampicine agit en inhibant l'ARN polymérase des bacilles de la tuberculose, empêchant ainsi la transcription de l'ADN en ARN. Son activité n'est pas dépendante du milieu acide."
+            }
+        },
+        {
+            "question": "Sur une ordonnance d'un enfant de 4 ans, vous avez lu \"SR O\" 2 à 3 fois /j. Quel est son mode d'emploi ?",
+            "options": [
+                "Toutes les propositions sont vraies.",
+                "C'est une solution buvable en boite de 200 mL prête à l'emploi chez le nourrisson ou l'enfant. On fait boire 2 à 3 fois/jour.",
+                "C'est une solution buvable en boite d'un litre prête à l'emploi chez le nourrisson ou l'enfant. On fait boire à volonté dans la journée",
+                "Ce sont des sachets. On verse le contenu d'un sachet dans un biberon propre et on complète avec de l'eau (faiblement minéralisée) jusqu'à obtention de 200 mL de solution qu'on administre à l'enfant ou au nourrisson par voie orale selon la quantité fixée par le médecin.",
+                "C'est un pot contenant de la poudre et on prépare les biberons comme on le fait traditionnellement pour le lait, puis on administre à l'enfant ou au nourrisson 3 fois par jour."
+            ],
+            "correct_answers": [
+                "Ce sont des sachets. On verse le contenu d'un sachet dans un biberon propre et on complète avec de l'eau (faiblement minéralisée) jusqu'à obtention de 200 mL de solution qu'on administre à l'enfant ou au nourrisson par voie orale selon la quantité fixée par le médecin."
+            ],
+            "justification_fausses_reponses": {
+                "Toutes les propositions sont vraies.": "Cette affirmation est incorrecte car toutes les propositions ne sont pas vraies. La bonne réponse est que le médicament est présenté sous forme de sachets à diluer dans de l'eau.",
+                "C'est une solution buvable en boite de 200 mL prête à l'emploi chez le nourrisson ou l'enfant. On fait boire 2 à 3 fois/jour.": "Cette affirmation est incorrecte car le médicament n'est pas une solution buvable prête à l'emploi, mais des sachets à diluer dans de l'eau.",
+                "C'est une solution buvable en boite d'un litre prête à l'emploi chez le nourrisson ou l'enfant. On fait boire à volonté dans la journée": "Cette affirmation est incorrecte car le médicament n'est pas une solution buvable prête à l'emploi, mais des sachets à diluer dans de l'eau. De plus, le médicament ne doit pas être bu à volonté, mais selon la quantité fixée par le médecin.",
+                "C'est un pot contenant de la poudre et on prépare les biberons comme on le fait traditionnellement pour le lait, puis on administre à l'enfant ou au nourrisson 3 fois par jour.": "Cette affirmation est incorrecte car le médicament n'est pas présenté sous forme de poudre dans un pot, mais sous forme de sachets à diluer dans de l'eau."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "Un essai en simple insu cache l'identité du traitement au malade et au médecin",
+                "La phase II vise à déterminer la Dose Maximale T olérée",
+                "L'étiquetage d'un médicament expérimental est spécifique",
+                "Le rapport Bénéfices/Risques est évalué durant chaque phase de développement d'un médicament"
+            ],
+            "correct_answers": [
+                "L'étiquetage d'un médicament expérimental est spécifique",
+                "Le rapport Bénéfices/Risques est évalué durant chaque phase de développement d'un médicament"
+            ],
+            "justification_fausses_reponses": {
+                "Un essai en simple insu cache l'identité du traitement au malade et au médecin": "Cette affirmation est incorrecte car dans un essai en simple insu, seul le patient ignore quel traitement il reçoit. Le médecin est au courant du traitement administré.",
+                "La phase II vise à déterminer la Dose Maximale T olérée": "Cette affirmation est incorrecte car c'est la phase I qui vise à déterminer la Dose Maximale Tolérée. La phase II vise à évaluer l'efficacité du médicament et à déterminer la dose optimale."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 par les gliptines :",
+            "options": [
+                "Ces médicaments, d'origine peptidique, sont administrés par voie injectable à l'aide de stylos préremplis.",
+                "Ce sont des inhibiteurs du cotransporteur sodium-glucose (SGL T2) au niveau rénal",
+                "Ces médicaments peuvent être responsables de troubles infectieux",
+                "Ce sont des inhibiteurs compétitifs et réversibles d'alpha glucosidases intestinales",
+                "Ce sont des inhibiteurs de la dipeptidyl peptidase de type IV (DPP IV)"
+            ],
+            "correct_answers": [
+                "Ce sont des inhibiteurs de la dipeptidyl peptidase de type IV (DPP IV)",
+                "Ces médicaments peuvent être responsables de troubles infectieux"
+            ],
+            "justification_fausses_reponses": {
+                "Ces médicaments, d'origine peptidique, sont administrés par voie injectable à l'aide de stylos préremplis.": "C'est incorrect car les gliptines sont administrées par voie orale, et non injectable.",
+                "Ce sont des inhibiteurs du cotransporteur sodium-glucose (SGL T2) au niveau rénal": "C'est incorrect car les gliptines sont des inhibiteurs de la DPP-IV, et non des inhibiteurs du SGLT2.",
+                "Ce sont des inhibiteurs compétitifs et réversibles d'alpha glucosidases intestinales": "C'est incorrect car les gliptines sont des inhibiteurs de la DPP-IV, et non des inhibiteurs des alpha glucosidases intestinales."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) dans la prise en charge du diabète de type 2 :",
+            "options": [
+                "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention une gliptine pour le traitement médicamenteux du contrôle glycémique",
+                "Le but des mesures hygiéno diététiques est de limiter les hyperglycémies postprandiales tout en évitant d'éventuelles hypoglycémies et de limiter aussi certains facteurs de risque cardio-vasculaires",
+                "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention la metformine pour le traitement médicamenteux du contrôle glycémique",
+                "La mise en place de mesures hygiéno diététiques efficaces est un préalable nécessaire au traitement médicamenteux du contrôle glycémique pour les patients dont le diabète est nouvellement diagnostiqué et dont l'espérance de vie est > à 15 ans, sans A TCD cardio-vasculaire et sans signes hyperglycémie",
+                "les mesures hygiéno diététiques peuvent être arrêtées en cas d'anti diabétique prescrit si celui-ci est efficace en permettant le contrôle glycémique chez le patient"
+            ],
+            "correct_answers": [
+                "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention la metformine pour le traitement médicamenteux du contrôle glycémique",
+                "La mise en place de mesures hygiéno diététiques efficaces est un préalable nécessaire au traitement médicamenteux du contrôle glycémique pour les patients dont le diabète est nouvellement diagnostiqué et dont l'espérance de vie est > à 15 ans, sans A TCD cardio-vasculaire et sans signes hyperglycémie",
+                "Le but des mesures hygiéno diététiques est de limiter les hyperglycémies postprandiales tout en évitant d'éventuelles hypoglycémies et de limiter aussi certains facteurs de risque cardio-vasculaires"
+            ],
+            "justification_fausses_reponses": {
+                "Selon les dernières recommandations de l'HAS, on doit prescrire en 1ère intention une gliptine pour le traitement médicamenteux du contrôle glycémique": "C'est incorrect car selon les recommandations de l'HAS, la metformine est le médicament de première intention pour le contrôle glycémique dans le diabète de type 2, et non la gliptine.",
+                "les mesures hygiéno diététiques peuvent être arrêtées en cas d'anti diabétique prescrit si celui-ci est efficace en permettant le contrôle glycémique chez le patient": "C'est incorrect car les mesures hygiéno diététiques sont un élément essentiel de la prise en charge du diabète de type 2 et doivent être maintenues même si un traitement médicamenteux est prescrit et efficace."
+            }
+        },
+        {
+            "question": "Parmi les propositions suivantes, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "La ciclosporine est un macrolide.",
+                "La néphrotoxicité est un effet indésirable majeur de la ciclosporine.",
+                "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+                "La ciclosporine inhibe l'activité de la protéine m-T OR qui est une kinase indispensable à la progression du cycle cellulaire.",
+                "La ciclosporine ne doit pas être associée aux corticoïdes."
+            ],
+            "correct_answers": [
+                "La ciclosporine inhibe le développement des réactions immunitaires à médiation cellulaire.",
+                "La néphrotoxicité est un effet indésirable majeur de la ciclosporine."
+            ],
+            "justification_fausses_reponses": {
+                "La ciclosporine est un macrolide.": "C'est incorrect. La ciclosporine est un immunosuppresseur, pas un macrolide qui est une classe d'antibiotiques.",
+                "La ciclosporine inhibe l'activité de la protéine m-T OR qui est une kinase indispensable à la progression du cycle cellulaire.": "C'est incorrect. La ciclosporine inhibe la calcineurine, pas la protéine m-TOR.",
+                "La ciclosporine ne doit pas être associée aux corticoïdes.": "C'est incorrect. La ciclosporine peut être associée aux corticoïdes pour augmenter l'effet immunosuppresseur."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les propositions exactes : A propos de l'azathioprine (Imurel*) :",
+            "options": [
+                "C'est un immunosuppresseur antiprolifératif",
+                "Nécessite une surveillance de l'hémogramme",
+                "Est déconseillée en association avec l'allopurinol",
+                "Est à prendre en dehors des repas",
+                "C'est une prodrug"
+            ],
+            "correct_answers": [
+                "C'est un immunosuppresseur antiprolifératif",
+                "C'est une prodrug",
+                "Nécessite une surveillance de l'hémogramme"
+            ],
+            "justification_fausses_reponses": {
+                "Est déconseillée en association avec l'allopurinol": "Cette affirmation est incorrecte car l'azathioprine peut être utilisée en association avec l'allopurinol. L'allopurinol est un médicament qui réduit la production d'acide urique dans le corps, ce qui peut aider à prévenir les crises de goutte. Il n'y a pas de contre-indication connue à l'utilisation de ces deux médicaments ensemble.",
+                "Est à prendre en dehors des repas": "Cette affirmation est incorrecte car l'azathioprine peut être prise avec ou sans nourriture. Il est généralement recommandé de prendre ce médicament avec de la nourriture pour minimiser les effets secondaires gastro-intestinaux."
+            }
+        },
+        {
+            "question": "Concernant le traitement de la tuberculose, indiquer la (les) affirmation(s) exacte(s) :",
+            "options": [
+                "Le schéma thérapeutique standard repose sur une trithérapie associant isoniazide, rifampicine et éthambutol.",
+                "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en trois prises par jour.",
+                "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+                "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide.",
+                "L'insuffisance rénale sévère est une contre-indication au traitement par isoniazide."
+            ],
+            "correct_answers": [
+                "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en une prise par jour à jeun.",
+                "L'insuffisance hépatique sévère est une contre-indication au traitement par isoniazide."
+            ],
+            "justification_fausses_reponses": {
+                "Le schéma thérapeutique standard repose sur une trithérapie associant isoniazide, rifampicine et éthambutol.": "C'est incorrect. Le schéma thérapeutique standard pour la tuberculose repose sur une quadrithérapie associant isoniazide, rifampicine, pyrazinamide et éthambutol.",
+                "Le RIFINAH (isoniazide associé à la rifampicine) doit être pris en trois prises par jour.": "C'est incorrect. Le RIFINAH doit être pris en une seule prise par jour à jeun pour une meilleure absorption.",
+                "L'insuffisance rénale sévère est une contre-indication au traitement par isoniazide.": "C'est incorrect. L'isoniazide est principalement métabolisé par le foie, donc l'insuffisance rénale n'est pas une contre-indication. Cependant, une surveillance est nécessaire en cas d'insuffisance rénale sévère."
+            }
+        },
+        {
+            "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/sont exactes ?",
+            "options": [
+                "Le principal effet indésirable du Mycophenolate mofetil est la néphrotoxicité tubulaire",
+                "Everolimus ne nécessite pas de suivi des concentrations sanguines dans le cadre de la prévention du rejet de greffon rénal.",
+                "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique",
+                "Tacrolimus est un immunosuppresseur responsable de fréquentes hypotensions orthostatiques",
+                "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine"
+            ],
+            "correct_answers": [
+                "Ciclosporine est un immunosuppresseur appartenant à la famille des inhibiteurs de la calcineurine",
+                "Amiodarone augmente nettement les concentrations de ciclosporine par interaction métabolique"
+            ],
+            "justification_fausses_reponses": {
+                "Le principal effet indésirable du Mycophenolate mofetil est la néphrotoxicité tubulaire": "C'est incorrect. Le principal effet indésirable du Mycophenolate mofetil est la myélosuppression, pas la néphrotoxicité tubulaire.",
+                "Everolimus ne nécessite pas de suivi des concentrations sanguines dans le cadre de la prévention du rejet de greffon rénal.": "C'est faux. Everolimus nécessite un suivi des concentrations sanguines pour éviter la toxicité et assurer son efficacité dans la prévention du rejet de greffon rénal.",
+                "Tacrolimus est un immunosuppresseur responsable de fréquentes hypotensions orthostatiques": "C'est incorrect. Tacrolimus peut causer de l'hypertension, pas de l'hypotension orthostatique."
+            }
+        },
+        {
+            "question": "Quelle est ou quelles sont la ou les bonnes réponses ?",
+            "options": [
+                "L'investigateur coordinateur est celui qui prend l'initiative de la recherche biomédicale",
+                "Un promoteur doit toujours faire appel à une société de recherche sous contrat",
+                "Lors d'un audit, toutes les versions du protocole doivent être présentées",
+                "Un promoteur est une personne physique qui dirige et surveille la recherche biomédicale sur un lieu"
+            ],
+            "correct_answers": [
+                "Lors d'un audit, toutes les versions du protocole doivent être présentées"
+            ],
+            "justification_fausses_reponses": {
+                "L'investigateur coordinateur est celui qui prend l'initiative de la recherche biomédicale": "C'est incorrect. L'investigateur coordinateur est celui qui coordonne les différents investigateurs d'une recherche biomédicale, mais ce n'est pas nécessairement lui qui prend l'initiative de la recherche.",
+                "Un promoteur doit toujours faire appel à une société de recherche sous contrat": "C'est faux. Un promoteur peut choisir de faire appel à une société de recherche sous contrat, mais ce n'est pas une obligation. Il peut également choisir de mener la recherche en interne.",
+                "Un promoteur est une personne physique qui dirige et surveille la recherche biomédicale sur un lieu": "C'est incorrect. Un promoteur peut être une personne physique ou morale (par exemple, une entreprise ou une institution) qui prend l'initiative de la recherche biomédicale et en assure la gestion, le financement et la surveillance."
+            }
+        },
+        {
+            "question": "Parmi les 5 affirmations suivantes laquelle ou lesquelles est/ sont exactes ?",
+            "options": [
+                "L'halopéridol antagonise l'activité de la L DOP A.",
+                "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+                "La dopathérapie est surtout efficace sur les tremblements mais améliore peu l'akinésie",
+                "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+                "Le Métoclopramide est l'antiémétique de 1ère intention pour traiter les nausées et les vomissements liés à la dopathérapie"
+            ],
+            "correct_answers": [
+                "Le benserazide, utilisé dans la prise en charge de la maladie de parkinson, agit par inhibition de la dopadécarboxylase périphérique",
+                "La Lévodopa n'est pas absorbée au niveau de l'estomac mais au niveau du jéjunum par transport actif",
+                "L'halopéridol antagonise l'activité de la L DOP A."
+            ],
+            "justification_fausses_reponses": {
+                "La dopathérapie est surtout efficace sur les tremblements mais améliore peu l'akinésie": "Cette affirmation est incorrecte car la dopathérapie est efficace à la fois sur les tremblements et l'akinésie. L'akinésie, qui est une diminution ou une perte de la mobilité, est un des symptômes principaux de la maladie de Parkinson que la dopathérapie vise à améliorer.",
+                "Le Métoclopramide est l'antiémétique de 1ère intention pour traiter les nausées et les vomissements liés à la dopathérapie": "Cette affirmation est incorrecte car le Métoclopramide n'est pas l'antiémétique de première intention pour traiter les nausées et les vomissements liés à la dopathérapie. En effet, le Métoclopramide peut aggraver les symptômes de la maladie de Parkinson en bloquant les récepteurs de la dopamine dans le cerveau."
+            }
+        }
+    ]
+}
