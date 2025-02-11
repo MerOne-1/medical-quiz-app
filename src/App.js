@@ -44,10 +44,26 @@ function App() {
                 }
               />
               <Route
+                path="/molecules"
+                element={
+                  <PrivateRoute>
+                    <MoleculesHomePage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/:theme"
+                element={
+                  <PrivateRoute>
+                    <MoleculesPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
                 path="/"
                 element={
                   <PrivateRoute>
-                    <ProjectSelect />
+                    <HomePage />
                   </PrivateRoute>
                 }
               />
