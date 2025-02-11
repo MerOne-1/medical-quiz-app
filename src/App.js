@@ -32,7 +32,7 @@ function App() {
                 path="/"
                 element={
                   <PrivateRoute>
-                    <ProjectSelect />
+                    <MoleculesHomePage />
                   </PrivateRoute>
                 }
               />
@@ -88,7 +88,7 @@ function App() {
                 path="*"
                 element={
                   <PrivateRoute>
-                    <ProjectSelect />
+                    <MoleculesHomePage />
                   </PrivateRoute>
                 }
               />

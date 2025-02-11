@@ -40,7 +40,7 @@ export default function MoleculesHomePage() {
           Flashcards Molécules
         </Typography>
         <Typography variant="h6" color="text.secondary" gutterBottom>
-          Sélectionnez un thème pour commencer
+          Révisez les structures moléculaires par thème
         </Typography>
         <Button
           variant="outlined"

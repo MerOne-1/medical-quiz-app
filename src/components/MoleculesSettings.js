@@ -240,10 +240,10 @@ export default function MoleculesSettings() {
     <Container maxWidth="md" sx={{ py: 4 }}>
       <Box sx={{ mb: 4 }}>
         <Typography variant="h4" gutterBottom align="center">
-          Paramètres des Cartes
+          Gestion des Molécules
         </Typography>
         <Typography variant="subtitle1" align="center" color="text.secondary" gutterBottom>
-          Sélectionnez les cartes que vous souhaitez étudier
+          Personnalisez votre liste de molécules à étudier
         </Typography>
       </Box>
 
