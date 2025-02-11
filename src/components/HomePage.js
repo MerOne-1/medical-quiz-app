@@ -56,14 +56,14 @@ function HomePage() {
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <Medication sx={{ fontSize: 60, color: '#2e7d32', mb: 2 }} />
+          <Medication sx={{ fontSize: 60, color: '#009688', mb: 2 }} />
           <Typography
             variant="h2"
             component="h1"
             gutterBottom
             sx={{
               fontWeight: 700,
-              background: 'linear-gradient(45deg, #2e7d32 30%, #388e3c 90%)',
+              background: 'linear-gradient(45deg, #009688 30%, #00796b 90%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               textShadow: 'none'
@@ -136,7 +136,7 @@ function HomePage() {
                         gutterBottom
                         sx={{
                           fontWeight: 600,
-                          color: '#2e7d32',
+                          color: '#009688',
                           borderBottom: '2px solid #e3f2fd',
                           pb: 1,
                           mb: 2
@@ -148,10 +148,10 @@ function HomePage() {
                         {quizProgress[theme.id] ? (
                           <>
                             <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                              <Typography variant="body2" sx={{ color: '#009688' }}>
+                              <Typography variant="body2" sx={{ color: '#00796b' }}>
                                 Score:
                               </Typography>
-                              <Typography variant="body2" sx={{ color: '#2e7d32', fontWeight: 'bold' }}>
+                              <Typography variant="body2" sx={{ color: '#009688', fontWeight: 'bold' }}>
                                 {Math.round((quizProgress[theme.id].stats?.correct || 0) * 100) / 100}/
                                 {quizProgress[theme.id].stats?.total || 0}
                               </Typography>
