@@ -147,37 +147,37 @@ function ResultsPage() {
                   )}%
                 </Typography>
               </Box>
-              <Grid container spacing={3}>
-                <Grid item xs={12} md={4}>
+              <Grid container spacing={2}>
+                <Grid item xs={4}>
                   <Box sx={{ 
                     textAlign: 'center',
-                    p: 2,
-                    borderRadius: 2,
-                    bgcolor: '#009688',
+                    p: 1.5,
+                    borderRadius: 1,
+                    bgcolor: '#4caf50',
                     color: '#ffffff'
                   }}>
-                    <Typography variant="h6" gutterBottom>
+                    <Typography variant="subtitle2" gutterBottom>
                       Questions Réussies
                     </Typography>
-                    <Typography variant="h4">
+                    <Typography variant="h5">
                       {Object.values(progress).reduce((acc, curr) => 
                         acc + Object.values(curr.answeredQuestions || {})
                           .filter(answer => answer.points === 1).length, 0)}
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={4}>
                   <Box sx={{ 
                     textAlign: 'center',
-                    p: 2,
-                    borderRadius: 2,
+                    p: 1.5,
+                    borderRadius: 1,
                     bgcolor: '#2196f3',
                     color: '#ffffff'
                   }}>
-                    <Typography variant="h6" gutterBottom>
+                    <Typography variant="subtitle2" gutterBottom>
                       Questions Répondues
                     </Typography>
-                    <Typography variant="h4">
+                    <Typography variant="h5">
                       {Object.values(progress).reduce((acc, curr) => 
                         acc + Object.keys(curr.answeredQuestions || {}).length, 0)}
                       {' / '}
@@ -186,18 +186,18 @@ function ResultsPage() {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={4}>
                   <Box sx={{ 
                     textAlign: 'center',
-                    p: 2,
-                    borderRadius: 2,
-                    bgcolor: '#00695c',
+                    p: 1.5,
+                    borderRadius: 1,
+                    bgcolor: '#f44336',
                     color: '#ffffff'
                   }}>
-                    <Typography variant="h6" gutterBottom>
+                    <Typography variant="subtitle2" gutterBottom>
                       Questions à Revoir
                     </Typography>
-                    <Typography variant="h4">
+                    <Typography variant="h5">
                       {Object.values(progress).reduce((acc, curr) => 
                         acc + Object.values(curr.answeredQuestions || {})
                           .filter(answer => answer.points === 0).length, 0)}
