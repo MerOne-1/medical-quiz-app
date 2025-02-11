@@ -313,24 +313,34 @@ export default function MoleculesPage() {
   const currentCard = filteredCards[currentIndex];
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
-      <Box sx={{ mb: 4 }}>
-        <Typography variant="h4" gutterBottom align="center">
-          {theme}
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="text.secondary">
-          Carte {currentIndex + 1} sur {filteredCards.length}
-        </Typography>
-      </Box>
+    <Box sx={{
+      display: 'flex',
+      flexDirection: 'column',
+      minHeight: '100vh',
+      pt: { xs: 2, sm: 4 },
+      pb: { xs: 8, sm: 4 }, // Extra padding at bottom for mobile to account for fixed buttons
+    }}>
+      <Container maxWidth="md" sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <Box sx={{ mb: { xs: 2, sm: 4 } }}>
+          <Typography variant="h4" gutterBottom align="center">
+            {theme}
+          </Typography>
+          <Typography variant="subtitle1" align="center" color="text.secondary">
+            Carte {currentIndex + 1} sur {filteredCards.length}
+          </Typography>
+        </Box>
 
       <Box
         sx={{
           ...cardStyles,
-          height: 400,
-          mb: 4,
+          flex: 1,
+          minHeight: { xs: '50vh', sm: '400px' },
+          mb: { xs: 2, sm: 4 },
           userSelect: 'none', // Prevent text selection on click
           WebkitTouchCallout: 'none', // Prevent iOS callout
           WebkitTapHighlightColor: 'transparent', // Remove tap highlight on mobile
+          position: 'relative',
+          overflow: 'hidden'
         }}
         className={isChanging ? 'changing' : ''}
         onClick={handleFlip}
@@ -340,7 +350,26 @@ export default function MoleculesPage() {
       >
         <Box className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
           <Card className="card-front" elevation={3}>
-            <CardContent sx={{ width: '100%', height: '100%', p: 0 }}>
+            <CardContent sx={{ 
+              width: '100%', 
+              height: '100%', 
+              p: 0,
+              overflow: 'auto',
+              '&::-webkit-scrollbar': {
+                width: '8px',
+              },
+              '&::-webkit-scrollbar-track': {
+                background: '#f1f1f1',
+                borderRadius: '4px',
+              },
+              '&::-webkit-scrollbar-thumb': {
+                background: '#888',
+                borderRadius: '4px',
+              },
+              '&::-webkit-scrollbar-thumb:hover': {
+                background: '#555',
+              },
+            }}>
               {currentCard && currentCard.image && (
                 <>
                   <Box
@@ -412,7 +441,24 @@ export default function MoleculesPage() {
           </Card>
 
           <Card className="card-back" elevation={3}>
-            <CardContent>
+            <CardContent sx={{ 
+              overflow: 'auto',
+              maxHeight: '100%',
+              '&::-webkit-scrollbar': {
+                width: '8px',
+              },
+              '&::-webkit-scrollbar-track': {
+                background: '#f1f1f1',
+                borderRadius: '4px',
+              },
+              '&::-webkit-scrollbar-thumb': {
+                background: '#888',
+                borderRadius: '4px',
+              },
+              '&::-webkit-scrollbar-thumb:hover': {
+                background: '#555',
+              },
+            }}>
               <Typography variant="h5" gutterBottom align="center">
                 {currentCard.name}
               </Typography>
@@ -429,14 +475,14 @@ export default function MoleculesPage() {
       {/* Custom Rating component */}
       <Box 
         sx={{ 
-          mt: 2, 
-          mb: 4, 
+          mt: { xs: 1, sm: 2 }, 
+          mb: { xs: 2, sm: 4 }, 
           display: 'flex', 
           flexDirection: 'column', 
           alignItems: 'center',
           bgcolor: 'background.paper',
           borderRadius: 1,
-          p: 2,
+          p: { xs: 1.5, sm: 2 },
           boxShadow: 1
         }}
       >
@@ -484,7 +530,20 @@ export default function MoleculesPage() {
         </Box>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+      {/* Navigation buttons - fixed at bottom on mobile */}
+      <Box sx={{
+        display: 'flex',
+        justifyContent: 'center',
+        gap: 2,
+        position: { xs: 'fixed', sm: 'static' },
+        bottom: { xs: 0, sm: 'auto' },
+        left: 0,
+        right: 0,
+        bgcolor: { xs: 'background.paper', sm: 'transparent' },
+        boxShadow: { xs: '0px -2px 4px rgba(0,0,0,0.1)', sm: 'none' },
+        py: { xs: 2, sm: 0 },
+        zIndex: 1000
+      }}>
         <IconButton
           onClick={handlePrevious}
           disabled={filteredCards.length <= 1}
@@ -518,6 +577,7 @@ export default function MoleculesPage() {
           <NavigateNext />
         </IconButton>
       </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 }
