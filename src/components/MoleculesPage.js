@@ -57,11 +57,11 @@ export default function MoleculesPage() {
         }
         
         const data = await response.json();
-        if (!Array.isArray(data)) {
+        if (!data || !Array.isArray(data.cards)) {
           throw new Error('Invalid data format');
         }
         
-        setCards(data);
+        setCards(data.cards);
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
