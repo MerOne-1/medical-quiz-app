@@ -209,22 +209,3 @@ function ResultsPage() {
 }
 
 export default ResultsPage;
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Réponses Incorrectes:</Typography>
-                        <Typography color="error.main">
-                          {stats.answeredQuestions - stats.correctAnswers - stats.partialCorrect}
-                        </Typography>
-                      </Box>
-                    </Paper>
-                  </Grid>
-                </Grid>
-              </AccordionDetails>
-            </Accordion>
-          );
-        })}
-      </Container>
-    </Box>
-  );
-}
-
-export default ResultsPage;
