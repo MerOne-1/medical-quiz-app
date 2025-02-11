@@ -106,13 +106,11 @@ export default function MoleculesPage() {
       return imagePath;
     }
 
-    // If path already includes the theme directory, return with /molecules/ prefix
-    if (imagePath.startsWith(themeToDirectory[theme])) {
-      return `/molecules/${imagePath}`;
-    }
+    // Extract just the filename if it includes a directory
+    const filename = imagePath.includes('/') ? imagePath.split('/').pop() : imagePath;
 
-    // Otherwise, construct the full path
-    return `/molecules/${themeToDirectory[theme]}/${imagePath}`;
+    // Construct the full path using the images directory
+    return `/molecules/images/${themeToDirectory[theme]}/${filename}`;
   };
 
   // Special case for immuno-hemato theme which doesn't need the theme prefix
