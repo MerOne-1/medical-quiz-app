@@ -69,7 +69,7 @@ function HomePage() {
               textShadow: 'none'
             }}
           >
-            Application de Cartes Mémoire
+            Entrainement QCMs de CSP
           </Typography>
           <Typography
             variant="h5"
@@ -81,7 +81,7 @@ function HomePage() {
               mb: 4
             }}
           >
-            Pratiquez et maîtrisez vos connaissances médicales avec la répétition espacée
+            QCM interactifs pour progresser et suivre vos résultats
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mb: 4 }}>
             <School sx={{ color: '#009688' }} />
