@@ -22,6 +22,7 @@ import {
 } from '@mui/icons-material';
 
 export default function MoleculesPage() {
+  const [fadeOut, setFadeOut] = useState(false);
   const { theme } = useParams();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -156,6 +157,8 @@ export default function MoleculesPage() {
           height: 400,
           perspective: '1000px',
           cursor: 'pointer',
+          opacity: fadeOut ? 0 : 1,
+          transition: 'opacity 0.15s ease-out',
           '& *': { // Prevent any hover effects on children
             pointerEvents: 'none'
           }
@@ -230,8 +233,12 @@ export default function MoleculesPage() {
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton 
           onClick={() => {
-            setIsFlipped(false);
-            setCurrentIndex(i => Math.max(0, i - 1));
+            setFadeOut(true);
+            setTimeout(() => {
+              setIsFlipped(false);
+              setCurrentIndex(i => Math.max(0, i - 1));
+              setFadeOut(false);
+            }, 150);
           }} 
           disabled={currentIndex === 0}
         >
@@ -245,8 +252,12 @@ export default function MoleculesPage() {
         </IconButton>
         <IconButton 
           onClick={() => {
-            setIsFlipped(false);
-            setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+            setFadeOut(true);
+            setTimeout(() => {
+              setIsFlipped(false);
+              setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+              setFadeOut(false);
+            }, 150);
           }} 
           disabled={currentIndex === cards.length - 1}
         >
