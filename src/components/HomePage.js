@@ -143,7 +143,8 @@ function HomePage() {
                                 Score:
                               </Typography>
                               <Typography variant="body2" color="primary.main" sx={{ fontWeight: 'bold' }}>
-                                {quizProgress[theme.id].stats?.correct || 0}/{quizProgress[theme.id].stats?.total || 0}
+                                {Math.round((quizProgress[theme.id].stats?.correct || 0) * 100) / 100}/
+                                {quizProgress[theme.id].stats?.total || 0}
                               </Typography>
                             </Box>
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>

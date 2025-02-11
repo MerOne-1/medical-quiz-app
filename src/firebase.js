@@ -54,15 +54,27 @@ export async function saveQuizProgress(userId, themeId, progress) {
     const existingDoc = await getDoc(progressRef);
     const existingData = existingDoc.exists() ? existingDoc.data() : {};
     
+    // Calculate total questions answered and correct answers
+    const answeredQuestions = progress.answeredQuestions || {};
+    const totalAnswered = Object.keys(answeredQuestions).length;
+    const correctAnswers = Object.values(answeredQuestions)
+      .filter(answer => answer.isCorrect).length;
+    
     // Merge with new data, ensuring we don't lose existing data
     const updatedProgress = {
       ...existingData,
       ...progress,
+      stats: {
+        total: totalAnswered,
+        correct: correctAnswers
+      },
       lastUpdated: serverTimestamp(),
       userId: userId,
-      themeId: themeId
+      themeId: themeId,
+      completed: totalAnswered === progress.totalQuestions
     };
     
+    console.log('Saving updated progress:', updatedProgress);
     await setDoc(progressRef, updatedProgress);
     console.log('Progress saved successfully');
     return true;
