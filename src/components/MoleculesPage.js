@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 import {
   Container,
@@ -11,6 +11,7 @@ import {
   Card,
   CardContent,
   Button,
+  Rating,
 } from '@mui/material';
 import {
   NavigateNext,
@@ -82,6 +83,10 @@ export default function MoleculesPage() {
   const [shuffledMode, setShuffledMode] = useState(false);
   const [userSettings, setUserSettings] = useState(null);
   const [filteredCards, setFilteredCards] = useState([]);
+  const [ratings, setRatings] = useState({});
+  const [saving, setSaving] = useState(false);
+  const [ratings, setRatings] = useState({});
+  const [saving, setSaving] = useState(false);
 
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -106,19 +111,26 @@ export default function MoleculesPage() {
     try {
       console.log('Loading cards for theme:', theme);
       
-      // Load user settings first
-      let userPreferences = {};
+      // Load user settings and ratings
       if (user) {
         try {
+          // Load settings
           const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
           const settingsSnapshot = await getDoc(userSettingsDoc);
           if (settingsSnapshot.exists()) {
-            userPreferences = settingsSnapshot.data();
+            const userPreferences = settingsSnapshot.data();
             setUserSettings(userPreferences);
           }
+
+          // Load ratings
+          const userRatingsDoc = doc(db, 'moleculeRatings', user.uid);
+          const ratingsSnapshot = await getDoc(userRatingsDoc);
+          if (ratingsSnapshot.exists()) {
+            const userRatings = ratingsSnapshot.data();
+            setRatings(userRatings[theme] || {});
+          }
         } catch (error) {
-          console.error('Error loading user settings:', error);
-          // Continue loading cards even if settings fail to load
+          console.error('Error loading user data:', error);
         }
       }
 
@@ -262,6 +274,31 @@ export default function MoleculesPage() {
     navigateToCard(0);
   }, [navigateToCard]);
 
+  // Handle rating change
+  const handleRatingChange = async (cardId, newValue) => {
+    if (!user) return;
+
+    try {
+      setSaving(true);
+      const newRatings = { ...ratings, [cardId]: newValue };
+      setRatings(newRatings);
+
+      // Save to Firebase
+      const userRatingsDoc = doc(db, 'moleculeRatings', user.uid);
+      const ratingsSnapshot = await getDoc(userRatingsDoc);
+      const allRatings = ratingsSnapshot.exists() ? ratingsSnapshot.data() : {};
+      
+      await setDoc(userRatingsDoc, {
+        ...allRatings,
+        [theme]: newRatings
+      });
+    } catch (error) {
+      console.error('Error saving rating:', error);
+    } finally {
+      setSaving(false);
+    }
+  };
+
   if (!filteredCards.length) {
     return (
       <Container maxWidth="md" sx={{ py: 4 }}>
@@ -389,6 +426,45 @@ export default function MoleculesPage() {
             </CardContent>
           </Card>
         </Box>
+      </Box>
+
+      {/* Rating component */}
+      <Box 
+        sx={{ 
+          mt: 2, 
+          mb: 4, 
+          display: 'flex', 
+          flexDirection: 'column', 
+          alignItems: 'center',
+          bgcolor: 'background.paper',
+          borderRadius: 1,
+          p: 2,
+          boxShadow: 1
+        }}
+      >
+        <Typography variant="subtitle2" sx={{ mb: 1, color: 'text.secondary' }}>
+          Évaluez votre connaissance
+        </Typography>
+        <Rating
+          value={ratings[currentCard?.id] || 0}
+          onChange={(event, newValue) => {
+            if (currentCard) {
+              handleRatingChange(currentCard.id, newValue);
+            }
+          }}
+          sx={{
+            '& .MuiRating-iconFilled': {
+              color: (theme) => {
+                const value = ratings[currentCard?.id] || 0;
+                if (value <= 1) return '#f44336'; // Red
+                if (value <= 2) return '#ff9800'; // Orange
+                if (value <= 3) return '#ffc107'; // Yellow
+                if (value <= 4) return '#8bc34a'; // Light green
+                return '#4caf50'; // Green
+              }
+            }
+          }}
+        />
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
