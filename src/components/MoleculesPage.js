@@ -156,6 +156,9 @@ export default function MoleculesPage() {
           height: 400,
           perspective: '1000px',
           cursor: 'pointer',
+          '& *': { // Prevent any hover effects on children
+            pointerEvents: 'none'
+          }
         }}
         onClick={() => setIsFlipped(!isFlipped)}
       >
@@ -167,9 +170,9 @@ export default function MoleculesPage() {
             transformStyle: 'preserve-3d',
             transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
             transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-            '&:hover': {
-              transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-            }
+            WebkitTransformStyle: 'preserve-3d',
+            WebkitBackfaceVisibility: 'hidden',
+            backfaceVisibility: 'hidden',
           }}
         >
           <Card
@@ -201,8 +204,10 @@ export default function MoleculesPage() {
               width: '100%',
               height: '100%',
               backfaceVisibility: 'hidden',
+              WebkitBackfaceVisibility: 'hidden',
               backgroundColor: '#fff',
               transform: 'rotateY(180deg)',
+              WebkitTransform: 'rotateY(180deg) translateZ(1px)', // Fix Safari flickering
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
