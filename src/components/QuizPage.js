@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { saveQuizProgress, loadQuizProgress, resetQuizProgress } from '../firebase';
+import { CheckCircle, Info } from '@mui/icons-material';
 import {
   Container,
   Typography,
@@ -46,36 +47,24 @@ function QuizPage() {
   useEffect(() => {
     const loadSavedProgress = async () => {
       if (user && theme) {
-        const progress = await loadQuizProgress(user.uid, theme);
-        if (progress) {
-          setHasProgress(true);
-          setQuestions(progress.questions || []);
-          setCurrentQuestionIndex(progress.currentQuestionIndex || 0);
-          setStats(progress.stats || { correct: 0, total: 0 });
-          setAnsweredQuestions(progress.answeredQuestions || {});
-          setSkippedQuestions(progress.skippedQuestions || []);
+        try {
+          const progress = await loadQuizProgress(user.uid, theme);
+          if (progress) {
+            console.log('Loaded progress:', progress);
+            setHasProgress(true);
+            setCurrentQuestionIndex(progress.lastQuestionIndex || 0);
+            setStats(progress.stats || { correct: 0, total: 0 });
+            setAnsweredQuestions(progress.answeredQuestions || {});
+            setSkippedQuestions(progress.skippedQuestions || []);
+          }
+        } catch (error) {
+          console.error('Error loading progress:', error);
+          setError('Failed to load progress');
         }
       }
     };
     loadSavedProgress();
   }, [user, theme]);
-
-  // Save progress whenever relevant state changes
-  useEffect(() => {
-    const saveProgress = async () => {
-      if (user && theme && questions.length > 0) {
-        await saveQuizProgress(user.uid, theme, {
-          questions,
-          currentQuestionIndex,
-          stats,
-          answeredQuestions,
-          skippedQuestions,
-          lastUpdated: new Date(),
-        });
-      }
-    };
-    saveProgress();
-  }, [user, theme, questions, currentQuestionIndex, stats, answeredQuestions, skippedQuestions]);
 
   useEffect(() => {
     console.log('QuizPage mounted, theme:', theme);
@@ -122,6 +111,19 @@ function QuizPage() {
 
         setQuestions(shuffledQuestions);
         console.log('Set questions, count:', shuffledQuestions.length);
+
+        // Save initial state to Firebase if no progress exists
+        if (!hasProgress && user) {
+          const initialProgress = {
+            totalQuestions: shuffledQuestions.length,
+            themeId: theme,
+            lastQuestionIndex: 0,
+            stats: { correct: 0, total: 0 },
+            answeredQuestions: {},
+            skippedQuestions: []
+          };
+          await saveQuizProgress(user.uid, theme, initialProgress);
+        }
       } catch (error) {
         console.error('Error loading theme data:', error);
         setError(error.message);
@@ -131,7 +133,7 @@ function QuizPage() {
     };
 
     loadThemeData();
-  }, [theme]);
+  }, [theme, user, hasProgress]);
 
   const currentQuestion = questions[currentQuestionIndex];
 
@@ -160,7 +162,7 @@ function QuizPage() {
     }
   };
 
-  const checkAnswer = () => {
+  const checkAnswer = async () => {
     const correct = currentQuestion.correct_answers;
     
     // Count wrong answers (both missing correct ones and selecting wrong ones)
@@ -181,37 +183,72 @@ function QuizPage() {
     
     setIsCorrect(wrongAnswers === 0);
     setShowFeedback(true);
-    setStats(prev => ({
-      correct: prev.correct + points,
-      total: prev.total + 1,
-    }));
+    const newStats = {
+      correct: stats.correct + points,
+      total: stats.total + 1,
+    };
+    setStats(newStats);
+
+    // Save progress after updating stats
+    const newAnsweredQuestions = {
+      ...answeredQuestions,
+      [currentQuestionIndex]: {
+        selectedAnswers,
+        isCorrect: wrongAnswers === 0,
+        points
+      }
+    };
+    setAnsweredQuestions(newAnsweredQuestions);
+
+    // Save progress to Firebase
+    if (user) {
+      const progressData = {
+        answeredQuestions: newAnsweredQuestions,
+        stats: newStats,
+        totalQuestions: questions.length,
+        themeId: theme,
+        lastQuestionIndex: currentQuestionIndex
+      };
+      await saveQuizProgress(user.uid, theme, progressData);
+    }
   };
 
-  const navigateQuestion = (direction) => {
-    // Save current question state if answered
-    if (showFeedback) {
-      setAnsweredQuestions(prev => ({
-        ...prev,
-        [currentQuestionIndex]: {
-          selectedAnswers,
-          isCorrect: selectedAnswers.length > 0 ? isCorrect : null,
-          points: stats.correct - (Object.values(prev).reduce((sum, q) => sum + (q.points || 0), 0) || 0)
-        }
-      }));
-    }
-
+  const navigateQuestion = async (direction) => {
     setSelectedAnswers([]);
     setShowFeedback(false);
     
+    let newIndex;
     if (direction === 'next') {
-      setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
-    } else if (direction === 'prev') {
-      setCurrentQuestionIndex((prevIndex) => (prevIndex - 1 + questions.length) % questions.length);
+      newIndex = Math.min(currentQuestionIndex + 1, questions.length - 1);
+    } else {
+      newIndex = Math.max(currentQuestionIndex - 1, 0);
+    }
+    setCurrentQuestionIndex(newIndex);
+
+    // Save current position to Firebase
+    if (user) {
+      const progressData = {
+        lastQuestionIndex: newIndex,
+        totalQuestions: questions.length,
+        themeId: theme
+      };
+      await saveQuizProgress(user.uid, theme, progressData);
     }
   };
 
-  const skipQuestion = () => {
-    setSkippedQuestions(prev => [...prev, currentQuestionIndex]);
+  const skipQuestion = async () => {
+    const newSkippedQuestions = [...skippedQuestions, currentQuestionIndex];
+    setSkippedQuestions(newSkippedQuestions);
+
+    // Save skipped questions to Firebase
+    if (user) {
+      const progressData = {
+        skippedQuestions: newSkippedQuestions,
+        lastQuestionIndex: currentQuestionIndex
+      };
+      await saveQuizProgress(user.uid, theme, progressData);
+    }
+
     navigateQuestion('next');
   };
 
@@ -220,10 +257,31 @@ function QuizPage() {
     const savedState = answeredQuestions[currentQuestionIndex];
     if (savedState) {
       setSelectedAnswers(savedState.selectedAnswers);
-      setIsCorrect(savedState.isCorrect);
       setShowFeedback(true);
+      setIsCorrect(savedState.isCorrect);
+    } else {
+      setSelectedAnswers([]);
+      setShowFeedback(false);
     }
-  }, [currentQuestionIndex]);
+  }, [currentQuestionIndex, answeredQuestions]);
+
+  const handleResetProgress = async () => {
+    try {
+      if (user && theme) {
+        await resetQuizProgress(user.uid, theme);
+        setAnsweredQuestions({});
+        setSkippedQuestions([]);
+        setStats({ correct: 0, total: 0 });
+        setSelectedAnswers([]);
+        setShowFeedback(false);
+        setCurrentQuestionIndex(0);
+      }
+    } catch (error) {
+      console.error('Error resetting progress:', error);
+      setError('Failed to reset progress. Please try again.');
+    }
+    setResetDialogOpen(false);
+  };
 
   if (!currentQuestion || questions.length === 0) {
     return (
@@ -275,52 +333,32 @@ function QuizPage() {
     );
   }
 
-  const handleResetProgress = async () => {
-    if (user && theme) {
-      await resetQuizProgress(user.uid, theme);
-      // Reset local state
-      setCurrentQuestionIndex(0);
-      setSelectedAnswers([]);
-      setShowFeedback(false);
-      setIsCorrect(false);
-      setStats({ correct: 0, total: 0 });
-      setAnsweredQuestions({});
-      setSkippedQuestions([]);
-      setHasProgress(false);
-      // Reload questions in random order
-      setQuestions(prev => [...prev].sort(() => Math.random() - 0.5));
-    }
-    setResetDialogOpen(false);
-  };
-
   return (
     <Box sx={{ bgcolor: 'background.default', minHeight: '100vh', py: 4 }}>
-      {/* Progress bar */}
-      {!loading && !error && questions.length > 0 && (
-        <Container maxWidth="md">
-          <Box sx={{ mb: 2 }}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
-              <Typography variant="body2" color="text.secondary">
-                Progression: {Math.round((Object.keys(answeredQuestions).length / questions.length) * 100)}%
-              </Typography>
-              <Button
-                variant="outlined"
-                color="secondary"
-                size="small"
-                onClick={() => setResetDialogOpen(true)}
-              >
-                Réinitialiser le progrès
-              </Button>
-            </Box>
-            <LinearProgress 
-              variant="determinate" 
-              value={(Object.keys(answeredQuestions).length / questions.length) * 100} 
-              sx={{ height: 8, borderRadius: 4 }}
-            />
-          </Box>
-        </Container>
-      )}
       <Container maxWidth="md">
+        {/* Progress bar */}
+        <Box sx={{ mb: 2 }}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
+            <Typography variant="body2" color="text.secondary">
+              Progression: {Math.round((Object.keys(answeredQuestions).length / questions.length) * 100)}%
+            </Typography>
+            <Button
+              variant="outlined"
+              color="secondary"
+              size="small"
+              onClick={() => setResetDialogOpen(true)}
+            >
+              Réinitialiser le progrès
+            </Button>
+          </Box>
+          <LinearProgress 
+            variant="determinate" 
+            value={(Object.keys(answeredQuestions).length / questions.length) * 100} 
+            sx={{ height: 8, borderRadius: 4 }}
+          />
+        </Box>
+
+        {/* Header */}
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 4, gap: 2 }}>
           <IconButton onClick={() => navigate('/')} color="primary" sx={{ p: 1 }}>
             <Home />
@@ -330,7 +368,8 @@ function QuizPage() {
           </Typography>
           <School sx={{ color: 'primary.main', fontSize: 32 }} />
         </Box>
-        
+
+        {/* Question Card */}
         <Paper elevation={3} sx={{ p: 3, mb: 3, borderRadius: 2 }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
             <Typography variant="h6" color="primary.main">
@@ -340,223 +379,259 @@ function QuizPage() {
               Score : {stats.correct.toFixed(1)}/{stats.total}
             </Typography>
           </Box>
-          <LinearProgress 
-            variant="determinate" 
-            value={(currentQuestionIndex + 1) / questions.length * 100} 
-            sx={{ mb: 3, height: 8, borderRadius: 4 }}
-          />
 
           <Box sx={{ mb: 4 }}>
-        <Typography variant="h6" gutterBottom>
-          {currentQuestion.question}
-        </Typography>
+            <Typography variant="h6" gutterBottom>
+              {currentQuestion.question}
+            </Typography>
 
-        <FormGroup>
-          {currentQuestion.options.map((option) => (
-            <FormControlLabel
-              key={option}
-              control={
-                <Checkbox
-                  checked={selectedAnswers.includes(option)}
-                  onChange={() => handleAnswerChange(option)}
-                  disabled={showFeedback}
+            <FormGroup>
+              {currentQuestion.options.map((option) => (
+                <FormControlLabel
+                  key={option}
+                  control={
+                    <Checkbox
+                      checked={selectedAnswers.includes(option)}
+                      onChange={() => handleAnswerChange(option)}
+                      disabled={showFeedback}
+                      sx={{
+                        '&.Mui-checked': {
+                          ...getOptionStyle(option),
+                          '& .MuiSvgIcon-root': {
+                            fontSize: 28
+                          }
+                        },
+                        '&.Mui-disabled': getOptionStyle(option),
+                        '& .MuiSvgIcon-root': {
+                          fontSize: 28
+                        }
+                      }}
+                    />
+                  }
+                  label={option}
                   sx={{
-                    '&.Mui-checked': {
-                      ...getOptionStyle(option),
-                      '& .MuiSvgIcon-root': {
-                        fontSize: 28
-                      }
-                    },
-                    '&.Mui-disabled': getOptionStyle(option),
-                    '& .MuiSvgIcon-root': {
-                      fontSize: 28
-                    }
+                    ...getOptionStyle(option),
+                    marginY: 1,
+                    padding: 1,
+                    borderRadius: 1,
                   }}
                 />
-              }
-              label={option}
-              sx={{
-                ...getOptionStyle(option),
-                marginY: 1,
-                padding: 1,
-                borderRadius: 1,
-              }}
-            />
-          ))}
-        </FormGroup>
+              ))}
+            </FormGroup>
 
-        <Box sx={{ display: 'flex', gap: 2, justifyContent: 'space-between', mt: 3 }}>
-          <Box>
-            <Button
-              variant="outlined"
-              onClick={() => navigateQuestion('prev')}
-              startIcon={<ArrowBack />}
-              sx={{ mr: 1 }}
-            >
-              Précédent
-            </Button>
-            {!showFeedback && (
-              <Button
-                variant="outlined"
-                onClick={skipQuestion}
-                color="secondary"
-              >
-                Passer
-              </Button>
-            )}
-          </Box>
-          <Box>
-            {!showFeedback ? (
-              <Button
-                variant="contained"
-                onClick={checkAnswer}
-                disabled={selectedAnswers.length === 0}
-              >
-                Vérifier
-              </Button>
-            ) : (
-              <Button 
-                variant="contained" 
-                onClick={() => navigateQuestion('next')}
-                endIcon={<ArrowForward />}
-              >
-                Suivant
-              </Button>
-            )}
-          </Box>
-        </Box>
-        {skippedQuestions.includes(currentQuestionIndex) && (
-          <Typography 
-            variant="body2" 
-            color="secondary" 
-            sx={{ mt: 1, textAlign: 'center' }}
-          >
-            Question passée
-          </Typography>
-        )}
-        </Box>
-        </Paper>
+            <Box sx={{ display: 'flex', gap: 2, justifyContent: 'space-between', mt: 3 }}>
+              <Box>
+                <Button
+                  variant="outlined"
+                  onClick={() => navigateQuestion('prev')}
+                  startIcon={<ArrowBack />}
+                  sx={{ mr: 1 }}
+                >
+                  Précédent
+                </Button>
+                {!showFeedback && (
+                  <Button
+                    variant="outlined"
+                    onClick={skipQuestion}
+                    color="secondary"
+                  >
+                    Passer
+                  </Button>
+                )}
+              </Box>
+              <Box>
+                {!showFeedback ? (
+                  <Button
+                    variant="contained"
+                    onClick={checkAnswer}
+                    disabled={selectedAnswers.length === 0}
+                  >
+                    Vérifier
+                  </Button>
+                ) : (
+                  <Button 
+                    variant="contained" 
+                    onClick={() => navigateQuestion('next')}
+                    endIcon={<ArrowForward />}
+                  >
+                    Suivant
+                  </Button>
+                )}
+              </Box>
+            </Box>
 
-        {showFeedback && (
-          <>
-            <Alert severity={isCorrect ? 'success' : 'error'} sx={{ mt: 2 }}>
-              {isCorrect ? 'Correct !' : 'Incorrect !'}
-            </Alert>
-            {!isCorrect && (
-              <Paper 
-                elevation={0} 
-                sx={{ 
-                  mt: 2,
-                  p: 2.5, 
-                  bgcolor: '#f5f9ff', 
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: '#cce5ff'
-                }}
-              >
-                <Typography 
-                  variant="h6" 
+            {/* Feedback */}
+            {showFeedback && (
+              <Box sx={{ mt: 3 }}>
+                <Alert 
+                  severity={isCorrect ? 'success' : 'error'} 
                   sx={{ 
-                    color: '#0d47a1',
-                    mb: 2,
-                    fontWeight: 500
+                    mb: 3,
+                    '& .MuiAlert-icon': {
+                      fontSize: '2rem'
+                    },
+                    '& .MuiAlert-message': {
+                      fontSize: '1.1rem',
+                      fontWeight: 500
+                    }
                   }}
                 >
-                  Explications
-                </Typography>
-                {selectedAnswers.map(answer => {
-                  const justification = currentQuestion.justification_fausses_reponses[answer];
-                  if (!justification) return null;
-                  
-                  return (
-                    <Box key={answer} sx={{ mb: 2, '&:last-child': { mb: 0 } }}>
+                  {isCorrect ? 'Correct !' : 'Incorrect !'}
+                </Alert>
+
+                {/* Show correct answers when incorrect */}
+                {!isCorrect && (
+                  <Paper 
+                    elevation={3} 
+                    sx={{ 
+                      mb: 3,
+                      overflow: 'hidden',
+                      borderRadius: 2,
+                      border: '1px solid',
+                      borderColor: 'success.light',
+                    }}
+                  >
+                    <Box 
+                      sx={{ 
+                        bgcolor: '#e8f5e9',
+                        p: 1.5,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 1,
+                        borderBottom: '1px solid',
+                        borderColor: 'success.light'
+                      }}
+                    >
+                      <CheckCircle sx={{ color: '#2e7d32' }} />
                       <Typography 
                         variant="subtitle1" 
                         sx={{ 
-                          color: '#1976d2',
-                          fontWeight: 500,
-                          mb: 0.5
+                          color: '#1b5e20',
+                          fontWeight: 600
                         }}
                       >
-                        {answer}
-                      </Typography>
-                      <Typography 
-                        variant="body1" 
-                        sx={{ 
-                          color: 'text.primary',
-                          lineHeight: 1.6
-                        }}
-                      >
-                        {justification}
+                        Réponses correctes
                       </Typography>
                     </Box>
-                  );
-                })}
-              </Paper>
+                    <Box sx={{ p: 2, bgcolor: 'success.lighter' }}>
+                      <Box component="ul" sx={{ m: 0, pl: 2 }}>
+                        {currentQuestion.correct_answers.map((answer, index) => (
+                          <Typography 
+                            component="li" 
+                            key={index} 
+                            sx={{ 
+                              mb: 1,
+                              color: 'success.dark',
+                              '&:last-child': { mb: 0 }
+                            }}
+                          >
+                            {answer}
+                          </Typography>
+                        ))}
+                      </Box>
+                    </Box>
+                  </Paper>
+                )}
+
+                {/* Show justifications for wrong answers */}
+                {!isCorrect && currentQuestion.justification_fausses_reponses && (
+                  <Paper 
+                    elevation={3} 
+                    sx={{ 
+                      borderRadius: 2,
+                      border: '1px solid',
+                      borderColor: 'error.light',
+                    }}
+                  >
+                    <Box 
+                      sx={{ 
+                        bgcolor: '#ffebee',
+                        p: 1.5,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 1,
+                        borderBottom: '1px solid',
+                        borderColor: 'error.light'
+                      }}
+                    >
+                      <Info sx={{ color: '#c62828' }} />
+                      <Typography 
+                        variant="subtitle1" 
+                        sx={{ 
+                          color: '#b71c1c',
+                          fontWeight: 600
+                        }}
+                      >
+                        Explications des erreurs
+                      </Typography>
+                    </Box>
+                    <Box sx={{ p: 2 }}>
+                      {selectedAnswers
+                        .filter(answer => !currentQuestion.correct_answers.includes(answer))
+                        .map((wrongAnswer, index) => (
+                          currentQuestion.justification_fausses_reponses[wrongAnswer] && (
+                            <Box 
+                              key={index} 
+                              sx={{ 
+                                mb: 3,
+                                '&:last-child': { mb: 0 },
+                                p: 2,
+                                bgcolor: 'error.lighter',
+                                borderRadius: 1,
+                                border: '1px solid',
+                                borderColor: 'error.light'
+                              }}
+                            >
+                              <Typography 
+                                variant="subtitle2" 
+                                sx={{ 
+                                  color: 'error.dark',
+                                  fontWeight: 600,
+                                  mb: 1
+                                }}
+                              >
+                                {wrongAnswer}
+                              </Typography>
+                              <Typography 
+                                variant="body2"
+                                sx={{ 
+                                  color: 'text.primary',
+                                  lineHeight: 1.6
+                                }}
+                              >
+                                {currentQuestion.justification_fausses_reponses[wrongAnswer]}
+                              </Typography>
+                            </Box>
+                          )
+                        ))}
+                    </Box>
+                  </Paper>
+                )}
+              </Box>
             )}
-            <Button 
-              variant="contained" 
-              onClick={() => navigateQuestion('next')} 
-              sx={{ 
-                mt: 2,
-                bgcolor: 'primary.main',
-                color: 'white',
-                '&:hover': {
-                  bgcolor: 'primary.dark',
-                },
-                px: 4,
-                py: 1.5,
-                borderRadius: 2
-              }}
-            >
-              Question suivante
+          </Box>
+        </Paper>
+
+        {/* Reset Progress Dialog */}
+        <Dialog
+          open={resetDialogOpen}
+          onClose={() => setResetDialogOpen(false)}
+        >
+          <DialogTitle>Réinitialiser le progrès</DialogTitle>
+          <DialogContent>
+            <DialogContentText>
+              Êtes-vous sûr de vouloir réinitialiser votre progression pour ce thème ?
+              Cette action ne peut pas être annulée.
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setResetDialogOpen(false)}>Annuler</Button>
+            <Button onClick={handleResetProgress} color="error" autoFocus>
+              Réinitialiser
             </Button>
-          </>
-        )}
+          </DialogActions>
+        </Dialog>
       </Container>
-
-    {/* Reset Progress Dialog */}
-    <Dialog
-      open={resetDialogOpen}
-      onClose={() => setResetDialogOpen(false)}
-    >
-      <DialogTitle>Réinitialiser le progrès</DialogTitle>
-      <DialogContent>
-        <DialogContentText>
-          Êtes-vous sûr de vouloir réinitialiser votre progression pour ce thème ?
-          Cette action ne peut pas être annulée.
-        </DialogContentText>
-      </DialogContent>
-      <DialogActions>
-        <Button onClick={() => setResetDialogOpen(false)}>Annuler</Button>
-        <Button onClick={handleResetProgress} color="error" autoFocus>
-          Réinitialiser
-        </Button>
-      </DialogActions>
-    </Dialog>
-    </Box>
-  );
-}
-
-      {/* Reset Progress Dialog */}
-      <Dialog
-        open={resetDialogOpen}
-        onClose={() => setResetDialogOpen(false)}
-      >
-        <DialogTitle>Réinitialiser le progrès</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            Êtes-vous sûr de vouloir réinitialiser votre progression pour ce thème ?
-            Cette action ne peut pas être annulée.
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={() => setResetDialogOpen(false)}>Annuler</Button>
-          <Button onClick={handleResetProgress} color="error" autoFocus>
-            Réinitialiser
-          </Button>
-        </DialogActions>
-      </Dialog>
     </Box>
   );
 }

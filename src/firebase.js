@@ -65,7 +65,13 @@ export async function loadQuizProgress(userId, themeId) {
     const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
     const docSnap = await getDoc(progressRef);
     if (docSnap.exists()) {
-      return docSnap.data();
+      const data = docSnap.data();
+      return {
+        ...data,
+        answeredQuestions: data.answeredQuestions || {},
+        skippedQuestions: data.skippedQuestions || [],
+        stats: data.stats || { correct: 0, total: 0 }
+      };
     }
     return null;
   } catch (error) {
@@ -93,9 +99,13 @@ export async function getAllQuizProgress(userId) {
     const querySnapshot = await getDocs(progressRef);
     const progress = {};
     querySnapshot.forEach((doc) => {
+      const data = doc.data();
       progress[doc.id] = {
-        ...doc.data(),
-        themeId: doc.id
+        ...data,
+        themeId: doc.id,
+        answeredQuestions: data.answeredQuestions || {},
+        skippedQuestions: data.skippedQuestions || [],
+        stats: data.stats || { correct: 0, total: 0 }
       };
     });
     return progress;
@@ -120,3 +130,17 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
+// Initialize Firestore collections
+const initializeFirestore = async () => {
+  try {
+    // Create userProgress collection if it doesn't exist
+    const userProgressRef = collection(db, 'userProgress');
+    await setDoc(doc(userProgressRef, '_init'), { initialized: true }, { merge: true });
+  } catch (error) {
+    console.error('Error initializing Firestore:', error);
+  }
+};
+
+// Call initialization
+initializeFirestore();

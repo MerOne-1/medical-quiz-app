@@ -9,7 +9,7 @@ import {
   Box,
   IconButton,
 } from '@mui/material';
-import { School, Logout } from '@mui/icons-material';
+import { School, Logout, Assessment } from '@mui/icons-material';
 
 export default function NavBar() {
   const { user, logout } = useAuth();
@@ -42,6 +42,13 @@ export default function NavBar() {
         </Typography>
         {user ? (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            <Button
+              color="inherit"
+              startIcon={<Assessment />}
+              onClick={() => navigate('/results')}
+            >
+              Résultats
+            </Button>
             <Typography variant="body1">
               {user.email}
             </Typography>

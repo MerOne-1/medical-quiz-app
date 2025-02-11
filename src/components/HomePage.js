@@ -129,9 +129,28 @@ function HomePage() {
                       >
                         {theme.title}
                       </Typography>
-                      <Typography variant="body2" color="text.secondary">
+                      <Typography variant="body2" color="text.secondary" gutterBottom>
                         {theme.description}
                       </Typography>
+                      {quizProgress[theme.id] && (
+                        <Box sx={{ mt: 2 }}>
+                          <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                            <Typography variant="body2" color="text.secondary">
+                              Progression
+                            </Typography>
+                            <Typography variant="body2" color="primary">
+                              {Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
+                                (quizProgress[theme.id].questions || []).length) * 100)}%
+                            </Typography>
+                          </Box>
+                          <LinearProgress 
+                            variant="determinate" 
+                            value={(Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
+                              (quizProgress[theme.id].questions || []).length) * 100}
+                            sx={{ height: 6, borderRadius: 3 }}
+                          />
+                        </Box>
+                      )}
                     </CardContent>
                   </CardActionArea>
                 </Card>
