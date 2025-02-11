@@ -111,7 +111,7 @@ function ResultsPage() {
           <Typography variant="h5" gutterBottom color="primary.main">
             Progression Globale
           </Typography>
-          <Paper elevation={3} sx={{ p: 3, background: 'linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%)' }}>
+          <Paper elevation={2} sx={{ p: 2, bgcolor: '#ffffff' }}>
             <Box sx={{ width: '100%' }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 4 }}>
                 <LinearProgress 
@@ -148,8 +148,8 @@ function ResultsPage() {
                     textAlign: 'center',
                     p: 2,
                     borderRadius: 2,
-                    bgcolor: 'success.light',
-                    color: 'success.contrastText'
+                    bgcolor: '#4caf50',
+                    color: '#ffffff'
                   }}>
                     <Typography variant="h6" gutterBottom>
                       Questions Réussies
@@ -166,8 +166,8 @@ function ResultsPage() {
                     textAlign: 'center',
                     p: 2,
                     borderRadius: 2,
-                    bgcolor: 'primary.light',
-                    color: 'primary.contrastText'
+                    bgcolor: '#2196f3',
+                    color: '#ffffff'
                   }}>
                     <Typography variant="h6" gutterBottom>
                       Questions Répondues
@@ -186,8 +186,8 @@ function ResultsPage() {
                     textAlign: 'center',
                     p: 2,
                     borderRadius: 2,
-                    bgcolor: 'error.light',
-                    color: 'error.contrastText'
+                    bgcolor: '#f44336',
+                    color: '#ffffff'
                   }}>
                     <Typography variant="h6" gutterBottom>
                       Questions à Revoir
@@ -215,12 +215,7 @@ function ResultsPage() {
               sx={{ 
                 mb: 2, 
                 p: 3,
-                background: 'linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%)',
-                transition: 'transform 0.2s, box-shadow 0.2s',
-                '&:hover': {
-                  transform: 'translateY(-2px)',
-                  boxShadow: (theme) => theme.shadows[4]
-                }
+                bgcolor: '#ffffff'
               }}
             >
               <Box sx={{ width: '100%' }}>
@@ -266,8 +261,8 @@ function ResultsPage() {
                     <Box sx={{ 
                       p: 2, 
                       borderRadius: 2,
-                      bgcolor: 'primary.light',
-                      color: 'primary.contrastText',
+                      bgcolor: '#2196f3',
+                      color: '#ffffff',
                       textAlign: 'center'
                     }}>
                       <Typography variant="body1" gutterBottom>
@@ -282,8 +277,8 @@ function ResultsPage() {
                     <Box sx={{ 
                       p: 2, 
                       borderRadius: 2,
-                      bgcolor: stats.points > (stats.totalQuestions * 0.7) ? 'success.light' : 'warning.light',
-                      color: stats.points > (stats.totalQuestions * 0.7) ? 'success.contrastText' : 'warning.contrastText',
+                      bgcolor: stats.points > (stats.totalQuestions * 0.7) ? '#4caf50' : '#ff9800',
+                      color: '#ffffff',
                       textAlign: 'center'
                     }}>
                       <Typography variant="body1" gutterBottom>
