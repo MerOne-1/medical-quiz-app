@@ -50,21 +50,23 @@ function HomePage() {
   return (
     <Box sx={{
       minHeight: '100vh',
-      bgcolor: 'background.default',
+      background: 'linear-gradient(180deg, #f5f5f5 0%, #ffffff 100%)',
       pt: 8,
       pb: 6
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <LocalHospital sx={{ fontSize: 60, color: 'primary.main', mb: 2 }} />
+          <LocalHospital sx={{ fontSize: 60, color: '#2196f3', mb: 2 }} />
           <Typography
             variant="h2"
             component="h1"
             gutterBottom
             sx={{
               fontWeight: 700,
-              color: 'primary.main',
-              textShadow: '2px 2px 4px rgba(0,0,0,0.1)'
+              background: 'linear-gradient(45deg, #2196f3 30%, #1976d2 90%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              textShadow: 'none'
             }}
           >
             Application de Cartes Mémoire
@@ -82,8 +84,8 @@ function HomePage() {
             Pratiquez et maîtrisez vos connaissances médicales avec la répétition espacée
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mb: 4 }}>
-            <School sx={{ color: 'primary.main' }} />
-            <Typography variant="h6" color="primary.main">
+            <School sx={{ color: '#2196f3' }} />
+            <Typography variant="h6" sx={{ color: '#2196f3', fontWeight: 600 }}>
               Préparation aux examens médicaux
             </Typography>
           </Box>
@@ -103,16 +105,24 @@ function HomePage() {
                     display: 'flex',
                     flexDirection: 'column',
                     position: 'relative',
+                    transition: 'transform 0.2s',
+                    '&:hover': {
+                      transform: 'translateY(-4px)'
+                    },
+                    background: '#ffffff',
+                    borderRadius: 2,
+                    boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                    overflow: 'hidden',
                     '&:before': {
                       content: '""',
                       position: 'absolute',
                       top: 0,
                       left: 0,
                       right: 0,
-                      height: 4,
-                      bgcolor: 'primary.main',
-                      borderTopLeftRadius: 12,
-                      borderTopRightRadius: 12,
+                      height: 6,
+                      background: 'linear-gradient(90deg, #2196f3 0%, #1976d2 100%)',
+                      borderTopLeftRadius: 2,
+                      borderTopRightRadius: 2,
                     }
                   }}
                 >
@@ -125,10 +135,9 @@ function HomePage() {
                         variant="h6"
                         gutterBottom
                         sx={{
-                          fontWeight: 500,
-                          color: 'primary.main',
-                          borderBottom: '2px solid',
-                          borderColor: 'primary.light',
+                          fontWeight: 600,
+                          color: '#2196f3',
+                          borderBottom: '2px solid #e3f2fd',
                           pb: 1,
                           mb: 2
                         }}
@@ -159,13 +168,13 @@ function HomePage() {
                                   borderRadius: 5,
                                   bgcolor: 'grey.200',
                                   '& .MuiLinearProgress-bar': {
-                                    bgcolor: quizProgress[theme.id].completed ? 'success.main' : 'primary.main'
+                                    bgcolor: quizProgress[theme.id].completed ? '#4caf50' : '#2196f3'
                                   }
                                 }}
                               />
                               <Typography 
                                 variant="body2" 
-                                color={quizProgress[theme.id].completed ? 'success.main' : 'primary.main'}
+                                color={quizProgress[theme.id].completed ? '#4caf50' : '#2196f3'}
                                 sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}
                               >
                                 {Math.round((quizProgress[theme.id].stats?.total || 0) / 
@@ -185,7 +194,7 @@ function HomePage() {
                                 borderRadius: 5,
                                 bgcolor: 'grey.200',
                                 '& .MuiLinearProgress-bar': {
-                                  bgcolor: 'primary.main'
+                                  bgcolor: '#2196f3'
                                 }
                               }}
                             />
