@@ -22,21 +22,24 @@ const cardStyles = {
   cursor: 'pointer',
   position: 'relative',
   touchAction: 'none', // Prevent touch events from causing unwanted behavior
-  transition: 'opacity 0.2s ease-in-out, transform 0.3s ease-out',
+  transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-out',
   opacity: 1,
-  transform: 'translateY(0)',
+  transform: 'scale(1)',
   '&.changing': {
     opacity: 0,
-    transform: 'translateY(10px)',
+    transform: 'scale(0.95)',
   },
   '& .card-inner': {
     position: 'relative',
     width: '100%',
     height: '100%',
-    transition: 'transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease-in-out', // Smooth out-back easing
+    transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease-in-out',
     transformStyle: 'preserve-3d',
     boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    willChange: 'transform, opacity', // Optimize performance
+    willChange: 'transform, opacity',
+    '&:hover': {
+      boxShadow: '0 8px 16px rgba(0,0,0,0.15)',
+    },
   },
   '& .card-inner.flipped': {
     transform: 'rotateY(180deg)',
@@ -53,11 +56,11 @@ const cardStyles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 1,
+    borderRadius: 2,
     bgcolor: 'background.paper',
     WebkitTransform: 'translateZ(0)',
     transform: 'translateZ(0)',
-    pointerEvents: 'none', // Prevent interaction with the card faces directly
+    pointerEvents: 'none',
     transition: 'box-shadow 0.3s ease-in-out',
   },
   '& .card-back': {
@@ -147,25 +150,25 @@ export default function MoleculesPage() {
 
   const navigateToCard = useCallback((nextIndex, skipFlipBack = false) => {
     if (skipFlipBack) {
-      // Just fade out, change card, and fade in
+      // Smooth transition for next/previous
       setIsChanging(true);
       setTimeout(() => {
-        setIsFlipped(false); // Reset flip state for next card
+        setIsFlipped(false);
         setCurrentIndex(nextIndex);
-        requestAnimationFrame(() => {
+        setTimeout(() => {
           setIsChanging(false);
-        });
+        }, 50);
       }, 200);
     } else {
-      // Original behavior for reset and shuffle
+      // Reset and shuffle transition
       setIsFlipped(false);
       setIsChanging(true);
       setTimeout(() => {
         setCurrentIndex(nextIndex);
-        requestAnimationFrame(() => {
+        setTimeout(() => {
           setIsChanging(false);
-        });
-      }, 250);
+        }, 50);
+      }, 200);
     }
   }, []);
 
@@ -182,7 +185,7 @@ export default function MoleculesPage() {
   const handleShuffle = useCallback(() => {
     setShuffledMode(prev => !prev);
     
-    // Use fade transition only
+    // Enhanced fade transition
     setIsChanging(true);
     setTimeout(() => {
       setIsFlipped(false);
@@ -195,9 +198,9 @@ export default function MoleculesPage() {
       }
       // Reset to first card
       setCurrentIndex(0);
-      requestAnimationFrame(() => {
+      setTimeout(() => {
         setIsChanging(false);
-      });
+      }, 50);
     }, 200);
   }, [shuffledMode, cards, loadCards]);
 
