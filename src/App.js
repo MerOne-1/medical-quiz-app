@@ -18,10 +18,10 @@ import { Box } from '@mui/material';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <AuthProvider>
-        <Router>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <AuthProvider>
           <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
             <NavBar />
             <Routes>
@@ -85,9 +85,9 @@ function App() {
               />
             </Routes>
           </Box>
-        </Router>
-      </AuthProvider>
-    </ThemeProvider>
+        </AuthProvider>
+      </ThemeProvider>
+    </Router>
   );
 }
 

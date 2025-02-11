@@ -28,8 +28,10 @@ export default function Login() {
       setError('');
       setLoading(true);
       await login(email, password);
-      navigate('/');
+      const from = location.state?.from?.pathname || '/';
+      navigate(from, { replace: true });
     } catch (error) {
+      console.error('Login error:', error);
       setError('Failed to sign in. Please check your credentials.');
     }
     setLoading(false);
