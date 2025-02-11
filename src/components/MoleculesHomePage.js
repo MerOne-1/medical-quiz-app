@@ -8,8 +8,9 @@ import {
   CardContent,
   CardActionArea,
   Box,
+  Button,
 } from '@mui/material';
-import { Science } from '@mui/icons-material';
+import { Science, Settings } from '@mui/icons-material';
 
 export default function MoleculesHomePage() {
   const [themes, setThemes] = useState([]);
@@ -38,9 +39,18 @@ export default function MoleculesHomePage() {
         <Typography variant="h3" component="h1" gutterBottom>
           Flashcards Molécules
         </Typography>
-        <Typography variant="h6" color="text.secondary">
+        <Typography variant="h6" color="text.secondary" gutterBottom>
           Sélectionnez un thème pour commencer
         </Typography>
+        <Button
+          variant="outlined"
+          color="primary"
+          startIcon={<Settings />}
+          onClick={() => navigate('/molecules/settings')}
+          sx={{ mt: 2 }}
+        >
+          Gérer mes cartes
+        </Button>
       </Box>
 
       <Grid container spacing={3}>

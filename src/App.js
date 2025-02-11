@@ -52,6 +52,14 @@ function App() {
                 }
               />
               <Route
+                path="/molecules/settings"
+                element={
+                  <PrivateRoute>
+                    <MoleculesSettings />
+                  </PrivateRoute>
+                }
+              />
+              <Route
                 path="/molecules/:theme"
                 element={
                   <PrivateRoute>

@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../firebase';
 import {
   Container,
   Box,
@@ -71,10 +74,14 @@ const cardStyles = {
 
 export default function MoleculesPage() {
   const { theme } = useParams();
+  const { user } = useAuth();
+  const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [cards, setCards] = useState([]);
   const [shuffledMode, setShuffledMode] = useState(false);
+  const [userSettings, setUserSettings] = useState(null);
+  const [filteredCards, setFilteredCards] = useState([]);
 
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -98,6 +105,16 @@ export default function MoleculesPage() {
   const loadCards = useCallback(async () => {
     try {
       console.log('Loading cards for theme:', theme);
+      
+      // Load user settings
+      if (user) {
+        const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
+        const settingsSnapshot = await getDoc(userSettingsDoc);
+        if (settingsSnapshot.exists()) {
+          setUserSettings(settingsSnapshot.data());
+        }
+      }
+
       const response = await fetch(`/molecules/data/${theme}.json`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -124,11 +141,28 @@ export default function MoleculesPage() {
       console.error('Error loading cards:', error);
       setCards([]);
     }
-  }, [theme]);
+  }, [theme, user]);
 
   useEffect(() => {
     loadCards();
   }, [loadCards]);
+
+  // Filter cards based on user settings
+  useEffect(() => {
+    if (!cards.length) return;
+
+    if (userSettings && userSettings[theme]) {
+      const enabledCards = cards.filter(card => userSettings[theme].includes(card.id));
+      if (enabledCards.length === 0) {
+        // If no cards are enabled, show a message and redirect
+        navigate('/molecules/settings');
+        return;
+      }
+      setFilteredCards(enabledCards);
+    } else {
+      setFilteredCards(cards);
+    }
+  }, [cards, userSettings, theme, navigate]);
 
   const [canFlip, setCanFlip] = useState(true);
 
@@ -173,14 +207,14 @@ export default function MoleculesPage() {
   }, []);
 
   const handleNext = useCallback(() => {
-    const nextIndex = (currentIndex + 1) % cards.length;
+    const nextIndex = (currentIndex + 1) % filteredCards.length;
     navigateToCard(nextIndex, true); // Skip flip back animation
-  }, [currentIndex, cards.length, navigateToCard]);
+  }, [currentIndex, filteredCards.length, navigateToCard]);
 
   const handlePrevious = useCallback(() => {
-    const nextIndex = (currentIndex - 1 + cards.length) % cards.length;
+    const nextIndex = (currentIndex - 1 + filteredCards.length) % filteredCards.length;
     navigateToCard(nextIndex, true); // Skip flip back animation
-  }, [currentIndex, cards.length, navigateToCard]);
+  }, [currentIndex, filteredCards.length, navigateToCard]);
 
   const handleShuffle = useCallback(() => {
     setShuffledMode(prev => !prev);
@@ -190,11 +224,12 @@ export default function MoleculesPage() {
     setTimeout(() => {
       setIsFlipped(false);
       if (!shuffledMode) {
-        const shuffled = [...cards].sort(() => Math.random() - 0.5);
-        setCards(shuffled);
+        const shuffled = [...filteredCards].sort(() => Math.random() - 0.5);
+        setFilteredCards(shuffled);
       } else {
         // Reset to original order
-        loadCards();
+        const orderedCards = cards.filter(card => userSettings[theme]?.includes(card.id));
+        setFilteredCards(orderedCards);
       }
       // Reset to first card
       setCurrentIndex(0);
@@ -208,7 +243,7 @@ export default function MoleculesPage() {
     navigateToCard(0);
   }, [navigateToCard]);
 
-  if (!cards.length) {
+  if (!filteredCards.length) {
     return (
       <Container maxWidth="md" sx={{ py: 4 }}>
         <Typography variant="h5" align="center" gutterBottom>
@@ -221,7 +256,7 @@ export default function MoleculesPage() {
     );
   }
 
-  const currentCard = cards[currentIndex];
+  const currentCard = filteredCards[currentIndex];
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
@@ -230,7 +265,7 @@ export default function MoleculesPage() {
           {theme}
         </Typography>
         <Typography variant="subtitle1" align="center" color="text.secondary">
-          Carte {currentIndex + 1} sur {cards.length}
+          Carte {currentIndex + 1} sur {filteredCards.length}
         </Typography>
       </Box>
 
@@ -340,7 +375,7 @@ export default function MoleculesPage() {
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton
           onClick={handlePrevious}
-          disabled={cards.length <= 1}
+          disabled={filteredCards.length <= 1}
           color="primary"
         >
           <NavigateBefore />
@@ -350,6 +385,7 @@ export default function MoleculesPage() {
           onClick={handleShuffle}
           variant="outlined"
           color="primary"
+          disabled={filteredCards.length <= 1}
         >
           {shuffledMode ? 'Mode Normal' : 'Mode Aléatoire'}
         </Button>
@@ -358,12 +394,13 @@ export default function MoleculesPage() {
           onClick={handleReset}
           variant="outlined"
           color="primary"
+          disabled={filteredCards.length <= 1}
         >
           Recommencer
         </Button>
         <IconButton
           onClick={handleNext}
-          disabled={cards.length <= 1}
+          disabled={filteredCards.length <= 1}
           color="primary"
         >
           <NavigateNext />
