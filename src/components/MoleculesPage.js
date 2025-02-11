@@ -115,7 +115,7 @@ export default function MoleculesPage() {
         }
       }
 
-      const response = await fetch(`/data/molecules/${theme}.json`);
+      const response = await fetch(`/molecules/data/${theme}.json`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

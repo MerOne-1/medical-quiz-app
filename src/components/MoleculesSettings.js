@@ -59,7 +59,7 @@ export default function MoleculesSettings() {
 
         // Load each theme's cards
         for (const theme of themesList) {
-          const response = await fetch(`/data/molecules/${theme}.json`);
+          const response = await fetch(`/molecules/data/${theme}.json`);
           if (!response.ok) {
             throw new Error(`Failed to load theme ${theme}`);
           }
