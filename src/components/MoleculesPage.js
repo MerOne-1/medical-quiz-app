@@ -165,8 +165,11 @@ export default function MoleculesPage() {
             width: '100%',
             height: '100%',
             transformStyle: 'preserve-3d',
-            transition: 'transform 0.6s',
+            transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
             transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+            '&:hover': {
+              transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+            }
           }}
         >
           <Card
@@ -221,7 +224,10 @@ export default function MoleculesPage() {
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton 
-          onClick={() => setCurrentIndex(i => Math.max(0, i - 1))} 
+          onClick={() => {
+            setIsFlipped(false);
+            setCurrentIndex(i => Math.max(0, i - 1));
+          }} 
           disabled={currentIndex === 0}
         >
           <NavigateBefore />
@@ -233,7 +239,10 @@ export default function MoleculesPage() {
           <Refresh />
         </IconButton>
         <IconButton 
-          onClick={() => setCurrentIndex(i => Math.min(cards.length - 1, i + 1))} 
+          onClick={() => {
+            setIsFlipped(false);
+            setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+          }} 
           disabled={currentIndex === cards.length - 1}
         >
           <NavigateNext />
