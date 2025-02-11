@@ -422,9 +422,32 @@ function QuizPage() {
           </Box>
 
           <Box sx={{ mb: 4 }}>
-            <Typography variant="h6" gutterBottom>
-              {currentQuestion.question}
-            </Typography>
+            <Box sx={{ mb: 2 }}>
+              <Typography variant="h6" gutterBottom>
+                {currentQuestion.question}
+              </Typography>
+              {currentQuestion.image && (
+                <Box 
+                  sx={{ 
+                    mt: 2, 
+                    mb: 3,
+                    display: 'flex',
+                    justifyContent: 'center'
+                  }}
+                >
+                  <img
+                    src={`/images/themes/${themeId}/${currentQuestion.image}`}
+                    alt="Question illustration"
+                    style={{
+                      maxWidth: '100%',
+                      maxHeight: '400px',
+                      borderRadius: '8px',
+                      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                </Box>
+              )}
+            </Box>
 
             <FormGroup>
               {currentQuestion.options.map((option) => (
