@@ -48,6 +48,15 @@ export async function submitRegistrationRequest(email) {
 export async function saveQuizProgress(userId, themeId, progress) {
   try {
     console.log('Saving progress for user:', userId, 'theme:', themeId, 'data:', progress);
+    
+    // Create user document if it doesn't exist
+    const userRef = doc(db, 'userProgress', userId);
+    await setDoc(userRef, {
+      lastActive: serverTimestamp(),
+      userId: userId
+    }, { merge: true });
+    
+    // Save progress in subcollection
     const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
     
     // Get existing data first
@@ -76,6 +85,21 @@ export async function saveQuizProgress(userId, themeId, progress) {
     
     console.log('Saving updated progress:', updatedProgress);
     await setDoc(progressRef, updatedProgress);
+    
+    // Update user's overall progress
+    const userProgressRef = doc(db, 'userProgress', userId, 'overview', 'stats');
+    await setDoc(userProgressRef, {
+      lastUpdated: serverTimestamp(),
+      themes: {
+        [themeId]: {
+          totalQuestions: progress.totalQuestions,
+          answeredQuestions: totalAnswered,
+          correctAnswers: correctAnswers,
+          completed: totalAnswered === progress.totalQuestions
+        }
+      }
+    }, { merge: true });
+    
     console.log('Progress saved successfully');
     return true;
   } catch (error) {
@@ -127,21 +151,45 @@ export async function resetQuizProgress(userId, themeId) {
 export async function getAllQuizProgress(userId) {
   try {
     console.log('Loading all progress for user:', userId);
+    
+    // First check if user exists
+    const userRef = doc(db, 'userProgress', userId);
+    const userDoc = await getDoc(userRef);
+    if (!userDoc.exists()) {
+      console.log('No progress found for user');
+      return {};
+    }
+    
+    // Get overall progress stats
+    const statsRef = doc(db, 'userProgress', userId, 'overview', 'stats');
+    const statsDoc = await getDoc(statsRef);
+    const overallStats = statsDoc.exists() ? statsDoc.data() : { themes: {} };
+    
+    // Get detailed progress for each theme
     const progressRef = collection(db, 'userProgress', userId, 'quizzes');
     const querySnapshot = await getDocs(progressRef);
     const progress = {};
     
     querySnapshot.forEach((doc) => {
       const data = doc.data();
-      console.log('Found progress for theme:', doc.id, data);
-      progress[doc.id] = {
+      const themeId = doc.id;
+      console.log('Found progress for theme:', themeId, data);
+      
+      // Merge detailed progress with overview stats
+      progress[themeId] = {
         ...data,
-        themeId: doc.id,
+        themeId: themeId,
         answeredQuestions: data.answeredQuestions || {},
         skippedQuestions: data.skippedQuestions || [],
         stats: data.stats || { correct: 0, total: 0 },
         totalQuestions: data.totalQuestions || 0,
-        lastQuestionIndex: data.lastQuestionIndex || 0
+        lastQuestionIndex: data.lastQuestionIndex || 0,
+        overview: overallStats.themes[themeId] || {
+          totalQuestions: 0,
+          answeredQuestions: 0,
+          correctAnswers: 0,
+          completed: false
+        }
       };
     });
     
@@ -172,9 +220,30 @@ export const db = getFirestore(app);
 // Initialize Firestore collections
 const initializeFirestore = async () => {
   try {
-    // Create userProgress collection if it doesn't exist
-    const userProgressRef = collection(db, 'userProgress');
-    await setDoc(doc(userProgressRef, '_init'), { initialized: true }, { merge: true });
+    // Create collections if they don't exist
+    const collections = ['userProgress', 'allowedEmails', 'registrationRequests'];
+    
+    for (const collectionName of collections) {
+      const collRef = collection(db, collectionName);
+      await setDoc(doc(collRef, '_init'), {
+        initialized: true,
+        createdAt: serverTimestamp()
+      }, { merge: true });
+    }
+
+    // Create default security rules
+    const securityRules = {
+      'userProgress': {
+        read: true,
+        write: true
+      }
+    };
+
+    // Save security rules
+    const rulesRef = doc(db, '_config', 'rules');
+    await setDoc(rulesRef, { rules: securityRules }, { merge: true });
+
+    console.log('Firestore initialized successfully');
   } catch (error) {
     console.error('Error initializing Firestore:', error);
   }
