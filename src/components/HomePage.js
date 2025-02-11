@@ -4,7 +4,6 @@ import { useAuth } from '../contexts/AuthContext';
 import { getAllQuizProgress } from '../firebase';
 import { Container, Typography, Box, Grid, Card, CardContent, CardActionArea, CircularProgress, LinearProgress } from '@mui/material';
 import { School } from '@mui/icons-material';
-import PharmacyLogo from './icons/PharmacyLogo';
 
 function HomePage() {
   const navigate = useNavigate();
@@ -57,7 +56,16 @@ function HomePage() {
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <PharmacyLogo sx={{ fontSize: 80, color: '#009688', mb: 2 }} />
+          <img 
+            src="/icons/pharmacy-logo.svg" 
+            alt="Pharmacy Logo"
+            style={{ 
+              width: 80, 
+              height: 80, 
+              marginBottom: 16,
+              filter: 'invert(42%) sepia(96%) saturate(427%) hue-rotate(127deg) brightness(92%) contrast(101%)'
+            }} 
+          />
           <Typography
             variant="h2"
             component="h1"
