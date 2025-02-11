@@ -426,7 +426,7 @@ export default function MoleculesPage() {
         </Box>
       </Box>
 
-      {/* Rating component */}
+      {/* Custom Rating component */}
       <Box 
         sx={{ 
           mt: 2, 
@@ -443,26 +443,45 @@ export default function MoleculesPage() {
         <Typography variant="subtitle2" sx={{ mb: 1, color: 'text.secondary' }}>
           Évaluez votre connaissance
         </Typography>
-        <Rating
-          value={ratings[currentCard?.id] || 0}
-          onChange={(event, newValue) => {
-            if (currentCard) {
-              handleRatingChange(currentCard.id, newValue);
-            }
-          }}
-          sx={{
-            '& .MuiRating-iconFilled': {
-              color: (theme) => {
-                const value = ratings[currentCard?.id] || 0;
-                if (value <= 1) return '#f44336'; // Red
-                if (value <= 2) return '#ff9800'; // Orange
-                if (value <= 3) return '#ffc107'; // Yellow
-                if (value <= 4) return '#8bc34a'; // Light green
-                return '#4caf50'; // Green
-              }
-            }
-          }}
-        />
+        <Box sx={{ display: 'flex', gap: 1 }}>
+          {[1, 2, 3, 4, 5].map((value) => {
+            const isSelected = (ratings[currentCard?.id] || 0) >= value;
+            const getColor = (value) => {
+              if (value <= 1) return '#f44336'; // Red
+              if (value <= 2) return '#ff9800'; // Orange
+              if (value <= 3) return '#ffc107'; // Yellow
+              if (value <= 4) return '#8bc34a'; // Light green
+              return '#4caf50'; // Green
+            };
+            return (
+              <Box
+                key={value}
+                onClick={() => currentCard && handleRatingChange(currentCard.id, value)}
+                sx={{
+                  width: 36,
+                  height: 36,
+                  borderRadius: '50%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  bgcolor: isSelected ? getColor(value) : 'transparent',
+                  border: `2px solid ${getColor(value)}`,
+                  color: isSelected ? 'white' : getColor(value),
+                  fontWeight: 'bold',
+                  transition: 'all 0.2s ease-in-out',
+                  '&:hover': {
+                    transform: 'scale(1.1)',
+                    bgcolor: getColor(value),
+                    color: 'white'
+                  }
+                }}
+              >
+                {value}
+              </Box>
+            );
+          })}
+        </Box>
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
