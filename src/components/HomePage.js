@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getAllQuizProgress } from '../firebase';
 import { Container, Typography, Box, Grid, Card, CardContent, CardActionArea, CircularProgress, LinearProgress } from '@mui/material';
-import { LocalHospital, School } from '@mui/icons-material';
+import { Medication, School } from '@mui/icons-material';
 
 function HomePage() {
   const navigate = useNavigate();
@@ -56,7 +56,7 @@ function HomePage() {
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <LocalHospital sx={{ fontSize: 60, color: '#2e7d32', mb: 2 }} />
+          <Medication sx={{ fontSize: 60, color: '#2e7d32', mb: 2 }} />
           <Typography
             variant="h2"
             component="h1"
