@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
@@ -10,84 +10,29 @@ import {
   IconButton,
   Card,
   CardContent,
+  CardMedia,
   Button,
   Rating,
+  CircularProgress,
 } from '@mui/material';
 import {
   NavigateNext,
   NavigateBefore,
   Refresh,
-  Shuffle,
 } from '@mui/icons-material';
-
-// CSS for the flipping card animation
-const cardStyles = {
-  perspective: '1000px',
-  cursor: 'pointer',
-  position: 'relative',
-  touchAction: 'none', // Prevent touch events from causing unwanted behavior
-  transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-out',
-  opacity: 1,
-  transform: 'scale(1)',
-  minHeight: '60vh',
-  '&.changing': {
-    opacity: 0,
-    transform: 'scale(0.95)',
-  },
-  '& .card-inner': {
-    position: 'relative',
-    width: '100%',
-    height: '100%',
-    transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease-in-out',
-    transformStyle: 'preserve-3d',
-    boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    willChange: 'transform, opacity',
-    '&:hover': {
-      boxShadow: '0 8px 16px rgba(0,0,0,0.15)',
-    },
-  },
-  '& .card-inner.flipped': {
-    transform: 'rotateY(180deg)',
-  },
-  '& .card-front, & .card-back': {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    backfaceVisibility: 'hidden',
-    WebkitBackfaceVisibility: 'hidden',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: 2,
-    bgcolor: 'background.paper',
-    WebkitTransform: 'translateZ(0)',
-    transform: 'translateZ(0)',
-    pointerEvents: 'none',
-    transition: 'box-shadow 0.3s ease-in-out',
-    padding: 2,
-  },
-  '& .card-back': {
-    transform: 'rotateY(180deg)',
-    WebkitTransform: 'rotateY(180deg)',
-  }
-};
 
 export default function MoleculesPage() {
   const { theme } = useParams();
   const { user } = useAuth();
   const navigate = useNavigate();
+  
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [cards, setCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [cards, setCards] = useState([]);
-  const [shuffledMode, setShuffledMode] = useState(false);
-  const [userSettings, setUserSettings] = useState(null);
-  const [filteredCards, setFilteredCards] = useState([]);
   const [ratings, setRatings] = useState({});
-  const [saving, setSaving] = useState(false);
-
+  
   // Map theme names to their directory names
   const themeToDirectory = {
     'antibact-antisept': 'Antibact-antisept',
@@ -99,494 +44,163 @@ export default function MoleculesPage() {
     'syst-nerveux': 'Syst-nerveux'
   };
 
-  // Helper function to format image path
-  const formatImagePath = (theme, imagePath) => {
-    if (!imagePath) return '';
-    
-    // If path already starts with /molecules/, return as is
-    if (imagePath.startsWith('/molecules/')) {
-      return imagePath;
-    }
-
-    // Remove theme prefix if present (e.g., 'Gastro/Alizapride.png' -> 'Alizapride.png')
-    const filename = imagePath.includes('/') ? imagePath.split('/').pop() : imagePath;
-
-    // Construct the full path using the images directory and theme directory
-    const formattedPath = `/molecules/images/${themeToDirectory[theme]}/${filename}`;
-    console.log('Formatting image path:', {
-      originalPath: imagePath,
-      theme,
-      themeDir: themeToDirectory[theme],
-      filename,
-      formattedPath
-    });
-    return formattedPath;
-  };
-
-  // Special case for immuno-hemato theme which doesn't need the theme prefix
-  const shouldPrefixTheme = (theme, imagePath) => {
-    if (theme === 'immuno-hemato' && !imagePath.startsWith('Immuno-hemato/')) {
-      return false;
-    }
-    return true;
-  };
-
-  const loadCards = useCallback(async () => {
-    try {
-      console.log('Loading cards for theme:', theme);
-      
-      // Load user settings and ratings
-      if (user) {
-        try {
-          // Load settings
-          const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-          const settingsSnapshot = await getDoc(userSettingsDoc);
-          if (settingsSnapshot.exists()) {
-            const userPreferences = settingsSnapshot.data();
-            setUserSettings(userPreferences);
-          }
-
-          // Load ratings
-          const userRatingsDoc = doc(db, 'moleculeRatings', user.uid);
-          const ratingsSnapshot = await getDoc(userRatingsDoc);
-          if (ratingsSnapshot.exists()) {
-            const userRatings = ratingsSnapshot.data();
-            setRatings(userRatings[theme] || {});
-          }
-        } catch (error) {
-          console.error('Error loading user data:', error);
+  // Load cards data
+  useEffect(() => {
+    const loadCards = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        
+        const response = await fetch(`/molecules/data/${theme}.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to load cards for ${theme}`);
         }
+        
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+          throw new Error('Invalid data format');
+        }
+        
+        setCards(data);
+      } catch (err) {
+        console.error('Error loading cards:', err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
       }
+    };
 
-      // Load theme cards
-      const response = await fetch(`/molecules/data/${theme}.json`);
-      if (!response.ok) {
-        throw new Error(`Erreur lors du chargement du thème ${theme} (${response.status})`);
-      }
-      
-      const data = await response.json();
-      console.log('Loaded data:', data);
-      
-      if (!data.cards || !Array.isArray(data.cards)) {
-        throw new Error(`Format de données invalide pour le thème ${theme}`);
-      }
-      
-      // Update image paths
-      const updatedCards = data.cards.map(card => ({
-        ...card,
-        image: formatImagePath(theme, card.image)
-      }));
-      
-      console.log('Updated cards with formatted paths:', updatedCards);
-      setCards(updatedCards);
-    } catch (error) {
-      console.error('Error loading cards:', error);
-      setCards([]);
-      throw error; // Let the error be handled by the effect
-    }
-  }, [theme, user, themeToDirectory]);
-
-  // Separate effect for error handling
-  useEffect(() => {
-    loadCards().catch(error => {
-      console.error('Failed to load cards:', error);
-      setCards([]);
-    });
-  }, [loadCards]);
-
-  useEffect(() => {
     loadCards();
-  }, [loadCards]);
+  }, [theme]);
 
-  // Filter cards based on user settings
+  // Load user ratings
   useEffect(() => {
-    if (!cards.length) return;
-
-    if (userSettings && userSettings[theme]) {
-      const enabledCards = cards.filter(card => userSettings[theme].includes(card.id));
-      if (enabledCards.length === 0) {
-        // If no cards are enabled, show a message and redirect
-        navigate('/molecules/settings');
-        return;
-      }
-      setFilteredCards(enabledCards);
-    } else {
-      setFilteredCards(cards);
-    }
-  }, [cards, userSettings, theme, navigate]);
-
-  const [canFlip, setCanFlip] = useState(true);
-
-  const handleFlip = useCallback((e) => {
-    // Prevent default behavior and stop propagation
-    if (e) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-    
-    if (!canFlip) return;
-    setCanFlip(false);
-    setIsFlipped(prev => !prev);
-    // Re-enable flipping after animation completes
-    setTimeout(() => setCanFlip(true), 650);
-  }, [canFlip]);
-
-  const [isChanging, setIsChanging] = useState(false);
-
-  const navigateToCard = useCallback((nextIndex, skipFlipBack = false) => {
-    if (skipFlipBack) {
-      // Smooth transition for next/previous
-      setIsChanging(true);
-      setTimeout(() => {
-        setIsFlipped(false);
-        setCurrentIndex(nextIndex);
-        setTimeout(() => {
-          setIsChanging(false);
-        }, 50);
-      }, 200);
-    } else {
-      // Reset and shuffle transition
-      setIsFlipped(false);
-      setIsChanging(true);
-      setTimeout(() => {
-        setCurrentIndex(nextIndex);
-        setTimeout(() => {
-          setIsChanging(false);
-        }, 50);
-      }, 200);
-    }
-  }, []);
-
-  const handleNext = useCallback(() => {
-    const nextIndex = (currentIndex + 1) % filteredCards.length;
-    navigateToCard(nextIndex, true); // Skip flip back animation
-  }, [currentIndex, filteredCards.length, navigateToCard]);
-
-  const handlePrevious = useCallback(() => {
-    const nextIndex = (currentIndex - 1 + filteredCards.length) % filteredCards.length;
-    navigateToCard(nextIndex, true); // Skip flip back animation
-  }, [currentIndex, filteredCards.length, navigateToCard]);
-
-  const handleShuffle = useCallback(() => {
-    setShuffledMode(prev => !prev);
-    
-    // Enhanced fade transition
-    setIsChanging(true);
-    setTimeout(() => {
-      setIsFlipped(false);
-      if (!shuffledMode) {
-        const shuffled = [...filteredCards].sort(() => Math.random() - 0.5);
-        setFilteredCards(shuffled);
-      } else {
-        // Reset to original order
-        const orderedCards = cards.filter(card => userSettings[theme]?.includes(card.id));
-        setFilteredCards(orderedCards);
-      }
-      // Reset to first card
-      setCurrentIndex(0);
-      setTimeout(() => {
-        setIsChanging(false);
-      }, 50);
-    }, 200);
-  }, [shuffledMode, cards, loadCards, filteredCards, theme, userSettings]);
-
-  const handleReset = useCallback(() => {
-    navigateToCard(0);
-  }, [navigateToCard]);
-
-  // Handle rating change
-  const handleRatingChange = async (cardId, newValue) => {
-    if (!user) return;
-
-    try {
-      setSaving(true);
-      const newRatings = { ...ratings, [cardId]: newValue };
-      setRatings(newRatings);
-
-      // Save to Firebase
-      const userRatingsDoc = doc(db, 'moleculeRatings', user.uid);
-      const ratingsSnapshot = await getDoc(userRatingsDoc);
-      const allRatings = ratingsSnapshot.exists() ? ratingsSnapshot.data() : {};
+    const loadRatings = async () => {
+      if (!user) return;
       
-      await setDoc(userRatingsDoc, {
+      try {
+        const ratingsDoc = await getDoc(doc(db, 'userRatings', user.uid));
+        if (ratingsDoc.exists()) {
+          setRatings(ratingsDoc.data()[theme] || {});
+        }
+      } catch (err) {
+        console.error('Error loading ratings:', err);
+      }
+    };
+
+    loadRatings();
+  }, [user, theme]);
+
+  // Save ratings
+  const saveRating = async (cardId, rating) => {
+    if (!user) return;
+    
+    try {
+      const newRatings = { ...ratings, [cardId]: rating };
+      setRatings(newRatings);
+      
+      const ratingsRef = doc(db, 'userRatings', user.uid);
+      const ratingsDoc = await getDoc(ratingsRef);
+      const allRatings = ratingsDoc.exists() ? ratingsDoc.data() : {};
+      
+      await setDoc(ratingsRef, {
         ...allRatings,
         [theme]: newRatings
       });
-    } catch (error) {
-      console.error('Error saving rating:', error);
-    } finally {
-      setSaving(false);
+    } catch (err) {
+      console.error('Error saving rating:', err);
     }
   };
 
-  if (!filteredCards.length) {
+  if (loading) {
     return (
-      <Container maxWidth="md" sx={{ py: 4 }}>
-        <Typography variant="h5" align="center" gutterBottom>
-          Chargement des cartes pour le thème : {theme}
-        </Typography>
-        <Typography color="text.secondary" align="center">
-          Si rien ne s'affiche, vérifiez que le fichier JSON existe dans /public/data/molecules/{theme}.json
-        </Typography>
+      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+        <CircularProgress />
       </Container>
     );
   }
 
-  const currentCard = filteredCards[currentIndex];
+  if (error) {
+    return (
+      <Container sx={{ py: 4 }}>
+        <Typography color="error" align="center">{error}</Typography>
+        <Button variant="outlined" onClick={() => navigate(-1)} sx={{ mt: 2 }}>
+          Go Back
+        </Button>
+      </Container>
+    );
+  }
+
+  const currentCard = cards[currentIndex];
+  if (!currentCard) return null;
+
+  // Get image path for current card
+  const imagePath = currentCard.image ? `/molecules/images/${themeToDirectory[theme]}/${currentCard.image.split('/').pop()}` : null;
 
   return (
-    <Box sx={{
-      display: 'flex',
-      flexDirection: 'column',
-      minHeight: '100vh',
-      pt: { xs: 2, sm: 4 },
-      pb: { xs: 8, sm: 4 }, // Extra padding at bottom for mobile to account for fixed buttons
-    }}>
-      <Container maxWidth="md" sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-        <Box sx={{ mb: { xs: 2, sm: 4 } }}>
-          <Typography variant="h4" gutterBottom align="center">
-            {theme}
-          </Typography>
-          <Typography variant="subtitle1" align="center" color="text.secondary">
-            Carte {currentIndex + 1} sur {filteredCards.length}
-          </Typography>
-        </Box>
-
-      <Box
-        sx={{
-          ...cardStyles,
-          flex: 1,
-          minHeight: { xs: '50vh', sm: '400px' },
-          mb: { xs: 2, sm: 4 },
-          userSelect: 'none', // Prevent text selection on click
-          WebkitTouchCallout: 'none', // Prevent iOS callout
-          WebkitTapHighlightColor: 'transparent', // Remove tap highlight on mobile
-          position: 'relative',
-          overflow: 'hidden'
-        }}
-        className={isChanging ? 'changing' : ''}
-        onClick={handleFlip}
-        onTouchStart={(e) => e.stopPropagation()}
-        onTouchMove={(e) => e.preventDefault()}
-        onTouchEnd={handleFlip}
-      >
-        <Box className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
-          <Card className="card-front" elevation={3}>
-            <CardContent sx={{ 
-              width: '100%', 
-              height: '100%', 
-              p: 0,
-              overflow: 'auto',
-              '&::-webkit-scrollbar': {
-                width: '8px',
-              },
-              '&::-webkit-scrollbar-track': {
-                background: '#f1f1f1',
-                borderRadius: '4px',
-              },
-              '&::-webkit-scrollbar-thumb': {
-                background: '#888',
-                borderRadius: '4px',
-              },
-              '&::-webkit-scrollbar-thumb:hover': {
-                background: '#555',
-              },
-            }}>
-              {currentCard && currentCard.image && (
-                <>
-                  <Box
-                    component="img"
-                    src={formatImagePath(theme, currentCard.image)}
-                    alt={currentCard.name || 'Molécule'}
-                    onError={(e) => {
-                      console.error('Error loading image:', {
-                        path: formatImagePath(theme, currentCard.image),
-                        cardName: currentCard.name,
-                        theme
-                      });
-                      // Show error message
-                      const errorEl = document.getElementById(`error-${currentCard.id}`);
-                      if (errorEl) errorEl.style.display = 'block';
-                    }}
-                    onLoad={(e) => {
-                      console.log('Successfully loaded image:', {
-                        path: formatImagePath(theme, currentCard.image),
-                        cardName: currentCard.name
-                      });
-                      // Hide error message
-                      const errorEl = document.getElementById(`error-${currentCard.id}`);
-                      if (errorEl) errorEl.style.display = 'none';
-                    }}
-                    sx={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'contain',
-                      maxHeight: '60vh',
-                      padding: 2,
-                      backgroundColor: 'background.paper'
-                    }}
-                  />
-                  <Typography
-                    id={`error-${currentCard.id}`}
-                    variant="body2"
-                    color="error"
-                    align="center"
-                    sx={{
-                      display: 'none',
-                      position: 'absolute',
-                      top: '50%',
-                      left: '50%',
-                      transform: 'translate(-50%, -50%)',
-                      backgroundColor: 'rgba(255, 255, 255, 0.9)',
-                      padding: '8px',
-                      borderRadius: '4px',
-                    }}
-                  >
-                    Error loading image: {currentCard.name}
-                  </Typography>
-                </>
-              )}
-            </CardContent>
-          </Card>
-
-          <Card className="card-back" elevation={3}>
-            <CardContent sx={{ 
-              overflow: 'auto',
-              maxHeight: '100%',
-              '&::-webkit-scrollbar': {
-                width: '8px',
-              },
-              '&::-webkit-scrollbar-track': {
-                background: '#f1f1f1',
-                borderRadius: '4px',
-              },
-              '&::-webkit-scrollbar-thumb': {
-                background: '#888',
-                borderRadius: '4px',
-              },
-              '&::-webkit-scrollbar-thumb:hover': {
-                background: '#555',
-              },
-            }}>
-              <Typography variant="h5" gutterBottom align="center">
-                {currentCard.name}
-              </Typography>
-              {currentCard.details && (
-                <Typography color="text.secondary" align="center">
-                  {currentCard.details}
-                </Typography>
-              )}
-            </CardContent>
-          </Card>
-        </Box>
-      </Box>
-
-      {/* Custom Rating component */}
-      <Box 
-        sx={{ 
-          mt: { xs: 1, sm: 2 }, 
-          mb: { xs: 2, sm: 4 }, 
-          display: 'flex', 
-          flexDirection: 'column', 
-          alignItems: 'center',
-          bgcolor: 'background.paper',
-          borderRadius: 1,
-          p: { xs: 1.5, sm: 2 },
-          boxShadow: 1
-        }}
-      >
-        <Typography variant="subtitle2" sx={{ mb: 1, color: 'text.secondary' }}>
-          Évaluez votre connaissance
+    <Container maxWidth="md" sx={{ py: 4 }}>
+      <Box sx={{ mb: 4, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Button variant="outlined" onClick={() => navigate(-1)}>
+          Back
+        </Button>
+        <Typography>
+          {currentIndex + 1} / {cards.length}
         </Typography>
-        <Box sx={{ display: 'flex', gap: 1 }}>
-          {[1, 2, 3, 4, 5].map((value) => {
-            const isSelected = (ratings[currentCard?.id] || 0) === value;
-            const getColor = (value) => {
-              if (value <= 1) return '#f44336'; // Red
-              if (value <= 2) return '#ff9800'; // Orange
-              if (value <= 3) return '#ffc107'; // Yellow
-              if (value <= 4) return '#8bc34a'; // Light green
-              return '#4caf50'; // Green
-            };
-            return (
-              <Box
-                key={value}
-                onClick={() => currentCard && handleRatingChange(currentCard.id, value)}
-                sx={{
-                  width: 36,
-                  height: 36,
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  cursor: 'pointer',
-                  bgcolor: isSelected ? getColor(value) : 'transparent',
-                  border: `2px solid ${getColor(value)}`,
-                  color: isSelected ? 'white' : getColor(value),
-                  fontWeight: 'bold',
-                  transition: 'all 0.2s ease-in-out',
-                  '&:hover': {
-                    transform: 'scale(1.1)',
-                    bgcolor: getColor(value),
-                    color: 'white'
-                  }
-                }}
-              >
-                {value}
-              </Box>
-            );
-          })}
-        </Box>
       </Box>
 
-      {/* Navigation buttons - fixed at bottom on mobile */}
-      <Box sx={{
-        display: 'flex',
-        justifyContent: 'center',
-        gap: 2,
-        position: { xs: 'fixed', sm: 'static' },
-        bottom: { xs: 0, sm: 'auto' },
-        left: 0,
-        right: 0,
-        bgcolor: { xs: 'background.paper', sm: 'transparent' },
-        boxShadow: { xs: '0px -2px 4px rgba(0,0,0,0.1)', sm: 'none' },
-        py: { xs: 2, sm: 0 },
-        zIndex: 1000
-      }}>
-        <IconButton
-          onClick={handlePrevious}
-          disabled={filteredCards.length <= 1}
-          color="primary"
+      <Card sx={{ maxWidth: 600, mx: 'auto', mb: 4 }}>
+        {imagePath && (
+          <CardMedia
+            component="img"
+            image={imagePath}
+            alt={currentCard.name}
+            sx={{
+              height: 400,
+              objectFit: 'contain',
+              bgcolor: '#fff',
+              p: 2
+            }}
+          />
+        )}
+        {isFlipped && (
+          <CardContent>
+            <Typography variant="h5" gutterBottom align="center">
+              {currentCard.name}
+            </Typography>
+            {currentCard.details && (
+              <Typography variant="body1" align="center">
+                {currentCard.details}
+              </Typography>
+            )}
+          </CardContent>
+        )}
+      </Card>
+
+      <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+        <IconButton 
+          onClick={() => setCurrentIndex(i => Math.max(0, i - 1))} 
+          disabled={currentIndex === 0}
         >
           <NavigateBefore />
         </IconButton>
-        <Button
-          startIcon={<Shuffle />}
-          onClick={handleShuffle}
-          variant="outlined"
-          color="primary"
-          disabled={filteredCards.length <= 1}
-        >
-          {shuffledMode ? 'Mode Normal' : 'Mode Aléatoire'}
-        </Button>
-        <Button
-          startIcon={<Refresh />}
-          onClick={handleReset}
-          variant="outlined"
-          color="primary"
-          disabled={filteredCards.length <= 1}
-        >
-          Recommencer
-        </Button>
-        <IconButton
-          onClick={handleNext}
-          disabled={filteredCards.length <= 1}
-          color="primary"
+        <IconButton onClick={() => setIsFlipped(!isFlipped)}>
+          <Refresh />
+        </IconButton>
+        <IconButton 
+          onClick={() => setCurrentIndex(i => Math.min(cards.length - 1, i + 1))} 
+          disabled={currentIndex === cards.length - 1}
         >
           <NavigateNext />
         </IconButton>
       </Box>
-      </Container>
-    </Box>
+
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 1, mt: 2 }}>
+        <Typography component="legend">Difficulty</Typography>
+        <Rating
+          value={ratings[currentCard.id] || 0}
+          onChange={(_, value) => saveRating(currentCard.id, value)}
+        />
+      </Box>
+    </Container>
   );
 }
