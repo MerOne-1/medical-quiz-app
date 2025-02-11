@@ -106,23 +106,33 @@ export default function MoleculesPage() {
     try {
       console.log('Loading cards for theme:', theme);
       
-      // Load user settings
+      // Load user settings first
+      let userPreferences = {};
       if (user) {
-        const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-        const settingsSnapshot = await getDoc(userSettingsDoc);
-        if (settingsSnapshot.exists()) {
-          setUserSettings(settingsSnapshot.data());
+        try {
+          const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
+          const settingsSnapshot = await getDoc(userSettingsDoc);
+          if (settingsSnapshot.exists()) {
+            userPreferences = settingsSnapshot.data();
+            setUserSettings(userPreferences);
+          }
+        } catch (error) {
+          console.error('Error loading user settings:', error);
+          // Continue loading cards even if settings fail to load
         }
       }
 
+      // Load theme cards
       const response = await fetch(`/molecules/data/${theme}.json`);
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`Erreur lors du chargement du thème ${theme} (${response.status})`);
       }
+      
       const data = await response.json();
       console.log('Loaded data:', data);
+      
       if (!data.cards || !Array.isArray(data.cards)) {
-        throw new Error('Invalid data format: cards array not found');
+        throw new Error(`Format de données invalide pour le thème ${theme}`);
       }
       
       // Update image paths to use correct directory names
@@ -140,8 +150,17 @@ export default function MoleculesPage() {
     } catch (error) {
       console.error('Error loading cards:', error);
       setCards([]);
+      throw error; // Let the error be handled by the effect
     }
   }, [theme, user, themeToDirectory]);
+
+  // Separate effect for error handling
+  useEffect(() => {
+    loadCards().catch(error => {
+      console.error('Failed to load cards:', error);
+      setCards([]);
+    });
+  }, [loadCards]);
 
   useEffect(() => {
     loadCards();

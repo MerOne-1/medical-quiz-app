@@ -44,6 +44,7 @@ export default function MoleculesSettings() {
     const loadThemes = async () => {
       try {
         setLoading(true);
+        setSaveError(null);
         const themesData = {};
         
         // List of all themes
@@ -59,51 +60,67 @@ export default function MoleculesSettings() {
 
         // Load each theme's cards
         for (const theme of themesList) {
-          const response = await fetch(`/molecules/data/${theme}.json`);
-          if (!response.ok) {
-            throw new Error(`Failed to load theme ${theme}`);
+          try {
+            const response = await fetch(`/molecules/data/${theme}.json`);
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            if (!data.cards || !Array.isArray(data.cards)) {
+              throw new Error('Invalid data format: cards array not found');
+            }
+            themesData[theme] = data.cards;
+          } catch (error) {
+            console.error(`Error loading theme ${theme}:`, error);
+            throw new Error(`Erreur lors du chargement du thème ${theme}`);
           }
-          const data = await response.json();
-          themesData[theme] = data.cards;
         }
 
         setThemes(themesData);
         
         // Load user settings if they exist
         if (user) {
-          const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-          const settingsSnapshot = await getDoc(userSettingsDoc);
-          
-          if (settingsSnapshot.exists()) {
-            const savedSettings = settingsSnapshot.data();
-            // Keep existing settings, initialize new themes with all cards
-            const updatedSettings = {};
-            Object.keys(themesData).forEach(theme => {
-              if (savedSettings[theme]) {
-                // Keep existing settings for this theme
-                const validCardIds = themesData[theme].map(card => card.id);
-                // Filter out any invalid card IDs
-                updatedSettings[theme] = savedSettings[theme].filter(id => validCardIds.includes(id));
-              } else {
-                // Initialize new theme with all cards
+          try {
+            const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
+            const settingsSnapshot = await getDoc(userSettingsDoc);
+            
+            if (settingsSnapshot.exists()) {
+              const savedSettings = settingsSnapshot.data();
+              // Initialize all themes with all cards
+              const updatedSettings = {};
+              Object.keys(themesData).forEach(theme => {
                 updatedSettings[theme] = themesData[theme].map(card => card.id);
-              }
-            });
-            setUserSettings(updatedSettings);
-            // Save the cleaned up settings
-            await setDoc(userSettingsDoc, updatedSettings);
-          } else {
-            // Initialize with all cards enabled
-            const initialSettings = {};
-            Object.keys(themesData).forEach(theme => {
-              initialSettings[theme] = themesData[theme].map(card => card.id);
-            });
-            setUserSettings(initialSettings);
+              });
+
+              // Override with saved settings where they exist
+              Object.keys(savedSettings).forEach(theme => {
+                if (themesData[theme] && Array.isArray(savedSettings[theme])) {
+                  const validCardIds = themesData[theme].map(card => card.id);
+                  const validSavedCards = savedSettings[theme].filter(id => validCardIds.includes(id));
+                  if (validSavedCards.length > 0) {
+                    updatedSettings[theme] = validSavedCards;
+                  }
+                }
+              });
+
+              setUserSettings(updatedSettings);
+            } else {
+              // Initialize with all cards enabled
+              const initialSettings = {};
+              Object.keys(themesData).forEach(theme => {
+                initialSettings[theme] = themesData[theme].map(card => card.id);
+              });
+              setUserSettings(initialSettings);
+            }
+          } catch (error) {
+            console.error('Error loading user settings:', error);
+            throw new Error('Erreur lors du chargement des paramètres utilisateur');
           }
         }
       } catch (error) {
-        console.error('Error loading themes:', error);
-        setSaveError('Erreur lors du chargement des thèmes');
+        console.error('Error in loadThemes:', error);
+        setSaveError(error.message);
+        setUserSettings({});
       } finally {
         setLoading(false);
       }
@@ -161,32 +178,38 @@ export default function MoleculesSettings() {
       setSaving(true);
       setSaveError(null);
       
+      // Make sure we have all themes loaded
+      if (Object.keys(themes).length === 0) {
+        throw new Error('Les thèmes ne sont pas encore chargés');
+      }
+
       // Validate and clean up settings before saving
       const validatedSettings = {};
       Object.keys(themes).forEach(theme => {
-        const currentThemeCards = userSettings[theme] || [];
-        const validCardIds = themes[theme].map(card => card.id);
-        
-        // If no cards are selected, select all cards for this theme
-        if (currentThemeCards.length === 0) {
-          validatedSettings[theme] = validCardIds;
-        } else {
-          // Only keep valid card IDs
-          validatedSettings[theme] = currentThemeCards.filter(id => validCardIds.includes(id));
-          // If all cards were invalid, select all cards
-          if (validatedSettings[theme].length === 0) {
-            validatedSettings[theme] = validCardIds;
-          }
-        }
+        const themeCards = themes[theme];
+        const validCardIds = themeCards.map(card => card.id);
+        const currentSelection = userSettings[theme] || [];
+
+        // Validate current selection
+        const validSelection = currentSelection.filter(id => validCardIds.includes(id));
+
+        // If no valid cards are selected, select all cards
+        validatedSettings[theme] = validSelection.length > 0 ? validSelection : validCardIds;
       });
 
+      // Save to Firestore
       const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
       await setDoc(userSettingsDoc, validatedSettings);
+      
+      // Update local state
       setUserSettings(validatedSettings);
       setSaveSuccess(true);
+
+      // Log success
+      console.log('Settings saved successfully:', validatedSettings);
     } catch (error) {
       console.error('Error saving settings:', error);
-      setSaveError('Erreur lors de la sauvegarde. Veuillez réessayer.');
+      setSaveError(error.message || 'Erreur lors de la sauvegarde. Veuillez réessayer.');
     } finally {
       setSaving(false);
     }
