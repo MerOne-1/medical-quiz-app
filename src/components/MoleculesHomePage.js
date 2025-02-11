@@ -14,24 +14,53 @@ import { Science, Settings } from '@mui/icons-material';
 
 export default function MoleculesHomePage() {
   const [themes, setThemes] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
     const loadThemes = async () => {
+      setLoading(true);
+      setError(null);
       try {
+        console.log('Loading themes...');
         const response = await fetch('/molecules/data/themes.json');
         if (!response.ok) {
           throw new Error('Failed to load themes');
         }
         const data = await response.json();
+        console.log('Loaded data:', data);
+        if (!data || !data.themes) {
+          throw new Error('Invalid themes data');
+        }
         setThemes(data.themes);
       } catch (error) {
         console.error('Error loading themes:', error);
+        setError(error.message);
         setThemes([]);
+      } finally {
+        setLoading(false);
       }
     };
     loadThemes();
   }, []);
+
+  if (loading) {
+    return (
+      <Container maxWidth="lg" sx={{ py: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
+        <Typography variant="h5">Loading themes...</Typography>
+      </Container>
+    );
+  }
+
+  if (error) {
+    return (
+      <Container maxWidth="lg" sx={{ py: 4, display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '80vh' }}>
+        <Typography variant="h5" color="error" gutterBottom>{error}</Typography>
+        <Button variant="contained" onClick={() => window.location.reload()}>Retry</Button>
+      </Container>
+    );
+  }
 
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
