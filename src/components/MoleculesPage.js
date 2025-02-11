@@ -106,11 +106,19 @@ export default function MoleculesPage() {
       return imagePath;
     }
 
-    // Extract just the filename if it includes a directory
+    // Remove theme prefix if present (e.g., 'Gastro/Alizapride.png' -> 'Alizapride.png')
     const filename = imagePath.includes('/') ? imagePath.split('/').pop() : imagePath;
 
-    // Construct the full path using the images directory
-    return `/molecules/images/${themeToDirectory[theme]}/${filename}`;
+    // Construct the full path using the images directory and theme directory
+    const formattedPath = `/molecules/images/${themeToDirectory[theme]}/${filename}`;
+    console.log('Formatting image path:', {
+      originalPath: imagePath,
+      theme,
+      themeDir: themeToDirectory[theme],
+      filename,
+      formattedPath
+    });
+    return formattedPath;
   };
 
   // Special case for immuno-hemato theme which doesn't need the theme prefix
@@ -386,25 +394,43 @@ export default function MoleculesPage() {
                 <>
                   <Box
                     component="img"
-                    src={`/molecules/images/${theme === 'immuno-hemato' && !currentCard.image.startsWith('Immuno-hemato/') ? 'Immuno-hemato/' + currentCard.image : currentCard.image}`}
+                    src={formatImagePath(theme, currentCard.image)}
                     crossOrigin="anonymous"
                     alt={currentCard.name || 'Molécule'}
                     onError={(e) => {
+                      const imagePath = formatImagePath(theme, currentCard.image);
                       console.error('Error loading image:', {
-                        path: `/molecules/images/${currentCard.image}`,
+                        path: imagePath,
                         cardName: currentCard.name,
-                        imageProperty: currentCard.image
+                        imageProperty: currentCard.image,
+                        theme,
+                        themeDir: themeToDirectory[theme]
                       });
+                      
                       // Try to fetch the image to get more details about the error
-                      fetch(`/molecules/images/${currentCard.image}`)
-                        .then(response => {
+                      fetch(imagePath)
+                        .then(async response => {
                           if (!response.ok) {
-                            throw new Error(`HTTP error! status: ${response.status}`);
+                            const text = await response.text();
+                            throw new Error(`HTTP error! status: ${response.status}, response: ${text}`);
                           }
                           return response.blob();
                         })
                         .catch(error => {
                           console.error('Fetch error:', error);
+                          // Try alternate path without /molecules prefix
+                          const alternatePath = imagePath.replace('/molecules/', '/');
+                          console.log('Trying alternate path:', alternatePath);
+                          return fetch(alternatePath);
+                        })
+                        .then(response => {
+                          if (response && !response.ok) {
+                            throw new Error(`HTTP error with alternate path! status: ${response.status}`);
+                          }
+                          return response?.blob();
+                        })
+                        .catch(error => {
+                          console.error('All fetch attempts failed:', error);
                         });
                       e.target.onerror = null; // Prevent infinite loop
                       e.target.style.display = 'none';
