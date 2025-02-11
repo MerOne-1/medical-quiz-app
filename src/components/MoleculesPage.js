@@ -145,18 +145,7 @@ export default function MoleculesPage() {
         throw new Error(`Format de données invalide pour le thème ${theme}`);
       }
       
-      // Update image paths to use correct directory names
-      const updatedCards = data.cards.map(card => ({
-        ...card,
-        image: shouldPrefixTheme(theme, card.image)
-          ? card.image.replace(
-              new RegExp(`^${theme}/`, 'i'),
-              `${themeToDirectory[theme]}/`
-            )
-          : card.image
-      }));
-      
-      setCards(updatedCards);
+      setCards(data.cards);
     } catch (error) {
       console.error('Error loading cards:', error);
       setCards([]);
