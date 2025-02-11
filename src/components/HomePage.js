@@ -57,7 +57,7 @@ function HomePage() {
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
           <img 
-            src="/icons/pharmacy-logo.svg" 
+            src="/assets/icons/pharmacy-svgrepo-com.svg" 
             alt="Pharmacy Logo"
             style={{ 
               width: 80, 
