@@ -148,33 +148,76 @@ export default function MoleculesPage() {
         </Typography>
       </Box>
 
-      <Card sx={{ maxWidth: 600, mx: 'auto', mb: 4 }}>
-        {imagePath && (
-          <CardMedia
-            component="img"
-            image={imagePath}
-            alt={currentCard.name}
+      <Box
+        sx={{
+          maxWidth: 600,
+          mx: 'auto',
+          mb: 4,
+          height: 400,
+          perspective: '1000px',
+          cursor: 'pointer',
+        }}
+        onClick={() => setIsFlipped(!isFlipped)}
+      >
+        <Box
+          sx={{
+            position: 'relative',
+            width: '100%',
+            height: '100%',
+            transformStyle: 'preserve-3d',
+            transition: 'transform 0.6s',
+            transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+          }}
+        >
+          <Card
             sx={{
-              height: 400,
-              objectFit: 'contain',
-              bgcolor: '#fff',
-              p: 2
+              position: 'absolute',
+              width: '100%',
+              height: '100%',
+              backfaceVisibility: 'hidden',
+              backgroundColor: '#fff',
             }}
-          />
-        )}
-        {isFlipped && (
-          <CardContent>
-            <Typography variant="h5" gutterBottom align="center">
-              {currentCard.name}
-            </Typography>
-            {currentCard.details && (
-              <Typography variant="body1" align="center">
-                {currentCard.details}
-              </Typography>
+          >
+            {imagePath && (
+              <CardMedia
+                component="img"
+                image={imagePath}
+                alt={currentCard.name}
+                sx={{
+                  height: '100%',
+                  objectFit: 'contain',
+                  p: 2
+                }}
+              />
             )}
-          </CardContent>
-        )}
-      </Card>
+          </Card>
+
+          <Card
+            sx={{
+              position: 'absolute',
+              width: '100%',
+              height: '100%',
+              backfaceVisibility: 'hidden',
+              backgroundColor: '#fff',
+              transform: 'rotateY(180deg)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <CardContent>
+              <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 'bold', color: 'primary.main' }}>
+                {currentCard.name}
+              </Typography>
+              {currentCard.details && (
+                <Typography variant="h6" align="center" color="text.secondary" sx={{ mt: 2 }}>
+                  {currentCard.details}
+                </Typography>
+              )}
+            </CardContent>
+          </Card>
+        </Box>
+      </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton 
@@ -183,7 +226,10 @@ export default function MoleculesPage() {
         >
           <NavigateBefore />
         </IconButton>
-        <IconButton onClick={() => setIsFlipped(!isFlipped)}>
+        <IconButton onClick={(e) => {
+          e.stopPropagation();
+          setIsFlipped(!isFlipped);
+        }}>
           <Refresh />
         </IconButton>
         <IconButton 
