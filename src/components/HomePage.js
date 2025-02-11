@@ -50,20 +50,20 @@ function HomePage() {
   return (
     <Box sx={{
       minHeight: '100vh',
-      background: 'linear-gradient(180deg, #f5f5f5 0%, #ffffff 100%)',
+      background: 'linear-gradient(135deg, #f5f5f5 0%, #e3f2fd 100%)',
       pt: 8,
       pb: 6
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <LocalHospital sx={{ fontSize: 60, color: '#2196f3', mb: 2 }} />
+          <LocalHospital sx={{ fontSize: 60, color: '#7b1fa2', mb: 2 }} />
           <Typography
             variant="h2"
             component="h1"
             gutterBottom
             sx={{
               fontWeight: 700,
-              background: 'linear-gradient(45deg, #2196f3 30%, #1976d2 90%)',
+              background: 'linear-gradient(45deg, #7b1fa2 30%, #9c27b0 90%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               textShadow: 'none'
@@ -84,8 +84,8 @@ function HomePage() {
             Pratiquez et maîtrisez vos connaissances médicales avec la répétition espacée
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mb: 4 }}>
-            <School sx={{ color: '#2196f3' }} />
-            <Typography variant="h6" sx={{ color: '#2196f3', fontWeight: 600 }}>
+            <School sx={{ color: '#009688' }} />
+            <Typography variant="h6" sx={{ color: '#009688', fontWeight: 600 }}>
               Préparation aux examens médicaux
             </Typography>
           </Box>
@@ -120,7 +120,7 @@ function HomePage() {
                       left: 0,
                       right: 0,
                       height: 6,
-                      background: 'linear-gradient(90deg, #2196f3 0%, #1976d2 100%)',
+                      background: 'linear-gradient(90deg, #009688 0%, #00796b 100%)',
                       borderTopLeftRadius: 2,
                       borderTopRightRadius: 2,
                     }
@@ -136,7 +136,7 @@ function HomePage() {
                         gutterBottom
                         sx={{
                           fontWeight: 600,
-                          color: '#2196f3',
+                          color: '#7b1fa2',
                           borderBottom: '2px solid #e3f2fd',
                           pb: 1,
                           mb: 2
@@ -148,10 +148,10 @@ function HomePage() {
                         {quizProgress[theme.id] ? (
                           <>
                             <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                              <Typography variant="body2" color="text.secondary">
+                              <Typography variant="body2" sx={{ color: '#009688' }}>
                                 Score:
                               </Typography>
-                              <Typography variant="body2" color="primary.main" sx={{ fontWeight: 'bold' }}>
+                              <Typography variant="body2" sx={{ color: '#7b1fa2', fontWeight: 'bold' }}>
                                 {Math.round((quizProgress[theme.id].stats?.correct || 0) * 100) / 100}/
                                 {quizProgress[theme.id].stats?.total || 0}
                               </Typography>
