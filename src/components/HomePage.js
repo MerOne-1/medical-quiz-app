@@ -56,14 +56,14 @@ function HomePage() {
     }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', mb: 8 }}>
-          <LocalHospital sx={{ fontSize: 60, color: '#ff5722', mb: 2 }} />
+          <LocalHospital sx={{ fontSize: 60, color: '#2e7d32', mb: 2 }} />
           <Typography
             variant="h2"
             component="h1"
             gutterBottom
             sx={{
               fontWeight: 700,
-              background: 'linear-gradient(45deg, #ff5722 30%, #f4511e 90%)',
+              background: 'linear-gradient(45deg, #2e7d32 30%, #388e3c 90%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               textShadow: 'none'
@@ -136,7 +136,7 @@ function HomePage() {
                         gutterBottom
                         sx={{
                           fontWeight: 600,
-                          color: '#ff5722',
+                          color: '#2e7d32',
                           borderBottom: '2px solid #e3f2fd',
                           pb: 1,
                           mb: 2
@@ -151,7 +151,7 @@ function HomePage() {
                               <Typography variant="body2" sx={{ color: '#009688' }}>
                                 Score:
                               </Typography>
-                              <Typography variant="body2" sx={{ color: '#ff5722', fontWeight: 'bold' }}>
+                              <Typography variant="body2" sx={{ color: '#2e7d32', fontWeight: 'bold' }}>
                                 {Math.round((quizProgress[theme.id].stats?.correct || 0) * 100) / 100}/
                                 {quizProgress[theme.id].stats?.total || 0}
                               </Typography>
