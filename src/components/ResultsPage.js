@@ -210,26 +210,6 @@ function ResultsPage() {
 
 export default ResultsPage;
                       <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Score:</Typography>
-                        <Typography>{stats.score.toFixed(1)}/{stats.total}</Typography>
-                      </Box>
-                    </Paper>
-                  </Grid>
-                  <Grid item xs={12} md={6}>
-                    <Paper sx={{ p: 2 }}>
-                      <Typography variant="subtitle1" gutterBottom>
-                        Répartition des Réponses
-                      </Typography>
-                      <Divider sx={{ mb: 2 }} />
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Réponses Correctes:</Typography>
-                        <Typography color="success.main">{stats.correctAnswers}</Typography>
-                      </Box>
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Réponses Partiellement Correctes:</Typography>
-                        <Typography color="warning.main">{stats.partialCorrect}</Typography>
-                      </Box>
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
                         <Typography>Réponses Incorrectes:</Typography>
                         <Typography color="error.main">
                           {stats.answeredQuestions - stats.correctAnswers - stats.partialCorrect}
