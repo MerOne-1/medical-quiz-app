@@ -168,13 +168,13 @@ function HomePage() {
                                   borderRadius: 5,
                                   bgcolor: 'grey.200',
                                   '& .MuiLinearProgress-bar': {
-                                    bgcolor: quizProgress[theme.id].completed ? '#4caf50' : '#2196f3'
+                                    bgcolor: quizProgress[theme.id].completed ? '#00796b' : '#009688'
                                   }
                                 }}
                               />
                               <Typography 
                                 variant="body2" 
-                                color={quizProgress[theme.id].completed ? '#4caf50' : '#2196f3'}
+                                color={quizProgress[theme.id].completed ? '#00796b' : '#009688'}
                                 sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}
                               >
                                 {Math.round((quizProgress[theme.id].stats?.total || 0) / 
@@ -194,7 +194,7 @@ function HomePage() {
                                 borderRadius: 5,
                                 bgcolor: 'grey.200',
                                 '& .MuiLinearProgress-bar': {
-                                  bgcolor: '#2196f3'
+                                  bgcolor: '#009688'
                                 }
                               }}
                             />
