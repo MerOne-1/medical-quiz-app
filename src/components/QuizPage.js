@@ -46,11 +46,30 @@ function QuizPage() {
   // Load saved progress when component mounts
   useEffect(() => {
     const loadSavedProgress = async () => {
-      if (user && theme) {
+      if (user && theme && questions.length > 0) {
         try {
           console.log('Loading saved progress for user:', user.uid, 'theme:', theme);
           const progress = await loadQuizProgress(user.uid, theme);
-          if (progress) {
+          
+          if (!progress) {
+            // Initialize new progress
+            console.log('Initializing new progress');
+            const initialProgress = {
+              answeredQuestions: {},
+              skippedQuestions: [],
+              stats: { correct: 0, total: 0 },
+              totalQuestions: questions.length,
+              themeId: theme,
+              lastQuestionIndex: 0,
+              completed: false
+            };
+            await saveQuizProgress(user.uid, theme, initialProgress);
+            setAnsweredQuestions({});
+            setSkippedQuestions([]);
+            setStats({ correct: 0, total: 0 });
+            setCurrentQuestionIndex(0);
+            setHasProgress(false);
+          } else {
             console.log('Loaded progress:', progress);
             setHasProgress(true);
             setCurrentQuestionIndex(progress.lastQuestionIndex || 0);
@@ -259,14 +278,24 @@ function QuizPage() {
 
     // Save skipped questions to Firebase
     if (user && questions.length > 0) {
+      // Calculate total answered and correct
+      const totalAnswered = Object.keys(answeredQuestions).length;
+      const correctAnswers = Object.values(answeredQuestions)
+        .filter(answer => answer.isCorrect).length;
+      
       const progressData = {
         skippedQuestions: newSkippedQuestions,
-        lastQuestionIndex: currentQuestionIndex,
+        answeredQuestions: answeredQuestions,
+        stats: {
+          total: totalAnswered,
+          correct: correctAnswers
+        },
         totalQuestions: questions.length,
         themeId: theme,
-        answeredQuestions: answeredQuestions,
-        stats: stats
+        lastQuestionIndex: currentQuestionIndex,
+        completed: totalAnswered === questions.length
       };
+      
       console.log('Saving skip progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
