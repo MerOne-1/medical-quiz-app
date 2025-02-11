@@ -43,97 +43,56 @@ function QuizPage() {
   const [error, setError] = useState(null);
   const [resetDialogOpen, setResetDialogOpen] = useState(false);
 
-  // Load saved progress when component mounts
   useEffect(() => {
-    const loadSavedProgress = async () => {
-      if (user && theme && questions.length > 0) {
-        try {
-          console.log('Loading saved progress for user:', user.uid, 'theme:', theme);
-          const progress = await loadQuizProgress(user.uid, theme);
-          
-          if (!progress) {
-            // Initialize new progress
-            console.log('Initializing new progress');
-            const initialProgress = {
-              answeredQuestions: {},
-              skippedQuestions: [],
-              stats: { correct: 0, total: 0 },
-              totalQuestions: questions.length,
-              themeId: theme,
-              lastQuestionIndex: 0,
-              completed: false
-            };
-            await saveQuizProgress(user.uid, theme, initialProgress);
-            setAnsweredQuestions({});
-            setSkippedQuestions([]);
-            setStats({ correct: 0, total: 0 });
-            setCurrentQuestionIndex(0);
-            setHasProgress(false);
-          } else {
-            console.log('Loaded progress:', progress);
-            setHasProgress(true);
-            setCurrentQuestionIndex(progress.lastQuestionIndex || 0);
-            setStats(progress.stats || { correct: 0, total: 0 });
-            setAnsweredQuestions(progress.answeredQuestions || {});
-            setSkippedQuestions(progress.skippedQuestions || []);
-          }
-        } catch (error) {
-          console.error('Error loading progress:', error);
-          setError('Failed to load progress');
-        }
-      }
-    };
-    loadSavedProgress();
-  }, [user, theme]);
+    const loadThemeAndProgress = async () => {
+      if (!user || !theme) return;
 
-  useEffect(() => {
-    console.log('QuizPage mounted, theme:', theme);
-    const loadThemeData = async () => {
       try {
         setLoading(true);
-        console.log('Loading theme:', theme);
+        console.log('Loading theme and progress for:', theme);
 
-        // Load theme information
+        // First load the theme information
         const themesResponse = await fetch('/data/themes.json');
         if (!themesResponse.ok) {
           throw new Error(`Failed to load themes.json: ${themesResponse.status}`);
         }
         const themesData = await themesResponse.json();
         const currentTheme = themesData.find(t => t.id === theme);
-        console.log('Found theme:', currentTheme);
 
         if (!currentTheme) {
           throw new Error(`Theme not found: ${theme}`);
         }
-
         setThemeInfo(currentTheme);
 
-        // Load questions for the theme
+        // Then load the questions
         const questionsResponse = await fetch(`/data/${currentTheme.filename}`);
         if (!questionsResponse.ok) {
           throw new Error(`Failed to load questions: ${questionsResponse.status}`);
         }
 
         const data = await questionsResponse.json();
-        console.log('Loaded quiz data:', {
-          theme: data.theme,
-          questionCount: data.questions.length,
-          firstQuestion: data.questions[0]
-        });
-
         if (!data.questions || !Array.isArray(data.questions) || data.questions.length === 0) {
           throw new Error('No questions found in the file');
         }
 
-        // Shuffle all questions for better learning experience
-        // Only shuffle questions if there's no saved progress
-        const shuffledQuestions = hasProgress ? data.questions : data.questions.sort(() => Math.random() - 0.5);
+        // Load saved progress before deciding whether to shuffle
+        const savedProgress = await loadQuizProgress(user.uid, theme);
+        console.log('Loaded saved progress:', savedProgress);
 
-        setQuestions(shuffledQuestions);
-        console.log('Set questions, count:', shuffledQuestions.length);
-
-        // Save initial state to Firebase if no progress exists
-        if (!hasProgress && user) {
+        if (savedProgress) {
+          // If we have saved progress, restore the state
+          setHasProgress(true);
+          setCurrentQuestionIndex(savedProgress.lastQuestionIndex || 0);
+          setStats(savedProgress.stats || { correct: 0, total: 0 });
+          setAnsweredQuestions(savedProgress.answeredQuestions || {});
+          setSkippedQuestions(savedProgress.skippedQuestions || []);
+          setQuestions(data.questions); // Use original order when restoring progress
+        } else {
+          // If no progress, shuffle questions and initialize new progress
+          const shuffledQuestions = data.questions.sort(() => Math.random() - 0.5);
+          setQuestions(shuffledQuestions);
+          setHasProgress(false);
+          
           const initialProgress = {
             totalQuestions: shuffledQuestions.length,
             themeId: theme,
@@ -144,16 +103,18 @@ function QuizPage() {
           };
           await saveQuizProgress(user.uid, theme, initialProgress);
         }
+
+        console.log('Theme and progress loaded successfully');
       } catch (error) {
-        console.error('Error loading theme data:', error);
+        console.error('Error loading theme and progress:', error);
         setError(error.message);
       } finally {
         setLoading(false);
       }
     };
 
-    loadThemeData();
-  }, [theme, user, hasProgress]);
+    loadThemeAndProgress();
+  }, [theme, user]); // Only depend on theme and user
 
   const currentQuestion = questions[currentQuestionIndex];
 
@@ -183,71 +144,80 @@ function QuizPage() {
   };
 
   const checkAnswer = async () => {
-    const correct = currentQuestion.correct_answers;
-    
-    // Count wrong answers (both missing correct ones and selecting wrong ones)
-    let wrongAnswers = 0;
-    
-    // Check for incorrect selections
-    wrongAnswers += selectedAnswers.filter(answer => !correct.includes(answer)).length;
-    
-    // Check for missing correct answers
-    wrongAnswers += correct.filter(answer => !selectedAnswers.includes(answer)).length;
-    
-    // Calculate points based on wrong answers
-    let points = 0;
-    if (wrongAnswers === 0) points = 1;
-    else if (wrongAnswers === 1) points = 0.5;
-    else if (wrongAnswers === 2) points = 0.2;
-    // 3 or more wrong answers = 0 points (default)
-    
-    setIsCorrect(wrongAnswers === 0);
-    setShowFeedback(true);
-    const newStats = {
-      correct: stats.correct + points,
-      total: stats.total + 1,
-    };
-    setStats(newStats);
+    if (!user || !currentQuestion) return;
 
-    // Save progress after updating stats
-    const newAnsweredQuestions = {
-      ...answeredQuestions,
-      [currentQuestionIndex]: {
-        selectedAnswers,
-        isCorrect: wrongAnswers === 0,
-        points
-      }
-    };
-    setAnsweredQuestions(newAnsweredQuestions);
-
-    // Save progress to Firebase
-    if (user && questions.length > 0) {
-      // Calculate total answered and correct
-      const totalAnswered = Object.keys(newAnsweredQuestions).length;
-      const correctAnswers = Object.values(newAnsweredQuestions)
-        .filter(answer => answer.isCorrect).length;
+    try {
+      const correct = currentQuestion.correct_answers;
+      let wrongAnswers = 0;
       
+      // Check for incorrect selections
+      wrongAnswers += selectedAnswers.filter(answer => !correct.includes(answer)).length;
+      
+      // Check for missing correct answers
+      wrongAnswers += correct.filter(answer => !selectedAnswers.includes(answer)).length;
+      
+      // Calculate points based on wrong answers
+      let points = 0;
+      if (wrongAnswers === 0) points = 1;
+      else if (wrongAnswers === 1) points = 0.5;
+      else if (wrongAnswers === 2) points = 0.2;
+      
+      const isAnswerCorrect = wrongAnswers === 0;
+      
+      // Update local state first
+      setIsCorrect(isAnswerCorrect);
+      setShowFeedback(true);
+      
+      // Create new answered questions state
+      const newAnsweredQuestions = {
+        ...answeredQuestions,
+        [currentQuestionIndex]: {
+          selectedAnswers,
+          isCorrect: isAnswerCorrect,
+          points,
+          questionId: currentQuestion.id || currentQuestionIndex.toString(),
+          timestamp: new Date().toISOString()
+        }
+      };
+      
+      // Calculate total points and answered questions
+      const totalAnswered = Object.keys(newAnsweredQuestions).length;
+      const totalPoints = Object.values(newAnsweredQuestions)
+        .reduce((sum, answer) => sum + (answer.points || 0), 0);
+      
+      // Update local stats
+      const newStats = {
+        total: totalAnswered,
+        correct: totalPoints
+      };
+      
+      // Update local state
+      setAnsweredQuestions(newAnsweredQuestions);
+      setStats(newStats);
+      
+      // Save to Firebase
       const progressData = {
         answeredQuestions: newAnsweredQuestions,
-        stats: {
-          total: totalAnswered,
-          correct: correctAnswers
-        },
+        stats: newStats,
         totalQuestions: questions.length,
         themeId: theme,
         lastQuestionIndex: currentQuestionIndex,
         skippedQuestions: skippedQuestions,
-        completed: totalAnswered === questions.length
+        completed: totalAnswered === questions.length,
+        lastUpdated: new Date().toISOString()
       };
       
       console.log('Saving answer progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
+      console.log('Progress saved successfully');
+    } catch (error) {
+      console.error('Error in checkAnswer:', error);
+      setError('Failed to save answer');
     }
   };
 
   const navigateQuestion = async (direction) => {
-    setSelectedAnswers([]);
-    setShowFeedback(false);
+    if (!user || questions.length === 0) return;
     
     let newIndex;
     if (direction === 'next') {
@@ -255,20 +225,37 @@ function QuizPage() {
     } else {
       newIndex = Math.max(currentQuestionIndex - 1, 0);
     }
-    setCurrentQuestionIndex(newIndex);
 
-    // Save current position to Firebase
-    if (user && questions.length > 0) {
+    try {
+      // Calculate current progress
+      const totalAnswered = Object.keys(answeredQuestions).length;
+      const correctAnswers = Object.values(answeredQuestions)
+        .filter(answer => answer.isCorrect).length;
+
+      // Save progress before changing question
       const progressData = {
         lastQuestionIndex: newIndex,
         totalQuestions: questions.length,
         themeId: theme,
         answeredQuestions: answeredQuestions,
-        stats: stats,
-        skippedQuestions: skippedQuestions
+        stats: {
+          total: totalAnswered,
+          correct: correctAnswers
+        },
+        skippedQuestions: skippedQuestions,
+        completed: totalAnswered === questions.length
       };
+
       console.log('Saving navigation progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
+
+      // Update UI after saving
+      setCurrentQuestionIndex(newIndex);
+      setSelectedAnswers([]);
+      setShowFeedback(false);
+    } catch (error) {
+      console.error('Error saving progress during navigation:', error);
+      setError('Failed to save progress');
     }
   };
 
@@ -305,16 +292,19 @@ function QuizPage() {
 
   // Restore previous answers when navigating back
   useEffect(() => {
+    if (!currentQuestion) return;
+    
     const savedState = answeredQuestions[currentQuestionIndex];
     if (savedState) {
-      setSelectedAnswers(savedState.selectedAnswers);
+      setSelectedAnswers(savedState.selectedAnswers || []);
       setShowFeedback(true);
       setIsCorrect(savedState.isCorrect);
     } else {
       setSelectedAnswers([]);
       setShowFeedback(false);
+      setIsCorrect(false);
     }
-  }, [currentQuestionIndex, answeredQuestions]);
+  }, [currentQuestionIndex, answeredQuestions, currentQuestion]);
 
   const handleResetProgress = async () => {
     try {
