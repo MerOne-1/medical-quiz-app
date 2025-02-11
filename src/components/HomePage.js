@@ -86,7 +86,7 @@ function HomePage() {
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, mb: 4 }}>
             <School sx={{ color: '#009688' }} />
             <Typography variant="h6" sx={{ color: '#009688', fontWeight: 600 }}>
-              Préparation aux examens médicaux
+              Préparation aux examens de pharmacie
             </Typography>
           </Box>
         </Box>
