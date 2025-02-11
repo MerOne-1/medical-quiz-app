@@ -47,9 +47,7 @@ function HomePage() {
     loadThemes();
   }, []);
 
-  const handleMoleculesClick = () => {
-    navigate('/molecules');
-  };
+
 
   return (
     <Box sx={{
@@ -110,64 +108,6 @@ function HomePage() {
           </Box>
         ) : (
           <Grid container spacing={3}>
-            {/* Molecules Project Card */}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card
-                sx={{
-                  height: '100%',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  position: 'relative',
-                  transition: 'transform 0.2s',
-                  '&:hover': {
-                    transform: 'translateY(-4px)'
-                  },
-                  background: '#ffffff',
-                  borderRadius: 2,
-                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                  overflow: 'hidden',
-                  '&:before': {
-                    content: '""',
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    height: 6,
-                    background: 'linear-gradient(90deg, #009688 0%, #00796b 100%)',
-                    borderTopLeftRadius: 2,
-                    borderTopRightRadius: 2,
-                  }
-                }}
-              >
-                <CardActionArea
-                  onClick={() => navigate('/molecules')}
-                  sx={{ height: '100%' }}
-                >
-                  <CardContent sx={{ height: '100%' }}>
-                    <Typography
-                      variant="h6"
-                      gutterBottom
-                      sx={{
-                        fontWeight: 600,
-                        color: '#009688',
-                        borderBottom: '2px solid #e3f2fd',
-                        pb: 1,
-                        mb: 2
-                      }}
-                    >
-                      Flashcards Molécules
-                    </Typography>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
-                      <Science sx={{ fontSize: 40, color: '#009688' }} />
-                    </Box>
-                    <Typography variant="body2" color="text.secondary" align="center">
-                      Apprenez et mémorisez les molécules importantes avec des cartes interactives
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </Grid>
-
             {/* Quiz Project Cards */}
             {availableThemes.map((theme) => (
               <Grid item xs={12} sm={6} md={4} key={theme.id}>
