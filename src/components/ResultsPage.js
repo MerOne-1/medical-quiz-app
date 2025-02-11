@@ -111,9 +111,9 @@ function ResultsPage() {
           <Typography variant="h5" gutterBottom color="primary.main">
             Progression Globale
           </Typography>
-          <Paper elevation={3} sx={{ p: 3 }}>
+          <Paper elevation={3} sx={{ p: 3, background: 'linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%)' }}>
             <Box sx={{ width: '100%' }}>
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 4 }}>
                 <LinearProgress 
                   variant="determinate" 
                   value={Math.min(
@@ -123,9 +123,17 @@ function ResultsPage() {
                       acc + (curr.totalQuestions || 0), 0)) * 100,
                     100
                   )}
-                  sx={{ flexGrow: 1, height: 10, borderRadius: 5 }}
+                  sx={{ 
+                    flexGrow: 1, 
+                    height: 12, 
+                    borderRadius: 6,
+                    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+                    '& .MuiLinearProgress-bar': {
+                      background: 'linear-gradient(90deg, #2196f3 0%, #1976d2 100%)'
+                    }
+                  }}
                 />
-                <Typography variant="body1" color="text.secondary">
+                <Typography variant="h6" color="primary.main" sx={{ minWidth: '60px', textAlign: 'right' }}>
                   {Math.round(
                     (Object.values(progress).reduce((acc, curr) => 
                       acc + Object.keys(curr.answeredQuestions || {}).length, 0) /
@@ -135,12 +143,36 @@ function ResultsPage() {
                 </Typography>
               </Box>
               <Grid container spacing={3}>
-                <Grid item xs={12} md={6}>
-                  <Box sx={{ textAlign: 'center' }}>
-                    <Typography variant="h6" color="text.secondary" gutterBottom>
+                <Grid item xs={12} md={4}>
+                  <Box sx={{ 
+                    textAlign: 'center',
+                    p: 2,
+                    borderRadius: 2,
+                    bgcolor: 'success.light',
+                    color: 'success.contrastText'
+                  }}>
+                    <Typography variant="h6" gutterBottom>
+                      Questions Réussies
+                    </Typography>
+                    <Typography variant="h4">
+                      {Object.values(progress).reduce((acc, curr) => 
+                        acc + Object.values(curr.answeredQuestions || {})
+                          .filter(answer => answer.points === 1).length, 0)}
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <Box sx={{ 
+                    textAlign: 'center',
+                    p: 2,
+                    borderRadius: 2,
+                    bgcolor: 'primary.light',
+                    color: 'primary.contrastText'
+                  }}>
+                    <Typography variant="h6" gutterBottom>
                       Questions Répondues
                     </Typography>
-                    <Typography variant="h4" color="primary.main">
+                    <Typography variant="h4">
                       {Object.values(progress).reduce((acc, curr) => 
                         acc + Object.keys(curr.answeredQuestions || {}).length, 0)}
                       {' / '}
@@ -149,15 +181,21 @@ function ResultsPage() {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={6}>
-                  <Box sx={{ textAlign: 'center' }}>
-                    <Typography variant="h6" color="text.secondary" gutterBottom>
-                      Points Obtenus
+                <Grid item xs={12} md={4}>
+                  <Box sx={{ 
+                    textAlign: 'center',
+                    p: 2,
+                    borderRadius: 2,
+                    bgcolor: 'error.light',
+                    color: 'error.contrastText'
+                  }}>
+                    <Typography variant="h6" gutterBottom>
+                      Questions à Revoir
                     </Typography>
-                    <Typography variant="h4" color="primary.main">
+                    <Typography variant="h4">
                       {Object.values(progress).reduce((acc, curr) => 
                         acc + Object.values(curr.answeredQuestions || {})
-                          .reduce((sum, answer) => sum + (answer.points || 0), 0), 0).toFixed(1)}
+                          .filter(answer => answer.points === 0).length, 0)}
                     </Typography>
                   </Box>
                 </Grid>
@@ -172,31 +210,89 @@ function ResultsPage() {
           if (!stats) return null;
 
           return (
-            <Paper key={theme.id} sx={{ mb: 2, p: 3 }}>
+            <Paper 
+              key={theme.id} 
+              sx={{ 
+                mb: 2, 
+                p: 3,
+                background: 'linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%)',
+                transition: 'transform 0.2s, box-shadow 0.2s',
+                '&:hover': {
+                  transform: 'translateY(-2px)',
+                  boxShadow: (theme) => theme.shadows[4]
+                }
+              }}
+            >
               <Box sx={{ width: '100%' }}>
-                <Typography variant="h6" sx={{ color: 'primary.main', mb: 2 }}>
+                <Typography 
+                  variant="h6" 
+                  sx={{ 
+                    color: 'primary.main', 
+                    mb: 2,
+                    fontWeight: 600,
+                    fontSize: '1.25rem'
+                  }}
+                >
                   {theme.title}
                 </Typography>
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
                   <LinearProgress 
                     variant="determinate" 
                     value={stats.progress} 
-                    sx={{ flexGrow: 1, height: 10, borderRadius: 5 }}
+                    sx={{ 
+                      flexGrow: 1, 
+                      height: 12, 
+                      borderRadius: 6,
+                      backgroundColor: 'rgba(0, 0, 0, 0.05)',
+                      '& .MuiLinearProgress-bar': {
+                        background: 'linear-gradient(90deg, #2196f3 0%, #1976d2 100%)'
+                      }
+                    }}
                   />
-                  <Typography variant="body1" color="text.secondary">
+                  <Typography 
+                    variant="h6" 
+                    sx={{ 
+                      color: 'primary.main',
+                      minWidth: '60px',
+                      textAlign: 'right',
+                      fontWeight: 600
+                    }}
+                  >
                     {Math.round(stats.progress)}%
                   </Typography>
                 </Box>
-                <Grid container spacing={2}>
+                <Grid container spacing={3}>
                   <Grid item xs={12} sm={6}>
-                    <Typography variant="body1" color="text.secondary">
-                      Questions répondues: {stats.answeredQuestions} / {stats.totalQuestions}
-                    </Typography>
+                    <Box sx={{ 
+                      p: 2, 
+                      borderRadius: 2,
+                      bgcolor: 'primary.light',
+                      color: 'primary.contrastText',
+                      textAlign: 'center'
+                    }}>
+                      <Typography variant="body1" gutterBottom>
+                        Questions répondues
+                      </Typography>
+                      <Typography variant="h5" sx={{ fontWeight: 600 }}>
+                        {stats.answeredQuestions} / {stats.totalQuestions}
+                      </Typography>
+                    </Box>
                   </Grid>
                   <Grid item xs={12} sm={6}>
-                    <Typography variant="body1" color="text.secondary">
-                      Points: {stats.points}
-                    </Typography>
+                    <Box sx={{ 
+                      p: 2, 
+                      borderRadius: 2,
+                      bgcolor: stats.points > (stats.totalQuestions * 0.7) ? 'success.light' : 'warning.light',
+                      color: stats.points > (stats.totalQuestions * 0.7) ? 'success.contrastText' : 'warning.contrastText',
+                      textAlign: 'center'
+                    }}>
+                      <Typography variant="body1" gutterBottom>
+                        Points
+                      </Typography>
+                      <Typography variant="h5" sx={{ fontWeight: 600 }}>
+                        {stats.points}
+                      </Typography>
+                    </Box>
                   </Grid>
                 </Grid>
               </Box>
