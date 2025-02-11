@@ -85,8 +85,6 @@ export default function MoleculesPage() {
   const [filteredCards, setFilteredCards] = useState([]);
   const [ratings, setRatings] = useState({});
   const [saving, setSaving] = useState(false);
-  const [ratings, setRatings] = useState({});
-  const [saving, setSaving] = useState(false);
 
   // Map theme names to their directory names
   const themeToDirectory = {
