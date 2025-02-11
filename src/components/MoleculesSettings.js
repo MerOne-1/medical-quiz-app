@@ -76,20 +76,18 @@ export default function MoleculesSettings() {
           
           if (settingsSnapshot.exists()) {
             const savedSettings = settingsSnapshot.data();
-            // Merge saved settings with any new themes/cards
-            const mergedSettings = {};
+            // Keep existing settings, initialize new themes with all cards
+            const updatedSettings = {};
             Object.keys(themesData).forEach(theme => {
-              const savedThemeCards = savedSettings[theme] || [];
-              const allThemeCards = themesData[theme].map(card => card.id);
-              // Include saved cards that exist in the theme, plus any new cards
-              mergedSettings[theme] = Array.from(new Set([
-                ...savedThemeCards.filter(id => allThemeCards.includes(id)),
-                ...allThemeCards
-              ]));
+              if (savedSettings[theme]) {
+                // Keep existing settings for this theme
+                updatedSettings[theme] = savedSettings[theme];
+              } else {
+                // Initialize new theme with all cards
+                updatedSettings[theme] = themesData[theme].map(card => card.id);
+              }
             });
-            setUserSettings(mergedSettings);
-            // Save merged settings back to Firebase
-            await setDoc(userSettingsDoc, mergedSettings);
+            setUserSettings(updatedSettings);
           } else {
             // Initialize with all cards enabled
             const initialSettings = {};
@@ -97,8 +95,6 @@ export default function MoleculesSettings() {
               initialSettings[theme] = themesData[theme].map(card => card.id);
             });
             setUserSettings(initialSettings);
-            // Save initial settings to Firebase
-            await setDoc(userSettingsDoc, initialSettings);
           }
         }
       } catch (error) {
@@ -118,23 +114,33 @@ export default function MoleculesSettings() {
 
   const handleCardToggle = (themeId, cardId) => {
     setUserSettings(prev => {
-      const themeCards = prev[themeId] || [];
+      // Make sure we have a copy of the previous settings
+      const newSettings = { ...prev };
+      
+      // Initialize theme array if it doesn't exist
+      if (!newSettings[themeId]) {
+        newSettings[themeId] = themes[themeId].map(card => card.id);
+      }
+      
+      // Toggle the card
+      const themeCards = newSettings[themeId];
       const newThemeCards = themeCards.includes(cardId)
         ? themeCards.filter(id => id !== cardId)
         : [...themeCards, cardId];
 
       return {
-        ...prev,
+        ...newSettings,
         [themeId]: newThemeCards
       };
     });
   };
 
   const handleThemeToggle = (themeId, enable) => {
-    setUserSettings(prev => ({
-      ...prev,
-      [themeId]: enable ? themes[themeId].map(card => card.id) : []
-    }));
+    setUserSettings(prev => {
+      const newSettings = { ...prev };
+      newSettings[themeId] = enable ? themes[themeId].map(card => card.id) : [];
+      return newSettings;
+    });
   };
 
   const saveSettings = async () => {
@@ -147,20 +153,18 @@ export default function MoleculesSettings() {
       setSaving(true);
       setSaveError(null);
       
-      // Validate settings before saving
-      const validatedSettings = {};
+      // Make sure we have settings for all themes
+      const settingsToSave = { ...userSettings };
       Object.keys(themes).forEach(theme => {
-        const currentThemeCards = userSettings[theme] || [];
-        const validThemeCards = themes[theme].map(card => card.id);
-        // Only save valid card IDs that exist in the theme
-        validatedSettings[theme] = currentThemeCards.filter(id => 
-          validThemeCards.includes(id)
-        );
+        if (!settingsToSave[theme]) {
+          // If theme has no settings, enable all cards
+          settingsToSave[theme] = themes[theme].map(card => card.id);
+        }
       });
 
       const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-      await setDoc(userSettingsDoc, validatedSettings);
-      setUserSettings(validatedSettings); // Update local state with validated settings
+      await setDoc(userSettingsDoc, settingsToSave);
+      setUserSettings(settingsToSave);
       setSaveSuccess(true);
     } catch (error) {
       console.error('Error saving settings:', error);
