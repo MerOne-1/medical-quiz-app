@@ -25,9 +25,16 @@ function App() {
           <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
             <NavBar />
             <Routes>
+              <Route
+                path="/"
+                element={
+                  <PrivateRoute>
+                    <ProjectSelect />
+                  </PrivateRoute>
+                }
+              />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
-
               <Route
                 path="/home"
                 element={
@@ -53,14 +60,6 @@ function App() {
                 }
               />
               <Route
-                path="/"
-                element={
-                  <PrivateRoute>
-                    <ProjectSelect />
-                  </PrivateRoute>
-                }
-              />
-              <Route
                 path="/quiz/:theme"
                 element={
                   <PrivateRoute>
@@ -73,22 +72,6 @@ function App() {
                 element={
                   <PrivateRoute>
                     <ResultsPage />
-                  </PrivateRoute>
-                }
-              />
-              <Route
-                path="/molecules"
-                element={
-                  <PrivateRoute>
-                    <MoleculesHomePage />
-                  </PrivateRoute>
-                }
-              />
-              <Route
-                path="/molecules/:theme"
-                element={
-                  <PrivateRoute>
-                    <MoleculesPage />
                   </PrivateRoute>
                 }
               />
