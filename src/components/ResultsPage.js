@@ -93,12 +93,26 @@ function ResultsPage() {
   }
 
   return (
-    <Box sx={{ bgcolor: 'background.default', minHeight: '100vh', py: 4 }}>
+    <Box sx={{ 
+      bgcolor: 'background.default', 
+      minHeight: '100vh', 
+      py: 6,
+      background: 'linear-gradient(180deg, rgba(0, 150, 136, 0.05) 0%, rgba(255, 255, 255, 0) 100%)'
+    }}>
       <Container maxWidth="lg">
         {/* Header */}
         <Box sx={{ textAlign: 'center', mb: 6 }}>
-          <School sx={{ fontSize: 48, color: 'primary.main', mb: 2 }} />
-          <Typography variant="h3" component="h1" gutterBottom color="primary.main">
+          <School sx={{ fontSize: 48, color: '#009688', mb: 2 }} />
+          <Typography 
+            variant="h3" 
+            component="h1" 
+            gutterBottom 
+            sx={{ 
+              color: '#009688',
+              fontWeight: 600,
+              fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' }
+            }}
+          >
             Résultats et Statistiques
           </Typography>
           <Typography variant="h6" color="text.secondary" gutterBottom>
@@ -111,7 +125,19 @@ function ResultsPage() {
           <Typography variant="h5" gutterBottom color="primary.main">
             Progression Globale
           </Typography>
-          <Paper elevation={2} sx={{ p: 2, bgcolor: '#ffffff' }}>
+          <Paper 
+            elevation={0} 
+            sx={{ 
+              p: 3, 
+              bgcolor: '#ffffff',
+              borderRadius: 2,
+              boxShadow: '0 2px 8px rgba(0, 150, 136, 0.1)',
+              transition: 'all 0.3s ease-in-out',
+              '&:hover': {
+                boxShadow: '0 4px 12px rgba(0, 150, 136, 0.15)'
+              }
+            }}
+          >
             <Box sx={{ width: '100%' }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 4 }}>
                 <LinearProgress 
@@ -125,11 +151,11 @@ function ResultsPage() {
                   )}
                   sx={{ 
                     flexGrow: 1, 
-                    height: 12, 
-                    borderRadius: 6,
-                    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+                    height: 8, 
+                    borderRadius: 4,
+                    backgroundColor: 'rgba(0, 150, 136, 0.1)',
                     '& .MuiLinearProgress-bar': {
-                      background: 'linear-gradient(90deg, #2196f3 0%, #1976d2 100%)'
+                      background: 'linear-gradient(90deg, #009688 0%, #00796b 100%)'
                     }
                   }}
                 />
@@ -148,7 +174,7 @@ function ResultsPage() {
                     textAlign: 'center',
                     p: 2,
                     borderRadius: 2,
-                    bgcolor: '#4caf50',
+                    bgcolor: '#009688',
                     color: '#ffffff'
                   }}>
                     <Typography variant="h6" gutterBottom>
@@ -186,7 +212,7 @@ function ResultsPage() {
                     textAlign: 'center',
                     p: 2,
                     borderRadius: 2,
-                    bgcolor: '#f44336',
+                    bgcolor: '#00695c',
                     color: '#ffffff'
                   }}>
                     <Typography variant="h6" gutterBottom>
