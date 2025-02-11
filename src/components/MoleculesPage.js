@@ -29,11 +29,11 @@ export default function MoleculesPage() {
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [cards, setCards] = useState([]);
+  const [allCards, setAllCards] = useState([]);
+  const [filteredCards, setFilteredCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
-  const [userSettings, setUserSettings] = useState(null);
   
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -46,14 +46,13 @@ export default function MoleculesPage() {
     'syst-nerveux': 'Syst-nerveux'
   };
 
-  // Load cards data and user settings
+  // Load all cards data
   useEffect(() => {
-    const loadData = async () => {
+    const loadCards = async () => {
       try {
         setLoading(true);
         setError(null);
         
-        // Load cards data
         const response = await fetch(`/molecules/data/${theme}.json`);
         if (!response.ok) {
           throw new Error(`Failed to load cards for ${theme}`);
@@ -63,39 +62,43 @@ export default function MoleculesPage() {
         if (!data || !Array.isArray(data.cards)) {
           throw new Error('Invalid data format');
         }
-
-        // Load user settings
-        if (user) {
-          const userSettingsDoc = await getDoc(doc(db, 'moleculeSettings', user.uid));
-          if (userSettingsDoc.exists()) {
-            const settings = userSettingsDoc.data();
-            setUserSettings(settings[theme] || data.cards.map(card => card.id));
-          } else {
-            // If no settings exist, enable all cards by default
-            setUserSettings(data.cards.map(card => card.id));
-          }
-        } else {
-          // If no user is logged in, show all cards
-          setUserSettings(data.cards.map(card => card.id));
-        }
-
-        // Filter cards based on user settings
-        const filteredCards = user && userSettings 
-          ? data.cards.filter(card => userSettings.includes(card.id))
-          : data.cards;
-
-        setCards(filteredCards);
-        setCurrentIndex(0); // Reset to first card when cards change
+        
+        setAllCards(data.cards);
+        setFilteredCards(data.cards); // Initially show all cards
       } catch (err) {
-        console.error('Error loading data:', err);
+        console.error('Error loading cards:', err);
         setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    loadData();
-  }, [theme, user, userSettings]);
+    loadCards();
+  }, [theme]);
+
+  // Load and apply user settings
+  useEffect(() => {
+    const loadSettings = async () => {
+      if (!user || allCards.length === 0) return;
+      
+      try {
+        const settingsDoc = await getDoc(doc(db, 'moleculeSettings', user.uid));
+        if (settingsDoc.exists()) {
+          const settings = settingsDoc.data();
+          const enabledCardIds = settings[theme];
+          
+          if (Array.isArray(enabledCardIds)) {
+            const filtered = allCards.filter(card => enabledCardIds.includes(card.id));
+            setFilteredCards(filtered.length > 0 ? filtered : allCards);
+          }
+        }
+      } catch (err) {
+        console.error('Error loading settings:', err);
+      }
+    };
+
+    loadSettings();
+  }, [user, theme, allCards]);
 
   // Load user ratings
   useEffect(() => {
@@ -155,7 +158,7 @@ export default function MoleculesPage() {
     );
   }
 
-  const currentCard = cards[currentIndex];
+  const currentCard = filteredCards[currentIndex];
   if (!currentCard) return null;
 
   // Get image path for current card
@@ -168,7 +171,7 @@ export default function MoleculesPage() {
           Back
         </Button>
         <Typography>
-          {currentIndex + 1} / {cards.length}
+          {currentIndex + 1} / {filteredCards.length}
         </Typography>
       </Box>
 
@@ -278,11 +281,11 @@ export default function MoleculesPage() {
             setFadeOut(true);
             setTimeout(() => {
               setIsFlipped(false);
-              setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+              setCurrentIndex(i => Math.min(filteredCards.length - 1, i + 1));
               setFadeOut(false);
             }, 150);
           }} 
-          disabled={currentIndex === cards.length - 1}
+          disabled={currentIndex === filteredCards.length - 1}
         >
           <NavigateNext />
         </IconButton>
