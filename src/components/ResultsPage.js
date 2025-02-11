@@ -8,20 +8,10 @@ import {
   Paper,
   Grid,
   CircularProgress,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
   LinearProgress,
-  Divider,
-  Card,
-  CardContent,
 } from '@mui/material';
 import {
-  ExpandMore,
   School,
-  CheckCircle,
-  Cancel,
-  Timeline,
 } from '@mui/icons-material';
 
 function ResultsPage() {
@@ -60,23 +50,19 @@ function ResultsPage() {
     const themeProgress = progress[themeId];
     if (!themeProgress) return null;
 
-    const totalQuestions = themeProgress.questions?.length || 0;
+    const totalQuestions = themeProgress.totalQuestions || 0;
+    if (totalQuestions === 0) return null;
+
     const answeredQuestions = Object.keys(themeProgress.answeredQuestions || {}).length;
-    const correctAnswers = Object.values(themeProgress.answeredQuestions || {})
-      .filter(answer => answer.isCorrect).length;
-    const partialCorrect = Object.values(themeProgress.answeredQuestions || {})
-      .filter(answer => answer.points > 0 && answer.points < 1).length;
+    const points = Object.values(themeProgress.answeredQuestions || {})
+      .reduce((sum, answer) => sum + (answer.points || 0), 0);
 
     return {
       progress: (answeredQuestions / totalQuestions) * 100,
-      correctPercentage: (correctAnswers / answeredQuestions) * 100 || 0,
-      partialCorrectPercentage: (partialCorrect / answeredQuestions) * 100 || 0,
+      points: Math.round(points * 10) / 10, // Round to 1 decimal
       totalQuestions,
       answeredQuestions,
-      correctAnswers,
-      partialCorrect,
-      score: themeProgress.stats?.correct || 0,
-      total: themeProgress.stats?.total || 0,
+      completed: answeredQuestions === totalQuestions
     };
   };
 
@@ -121,58 +107,64 @@ function ResultsPage() {
         </Box>
 
         {/* Overall Progress */}
-        <Grid container spacing={3} sx={{ mb: 4 }}>
-          <Grid item xs={12} md={4}>
-            <Card elevation={3}>
-              <CardContent>
-                <Box sx={{ textAlign: 'center' }}>
-                  <CheckCircle sx={{ fontSize: 40, color: 'success.main', mb: 1 }} />
-                  <Typography variant="h6" gutterBottom>
-                    Questions Réussies
-                  </Typography>
-                  <Typography variant="h4" color="success.main">
-                    {Object.values(progress).reduce((acc, curr) => 
-                      acc + Object.values(curr.answeredQuestions || {})
-                        .filter(a => a.isCorrect).length, 0)}
-                  </Typography>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Card elevation={3}>
-              <CardContent>
-                <Box sx={{ textAlign: 'center' }}>
-                  <Timeline sx={{ fontSize: 40, color: 'primary.main', mb: 1 }} />
-                  <Typography variant="h6" gutterBottom>
-                    Score Total
-                  </Typography>
-                  <Typography variant="h4" color="primary.main">
-                    {Object.values(progress).reduce((acc, curr) => 
-                      acc + (curr.stats?.correct || 0), 0).toFixed(1)}
-                  </Typography>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Card elevation={3}>
-              <CardContent>
-                <Box sx={{ textAlign: 'center' }}>
-                  <Cancel sx={{ fontSize: 40, color: 'error.main', mb: 1 }} />
-                  <Typography variant="h6" gutterBottom>
-                    Questions à Revoir
-                  </Typography>
-                  <Typography variant="h4" color="error.main">
-                    {Object.values(progress).reduce((acc, curr) => 
-                      acc + Object.values(curr.answeredQuestions || {})
-                        .filter(a => !a.isCorrect).length, 0)}
-                  </Typography>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
+        <Box sx={{ mb: 4 }}>
+          <Typography variant="h5" gutterBottom color="primary.main">
+            Progression Globale
+          </Typography>
+          <Paper elevation={3} sx={{ p: 3 }}>
+            <Box sx={{ width: '100%' }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
+                <LinearProgress 
+                  variant="determinate" 
+                  value={Math.min(
+                    (Object.values(progress).reduce((acc, curr) => 
+                      acc + Object.keys(curr.answeredQuestions || {}).length, 0) /
+                    Object.values(progress).reduce((acc, curr) => 
+                      acc + (curr.totalQuestions || 0), 0)) * 100,
+                    100
+                  )}
+                  sx={{ flexGrow: 1, height: 10, borderRadius: 5 }}
+                />
+                <Typography variant="body1" color="text.secondary">
+                  {Math.round(
+                    (Object.values(progress).reduce((acc, curr) => 
+                      acc + Object.keys(curr.answeredQuestions || {}).length, 0) /
+                    Object.values(progress).reduce((acc, curr) => 
+                      acc + (curr.totalQuestions || 0), 0)) * 100
+                  )}%
+                </Typography>
+              </Box>
+              <Grid container spacing={3}>
+                <Grid item xs={12} md={6}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h6" color="text.secondary" gutterBottom>
+                      Questions Répondues
+                    </Typography>
+                    <Typography variant="h4" color="primary.main">
+                      {Object.values(progress).reduce((acc, curr) => 
+                        acc + Object.keys(curr.answeredQuestions || {}).length, 0)}
+                      {' / '}
+                      {Object.values(progress).reduce((acc, curr) => 
+                        acc + (curr.totalQuestions || 0), 0)}
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                  <Box sx={{ textAlign: 'center' }}>
+                    <Typography variant="h6" color="text.secondary" gutterBottom>
+                      Points Obtenus
+                    </Typography>
+                    <Typography variant="h4" color="primary.main">
+                      {Object.values(progress).reduce((acc, curr) => 
+                        acc + Object.values(curr.answeredQuestions || {})
+                          .reduce((sum, answer) => sum + (answer.points || 0), 0), 0).toFixed(1)}
+                    </Typography>
+                  </Box>
+                </Grid>
+              </Grid>
+            </Box>
+          </Paper>
+        </Box>
 
         {/* Detailed Results by Theme */}
         {themes.map((theme) => {
@@ -180,40 +172,43 @@ function ResultsPage() {
           if (!stats) return null;
 
           return (
-            <Accordion key={theme.id} sx={{ mb: 2 }}>
-              <AccordionSummary expandIcon={<ExpandMore />}>
-                <Box sx={{ width: '100%' }}>
-                  <Typography variant="h6" sx={{ color: 'primary.main', mb: 1 }}>
-                    {theme.title}
+            <Paper key={theme.id} sx={{ mb: 2, p: 3 }}>
+              <Box sx={{ width: '100%' }}>
+                <Typography variant="h6" sx={{ color: 'primary.main', mb: 2 }}>
+                  {theme.title}
+                </Typography>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+                  <LinearProgress 
+                    variant="determinate" 
+                    value={stats.progress} 
+                    sx={{ flexGrow: 1, height: 10, borderRadius: 5 }}
+                  />
+                  <Typography variant="body1" color="text.secondary">
+                    {Math.round(stats.progress)}%
                   </Typography>
-                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                    <LinearProgress 
-                      variant="determinate" 
-                      value={stats.progress} 
-                      sx={{ flexGrow: 1, height: 8, borderRadius: 4 }}
-                    />
-                    <Typography variant="body2" color="text.secondary">
-                      {Math.round(stats.progress)}%
-                    </Typography>
-                  </Box>
                 </Box>
-              </AccordionSummary>
-              <AccordionDetails>
                 <Grid container spacing={2}>
-                  <Grid item xs={12} md={6}>
-                    <Paper sx={{ p: 2 }}>
-                      <Typography variant="subtitle1" gutterBottom>
-                        Statistiques Générales
-                      </Typography>
-                      <Divider sx={{ mb: 2 }} />
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Questions Totales:</Typography>
-                        <Typography>{stats.totalQuestions}</Typography>
-                      </Box>
-                      <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                        <Typography>Questions Répondues:</Typography>
-                        <Typography>{stats.answeredQuestions}</Typography>
-                      </Box>
+                  <Grid item xs={12} sm={6}>
+                    <Typography variant="body1" color="text.secondary">
+                      Questions répondues: {stats.answeredQuestions} / {stats.totalQuestions}
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12} sm={6}>
+                    <Typography variant="body1" color="text.secondary">
+                      Points: {stats.points}
+                    </Typography>
+                  </Grid>
+                </Grid>
+              </Box>
+            </Paper>
+          );
+        })}
+      </Container>
+    </Box>
+  );
+}
+
+export default ResultsPage;
                       <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
                         <Typography>Score:</Typography>
                         <Typography>{stats.score.toFixed(1)}/{stats.total}</Typography>
