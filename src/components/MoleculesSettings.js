@@ -17,6 +17,8 @@ import {
   Chip,
   IconButton,
   Tooltip,
+  Snackbar,
+  Alert,
 } from '@mui/material';
 import {
   ExpandMore,
@@ -34,6 +36,8 @@ export default function MoleculesSettings() {
   const [themes, setThemes] = useState({});
   const [userSettings, setUserSettings] = useState({});
   const [expandedTheme, setExpandedTheme] = useState(null);
+  const [saveSuccess, setSaveSuccess] = useState(false);
+  const [saveError, setSaveError] = useState(null);
 
   // Load all themes and their cards
   useEffect(() => {
@@ -56,6 +60,9 @@ export default function MoleculesSettings() {
         // Load each theme's cards
         for (const theme of themesList) {
           const response = await fetch(`/molecules/data/${theme}.json`);
+          if (!response.ok) {
+            throw new Error(`Failed to load theme ${theme}`);
+          }
           const data = await response.json();
           themesData[theme] = data.cards;
         }
@@ -68,7 +75,21 @@ export default function MoleculesSettings() {
           const settingsSnapshot = await getDoc(userSettingsDoc);
           
           if (settingsSnapshot.exists()) {
-            setUserSettings(settingsSnapshot.data());
+            const savedSettings = settingsSnapshot.data();
+            // Merge saved settings with any new themes/cards
+            const mergedSettings = {};
+            Object.keys(themesData).forEach(theme => {
+              const savedThemeCards = savedSettings[theme] || [];
+              const allThemeCards = themesData[theme].map(card => card.id);
+              // Include saved cards that exist in the theme, plus any new cards
+              mergedSettings[theme] = Array.from(new Set([
+                ...savedThemeCards.filter(id => allThemeCards.includes(id)),
+                ...allThemeCards
+              ]));
+            });
+            setUserSettings(mergedSettings);
+            // Save merged settings back to Firebase
+            await setDoc(userSettingsDoc, mergedSettings);
           } else {
             // Initialize with all cards enabled
             const initialSettings = {};
@@ -76,10 +97,13 @@ export default function MoleculesSettings() {
               initialSettings[theme] = themesData[theme].map(card => card.id);
             });
             setUserSettings(initialSettings);
+            // Save initial settings to Firebase
+            await setDoc(userSettingsDoc, initialSettings);
           }
         }
       } catch (error) {
         console.error('Error loading themes:', error);
+        setSaveError('Erreur lors du chargement des thèmes');
       } finally {
         setLoading(false);
       }
@@ -114,14 +138,33 @@ export default function MoleculesSettings() {
   };
 
   const saveSettings = async () => {
-    if (!user) return;
+    if (!user) {
+      setSaveError('Vous devez être connecté pour sauvegarder vos paramètres');
+      return;
+    }
 
     try {
       setSaving(true);
+      setSaveError(null);
+      
+      // Validate settings before saving
+      const validatedSettings = {};
+      Object.keys(themes).forEach(theme => {
+        const currentThemeCards = userSettings[theme] || [];
+        const validThemeCards = themes[theme].map(card => card.id);
+        // Only save valid card IDs that exist in the theme
+        validatedSettings[theme] = currentThemeCards.filter(id => 
+          validThemeCards.includes(id)
+        );
+      });
+
       const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-      await setDoc(userSettingsDoc, userSettings);
+      await setDoc(userSettingsDoc, validatedSettings);
+      setUserSettings(validatedSettings); // Update local state with validated settings
+      setSaveSuccess(true);
     } catch (error) {
       console.error('Error saving settings:', error);
+      setSaveError('Erreur lors de la sauvegarde. Veuillez réessayer.');
     } finally {
       setSaving(false);
     }
@@ -170,6 +213,28 @@ export default function MoleculesSettings() {
         >
           {saving ? 'Enregistrement...' : 'Enregistrer'}
         </Button>
+
+        <Snackbar 
+          open={saveSuccess} 
+          autoHideDuration={3000} 
+          onClose={() => setSaveSuccess(false)}
+          anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+        >
+          <Alert severity="success" onClose={() => setSaveSuccess(false)}>
+            Paramètres sauvegardés avec succès
+          </Alert>
+        </Snackbar>
+
+        <Snackbar 
+          open={!!saveError} 
+          autoHideDuration={3000} 
+          onClose={() => setSaveError(null)}
+          anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+        >
+          <Alert severity="error" onClose={() => setSaveError(null)}>
+            {saveError}
+          </Alert>
+        </Snackbar>
       </Box>
 
       {Object.entries(themes).map(([themeId, cards]) => (
