@@ -41,16 +41,44 @@ export default function NavBar() {
           QCMs CSP
         </Typography>
         {user ? (
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 1, sm: 2 } }}>
             <Button
               color="inherit"
               startIcon={<Assessment />}
+              sx={{
+                display: { xs: 'none', sm: 'flex' }
+              }}
+            >
+              Résultats
+            </Button>
+            <IconButton
+              color="inherit"
+              onClick={() => navigate('/results')}
+              sx={{
+                display: { xs: 'flex', sm: 'none' }
+              }}
+            >
+              <Assessment />
+            </IconButton>
               onClick={() => navigate('/results')}
             >
               Résultats
             </Button>
-            <Typography variant="body1">
+            <Typography 
+              variant="body1" 
+              sx={{ 
+                display: { xs: 'none', sm: 'block' }
+              }}
+            >
               {user.email}
+            </Typography>
+            <Typography 
+              variant="body1" 
+              sx={{ 
+                display: { xs: 'block', sm: 'none' }
+              }}
+            >
+              {user.email.split('@')[0]}
             </Typography>
             <IconButton
               color="inherit"
