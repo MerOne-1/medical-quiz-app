@@ -33,6 +33,7 @@ export default function MoleculesPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
+  const [userSettings, setUserSettings] = useState(null);
   
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -45,13 +46,14 @@ export default function MoleculesPage() {
     'syst-nerveux': 'Syst-nerveux'
   };
 
-  // Load cards data
+  // Load cards data and user settings
   useEffect(() => {
-    const loadCards = async () => {
+    const loadData = async () => {
       try {
         setLoading(true);
         setError(null);
         
+        // Load cards data
         const response = await fetch(`/molecules/data/${theme}.json`);
         if (!response.ok) {
           throw new Error(`Failed to load cards for ${theme}`);
@@ -61,18 +63,39 @@ export default function MoleculesPage() {
         if (!data || !Array.isArray(data.cards)) {
           throw new Error('Invalid data format');
         }
-        
-        setCards(data.cards);
+
+        // Load user settings
+        if (user) {
+          const userSettingsDoc = await getDoc(doc(db, 'moleculeSettings', user.uid));
+          if (userSettingsDoc.exists()) {
+            const settings = userSettingsDoc.data();
+            setUserSettings(settings[theme] || data.cards.map(card => card.id));
+          } else {
+            // If no settings exist, enable all cards by default
+            setUserSettings(data.cards.map(card => card.id));
+          }
+        } else {
+          // If no user is logged in, show all cards
+          setUserSettings(data.cards.map(card => card.id));
+        }
+
+        // Filter cards based on user settings
+        const filteredCards = user && userSettings 
+          ? data.cards.filter(card => userSettings.includes(card.id))
+          : data.cards;
+
+        setCards(filteredCards);
+        setCurrentIndex(0); // Reset to first card when cards change
       } catch (err) {
-        console.error('Error loading cards:', err);
+        console.error('Error loading data:', err);
         setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    loadCards();
-  }, [theme]);
+    loadData();
+  }, [theme, user, userSettings]);
 
   // Load user ratings
   useEffect(() => {
