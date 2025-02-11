@@ -47,11 +47,24 @@ export async function submitRegistrationRequest(email) {
 // Save quiz progress
 export async function saveQuizProgress(userId, themeId, progress) {
   try {
+    console.log('Saving progress for user:', userId, 'theme:', themeId, 'data:', progress);
     const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
-    await setDoc(progressRef, {
+    
+    // Get existing data first
+    const existingDoc = await getDoc(progressRef);
+    const existingData = existingDoc.exists() ? existingDoc.data() : {};
+    
+    // Merge with new data, ensuring we don't lose existing data
+    const updatedProgress = {
+      ...existingData,
       ...progress,
       lastUpdated: serverTimestamp(),
-    }, { merge: true });
+      userId: userId,
+      themeId: themeId
+    };
+    
+    await setDoc(progressRef, updatedProgress);
+    console.log('Progress saved successfully');
     return true;
   } catch (error) {
     console.error('Error saving progress:', error);
@@ -62,17 +75,23 @@ export async function saveQuizProgress(userId, themeId, progress) {
 // Load quiz progress
 export async function loadQuizProgress(userId, themeId) {
   try {
+    console.log('Loading progress for user:', userId, 'theme:', themeId);
     const progressRef = doc(db, 'userProgress', userId, 'quizzes', themeId);
     const docSnap = await getDoc(progressRef);
+    
     if (docSnap.exists()) {
       const data = docSnap.data();
+      console.log('Found progress data:', data);
       return {
         ...data,
         answeredQuestions: data.answeredQuestions || {},
         skippedQuestions: data.skippedQuestions || [],
-        stats: data.stats || { correct: 0, total: 0 }
+        stats: data.stats || { correct: 0, total: 0 },
+        totalQuestions: data.totalQuestions || 0,
+        lastQuestionIndex: data.lastQuestionIndex || 0
       };
     }
+    console.log('No existing progress found');
     return null;
   } catch (error) {
     console.error('Error loading progress:', error);
@@ -95,19 +114,26 @@ export async function resetQuizProgress(userId, themeId) {
 // Get all quiz progress for a user
 export async function getAllQuizProgress(userId) {
   try {
+    console.log('Loading all progress for user:', userId);
     const progressRef = collection(db, 'userProgress', userId, 'quizzes');
     const querySnapshot = await getDocs(progressRef);
     const progress = {};
+    
     querySnapshot.forEach((doc) => {
       const data = doc.data();
+      console.log('Found progress for theme:', doc.id, data);
       progress[doc.id] = {
         ...data,
         themeId: doc.id,
         answeredQuestions: data.answeredQuestions || {},
         skippedQuestions: data.skippedQuestions || [],
-        stats: data.stats || { correct: 0, total: 0 }
+        stats: data.stats || { correct: 0, total: 0 },
+        totalQuestions: data.totalQuestions || 0,
+        lastQuestionIndex: data.lastQuestionIndex || 0
       };
     });
+    
+    console.log('Final progress data:', progress);
     return progress;
   } catch (error) {
     console.error('Error loading all progress:', error);

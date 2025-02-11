@@ -207,9 +207,11 @@ function QuizPage() {
         stats: newStats,
         totalQuestions: questions.length,
         themeId: theme,
-        lastQuestionIndex: currentQuestionIndex
+        lastQuestionIndex: currentQuestionIndex,
+        skippedQuestions: skippedQuestions, // Include skipped questions
+        completed: Object.keys(newAnsweredQuestions).length === questions.length // Track completion
       };
-      console.log('Saving progress:', progressData);
+      console.log('Saving answer progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
   };

@@ -149,8 +149,8 @@ function HomePage() {
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                               <LinearProgress 
                                 variant="determinate" 
-                                value={Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
-                                  (quizProgress[theme.id].totalQuestions || 1)) * 100)}
+                                value={Math.round((quizProgress[theme.id].stats?.total || 0) / 
+                                  (quizProgress[theme.id].totalQuestions || 1) * 100)}
                                 sx={{
                                   flexGrow: 1,
                                   mr: 1,
@@ -158,13 +158,17 @@ function HomePage() {
                                   borderRadius: 5,
                                   bgcolor: 'grey.200',
                                   '& .MuiLinearProgress-bar': {
-                                    bgcolor: 'primary.main'
+                                    bgcolor: quizProgress[theme.id].completed ? 'success.main' : 'primary.main'
                                   }
                                 }}
                               />
-                              <Typography variant="body2" color="primary.main" sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}>
-                                {Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
-                                  (quizProgress[theme.id].totalQuestions || 1)) * 100)}%
+                              <Typography 
+                                variant="body2" 
+                                color={quizProgress[theme.id].completed ? 'success.main' : 'primary.main'}
+                                sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}
+                              >
+                                {Math.round((quizProgress[theme.id].stats?.total || 0) / 
+                                  (quizProgress[theme.id].totalQuestions || 1) * 100)}%
                               </Typography>
                             </Box>
                           </>
