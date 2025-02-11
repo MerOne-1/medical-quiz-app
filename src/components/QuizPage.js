@@ -48,6 +48,7 @@ function QuizPage() {
     const loadSavedProgress = async () => {
       if (user && theme) {
         try {
+          console.log('Loading saved progress for user:', user.uid, 'theme:', theme);
           const progress = await loadQuizProgress(user.uid, theme);
           if (progress) {
             console.log('Loaded progress:', progress);
@@ -202,15 +203,24 @@ function QuizPage() {
 
     // Save progress to Firebase
     if (user && questions.length > 0) {
+      // Calculate total answered and correct
+      const totalAnswered = Object.keys(newAnsweredQuestions).length;
+      const correctAnswers = Object.values(newAnsweredQuestions)
+        .filter(answer => answer.isCorrect).length;
+      
       const progressData = {
         answeredQuestions: newAnsweredQuestions,
-        stats: newStats,
+        stats: {
+          total: totalAnswered,
+          correct: correctAnswers
+        },
         totalQuestions: questions.length,
         themeId: theme,
         lastQuestionIndex: currentQuestionIndex,
-        skippedQuestions: skippedQuestions, // Include skipped questions
-        completed: Object.keys(newAnsweredQuestions).length === questions.length // Track completion
+        skippedQuestions: skippedQuestions,
+        completed: totalAnswered === questions.length
       };
+      
       console.log('Saving answer progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
