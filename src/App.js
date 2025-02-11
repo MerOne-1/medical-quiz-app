@@ -25,6 +25,8 @@ function App() {
           <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
             <NavBar />
             <Routes>
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
               <Route
                 path="/"
                 element={
@@ -33,8 +35,6 @@ function App() {
                   </PrivateRoute>
                 }
               />
-              <Route path="/login" element={<Login />} />
-              <Route path="/signup" element={<Signup />} />
               <Route
                 path="/home"
                 element={
@@ -72,6 +72,14 @@ function App() {
                 element={
                   <PrivateRoute>
                     <ResultsPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="*"
+                element={
+                  <PrivateRoute>
+                    <ProjectSelect />
                   </PrivateRoute>
                 }
               />
