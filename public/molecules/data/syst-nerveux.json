@@ -1,0 +1,299 @@
+{
+  "theme": "Syst-nerveux",
+  "cards": [
+    {
+      "id": "1",
+      "image": "Syst-nerveux/agomelatine.png",
+      "name": "Agomélatine",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "2",
+      "image": "Syst-nerveux/alprazolam.png",
+      "name": "Alprazolam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "3",
+      "image": "Syst-nerveux/amisulpride.png",
+      "name": "Amisulpride",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "4",
+      "image": "Syst-nerveux/amoxapine.png",
+      "name": "Amoxapine",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "5",
+      "image": "Syst-nerveux/aripiprazole.png",
+      "name": "Aripiprazole",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "6",
+      "image": "Syst-nerveux/bromazepam.png",
+      "name": "Bromazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "7",
+      "image": "Syst-nerveux/chlorpromazine.png",
+      "name": "Chlorpromazine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "8",
+      "image": "Syst-nerveux/clorazepate.png",
+      "name": "Clorazépate",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "9",
+      "image": "Syst-nerveux/clotiazepam.png",
+      "name": "Clotiazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "10",
+      "image": "Syst-nerveux/clozapine.png",
+      "name": "Clozapine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "11",
+      "image": "Syst-nerveux/cyamémazine.png",
+      "name": "Cyamémazine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "12",
+      "image": "Syst-nerveux/desvenlafaxine.png",
+      "name": "Desvenlafaxine",
+      "details": "Antidépresseur (IRSN)"
+    },
+    {
+      "id": "13",
+      "image": "Syst-nerveux/diazepam.png",
+      "name": "Diazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "14",
+      "image": "Syst-nerveux/droperidol.png",
+      "name": "Dropéridol",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "15",
+      "image": "Syst-nerveux/duloxetine.png",
+      "name": "Duloxétine",
+      "details": "Antidépresseur (IRSN)"
+    },
+    {
+      "id": "16",
+      "image": "Syst-nerveux/escitalopram.png",
+      "name": "Escitalopram",
+      "details": "Antidépresseur (ISRS)"
+    },
+    {
+      "id": "17",
+      "image": "Syst-nerveux/estazolam.png",
+      "name": "Estazolam",
+      "details": "Hypnotique (benzodiazépine)"
+    },
+    {
+      "id": "18",
+      "image": "Syst-nerveux/etifoxine.png",
+      "name": "Étifoxine",
+      "details": "Anxiolytique"
+    },
+    {
+      "id": "19",
+      "image": "Syst-nerveux/flumazenil.png",
+      "name": "Flumazénil",
+      "details": "Antagoniste des benzodiazépines"
+    },
+    {
+      "id": "20",
+      "image": "Syst-nerveux/fluoxetine.png",
+      "name": "Fluoxétine",
+      "details": "Antidépresseur (ISRS)"
+    },
+    {
+      "id": "21",
+      "image": "Syst-nerveux/fluvoxamine.png",
+      "name": "Fluvoxamine",
+      "details": "Antidépresseur (ISRS)"
+    },
+    {
+      "id": "22",
+      "image": "Syst-nerveux/haloperidol.png",
+      "name": "Halopéridol",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "23",
+      "image": "Syst-nerveux/iproniazide.png",
+      "name": "Iproniazide",
+      "details": "Antidépresseur (IMAO)"
+    },
+    {
+      "id": "24",
+      "image": "Syst-nerveux/levomepromazine.png",
+      "name": "Lévomépromazine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "25",
+      "image": "Syst-nerveux/loprazolam.png",
+      "name": "Loprazolam",
+      "details": "Hypnotique (benzodiazépine)"
+    },
+    {
+      "id": "26",
+      "image": "Syst-nerveux/lorazepam.png",
+      "name": "Lorazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "27",
+      "image": "Syst-nerveux/lormetazepam.png",
+      "name": "Lormétazépam",
+      "details": "Hypnotique (benzodiazépine)"
+    },
+    {
+      "id": "28",
+      "image": "Syst-nerveux/maprotiline.png",
+      "name": "Maprotiline",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "29",
+      "image": "Syst-nerveux/mianserine.png",
+      "name": "Miansérine",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "30",
+      "image": "Syst-nerveux/midazolam.png",
+      "name": "Midazolam",
+      "details": "Hypnotique (benzodiazépine)"
+    },
+    {
+      "id": "31",
+      "image": "Syst-nerveux/milnacipran.png",
+      "name": "Milnacipran",
+      "details": "Antidépresseur (IRSN)"
+    },
+    {
+      "id": "32",
+      "image": "Syst-nerveux/mirtazapine.png",
+      "name": "Mirtazapine",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "33",
+      "image": "Syst-nerveux/moclobémide.png",
+      "name": "Moclobémide",
+      "details": "Antidépresseur (IMAO-A)"
+    },
+    {
+      "id": "34",
+      "image": "Syst-nerveux/nitrazepam.png",
+      "name": "Nitrazépam",
+      "details": "Hypnotique (benzodiazépine)"
+    },
+    {
+      "id": "35",
+      "image": "Syst-nerveux/olanzapine.png",
+      "name": "Olanzapine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "36",
+      "image": "Syst-nerveux/oxazepam.png",
+      "name": "Oxazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "37",
+      "image": "Syst-nerveux/paliperidone.png",
+      "name": "Palipéridone",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "38",
+      "image": "Syst-nerveux/paroxetine.png",
+      "name": "Paroxétine",
+      "details": "Antidépresseur (ISRS)"
+    },
+    {
+      "id": "39",
+      "image": "Syst-nerveux/pimozide.png",
+      "name": "Pimozide",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "40",
+      "image": "Syst-nerveux/pipamperone.png",
+      "name": "Pipampérone",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "41",
+      "image": "Syst-nerveux/prazepam.png",
+      "name": "Prazépam",
+      "details": "Anxiolytique (benzodiazépine)"
+    },
+    {
+      "id": "42",
+      "image": "Syst-nerveux/quetiapine.png",
+      "name": "Quétiapine",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "43",
+      "image": "Syst-nerveux/risperidone.png",
+      "name": "Rispéridone",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "44",
+      "image": "Syst-nerveux/sertraline.png",
+      "name": "Sertraline",
+      "details": "Antidépresseur (ISRS)"
+    },
+    {
+      "id": "45",
+      "image": "Syst-nerveux/sulpride.png",
+      "name": "Sulpiride",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "46",
+      "image": "Syst-nerveux/tianeptine.png",
+      "name": "Tianeptine",
+      "details": "Antidépresseur"
+    },
+    {
+      "id": "47",
+      "image": "Syst-nerveux/tiapride.png",
+      "name": "Tiapride",
+      "details": "Antipsychotique"
+    },
+    {
+      "id": "48",
+      "image": "Syst-nerveux/venlafaxine.png",
+      "name": "Venlafaxine",
+      "details": "Antidépresseur (IRSN)"
+    },
+    {
+      "id": "49",
+      "image": "Syst-nerveux/vortioxetine.png",
+      "name": "Vortioxétine",
+      "details": "Antidépresseur"
+    }
+  ]
+}

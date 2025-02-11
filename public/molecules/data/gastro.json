@@ -1,0 +1,155 @@
+{
+  "theme": "Gastro",
+  "cards": [
+    {
+      "id": "1",
+      "image": "Gastro/Alizapride.png",
+      "name": "Alizapride",
+      "details": "Antiémétique"
+    },
+    {
+      "id": "2",
+      "image": "Gastro/Aprépitant.png",
+      "name": "Aprépitant",
+      "details": "Antiémétique (antagoniste NK1)"
+    },
+    {
+      "id": "3",
+      "image": "Gastro/Cimétidine.png",
+      "name": "Cimétidine",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "4",
+      "image": "Gastro/Dolasétron.png",
+      "name": "Dolasétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    },
+    {
+      "id": "5",
+      "image": "Gastro/Dompéridone.png",
+      "name": "Dompéridone",
+      "details": "Antiémétique"
+    },
+    {
+      "id": "6",
+      "image": "Gastro/Esoméprazole.png",
+      "name": "Esoméprazole",
+      "details": "Inhibiteur de la pompe à protons"
+    },
+    {
+      "id": "7",
+      "image": "Gastro/Famotidine.png",
+      "name": "Famotidine",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "8",
+      "image": "Gastro/Granisétron.png",
+      "name": "Granisétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    },
+    {
+      "id": "9",
+      "image": "Gastro/Halopéridol.png",
+      "name": "Halopéridol",
+      "details": "Antiémétique"
+    },
+    {
+      "id": "10",
+      "image": "Gastro/Lansoprazole.png",
+      "name": "Lansoprazole",
+      "details": "Inhibiteur de la pompe à protons"
+    },
+    {
+      "id": "11",
+      "image": "Gastro/Metoclopramide.png",
+      "name": "Métoclopramide",
+      "details": "Antiémétique"
+    },
+    {
+      "id": "12",
+      "image": "Gastro/Métiamide.png",
+      "name": "Métiamide",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "13",
+      "image": "Gastro/Métopimazine.png",
+      "name": "Métopimazine",
+      "details": "Antiémétique"
+    },
+    {
+      "id": "14",
+      "image": "Gastro/Misoprostol.png",
+      "name": "Misoprostol",
+      "details": "Analogue de la prostaglandine E1"
+    },
+    {
+      "id": "15",
+      "image": "Gastro/Nizatidine.png",
+      "name": "Nizatidine",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "16",
+      "image": "Gastro/Odansétron.png",
+      "name": "Odansétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    },
+    {
+      "id": "17",
+      "image": "Gastro/PGE1.png",
+      "name": "PGE1",
+      "details": "Prostaglandine E1"
+    },
+    {
+      "id": "18",
+      "image": "Gastro/PGE2.png",
+      "name": "PGE2",
+      "details": "Prostaglandine E2"
+    },
+    {
+      "id": "19",
+      "image": "Gastro/Palonosétron.png",
+      "name": "Palonosétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    },
+    {
+      "id": "20",
+      "image": "Gastro/Pantoprazole.png",
+      "name": "Pantoprazole",
+      "details": "Inhibiteur de la pompe à protons"
+    },
+    {
+      "id": "21",
+      "image": "Gastro/Rabéprazole.png",
+      "name": "Rabéprazole",
+      "details": "Inhibiteur de la pompe à protons"
+    },
+    {
+      "id": "22",
+      "image": "Gastro/Ramosétron.png",
+      "name": "Ramosétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    },
+    {
+      "id": "23",
+      "image": "Gastro/Ranitidine.png",
+      "name": "Ranitidine",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "24",
+      "image": "Gastro/Roxatidine.png",
+      "name": "Roxatidine",
+      "details": "Anti-H2"
+    },
+    {
+      "id": "25",
+      "image": "Gastro/Tropisétron.png",
+      "name": "Tropisétron",
+      "details": "Antiémétique (antagoniste 5-HT3)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "themes": [
+    {
+      "id": "hematologie",
+      "title": "Hématologie",
+      "description": "Molécules liées aux pathologies hématologiques",
+      "cardCount": 0
+    },
+    {
+      "id": "asthme",
+      "title": "Asthme",
+      "description": "Médicaments pour le traitement de l'asthme",
+      "cardCount": 0
+    },
+    {
+      "id": "alcaloides",
+      "title": "Alcaloïdes",
+      "description": "Structures des alcaloïdes importants",
+      "cardCount": 3
+    },
+    {
+      "id": "antibiotiques",
+      "title": "Antibiotiques",
+      "description": "Structures des principales classes d'antibiotiques",
+      "cardCount": 0
+    },
+    {
+      "id": "antidepresseurs",
+      "title": "Antidépresseurs",
+      "description": "Molécules utilisées dans le traitement de la dépression",
+      "cardCount": 0
+    },
+    {
+      "id": "antiviraux",
+      "title": "Antiviraux",
+      "description": "Médicaments antiviraux et leurs structures",
+      "cardCount": 0
+    }
+  ]
+}

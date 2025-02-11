@@ -1,0 +1,23 @@
+{
+  "theme": "Alcaloïdes",
+  "cards": [
+    {
+      "id": "1",
+      "image": "sample1.svg",
+      "name": "Morphine",
+      "details": "Alcaloïde opiacé - Analgésique puissant\nFormule: C17H19NO3\nMasse molaire: 285.34 g/mol"
+    },
+    {
+      "id": "2",
+      "image": "sample2.svg",
+      "name": "Codéine",
+      "details": "Dérivé méthylé de la morphine - Antitussif\nFormule: C18H21NO3\nMasse molaire: 299.36 g/mol"
+    },
+    {
+      "id": "3",
+      "image": "sample3.svg",
+      "name": "Caféine",
+      "details": "Alcaloïde stimulant\nFormule: C8H10N4O2\nMasse molaire: 194.19 g/mol"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "themes": [
+    {
+      "id": "antibact-antisept",
+      "title": "Antibactériens et Antiseptiques",
+      "description": "Molécules antibactériennes et antiseptiques",
+      "cardCount": 82
+    },
+    {
+      "id": "broncho",
+      "title": "Broncho-pneumologie",
+      "description": "Molécules utilisées en pneumologie et traitement respiratoire",
+      "cardCount": 31
+    },
+    {
+      "id": "gastro",
+      "title": "Gastro-entérologie",
+      "description": "Molécules pour le traitement des pathologies digestives",
+      "cardCount": 25
+    },
+    {
+      "id": "immuno-hemato",
+      "title": "Immuno-hématologie",
+      "description": "Molécules immunologiques et hématologiques",
+      "cardCount": 0
+    },
+    {
+      "id": "infectio",
+      "title": "Infectiologie",
+      "description": "Molécules anti-infectieuses",
+      "cardCount": 20
+    },
+    {
+      "id": "onco",
+      "title": "Oncologie",
+      "description": "Molécules utilisées en traitement du cancer",
+      "cardCount": 60
+    },
+    {
+      "id": "syst-nerveux",
+      "title": "Système Nerveux",
+      "description": "Molécules agissant sur le système nerveux",
+      "cardCount": 50
+    }
+  ]
+}

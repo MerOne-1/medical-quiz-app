@@ -1,5 +1,8 @@
 import React from 'react';
+import MoleculesPage from './components/MoleculesPage';
+import MoleculesHomePage from './components/MoleculesHomePage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProjectSelect from './components/ProjectSelect';
 import { ThemeProvider } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { theme } from './styles/theme';
@@ -25,10 +28,26 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route
-                path="/"
+                path="/select"
+                element={
+                  <PrivateRoute>
+                    <ProjectSelect />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/home"
                 element={
                   <PrivateRoute>
                     <HomePage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/"
+                element={
+                  <PrivateRoute>
+                    <ProjectSelect />
                   </PrivateRoute>
                 }
               />
@@ -45,6 +64,22 @@ function App() {
                 element={
                   <PrivateRoute>
                     <ResultsPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules"
+                element={
+                  <PrivateRoute>
+                    <MoleculesHomePage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/:theme"
+                element={
+                  <PrivateRoute>
+                    <MoleculesPage />
                   </PrivateRoute>
                 }
               />

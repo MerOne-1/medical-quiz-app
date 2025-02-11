@@ -1,0 +1,125 @@
+{
+  "theme": "Infectio",
+  "cards": [
+    {
+      "id": "1",
+      "image": "Infectio/Amikacine.png",
+      "name": "Amikacine",
+      "details": "Aminoside"
+    },
+    {
+      "id": "2",
+      "image": "Infectio/Boceprevir.png",
+      "name": "Boceprevir",
+      "details": "Antiviral (anti-VHC)"
+    },
+    {
+      "id": "3",
+      "image": "Infectio/Cobicistat.png",
+      "name": "Cobicistat",
+      "details": "Booster pharmacocinétique"
+    },
+    {
+      "id": "4",
+      "image": "Infectio/Darunavir.gif",
+      "name": "Darunavir",
+      "details": "Antirétroviral (IP)"
+    },
+    {
+      "id": "5",
+      "image": "Infectio/Dolutegravir.png",
+      "name": "Dolutegravir",
+      "details": "Antirétroviral (INI)"
+    },
+    {
+      "id": "6",
+      "image": "Infectio/Efavirenz.png",
+      "name": "Efavirenz",
+      "details": "Antirétroviral (INNTI)"
+    },
+    {
+      "id": "7",
+      "image": "Infectio/Emtricitabine.png",
+      "name": "Emtricitabine",
+      "details": "Antirétroviral (INTI)"
+    },
+    {
+      "id": "8",
+      "image": "Infectio/Fostemsavir.png",
+      "name": "Fostemsavir",
+      "details": "Antirétroviral"
+    },
+    {
+      "id": "9",
+      "image": "Infectio/Glecaprevir.png",
+      "name": "Glecaprevir",
+      "details": "Antiviral (anti-VHC)"
+    },
+    {
+      "id": "10",
+      "image": "Infectio/Maraviroc.png",
+      "name": "Maraviroc",
+      "details": "Antirétroviral (antagoniste CCR5)"
+    },
+    {
+      "id": "11",
+      "image": "Infectio/Nirmatrelvir.png",
+      "name": "Nirmatrelvir",
+      "details": "Antiviral (anti-COVID-19)"
+    },
+    {
+      "id": "12",
+      "image": "Infectio/Oseltamivir.png",
+      "name": "Oseltamivir",
+      "details": "Antiviral (anti-influenza)"
+    },
+    {
+      "id": "13",
+      "image": "Infectio/Pibrentasvir.png",
+      "name": "Pibrentasvir",
+      "details": "Antiviral (anti-VHC)"
+    },
+    {
+      "id": "14",
+      "image": "Infectio/Remdesevir.png",
+      "name": "Remdesivir",
+      "details": "Antiviral (anti-COVID-19)"
+    },
+    {
+      "id": "15",
+      "image": "Infectio/Rilpivirine.png",
+      "name": "Rilpivirine",
+      "details": "Antirétroviral (INNTI)"
+    },
+    {
+      "id": "16",
+      "image": "Infectio/Ritonavir.png",
+      "name": "Ritonavir",
+      "details": "Antirétroviral (IP)"
+    },
+    {
+      "id": "17",
+      "image": "Infectio/Sasquinavir.png",
+      "name": "Saquinavir",
+      "details": "Antirétroviral (IP)"
+    },
+    {
+      "id": "18",
+      "image": "Infectio/Sofosbuvir.png",
+      "name": "Sofosbuvir",
+      "details": "Antiviral (anti-VHC)"
+    },
+    {
+      "id": "19",
+      "image": "Infectio/Ténofovir.png",
+      "name": "Ténofovir",
+      "details": "Antirétroviral (INTI)"
+    },
+    {
+      "id": "20",
+      "image": "Infectio/Zanamivir.png",
+      "name": "Zanamivir",
+      "details": "Antiviral (anti-influenza)"
+    }
+  ]
+}

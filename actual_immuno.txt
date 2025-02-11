@@ -1,0 +1,22 @@
+6-mercaptopurine.png
+Azathioprine.png
+Biotine.png
+Ciclosporine.png
+Cladribine.png
+Cyclophosphamide.png
+Dimethyl fumarate.png
+Everolimus.png
+Fingolimod.png
+Hydroxychloroquine.png
+Leflunomide.png
+Méthotrexate.png
+Mitoxantrone.png
+Mycophénolate mofétil.png
+Prednisolone.png
+Prednisone.png
+Sirolimus.png
+Sulfasalazine.png
+Tacrolimus.png
+Teriflunomide.png
+guanylhistamine.png
+histamine.png

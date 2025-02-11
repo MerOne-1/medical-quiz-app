@@ -436,7 +436,7 @@ function QuizPage() {
                   }}
                 >
                   <img
-                    src={`/images/themes/${themeId}/${currentQuestion.image}`}
+                    src={`/images/themes/${theme}/${currentQuestion.image}`}
                     alt="Question illustration"
                     style={{
                       maxWidth: '100%',

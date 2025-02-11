@@ -1,0 +1,20 @@
+Abacavir.png
+Aciclovir.png
+Amphotéricine B.png
+Atazanavir.png
+Atovaquone.png
+Darunavir.png
+Didanosine.png
+Efavirenz.png
+Emtricitabine.png
+Fluconazole.png
+Ganciclovir.png
+Itraconazole.png
+Lamivudine.png
+Méfloquine.png
+Métronidazole.png
+Névirapine.png
+Oseltamivir.png
+Posaconazole.png
+Ritonavir.png
+Voriconazole.png
