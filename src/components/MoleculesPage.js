@@ -445,7 +445,7 @@ export default function MoleculesPage() {
         </Typography>
         <Box sx={{ display: 'flex', gap: 1 }}>
           {[1, 2, 3, 4, 5].map((value) => {
-            const isSelected = (ratings[currentCard?.id] || 0) >= value;
+            const isSelected = (ratings[currentCard?.id] || 0) === value;
             const getColor = (value) => {
               if (value <= 1) return '#f44336'; // Red
               if (value <= 2) return '#ff9800'; // Orange
