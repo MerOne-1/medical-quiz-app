@@ -29,6 +29,7 @@ const cardStyles = {
   transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-out',
   opacity: 1,
   transform: 'scale(1)',
+  minHeight: '60vh',
   '&.changing': {
     opacity: 0,
     transform: 'scale(0.95)',
@@ -66,6 +67,7 @@ const cardStyles = {
     transform: 'translateZ(0)',
     pointerEvents: 'none',
     transition: 'box-shadow 0.3s ease-in-out',
+    padding: 2,
   },
   '& .card-back': {
     transform: 'rotateY(180deg)',
@@ -395,55 +397,22 @@ export default function MoleculesPage() {
                   <Box
                     component="img"
                     src={formatImagePath(theme, currentCard.image)}
-                    crossOrigin="anonymous"
                     alt={currentCard.name || 'Molécule'}
                     onError={(e) => {
-                      const imagePath = formatImagePath(theme, currentCard.image);
                       console.error('Error loading image:', {
-                        path: imagePath,
+                        path: formatImagePath(theme, currentCard.image),
                         cardName: currentCard.name,
-                        imageProperty: currentCard.image,
-                        theme,
-                        themeDir: themeToDirectory[theme]
+                        theme
                       });
-                      
-                      // Try to fetch the image to get more details about the error
-                      fetch(imagePath)
-                        .then(async response => {
-                          if (!response.ok) {
-                            const text = await response.text();
-                            throw new Error(`HTTP error! status: ${response.status}, response: ${text}`);
-                          }
-                          return response.blob();
-                        })
-                        .catch(error => {
-                          console.error('Fetch error:', error);
-                          // Try alternate path without /molecules prefix
-                          const alternatePath = imagePath.replace('/molecules/', '/');
-                          console.log('Trying alternate path:', alternatePath);
-                          return fetch(alternatePath);
-                        })
-                        .then(response => {
-                          if (response && !response.ok) {
-                            throw new Error(`HTTP error with alternate path! status: ${response.status}`);
-                          }
-                          return response?.blob();
-                        })
-                        .catch(error => {
-                          console.error('All fetch attempts failed:', error);
-                        });
-                      e.target.onerror = null; // Prevent infinite loop
-                      e.target.style.display = 'none';
                       // Show error message
                       const errorEl = document.getElementById(`error-${currentCard.id}`);
                       if (errorEl) errorEl.style.display = 'block';
                     }}
                     onLoad={(e) => {
                       console.log('Successfully loaded image:', {
-                        path: `/molecules/images/${currentCard.image}`,
+                        path: formatImagePath(theme, currentCard.image),
                         cardName: currentCard.name
                       });
-                      e.target.style.display = 'block';
                       // Hide error message
                       const errorEl = document.getElementById(`error-${currentCard.id}`);
                       if (errorEl) errorEl.style.display = 'none';
@@ -452,7 +421,9 @@ export default function MoleculesPage() {
                       width: '100%',
                       height: '100%',
                       objectFit: 'contain',
-                      display: 'none', // Start hidden until loaded
+                      maxHeight: '60vh',
+                      padding: 2,
+                      backgroundColor: 'background.paper'
                     }}
                   />
                   <Typography
