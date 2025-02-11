@@ -22,7 +22,6 @@ import {
 } from '@mui/icons-material';
 
 export default function MoleculesPage() {
-  const TRANSITION_DURATION = 600; // Duration in ms matching our CSS transition
   const { theme } = useParams();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -32,7 +31,6 @@ export default function MoleculesPage() {
   const [cards, setCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [isTransitioning, setIsTransitioning] = useState(false);
   const [ratings, setRatings] = useState({});
   
   // Map theme names to their directory names
@@ -162,10 +160,7 @@ export default function MoleculesPage() {
             pointerEvents: 'none'
           }
         }}
-        onClick={() => {
-          if (isTransitioning) return;
-          setIsFlipped(!isFlipped);
-        }}
+        onClick={() => setIsFlipped(!isFlipped)}
       >
         <Box
           sx={{
@@ -173,7 +168,7 @@ export default function MoleculesPage() {
             width: '100%',
             height: '100%',
             transformStyle: 'preserve-3d',
-            transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
+            transition: 'transform 0.3s ease-out',
             transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
             WebkitTransformStyle: 'preserve-3d',
             WebkitBackfaceVisibility: 'hidden',
@@ -235,15 +230,10 @@ export default function MoleculesPage() {
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton 
           onClick={() => {
-            if (isTransitioning) return;
-            setIsTransitioning(true);
             setIsFlipped(false);
-            setTimeout(() => {
-              setCurrentIndex(i => Math.max(0, i - 1));
-              setIsTransitioning(false);
-            }, TRANSITION_DURATION);
+            setCurrentIndex(i => Math.max(0, i - 1));
           }} 
-          disabled={currentIndex === 0 || isTransitioning}
+          disabled={currentIndex === 0}
         >
           <NavigateBefore />
         </IconButton>
@@ -255,15 +245,10 @@ export default function MoleculesPage() {
         </IconButton>
         <IconButton 
           onClick={() => {
-            if (isTransitioning) return;
-            setIsTransitioning(true);
             setIsFlipped(false);
-            setTimeout(() => {
-              setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
-              setIsTransitioning(false);
-            }, TRANSITION_DURATION);
+            setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
           }} 
-          disabled={currentIndex === cards.length - 1 || isTransitioning}
+          disabled={currentIndex === cards.length - 1}
         >
           <NavigateNext />
         </IconButton>
