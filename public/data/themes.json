@@ -2,121 +2,121 @@
   {
     "id": "bacteriologie",
     "title": "Bactériologie",
-    "description": "Questions de Bactériologie",
+    "description": "Évaluez vos connaissances en bactériologie",
     "filename": "Bactériologie.json"
   },
   {
     "id": "biochimie",
     "title": "Biochimie",
-    "description": "Questions de Biochimie",
+    "description": "Testez vos connaissances en biochimie",
     "filename": "Biochimie.json"
   },
   {
     "id": "biologie-cellulaire-et-moleculaire",
     "title": "Biologie cellulaire et moléculaire",
-    "description": "Questions de Biologie cellulaire et moléculaire",
+    "description": "Maîtrisez la biologie cellulaire et moléculaire",
     "filename": "Biologie cellulaire et moléculaire.json"
   },
   {
     "id": "biomathematiques",
     "title": "Biomathématiques",
-    "description": "Questions de Biomathématiques",
+    "description": "Exercez-vous en biomathématiques",
     "filename": "Biomathématiques.json"
   },
   {
     "id": "biophysique",
     "title": "Biophysique",
-    "description": "Questions de Biophysique",
+    "description": "Révisez vos connaissances en biophysique",
     "filename": "Biophysique.json"
   },
   {
     "id": "chimie-analytique",
     "title": "Chimie analytique",
-    "description": "Questions de Chimie analytique",
+    "description": "Approfondissez la chimie analytique",
     "filename": "Chimie analytique.json"
   },
   {
     "id": "chimie-generale-et-bio-inorganique",
     "title": "Chimie générale et bio inorganique",
-    "description": "Questions de Chimie générale et bio inorganique",
+    "description": "Explorez la chimie générale et bio inorganique",
     "filename": "Chimie générale et bio inorganique.json"
   },
   {
     "id": "chimie-organique",
     "title": "Chimie organique",
-    "description": "Questions de Chimie organique",
+    "description": "Perfectionnez-vous en chimie organique",
     "filename": "Chimie organique.json"
   },
   {
     "id": "chimie-therapeutique",
     "title": "Chimie thérapeutique",
-    "description": "Questions de Chimie thérapeutique",
+    "description": "Développez vos compétences en chimie thérapeutique",
     "filename": "Chimie thérapeutique.json"
   },
   {
     "id": "droit-pharmaceutique",
     "title": "Droit pharmaceutique",
-    "description": "Questions de Droit pharmaceutique",
+    "description": "Consolidez vos connaissances en droit pharmaceutique",
     "filename": "Droit pharmaceutique.json"
   },
   {
     "id": "hematologie",
     "title": "Hématologie",
-    "description": "Questions de Hématologie",
+    "description": "Approfondissez l'hématologie",
     "filename": "Hématologie.json"
   },
   {
     "id": "immunologie",
     "title": "Immunologie",
-    "description": "Questions de Immunologie",
+    "description": "Maîtrisez les concepts d'immunologie",
     "filename": "Immunologie.json"
   },
   {
     "id": "parasitologie-mycologie-medicale-et-biologie-animale",
     "title": "Parasitologie, mycologie médicale et biologie animale",
-    "description": "Questions de Parasitologie, mycologie médicale et biologie animale",
+    "description": "Explorez la parasitologie et la mycologie médicale",
     "filename": "Parasitologie, mycologie médicale et biologie animale.json"
   },
   {
     "id": "pharmacie-galenique",
     "title": "Pharmacie galénique",
-    "description": "Questions de Pharmacie galénique",
+    "description": "Perfectionnez-vous en pharmacie galénique",
     "filename": "Pharmacie galénique.json"
   },
   {
     "id": "pharmacognosie",
     "title": "Pharmacognosie",
-    "description": "Questions de Pharmacognosie",
+    "description": "Développez vos connaissances en pharmacognosie",
     "filename": "Pharmacognosie.json"
   },
   {
     "id": "pharmacologie-et-pharmacie-clinique",
     "title": "Pharmacologie et pharmacie clinique",
-    "description": "Questions de Pharmacologie et pharmacie clinique",
+    "description": "Approfondissez la pharmacologie clinique",
     "filename": "Pharmacologie et pharmacie clinique.json"
   },
   {
     "id": "physiologie",
     "title": "Physiologie",
-    "description": "Questions de Physiologie",
+    "description": "Testez vos connaissances en physiologie",
     "filename": "Physiologie.json"
   },
   {
     "id": "sciences-vegetales-et-fongiques",
     "title": "Sciences végétales et fongiques",
-    "description": "Questions de Sciences végétales et fongiques",
+    "description": "Explorez les sciences végétales et fongiques",
     "filename": "Sciences végétales et fongiques.json"
   },
   {
     "id": "toxicologie-et-sante-publique",
     "title": "Toxicologie et santé publique",
-    "description": "Questions de Toxicologie et santé publique",
+    "description": "Maîtrisez la toxicologie et la santé publique",
     "filename": "Toxicologie et santé publique.json"
   },
   {
     "id": "virologie",
     "title": "Virologie",
-    "description": "Questions de Virologie",
+    "description": "Approfondissez vos connaissances en virologie",
     "filename": "Virologie.json"
   }
 ]

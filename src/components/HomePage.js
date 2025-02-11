@@ -15,8 +15,14 @@ function HomePage() {
   useEffect(() => {
     const loadProgress = async () => {
       if (user) {
-        const progress = await getAllQuizProgress(user.uid);
-        setQuizProgress(progress);
+        try {
+          console.log('Loading progress for user:', user.uid);
+          const progress = await getAllQuizProgress(user.uid);
+          console.log('Loaded progress:', progress);
+          setQuizProgress(progress);
+        } catch (error) {
+          console.error('Error loading progress:', error);
+        }
       }
     };
     loadProgress();
@@ -129,28 +135,61 @@ function HomePage() {
                       >
                         {theme.title}
                       </Typography>
-                      <Typography variant="body2" color="text.secondary" gutterBottom>
-                        {theme.description}
-                      </Typography>
-                      {quizProgress[theme.id] && (
-                        <Box sx={{ mt: 2 }}>
-                          <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                            <Typography variant="body2" color="text.secondary">
-                              Progression
-                            </Typography>
-                            <Typography variant="body2" color="primary">
-                              {Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
-                                (quizProgress[theme.id].questions || []).length) * 100)}%
+                      <Box sx={{ mt: 2 }}>
+                        {quizProgress[theme.id] ? (
+                          <>
+                            <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                              <Typography variant="body2" color="text.secondary">
+                                Score:
+                              </Typography>
+                              <Typography variant="body2" color="primary.main" sx={{ fontWeight: 'bold' }}>
+                                {quizProgress[theme.id].stats?.correct || 0}/{quizProgress[theme.id].stats?.total || 0}
+                              </Typography>
+                            </Box>
+                            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                              <LinearProgress 
+                                variant="determinate" 
+                                value={Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
+                                  (quizProgress[theme.id].totalQuestions || 1)) * 100)}
+                                sx={{
+                                  flexGrow: 1,
+                                  mr: 1,
+                                  height: 10,
+                                  borderRadius: 5,
+                                  bgcolor: 'grey.200',
+                                  '& .MuiLinearProgress-bar': {
+                                    bgcolor: 'primary.main'
+                                  }
+                                }}
+                              />
+                              <Typography variant="body2" color="primary.main" sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}>
+                                {Math.round((Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
+                                  (quizProgress[theme.id].totalQuestions || 1)) * 100)}%
+                              </Typography>
+                            </Box>
+                          </>
+                        ) : (
+                          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                            <LinearProgress 
+                              variant="determinate" 
+                              value={0}
+                              sx={{
+                                flexGrow: 1,
+                                mr: 1,
+                                height: 10,
+                                borderRadius: 5,
+                                bgcolor: 'grey.200',
+                                '& .MuiLinearProgress-bar': {
+                                  bgcolor: 'primary.main'
+                                }
+                              }}
+                            />
+                            <Typography variant="body2" color="text.secondary" sx={{ fontWeight: 'bold', minWidth: '45px', textAlign: 'right' }}>
+                              0%
                             </Typography>
                           </Box>
-                          <LinearProgress 
-                            variant="determinate" 
-                            value={(Object.keys(quizProgress[theme.id].answeredQuestions || {}).length / 
-                              (quizProgress[theme.id].questions || []).length) * 100}
-                            sx={{ height: 6, borderRadius: 3 }}
-                          />
-                        </Box>
-                      )}
+                        )}
+                      </Box>
                     </CardContent>
                   </CardActionArea>
                 </Card>

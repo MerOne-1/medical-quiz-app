@@ -201,7 +201,7 @@ function QuizPage() {
     setAnsweredQuestions(newAnsweredQuestions);
 
     // Save progress to Firebase
-    if (user) {
+    if (user && questions.length > 0) {
       const progressData = {
         answeredQuestions: newAnsweredQuestions,
         stats: newStats,
@@ -209,6 +209,7 @@ function QuizPage() {
         themeId: theme,
         lastQuestionIndex: currentQuestionIndex
       };
+      console.log('Saving progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
   };
@@ -226,12 +227,16 @@ function QuizPage() {
     setCurrentQuestionIndex(newIndex);
 
     // Save current position to Firebase
-    if (user) {
+    if (user && questions.length > 0) {
       const progressData = {
         lastQuestionIndex: newIndex,
         totalQuestions: questions.length,
-        themeId: theme
+        themeId: theme,
+        answeredQuestions: answeredQuestions,
+        stats: stats,
+        skippedQuestions: skippedQuestions
       };
+      console.log('Saving navigation progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
   };
@@ -241,11 +246,16 @@ function QuizPage() {
     setSkippedQuestions(newSkippedQuestions);
 
     // Save skipped questions to Firebase
-    if (user) {
+    if (user && questions.length > 0) {
       const progressData = {
         skippedQuestions: newSkippedQuestions,
-        lastQuestionIndex: currentQuestionIndex
+        lastQuestionIndex: currentQuestionIndex,
+        totalQuestions: questions.length,
+        themeId: theme,
+        answeredQuestions: answeredQuestions,
+        stats: stats
       };
+      console.log('Saving skip progress:', progressData);
       await saveQuizProgress(user.uid, theme, progressData);
     }
 
