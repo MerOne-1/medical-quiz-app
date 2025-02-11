@@ -63,7 +63,7 @@ function App() {
                 path="/"
                 element={
                   <PrivateRoute>
-                    <HomePage />
+                    <ProjectSelect />
                   </PrivateRoute>
                 }
               />
