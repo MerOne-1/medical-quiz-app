@@ -99,23 +99,14 @@ function ResultsPage() {
       py: 6,
       background: 'linear-gradient(180deg, rgba(0, 150, 136, 0.05) 0%, rgba(255, 255, 255, 0) 100%)'
     }}>
-      <Container maxWidth="lg">
+      <Container maxWidth="md">
         {/* Header */}
-        <Box sx={{ textAlign: 'center', mb: 6 }}>
-          <School sx={{ fontSize: 48, color: '#009688', mb: 2 }} />
-          <Typography 
-            variant="h3" 
-            component="h1" 
-            gutterBottom 
-            sx={{ 
-              color: '#009688',
-              fontWeight: 600,
-              fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' }
-            }}
-          >
+        <Box sx={{ textAlign: 'center', mb: 4 }}>
+          <School sx={{ fontSize: 40, color: 'primary.main', mb: 1 }} />
+          <Typography variant="h4" component="h1" gutterBottom color="primary.main">
             Résultats et Statistiques
           </Typography>
-          <Typography variant="h6" color="text.secondary" gutterBottom>
+          <Typography variant="subtitle1" color="text.secondary" gutterBottom>
             Suivez votre progression et identifiez vos points forts
           </Typography>
         </Box>
@@ -125,21 +116,9 @@ function ResultsPage() {
           <Typography variant="h5" gutterBottom color="primary.main">
             Progression Globale
           </Typography>
-          <Paper 
-            elevation={0} 
-            sx={{ 
-              p: 3, 
-              bgcolor: '#ffffff',
-              borderRadius: 2,
-              boxShadow: '0 2px 8px rgba(0, 150, 136, 0.1)',
-              transition: 'all 0.3s ease-in-out',
-              '&:hover': {
-                boxShadow: '0 4px 12px rgba(0, 150, 136, 0.15)'
-              }
-            }}
-          >
+          <Paper elevation={1} sx={{ p: 2, bgcolor: '#ffffff', borderRadius: 1 }}>
             <Box sx={{ width: '100%' }}>
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 4 }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 3 }}>
                 <LinearProgress 
                   variant="determinate" 
                   value={Math.min(
