@@ -59,7 +59,7 @@ export default function MoleculesSettings() {
 
         // Load each theme's cards
         for (const theme of themesList) {
-          const response = await fetch(`/molecules/data/${theme}.json`);
+          const response = await fetch(`/data/molecules/${theme}.json`);
           if (!response.ok) {
             throw new Error(`Failed to load theme ${theme}`);
           }
@@ -81,13 +81,17 @@ export default function MoleculesSettings() {
             Object.keys(themesData).forEach(theme => {
               if (savedSettings[theme]) {
                 // Keep existing settings for this theme
-                updatedSettings[theme] = savedSettings[theme];
+                const validCardIds = themesData[theme].map(card => card.id);
+                // Filter out any invalid card IDs
+                updatedSettings[theme] = savedSettings[theme].filter(id => validCardIds.includes(id));
               } else {
                 // Initialize new theme with all cards
                 updatedSettings[theme] = themesData[theme].map(card => card.id);
               }
             });
             setUserSettings(updatedSettings);
+            // Save the cleaned up settings
+            await setDoc(userSettingsDoc, updatedSettings);
           } else {
             // Initialize with all cards enabled
             const initialSettings = {};
@@ -119,7 +123,7 @@ export default function MoleculesSettings() {
       
       // Initialize theme array if it doesn't exist
       if (!newSettings[themeId]) {
-        newSettings[themeId] = themes[themeId].map(card => card.id);
+        newSettings[themeId] = [];
       }
       
       // Toggle the card
@@ -138,7 +142,11 @@ export default function MoleculesSettings() {
   const handleThemeToggle = (themeId, enable) => {
     setUserSettings(prev => {
       const newSettings = { ...prev };
-      newSettings[themeId] = enable ? themes[themeId].map(card => card.id) : [];
+      if (enable && themes[themeId]) {
+        newSettings[themeId] = themes[themeId].map(card => card.id);
+      } else {
+        newSettings[themeId] = [];
+      }
       return newSettings;
     });
   };
@@ -153,18 +161,28 @@ export default function MoleculesSettings() {
       setSaving(true);
       setSaveError(null);
       
-      // Make sure we have settings for all themes
-      const settingsToSave = { ...userSettings };
+      // Validate and clean up settings before saving
+      const validatedSettings = {};
       Object.keys(themes).forEach(theme => {
-        if (!settingsToSave[theme]) {
-          // If theme has no settings, enable all cards
-          settingsToSave[theme] = themes[theme].map(card => card.id);
+        const currentThemeCards = userSettings[theme] || [];
+        const validCardIds = themes[theme].map(card => card.id);
+        
+        // If no cards are selected, select all cards for this theme
+        if (currentThemeCards.length === 0) {
+          validatedSettings[theme] = validCardIds;
+        } else {
+          // Only keep valid card IDs
+          validatedSettings[theme] = currentThemeCards.filter(id => validCardIds.includes(id));
+          // If all cards were invalid, select all cards
+          if (validatedSettings[theme].length === 0) {
+            validatedSettings[theme] = validCardIds;
+          }
         }
       });
 
       const userSettingsDoc = doc(db, 'moleculeSettings', user.uid);
-      await setDoc(userSettingsDoc, settingsToSave);
-      setUserSettings(settingsToSave);
+      await setDoc(userSettingsDoc, validatedSettings);
+      setUserSettings(validatedSettings);
       setSaveSuccess(true);
     } catch (error) {
       console.error('Error saving settings:', error);
