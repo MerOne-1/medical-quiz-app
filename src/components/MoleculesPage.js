@@ -22,6 +22,7 @@ import {
 } from '@mui/icons-material';
 
 export default function MoleculesPage() {
+  const TRANSITION_DURATION = 600; // Duration in ms matching our CSS transition
   const { theme } = useParams();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -31,6 +32,7 @@ export default function MoleculesPage() {
   const [cards, setCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const [ratings, setRatings] = useState({});
   
   // Map theme names to their directory names
@@ -160,7 +162,10 @@ export default function MoleculesPage() {
             pointerEvents: 'none'
           }
         }}
-        onClick={() => setIsFlipped(!isFlipped)}
+        onClick={() => {
+          if (isTransitioning) return;
+          setIsFlipped(!isFlipped);
+        }}
       >
         <Box
           sx={{
@@ -230,10 +235,15 @@ export default function MoleculesPage() {
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
         <IconButton 
           onClick={() => {
+            if (isTransitioning) return;
+            setIsTransitioning(true);
             setIsFlipped(false);
-            setCurrentIndex(i => Math.max(0, i - 1));
+            setTimeout(() => {
+              setCurrentIndex(i => Math.max(0, i - 1));
+              setIsTransitioning(false);
+            }, TRANSITION_DURATION);
           }} 
-          disabled={currentIndex === 0}
+          disabled={currentIndex === 0 || isTransitioning}
         >
           <NavigateBefore />
         </IconButton>
@@ -245,10 +255,15 @@ export default function MoleculesPage() {
         </IconButton>
         <IconButton 
           onClick={() => {
+            if (isTransitioning) return;
+            setIsTransitioning(true);
             setIsFlipped(false);
-            setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+            setTimeout(() => {
+              setCurrentIndex(i => Math.min(cards.length - 1, i + 1));
+              setIsTransitioning(false);
+            }, TRANSITION_DURATION);
           }} 
-          disabled={currentIndex === cards.length - 1}
+          disabled={currentIndex === cards.length - 1 || isTransitioning}
         >
           <NavigateNext />
         </IconButton>
