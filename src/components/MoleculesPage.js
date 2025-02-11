@@ -141,7 +141,7 @@ export default function MoleculesPage() {
       console.error('Error loading cards:', error);
       setCards([]);
     }
-  }, [theme, user]);
+  }, [theme, user, themeToDirectory]);
 
   useEffect(() => {
     loadCards();
@@ -237,7 +237,7 @@ export default function MoleculesPage() {
         setIsChanging(false);
       }, 50);
     }, 200);
-  }, [shuffledMode, cards, loadCards]);
+  }, [shuffledMode, cards, loadCards, filteredCards, theme, userSettings]);
 
   const handleReset = useCallback(() => {
     navigateToCard(0);
