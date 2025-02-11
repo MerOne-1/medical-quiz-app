@@ -97,6 +97,24 @@ export default function MoleculesPage() {
     'syst-nerveux': 'Syst-nerveux'
   };
 
+  // Helper function to format image path
+  const formatImagePath = (theme, imagePath) => {
+    if (!imagePath) return '';
+    
+    // If path already starts with /molecules/, return as is
+    if (imagePath.startsWith('/molecules/')) {
+      return imagePath;
+    }
+
+    // If path already includes the theme directory, return with /molecules/ prefix
+    if (imagePath.startsWith(themeToDirectory[theme])) {
+      return `/molecules/${imagePath}`;
+    }
+
+    // Otherwise, construct the full path
+    return `/molecules/${themeToDirectory[theme]}/${imagePath}`;
+  };
+
   // Special case for immuno-hemato theme which doesn't need the theme prefix
   const shouldPrefixTheme = (theme, imagePath) => {
     if (theme === 'immuno-hemato' && !imagePath.startsWith('Immuno-hemato/')) {
@@ -145,7 +163,14 @@ export default function MoleculesPage() {
         throw new Error(`Format de données invalide pour le thème ${theme}`);
       }
       
-      setCards(data.cards);
+      // Update image paths
+      const updatedCards = data.cards.map(card => ({
+        ...card,
+        image: formatImagePath(theme, card.image)
+      }));
+      
+      console.log('Updated cards with formatted paths:', updatedCards);
+      setCards(updatedCards);
     } catch (error) {
       console.error('Error loading cards:', error);
       setCards([]);
