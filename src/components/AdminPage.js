@@ -47,24 +47,40 @@ export default function AdminPage() {
   useEffect(() => {
     const checkAdminAccess = async () => {
       if (!user) {
+        console.log('No user found');
         navigate('/');
         return;
       }
 
+      console.log('Checking access for user:', user.email);
+
       try {
         // Get the authorized admins document
-        const adminsDoc = await getDoc(doc(db, 'adminAccess', 'authorizedEmails'));
+        const adminsRef = doc(db, 'adminAccess', 'authorizedEmails');
+        console.log('Fetching admin document...');
+        
+        const adminsDoc = await getDoc(adminsRef);
+        
         if (!adminsDoc.exists()) {
           console.error('Admin configuration not found');
           navigate('/');
           return;
         }
 
-        const authorizedEmails = adminsDoc.data().emails || [];
+        const data = adminsDoc.data();
+        console.log('Admin document data:', data);
+        
+        const authorizedEmails = data.emails || [];
+        console.log('Authorized emails:', authorizedEmails);
+        
         if (!authorizedEmails.includes(user.email)) {
           console.error('Unauthorized access attempt');
           navigate('/');
+          return;
         }
+
+        console.log('Access granted!');
+        setLoading(false);
       } catch (err) {
         console.error('Error checking admin access:', err);
         navigate('/');
