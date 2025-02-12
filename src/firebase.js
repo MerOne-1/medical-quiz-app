@@ -29,11 +29,12 @@ export async function checkExistingRequest(email) {
 }
 
 // Function to submit a registration request
-export async function submitRegistrationRequest(email) {
+export async function submitRegistrationRequest(email, password) {
   try {
     const requestsRef = collection(db, 'registrationRequests');
     await addDoc(requestsRef, {
       email,
+      password,  // Store the password temporarily
       status: 'pending',
       createdAt: serverTimestamp(),
     });

@@ -50,7 +50,7 @@ export default function Signup() {
           setError('Une demande d\'accès est déjà en cours pour cette adresse email. Veuillez patienter.');
         } else {
           // Submit new registration request
-          const submitted = await submitRegistrationRequest(email);
+          const submitted = await submitRegistrationRequest(email, password);
           if (submitted) {
             setRequestSubmitted(true);
           } else {

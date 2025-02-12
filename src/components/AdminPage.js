@@ -144,30 +144,48 @@ export default function AdminPage() {
   const handleAccept = async (request) => {
     try {
       setLoading(true);
+      console.log('Request data:', request);
+      console.log('Starting approval process for:', request.email);
       
       // Create Firebase auth user
+      console.log('Creating Firebase auth user...');
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         request.email,
         request.password
       );
+      console.log('Firebase auth user created successfully');
 
       // Create user document
+      console.log('Creating user document...');
       await setDoc(doc(db, 'users', userCredential.user.uid), {
         email: request.email,
         name: request.name,
         createdAt: new Date().toISOString()
       });
+      console.log('User document created successfully');
+
+      // Add to allowedEmails collection
+      console.log('Adding to allowedEmails collection...');
+      const allowedEmailsRef = doc(db, 'allowedEmails', request.email);
+      await setDoc(allowedEmailsRef, { 
+        email: request.email,
+        approved: true,
+        approvedAt: new Date().toISOString()
+      });
+      console.log('Added to allowedEmails successfully');
 
       // Delete the request
+      console.log('Deleting registration request...');
       await deleteDoc(doc(db, 'registrationRequests', request.id));
+      console.log('Registration request deleted successfully');
 
       // Update local state
       setRequests(prev => prev.filter(r => r.id !== request.id));
       setSuccessMessage('User registration approved successfully');
     } catch (err) {
       console.error('Error accepting request:', err);
-      setError('Failed to approve registration');
+      setError(`Failed to approve registration: ${err.message}`);
     } finally {
       setLoading(false);
     }
