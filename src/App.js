@@ -2,6 +2,7 @@ import React from 'react';
 import MoleculesPage from './components/MoleculesPage';
 import MoleculesHomePage from './components/MoleculesHomePage';
 import MoleculesSettings from './components/MoleculesSettings';
+import AdminPage from './components/AdminPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectSelect from './components/ProjectSelect';
 import { ThemeProvider } from '@mui/material';
@@ -28,6 +29,7 @@ function App() {
             <Routes>
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
+              <Route path="/admin" element={<PrivateRoute><AdminPage /></PrivateRoute>} />
               <Route
                 path="/"
                 element={

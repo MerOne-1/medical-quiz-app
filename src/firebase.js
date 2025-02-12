@@ -249,5 +249,20 @@ const initializeFirestore = async () => {
   }
 };
 
+// Function to set up admin access
+export async function setupAdminAccess(adminEmail) {
+  try {
+    // Add the admin email to the authorized list
+    await setDoc(doc(db, 'adminAccess', 'authorizedEmails'), {
+      emails: [adminEmail]
+    });
+    console.log('Admin access configured successfully');
+    return true;
+  } catch (error) {
+    console.error('Error setting up admin access:', error);
+    return false;
+  }
+}
+
 // Call initialization
 initializeFirestore();
