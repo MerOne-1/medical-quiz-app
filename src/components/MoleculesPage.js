@@ -371,13 +371,7 @@ export default function MoleculesPage() {
         </IconButton>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 1, mt: 2 }}>
-        <Typography component="legend">Difficulty</Typography>
-        <Rating
-          value={ratings[currentCard.id] || 0}
-          onChange={(_, value) => saveRating(currentCard.id, value)}
-        />
-      </Box>
+
     </Container>
   );
 }
