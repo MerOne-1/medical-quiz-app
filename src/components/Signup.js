@@ -16,21 +16,14 @@ import { School } from '@mui/icons-material';
 
 export default function Signup() {
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [passwordConfirm, setPasswordConfirm] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const { signup } = useAuth();
   const navigate = useNavigate();
 
   const [requestSubmitted, setRequestSubmitted] = useState(false);
 
   async function handleSubmit(e) {
     e.preventDefault();
-
-    if (password !== passwordConfirm) {
-      return setError('Les mots de passe ne correspondent pas');
-    }
 
     try {
       setError('');
@@ -40,8 +33,8 @@ export default function Signup() {
       const allowed = await isEmailAllowed(email);
       
       if (allowed) {
-        await signup(email, password);
-        navigate('/');
+        setError('Cette adresse email est déjà autorisée. Veuillez vous connecter.');
+        setTimeout(() => navigate('/login'), 2000);
       } else {
         // Check if a request already exists
         const existingRequest = await checkExistingRequest(email);
@@ -50,7 +43,7 @@ export default function Signup() {
           setError('Une demande d\'accès est déjà en cours pour cette adresse email. Veuillez patienter.');
         } else {
           // Submit new registration request
-          const submitted = await submitRegistrationRequest(email, password);
+          const submitted = await submitRegistrationRequest(email);
           if (submitted) {
             setRequestSubmitted(true);
           } else {
@@ -59,7 +52,7 @@ export default function Signup() {
         }
       }
     } catch (error) {
-      setError('Failed to create an account. ' + error.message);
+      setError('Erreur lors de la demande d\'inscription. ' + error.message);
     }
     setLoading(false);
   }
@@ -108,24 +101,7 @@ export default function Signup() {
                 margin="normal"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-              />
-              <TextField
-                label="Mot de passe"
-                type="password"
-                required
-                fullWidth
-                margin="normal"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <TextField
-                label="Confirmer le mot de passe"
-                type="password"
-                required
-                fullWidth
-                margin="normal"
-                value={passwordConfirm}
-                onChange={(e) => setPasswordConfirm(e.target.value)}
+                helperText="Entrez votre adresse email pour demander l'accès"
               />
               <Button
                 type="submit"

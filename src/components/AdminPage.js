@@ -144,36 +144,29 @@ export default function AdminPage() {
   const handleAccept = async (request) => {
     try {
       setLoading(true);
-      console.log('Request data:', request);
       console.log('Starting approval process for:', request.email);
+
+      // Generate a unique token for the setup link
+      const token = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
       
-      // Create Firebase auth user
-      console.log('Creating Firebase auth user...');
-      const userCredential = await createUserWithEmailAndPassword(
-        auth,
-        request.email,
-        request.password
-      );
-      console.log('Firebase auth user created successfully');
-
-      // Create user document
-      console.log('Creating user document...');
-      await setDoc(doc(db, 'users', userCredential.user.uid), {
-        email: request.email,
-        name: request.name,
-        createdAt: new Date().toISOString()
-      });
-      console.log('User document created successfully');
-
-      // Add to allowedEmails collection
+      // Add to allowedEmails collection with token
       console.log('Adding to allowedEmails collection...');
       const allowedEmailsRef = doc(db, 'allowedEmails', request.email);
       await setDoc(allowedEmailsRef, { 
         email: request.email,
         approved: true,
-        approvedAt: new Date().toISOString()
+        approvedAt: new Date().toISOString(),
+        setupToken: token,
+        setupTokenExpires: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString() // 24 hours from now
       });
       console.log('Added to allowedEmails successfully');
+
+      // Send approval email using a cloud function
+      const setupUrl = `${window.location.origin}/setup-account?email=${encodeURIComponent(request.email)}&token=${token}`;
+      
+      // Here you would call your cloud function to send the email
+      // For now, we'll just show the URL in the success message
+      console.log('Setup URL:', setupUrl);
 
       // Delete the request
       console.log('Deleting registration request...');
@@ -182,10 +175,10 @@ export default function AdminPage() {
 
       // Update local state
       setRequests(prev => prev.filter(r => r.id !== request.id));
-      setSuccessMessage('User registration approved successfully');
+      setSuccessMessage(`Demande approuvée. URL de configuration : ${setupUrl}`);
     } catch (err) {
       console.error('Error accepting request:', err);
-      setError(`Failed to approve registration: ${err.message}`);
+      setError(`Erreur lors de l'approbation : ${err.message}`);
     } finally {
       setLoading(false);
     }

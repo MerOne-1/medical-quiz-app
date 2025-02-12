@@ -12,6 +12,7 @@ import QuizPage from './components/QuizPage';
 import HomePage from './components/HomePage';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import SetupAccount from './components/SetupAccount';
 import ResultsPage from './components/ResultsPage';
 import NavBar from './components/NavBar';
 import PrivateRoute from './components/PrivateRoute';
@@ -29,6 +30,7 @@ function App() {
             <Routes>
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
+              <Route path="/setup-account" element={<SetupAccount />} />
               <Route path="/admin" element={<PrivateRoute><AdminPage /></PrivateRoute>} />
               <Route
                 path="/"
