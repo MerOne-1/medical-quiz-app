@@ -12,14 +12,56 @@ import {
   CardContent,
   CardMedia,
   Button,
-  Rating,
   CircularProgress,
+  Stack,
+  Tooltip,
 } from '@mui/material';
 import {
   NavigateNext,
   NavigateBefore,
   Refresh,
 } from '@mui/icons-material';
+
+const RatingCircle = ({ value, isSelected, onClick }) => {
+  const getColor = () => {
+    if (value === 1) return '#ff4444';
+    if (value === 2) return '#ff8c42';
+    if (value === 3) return '#ffd700';
+    if (value === 4) return '#90ee90';
+    if (value === 5) return '#32cd32';
+    return '#e0e0e0';
+  };
+
+  return (
+    <Tooltip title={`Rate ${value}`} placement="top">
+      <Box
+        onClick={(e) => {
+          e.stopPropagation();
+          onClick(value);
+        }}
+        sx={{
+          width: 30,
+          height: 30,
+          borderRadius: '50%',
+          backgroundColor: isSelected ? getColor() : '#e0e0e0',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          cursor: 'pointer',
+          color: isSelected ? 'white' : 'black',
+          fontWeight: 'bold',
+          transition: 'all 0.2s ease-in-out',
+          '&:hover': {
+            transform: 'scale(1.1)',
+            backgroundColor: getColor(),
+          },
+        }}
+      >
+        {value}
+      </Box>
+    </Tooltip>
+  );
+};
 
 export default function MoleculesPage() {
   const [fadeOut, setFadeOut] = useState(false);
@@ -117,6 +159,29 @@ export default function MoleculesPage() {
 
     loadRatings();
   }, [user, theme]);
+
+  const handleRating = async (cardId, newValue) => {
+    if (!user) return;
+
+    try {
+      // Toggle rating if clicking the same value
+      const valueToSet = ratings[cardId] === newValue ? null : newValue;
+      const newRatings = { ...ratings };
+      
+      if (valueToSet === null) {
+        delete newRatings[cardId];
+      } else {
+        newRatings[cardId] = valueToSet;
+      }
+      
+      setRatings(newRatings);
+      
+      const ratingsDoc = doc(db, 'userRatings', user.uid);
+      await setDoc(ratingsDoc, { [theme]: newRatings }, { merge: true });
+    } catch (err) {
+      console.error('Error saving rating:', err);
+    }
+  };
 
   // Save ratings
   const saveRating = async (cardId, rating) => {
@@ -242,15 +307,30 @@ export default function MoleculesPage() {
               justifyContent: 'center',
             }}
           >
-            <CardContent>
+            <CardContent sx={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
               <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 'bold', color: 'primary.main' }}>
                 {currentCard.name}
               </Typography>
               {currentCard.details && (
-                <Typography variant="h6" align="center" color="text.secondary" sx={{ mt: 2 }}>
+                <Typography variant="h6" align="center" color="text.secondary">
                   {currentCard.details}
                 </Typography>
               )}
+              <Box sx={{ mt: 2, p: 2, borderRadius: 2, bgcolor: 'background.paper', boxShadow: 1 }}>
+                <Typography variant="subtitle1" align="center" gutterBottom>
+                  Rate your knowledge:
+                </Typography>
+                <Stack direction="row" spacing={1} sx={{ mt: 1 }}>
+                  {[1, 2, 3, 4, 5].map((value) => (
+                    <RatingCircle
+                      key={value}
+                      value={value}
+                      isSelected={ratings[currentCard.id] === value}
+                      onClick={(newValue) => handleRating(currentCard.id, newValue)}
+                    />
+                  ))}
+                </Stack>
+              </Box>
             </CardContent>
           </Card>
         </Box>
