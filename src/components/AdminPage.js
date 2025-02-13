@@ -11,6 +11,11 @@ import {
   arrayUnion,
   arrayRemove,
   updateDoc,
+  query,
+  where,
+  orderBy,
+  limit,
+  addDoc,
 } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
