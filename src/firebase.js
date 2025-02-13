@@ -29,18 +29,20 @@ export async function checkExistingRequest(email) {
 }
 
 // Function to submit a registration request
-export async function submitRegistrationRequest(email, password) {
+export async function submitRegistrationRequest(email) {
   try {
+    console.log('Submitting registration request for:', email);
     const requestsRef = collection(db, 'registrationRequests');
     await addDoc(requestsRef, {
       email,
-      password,  // Store the password temporarily
       status: 'pending',
       createdAt: serverTimestamp(),
     });
+    console.log('Registration request submitted successfully');
     return true;
   } catch (error) {
     console.error('Error submitting request:', error);
+    console.error(error); // Log the full error
     return false;
   }
 }
