@@ -32,7 +32,7 @@ import {
   IconButton,
   Paper,
 } from '@mui/material';
-import { Delete } from '@mui/icons-material';
+import { Delete, History } from '@mui/icons-material';
 
 export default function AdminPage() {
   const { user } = useAuth();
@@ -43,6 +43,8 @@ export default function AdminPage() {
   const [successMessage, setSuccessMessage] = useState('');
   const [adminEmails, setAdminEmails] = useState([]);
   const [newAdminEmail, setNewAdminEmail] = useState('');
+  const [showHistory, setShowHistory] = useState(false);
+  const [registrationHistory, setRegistrationHistory] = useState([]);
 
   // Check if user's email is in authorized admins list
   useEffect(() => {
@@ -125,6 +127,33 @@ export default function AdminPage() {
     }
   }, [user]);
 
+  // Load registration history
+  useEffect(() => {
+    const loadHistory = async () => {
+      if (!showHistory) return;
+      
+      try {
+        setLoading(true);
+        const historyCollection = collection(db, 'registrationHistory');
+        const historySnapshot = await getDocs(query(historyCollection, orderBy('deletedAt', 'desc')));
+        const historyData = historySnapshot.docs.map(doc => ({
+          id: doc.id,
+          ...doc.data()
+        }));
+        setRegistrationHistory(historyData);
+      } catch (err) {
+        console.error('Error loading registration history:', err);
+        setError('Failed to load registration history');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (user) {
+      loadHistory();
+    }
+  }, [user, showHistory]);
+
   // Load registration requests
   useEffect(() => {
     const loadRequests = async () => {
@@ -185,10 +214,16 @@ export default function AdminPage() {
       // For now, we'll just show the URL in the success message
       console.log('Setup URL:', setupUrl);
 
-      // Delete the request
-      console.log('Deleting registration request...');
-      await deleteDoc(doc(db, 'registrationRequests', request.id));
-      console.log('Registration request deleted successfully');
+      // Update the request status to trigger email notification
+      console.log('Updating registration request status...');
+      const requestRef = doc(db, 'registrationRequests', request.id);
+      await updateDoc(requestRef, {
+        status: 'approved',
+        approvedAt: new Date().toISOString(),
+        setupToken: token,
+        setupUrl: setupUrl
+      });
+      console.log('Registration request updated successfully');
 
       // Update local state
       setRequests(prev => prev.filter(r => r.id !== request.id));
@@ -240,6 +275,71 @@ export default function AdminPage() {
     } catch (err) {
       console.error('Error restoring request:', err);
       setError('Failed to restore registration request');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleDelete = async (request) => {
+    try {
+      setLoading(true);
+      
+      // Store in registrationHistory before deleting
+      const historyRef = collection(db, 'registrationHistory');
+      await addDoc(historyRef, {
+        email: request.email,
+        originalRequestId: request.id,
+        registrationDate: request.createdAt,
+        status: request.status,
+        approvedAt: request.approvedAt || null,
+        rejectedAt: request.rejectedAt || null,
+        deletedAt: new Date().toISOString(),
+        reason: 'manually_deleted',
+        hadAccount: false // Will be updated if we find a user account
+      });
+
+      // Delete from registrationRequests
+      const requestRef = doc(db, 'registrationRequests', request.id);
+      await deleteDoc(requestRef);
+
+      // Delete from allowedEmails if exists
+      const allowedEmailRef = doc(db, 'allowedEmails', request.email);
+      await deleteDoc(allowedEmailRef);
+
+      // Try to find and delete the user from Firebase Auth
+      try {
+        const userRecord = await auth.getUserByEmail(request.email);
+        if (userRecord) {
+          // Update history to note that user had an account
+          const historyDocs = await getDocs(query(
+            collection(db, 'registrationHistory'),
+            where('email', '==', request.email),
+            orderBy('deletedAt', 'desc'),
+            limit(1)
+          ));
+          
+          if (!historyDocs.empty) {
+            await updateDoc(doc(db, 'registrationHistory', historyDocs.docs[0].id), {
+              hadAccount: true,
+              uid: userRecord.uid
+            });
+          }
+
+          await auth.deleteUser(userRecord.uid);
+        }
+      } catch (error) {
+        // Ignore error if user doesn't exist in Auth
+        if (error.code !== 'auth/user-not-found') {
+          throw error;
+        }
+      }
+
+      // Update local state
+      setRequests(prev => prev.filter(r => r.id !== request.id));
+      setSuccessMessage('Registration deleted successfully');
+    } catch (err) {
+      console.error('Error deleting registration:', err);
+      setError('Failed to delete registration');
     } finally {
       setLoading(false);
     }
@@ -370,7 +470,7 @@ export default function AdminPage() {
           Registration Requests
         </Typography>
         <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-          Review and manage pending registration requests
+          Review and manage registration requests
         </Typography>
         {requests.length === 0 ? (
           <Typography color="text.secondary">
@@ -381,9 +481,17 @@ export default function AdminPage() {
             {requests.map((request) => (
               <Paper key={request.id} elevation={1} sx={{
                 borderRadius: 2,
-                bgcolor: request.status === 'rejected' ? 'error.lighter' : 'background.paper',
+                bgcolor: {
+                  'approved': 'success.lighter',
+                  'rejected': 'error.lighter',
+                  'pending': 'background.paper'
+                }[request.status] || 'background.paper',
                 border: 1,
-                borderColor: request.status === 'rejected' ? 'error.main' : 'primary.main',
+                borderColor: {
+                  'approved': 'success.main',
+                  'rejected': 'error.main',
+                  'pending': 'primary.main'
+                }[request.status] || 'primary.main',
                 p: 2
               }}>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -398,10 +506,15 @@ export default function AdminPage() {
                             (Rejected on {new Date(request.rejectedAt?.toDate?.() || request.rejectedAt).toLocaleDateString()})
                           </Typography>
                         )}
+                        {request.status === 'approved' && (
+                          <Typography component="span" color="success.main" sx={{ ml: 1 }}>
+                            (Approved on {new Date(request.approvedAt?.toDate?.() || request.approvedAt).toLocaleDateString()})
+                          </Typography>
+                        )}
                       </Typography>
                     </Box>
                     <Stack direction="row" spacing={1}>
-                      {request.status !== 'rejected' ? (
+                      {request.status === 'pending' && (
                         <>
                           <Button
                             variant="contained"
@@ -422,7 +535,8 @@ export default function AdminPage() {
                             Reject
                           </Button>
                         </>
-                      ) : (
+                      )}
+                      {request.status === 'rejected' && (
                         <Button
                           variant="contained"
                           color="warning"
@@ -433,11 +547,85 @@ export default function AdminPage() {
                           Restore
                         </Button>
                       )}
+                      <Button
+                        variant="outlined"
+                        color="error"
+                        onClick={() => {
+                          if (window.confirm(`Are you sure you want to delete the registration for ${request.email}? If they have already set up their account, they will be logged out and their account will be deleted.`)) {
+                            handleDelete(request);
+                          }
+                        }}
+                        disabled={loading}
+                        size="small"
+                        startIcon={<Delete />}
+                      >
+                        Delete
+                      </Button>
                     </Stack>
                   </Box>
               </Paper>
             ))}
           </Stack>
+        )}
+      </Paper>
+
+      <Paper elevation={1} sx={{ p: 3, mb: 4, borderRadius: 2 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
+          <Typography variant="h5" sx={{ color: 'text.primary', fontWeight: 'medium' }}>
+            Registration History
+          </Typography>
+          <Button
+            variant="outlined"
+            startIcon={<History />}
+            onClick={() => {
+              setShowHistory(!showHistory);
+            }}
+          >
+            {showHistory ? 'Hide History' : 'Show History'}
+          </Button>
+        </Box>
+        
+        {showHistory && (
+          <>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+              History of deleted registrations
+            </Typography>
+            {registrationHistory.length === 0 ? (
+              <Typography color="text.secondary">
+                No registration history found
+              </Typography>
+            ) : (
+              <Stack spacing={2}>
+                {registrationHistory.map((record) => (
+                  <Paper key={record.id} elevation={1} sx={{
+                    borderRadius: 2,
+                    bgcolor: 'background.paper',
+                    border: 1,
+                    borderColor: 'divider',
+                    p: 2
+                  }}>
+                    <Box>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
+                        {record.email}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Originally registered: {new Date(record.registrationDate?.toDate?.() || record.registrationDate).toLocaleDateString()}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Last status: {record.status}
+                        {record.approvedAt && ` (Approved on ${new Date(record.approvedAt?.toDate?.() || record.approvedAt).toLocaleDateString()})`}
+                        {record.rejectedAt && ` (Rejected on ${new Date(record.rejectedAt?.toDate?.() || record.rejectedAt).toLocaleDateString()})`}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Deleted on: {new Date(record.deletedAt).toLocaleDateString()}
+                        {record.hadAccount && ' - Had active account'}
+                      </Typography>
+                    </Box>
+                  </Paper>
+                ))}
+              </Stack>
+            )}
+          </>
         )}
       </Paper>
     </Container>
