@@ -30,6 +30,7 @@ import {
   ListItem,
   ListItemText,
   IconButton,
+  Paper,
 } from '@mui/material';
 import { Delete } from '@mui/icons-material';
 
@@ -253,25 +254,34 @@ export default function AdminPage() {
   }
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 4 }}>
-        <Typography variant="h4">
+    <Container maxWidth="md" sx={{ py: 4, px: { xs: 2, sm: 3 } }}>
+      <Paper elevation={0} sx={{ p: 3, mb: 4, bgcolor: 'primary.main', color: 'primary.contrastText', borderRadius: 2 }}>
+        <Typography variant="h4" sx={{ mb: 1 }}>
           Admin Dashboard
         </Typography>
-      </Box>
+        <Typography variant="subtitle1">
+          Manage registration requests and admin access
+        </Typography>
+      </Paper>
 
-      <Card sx={{ mb: 4 }}>
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            Manage Admin Access
-          </Typography>
-          <Box sx={{ display: 'flex', gap: 2, mb: 2 }}>
+      <Paper elevation={1} sx={{ p: 3, mb: 4, borderRadius: 2 }}>
+        <Typography variant="h5" gutterBottom sx={{ color: 'text.primary', fontWeight: 'medium' }}>
+          Manage Admin Access
+        </Typography>
+        <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+          Add or remove administrator access for users
+        </Typography>
+          <Box sx={{ display: 'flex', gap: 2, mb: 3 }}>
             <TextField
               label="New Admin Email"
               value={newAdminEmail}
               onChange={(e) => setNewAdminEmail(e.target.value)}
               size="small"
               sx={{ flexGrow: 1 }}
+              placeholder="Enter email address"
+              type="email"
+              error={newAdminEmail && !newAdminEmail.includes('@')}
+              helperText={newAdminEmail && !newAdminEmail.includes('@') ? 'Please enter a valid email' : ''}
             />
             <Button
               variant="contained"
@@ -334,22 +344,34 @@ export default function AdminPage() {
         Registration Requests
       </Typography>
 
-      {error && (
-        <Alert severity="error" sx={{ mb: 2 }}>
+      <Snackbar
+        open={!!error}
+        autoHideDuration={6000}
+        onClose={() => setError(null)}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert severity="error" variant="filled" sx={{ width: '100%' }}>
           {error}
         </Alert>
-      )}
+      </Snackbar>
 
       <Snackbar
         open={!!successMessage}
-        autoHideDuration={6000}
+        autoHideDuration={4000}
         onClose={() => setSuccessMessage('')}
-        message={successMessage}
-      />
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert severity="success" variant="filled" sx={{ width: '100%' }}>
+          {successMessage}
+        </Alert>
+      </Snackbar>
 
-      <Box sx={{ mb: 4 }}>
-        <Typography variant="h6" gutterBottom>
+      <Paper elevation={1} sx={{ p: 3, mb: 4, borderRadius: 2 }}>
+        <Typography variant="h5" gutterBottom sx={{ color: 'text.primary', fontWeight: 'medium' }}>
           Registration Requests
+        </Typography>
+        <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+          Review and manage pending registration requests
         </Typography>
         {requests.length === 0 ? (
           <Typography color="text.secondary">
@@ -358,8 +380,10 @@ export default function AdminPage() {
         ) : (
           <Stack spacing={2}>
             {requests.map((request) => (
-              <Card key={request.id} sx={{
-                borderLeft: 4,
+              <Paper key={request.id} elevation={1} sx={{
+                borderRadius: 2,
+                bgcolor: request.status === 'rejected' ? 'error.lighter' : 'background.paper',
+                border: 1,
                 borderColor: request.status === 'rejected' ? 'error.main' : 'primary.main'
               }}>
                 <CardContent>
