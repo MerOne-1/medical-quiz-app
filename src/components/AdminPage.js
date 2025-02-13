@@ -128,13 +128,21 @@ export default function AdminPage() {
   useEffect(() => {
     const loadRequests = async () => {
       try {
+        console.log('Loading registration requests...');
         setLoading(true);
         const requestsCollection = collection(db, 'registrationRequests');
         const snapshot = await getDocs(requestsCollection);
-        const requestsData = snapshot.docs.map(doc => ({
-          id: doc.id,
-          ...doc.data()
-        }));
+        console.log('Found', snapshot.docs.length, 'requests');
+        const requestsData = snapshot.docs.map(doc => {
+          const data = doc.data();
+          console.log('Request data:', data);
+          return {
+            id: doc.id,
+            ...data,
+            status: data.status || 'pending' // Default to pending if no status
+          };
+        });
+        console.log('Processed requests:', requestsData);
         setRequests(requestsData);
       } catch (err) {
         console.error('Error loading requests:', err);
@@ -144,8 +152,10 @@ export default function AdminPage() {
       }
     };
 
-    loadRequests();
-  }, []);
+    if (user) { // Only load requests if user is authenticated
+      loadRequests();
+    }
+  }, [user]); // Reload when user changes
 
   const handleAccept = async (request) => {
     try {
@@ -337,66 +347,77 @@ export default function AdminPage() {
         message={successMessage}
       />
 
-      {requests.length === 0 ? (
-        <Typography color="text.secondary">
-          No pending registration requests
+      <Box sx={{ mb: 4 }}>
+        <Typography variant="h6" gutterBottom>
+          Registration Requests
         </Typography>
-      ) : (
-        <Stack spacing={2}>
-          {requests.map((request) => (
-            <Card key={request.id}>
-              <CardContent>
-                <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <Box>
-                    <Typography variant="h6">
-                      {request.name}
-                    </Typography>
-                    <Typography color="text.secondary">
-                      {request.email}
-                      {request.status === 'rejected' && (
-                        <Typography component="span" color="error" sx={{ ml: 1 }}>
-                          (Rejected)
-                        </Typography>
-                      )}
-                    </Typography>
-                  </Box>
-                  <Stack direction="row" spacing={1}>
-                    {request.status !== 'rejected' ? (
-                      <>
+        {requests.length === 0 ? (
+          <Typography color="text.secondary">
+            No registration requests found
+          </Typography>
+        ) : (
+          <Stack spacing={2}>
+            {requests.map((request) => (
+              <Card key={request.id} sx={{
+                borderLeft: 4,
+                borderColor: request.status === 'rejected' ? 'error.main' : 'primary.main'
+              }}>
+                <CardContent>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <Box>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
+                        {request.email}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Requested: {new Date(request.createdAt?.toDate?.() || request.createdAt || Date.now()).toLocaleDateString()}
+                        {request.status === 'rejected' && (
+                          <Typography component="span" color="error" sx={{ ml: 1 }}>
+                            (Rejected on {new Date(request.rejectedAt?.toDate?.() || request.rejectedAt).toLocaleDateString()})
+                          </Typography>
+                        )}
+                      </Typography>
+                    </Box>
+                    <Stack direction="row" spacing={1}>
+                      {request.status !== 'rejected' ? (
+                        <>
+                          <Button
+                            variant="contained"
+                            color="primary"
+                            onClick={() => handleAccept(request)}
+                            disabled={loading}
+                            size="small"
+                          >
+                            Accept
+                          </Button>
+                          <Button
+                            variant="outlined"
+                            color="error"
+                            onClick={() => handleReject(request)}
+                            disabled={loading}
+                            size="small"
+                          >
+                            Reject
+                          </Button>
+                        </>
+                      ) : (
                         <Button
                           variant="contained"
-                          color="primary"
-                          onClick={() => handleAccept(request)}
+                          color="warning"
+                          onClick={() => handleRestore(request)}
                           disabled={loading}
+                          size="small"
                         >
-                          Accept
+                          Restore
                         </Button>
-                        <Button
-                          variant="outlined"
-                          color="error"
-                          onClick={() => handleReject(request)}
-                          disabled={loading}
-                        >
-                          Reject
-                        </Button>
-                      </>
-                    ) : (
-                      <Button
-                        variant="contained"
-                        color="warning"
-                        onClick={() => handleRestore(request)}
-                        disabled={loading}
-                      >
-                        Restore
-                      </Button>
-                    )}
-                  </Stack>
-                </Box>
-              </CardContent>
-            </Card>
-          ))}
-        </Stack>
-      )}
+                      )}
+                    </Stack>
+                  </Box>
+                </CardContent>
+              </Card>
+            ))}
+          </Stack>
+        )}
+      </Box>
     </Container>
   );
 }
