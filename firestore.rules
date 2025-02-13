@@ -26,7 +26,12 @@ service cloud.firestore {
     
     // Allow access to registrationRequests collection
     match /registrationRequests/{document} {
-      allow read, create: if true;  // Anyone can read and create registration requests
+      allow read: if true;  // Anyone can read registration requests
+      allow create: if 
+        request.resource.data.keys().hasAll(['email', 'status', 'createdAt']) &&
+        request.resource.data.email is string &&
+        request.resource.data.status == 'pending' &&
+        request.resource.data.createdAt == request.time;
       allow update, delete: if isAdmin();  // Only admin can modify requests
     }
 

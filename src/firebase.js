@@ -32,17 +32,24 @@ export async function checkExistingRequest(email) {
 export async function submitRegistrationRequest(email) {
   try {
     console.log('Submitting registration request for:', email);
+    if (!email || typeof email !== 'string' || !email.includes('@')) {
+      console.error('Invalid email format');
+      return false;
+    }
+
     const requestsRef = collection(db, 'registrationRequests');
-    await addDoc(requestsRef, {
-      email,
+    const docRef = await addDoc(requestsRef, {
+      email: email.toLowerCase().trim(),
       status: 'pending',
-      createdAt: serverTimestamp(),
+      createdAt: serverTimestamp()
     });
-    console.log('Registration request submitted successfully');
+
+    console.log('Registration request submitted successfully, docId:', docRef.id);
     return true;
   } catch (error) {
     console.error('Error submitting request:', error);
-    console.error(error); // Log the full error
+    console.error('Error code:', error.code);
+    console.error('Error message:', error.message);
     return false;
   }
 }
