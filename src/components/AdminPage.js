@@ -45,30 +45,36 @@ export default function AdminPage() {
 
   // Check if user's email is in authorized admins list
   useEffect(() => {
+    console.log('AdminPage mounted');
     const checkAdminAccess = async () => {
+      console.log('Starting admin access check...');
       if (!user) {
-        console.log('No user found');
+        console.log('No user found - redirecting to home');
         navigate('/');
         return;
       }
+      console.log('User found:', user.email);
 
       console.log('Checking access for user:', user.email);
 
       try {
         // Get the authorized admins document
+        console.log('Getting admin document reference...');
         const adminsRef = doc(db, 'adminAccess', 'authorizedEmails');
         console.log('Fetching admin document...');
         
         const adminsDoc = await getDoc(adminsRef);
         
         if (!adminsDoc.exists()) {
-          console.error('Admin configuration not found');
+          console.error('Admin configuration not found in Firestore');
+          console.log('adminsDoc:', adminsDoc);
           navigate('/');
           return;
         }
+        console.log('Admin document exists');
 
         const data = adminsDoc.data();
-        console.log('Admin document data:', data);
+        console.log('Admin document data:', JSON.stringify(data, null, 2));
         
         const authorizedEmails = data.emails || [];
         console.log('Authorized emails:', authorizedEmails);
