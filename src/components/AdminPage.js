@@ -193,12 +193,42 @@ export default function AdminPage() {
   const handleReject = async (request) => {
     try {
       setLoading(true);
-      await deleteDoc(doc(db, 'registrationRequests', request.id));
-      setRequests(prev => prev.filter(r => r.id !== request.id));
+      // Instead of deleting, update the status to rejected
+      const requestRef = doc(db, 'registrationRequests', request.id);
+      await updateDoc(requestRef, {
+        status: 'rejected',
+        rejectedAt: new Date().toISOString()
+      });
+      // Update local state
+      setRequests(prev => prev.map(r => 
+        r.id === request.id ? { ...r, status: 'rejected', rejectedAt: new Date().toISOString() } : r
+      ));
       setSuccessMessage('Registration request rejected');
     } catch (err) {
       console.error('Error rejecting request:', err);
       setError('Failed to reject registration');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleRestore = async (request) => {
+    try {
+      setLoading(true);
+      // Update the status back to pending
+      const requestRef = doc(db, 'registrationRequests', request.id);
+      await updateDoc(requestRef, {
+        status: 'pending',
+        rejectedAt: null
+      });
+      // Update local state
+      setRequests(prev => prev.map(r => 
+        r.id === request.id ? { ...r, status: 'pending', rejectedAt: null } : r
+      ));
+      setSuccessMessage('Registration request restored');
+    } catch (err) {
+      console.error('Error restoring request:', err);
+      setError('Failed to restore registration request');
     } finally {
       setLoading(false);
     }
@@ -323,23 +353,43 @@ export default function AdminPage() {
                     </Typography>
                     <Typography color="text.secondary">
                       {request.email}
+                      {request.status === 'rejected' && (
+                        <Typography component="span" color="error" sx={{ ml: 1 }}>
+                          (Rejected)
+                        </Typography>
+                      )}
                     </Typography>
                   </Box>
                   <Stack direction="row" spacing={1}>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      onClick={() => handleAccept(request)}
-                    >
-                      Accept
-                    </Button>
-                    <Button
-                      variant="outlined"
-                      color="error"
-                      onClick={() => handleReject(request)}
-                    >
-                      Reject
-                    </Button>
+                    {request.status !== 'rejected' ? (
+                      <>
+                        <Button
+                          variant="contained"
+                          color="primary"
+                          onClick={() => handleAccept(request)}
+                          disabled={loading}
+                        >
+                          Accept
+                        </Button>
+                        <Button
+                          variant="outlined"
+                          color="error"
+                          onClick={() => handleReject(request)}
+                          disabled={loading}
+                        >
+                          Reject
+                        </Button>
+                      </>
+                    ) : (
+                      <Button
+                        variant="contained"
+                        color="warning"
+                        onClick={() => handleRestore(request)}
+                        disabled={loading}
+                      >
+                        Restore
+                      </Button>
+                    )}
                   </Stack>
                 </Box>
               </CardContent>
