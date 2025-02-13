@@ -337,8 +337,7 @@ export default function AdminPage() {
               </ListItem>
             ))}
           </List>
-        </CardContent>
-      </Card>
+      </Paper>
 
       <Typography variant="h5" gutterBottom>
         Registration Requests
@@ -384,9 +383,9 @@ export default function AdminPage() {
                 borderRadius: 2,
                 bgcolor: request.status === 'rejected' ? 'error.lighter' : 'background.paper',
                 border: 1,
-                borderColor: request.status === 'rejected' ? 'error.main' : 'primary.main'
+                borderColor: request.status === 'rejected' ? 'error.main' : 'primary.main',
+                p: 2
               }}>
-                <CardContent>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box>
                       <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
@@ -436,12 +435,11 @@ export default function AdminPage() {
                       )}
                     </Stack>
                   </Box>
-                </CardContent>
-              </Card>
+              </Paper>
             ))}
           </Stack>
         )}
-      </Box>
+      </Paper>
     </Container>
   );
 }
