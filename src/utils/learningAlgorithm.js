@@ -99,8 +99,10 @@ export const getStudyCards = async (userId, theme, allCards) => {
     // Calculate progress statistics
     const totalCards = allCards.length;
     const masteredCards = cardsWithData.filter(card => {
-      const recentRatings = card.ratings.slice(-2);
-      return recentRatings.length > 0 && recentRatings.every(r => r >= 4);
+      const recentRatings = card.ratings;
+      return recentRatings.length >= 2 && 
+        recentRatings.slice(-2).every(r => r >= 4) &&
+        recentRatings.slice(-5).filter(r => r >= 4).length >= 3; // At least 3/5 recent ratings are good
     });
 
     return {
@@ -138,8 +140,7 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
       const consecutivePoor = existingRatings
         .slice()
         .reverse()
-        .takeWhile(r => r <= 2)
-        .length;
+        .reduce((count, r) => r <= 2 ? count + 1 : count, 0);
       // More frequent reviews for consistently poor ratings
       reviewInterval = 1000 * 60 * Math.max(2, 5 - consecutivePoor); // 2-5 minutes
     } else if (rating === 3) {
@@ -147,8 +148,7 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
       const consecutiveMedium = existingRatings
         .slice()
         .reverse()
-        .takeWhile(r => r === 3)
-        .length;
+        .reduce((count, r) => r === 3 ? count + 1 : count, 0);
       // Gradually increase interval for consistent medium ratings
       reviewInterval = 1000 * 60 * 15 * (consecutiveMedium + 1); // 15+ minutes
     } else {
@@ -156,8 +156,7 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
       const consecutiveGood = existingRatings
         .slice()
         .reverse()
-        .takeWhile(r => r >= 4)
-        .length;
+        .reduce((count, r) => r >= 4 ? count + 1 : count, 0);
       // Start at 30 minutes, double each time (30m, 1h, 2h, 4h, etc.)
       reviewInterval = 1000 * 60 * 30 * Math.pow(2, consecutiveGood);
     }

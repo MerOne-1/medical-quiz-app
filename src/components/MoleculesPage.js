@@ -83,6 +83,7 @@ export default function MoleculesPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
+  const [message, setMessage] = useState('');
   const [studyData, setStudyData] = useState({
     currentBatch: [],
     masteredCards: [],
@@ -360,15 +361,15 @@ export default function MoleculesPage() {
       <Box sx={{ mb: 3 }}>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
           <Typography variant="body2" color="text.secondary">
-            Lot {studyData.progress?.currentBatch || 1} sur {studyData.progress?.totalBatches || 1}
+            {studyData.progress?.totalCards || 0} cartes au total, {studyData.progress?.masteredCards || 0} maîtrisées
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {studyData.progress?.masteredInBatch || 0} / {studyData.progress?.cardsInBatch || 0} maîtrisées
+            {studyData.progress?.newCards || 0} nouvelles, {studyData.progress?.reviewCards || 0} en révision
           </Typography>
         </Box>
         <LinearProgress 
           variant="determinate" 
-          value={studyData.progress ? (studyData.progress.masteredInBatch / studyData.progress.cardsInBatch * 100) : 0}
+          value={studyData.progress ? (studyData.progress.masteredCards / studyData.progress.totalCards * 100) : 0}
           sx={{ 
             height: 8, 
             borderRadius: 4,
@@ -379,6 +380,19 @@ export default function MoleculesPage() {
             }
           }}
         />
+        {message && (
+          <Typography 
+            variant="body2" 
+            sx={{ 
+              mt: 1,
+              textAlign: 'center',
+              color: 'text.secondary',
+              fontStyle: 'italic'
+            }}
+          >
+            {message}
+          </Typography>
+        )}
       </Box>
 
       <Box sx={{ mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
