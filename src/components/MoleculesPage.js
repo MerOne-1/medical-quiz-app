@@ -106,6 +106,8 @@ export default function MoleculesPage() {
   // Load all cards data
   useEffect(() => {
     const loadCards = async () => {
+      if (!theme) return;
+      
       try {
         setLoading(true);
         setError(null);
@@ -122,8 +124,8 @@ export default function MoleculesPage() {
         
         setAllCards(data.cards);
         
-        // Initialize study data with first batch
-        if (data.cards.length > 0) {
+        // Initialize study data with first batch if we don't have study data yet
+        if (data.cards.length > 0 && (!studyData || !studyData.currentBatch || studyData.currentBatch.length === 0)) {
           const initialStudyData = {
             currentBatch: data.cards.slice(0, 10),
             masteredCards: [],
@@ -147,21 +149,26 @@ export default function MoleculesPage() {
     loadCards();
   }, [theme]);
 
-  // Load study data when cards or user changes
+  // Load study data when user logs in
   useEffect(() => {
     const loadStudyData = async () => {
-      if (!user || allCards.length === 0) return;
+      if (!user || !theme) return;
       
       try {
-        // Get study cards and progress
-        const data = await getStudyCards(user.uid, theme, allCards);
-        setStudyData(data);
-
-        // Load ratings
+        // Load ratings first
         const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
         if (ratingsDoc.exists()) {
           const data = ratingsDoc.data();
           setRatings(data[theme] || {});
+        }
+
+        // Only update study data if we have cards
+        if (allCards.length > 0) {
+          // Get study cards and progress
+          const data = await getStudyCards(user.uid, theme, allCards);
+          if (data && data.currentBatch && data.currentBatch.length > 0) {
+            setStudyData(data);
+          }
         }
       } catch (err) {
         console.error('Error loading study data:', err);
@@ -169,7 +176,7 @@ export default function MoleculesPage() {
     };
 
     loadStudyData();
-  }, [user, theme, allCards]);
+  }, [user, theme]);
 
   const handleRating = async (cardId, newValue) => {
     if (!user) return;
@@ -240,7 +247,8 @@ export default function MoleculesPage() {
     }
   };
 
-  if (loading) {
+  // Show loading state while cards are being loaded
+  if (loading || !studyData || !studyData.currentBatch) {
     return (
       <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
         <CircularProgress />
