@@ -17,6 +17,7 @@ export default function MoleculesHomePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [studyMode, setStudyMode] = useState(localStorage.getItem('moleculesStudyMode') || 'guided');
+  const [practiceMode, setPracticeMode] = useState(localStorage.getItem('moleculesPracticeMode') || 'recognition');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -72,32 +73,68 @@ export default function MoleculesHomePage() {
         <Typography variant="h6" color="text.secondary" gutterBottom>
           Révisez les structures moléculaires par thème
         </Typography>
-        <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', mt: 2 }}>
-          <Button
-            variant="outlined"
-            color="primary"
-            startIcon={<Settings />}
-            onClick={() => navigate('/molecules/settings')}
-          >
-            Gérer mes cartes
-          </Button>
-          <Button
-            variant={studyMode === 'guided' ? 'contained' : 'outlined'}
-            color="primary"
-            startIcon={<School />}
-            onClick={() => {
-              const newMode = studyMode === 'guided' ? 'free' : 'guided';
-              setStudyMode(newMode);
-              localStorage.setItem('moleculesStudyMode', newMode);
-            }}
-            sx={{
-              minWidth: 200,
-              backgroundColor: studyMode === 'guided' ? 'primary.main' : 'transparent',
-              color: studyMode === 'guided' ? 'white' : 'primary.main',
-            }}
-          >
-            {studyMode === 'guided' ? 'Mode guidé' : 'Mode libre'}
-          </Button>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2, mt: 2 }}>
+          <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
+            <Button
+              variant={practiceMode === 'recognition' ? 'contained' : 'outlined'}
+              color="primary"
+              startIcon={<ViewModule />}
+              onClick={() => {
+                setPracticeMode('recognition');
+                localStorage.setItem('moleculesPracticeMode', 'recognition');
+              }}
+              sx={{
+                minWidth: 200,
+                backgroundColor: practiceMode === 'recognition' ? 'primary.main' : 'transparent',
+                color: practiceMode === 'recognition' ? 'white' : 'primary.main',
+              }}
+            >
+              Reconnaître les structures
+            </Button>
+            <Button
+              variant={practiceMode === 'drawing' ? 'contained' : 'outlined'}
+              color="primary"
+              startIcon={<Science />}
+              onClick={() => {
+                setPracticeMode('drawing');
+                localStorage.setItem('moleculesPracticeMode', 'drawing');
+              }}
+              sx={{
+                minWidth: 200,
+                backgroundColor: practiceMode === 'drawing' ? 'primary.main' : 'transparent',
+                color: practiceMode === 'drawing' ? 'white' : 'primary.main',
+              }}
+            >
+              S'entraîner au dessin
+            </Button>
+          </Box>
+          <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
+            <Button
+              variant="outlined"
+              color="primary"
+              startIcon={<Settings />}
+              onClick={() => navigate('/molecules/settings')}
+            >
+              Gérer mes cartes
+            </Button>
+            <Button
+              variant={studyMode === 'guided' ? 'contained' : 'outlined'}
+              color="primary"
+              startIcon={<School />}
+              onClick={() => {
+                const newMode = studyMode === 'guided' ? 'free' : 'guided';
+                setStudyMode(newMode);
+                localStorage.setItem('moleculesStudyMode', newMode);
+              }}
+              sx={{
+                minWidth: 200,
+                backgroundColor: studyMode === 'guided' ? 'primary.main' : 'transparent',
+                color: studyMode === 'guided' ? 'white' : 'primary.main',
+              }}
+            >
+              {studyMode === 'guided' ? 'Mode guidé' : 'Mode libre'}
+            </Button>
+          </Box>
         </Box>
       </Box>
 
@@ -113,7 +150,7 @@ export default function MoleculesHomePage() {
                 transition: 'all 0.3s ease-in-out',
                 '&:hover': {
                   transform: 'translateY(-4px)',
-                  boxShadow: (theme) => `0 6px 20px ${theme.palette.primary.main}25`,
+                  boxShadow: (theme) => '0 6px 20px ' + theme.palette.primary.main + '25',
                   '& .MuiSvgIcon-root': {
                     transform: 'scale(1.1)',
                   }
@@ -125,7 +162,12 @@ export default function MoleculesHomePage() {
             >
               <CardActionArea
                 sx={{ height: '100%' }}
-                onClick={() => navigate(`/molecules/${theme.id}${studyMode === 'guided' ? '?mode=guided' : ''}`)}
+                onClick={() => {
+                  const basePath = '/molecules/' + theme.id;
+                  const modePath = practiceMode === 'drawing' ? '/drawing' : '';
+                  const queryParams = studyMode === 'guided' ? '?mode=guided' : '';
+                  navigate(basePath + modePath + queryParams);
+                }}
               >
                 <CardContent sx={{ height: '100%', p: 3 }}>
                   <Box

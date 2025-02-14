@@ -28,7 +28,8 @@ const getCardPriority = (card, now = Date.now()) => {
   
   // Boost priority for cards with inconsistent ratings
   if (recentRatings.length >= 2) {
-    const variance = Math.variance(recentRatings);
+    const mean = recentRatings.reduce((a, b) => a + b, 0) / recentRatings.length;
+    const variance = recentRatings.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / recentRatings.length;
     priority += variance * 10;
   }
   
@@ -99,6 +100,7 @@ export const getStudyCards = async (userId, theme, allCards) => {
     currentBatch = currentBatch
       .map(value => ({ value, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
       .map(({ value }) => value);
 
     // Calculate progress statistics
