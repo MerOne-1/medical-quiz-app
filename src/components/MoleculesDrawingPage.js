@@ -173,86 +173,168 @@ export default function MoleculesDrawingPage() {
   const imagePath = currentCard.image ? `/molecules/images/${themeToDirectory[theme]}/${currentCard.image}` : null;
 
   return (
-    <Container maxWidth="md" sx={{ py: { xs: 2, sm: 4 } }}>
+    <Container maxWidth="lg" sx={{ py: { xs: 2, sm: 4 } }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
-        <Typography variant="h4" component="h1">
-          Practice Drawing
-        </Typography>
-        <Button variant="outlined" onClick={() => navigate('/molecules')}>
-          Return to Themes
+        <Box>
+          <Typography variant="h4" component="h1" sx={{ fontWeight: 'bold', color: '#1976d2' }}>
+            Mode Dessin
+          </Typography>
+          <Typography variant="subtitle1" color="text.secondary" sx={{ mt: 1 }}>
+            Entraînez-vous à dessiner les structures moléculaires
+          </Typography>
+        </Box>
+        <Button 
+          variant="outlined" 
+          onClick={() => navigate('/molecules')}
+          startIcon={<NavigateBefore />}
+          sx={{ height: 'fit-content' }}
+        >
+          Retour aux Thèmes
         </Button>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', mb: 4 }}>
-        <Typography variant="subtitle1" color="text.secondary">
-          Card {currentIndex + 1} of {studyData.currentBatch.length}
+      <Box 
+        sx={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          mb: 2,
+          backgroundColor: '#f5f5f5',
+          borderRadius: '8px',
+          py: 1
+        }}
+      >
+        <Typography variant="h6" color="text.secondary">
+          Molécule {currentIndex + 1} sur {studyData.currentBatch.length}
         </Typography>
       </Box>
 
-      <Card sx={{ minHeight: 600, display: 'flex', flexDirection: 'column' }}>
+      <Card 
+        sx={{ 
+          minHeight: 600, 
+          display: 'flex', 
+          flexDirection: 'column',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+          borderRadius: '12px'
+        }}
+      >
         <CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', p: 4 }}>
-          <Typography variant="h6" gutterBottom>
-            Draw the structure for: {currentCard.name}
+          <Box sx={{ textAlign: 'center', mb: 3 }}>
+            <Typography variant="h5" gutterBottom sx={{ color: '#1976d2', fontWeight: 'bold' }}>
+              {currentCard.name}
+            </Typography>
+            {currentCard.details && (
+              <Typography variant="subtitle1" color="text.secondary">
+                {currentCard.details}
+              </Typography>
+            )}
+          </Box>
+          
+          <Typography variant="body1" gutterBottom sx={{ mb: 2, color: '#666' }}>
+            Dessinez la structure de la molécule ci-dessous
           </Typography>
           
-          <Box sx={{ width: '100%', maxWidth: 500, mb: 2 }}>
+          <Box 
+            sx={{ 
+              width: '100%', 
+              maxWidth: 600, 
+              mb: 2,
+              borderRadius: '8px',
+              overflow: 'hidden',
+              boxShadow: '0 2px 4px rgba(0, 0, 0, 0.05)'
+            }}
+          >
             <CanvasDraw
               ref={canvasRef}
-              canvasWidth={500}
-              canvasHeight={300}
+              canvasWidth={600}
+              canvasHeight={400}
               brushRadius={2}
               lazyRadius={0}
               brushColor="#000"
               backgroundColor="#fff"
               hideGrid
-              style={{ border: '1px solid #ccc' }}
+              style={{ border: '1px solid #e0e0e0' }}
             />
           </Box>
 
           <Box sx={{ display: 'flex', gap: 2, mb: 4 }}>
-            <Button variant="outlined" onClick={handleClear}>
-              Clear
+            <Button 
+              variant="outlined" 
+              onClick={handleClear}
+              sx={{ minWidth: '120px' }}
+            >
+              Effacer
             </Button>
-            <Button variant="outlined" onClick={handleUndo}>
-              Undo
+            <Button 
+              variant="outlined" 
+              onClick={handleUndo}
+              sx={{ minWidth: '120px' }}
+            >
+              Annuler
             </Button>
-            <Button variant="contained" onClick={handleReveal} disabled={showSolution}>
-              Reveal Solution
+            <Button 
+              variant="contained" 
+              onClick={handleReveal} 
+              disabled={showSolution}
+              sx={{ 
+                minWidth: '120px',
+                backgroundColor: showSolution ? '#ccc' : '#1976d2',
+                '&:hover': {
+                  backgroundColor: showSolution ? '#ccc' : '#1565c0'
+                }
+              }}
+            >
+              Voir Solution
             </Button>
           </Box>
 
           {showSolution && imagePath && (
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', mb: 2 }}>
+            <Box 
+              sx={{ 
+                width: '100%', 
+                display: 'flex', 
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 2,
+                mb: 2,
+                p: 3,
+                backgroundColor: '#f8f8f8',
+                borderRadius: '8px'
+              }}
+            >
+              <Typography variant="h6" sx={{ color: '#1976d2' }}>
+                Solution
+              </Typography>
               <img
                 src={imagePath}
                 alt={currentCard.name}
-                style={{ maxWidth: '100%', maxHeight: '300px' }}
+                style={{ 
+                  maxWidth: '100%', 
+                  maxHeight: '300px',
+                  borderRadius: '4px',
+                  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+                }}
               />
             </Box>
           )}
 
-          {currentCard.details && (
-            <Typography color="text.secondary" gutterBottom sx={{ mt: 2 }}>
-              {currentCard.details}
-            </Typography>
-          )}
-
-          <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mt: 4 }}>
+          <Box sx={{ display: 'flex', justifyContent: 'center', gap: 3, mt: 'auto', pt: 4 }}>
             <Button
               variant="outlined"
               onClick={handlePrevious}
               disabled={currentIndex === 0}
               startIcon={<NavigateBefore />}
+              sx={{ minWidth: '150px' }}
             >
-              Previous
+              Précédent
             </Button>
             <Button
               variant="contained"
               onClick={handleNext}
               disabled={currentIndex === studyData.currentBatch.length - 1}
               endIcon={<NavigateNext />}
+              sx={{ minWidth: '150px' }}
             >
-              Next
+              Suivant
             </Button>
           </Box>
         </CardContent>
