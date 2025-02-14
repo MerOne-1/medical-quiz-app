@@ -7,6 +7,7 @@ service cloud.firestore {
         exists(/databases/$(database)/documents/adminAccess/authorizedEmails) && 
         request.auth.token.email in get(/databases/$(database)/documents/adminAccess/authorizedEmails).data.emails;
     }
+    
     // Allow access to userProgress collection
     match /userProgress/{userId} {
       // Allow read/write if the user is authenticated and accessing their own data
@@ -73,6 +74,23 @@ service cloud.firestore {
     match /adminAccess/{document} {
       allow read: if request.auth != null;  // Any authenticated user can check admin status
       allow write: if false;  // Only through Firebase Admin SDK
+    }
+
+    // Allow access to userDecks collection
+    match /userDecks/{deckId} {
+      // Allow read if the user is authenticated and owns the deck
+      allow read: if request.auth != null;
+      
+      // Allow create if the user is authenticated and setting themselves as owner
+      allow create: if request.auth != null && 
+                   request.resource.data.userId == request.auth.uid;
+      
+      // Allow list operation
+      allow list: if request.auth != null;
+      
+      // Allow update/delete if the user is authenticated and owns the deck
+      allow update, delete: if request.auth != null && 
+                           resource.data.userId == request.auth.uid;
     }
   }
 }

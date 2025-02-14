@@ -1,6 +1,7 @@
 import React from 'react';
 import MoleculesPage from './components/MoleculesPage';
 import MoleculesDrawingPage from './components/MoleculesDrawingPage';
+import PersonalDeckPage from './components/PersonalDeckPage';
 import MoleculesHomePage from './components/MoleculesHomePage';
 import MoleculesSettings from './components/MoleculesSettings';
 import PersonalDeckManager from './components/PersonalDeckManager';
@@ -75,10 +76,26 @@ function App() {
                 }
               />
               <Route
-                path="/molecules/:theme"
+                path="/molecules/personal/:deckId/drawing"
                 element={
                   <PrivateRoute>
-                    <MoleculesPage />
+                    <MoleculesDrawingPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/personal/:deckId/recognition"
+                element={
+                  <PrivateRoute>
+                    <PersonalDeckPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/personal/:deckId"
+                element={
+                  <PrivateRoute>
+                    <PersonalDeckPage />
                   </PrivateRoute>
                 }
               />
@@ -91,10 +108,10 @@ function App() {
                 }
               />
               <Route
-                path="/molecules/personal/:deckId/drawing"
+                path="/molecules/:theme"
                 element={
                   <PrivateRoute>
-                    <MoleculesDrawingPage />
+                    <MoleculesPage />
                   </PrivateRoute>
                 }
               />

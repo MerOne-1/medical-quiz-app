@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import CanvasDraw from 'react-canvas-draw';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 import {
   Container,
@@ -15,7 +15,7 @@ import {
   LinearProgress,
 } from '@mui/material';
 import { NavigateBefore, NavigateNext } from '@mui/icons-material';
-import { getStudyCards, updateCardProgress } from '../utils/learningAlgorithm';
+import { getStudyCards } from '../utils/learningAlgorithm';
 
 // Map theme names to directory names
 const themeToDirectory = {
@@ -32,7 +32,7 @@ export default function MoleculesDrawingPage() {
   const { theme, deckId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const { currentUser } = useAuth();
+  const { user } = useAuth();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [studyData, setStudyData] = useState(null);
@@ -45,15 +45,16 @@ export default function MoleculesDrawingPage() {
   useEffect(() => {
     const loadCards = async () => {
       try {
+        setLoading(true);
+        setError(null);
+
         if (deckId) {
           // Load personal deck
           const deckRef = doc(db, 'userDecks', deckId);
           const deckDoc = await getDoc(deckRef);
           
-          if (!deckDoc.exists() || deckDoc.data().userId !== currentUser.uid) {
-            setError('Deck not found or unauthorized');
-            setLoading(false);
-            return;
+          if (!deckDoc.exists() || deckDoc.data().userId !== user.uid) {
+            throw new Error('Deck not found or unauthorized');
           }
           
           const deckData = deckDoc.data();
@@ -65,54 +66,36 @@ export default function MoleculesDrawingPage() {
           });
         } else if (theme && themeToDirectory[theme]) {
           // Load theme cards
-          const cardsData = await getStudyCards(currentUser.uid, theme);
-          setStudyData(cardsData);
-        } else {
-          setError('Invalid theme or deck');
-        }
-        setLoading(false);
-      } catch (error) {
-        console.error('Error loading cards:', error);
-        setError('Error loading cards');
-        setLoading(false);
-      }
-    };
-    
-    loadCards();
-
-    const loadCards = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await fetch('/molecules/data/' + themeToDirectory[theme] + '.json');
-        if (!response.ok) {
-          throw new Error('Failed to load cards');
-        }
-        const data = await response.json();
-        if (!data || !data.cards) {
-          throw new Error('Invalid card data');
-        }
-
-        // Transform the data into cards
-        const cards = data.cards.map(card => ({
-          id: card.id || card.name.toLowerCase().replace(/[^a-z0-9]/g, ''),
-          name: card.name,
-          image: card.image,
-          details: card.details
-        }));
-
-        // If no cards are returned, just use all cards
-        setStudyData({
-          currentBatch: cards,
-          progress: {
-            totalCards: cards.length,
-            masteredCards: 0,
-            currentBatchSize: cards.length,
-            newCards: cards.length,
-            reviewCards: 0
+          const response = await fetch('/molecules/data/' + themeToDirectory[theme] + '.json');
+          if (!response.ok) {
+            throw new Error('Failed to load cards');
           }
-        });
-        setCurrentIndex(0);
+          const data = await response.json();
+          if (!data || !data.cards) {
+            throw new Error('Invalid card data');
+          }
+
+          // Transform the data into cards
+          const cards = data.cards.map(card => ({
+            id: card.id || card.name.toLowerCase().replace(/[^a-z0-9]/g, ''),
+            name: card.name,
+            image: card.image,
+            details: card.details
+          }));
+
+          setStudyData({
+            currentBatch: cards,
+            progress: {
+              totalCards: cards.length,
+              masteredCards: 0,
+              currentBatchSize: cards.length,
+              newCards: cards.length,
+              reviewCards: 0
+            }
+          });
+        } else {
+          throw new Error('Invalid theme or deck');
+        }
       } catch (error) {
         console.error('Error loading cards:', error);
         setError(error.message);
@@ -120,9 +103,9 @@ export default function MoleculesDrawingPage() {
         setLoading(false);
       }
     };
-
+    
     loadCards();
-  }, [theme, user.uid]);
+  }, [theme, deckId, user]);
 
   const handlePrevious = () => {
     if (currentIndex > 0) {

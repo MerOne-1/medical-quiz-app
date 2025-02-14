@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { getUserDecks } from '../utils/userDecks';
 import {
   Container,
   Typography,
@@ -14,11 +16,28 @@ import { Science, Settings, School, ViewModule } from '@mui/icons-material';
 
 export default function MoleculesHomePage() {
   const [themes, setThemes] = useState([]);
+  const [personalDecks, setPersonalDecks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [studyMode, setStudyMode] = useState(localStorage.getItem('moleculesStudyMode') || 'guided');
   const [practiceMode, setPracticeMode] = useState(localStorage.getItem('moleculesPracticeMode') || 'recognition');
   const navigate = useNavigate();
+  const { user } = useAuth();
+
+  useEffect(() => {
+    const loadPersonalDecks = async () => {
+      if (user) {
+        try {
+          const decks = await getUserDecks(user.uid);
+          setPersonalDecks(decks);
+        } catch (error) {
+          console.error('Error loading personal decks:', error);
+        }
+      }
+    };
+
+    loadPersonalDecks();
+  }, [user]);
 
   useEffect(() => {
     const loadThemes = async () => {
@@ -218,6 +237,35 @@ export default function MoleculesHomePage() {
           </Grid>
         ))}
       </Grid>
+
+      {personalDecks.length > 0 && (
+        <>
+          <Typography variant="h4" gutterBottom sx={{ mt: 6 }}>
+            Mes Decks Personnels
+          </Typography>
+          <Grid container spacing={4}>
+            {personalDecks.map((deck) => (
+              <Grid item xs={12} sm={6} md={4} key={deck.id}>
+                <Card sx={{ height: '100%' }}>
+                  <CardActionArea
+                    onClick={() => navigate(`/molecules/personal/${deck.id}/${practiceMode}`)}
+                    sx={{ height: '100%' }}
+                  >
+                    <CardContent>
+                      <Typography variant="h5" component="div" gutterBottom>
+                        {deck.deckName}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        {deck.cards?.length || 0} molécule(s)
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+        </>
+      )}
     </Container>
   );
 }
