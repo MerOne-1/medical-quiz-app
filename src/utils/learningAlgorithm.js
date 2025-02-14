@@ -2,29 +2,42 @@ import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 
 // Constants for the learning algorithm
-const INITIAL_BATCH_SIZE = 10;
-const NEW_CARDS_PER_BATCH = 5;
-const MASTERY_THRESHOLD = 0.8; // 80% of cards must be mastered to proceed
+const MIN_BATCH_SIZE = 15; // Minimum cards to study at once
+const MAX_NEW_CARDS = 5;  // Maximum new cards to introduce at once
 
-// Get the mastery level of a card based on its history
-const getCardMastery = (cardProgress) => {
-  if (!cardProgress || !cardProgress.ratings || cardProgress.ratings.length === 0) {
-    return 0;
+// Calculate the priority score for a card
+const getCardPriority = (card, now = Date.now()) => {
+  if (!card.lastReview) return 100; // New cards get high priority
+  
+  const daysSinceReview = (now - card.lastReview) / (1000 * 60 * 60 * 24);
+  const recentRatings = card.ratings?.slice(-3) || [];
+  const lastRating = recentRatings[recentRatings.length - 1] || 0;
+  
+  // Base priority on last rating
+  let priority = 0;
+  if (lastRating <= 2) {
+    // Low ratings need quick review
+    priority = 90 + (daysSinceReview * 2);
+  } else if (lastRating === 3) {
+    // Medium ratings need moderate review
+    priority = 70 + daysSinceReview;
+  } else {
+    // High ratings need less frequent review
+    priority = 50 + (daysSinceReview / 2);
   }
-
-  // Card is mastered if:
-  // 1. Last rating was 4 or 5
-  // 2. OR last two ratings were 3
-  const recentRatings = cardProgress.ratings.slice(-2);
-  const lastRating = recentRatings[recentRatings.length - 1];
-
-  if (lastRating >= 4) return 1;
-  if (recentRatings.length >= 2 && recentRatings.every(r => r >= 3)) return 1;
   
-  // Partial mastery for rating 3
-  if (lastRating === 3) return 0.5;
+  // Boost priority for cards with inconsistent ratings
+  if (recentRatings.length >= 2) {
+    const variance = Math.variance(recentRatings);
+    priority += variance * 10;
+  }
   
-  return 0;
+  // Boost priority for cards that haven't been seen much
+  if (card.ratings?.length < 3) {
+    priority += 20;
+  }
+  
+  return priority;
 };
 
 // Get cards for the current study session
@@ -34,63 +47,70 @@ export const getStudyCards = async (userId, theme, allCards) => {
     const learningDoc = await getDoc(doc(db, 'moleculeLearning', userId));
     const learningData = learningDoc.exists() ? learningDoc.data()[theme] || {} : {};
 
-    // Calculate mastery for all cards
-    const cardsWithMastery = allCards.map(card => ({
-      ...card,
-      mastery: getCardMastery(learningData[card.id]),
-      attempts: (learningData[card.id]?.ratings || []).length
-    }));
-
-    // Sort cards by mastery and attempts
-    const sortedCards = cardsWithMastery.sort((a, b) => {
-      // Prioritize cards that aren't mastered
-      if (a.mastery !== b.mastery) return a.mastery - b.mastery;
-      // Then cards with fewer attempts
-      return (a.attempts || 0) - (b.attempts || 0);
+    // Prepare cards with their learning data
+    const now = Date.now();
+    const cardsWithData = allCards.map(card => {
+      const progress = learningData[card.id] || {};
+      return {
+        ...card,
+        lastReview: progress.lastReview || null,
+        ratings: progress.ratings || [],
+        priority: getCardPriority({ ...progress, lastReview: progress.lastReview }, now)
+      };
     });
 
-    // Get the current active cards (not fully mastered)
-    const activeCards = sortedCards.filter(card => card.mastery < 1);
-    const masteredCards = sortedCards.filter(card => card.mastery === 1);
+    // Sort cards by priority (highest first)
+    const sortedCards = cardsWithData.sort((a, b) => b.priority - a.priority);
 
-    // Calculate how many cards should be in the current batch
-    let currentBatchSize = INITIAL_BATCH_SIZE;
-    let currentBatchIndex = Math.floor(masteredCards.length / NEW_CARDS_PER_BATCH);
-
-    // Get cards for the current batch
+    // Select cards for the current batch
     let currentBatch = [];
-    
-    // First, add cards that are partially learned (mastery > 0)
-    const partiallyLearned = activeCards.filter(card => card.mastery > 0);
-    currentBatch.push(...partiallyLearned);
+    let newCardCount = 0;
 
-    // Then add new cards until we reach the target batch size
-    const newCards = activeCards.filter(card => card.mastery === 0);
-    const remainingSlots = currentBatchSize - currentBatch.length;
-    if (remainingSlots > 0) {
-      currentBatch.push(...newCards.slice(0, remainingSlots));
+    // First, add high-priority cards (low ratings or need review)
+    const highPriorityCards = sortedCards.filter(card => card.priority >= 70);
+    currentBatch.push(...highPriorityCards);
+
+    // Then add some new cards if we have room
+    const newCards = sortedCards.filter(card => !card.lastReview);
+    if (newCards.length > 0 && currentBatch.length < MIN_BATCH_SIZE) {
+      const newToAdd = Math.min(
+        MAX_NEW_CARDS,
+        MIN_BATCH_SIZE - currentBatch.length,
+        newCards.length
+      );
+      currentBatch.push(...newCards.slice(0, newToAdd));
+      newCardCount = newToAdd;
     }
 
-    // If we don't have enough active cards, add some mastered cards for review
-    if (currentBatch.length < currentBatchSize && masteredCards.length > 0) {
-      const reviewCards = masteredCards
-        .sort((a, b) => (a.lastReview || 0) - (b.lastReview || 0))
-        .slice(0, currentBatchSize - currentBatch.length);
-      currentBatch.push(...reviewCards);
+    // Finally, add medium-priority cards to reach minimum batch size
+    if (currentBatch.length < MIN_BATCH_SIZE) {
+      const mediumPriorityCards = sortedCards
+        .filter(card => card.priority < 70 && !currentBatch.includes(card))
+        .slice(0, MIN_BATCH_SIZE - currentBatch.length);
+      currentBatch.push(...mediumPriorityCards);
     }
 
-    // Calculate total batches based on remaining cards
-    const remainingNewCards = activeCards.length - currentBatch.filter(c => c.mastery === 0).length;
-    const totalBatches = currentBatchIndex + Math.ceil(remainingNewCards / NEW_CARDS_PER_BATCH) + 1;
+    // Shuffle the batch to prevent predictable order
+    currentBatch = currentBatch
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
+
+    // Calculate progress statistics
+    const totalCards = allCards.length;
+    const masteredCards = cardsWithData.filter(card => {
+      const recentRatings = card.ratings.slice(-2);
+      return recentRatings.length > 0 && recentRatings.every(r => r >= 4);
+    });
 
     return {
-      currentBatch: currentBatch,
-      masteredCards: masteredCards,
+      currentBatch,
       progress: {
-        currentBatch: currentBatchIndex + 1,
-        totalBatches: totalBatches,
-        cardsInBatch: currentBatch.length,
-        masteredInBatch: currentBatch.filter(card => card.mastery === 1).length
+        totalCards,
+        masteredCards: masteredCards.length,
+        currentBatchSize: currentBatch.length,
+        newCards: newCardCount,
+        reviewCards: currentBatch.length - newCardCount
       }
     };
   } catch (error) {
@@ -106,20 +126,51 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
     const learningDoc = await getDoc(learningRef);
     const learningData = learningDoc.exists() ? learningDoc.data() : {};
     const themeData = learningData[theme] || {};
-    const cardData = themeData[cardId] || { ratings: [] };
+    const cardData = themeData[cardId] || {};
 
-    // Add new rating to history
-    const newRatings = [...(cardData.ratings || []), rating];
-
-    // Calculate mastery level
-    let mastery = 0;
-    if (rating >= 4) {
-      mastery = 1; // Instant mastery for high ratings
-    } else if (rating === 3 && newRatings.length >= 2 && newRatings.slice(-2)[0] === 3) {
-      mastery = 1; // Mastery achieved with two consecutive 3s
+    // Get existing ratings or initialize
+    const existingRatings = cardData.ratings || [];
+    
+    // Calculate review interval based on rating and history
+    let reviewInterval;
+    if (rating <= 2) {
+      // Poor rating - review very soon and more frequently
+      const consecutivePoor = existingRatings
+        .slice()
+        .reverse()
+        .takeWhile(r => r <= 2)
+        .length;
+      // More frequent reviews for consistently poor ratings
+      reviewInterval = 1000 * 60 * Math.max(2, 5 - consecutivePoor); // 2-5 minutes
     } else if (rating === 3) {
-      mastery = 0.5; // Partial mastery for single 3
+      // Medium rating - review in moderate time
+      const consecutiveMedium = existingRatings
+        .slice()
+        .reverse()
+        .takeWhile(r => r === 3)
+        .length;
+      // Gradually increase interval for consistent medium ratings
+      reviewInterval = 1000 * 60 * 15 * (consecutiveMedium + 1); // 15+ minutes
+    } else {
+      // Good rating - increase interval exponentially
+      const consecutiveGood = existingRatings
+        .slice()
+        .reverse()
+        .takeWhile(r => r >= 4)
+        .length;
+      // Start at 30 minutes, double each time (30m, 1h, 2h, 4h, etc.)
+      reviewInterval = 1000 * 60 * 30 * Math.pow(2, consecutiveGood);
     }
+
+    // Cap maximum interval at 2 days to ensure regular review
+    const maxInterval = 1000 * 60 * 60 * 48;
+    reviewInterval = Math.min(reviewInterval, maxInterval);
+
+    // Calculate priority boost based on historical performance
+    const avgRating = existingRatings.length > 0
+      ? existingRatings.reduce((a, b) => a + b, 0) / existingRatings.length
+      : 0;
+    const priorityBoost = avgRating < 3 ? 20 : 0; // Boost priority for struggling cards
 
     // Update learning data
     await setDoc(learningRef, {
@@ -127,18 +178,23 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
       [theme]: {
         ...themeData,
         [cardId]: {
-          mastery,
-          lastReview: Date.now(),
           ...cardData,
-          ratings: newRatings,
+          ratings: [...existingRatings, rating],
           lastRating: rating,
-          lastAttempt: new Date().toISOString(),
-          attempts: (cardData.attempts || 0) + 1
+          lastReview: Date.now(),
+          nextReview: Date.now() + reviewInterval,
+          reviewInterval,
+          priorityBoost,
+          consecutiveCorrect: rating >= 4 ? (cardData.consecutiveCorrect || 0) + 1 : 0,
+          attempts: (cardData.attempts || 0) + 1,
+          userId,
+          cardId,
+          theme
         }
       }
     }, { merge: true });
 
-    return getCardMastery({ ratings: newRatings });
+    return { reviewInterval, nextReview: Date.now() + reviewInterval };
   } catch (error) {
     console.error('Error updating card progress:', error);
     throw error;

@@ -217,49 +217,75 @@ export default function MoleculesPage() {
         [`${theme}_lastUpdated`]: timestamp
       }, { merge: true });
 
-      // Update learning progress
-      await updateCardProgress(user.uid, theme, cardId, newValue);
+      // Update learning progress and get next review time
+      const { reviewInterval } = await updateCardProgress(user.uid, theme, cardId, newValue);
 
       // Get updated study data
       const newStudyData = await getStudyCards(user.uid, theme, allCards);
       
-      // Get the next batch of cards
-      const currentBatch = [...studyData.currentBatch];
+      // Always maintain a minimum batch size
+      let updatedBatch = [...studyData.currentBatch];
       
-      // Add new cards if we're near the end of the current batch
-      if (currentIndex >= currentBatch.length - 3) {
-        const existingCardIds = new Set(currentBatch.map(card => card.id));
-        const newCards = newStudyData.currentBatch.filter(card => !existingCardIds.has(card.id));
+      // If rating is low (1-2), add the card back into the batch at a later position
+      if (newValue <= 2) {
+        // Remove the current card from its position
+        updatedBatch = updatedBatch.filter(card => card.id !== cardId);
         
-        if (newCards.length > 0) {
-          // Add up to 5 new cards
-          currentBatch.push(...newCards.slice(0, 5));
-        }
+        // Reinsert it 3-5 cards later
+        const reinsertPosition = Math.min(
+          currentIndex + 3 + Math.floor(Math.random() * 3),
+          updatedBatch.length
+        );
+        updatedBatch.splice(reinsertPosition, 0, studyData.currentBatch[currentIndex]);
       }
       
-      // Update study data with the current batch
+      // Add new cards if we're running low
+      if (updatedBatch.length - currentIndex <= 5) {
+        const existingCardIds = new Set(updatedBatch.map(card => card.id));
+        const newCards = newStudyData.currentBatch
+          .filter(card => !existingCardIds.has(card.id))
+          .slice(0, 5);
+        
+        // Randomly insert new cards into the remaining sequence
+        newCards.forEach(card => {
+          const insertPos = currentIndex + 1 + Math.floor(Math.random() * 
+            Math.max(1, updatedBatch.length - currentIndex));
+          updatedBatch.splice(insertPos, 0, card);
+        });
+      }
+      
+      // Update study data with the modified batch
       setStudyData({
         ...newStudyData,
-        currentBatch: currentBatch
+        currentBatch: updatedBatch
       });
 
-      // Move to next card after a short delay
+      // Move to next card with smooth transition
       setTimeout(() => {
         setIsTransitioning(true);
         setTimeout(() => {
           setIsFlipped(false);
           
-          // If we're at the end of the batch
-          if (currentIndex >= currentBatch.length - 1) {
-            // If we have new cards, continue from the current position
-            // Otherwise, start over from the beginning
-            setCurrentIndex(currentBatch.length > studyData.currentBatch.length ? currentBatch.length - 1 : 0);
+          // Always move forward, wrapping around if needed
+          if (currentIndex >= updatedBatch.length - 1) {
+            setCurrentIndex(0);
           } else {
-            // Move to next card
             setCurrentIndex(i => i + 1);
           }
           
           setIsTransitioning(false);
+          
+          // Show review interval message
+          const timeUntilReview = reviewInterval / (1000 * 60); // Convert to minutes
+          let message = '';
+          if (timeUntilReview < 60) {
+            message = `Cette carte reviendra dans ${Math.round(timeUntilReview)} minutes`;
+          } else if (timeUntilReview < 24 * 60) {
+            message = `Cette carte reviendra dans ${Math.round(timeUntilReview / 60)} heures`;
+          } else {
+            message = `Cette carte reviendra dans ${Math.round(timeUntilReview / (60 * 24))} jours`;
+          }
+          setMessage(message);
         }, 300);
       }, 500);
     } catch (err) {
