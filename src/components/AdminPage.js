@@ -166,7 +166,7 @@ export default function AdminPage() {
         console.log('Loading registration requests...');
         setLoading(true);
         const requestsCollection = collection(db, 'registrationRequests');
-        const snapshot = await getDocs(requestsCollection);
+        const snapshot = await getDocs(query(requestsCollection, orderBy('createdAt', 'desc')));
         console.log('Found', snapshot.docs.length, 'requests');
         const requestsData = snapshot.docs.map(doc => {
           const data = doc.data();
