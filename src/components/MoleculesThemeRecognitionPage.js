@@ -21,7 +21,6 @@ import {
 import {
   NavigateNext,
   NavigateBefore,
-  Refresh,
 } from '@mui/icons-material';
 
 // Map theme names to directory names
@@ -449,3 +448,4 @@ export default function MoleculesThemeRecognitionPage() {
       </Box>
     </Container>
   );
+}
