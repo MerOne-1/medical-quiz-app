@@ -223,43 +223,42 @@ export default function MoleculesPage() {
       // Get updated study data
       const newStudyData = await getStudyCards(user.uid, theme, allCards);
       
-      // If we're at the end of the current batch, smoothly transition to the next batch
-      if (currentIndex >= studyData.currentBatch.length - 1) {
-        // Temporarily keep the old batch while we load the new one
-        const combinedBatch = [...studyData.currentBatch];
+      // Get the next batch of cards
+      const currentBatch = [...studyData.currentBatch];
+      
+      // Add new cards if we're near the end of the current batch
+      if (currentIndex >= currentBatch.length - 3) {
+        const existingCardIds = new Set(currentBatch.map(card => card.id));
+        const newCards = newStudyData.currentBatch.filter(card => !existingCardIds.has(card.id));
         
-        // Add new cards if available
-        if (newStudyData.currentBatch.length > 0) {
-          // Filter out cards that are already in the current batch
-          const newCards = newStudyData.currentBatch.filter(
-            newCard => !combinedBatch.find(card => card.id === newCard.id)
-          );
-          combinedBatch.push(...newCards);
+        if (newCards.length > 0) {
+          // Add up to 5 new cards
+          currentBatch.push(...newCards.slice(0, 5));
         }
-        
-        // Update study data with combined batch
-        setStudyData({
-          ...newStudyData,
-          currentBatch: combinedBatch
-        });
-      } else {
-        setStudyData(newStudyData);
       }
+      
+      // Update study data with the current batch
+      setStudyData({
+        ...newStudyData,
+        currentBatch: currentBatch
+      });
 
       // Move to next card after a short delay
       setTimeout(() => {
         setIsTransitioning(true);
         setTimeout(() => {
           setIsFlipped(false);
-          if (currentIndex < studyData.currentBatch.length - 1) {
-            setCurrentIndex(i => i + 1);
+          
+          // If we're at the end of the batch
+          if (currentIndex >= currentBatch.length - 1) {
+            // If we have new cards, continue from the current position
+            // Otherwise, start over from the beginning
+            setCurrentIndex(currentBatch.length > studyData.currentBatch.length ? currentBatch.length - 1 : 0);
           } else {
-            // If we're at the end, only reset if we have no more cards to show
-            const hasNewCards = newStudyData.currentBatch.some(
-              card => !studyData.currentBatch.find(c => c.id === card.id)
-            );
-            setCurrentIndex(hasNewCards ? studyData.currentBatch.length : 0);
+            // Move to next card
+            setCurrentIndex(i => i + 1);
           }
+          
           setIsTransitioning(false);
         }, 300);
       }, 500);

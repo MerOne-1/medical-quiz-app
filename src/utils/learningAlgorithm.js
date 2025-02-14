@@ -41,38 +41,56 @@ export const getStudyCards = async (userId, theme, allCards) => {
       attempts: (learningData[card.id]?.ratings || []).length
     }));
 
-    // Find current batch
-    const batches = [];
-    let currentCards = [];
-    let remainingCards = [...cardsWithMastery];
+    // Sort cards by mastery and attempts
+    const sortedCards = cardsWithMastery.sort((a, b) => {
+      // Prioritize cards that aren't mastered
+      if (a.mastery !== b.mastery) return a.mastery - b.mastery;
+      // Then cards with fewer attempts
+      return (a.attempts || 0) - (b.attempts || 0);
+    });
 
-    // Create batches of cards
-    while (remainingCards.length > 0) {
-      const batchSize = batches.length === 0 ? INITIAL_BATCH_SIZE : NEW_CARDS_PER_BATCH;
-      const batch = remainingCards.slice(0, batchSize);
-      batches.push(batch);
-      remainingCards = remainingCards.slice(batchSize);
+    // Get the current active cards (not fully mastered)
+    const activeCards = sortedCards.filter(card => card.mastery < 1);
+    const masteredCards = sortedCards.filter(card => card.mastery === 1);
+
+    // Calculate how many cards should be in the current batch
+    let currentBatchSize = INITIAL_BATCH_SIZE;
+    let currentBatchIndex = Math.floor(masteredCards.length / NEW_CARDS_PER_BATCH);
+
+    // Get cards for the current batch
+    let currentBatch = [];
+    
+    // First, add cards that are partially learned (mastery > 0)
+    const partiallyLearned = activeCards.filter(card => card.mastery > 0);
+    currentBatch.push(...partiallyLearned);
+
+    // Then add new cards until we reach the target batch size
+    const newCards = activeCards.filter(card => card.mastery === 0);
+    const remainingSlots = currentBatchSize - currentBatch.length;
+    if (remainingSlots > 0) {
+      currentBatch.push(...newCards.slice(0, remainingSlots));
     }
 
-    // Find the current batch (first non-mastered batch)
-    let currentBatchIndex = 0;
-    for (let i = 0; i < batches.length; i++) {
-      const batch = batches[i];
-      const masteredCount = batch.filter(card => card.mastery === 1).length;
-      if (masteredCount / batch.length < MASTERY_THRESHOLD) {
-        currentBatchIndex = i;
-        break;
-      }
+    // If we don't have enough active cards, add some mastered cards for review
+    if (currentBatch.length < currentBatchSize && masteredCards.length > 0) {
+      const reviewCards = masteredCards
+        .sort((a, b) => (a.lastReview || 0) - (b.lastReview || 0))
+        .slice(0, currentBatchSize - currentBatch.length);
+      currentBatch.push(...reviewCards);
     }
+
+    // Calculate total batches based on remaining cards
+    const remainingNewCards = activeCards.length - currentBatch.filter(c => c.mastery === 0).length;
+    const totalBatches = currentBatchIndex + Math.ceil(remainingNewCards / NEW_CARDS_PER_BATCH) + 1;
 
     return {
-      currentBatch: batches[currentBatchIndex] || [],
-      masteredCards: cardsWithMastery.filter(card => card.mastery === 1),
+      currentBatch: currentBatch,
+      masteredCards: masteredCards,
       progress: {
         currentBatch: currentBatchIndex + 1,
-        totalBatches: batches.length,
-        cardsInBatch: batches[currentBatchIndex]?.length || 0,
-        masteredInBatch: (batches[currentBatchIndex] || []).filter(card => card.mastery === 1).length
+        totalBatches: totalBatches,
+        cardsInBatch: currentBatch.length,
+        masteredInBatch: currentBatch.filter(card => card.mastery === 1).length
       }
     };
   } catch (error) {
@@ -93,12 +111,24 @@ export const updateCardProgress = async (userId, theme, cardId, rating) => {
     // Add new rating to history
     const newRatings = [...(cardData.ratings || []), rating];
 
+    // Calculate mastery level
+    let mastery = 0;
+    if (rating >= 4) {
+      mastery = 1; // Instant mastery for high ratings
+    } else if (rating === 3 && newRatings.length >= 2 && newRatings.slice(-2)[0] === 3) {
+      mastery = 1; // Mastery achieved with two consecutive 3s
+    } else if (rating === 3) {
+      mastery = 0.5; // Partial mastery for single 3
+    }
+
     // Update learning data
     await setDoc(learningRef, {
       ...learningData,
       [theme]: {
         ...themeData,
         [cardId]: {
+          mastery,
+          lastReview: Date.now(),
           ...cardData,
           ratings: newRatings,
           lastRating: rating,
