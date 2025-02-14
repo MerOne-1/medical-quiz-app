@@ -106,15 +106,21 @@ export default function MoleculesPage() {
     'syst-nerveux': 'Syst-nerveux'
   };
 
-  // Load all cards data
+  // Reset state when theme changes
   useEffect(() => {
+    if (!theme) return;
+    
+    // Reset all state immediately when theme changes
+    setLoading(true);
+    setError(null);
+    setAllCards([]);
+    setStudyData(null);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setMessage('');
+    
     const loadCards = async () => {
-      if (!theme) return;
-      
       try {
-        setLoading(true);
-        setError(null);
-        
         const response = await fetch(`/molecules/data/${theme}.json`);
         if (!response.ok) {
           throw new Error(`Failed to load cards for ${theme}`);
@@ -126,26 +132,10 @@ export default function MoleculesPage() {
         }
         
         setAllCards(data.cards);
-        
-        // Initialize study data with first batch if we don't have study data yet
-        if (data.cards.length > 0 && (!studyData || !studyData.currentBatch || studyData.currentBatch.length === 0)) {
-          const initialStudyData = {
-            currentBatch: data.cards.slice(0, 10),
-            masteredCards: [],
-            progress: {
-              currentBatch: 1,
-              totalBatches: Math.ceil(data.cards.length / 5),
-              masteredInBatch: 0,
-              cardsInBatch: Math.min(10, data.cards.length)
-            }
-          };
-          setStudyData(initialStudyData);
-        }
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
-      } finally {
-        setLoading(false);
+        setLoading(false); // Set loading to false on error
       }
     };
 
@@ -155,49 +145,50 @@ export default function MoleculesPage() {
   // Load study data when user logs in
   useEffect(() => {
     const loadStudyData = async () => {
-      if (!theme) return;
+      if (!theme || !allCards.length) return;
       
       try {
-        // In free mode, just show all cards
-        if (!isGuidedMode) {
-          setStudyData({
-            currentBatch: allCards,
-            masteredCards: [],
-            progress: {
-              currentBatch: 1,
-              totalBatches: 1,
-              masteredInBatch: 0,
-              cardsInBatch: allCards.length
-            }
-          });
-          return;
-        }
-
-        // In guided mode, load user progress
+        // Load ratings first if user is logged in
         if (user) {
-          // Load ratings first
           const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
           if (ratingsDoc.exists()) {
             const data = ratingsDoc.data();
             setRatings(data[theme] || {});
           }
+        }
 
-          // Only update study data if we have cards
-          if (allCards.length > 0) {
-            // Get study cards and progress
-            const data = await getStudyCards(user.uid, theme, allCards);
-            if (data && data.currentBatch && data.currentBatch.length > 0) {
-              setStudyData(data);
+        // Get study data based on mode
+        let data;
+        if (isGuidedMode && user) {
+          data = await getStudyCards(user.uid, theme, allCards);
+        } else {
+          // In free mode or no user, show all cards with basic progress
+          data = {
+            currentBatch: allCards,
+            progress: {
+              totalCards: allCards.length,
+              masteredCards: 0,
+              currentBatchSize: allCards.length,
+              newCards: allCards.length,
+              reviewCards: 0
             }
-          }
+          };
+        }
+
+        if (data && data.currentBatch) {
+          setStudyData(data);
+          setCurrentIndex(0); // Reset index when loading new data
         }
       } catch (err) {
         console.error('Error loading study data:', err);
+        setError('Erreur lors du chargement des cartes');
+      } finally {
+        setLoading(false); // Only set loading to false after everything is loaded
       }
     };
 
     loadStudyData();
-  }, [user, theme, isGuidedMode, allCards.length]);
+  }, [user, theme, isGuidedMode, allCards]);
 
   const handleRating = async (cardId, newValue) => {
     if (!user) return;
@@ -414,6 +405,10 @@ export default function MoleculesPage() {
           cursor: 'pointer',
           opacity: isTransitioning ? 0 : 1,
           transition: 'opacity 0.3s ease-in-out',
+          '&:hover': {
+            transform: 'scale(1.02)',
+            transition: 'transform 0.2s ease-in-out'
+          },
           '& *': { // Prevent any hover effects on children
             pointerEvents: 'none'
           }
@@ -486,77 +481,31 @@ export default function MoleculesPage() {
         </Box>
       </Box>
 
-      {/* Navigation and Rating UI */}
+      {/* Rating UI */}
       <Box sx={{
         maxWidth: 600,
         mx: 'auto',
-        display: 'grid',
-        gridTemplateColumns: '1fr auto 1fr',
-        gap: { xs: 1, sm: 2 },
+        display: 'flex',
+        flexDirection: 'column',
         alignItems: 'center',
-        mt: { xs: 1, sm: 2 }
+        gap: 2,
+        mt: { xs: 2, sm: 3 }
       }}>
-        <IconButton 
-          onClick={() => {
-            if (currentIndex === 0) return;
-            setIsTransitioning(true);
-            setTimeout(() => {
-              setIsFlipped(false);
-              setCurrentIndex(i => i - 1);
-              setIsTransitioning(false);
-            }, 300);
-          }} 
-          disabled={currentIndex === 0 || studyData.currentBatch.length === 0}
-          sx={{ justifySelf: 'start' }}
-        >
-          <NavigateBefore sx={{ fontSize: { xs: 30, sm: 35 } }} />
-        </IconButton>
-
-        <Stack spacing={1} sx={{ alignItems: 'center' }}>
-          <Typography variant="subtitle2" sx={{ fontWeight: 'medium', color: 'text.secondary' }}>
-            Note :
-          </Typography>
-          <Stack direction="row" spacing={{ xs: 1, sm: 2 }}>
-            {[1, 2, 3, 4, 5].map((value) => (
-              <RatingCircle
-                key={value}
-                value={value}
-                isSelected={ratings[currentCard.id] === value}
-                onClick={(newValue) => handleRating(currentCard.id, newValue)}
-              />
-            ))}
-          </Stack>
+        <Typography variant="subtitle2" sx={{ fontWeight: 'medium', color: 'text.secondary' }}>
+          Note :
+        </Typography>
+        <Stack direction="row" spacing={{ xs: 1, sm: 2 }}>
+          {[1, 2, 3, 4, 5].map((value) => (
+            <RatingCircle
+              key={value}
+              value={value}
+              isSelected={ratings[currentCard.id] === value}
+              onClick={(newValue) => handleRating(currentCard.id, newValue)}
+            />
+          ))}
         </Stack>
-
-        <IconButton
-          onClick={() => {
-            if (currentIndex === studyData.currentBatch.length - 1) return;
-            setIsTransitioning(true);
-            setTimeout(() => {
-              setIsFlipped(false);
-              setCurrentIndex(i => i + 1);
-              setIsTransitioning(false);
-            }, 300);
-          }}
-          disabled={currentIndex === studyData.currentBatch.length - 1}
-          sx={{ justifySelf: 'end' }}
-        >
-          <NavigateNext sx={{ fontSize: { xs: 30, sm: 35 } }} />
-        </IconButton>
       </Box>
 
-      {/* Flip button */}
-      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
-        <IconButton 
-          onClick={(e) => {
-            e.stopPropagation();
-            setIsFlipped(!isFlipped);
-          }}
-          size="small"
-        >
-          <Refresh />
-        </IconButton>
-      </Box>
 
     </Container>
   );
