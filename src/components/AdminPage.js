@@ -109,6 +109,7 @@ export default function AdminPage() {
   const handleDeleteAllowedEmail = async (email) => {
     try {
       setLoading(true);
+      console.log('Starting deletion process for:', email);
       
       // Store in registrationHistory
       const historyRef = collection(db, 'registrationHistory');
@@ -118,16 +119,29 @@ export default function AdminPage() {
         reason: 'manually_deleted_from_allowed_list',
         type: 'allowed_email_deletion'
       });
+      console.log('Added to history');
 
       // Delete from allowedEmails
-      await deleteDoc(doc(db, 'allowedEmails', email));
+      const allowedEmailRef = doc(db, 'allowedEmails', email);
+      await deleteDoc(allowedEmailRef);
+      console.log('Deleted from allowedEmails');
+
+      // Also delete from registrationRequests if it exists
+      const requestsRef = collection(db, 'registrationRequests');
+      const requestQuery = query(requestsRef, where('email', '==', email));
+      const requestSnapshot = await getDocs(requestQuery);
+      
+      for (const doc of requestSnapshot.docs) {
+        await deleteDoc(doc.ref);
+      }
+      console.log('Cleaned up registration requests');
       
       // Update local state
       setAllowedEmails(prev => prev.filter(e => e.email !== email));
       setSuccessMessage(`Email ${email} removed from allowed list`);
     } catch (err) {
       console.error('Error deleting allowed email:', err);
-      setError('Failed to delete email from allowed list');
+      setError(`Failed to delete email from allowed list: ${err.message}`);
     } finally {
       setLoading(false);
     }
