@@ -90,11 +90,18 @@ export default function MoleculesHomePage() {
                 height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
-                transition: 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
+                borderRadius: 2,
+                transition: 'all 0.3s ease-in-out',
                 '&:hover': {
                   transform: 'translateY(-4px)',
-                  boxShadow: 3,
+                  boxShadow: (theme) => `0 6px 20px ${theme.palette.primary.main}25`,
+                  '& .MuiSvgIcon-root': {
+                    transform: 'scale(1.1)',
+                  }
                 },
+                '& .MuiSvgIcon-root': {
+                  transition: 'transform 0.3s ease-in-out',
+                }
               }}
             >
               <CardActionArea
@@ -104,45 +111,34 @@ export default function MoleculesHomePage() {
                 <CardContent sx={{ height: '100%', p: 3 }}>
                   <Box
                     sx={{
+                      height: '100%',
                       display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
                       justifyContent: 'center',
-                      mb: 2,
+                      gap: 2,
+                      p: 1
                     }}
                   >
                     <Science
                       sx={{
-                        fontSize: 40,
+                        fontSize: { xs: 45, sm: 50 },
                         color: 'primary.main',
                       }}
                     />
+                    <Typography
+                      variant="h5"
+                      component="h2"
+                      align="center"
+                      sx={{
+                        fontWeight: 'medium',
+                        color: 'text.primary',
+                        lineHeight: 1.3
+                      }}
+                    >
+                      {theme.title}
+                    </Typography>
                   </Box>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="h2"
-                    align="center"
-                  >
-                    {theme.title}
-                  </Typography>
-                  {theme.description && (
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      align="center"
-                    >
-                      {theme.description}
-                    </Typography>
-                  )}
-                  {theme.cardCount && (
-                    <Typography
-                      variant="caption"
-                      color="text.secondary"
-                      align="center"
-                      sx={{ display: 'block', mt: 1 }}
-                    >
-                      {theme.cardCount} cartes
-                    </Typography>
-                  )}
                 </CardContent>
               </CardActionArea>
             </Card>
