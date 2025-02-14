@@ -24,36 +24,40 @@ import {
 
 const RatingCircle = ({ value, isSelected, onClick }) => {
   const getColor = () => {
-    if (value === 1) return '#ff4444';
-    if (value === 2) return '#ff8c42';
-    if (value === 3) return '#ffd700';
-    if (value === 4) return '#90ee90';
-    if (value === 5) return '#32cd32';
+    // Red to green progression
+    if (value === 1) return '#ff4444';  // Red
+    if (value === 2) return '#ff9248';  // Orange
+    if (value === 3) return '#ffd700';  // Yellow
+    if (value === 4) return '#90d959';  // Light green
+    if (value === 5) return '#4caf50';  // Green
     return '#e0e0e0';
   };
 
   return (
-    <Tooltip title={`Rate ${value}`} placement="top">
+    <Tooltip title={`Note ${value}`} placement="top">
       <Box
         onClick={(e) => {
           e.stopPropagation();
           onClick(value);
         }}
         sx={{
-          width: 30,
-          height: 30,
+          width: { xs: 40, sm: 45 },
+          height: { xs: 40, sm: 45 },
           borderRadius: '50%',
-          backgroundColor: isSelected ? getColor() : '#e0e0e0',
+          border: `3px solid ${getColor()}`,
+          backgroundColor: isSelected ? getColor() : 'transparent',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           cursor: 'pointer',
-          color: isSelected ? 'white' : 'black',
+          color: isSelected ? 'white' : getColor(),
           fontWeight: 'bold',
+          fontSize: { xs: '1rem', sm: '1.1rem' },
           transition: 'all 0.2s ease-in-out',
           '&:hover': {
             transform: 'scale(1.1)',
             backgroundColor: getColor(),
+            color: 'white',
           },
         }}
       >
@@ -230,12 +234,12 @@ export default function MoleculesPage() {
   const imagePath = currentCard.image ? `/molecules/images/${themeToDirectory[theme]}/${currentCard.image.split('/').pop()}` : null;
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
-      <Box sx={{ mb: 4, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Button variant="outlined" onClick={() => navigate(-1)}>
-          Back
+    <Container maxWidth="md" sx={{ py: { xs: 2, sm: 4 } }}>
+      <Box sx={{ mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Button variant="outlined" onClick={() => navigate(-1)} size="small">
+          Retour
         </Button>
-        <Typography>
+        <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
           {currentIndex + 1} / {filteredCards.length}
         </Typography>
       </Box>
@@ -244,8 +248,8 @@ export default function MoleculesPage() {
         sx={{
           maxWidth: 600,
           mx: 'auto',
-          mb: 4,
-          height: 400,
+          mb: { xs: 2, sm: 3 },
+          height: { xs: 300, sm: 400 },
           perspective: '1000px',
           cursor: 'pointer',
           opacity: isTransitioning ? 0 : 1,
@@ -316,27 +320,22 @@ export default function MoleculesPage() {
                   {currentCard.details}
                 </Typography>
               )}
-              <Box sx={{ mt: 2, p: 2, borderRadius: 2, bgcolor: 'background.paper', boxShadow: 1 }}>
-                <Typography variant="subtitle1" align="center" gutterBottom>
-                  Rate your knowledge:
-                </Typography>
-                <Stack direction="row" spacing={1} sx={{ mt: 1 }}>
-                  {[1, 2, 3, 4, 5].map((value) => (
-                    <RatingCircle
-                      key={value}
-                      value={value}
-                      isSelected={ratings[currentCard.id] === value}
-                      onClick={(newValue) => handleRating(currentCard.id, newValue)}
-                    />
-                  ))}
-                </Stack>
-              </Box>
+              {/* Removed rating from card back */}
             </CardContent>
           </Card>
         </Box>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+      {/* Navigation and Rating UI */}
+      <Box sx={{
+        maxWidth: 600,
+        mx: 'auto',
+        display: 'grid',
+        gridTemplateColumns: '1fr auto 1fr',
+        gap: { xs: 1, sm: 2 },
+        alignItems: 'center',
+        mt: { xs: 1, sm: 2 }
+      }}>
         <IconButton 
           onClick={() => {
             if (currentIndex === 0) return;
@@ -348,16 +347,28 @@ export default function MoleculesPage() {
             }, 300);
           }} 
           disabled={currentIndex === 0}
+          sx={{ justifySelf: 'start' }}
         >
-          <NavigateBefore />
+          <NavigateBefore sx={{ fontSize: { xs: 30, sm: 35 } }} />
         </IconButton>
-        <IconButton onClick={(e) => {
-          e.stopPropagation();
-          setIsFlipped(!isFlipped);
-        }}>
-          <Refresh />
-        </IconButton>
-        <IconButton 
+
+        <Stack spacing={1} sx={{ alignItems: 'center' }}>
+          <Typography variant="subtitle2" sx={{ fontWeight: 'medium', color: 'text.secondary' }}>
+            Note :
+          </Typography>
+          <Stack direction="row" spacing={{ xs: 1, sm: 2 }}>
+            {[1, 2, 3, 4, 5].map((value) => (
+              <RatingCircle
+                key={value}
+                value={value}
+                isSelected={ratings[currentCard.id] === value}
+                onClick={(newValue) => handleRating(currentCard.id, newValue)}
+              />
+            ))}
+          </Stack>
+        </Stack>
+
+        <IconButton
           onClick={() => {
             if (currentIndex === filteredCards.length - 1) return;
             setIsTransitioning(true);
@@ -366,13 +377,26 @@ export default function MoleculesPage() {
               setCurrentIndex(i => i + 1);
               setIsTransitioning(false);
             }, 300);
-          }} 
+          }}
           disabled={currentIndex === filteredCards.length - 1}
+          sx={{ justifySelf: 'end' }}
         >
-          <NavigateNext />
+          <NavigateNext sx={{ fontSize: { xs: 30, sm: 35 } }} />
         </IconButton>
       </Box>
 
+      {/* Flip button */}
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
+        <IconButton 
+          onClick={(e) => {
+            e.stopPropagation();
+            setIsFlipped(!isFlipped);
+          }}
+          size="small"
+        >
+          <Refresh />
+        </IconButton>
+      </Box>
 
     </Container>
   );
