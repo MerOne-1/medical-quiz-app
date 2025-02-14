@@ -3,7 +3,7 @@ import MoleculesPage from './components/MoleculesPage';
 import MoleculesHomePage from './components/MoleculesHomePage';
 import MoleculesSettings from './components/MoleculesSettings';
 import AdminPage from './components/AdminPage';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectSelect from './components/ProjectSelect';
 import { ThemeProvider } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
