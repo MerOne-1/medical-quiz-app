@@ -81,7 +81,16 @@ export default function MoleculesPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
-  const [studyData, setStudyData] = useState({ currentBatch: [], masteredCards: [], progress: null });
+  const [studyData, setStudyData] = useState({
+    currentBatch: [],
+    masteredCards: [],
+    progress: {
+      currentBatch: 1,
+      totalBatches: 1,
+      masteredInBatch: 0,
+      cardsInBatch: 0
+    }
+  });
   
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -112,6 +121,21 @@ export default function MoleculesPage() {
         }
         
         setAllCards(data.cards);
+        
+        // Initialize study data with first batch
+        if (data.cards.length > 0) {
+          const initialStudyData = {
+            currentBatch: data.cards.slice(0, 10),
+            masteredCards: [],
+            progress: {
+              currentBatch: 1,
+              totalBatches: Math.ceil(data.cards.length / 5),
+              masteredInBatch: 0,
+              cardsInBatch: Math.min(10, data.cards.length)
+            }
+          };
+          setStudyData(initialStudyData);
+        }
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
@@ -235,8 +259,20 @@ export default function MoleculesPage() {
     );
   }
 
+  // If no cards are loaded yet, show loading
+  if (!studyData || studyData.currentBatch.length === 0) {
+    return (
+      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+        <CircularProgress />
+      </Container>
+    );
+  }
+
   const currentCard = studyData.currentBatch[currentIndex];
-  if (!currentCard) return null;
+  if (!currentCard) {
+    setCurrentIndex(0);
+    return null;
+  }
 
   // Get image path for current card
   const imagePath = currentCard.image ? `/molecules/images/${themeToDirectory[theme]}/${currentCard.image.split('/').pop()}` : null;
