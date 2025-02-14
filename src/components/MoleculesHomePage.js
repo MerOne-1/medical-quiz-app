@@ -10,12 +10,13 @@ import {
   Box,
   Button,
 } from '@mui/material';
-import { Science, Settings } from '@mui/icons-material';
+import { Science, Settings, School, ViewModule } from '@mui/icons-material';
 
 export default function MoleculesHomePage() {
   const [themes, setThemes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [studyMode, setStudyMode] = useState(localStorage.getItem('moleculesStudyMode') || 'guided');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -71,15 +72,33 @@ export default function MoleculesHomePage() {
         <Typography variant="h6" color="text.secondary" gutterBottom>
           Révisez les structures moléculaires par thème
         </Typography>
-        <Button
-          variant="outlined"
-          color="primary"
-          startIcon={<Settings />}
-          onClick={() => navigate('/molecules/settings')}
-          sx={{ mt: 2 }}
-        >
-          Gérer mes cartes
-        </Button>
+        <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', mt: 2 }}>
+          <Button
+            variant="outlined"
+            color="primary"
+            startIcon={<Settings />}
+            onClick={() => navigate('/molecules/settings')}
+          >
+            Gérer mes cartes
+          </Button>
+          <Button
+            variant={studyMode === 'guided' ? 'contained' : 'outlined'}
+            color="primary"
+            startIcon={<School />}
+            onClick={() => {
+              const newMode = studyMode === 'guided' ? 'free' : 'guided';
+              setStudyMode(newMode);
+              localStorage.setItem('moleculesStudyMode', newMode);
+            }}
+            sx={{
+              minWidth: 200,
+              backgroundColor: studyMode === 'guided' ? 'primary.main' : 'transparent',
+              color: studyMode === 'guided' ? 'white' : 'primary.main',
+            }}
+          >
+            {studyMode === 'guided' ? 'Mode guidé' : 'Mode libre'}
+          </Button>
+        </Box>
       </Box>
 
       <Grid container spacing={3}>
@@ -106,7 +125,7 @@ export default function MoleculesHomePage() {
             >
               <CardActionArea
                 sx={{ height: '100%' }}
-                onClick={() => navigate(`/molecules/${theme.id}`)}
+                onClick={() => navigate(`/molecules/${theme.id}${studyMode === 'guided' ? '?mode=guided' : ''}`)}
               >
                 <CardContent sx={{ height: '100%', p: 3 }}>
                   <Box

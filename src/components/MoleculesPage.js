@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '../firebase';
@@ -74,6 +74,8 @@ export default function MoleculesPage() {
   const { theme } = useParams();
   const { user } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+  const isGuidedMode = new URLSearchParams(location.search).get('mode') === 'guided';
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -152,22 +154,40 @@ export default function MoleculesPage() {
   // Load study data when user logs in
   useEffect(() => {
     const loadStudyData = async () => {
-      if (!user || !theme) return;
+      if (!theme) return;
       
       try {
-        // Load ratings first
-        const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
-        if (ratingsDoc.exists()) {
-          const data = ratingsDoc.data();
-          setRatings(data[theme] || {});
+        // In free mode, just show all cards
+        if (!isGuidedMode) {
+          setStudyData({
+            currentBatch: allCards,
+            masteredCards: [],
+            progress: {
+              currentBatch: 1,
+              totalBatches: 1,
+              masteredInBatch: 0,
+              cardsInBatch: allCards.length
+            }
+          });
+          return;
         }
 
-        // Only update study data if we have cards
-        if (allCards.length > 0) {
-          // Get study cards and progress
-          const data = await getStudyCards(user.uid, theme, allCards);
-          if (data && data.currentBatch && data.currentBatch.length > 0) {
-            setStudyData(data);
+        // In guided mode, load user progress
+        if (user) {
+          // Load ratings first
+          const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
+          if (ratingsDoc.exists()) {
+            const data = ratingsDoc.data();
+            setRatings(data[theme] || {});
+          }
+
+          // Only update study data if we have cards
+          if (allCards.length > 0) {
+            // Get study cards and progress
+            const data = await getStudyCards(user.uid, theme, allCards);
+            if (data && data.currentBatch && data.currentBatch.length > 0) {
+              setStudyData(data);
+            }
           }
         }
       } catch (err) {
@@ -176,7 +196,7 @@ export default function MoleculesPage() {
     };
 
     loadStudyData();
-  }, [user, theme]);
+  }, [user, theme, isGuidedMode, allCards.length]);
 
   const handleRating = async (cardId, newValue) => {
     if (!user) return;
