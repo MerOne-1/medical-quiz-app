@@ -122,19 +122,27 @@ export default function MoleculesPage() {
           throw new Error('Invalid data format');
         }
         
-        // Set all cards and initialize study data in one go
+        // Set all cards and initialize study data based on mode
         const cards = data.cards;
         setAllCards(cards);
-        setStudyData({
-          currentBatch: cards,
-          progress: {
-            totalCards: cards.length,
-            masteredCards: 0,
-            currentBatchSize: cards.length,
-            newCards: cards.length,
-            reviewCards: 0
-          }
-        });
+        
+        if (isGuidedMode && user) {
+          // In guided mode, get the study cards from the algorithm
+          const studyData = await getStudyCards(user.uid, theme, cards);
+          setStudyData(studyData);
+        } else {
+          // In free mode or no user, show all cards
+          setStudyData({
+            currentBatch: cards,
+            progress: {
+              totalCards: cards.length,
+              masteredCards: 0,
+              currentBatchSize: cards.length,
+              newCards: cards.length,
+              reviewCards: 0
+            }
+          });
+        }
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
@@ -362,9 +370,50 @@ export default function MoleculesPage() {
         <Button variant="outlined" onClick={() => navigate(-1)} size="small">
           Retour
         </Button>
-        <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
-          {currentIndex + 1} / {studyData.currentBatch.length}
-        </Typography>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <IconButton 
+            onClick={() => {
+              if (currentIndex === 0) return;
+              setIsTransitioning(true);
+              setTimeout(() => {
+                setIsFlipped(false);
+                setCurrentIndex(i => i - 1);
+                setIsTransitioning(false);
+              }, 300);
+            }} 
+            disabled={currentIndex === 0}
+          >
+            <NavigateBefore />
+          </IconButton>
+          <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
+            {currentIndex + 1} / {studyData.currentBatch.length}
+          </Typography>
+          <IconButton
+            onClick={() => {
+              if (currentIndex >= studyData.currentBatch.length - 1) return;
+              setIsTransitioning(true);
+              setTimeout(() => {
+                setIsFlipped(false);
+                setCurrentIndex(i => i + 1);
+                setIsTransitioning(false);
+              }, 300);
+            }}
+            disabled={currentIndex >= studyData.currentBatch.length - 1}
+          >
+            <NavigateNext />
+          </IconButton>
+        </Box>
+        <Button 
+          variant="outlined" 
+          size="small"
+          onClick={() => {
+            const newMode = isGuidedMode ? '' : 'guided';
+            navigate(`${location.pathname}?mode=${newMode}`, { replace: true });
+            window.location.reload(); // Force reload to reset the state
+          }}
+        >
+          {isGuidedMode ? 'Mode Libre' : 'Mode Guidé'}
+        </Button>
       </Box>
 
       <Box
