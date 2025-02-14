@@ -112,7 +112,6 @@ export default function MoleculesPage() {
         }
         
         setAllCards(data.cards);
-        setFilteredCards(data.cards); // Initially show all cards
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
@@ -236,7 +235,7 @@ export default function MoleculesPage() {
     );
   }
 
-  const currentCard = filteredCards[currentIndex];
+  const currentCard = studyData.currentBatch[currentIndex];
   if (!currentCard) return null;
 
   // Get image path for current card
@@ -380,7 +379,7 @@ export default function MoleculesPage() {
               setIsTransitioning(false);
             }, 300);
           }} 
-          disabled={currentIndex === 0}
+          disabled={currentIndex === 0 || studyData.currentBatch.length === 0}
           sx={{ justifySelf: 'start' }}
         >
           <NavigateBefore sx={{ fontSize: { xs: 30, sm: 35 } }} />
@@ -412,7 +411,7 @@ export default function MoleculesPage() {
               setIsTransitioning(false);
             }, 300);
           }}
-          disabled={currentIndex === filteredCards.length - 1}
+          disabled={currentIndex === studyData.currentBatch.length - 1}
           sx={{ justifySelf: 'end' }}
         >
           <NavigateNext sx={{ fontSize: { xs: 30, sm: 35 } }} />
