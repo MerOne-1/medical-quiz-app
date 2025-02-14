@@ -77,16 +77,11 @@ exports.sendApprovalEmail = functions.region('europe-west1').firestore
     }
 
     try {
-      // Generate a setup link that expires in 24 hours
-      const actionCodeSettings = {
-        url: 'https://medical-quiz-app-886ac.web.app/setup-account',
-        handleCodeInApp: true
-      };
-
-      const setupLink = await admin.auth().generateSignInWithEmailLink(
-        after.email,
-        actionCodeSettings
-      );
+      // Use the setupUrl from the request data
+      if (!after.setupUrl) {
+        console.error('No setup URL found in the request data');
+        return;
+      }
 
       await sendEmail(
         after.email,
@@ -95,7 +90,7 @@ exports.sendApprovalEmail = functions.region('europe-west1').firestore
           <p>Bonjour,</p>
           <p>Votre demande d'accès à la plateforme Pharmind a été approuvée !</p>
           <p>Pour finaliser la création de votre compte, veuillez cliquer sur le lien ci-dessous :</p>
-          <p><a href="${setupLink}">${setupLink}</a></p>
+          <p><a href="${after.setupUrl}">${after.setupUrl}</a></p>
           <p><strong>Important :</strong></p>
           <ul>
             <li>Ce lien est valable pendant 24 heures</li>
