@@ -152,9 +152,12 @@ export default function MoleculesPage() {
       if (!user) return;
       
       try {
-        const ratingsDoc = await getDoc(doc(db, 'userRatings', user.uid));
+        const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
         if (ratingsDoc.exists()) {
-          setRatings(ratingsDoc.data()[theme] || {});
+          const data = ratingsDoc.data();
+          // Get ratings for current theme
+          const themeRatings = data[theme] || {};
+          setRatings(themeRatings);
         }
       } catch (err) {
         console.error('Error loading ratings:', err);
@@ -180,14 +183,21 @@ export default function MoleculesPage() {
       
       setRatings(newRatings);
       
-      const ratingsDoc = doc(db, 'userRatings', user.uid);
-      await setDoc(ratingsDoc, { [theme]: newRatings }, { merge: true });
+      const ratingsRef = doc(db, 'moleculeRatings', user.uid);
+      const timestamp = new Date().toISOString();
+      
+      // Update the ratings document with the new rating and metadata
+      await setDoc(ratingsRef, {
+        [theme]: newRatings,
+        lastUpdated: timestamp,
+        [`${theme}_lastUpdated`]: timestamp
+      }, { merge: true });
     } catch (err) {
       console.error('Error saving rating:', err);
     }
   };
 
-  // Save ratings
+  // Save ratings with metadata
   const saveRating = async (cardId, rating) => {
     if (!user) return;
     
@@ -195,14 +205,16 @@ export default function MoleculesPage() {
       const newRatings = { ...ratings, [cardId]: rating };
       setRatings(newRatings);
       
-      const ratingsRef = doc(db, 'userRatings', user.uid);
-      const ratingsDoc = await getDoc(ratingsRef);
-      const allRatings = ratingsDoc.exists() ? ratingsDoc.data() : {};
+      const ratingsRef = doc(db, 'moleculeRatings', user.uid);
+      const timestamp = new Date().toISOString();
       
       await setDoc(ratingsRef, {
-        ...allRatings,
-        [theme]: newRatings
-      });
+        [theme]: newRatings,
+        lastUpdated: timestamp,
+        [`${theme}_lastUpdated`]: timestamp,
+        userId: user.uid,
+        userEmail: user.email
+      }, { merge: true });
     } catch (err) {
       console.error('Error saving rating:', err);
     }
