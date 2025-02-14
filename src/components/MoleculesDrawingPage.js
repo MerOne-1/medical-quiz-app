@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import CanvasDraw from 'react-canvas-draw';
-import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../firebase';
@@ -31,7 +31,8 @@ const themeToDirectory = {
 export default function MoleculesDrawingPage() {
   const { theme, deckId } = useParams();
   const navigate = useNavigate();
-  const location = useLocation();
+  const [searchParams] = useSearchParams();
+  const isGuidedMode = searchParams.get('mode') === 'guided';
   const { user } = useAuth();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

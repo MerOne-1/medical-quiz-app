@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../firebase';
@@ -22,6 +22,8 @@ import { NavigateBefore, NavigateNext } from '@mui/icons-material';
 export default function MoleculesRecognitionPage() {
   const { deckId } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const isGuidedMode = searchParams.get('mode') === 'guided';
   const { user } = useAuth();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

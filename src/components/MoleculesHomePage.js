@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getUserDecks } from '../utils/userDecks';
 import {
@@ -19,8 +19,9 @@ export default function MoleculesHomePage() {
   const [personalDecks, setPersonalDecks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [studyMode, setStudyMode] = useState(localStorage.getItem('moleculesStudyMode') || 'guided');
-  const [practiceMode, setPracticeMode] = useState(localStorage.getItem('moleculesPracticeMode') || 'recognition');
+  const [searchParams] = useSearchParams();
+  const [studyMode, setStudyMode] = useState(() => localStorage.getItem('moleculesStudyMode') || 'guided');
+  const [practiceMode, setPracticeMode] = useState(() => localStorage.getItem('moleculesPracticeMode') || 'recognition');
   const navigate = useNavigate();
   const { user } = useAuth();
 
@@ -154,8 +155,16 @@ export default function MoleculesHomePage() {
               startIcon={<School />}
               onClick={() => {
                 const newMode = studyMode === 'guided' ? 'free' : 'guided';
-                setStudyMode(newMode);
                 localStorage.setItem('moleculesStudyMode', newMode);
+                setStudyMode(newMode);
+                // Refresh the current page with the new mode if we're on a study page
+                const currentPath = window.location.pathname;
+                if (currentPath.startsWith('/molecules/') && !currentPath.includes('personal-decks')) {
+                  navigate({
+                    pathname: currentPath,
+                    search: newMode === 'guided' ? '?mode=guided' : ''
+                  });
+                }
               }}
               sx={{
                 minWidth: 200,
@@ -196,8 +205,10 @@ export default function MoleculesHomePage() {
                 onClick={() => {
                   const basePath = '/molecules/' + theme.id;
                   const modePath = practiceMode === 'drawing' ? '/drawing' : '';
-                  const queryParams = studyMode === 'guided' ? '?mode=guided' : '';
-                  navigate(basePath + modePath + queryParams);
+                  navigate({
+                    pathname: basePath + modePath,
+                    search: studyMode === 'guided' ? '?mode=guided' : ''
+                  });
                 }}
               >
                 <CardContent sx={{ height: '100%', p: 3 }}>
