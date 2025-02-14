@@ -170,7 +170,7 @@ export default function MoleculesDrawingPage() {
   }
 
   const currentCard = studyData.currentBatch[currentIndex];
-  const imagePath = currentCard.image ? '/molecules/images/' + currentCard.image : null;
+  const imagePath = currentCard.image ? `/molecules/images/${themeToDirectory[theme]}/${currentCard.image}` : null;
 
   return (
     <Container maxWidth="md" sx={{ py: { xs: 2, sm: 4 } }}>
