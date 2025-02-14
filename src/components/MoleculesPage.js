@@ -403,7 +403,7 @@ export default function MoleculesPage() {
 
         <IconButton
           onClick={() => {
-            if (currentIndex === filteredCards.length - 1) return;
+            if (currentIndex === studyData.currentBatch.length - 1) return;
             setIsTransitioning(true);
             setTimeout(() => {
               setIsFlipped(false);
