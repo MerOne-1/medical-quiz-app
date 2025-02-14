@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { getAuth, signInWithEmailAndPassword, updatePassword } from 'firebase/auth';
 import {
   Container,
   Paper,
@@ -22,6 +23,7 @@ export default function SetupAccount() {
   const navigate = useNavigate();
   const location = useLocation();
   const { signup } = useAuth();
+  const auth = getAuth();
 
   // Get email from URL parameters
   const searchParams = new URLSearchParams(location.search);
@@ -86,8 +88,23 @@ export default function SetupAccount() {
       setError('');
       setLoading(true);
 
-      // Create the user account
-      await signup(email, password);
+      try {
+        // Try to create new account
+        await signup(email, password);
+      } catch (error) {
+        if (error.code === 'auth/email-already-in-use') {
+          // If email exists, try to sign in and update password
+          try {
+            // First, try to sign in with the new password (in case it's already correct)
+            await signInWithEmailAndPassword(auth, email, password);
+          } catch (signInError) {
+            // If sign-in fails, we need admin intervention
+            throw new Error('Ce compte existe déjà. Veuillez contacter l\'administrateur pour réinitialiser votre mot de passe.');
+          }
+        } else {
+          throw error;
+        }
+      }
 
       // Create user document
       await setDoc(doc(db, 'users', email), {

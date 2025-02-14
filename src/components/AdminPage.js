@@ -18,6 +18,7 @@ import {
   addDoc,
 } from 'firebase/firestore';
 import { auth, db } from '../firebase';
+import { getAuth, sendPasswordResetEmail } from 'firebase/auth';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import {
   Container,
@@ -106,6 +107,19 @@ export default function AdminPage() {
   }, [user, navigate]);
 
   // Handle deleting an allowed email
+  const handleResetPassword = async (email) => {
+    try {
+      setLoading(true);
+      await sendPasswordResetEmail(getAuth(), email);
+      setSuccessMessage(`Un email de réinitialisation de mot de passe a été envoyé à ${email}`);
+    } catch (err) {
+      console.error('Error sending reset email:', err);
+      setError(`Erreur lors de l'envoi de l'email de réinitialisation: ${err.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleDeleteAllowedEmail = async (email) => {
     try {
       setLoading(true);
@@ -657,10 +671,21 @@ export default function AdminPage() {
                 </IconButton>
               }
             >
-              <ListItemText
-                primary={item.email}
-                secondary={`Approved: ${new Date(item.approvedAt).toLocaleString()}`}
-              />
+              <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+                <ListItemText
+                  primary={item.email}
+                  secondary={`Approved: ${new Date(item.approvedAt).toLocaleString()}`}
+                />
+                <Button
+                  variant="outlined"
+                  size="small"
+                  onClick={() => handleResetPassword(item.email)}
+                  sx={{ mr: 1 }}
+                  disabled={loading}
+                >
+                  Reset Password
+                </Button>
+              </Box>
             </ListItem>
           ))}
         </List>
