@@ -11,7 +11,7 @@ import {
   Alert,
 } from '@mui/material';
 import { School } from '@mui/icons-material';
-import { doc, setDoc } from 'firebase/firestore';
+import { doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 
 export default function SetupAccount() {
@@ -29,10 +29,46 @@ export default function SetupAccount() {
   const token = searchParams.get('token');
 
   useEffect(() => {
-    if (!email || !token) {
-      navigate('/login');
+    async function validateToken() {
+      if (!email || !token) {
+        setError('Email ou token manquant');
+        navigate('/login');
+        return;
+      }
+
+      try {
+        // Check if email exists in allowedEmails and token matches
+        const allowedEmailRef = doc(db, 'allowedEmails', email);
+        const allowedEmailDoc = await getDoc(allowedEmailRef);
+
+        if (!allowedEmailDoc.exists()) {
+          setError('Email non autorisé');
+          navigate('/login');
+          return;
+        }
+
+        const data = allowedEmailDoc.data();
+        if (data.setupToken !== token) {
+          setError('Token invalide');
+          navigate('/login');
+          return;
+        }
+
+        // Check if token is expired (24 hours)
+        const setupTokenExpires = new Date(data.setupTokenExpires);
+        if (setupTokenExpires < new Date()) {
+          setError('Le lien a expiré. Veuillez demander un nouveau lien.');
+          navigate('/login');
+          return;
+        }
+      } catch (err) {
+        console.error('Error validating token:', err);
+        setError('Erreur lors de la validation du token');
+        navigate('/login');
+      }
     }
-    // Here you would validate the token with your backend
+
+    validateToken();
   }, [email, token, navigate]);
 
   async function handleSubmit(e) {
@@ -59,11 +95,12 @@ export default function SetupAccount() {
         createdAt: new Date().toISOString()
       });
 
-      // Add to allowedEmails collection
-      await setDoc(doc(db, 'allowedEmails', email), {
-        email,
-        approved: true,
-        approvedAt: new Date().toISOString()
+      // Update allowedEmails to mark setup as complete
+      await updateDoc(doc(db, 'allowedEmails', email), {
+        setupComplete: true,
+        setupCompletedAt: new Date().toISOString(),
+        setupToken: null, // Clear the token
+        setupTokenExpires: null
       });
 
       navigate('/login');
