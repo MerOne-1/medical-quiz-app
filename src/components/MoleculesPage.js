@@ -84,16 +84,7 @@ export default function MoleculesPage() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
   const [message, setMessage] = useState('');
-  const [studyData, setStudyData] = useState({
-    currentBatch: [],
-    masteredCards: [],
-    progress: {
-      currentBatch: 1,
-      totalBatches: 1,
-      masteredInBatch: 0,
-      cardsInBatch: 0
-    }
-  });
+  const [studyData, setStudyData] = useState(null);
   
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -131,64 +122,49 @@ export default function MoleculesPage() {
           throw new Error('Invalid data format');
         }
         
-        setAllCards(data.cards);
+        // Set all cards and initialize study data in one go
+        const cards = data.cards;
+        setAllCards(cards);
+        setStudyData({
+          currentBatch: cards,
+          progress: {
+            totalCards: cards.length,
+            masteredCards: 0,
+            currentBatchSize: cards.length,
+            newCards: cards.length,
+            reviewCards: 0
+          }
+        });
       } catch (err) {
         console.error('Error loading cards:', err);
         setError(err.message);
-        setLoading(false); // Set loading to false on error
+      } finally {
+        // Always set loading to false
+        setLoading(false);
       }
     };
 
     loadCards();
   }, [theme]);
 
-  // Load study data when user logs in
+  // Load ratings when user logs in
   useEffect(() => {
-    const loadStudyData = async () => {
-      if (!theme || !allCards.length) return;
+    const loadRatings = async () => {
+      if (!theme || !user) return;
       
       try {
-        // Load ratings first if user is logged in
-        if (user) {
-          const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
-          if (ratingsDoc.exists()) {
-            const data = ratingsDoc.data();
-            setRatings(data[theme] || {});
-          }
-        }
-
-        // Get study data based on mode
-        let data;
-        if (isGuidedMode && user) {
-          data = await getStudyCards(user.uid, theme, allCards);
-        } else {
-          // In free mode or no user, show all cards with basic progress
-          data = {
-            currentBatch: allCards,
-            progress: {
-              totalCards: allCards.length,
-              masteredCards: 0,
-              currentBatchSize: allCards.length,
-              newCards: allCards.length,
-              reviewCards: 0
-            }
-          };
-        }
-
-        if (data && data.currentBatch) {
-          setStudyData(data);
-          setCurrentIndex(0); // Reset index when loading new data
+        const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
+        if (ratingsDoc.exists()) {
+          const data = ratingsDoc.data();
+          setRatings(data[theme] || {});
         }
       } catch (err) {
-        console.error('Error loading study data:', err);
-        setError('Erreur lors du chargement des cartes');
-      } finally {
-        setLoading(false); // Only set loading to false after everything is loaded
+        console.error('Error loading ratings:', err);
       }
     };
 
-    loadStudyData();
-  }, [user, theme, isGuidedMode, allCards]);
+    loadRatings();
+  }, [user, theme]);
 
   const handleRating = async (cardId, newValue) => {
     if (!user) return;
@@ -308,31 +284,27 @@ export default function MoleculesPage() {
     }
   };
 
-  // Show loading state while cards are being loaded
-  if (loading || !studyData || !studyData.currentBatch) {
+  // Show loading or error state
+  if (loading || error || !studyData || !studyData.currentBatch || studyData.currentBatch.length === 0) {
     return (
-      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
-        <CircularProgress />
-      </Container>
-    );
-  }
-
-  if (error) {
-    return (
-      <Container sx={{ py: 4 }}>
-        <Typography color="error" align="center">{error}</Typography>
-        <Button variant="outlined" onClick={() => navigate(-1)} sx={{ mt: 2 }}>
-          Go Back
-        </Button>
-      </Container>
-    );
-  }
-
-  // If no cards are loaded yet, show loading
-  if (!studyData || studyData.currentBatch.length === 0) {
-    return (
-      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
-        <CircularProgress />
+      <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '80vh', gap: 2 }}>
+        {loading ? (
+          <CircularProgress />
+        ) : error ? (
+          <>
+            <Typography color="error" align="center">{error}</Typography>
+            <Button variant="outlined" onClick={() => navigate(-1)}>
+              Retour
+            </Button>
+          </>
+        ) : (
+          <>
+            <Typography align="center">Aucune carte disponible</Typography>
+            <Button variant="outlined" onClick={() => navigate(-1)}>
+              Retour
+            </Button>
+          </>
+        )}
       </Container>
     );
   }
