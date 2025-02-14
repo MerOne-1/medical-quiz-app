@@ -202,22 +202,46 @@ export default function MoleculesPage() {
 
       // Get updated study data
       const newStudyData = await getStudyCards(user.uid, theme, allCards);
-      setStudyData(newStudyData);
+      
+      // If we're at the end of the current batch, smoothly transition to the next batch
+      if (currentIndex >= studyData.currentBatch.length - 1) {
+        // Temporarily keep the old batch while we load the new one
+        const combinedBatch = [...studyData.currentBatch];
+        
+        // Add new cards if available
+        if (newStudyData.currentBatch.length > 0) {
+          // Filter out cards that are already in the current batch
+          const newCards = newStudyData.currentBatch.filter(
+            newCard => !combinedBatch.find(card => card.id === newCard.id)
+          );
+          combinedBatch.push(...newCards);
+        }
+        
+        // Update study data with combined batch
+        setStudyData({
+          ...newStudyData,
+          currentBatch: combinedBatch
+        });
+      } else {
+        setStudyData(newStudyData);
+      }
 
       // Move to next card after a short delay
       setTimeout(() => {
-        if (currentIndex < newStudyData.currentBatch.length - 1) {
-          setIsTransitioning(true);
-          setTimeout(() => {
-            setIsFlipped(false);
-            setCurrentIndex(i => i + 1);
-            setIsTransitioning(false);
-          }, 300);
-        } else {
-          // Start new batch
-          setCurrentIndex(0);
+        setIsTransitioning(true);
+        setTimeout(() => {
           setIsFlipped(false);
-        }
+          if (currentIndex < studyData.currentBatch.length - 1) {
+            setCurrentIndex(i => i + 1);
+          } else {
+            // If we're at the end, only reset if we have no more cards to show
+            const hasNewCards = newStudyData.currentBatch.some(
+              card => !studyData.currentBatch.find(c => c.id === card.id)
+            );
+            setCurrentIndex(hasNewCards ? studyData.currentBatch.length : 0);
+          }
+          setIsTransitioning(false);
+        }, 300);
       }, 500);
     } catch (err) {
       console.error('Error saving rating:', err);
