@@ -66,13 +66,25 @@ export default function MoleculesHomePage() {
 
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
-      <Box sx={{ mb: 6, textAlign: 'center' }}>
-        <Typography variant="h3" component="h1" gutterBottom>
-          Flashcards Molécules
-        </Typography>
-        <Typography variant="h6" color="text.secondary" gutterBottom>
-          Révisez les structures moléculaires par thème
-        </Typography>
+      <Box sx={{ mb: 6 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
+          <Box>
+            <Typography variant="h3" component="h1" gutterBottom>
+              Flashcards Molécules
+            </Typography>
+            <Typography variant="h6" color="text.secondary" gutterBottom>
+              Révisez les structures moléculaires par thème
+            </Typography>
+          </Box>
+          <Button
+            variant="contained"
+            onClick={() => navigate('/molecules/personal-decks')}
+            startIcon={<School />}
+            sx={{ height: 'fit-content' }}
+          >
+            Mes Decks Personnels
+          </Button>
+        </Box>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2, mt: 2 }}>
           <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
             <Button

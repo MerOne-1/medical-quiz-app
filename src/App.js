@@ -3,6 +3,7 @@ import MoleculesPage from './components/MoleculesPage';
 import MoleculesDrawingPage from './components/MoleculesDrawingPage';
 import MoleculesHomePage from './components/MoleculesHomePage';
 import MoleculesSettings from './components/MoleculesSettings';
+import PersonalDeckManager from './components/PersonalDeckManager';
 import AdminPage from './components/AdminPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectSelect from './components/ProjectSelect';
@@ -66,6 +67,14 @@ function App() {
                 }
               />
               <Route
+                path="/molecules/personal-decks"
+                element={
+                  <PrivateRoute>
+                    <PersonalDeckManager />
+                  </PrivateRoute>
+                }
+              />
+              <Route
                 path="/molecules/:theme"
                 element={
                   <PrivateRoute>
@@ -75,6 +84,14 @@ function App() {
               />
               <Route
                 path="/molecules/:theme/drawing"
+                element={
+                  <PrivateRoute>
+                    <MoleculesDrawingPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/personal/:deckId/drawing"
                 element={
                   <PrivateRoute>
                     <MoleculesDrawingPage />

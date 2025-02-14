@@ -29,24 +29,56 @@ const themeToDirectory = {
 };
 
 export default function MoleculesDrawingPage() {
-  const { theme } = useParams();
+  const { theme, deckId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const { user } = useAuth();
+  const { currentUser } = useAuth();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [studyData, setStudyData] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showSolution, setShowSolution] = useState(false);
   const canvasRef = useRef(null);
+  const [deck, setDeck] = useState(null);
 
-  // Validate theme
+  // Load cards based on theme or deck
   useEffect(() => {
-    if (!themeToDirectory[theme]) {
-      setError('Invalid theme');
-      setLoading(false);
-      return;
-    }
+    const loadCards = async () => {
+      try {
+        if (deckId) {
+          // Load personal deck
+          const deckRef = doc(db, 'userDecks', deckId);
+          const deckDoc = await getDoc(deckRef);
+          
+          if (!deckDoc.exists() || deckDoc.data().userId !== currentUser.uid) {
+            setError('Deck not found or unauthorized');
+            setLoading(false);
+            return;
+          }
+          
+          const deckData = deckDoc.data();
+          setDeck(deckData);
+          setStudyData({
+            currentBatch: deckData.cards,
+            remainingCards: [],
+            masteredCards: []
+          });
+        } else if (theme && themeToDirectory[theme]) {
+          // Load theme cards
+          const cardsData = await getStudyCards(currentUser.uid, theme);
+          setStudyData(cardsData);
+        } else {
+          setError('Invalid theme or deck');
+        }
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading cards:', error);
+        setError('Error loading cards');
+        setLoading(false);
+      }
+    };
+    
+    loadCards();
 
     const loadCards = async () => {
       setLoading(true);
@@ -171,9 +203,11 @@ export default function MoleculesDrawingPage() {
 
   const currentCard = studyData.currentBatch[currentIndex];
   const imagePath = currentCard.image
-    ? currentCard.image.includes('/') 
-      ? `/molecules/images/${currentCard.image}`
-      : `/molecules/images/${themeToDirectory[theme]}/${currentCard.image}`
+    ? deckId 
+      ? currentCard.image // Personal deck images are full URLs
+      : currentCard.image.includes('/') 
+        ? `/molecules/images/${currentCard.image}`
+        : `/molecules/images/${themeToDirectory[theme]}/${currentCard.image}`
     : null;
 
   return (
