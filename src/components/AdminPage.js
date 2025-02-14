@@ -105,6 +105,34 @@ export default function AdminPage() {
     checkAdminAccess();
   }, [user, navigate]);
 
+  // Handle deleting an allowed email
+  const handleDeleteAllowedEmail = async (email) => {
+    try {
+      setLoading(true);
+      
+      // Store in registrationHistory
+      const historyRef = collection(db, 'registrationHistory');
+      await addDoc(historyRef, {
+        email: email,
+        deletedAt: new Date().toISOString(),
+        reason: 'manually_deleted_from_allowed_list',
+        type: 'allowed_email_deletion'
+      });
+
+      // Delete from allowedEmails
+      await deleteDoc(doc(db, 'allowedEmails', email));
+      
+      // Update local state
+      setAllowedEmails(prev => prev.filter(e => e.email !== email));
+      setSuccessMessage(`Email ${email} removed from allowed list`);
+    } catch (err) {
+      console.error('Error deleting allowed email:', err);
+      setError('Failed to delete email from allowed list');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   // Load allowed emails
   const loadAllowedEmails = async () => {
     try {
