@@ -43,7 +43,8 @@ export default function NavBar() {
     navigate('/');
   };
 
-  const showBackButton = location.pathname !== '/';
+  // Hide back button on login-related pages and home page
+  const showBackButton = !['/', '/login', '/signup', '/setup-account', '/forgot-password'].includes(location.pathname);
   
   const isInQcmProject = location.pathname.includes('/home') || 
                         location.pathname.includes('/quiz') || 
