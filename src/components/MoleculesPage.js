@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db } from '../firebase';
+import { getStudyCards, updateCardProgress } from '../utils/learningAlgorithm';
 import {
   Container,
   Box,
@@ -15,6 +16,7 @@ import {
   CircularProgress,
   Stack,
   Tooltip,
+  LinearProgress,
 } from '@mui/material';
 import {
   NavigateNext,
@@ -76,10 +78,10 @@ export default function MoleculesPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [allCards, setAllCards] = useState([]);
-  const [filteredCards, setFilteredCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [ratings, setRatings] = useState({});
+  const [studyData, setStudyData] = useState({ currentBatch: [], masteredCards: [], progress: null });
   
   // Map theme names to their directory names
   const themeToDirectory = {
@@ -122,76 +124,71 @@ export default function MoleculesPage() {
     loadCards();
   }, [theme]);
 
-  // Load and apply user settings
+  // Load study data when cards or user changes
   useEffect(() => {
-    const loadSettings = async () => {
+    const loadStudyData = async () => {
       if (!user || allCards.length === 0) return;
       
       try {
-        const settingsDoc = await getDoc(doc(db, 'moleculeSettings', user.uid));
-        if (settingsDoc.exists()) {
-          const settings = settingsDoc.data();
-          const enabledCardIds = settings[theme];
-          
-          if (Array.isArray(enabledCardIds)) {
-            const filtered = allCards.filter(card => enabledCardIds.includes(card.id));
-            setFilteredCards(filtered.length > 0 ? filtered : allCards);
-          }
-        }
-      } catch (err) {
-        console.error('Error loading settings:', err);
-      }
-    };
+        // Get study cards and progress
+        const data = await getStudyCards(user.uid, theme, allCards);
+        setStudyData(data);
 
-    loadSettings();
-  }, [user, theme, allCards]);
-
-  // Load user ratings
-  useEffect(() => {
-    const loadRatings = async () => {
-      if (!user) return;
-      
-      try {
+        // Load ratings
         const ratingsDoc = await getDoc(doc(db, 'moleculeRatings', user.uid));
         if (ratingsDoc.exists()) {
           const data = ratingsDoc.data();
-          // Get ratings for current theme
-          const themeRatings = data[theme] || {};
-          setRatings(themeRatings);
+          setRatings(data[theme] || {});
         }
       } catch (err) {
-        console.error('Error loading ratings:', err);
+        console.error('Error loading study data:', err);
       }
     };
 
-    loadRatings();
-  }, [user, theme]);
+    loadStudyData();
+  }, [user, theme, allCards]);
 
   const handleRating = async (cardId, newValue) => {
     if (!user) return;
 
     try {
-      // Toggle rating if clicking the same value
-      const valueToSet = ratings[cardId] === newValue ? null : newValue;
+      // Save rating
       const newRatings = { ...ratings };
-      
-      if (valueToSet === null) {
-        delete newRatings[cardId];
-      } else {
-        newRatings[cardId] = valueToSet;
-      }
-      
+      newRatings[cardId] = newValue;
       setRatings(newRatings);
       
       const ratingsRef = doc(db, 'moleculeRatings', user.uid);
       const timestamp = new Date().toISOString();
       
-      // Update the ratings document with the new rating and metadata
+      // Update ratings
       await setDoc(ratingsRef, {
         [theme]: newRatings,
         lastUpdated: timestamp,
         [`${theme}_lastUpdated`]: timestamp
       }, { merge: true });
+
+      // Update learning progress
+      await updateCardProgress(user.uid, theme, cardId, newValue);
+
+      // Get updated study data
+      const newStudyData = await getStudyCards(user.uid, theme, allCards);
+      setStudyData(newStudyData);
+
+      // Move to next card after a short delay
+      setTimeout(() => {
+        if (currentIndex < newStudyData.currentBatch.length - 1) {
+          setIsTransitioning(true);
+          setTimeout(() => {
+            setIsFlipped(false);
+            setCurrentIndex(i => i + 1);
+            setIsTransitioning(false);
+          }, 300);
+        } else {
+          // Start new batch
+          setCurrentIndex(0);
+          setIsFlipped(false);
+        }
+      }, 500);
     } catch (err) {
       console.error('Error saving rating:', err);
     }
@@ -247,12 +244,37 @@ export default function MoleculesPage() {
 
   return (
     <Container maxWidth="md" sx={{ py: { xs: 2, sm: 4 } }}>
+      {/* Progress indicator */}
+      <Box sx={{ mb: 3 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
+          <Typography variant="body2" color="text.secondary">
+            Lot {studyData.progress?.currentBatch || 1} sur {studyData.progress?.totalBatches || 1}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {studyData.progress?.masteredInBatch || 0} / {studyData.progress?.cardsInBatch || 0} maîtrisées
+          </Typography>
+        </Box>
+        <LinearProgress 
+          variant="determinate" 
+          value={studyData.progress ? (studyData.progress.masteredInBatch / studyData.progress.cardsInBatch * 100) : 0}
+          sx={{ 
+            height: 8, 
+            borderRadius: 4,
+            backgroundColor: 'action.hover',
+            '& .MuiLinearProgress-bar': {
+              backgroundColor: 'success.main',
+              borderRadius: 4
+            }
+          }}
+        />
+      </Box>
+
       <Box sx={{ mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Button variant="outlined" onClick={() => navigate(-1)} size="small">
           Retour
         </Button>
         <Typography variant="subtitle1" sx={{ fontWeight: 'medium' }}>
-          {currentIndex + 1} / {filteredCards.length}
+          {currentIndex + 1} / {studyData.currentBatch.length}
         </Typography>
       </Box>
 
