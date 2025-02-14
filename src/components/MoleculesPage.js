@@ -126,12 +126,41 @@ export default function MoleculesPage() {
         const cards = data.cards;
         setAllCards(cards);
         
-        if (isGuidedMode && user) {
-          // In guided mode, get the study cards from the algorithm
-          const studyData = await getStudyCards(user.uid, theme, cards);
-          setStudyData(studyData);
-        } else {
-          // In free mode or no user, show all cards
+        try {
+          if (isGuidedMode && user) {
+            // In guided mode, get the study cards from the algorithm
+            const studyData = await getStudyCards(user.uid, theme, cards);
+            if (!studyData || !studyData.currentBatch || studyData.currentBatch.length === 0) {
+              // Fallback to showing all cards if algorithm returns empty
+              setStudyData({
+                currentBatch: cards,
+                progress: {
+                  totalCards: cards.length,
+                  masteredCards: 0,
+                  currentBatchSize: cards.length,
+                  newCards: cards.length,
+                  reviewCards: 0
+                }
+              });
+            } else {
+              setStudyData(studyData);
+            }
+          } else {
+            // In free mode or no user, show all cards
+            setStudyData({
+              currentBatch: cards,
+              progress: {
+                totalCards: cards.length,
+                masteredCards: 0,
+                currentBatchSize: cards.length,
+                newCards: cards.length,
+                reviewCards: 0
+              }
+            });
+          }
+        } catch (err) {
+          console.error('Error initializing study data:', err);
+          // Fallback to showing all cards
           setStudyData({
             currentBatch: cards,
             progress: {

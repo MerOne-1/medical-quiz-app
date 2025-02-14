@@ -70,24 +70,29 @@ export const getStudyCards = async (userId, theme, allCards) => {
     const highPriorityCards = sortedCards.filter(card => card.priority >= 70);
     currentBatch.push(...highPriorityCards);
 
-    // Then add some new cards if we have room
+    // Then add some new cards
     const newCards = sortedCards.filter(card => !card.lastReview);
-    if (newCards.length > 0 && currentBatch.length < MIN_BATCH_SIZE) {
-      const newToAdd = Math.min(
-        MAX_NEW_CARDS,
-        MIN_BATCH_SIZE - currentBatch.length,
-        newCards.length
-      );
-      currentBatch.push(...newCards.slice(0, newToAdd));
-      newCardCount = newToAdd;
+    if (newCards.length > 0) {
+      const newToAdd = Math.min(MAX_NEW_CARDS, newCards.length);
+      const selectedNewCards = newCards
+        .filter(card => !currentBatch.includes(card))
+        .slice(0, newToAdd);
+      currentBatch.push(...selectedNewCards);
+      newCardCount = selectedNewCards.length;
     }
 
-    // Finally, add medium-priority cards to reach minimum batch size
+    // Add remaining cards to reach minimum batch size
     if (currentBatch.length < MIN_BATCH_SIZE) {
-      const mediumPriorityCards = sortedCards
-        .filter(card => card.priority < 70 && !currentBatch.includes(card))
+      const remainingCards = sortedCards
+        .filter(card => !currentBatch.includes(card))
         .slice(0, MIN_BATCH_SIZE - currentBatch.length);
-      currentBatch.push(...mediumPriorityCards);
+      currentBatch.push(...remainingCards);
+    }
+    
+    // If we still don't have enough cards, add cards from the beginning
+    if (currentBatch.length < MIN_BATCH_SIZE) {
+      const neededCards = MIN_BATCH_SIZE - currentBatch.length;
+      currentBatch.push(...allCards.slice(0, neededCards));
     }
 
     // Shuffle the batch to prevent predictable order
