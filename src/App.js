@@ -1,5 +1,6 @@
 import React from 'react';
 import MoleculesPage from './components/MoleculesPage';
+import MoleculesDrawingPage from './components/MoleculesDrawingPage';
 import MoleculesHomePage from './components/MoleculesHomePage';
 import MoleculesSettings from './components/MoleculesSettings';
 import AdminPage from './components/AdminPage';
@@ -69,6 +70,14 @@ function App() {
                 element={
                   <PrivateRoute>
                     <MoleculesPage />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/molecules/:theme/drawing"
+                element={
+                  <PrivateRoute>
+                    <MoleculesDrawingPage />
                   </PrivateRoute>
                 }
               />
