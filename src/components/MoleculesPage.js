@@ -432,17 +432,6 @@ export default function MoleculesPage() {
             <NavigateNext />
           </IconButton>
         </Box>
-        <Button 
-          variant="outlined" 
-          size="small"
-          onClick={() => {
-            const newMode = isGuidedMode ? '' : 'guided';
-            navigate(`${location.pathname}?mode=${newMode}`, { replace: true });
-            window.location.reload(); // Force reload to reset the state
-          }}
-        >
-          {isGuidedMode ? 'Mode Libre' : 'Mode Guidé'}
-        </Button>
       </Box>
 
       <Box
