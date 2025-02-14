@@ -294,10 +294,10 @@ export default function AdminPage() {
       await addDoc(historyRef, {
         email: request.email,
         originalRequestId: request.id,
-        registrationDate: request.createdAt,
+        registrationDate: request.createdAt instanceof Date ? request.createdAt.toISOString() : request.createdAt,
         status: request.status,
-        approvedAt: request.approvedAt || null,
-        rejectedAt: request.rejectedAt || null,
+        approvedAt: request.approvedAt instanceof Date ? request.approvedAt.toISOString() : request.approvedAt,
+        rejectedAt: request.rejectedAt instanceof Date ? request.rejectedAt.toISOString() : request.rejectedAt,
         deletedAt: new Date().toISOString(),
         reason: 'manually_deleted',
         hadAccount: false // Will be updated if we find a user account
@@ -614,12 +614,12 @@ export default function AdminPage() {
                         {record.email}
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
-                        Originally registered: {new Date(record.registrationDate?.toDate?.() || record.registrationDate).toLocaleDateString()}
+                        Originally registered: {new Date(record.registrationDate).toLocaleDateString()}
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
                         Last status: {record.status}
-                        {record.approvedAt && ` (Approved on ${new Date(record.approvedAt?.toDate?.() || record.approvedAt).toLocaleDateString()})`}
-                        {record.rejectedAt && ` (Rejected on ${new Date(record.rejectedAt?.toDate?.() || record.rejectedAt).toLocaleDateString()})`}
+                        {record.approvedAt && ` (Approved on ${new Date(record.approvedAt).toLocaleDateString()})`}
+                        {record.rejectedAt && ` (Rejected on ${new Date(record.rejectedAt).toLocaleDateString()})`}
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
                         Deleted on: {new Date(record.deletedAt).toLocaleDateString()}
