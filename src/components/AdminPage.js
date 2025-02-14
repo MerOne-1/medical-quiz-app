@@ -273,7 +273,7 @@ export default function AdminPage() {
       console.log('Added to allowedEmails successfully');
 
       // Send approval email using a cloud function
-      const setupUrl = `${window.location.origin}/#/setup-account?email=${encodeURIComponent(request.email)}&token=${token}`;
+      const setupUrl = `${window.location.origin}/setup-account?email=${encodeURIComponent(request.email)}&token=${token}`;
       
       // Here you would call your cloud function to send the email
       // For now, we'll just show the URL in the success message
