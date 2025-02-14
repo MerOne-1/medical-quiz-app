@@ -220,10 +220,18 @@ export const getStudyStats = async (userId, theme) => {
 
     Object.values(learningData).forEach(progress => {
       stats.totalCards++;
-      const mastery = getCardMastery(progress);
       
-      if (mastery === 1) {
-        stats.masteredCards++;
+      // Check if card is mastered (last 2 ratings >= 4 and 3/5 recent ratings >= 4)
+      if (progress.ratings && progress.ratings.length >= 2) {
+        const recentRatings = progress.ratings.slice(-5);
+        const lastTwoGood = progress.ratings.slice(-2).every(r => r >= 4);
+        const recentGoodCount = recentRatings.filter(r => r >= 4).length;
+        
+        if (lastTwoGood && recentGoodCount >= 3) {
+          stats.masteredCards++;
+        } else if (progress.attempts > 0) {
+          stats.inProgressCards++;
+        }
       } else if (progress.attempts > 0) {
         stats.inProgressCards++;
       }
