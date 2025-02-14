@@ -50,6 +50,7 @@ export default function AdminPage() {
   const [newAdminEmail, setNewAdminEmail] = useState('');
   const [showHistory, setShowHistory] = useState(false);
   const [registrationHistory, setRegistrationHistory] = useState([]);
+  const [allowedEmails, setAllowedEmails] = useState([]);
 
   // Check if user's email is in authorized admins list
   useEffect(() => {
@@ -104,6 +105,22 @@ export default function AdminPage() {
     checkAdminAccess();
   }, [user, navigate]);
 
+  // Load allowed emails
+  const loadAllowedEmails = async () => {
+    try {
+      const allowedEmailsRef = collection(db, 'allowedEmails');
+      const snapshot = await getDocs(allowedEmailsRef);
+      const emails = snapshot.docs.map(doc => ({
+        email: doc.id,
+        ...doc.data()
+      }));
+      setAllowedEmails(emails);
+    } catch (err) {
+      console.error('Error loading allowed emails:', err);
+      setError('Failed to load allowed emails');
+    }
+  };
+
   // Initialize and load admin emails
   useEffect(() => {
     const initializeAndLoadAdminEmails = async () => {
@@ -129,6 +146,7 @@ export default function AdminPage() {
 
     if (user) {
       initializeAndLoadAdminEmails();
+      loadAllowedEmails();
     }
   }, [user]);
 
@@ -572,6 +590,38 @@ export default function AdminPage() {
             ))}
           </Stack>
         )}
+      </Paper>
+
+      <Paper elevation={1} sx={{ p: 3, mb: 4, borderRadius: 2 }}>
+        <Typography variant="h5" sx={{ color: 'text.primary', fontWeight: 'medium', mb: 2 }}>
+          Allowed Emails
+        </Typography>
+        <List>
+          {allowedEmails.map((item) => (
+            <ListItem
+              key={item.email}
+              secondaryAction={
+                <IconButton
+                  edge="end"
+                  aria-label="delete"
+                  onClick={() => {
+                    if (window.confirm(`Are you sure you want to remove ${item.email} from the allowed list?`)) {
+                      handleDeleteAllowedEmail(item.email);
+                    }
+                  }}
+                  disabled={loading}
+                >
+                  <Delete />
+                </IconButton>
+              }
+            >
+              <ListItemText
+                primary={item.email}
+                secondary={`Approved: ${new Date(item.approvedAt).toLocaleString()}`}
+              />
+            </ListItem>
+          ))}
+        </List>
       </Paper>
 
       <Paper elevation={1} sx={{ p: 3, mb: 4, borderRadius: 2 }}>
