@@ -126,7 +126,8 @@ export default function MoleculesThemeRecognitionPage() {
         const cards = data.cards.map(card => ({
           ...card,
           directory,
-          image: `/molecules/images/${directory}/${card.image}`
+          // Handle both formats: with and without directory in the image path
+          image: `/molecules/images/${card.image.includes('/') ? card.image : `${directory}/${card.image}`}`
         }));
 
         // Get study cards based on mode
