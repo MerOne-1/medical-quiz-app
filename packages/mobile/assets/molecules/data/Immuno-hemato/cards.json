@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": "Rituximab",
+      "name": "Rituximab",
+      "description": "Anticorps monoclonal anti-CD20",
+      "type": "monoclonal_antibody"
+    },
+    {
+      "id": "Filgrastim",
+      "name": "Filgrastim",
+      "description": "Facteur de croissance des granulocytes",
+      "type": "growth_factor"
+    }
+  ]
+}

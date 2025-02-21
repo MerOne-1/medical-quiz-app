@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Acyclovir",
+      "name": "Aciclovir",
+      "description": "Antiviral utilisé contre l'herpès",
+      "formula": "C8H11N5O3",
+      "smiles": "C1=NC2=C(N1COCCO)NC(=NC2=O)N",
+      "type": "antiviral"
+    },
+    {
+      "id": "Fluconazole",
+      "name": "Fluconazole",
+      "description": "Antifongique azolé",
+      "formula": "C13H12F2N6O",
+      "smiles": "C1=NC(=CN1)C(C2=NC(=NC=C2)N)CN3C=C(N=C3)C(F)(F)F",
+      "type": "antifungal"
+    }
+  ]
+}

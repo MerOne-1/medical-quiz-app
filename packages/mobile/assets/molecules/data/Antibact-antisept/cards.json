@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Amoxicilline",
+      "name": "Amoxicilline",
+      "description": "Antibiotique de la famille des β-lactamines",
+      "formula": "C16H19N3O5S",
+      "smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=C(C=C3)O)C(=O)O)C",
+      "type": "antibacterial"
+    },
+    {
+      "id": "Chlorhexidine",
+      "name": "Chlorhexidine",
+      "description": "Antiseptique et désinfectant",
+      "formula": "C22H30Cl2N10",
+      "smiles": "C1=CC(=CC=C1NC(=N)NC(=N)NCCCCCCNC(=N)NC(=N)NC2=CC=C(C=C2)Cl)Cl",
+      "type": "antiseptic"
+    }
+  ]
+}

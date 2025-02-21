@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Fluoxétine",
+      "name": "Fluoxétine",
+      "description": "Inhibiteur sélectif de la recapture de la sérotonine",
+      "formula": "C17H18F3NO",
+      "smiles": "CNCCC(C1=CC=C(C=C1)OC2=CC=C(C=C2)CF3)O",
+      "type": "ssri"
+    },
+    {
+      "id": "Lévodopa",
+      "name": "Lévodopa",
+      "description": "Précurseur de la dopamine utilisé dans la maladie de Parkinson",
+      "formula": "C9H11NO4",
+      "smiles": "C1=CC(=C(C=C1CC(C(=O)O)N)O)O",
+      "type": "dopamine_precursor"
+    }
+  ]
+}

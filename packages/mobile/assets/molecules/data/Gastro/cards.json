@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Oméprazole",
+      "name": "Oméprazole",
+      "description": "Inhibiteur de la pompe à protons",
+      "formula": "C17H19N3O3S",
+      "smiles": "CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC",
+      "type": "ppi"
+    },
+    {
+      "id": "Métoclopramide",
+      "name": "Métoclopramide",
+      "description": "Antiémétique et gastroprokinétique",
+      "formula": "C14H22ClN3O2",
+      "smiles": "CCN(CC)CCNC1=C(C=C(C=C1)Cl)N(C(=O)C)OC",
+      "type": "antiemetic"
+    }
+  ]
+}

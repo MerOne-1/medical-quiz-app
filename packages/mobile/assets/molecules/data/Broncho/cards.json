@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Salbutamol",
+      "name": "Salbutamol",
+      "description": "Bronchodilatateur β2-mimétique",
+      "formula": "C13H21NO3",
+      "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O",
+      "type": "bronchodilator"
+    },
+    {
+      "id": "Fluticasone",
+      "name": "Fluticasone",
+      "description": "Corticostéroïde inhalé",
+      "formula": "C25H31F3O5S",
+      "smiles": "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)SCF3)O)C)O)F)C",
+      "type": "corticosteroid"
+    }
+  ]
+}

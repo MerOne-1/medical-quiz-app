@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "id": "Cisplatine",
+      "name": "Cisplatine",
+      "description": "Agent alkylant utilisé en chimiothérapie",
+      "formula": "Cl2H6N2Pt",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "type": "alkylating_agent"
+    },
+    {
+      "id": "Doxorubicine",
+      "name": "Doxorubicine",
+      "description": "Anthracycline utilisée en chimiothérapie",
+      "formula": "C27H29NO11",
+      "smiles": "CC1=C(C(=O)C2=C(C1=O)C3=CC=CC=C3C(=C2O)O)O[C@H]4C[C@](C[C@@H]([C@H]4O)O[C@H]5C[C@H]([C@H]([C@@H](O5)C)O)N)(C(=O)CO)O",
+      "type": "anthracycline"
+    }
+  ]
+}

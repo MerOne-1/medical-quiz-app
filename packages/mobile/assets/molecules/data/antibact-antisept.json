@@ -1,0 +1,497 @@
+{
+  "theme": "Antibactériens et Antiseptiques",
+  "cards": [
+    {
+      "id": "1",
+      "image": "Antibact-antisept/8-Hydroxyquinoléine .png",
+      "name": "8-Hydroxyquinoléine",
+      "details": "Antiseptique et désinfectant"
+    },
+    {
+      "id": "2",
+      "image": "Antibact-antisept/Acide clavulanique.png",
+      "name": "Acide clavulanique",
+      "details": "Inhibiteur de β-lactamases"
+    },
+    {
+      "id": "3",
+      "image": "Antibact-antisept/Acide nalidixique.png",
+      "name": "Acide nalidixique",
+      "details": "Quinolone de 1ère génération"
+    },
+    {
+      "id": "4",
+      "image": "Antibact-antisept/Acide pipémidique.png",
+      "name": "Acide pipémidique",
+      "details": "Quinolone de 1ère génération"
+    },
+    {
+      "id": "5",
+      "image": "Antibact-antisept/Amoxicilline.png",
+      "name": "Amoxicilline",
+      "details": "Aminopénicilline"
+    },
+    {
+      "id": "6",
+      "image": "Antibact-antisept/Ampicilline.png",
+      "name": "Ampicilline",
+      "details": "Aminopénicilline"
+    },
+    {
+      "id": "7",
+      "image": "Antibact-antisept/Azithromycine.png",
+      "name": "Azithromycine",
+      "details": "Macrolide"
+    },
+    {
+      "id": "8",
+      "image": "Antibact-antisept/Aztréonam.png",
+      "name": "Aztréonam",
+      "details": "Monobactame"
+    },
+    {
+      "id": "9",
+      "image": "Antibact-antisept/Cefménoxime.png",
+      "name": "Cefménoxime",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "10",
+      "image": "Antibact-antisept/Cefpirome.png",
+      "name": "Cefpirome",
+      "details": "Céphalosporine de 4ème génération"
+    },
+    {
+      "id": "11",
+      "image": "Antibact-antisept/Cefpodoxime.png",
+      "name": "Cefpodoxime",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "12",
+      "image": "Antibact-antisept/Cefsulodine.png",
+      "name": "Cefsulodine",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "13",
+      "image": "Antibact-antisept/Ceftaroline.png",
+      "name": "Ceftaroline",
+      "details": "Céphalosporine de 5ème génération"
+    },
+    {
+      "id": "14",
+      "image": "Antibact-antisept/Ceftazidine.png",
+      "name": "Ceftazidine",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "15",
+      "image": "Antibact-antisept/Ceftizoxime.png",
+      "name": "Ceftizoxime",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "16",
+      "image": "Antibact-antisept/Ceftobiprole.png",
+      "name": "Ceftobiprole",
+      "details": "Céphalosporine de 5ème génération"
+    },
+    {
+      "id": "17",
+      "image": "Antibact-antisept/Ceftriaxone.png",
+      "name": "Ceftriaxone",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "18",
+      "image": "Antibact-antisept/Céfaclor.png",
+      "name": "Céfaclor",
+      "details": "Céphalosporine de 2ème génération"
+    },
+    {
+      "id": "19",
+      "image": "Antibact-antisept/Céfadroxil.png",
+      "name": "Céfadroxil",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "20",
+      "image": "Antibact-antisept/Céfalexine.png",
+      "name": "Céfalexine",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "21",
+      "image": "Antibact-antisept/Céfalotine.png",
+      "name": "Céfalotine",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "22",
+      "image": "Antibact-antisept/Céfamandol.png",
+      "name": "Céfamandol",
+      "details": "Céphalosporine de 2ème génération"
+    },
+    {
+      "id": "23",
+      "image": "Antibact-antisept/Céfapirine.png",
+      "name": "Céfapirine",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "24",
+      "image": "Antibact-antisept/Céfatrizine.png",
+      "name": "Céfatrizine",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "25",
+      "image": "Antibact-antisept/Céfazoline.png",
+      "name": "Céfazoline",
+      "details": "Céphalosporine de 1ère génération"
+    },
+    {
+      "id": "26",
+      "image": "Antibact-antisept/Céfépime.png",
+      "name": "Céfépime",
+      "details": "Céphalosporine de 4ème génération"
+    },
+    {
+      "id": "27",
+      "image": "Antibact-antisept/Céfixime.png",
+      "name": "Céfixime",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "28",
+      "image": "Antibact-antisept/Céfotaxime.png",
+      "name": "Céfotaxime",
+      "details": "Céphalosporine de 3ème génération"
+    },
+    {
+      "id": "29",
+      "image": "Antibact-antisept/Céfotétan.png",
+      "name": "Céfotétan",
+      "details": "Céphamycine"
+    },
+    {
+      "id": "30",
+      "image": "Antibact-antisept/Céfotiam.png",
+      "name": "Céfotiam",
+      "details": "Céphalosporine de 2ème génération"
+    },
+    {
+      "id": "31",
+      "image": "Antibact-antisept/Céfoxitine.png",
+      "name": "Céfoxitine",
+      "details": "Céphamycine"
+    },
+    {
+      "id": "32",
+      "image": "Antibact-antisept/Céfuroxime.png",
+      "name": "Céfuroxime",
+      "details": "Céphalosporine de 2ème génération"
+    },
+    {
+      "id": "33",
+      "image": "Antibact-antisept/Céphalosporine.png",
+      "name": "Céphalosporine",
+      "details": "Structure de base des céphalosporines"
+    },
+    {
+      "id": "34",
+      "image": "Antibact-antisept/Chloramphénicol.png",
+      "name": "Chloramphénicol",
+      "details": "Phénicolé"
+    },
+    {
+      "id": "35",
+      "image": "Antibact-antisept/Chlorquinaldol.png",
+      "name": "Chlorquinaldol",
+      "details": "Antiseptique"
+    },
+    {
+      "id": "36",
+      "image": "Antibact-antisept/Cilastatine.png",
+      "name": "Cilastatine",
+      "details": "Inhibiteur de la déhydropeptidase rénale I"
+    },
+    {
+      "id": "37",
+      "image": "Antibact-antisept/Ciprofloxacine.png",
+      "name": "Ciprofloxacine",
+      "details": "Fluoroquinolone de 2ème génération"
+    },
+    {
+      "id": "38",
+      "image": "Antibact-antisept/Clindamycine.png",
+      "name": "Clindamycine",
+      "details": "Lincosamide"
+    },
+    {
+      "id": "39",
+      "image": "Antibact-antisept/Clioquinol.png",
+      "name": "Clioquinol",
+      "details": "Antiseptique"
+    },
+    {
+      "id": "40",
+      "image": "Antibact-antisept/Cloxacilline.png",
+      "name": "Cloxacilline",
+      "details": "Pénicilline M"
+    },
+    {
+      "id": "41",
+      "image": "Antibact-antisept/Doripénème.png",
+      "name": "Doripénème",
+      "details": "Carbépénème"
+    },
+    {
+      "id": "42",
+      "image": "Antibact-antisept/Enoxacine.png",
+      "name": "Enoxacine",
+      "details": "Fluoroquinolone"
+    },
+    {
+      "id": "43",
+      "image": "Antibact-antisept/Ertapénème.png",
+      "name": "Ertapénème",
+      "details": "Carbépénème"
+    },
+    {
+      "id": "44",
+      "image": "Antibact-antisept/Erythromycine.png",
+      "name": "Erythromycine",
+      "details": "Macrolide"
+    },
+    {
+      "id": "45",
+      "image": "Antibact-antisept/Fluméquine.png",
+      "name": "Fluméquine",
+      "details": "Quinolone de 1ère génération"
+    },
+    {
+      "id": "46",
+      "image": "Antibact-antisept/Fosfomycine.png",
+      "name": "Fosfomycine",
+      "details": "Inhibiteur de la synthèse du peptidoglycane"
+    },
+    {
+      "id": "47",
+      "image": "Antibact-antisept/Imipénème.png",
+      "name": "Imipénème",
+      "details": "Carbépénème"
+    },
+    {
+      "id": "48",
+      "image": "Antibact-antisept/Kanamycine.png",
+      "name": "Kanamycine",
+      "details": "Aminoside"
+    },
+    {
+      "id": "49",
+      "image": "Antibact-antisept/Latamoxef.png",
+      "name": "Latamoxef",
+      "details": "Oxacéphame"
+    },
+    {
+      "id": "50",
+      "image": "Antibact-antisept/Lincomycine.png",
+      "name": "Lincomycine",
+      "details": "Lincosamide"
+    },
+    {
+      "id": "51",
+      "image": "Antibact-antisept/Loméfloxacine.png",
+      "name": "Loméfloxacine",
+      "details": "Fluoroquinolone"
+    },
+    {
+      "id": "52",
+      "image": "Antibact-antisept/Méropénème.png",
+      "name": "Méropénème",
+      "details": "Carbépénème"
+    },
+    {
+      "id": "53",
+      "image": "Antibact-antisept/Moxifloxacine.png",
+      "name": "Moxifloxacine",
+      "details": "Fluoroquinolone de 4ème génération"
+    },
+    {
+      "id": "54",
+      "image": "Antibact-antisept/Nitroxoline.png",
+      "name": "Nitroxoline",
+      "details": "Antiseptique urinaire"
+    },
+    {
+      "id": "55",
+      "image": "Antibact-antisept/Norfloxacine.png",
+      "name": "Norfloxacine",
+      "details": "Fluoroquinolone de 2ème génération"
+    },
+    {
+      "id": "56",
+      "image": "Antibact-antisept/Ofloxacine:Lévofloxacine.png",
+      "name": "Ofloxacine/Lévofloxacine",
+      "details": "Fluoroquinolone de 2ème/3ème génération"
+    },
+    {
+      "id": "57",
+      "image": "Antibact-antisept/Oxacilline.png",
+      "name": "Oxacilline",
+      "details": "Pénicilline M"
+    },
+    {
+      "id": "58",
+      "image": "Antibact-antisept/Oxyquinol.png",
+      "name": "Oxyquinol",
+      "details": "Antiseptique"
+    },
+    {
+      "id": "59",
+      "image": "Antibact-antisept/Péfloxacine.png",
+      "name": "Péfloxacine",
+      "details": "Fluoroquinolone"
+    },
+    {
+      "id": "60",
+      "image": "Antibact-antisept/Pénicilline G.png",
+      "name": "Pénicilline G",
+      "details": "Pénicilline naturelle"
+    },
+    {
+      "id": "61",
+      "image": "Antibact-antisept/Phénoxyméthylpénicilline.png",
+      "name": "Phénoxypénicilline",
+      "details": "Pénicilline V"
+    },
+    {
+      "id": "62",
+      "image": "Antibact-antisept/Pipéracilline.png",
+      "name": "Pipéracilline",
+      "details": "Uréidopénicilline"
+    },
+    {
+      "id": "63",
+      "image": "Antibact-antisept/Pivmécillinam.png",
+      "name": "Pivmécillinam",
+      "details": "Amidopénicilline"
+    },
+    {
+      "id": "64",
+      "image": "Antibact-antisept/Pristinamycine.png",
+      "name": "Pristinamycine",
+      "details": "Synergistine"
+    },
+    {
+      "id": "65",
+      "image": "Antibact-antisept/Rosoxacine.png",
+      "name": "Rosoxacine",
+      "details": "Quinolone"
+    },
+    {
+      "id": "66",
+      "image": "Antibact-antisept/Spiramycine.png",
+      "name": "Spiramycine",
+      "details": "Macrolide"
+    },
+    {
+      "id": "67",
+      "image": "Antibact-antisept/Streptomycine.png",
+      "name": "Streptomycine",
+      "details": "Aminoside"
+    },
+    {
+      "id": "68",
+      "image": "Antibact-antisept/Sulbactam.png",
+      "name": "Sulbactam",
+      "details": "Inhibiteur de β-lactamases"
+    },
+    {
+      "id": "69",
+      "image": "Antibact-antisept/Sulfadiazine.png",
+      "name": "Sulfadiazine",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "70",
+      "image": "Antibact-antisept/Sulfadoxine.png",
+      "name": "Sulfadoxine",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "71",
+      "image": "Antibact-antisept/Sulfafurazole acétylé.jpeg",
+      "name": "Sulfafurazole acétylé",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "72",
+      "image": "Antibact-antisept/Sulfaméthizol.png",
+      "name": "Sulfaméthizol",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "73",
+      "image": "Antibact-antisept/Sulfaméthoxazole.png",
+      "name": "Sulfaméthoxazole",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "74",
+      "image": "Antibact-antisept/Sulfanilamide.png",
+      "name": "Sulfanilamide",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "75",
+      "image": "Antibact-antisept/Sulfasalazine.png",
+      "name": "Sulfasalazine",
+      "details": "Sulfamide"
+    },
+    {
+      "id": "76",
+      "image": "Antibact-antisept/Tazobactam.png",
+      "name": "Tazobactam",
+      "details": "Inhibiteur de β-lactamases"
+    },
+    {
+      "id": "77",
+      "image": "Antibact-antisept/Thiamphénicol.png",
+      "name": "Thiamphénicol",
+      "details": "Phénicolé"
+    },
+    {
+      "id": "78",
+      "image": "Antibact-antisept/Thiénamycine.png",
+      "name": "Thiénamycine",
+      "details": "Carbépénème"
+    },
+    {
+      "id": "79",
+      "image": "Antibact-antisept/Ticarcilline.png",
+      "name": "Ticarcilline",
+      "details": "Carboxipénicilline"
+    },
+    {
+      "id": "80",
+      "image": "Antibact-antisept/Tilbroquinol.png",
+      "name": "Tilbroquinol",
+      "details": "Antiseptique intestinal"
+    },
+    {
+      "id": "81",
+      "image": "Antibact-antisept/Tiliquinol.png",
+      "name": "Tiliquinol",
+      "details": "Antiseptique intestinal"
+    },
+    {
+      "id": "82",
+      "image": "Antibact-antisept/fluoroquinolone.png",
+      "name": "Fluoroquinolone",
+      "details": "Structure de base des fluoroquinolones"
+    }
+  ]
+}
